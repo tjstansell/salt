@@ -976,5 +976,4 @@ PR #20454 [CLOSED]: (scream3) RVM user-only installation is broken [Bugfix - [Do
 PR #20533 [CLOSED]: (rallytime) Backport #20521 to 2014.7 [Minor Change], [Tests Passed]
 PR #20521 [CLOSED]: (umeboshi2) don't use empty string as command parameter [Bugfix - [Done] back-ported], [Minor Change], [Tests Passed]
 * a6fa35a Merge pull request #20533 from rallytime/bp-20521
-
-* 3fc398e don't use empty string as command parameter
+  * 3fc398e don't use empty string as command parameter

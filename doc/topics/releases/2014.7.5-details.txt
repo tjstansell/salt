@@ -409,6 +409,4 @@ PR #22121 [CLOSED]: (tjstansell) fix #20841: add sls name from reactor [Medium C
 PR #22122 [CLOSED]: (tjstansell) backport #20166 to 2014.7 [Medium Change]
 PR #20166 [CLOSED]: (cachedout) Catch all exceptions in reactor [Bugfix - [Done] back-ported]
 * 4176c85 Merge pull request #22122 from tjstansell/bp-20166
-
-PR #20166 [CLOSED]: (cachedout) Catch all exceptions in reactor [Bugfix - [Done] back-ported]
-* 6750480 backport #20166 to 2014.7
+  * 6750480 backport #20166 to 2014.7

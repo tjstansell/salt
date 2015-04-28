@@ -79,7 +79,5 @@ PR #21947 [CLOSED]: (dmyerscough) Ensure nginx config check passes by checking t
 ISSUE #21888 [CLOSED]: (eliasp) `salt.states.mount` - using LABEL=foo as 'device' leads to constant remounts [Bug], [Medium Severity]
 PR #22014 [CLOSED]: (garethgreenaway) Fixes to mount.py state module [Minor Change], [Tests Passed]
 * f689782 Merge pull request #22014 from garethgreenaway/21888_2014_7_mount_label_remount_madness
-
-* 93f0c20 We do not have to lower() the label.
-
-* 98aaf35 Adding some code to be able to properly handle the situation when disk labels are being used for the device.
+  * 93f0c20 We do not have to lower() the label.
+  * 98aaf35 Adding some code to be able to properly handle the situation when disk labels are being used for the device.

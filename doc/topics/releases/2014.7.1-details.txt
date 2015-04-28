@@ -2263,5 +2263,4 @@ PR #16393 [CLOSED]: (s0undt3ch) READ BEFORE MERGE
 
 PR #17084 [CLOSED]: (terminalmage) Update RC version in docs sidebar 
 * 58f3575 Merge pull request #17084 from terminalmage/docs
-
-* dfc10ef Update RC version in docs sidebar
+  * dfc10ef Update RC version in docs sidebar

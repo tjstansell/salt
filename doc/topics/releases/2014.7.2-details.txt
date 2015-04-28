@@ -687,6 +687,4 @@ PR #19676 [CLOSED]: (davidjb) Improve error reporting for failing git module com
 ISSUE #19606 [CLOSED]: (pwaller) systemctl is-enabled foo-bar.service failed with return code: 1 [Bug], [Low-Hanging Fruit], [Medium Severity]
 PR #19661 [CLOSED]: (basepi) Suppress retcode warnings for systemd enabled check, Fixes #19606 
 * 1eb0b4b Merge pull request #19661 from basepi/sysctlretcode19606
-
-ISSUE #19606 [CLOSED]: (pwaller) systemctl is-enabled foo-bar.service failed with return code: 1 [Bug], [Low-Hanging Fruit], [Medium Severity]
-* 01d1907 Suppress retcode warnings for systemd enabled check, Fixes #19606
+  * 01d1907 Suppress retcode warnings for systemd enabled check, Fixes #19606
