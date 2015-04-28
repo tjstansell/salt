@@ -1,0 +1,980 @@
+pulling 239 issues:
+.+....+.+..+.+....+.............+..+......+.....+.+...+.+............+++++.+.+..+....+.........+..........+....+............+......+.........+........+.+.+...+..+...+...+..+...+...........+.+.+.....+..+...+......+.+.....++..+.+.+...+...+.+..+.+.+.....+........+....+.+...+.................+..+..+.....+..
+pulling 65 issues:
+............................................+...................+..
+pulling 2 issues:
+..
+
+ISSUE #21657 [CLOSED]: (rallytime) salt-ssh cmd.run msgpack critical error [Blocker], [Bug], [Fixed Pending Verification], [High Severity], [Salt-SSH]
+PR #22002 [CLOSED]: (basepi) [2014.7] Backport #21703 [Minor Change]
+PR #21703 [CLOSED]: (basepi) [2015.2] Catch TypeErrors from cmd.run jid_file functionality in salt-ssh [Bugfix - [Done] back-ported]
+* 5fd1705 Merge pull request #22002 from basepi/bp-21703
+  * 1470382 Catch TypeErrors from cmd.run jid_file functionality in salt-ssh
+
+ISSUE #15051 [CLOSED]: (lorengordon) On Windows 8.1 the grain 'osversion' is not detected correctly [Bug], [Medium Severity], [Windows]
+PR #21994 [CLOSED]: (twangboy) Used WMI to detect real osversion in Windows [Minor Change], [Tests Passed]
+* c76ea26 Merge pull request #21994 from twangboy/os_ver_15051
+  * 2665ad4 Used WMI to detect real osversion in Windows
+
+ISSUE #21952 [CLOSED]: (tjstansell) salt.modules.ssh.host_keys should not read full private key in legacy binary format [Feature]
+PR #21974 [CLOSED]: (tjstansell) fixes #21952 - only read ssh host_key header for legacy binary format [Minor Change], [Tests Passed]
+* 6424984 Merge pull request #21974 from tjstansell/fix-21952-2014.7
+  * 4aaacfd fixes #21952 - only read ssh host_key header for legacy binary format of private key
+
+ISSUE #21971 [CLOSED]: (tjstansell) salt.modules.ssh.host_keys returns ssh_host_key.pub as key.pub.pub in output [Bug], [Fixed Pending Verification], [Medium Severity]
+PR #21972 [CLOSED]: (tjstansell) fix #21971 - ssh_host_key.pub should return as key.pub not key.pub.pub [Minor Change]
+* 7e36c57 Merge pull request #21972 from tjstansell/fix-21971
+  * 383e21b fix #21971 - ssh_host_key.pub should return as key.pub not key.pub.pub
+
+PR #21968 [CLOSED]: (ryanwohara) Verifying the key has a value before using it. [Minor Change], [Tests Passed]
+* b409209 Merge pull request #21968 from ryanwohara/2014.7
+  * cbb09b0 Verifying the key has a value before using it.
+
+PR #21962 [CLOSED]: (rallytime) Apply nested outputter optimization fix to 2014.7 [Master Change], [Tests Passed]
+PR #21920 [CLOSED]: (fellyns) refactor nested outputter for much better performance [Awesome], [Bugfix - [Done] back-ported], [Master Change]
+* dd37f43 Merge pull request #21962 from rallytime/apply_nested_outputter_fix_to_2014.7
+  * 72f1fff Remove unused import
+  * 15680cd Apply nested outputter optimization fix to 2014.7
+
+ISSUE #21922 [CLOSED]: (arr2036) salt-ssh NameError: global name 'msgpack' is not defined (salt-ssh 2014.7.2 (Helium)) [Bug], [High Severity], [Salt-SSH]
+PR #21965 [CLOSED]: (basepi) [2014.7] Catch msgpack error in file.recurse in salt-ssh [Minor Change], [Tests Passed]
+* d768fe8 Merge pull request #21965 from basepi/salt-ssh.file.recurse.21922
+  * 3d8b31f Catch msgpack error in file.recurse
+
+PR #21963 [CLOSED]: (cachedout) Release note changes [Medium Change]
+* cda629d Merge pull request #21963 from cachedout/2014_7_3_changes
+  * 2639f4b Release note changes
+
+PR #21944 [CLOSED]: (cachedout) Prevent multi-master from dying with pillar refresh error [Master Change]
+* 39d2b5b Merge pull request #21944 from cachedout/catch_pillar_refresh_error
+  * e68306e Remove pass
+  * 52c5489 Revert auth attempt
+  * 9b45bc2 Re-auth after pillar fail
+  * 4fc1abd Duh.
+  * 5d0f2bc Prevent multi-master from dying with pillar refresh error
+
+ISSUE #21511 [CLOSED]: (whiteinge) Add default for pillar_source_merging_strategy in conf/master file [Feature], [Fixed Pending Verification], [Low-Hanging Fruit]
+PR #21955 [CLOSED]: (rallytime) Add default for pillar_source_merging_strategy in conf/master file [Minor Change]
+* afcf1d7 Merge pull request #21955 from rallytime/update_master_conf_doc
+  * 73a0df1 There are 4 values, not 3.
+  * c98118e Update pillar_source_merging_strategy config doc spacing to match accross all config values
+  * 609dcdb Add default for pillar_source_merging_strategy in conf/master file
+
+PR #21957 [CLOSED]: (cachedout) 2014.7.3 release notes 
+* 16fbfa3 Merge pull request #21957 from cachedout/2014_7_3_release_notes
+  * e6d7062 2014.7.3 release notes
+
+PR #21946 [CLOSED]: (cro) Clarify how defaults are indicated in the config files. [Minor Change], [Tests Passed]
+* 4eb759f Merge pull request #21946 from cro/defaults_clarification
+  * a35f38a Clarify how defaults are indicated in the config files.
+  * 5dbb0d4 Clarify how defaults are indicated in the config files.
+
+PR #21941 [CLOSED]: (thatch45) Add a seperate loader base name path to multimaster [Awesome], [Expert Change], [Tests Passed]
+* dfb794b Merge pull request #21941 from thatch45/load_base_name
+  * 78fc0f8 Add a seperate loader base name path to multimaster
+
+PR #21926 [CLOSED]: (jfindlay) fix network.iface module related stack traces [Minor Change]
+* 278d293 Merge pull request #21926 from jfindlay/fix_net
+  * a16039c fix network.iface module related stack traces
+
+PR #21921 [CLOSED]: (jfindlay) config gate net.arp on presence of arp [Minor Change], [Tests Passed]
+* d3e14e5 Merge pull request #21921 from jfindlay/net_arp
+  * 958bf09 config gate net.arp on presence of arp
+
+ISSUE #21707 [CLOSED]: (baweaver) [saltnado rest] local requests hang indefinitely on glob / grain queries [Bug], [Fixed Pending Verification], [Medium Severity]
+PR #21811 [CLOSED]: (jacksontj) Re-work timeouts in saltnado [Medium Change], [Tests Passed]
+PR #21755 [CLOSED]: (jacksontj) Add timeout to saltnado's event listener [Medium Change], [Tests Passed]
+* fadf44c Merge pull request #21811 from jacksontj/2014.7
+  * fbaf02c Have per-job minions_remaining
+  * f4d8fb5 Re-work timeouts in saltnado
+
+PR #21918 [CLOSED]: (rallytime) Backport #21885 to 2014.7 [Minor Change], [Tests Passed]
+PR #21885 [CLOSED]: (mattwillsher) Remove check for physical virt type for salt.modules.virt.is_kvm_hyper() [Bugfix - [Done] back-ported], [Minor Change]
+* 334a7b8 Merge pull request #21918 from rallytime/bp-21885
+  * 78747b5 Remove check for physical virt type for KVM
+
+PR #21901 [CLOSED]: (cachedout) Deep copy opts [Master Change], [Tests Passed]
+* e07220d Merge pull request #21901 from cachedout/deepcopy_opts
+  * 3a5f36d Deep copy opts
+
+ISSUE #21796 [CLOSED]: (grischa) pyobjects behaving weirdly when calling python stdlib package [Bug], [Fixed Pending Verification], [Medium Severity]
+PR #21872 [CLOSED]: (borgstrom) Remove _locals from the final exec call in pyobjects (2014.7) [Minor Change], [Tests Passed]
+* ba083a6 Merge pull request #21872 from borgstrom/issue-21796-2014.7
+  * 3223a15 This fixes #21796
+
+PR #21861 [CLOSED]: (twangboy) Final (hopefully) improvements to the new build structure [Medium Change]
+* af01dc7 Merge pull request #21861 from twangboy/build
+  * febef7e Update salt-cp.bat
+  * d5da92e Added batchfiles to mimick the behavior of the exe's
+  * 81025d8 Fixed version parameter
+  * db64bef Updated BuildSalt and Salt-Minion-Setup.nsi - Fixed problem with missing folders and files - Fixed problem with detecting cpu architecture
+
+PR #21854 [CLOSED]: (jfindlay) backport #21791 to 2014.7 [Medium Change]
+PR #21791 [CLOSED]: (twangboy) Added additional files for building windows installations [Bugfix - [Done] back-ported]
+* 86037bb Merge pull request #21854 from jfindlay/bp-21791
+  * fbec100 Edited Salt-Minion-Setup.nsi, Added BuildSalt.bat
+  * 98944e9 Added file to slim the windows install
+
+ISSUE #19953 [CLOSED]: (johanek) lsb_distrib grains on CentOS/RHEL [Bug], [Medium Severity]
+PR #21857 [CLOSED]: (jfindlay) backport #21844 to 2014.7 [Medium Change]
+PR #21844 [CLOSED]: (johanek) Always check other OS release files if lsb_distrib_id grain not populated from /etc/lsb-release [Bugfix - [Done] back-ported], [Medium Change]
+* 9da5b33 Merge pull request #21857 from jfindlay/bp-21844
+  * 4fe795f Always check other OS release files if lsb_distrib_id grain not populated from /etc/lsb-release
+
+ISSUE #6 [CLOSED]: (thatch45) Test module 
+PR #21855 [CLOSED]: (rallytime) Backport #21841 to 2014.7 [Minor Change]
+PR #21841 [CLOSED]: (ticosax) `override_params` contains the real list of allowed parameters [Bugfix - [Done] back-ported], [Minor Change]
+* 54b32db Merge pull request #21855 from rallytime/bp-21841
+  * 000c55d Merge pull request #6 from terminalmage/bp-21841
+    * 565fcea deepcopy the PER_REMOTE_PARAMS global
+  * a6d8105 `override_params` contains the real list of allowed parameters
+
+ISSUE #20735 [CLOSED]: (Whissi) All salt-minions died with an unhandled exceptions while salt-master was unavailable due to maintenance [Bug], [Fixed Pending Verification], [Medium Severity], [Needs Testcase]
+PR #21851 [CLOSED]: (rallytime) Backport the fix in #20781 manually to the 2014.7 branch [Medium Change]
+PR #20781 [CLOSED]: (cachedout) Don't float exceptions on auth errors in mine [Bugfix - [Done] back-ported], [Medium Change], [Tests Passed]
+* c3c108d Merge pull request #21851 from rallytime/bp-20781
+  * 0fb810a Don't forget to import SaltClientError
+  * ba0560e Backport the fix in #20781 manually to the 2014.7 branch
+
+PR #21852 [CLOSED]: (jfindlay) backport #21790 to 2014.7 [Medium Change], [Tests Passed]
+PR #21790 [CLOSED]: (twangboy) Added files for the New Portable Salt Installer [Bugfix - [Done] back-ported]
+* ca33da7 Merge pull request #21852 from jfindlay/bp-21790
+  * ced2e57 Added files for the New Portable Salt Installer
+
+ISSUE #21603 [CLOSED]: (ipmb) ssh_auth.present fails on key without comment [Bug], [Fixed Pending Verification], [Low-Hanging Fruit], [Medium Severity], [Regression]
+PR #21848 [CLOSED]: (rallytime) Backport #21635 to 2014.7 [Minor Change], [Tests Passed]
+PR #21635 [CLOSED]: (jfindlay) check for ssh key comment [Bugfix - [Done] back-ported], [Minor Change]
+* c27692c Merge pull request #21848 from rallytime/bp-21635
+  * c0f0414 check for ssh key comment
+
+ISSUE #21650 [CLOSED]: (jfindlay) saltutil.runner jobs.list_jobs is broken [Blocker], [Bug], [Medium Severity]
+PR #21849 [CLOSED]: (basepi) [2014.7] saltutil.runner fixes [Medium Change]
+* 8262d85 Merge pull request #21849 from basepi/saltutil.runner.21650
+  * 3f0b003 Generate master config if it's not present
+  * 4e881bb Clean the __pub kwargs for saltutil.runner
+
+ISSUE #20197 [OPEN]: (jhenry82) Issue with multi-master and local job cache: An inconsistency occurred [Bug], [Fixed Pending Verification], [High Severity], [Multi-Master], [P1]
+ISSUE #19932 [CLOSED]: (smitt04) Calling salt '*' state.highstate on multi master, minions stop responding [Bug], [Fixed Pending Verification], [High Severity], [Multi-Master]
+PR #21846 [CLOSED]: (rallytime) Backport #21795 to 2014.7 
+PR #21795 [CLOSED]: (cachedout) Avoid dueling opts with fileclients in highstate [Bugfix - [Done] back-ported], [Expert Change]
+* 82299ed Merge pull request #21846 from rallytime/bp-21795
+  * 56142ad Avoid dueling opts with fileclients in highstate
+
+ISSUE #20197 [OPEN]: (jhenry82) Issue with multi-master and local job cache: An inconsistency occurred [Bug], [Fixed Pending Verification], [High Severity], [Multi-Master], [P1]
+ISSUE #19932 [CLOSED]: (smitt04) Calling salt '*' state.highstate on multi master, minions stop responding [Bug], [Fixed Pending Verification], [High Severity], [Multi-Master]
+ISSUE #13944 [CLOSED]: (basepi) Multi-master minion not failing over properly for state runs [Bug], [Fixed Pending Verification], [High Severity], [Multi-Master]
+PR #21847 [CLOSED]: (rallytime) Backport #21832 to 2014.7 
+PR #21832 [CLOSED]: (cachedout) Revert regression caused by #15848 [Bugfix - [Done] back-ported]
+PR #15848 [CLOSED]: (cachedout) Re-inject opts into modules under multi-master mode. [Bugfix - [Done] back-ported]
+* c1ef044 Merge pull request #21847 from rallytime/bp-21832
+  * 3782251 Revert regression caused by #15848
+
+ISSUE #21774 [OPEN]: (Xiol) "Failed to commit change, permission error" when using file.managed with check_cmd  [Bug], [Medium Severity], [P2]
+PR #21826 [CLOSED]: (jfindlay) propagate original IOError message through file.manage_file [Minor Change], [Tests Passed]
+* fd3623d Merge pull request #21826 from jfindlay/file_error
+  * ddbe16e propagate original IOError message through file.manage_file
+
+ISSUE #21495 [CLOSED]: (UtahDave) Syndic not passing up lower level jobs to the higher master's job cache [Blocker], [Feature], [Fixed Pending Verification]
+PR #21828 [CLOSED]: (basepi) [2014.7] Append #21818 
+PR #21818 [CLOSED]: (basepi) [2014.7] Backport #21781 to 2014.7 [Medium Change], [Tests Passed]
+PR #21781 [CLOSED]: (basepi) [2015.2] Fix syndic pushing load to master of masters [Bugfix - [Done] back-ported]
+* 5292f5d Merge pull request #21828 from basepi/append_21818
+  * 417e2ab Stupid backport didn't get this
+
+PR #21821 [CLOSED]: (basepi) [2014.7] Backport #21813 to 2014.7 [Master Change], [Tests Passed]
+PR #21813 [CLOSED]: (basepi) [2015.2] Syndic should only forward load once per job [Bugfix - [Done] back-ported], [Medium Change]
+* f20cfb6 Merge pull request #21821 from basepi/bp-21813
+  * 06c3cf8 Make changes in both MultiSyndic and Syndic
+  * 07c354b Rearrange a little
+  * 9cd3438 Gate the correct function call. *facepalm*
+  * e7258ff Add another comment
+  * 30f9d08 Pop oldest jid if we hit the jid_forward_cache_hwm
+  * 46c0973 Add syndic_jid_forward_cache_hwm configuration
+  * 36192e3 Fix Syndic to only forward unforwarded loads
+
+PR #21822 [CLOSED]: (basepi) [2014.7] Backport #21820 to 2014.7 
+PR #21820 [CLOSED]: (basepi) [2015.2] syndic load fix [Bugfix - [Done] back-ported]
+* f92fd17 Merge pull request #21822 from basepi/bp-21820
+  * 3870c66 Pass in the load you just checked for
+
+ISSUE #21495 [CLOSED]: (UtahDave) Syndic not passing up lower level jobs to the higher master's job cache [Blocker], [Feature], [Fixed Pending Verification]
+PR #21818 [CLOSED]: (basepi) [2014.7] Backport #21781 to 2014.7 [Medium Change], [Tests Passed]
+PR #21781 [CLOSED]: (basepi) [2015.2] Fix syndic pushing load to master of masters [Bugfix - [Done] back-ported]
+* 737ebb4 Merge pull request #21818 from basepi/bp-21781
+  * e386db2 Update syndic_config test for new cachedir
+  * 8d406c1 Fix syndic to get the load for __load__, not the jid
+  * d40b387 Fix syndic to use master cachedir
+
+PR #21786 [CLOSED]: (rallytime) Backport #21739 to 2014.7 [Medium Change]
+PR #21739 [CLOSED]: (ticosax) If there no containers in the response it does not mean the command failed. [Bugfix - [Done] back-ported], [Medium Change]
+* c09b737 Merge pull request #21786 from rallytime/bp-21739
+  * eddef00 If there no containers in the response it does not mean the command failed.
+
+PR #21785 [CLOSED]: (rallytime) Backport #21738 to 2014.7 [Minor Change], [Tests Passed]
+PR #21738 [CLOSED]: (ticosax) transmit socket parameter for inner function calls [Bugfix - [Done] back-ported], [Minor Change]
+* e7222c0 Merge pull request #21785 from rallytime/bp-21738
+  * 14b367e transmit socket parameter for inner function calls
+
+ISSUE #19864 [CLOSED]: (claudiupopescu) Salt syndic architecture is slow [Bug], [Fixed Pending Verification], [High Severity]
+PR #21780 [CLOSED]: (cachedout) Backport #21775 to 2014.7 [Medium Change]
+PR #21775 [CLOSED]: (cachedout) Syndic client [Bugfix - [Done] back-ported], [Medium Change]
+PR #21175 [CLOSED]: (UtahDave) Cherry pick twilio beacon from develop to 2015.2 
+* efe7d09 Merge pull request #21780 from cachedout/syndic_client_2014_7
+  * 36841bd Backport #21175 to 2014.7
+
+ISSUE #19864 [CLOSED]: (claudiupopescu) Salt syndic architecture is slow [Bug], [Fixed Pending Verification], [High Severity]
+PR #21782 [CLOSED]: (rallytime) Update syndic documentation 
+* 0c6b3e5 Merge pull request #21782 from rallytime/syndic_doc_fix
+  * f56cdd5 Update syndic documentation
+
+ISSUE #21707 [CLOSED]: (baweaver) [saltnado rest] local requests hang indefinitely on glob / grain queries [Bug], [Fixed Pending Verification], [Medium Severity]
+PR #21755 [CLOSED]: (jacksontj) Add timeout to saltnado's event listener [Medium Change], [Tests Passed]
+* 55a35c8 Merge pull request #21755 from jacksontj/2014.7
+  * a95f812 Cleanup merge
+  * 70155dd Massive speedup to saltnado
+  * 234d02b Add timeout to saltnado's event listener
+
+PR #21757 [CLOSED]: (jfindlay) Tar tests [Medium Change], [Tests Passed]
+* 26689da Merge pull request #21757 from jfindlay/tar_tests
+  * 5f143ec unit tests for states.archive.extracted tar opts
+  * f2fe1b9 add positional arguments in order within longopts
+  * 53c9d48 fix typo
+
+ISSUE #17380 [CLOSED]: (UtahDave) external auth group support not working with pam [Bug], [Critical], [Fixed Pending Verification]
+PR #21743 [CLOSED]: (jfindlay) add eauth pam group tests [Medium Change], [Tests Passed]
+* 49d972d Merge pull request #21743 from jfindlay/eauth_group_test
+  * f735f0b add eauth pam group tests
+
+ISSUE #19405 [OPEN]: (numkem) Network bridging under ubuntu fails with KeyError [Bug], [Medium Severity]
+PR #21734 [CLOSED]: (MrMarvin) "fixes" bug when parsing interfaces [Minor Change]
+* 4406974 Merge pull request #21734 from MrMarvin/fix/issue_19405_debian_ip_interfaces_parsing
+  * d8892fd fixes PEP8 W601  and E713- thanks linting test
+  * f43f8c4 "fixes" bug when parsing interfaces
+
+ISSUE #21661 [CLOSED]: (rvstaveren) membership logic in salt/auth/ldap.py bug [Bug], [Core], [Fixed Pending Verification], [High Severity], [P3]
+PR #21701 [CLOSED]: (rvstaveren) Fix ldap group handling for 2014.7 [Minor Change]
+* 493a97c Merge pull request #21701 from rvstaveren/fix_ldap_group_handling_2014_7
+  * 6e51093 username doesn't necessarily need to be in slot 0
+
+PR #21711 [CLOSED]: (rallytime) Backport #21676 to 2014.7 [Minor Change], [Tests Passed]
+PR #21676 [CLOSED]: (aneeshusa) Add error messages when missing setting_name param. [Bugfix - [Done] back-ported], [Minor Change]
+* 2e5cdb1 Merge pull request #21711 from rallytime/bp-21676
+  * 01f90d5 Add error messages when missing setting_name param.
+
+ISSUE #20317 [CLOSED]: (joshdover) RVM is not a function for gem state [Bug], [Fixed Pending Verification], [Medium Severity]
+ISSUE #6815 [CLOSED]: (davepeck) salt.modules.gem.install ignores ruby parameter if rvm is installed locally and runas is provided [Bug], [Fixed Pending Verification], [Low Severity]
+PR #21708 [CLOSED]: (rallytime) Backport #21666 to 2014.7 [Minor Change]
+PR #21666 [CLOSED]: (ahus1) RVM doesn't install as non-root, gems don't install for RVM [Bugfix - [Done] back-ported], [Minor Change]
+* 0225463 Merge pull request #21708 from rallytime/bp-21666
+  * 5f11f7b added tests to ensure commands are created accordingly (without additional single quotes)
+  * 5f48e55 separate command from arguments to avoid problems when adding quotes
+
+PR #21630 [CLOSED]: (UtahDave) WORK IN PROGRESS - Fix syndic [Minor Change], [Pending Discussion]
+* 8a12fbb Merge pull request #21630 from UtahDave/fix_syndic
+  * ad1768c make sure arg, tgt, and tgt_type are passed thru
+  * 3611658 pass thru fun and fun_args if they exist
+
+ISSUE #21625 [CLOSED]: (SaltwaterC) file.managed for HTTP source doesn't use the HTTP status code [Bug], [Fixed Pending Verification], [Medium Severity]
+PR #21677 [CLOSED]: (aneeshusa) Check response status when using fileclient.get_url. [Minor Change], [Tests Passed]
+* 0fc61de Merge pull request #21677 from aneeshusa/check-http-response-status-2014.7
+  * 58a1afc Check response status when using fileclient.get_url.
+
+PR #21658 [CLOSED]: (rvstaveren) enable eauth during cli batch operations [Minor Change]
+* 2767409 Merge pull request #21658 from rvstaveren/fix_eauth_in_batch_2014_7
+  * 58eacc0 Merge branch 'fix_eauth_in_batch_2014_7' of https://github.com/rvstaveren/salt into fix_eauth_in_batch_2014_7
+    * 237d85d enable eauth during cli batch operations
+  * 3939799 enable eauth during cli batch operations
+
+ISSUE #21628 [CLOSED]: (tjstansell) rh_ip support for STP (spanning tree protocol) [Bug], [Medium Severity]
+PR #21648 [CLOSED]: (tjstansell) fix #21628: support STP option in rh_ip to enable/disable spanning tree [Minor Change]
+* dd130a7 Merge pull request #21648 from tjstansell/fix-rh_ip-stp
+  * 317f627 fix #21628: brctl accepts either "on" or "yes" to enable STP, otherwise it disables it, so using the existing loop to force the value to either "yes" or "no".
+
+ISSUE #21226 [CLOSED]: (jcftang) salt-ssh:  Unable to import msgpack or msgpack_pure python modules [Bug], [Confirmed], [Fixed Pending Verification], [High Severity], [Regression], [Salt-SSH]
+PR #21636 [CLOSED]: (basepi) Gate salt.utils.cloud (imports msgpack) in config.py for salt-ssh [Minor Change], [Tests Passed]
+* a8e8cb9 Merge pull request #21636 from basepi/salt-ssh.msgpack.gate.21226
+  * 3ef09d3 Gate salt.utils.cloud (imports msgpack) in config.py for salt-ssh
+
+ISSUE #21423 [CLOSED]: (roflmao) Function file.managed is run everytime on user = number [Bug], [Fixed Pending Verification], [Low-Hanging Fruit], [Medium Severity]
+PR #21626 [CLOSED]: (rallytime) Backport #21622 to 2014.7 [Minor Change]
+PR #21622 [CLOSED]: (aneeshusa) Teach file.check_perms to handle uids and gids. [Bugfix - [Done] back-ported], [Minor Change], [Tests Passed]
+* 52e3901 Merge pull request #21626 from rallytime/bp-21622
+  * b28dba2 Teach file.check_perms to handle uids and gids.
+
+PR #21645 [CLOSED]: (rallytime) Set the vm_ password before calling salt.utils.bootstrap 
+* 1b6e14c Merge pull request #21645 from rallytime/set_password_linode
+  * 843a7ee Set the vm_ password before calling salt.utils.bootstrap
+
+PR #21637 [CLOSED]: (highlyunavailable) Increase the timeout of boto route53 module [Minor Change], [Tests Passed]
+* 3407360 Merge pull request #21637 from highlyunavailable/increase_boto_route53_timeout
+  * 2a7c563 Increase the timeout of boto route53 application
+
+PR #21632 [CLOSED]: (rallytime) Add minimum version dependency for linode-python in docs 
+* 2db9f68 Merge pull request #21632 from rallytime/linode_doc_update
+  * 01c8f94 Add minimum version dependency for linode-python in docs
+
+PR #21631 [CLOSED]: (cro) Remove linodepy.py in favor of linode.py. 
+* cfd8173 Merge pull request #21631 from cro/remove_linodepy
+  * 47a9459 Remove linodepy.py in favor of linode.py
+
+ISSUE #21620 [CLOSED]: (tjstansell) rh_ip templates cannot set DELAY=0 [Bug], [Fixed Pending Verification], [Medium Severity]
+PR #21621 [CLOSED]: (tjstansell) fixed #21620 so delay: 0 works correctly for network.managed interfaces [Minor Change], [Tests Passed]
+* 74b9ec2 Merge pull request #21621 from tjstansell/fix-21620
+  * bb63049 fixed #21620 so delay: 0 works correctly for network.managed interfaces
+
+ISSUE #20795 [CLOSED]: (Bilge) archive.extracted tar_options does not support long options or non-option parameters [Bug], [Fixed Pending Verification], [Medium Severity], [Regression]
+PR #21605 [CLOSED]: (highlyunavailable) Fix tar state options [Medium Change], [Tests Passed]
+* eb12f11 Merge pull request #21605 from highlyunavailable/tar_args
+  * 133318f Fix tar state options
+
+PR #21593 [CLOSED]: (jfindlay) add 802.3ad to debian_ip tunnel modes [Minor Change]
+PR #21239 [CLOSED]: (mnguyen1289) IPV4 mode should accept all modes [Minor Change]
+* dc4e90f Merge pull request #21593 from jfindlay/deb_ip_mode
+  * 01d6056 add 802.3ad to debian_ip tunnel modes
+
+PR #21600 [CLOSED]: (eliasp) Fix parsing of NTP servers on Windows. [Minor Change]
+* 14efe70 Merge pull request #21600 from eliasp/2014.7-salt.modules.win_ntp-parsing-NtpServer
+  * 60675de Fix parsing of NTP servers on Windows.
+
+ISSUE #21543 [CLOSED]: (RobertFach) module blockdev.tune broken 2014.7.x /develop [Bug], [Medium Severity]
+PR #21544 [CLOSED]: (RobertFach) fix blockdev.tune issue, where blockdev.tune doesn't report changes for ... [Minor Change], [Tests Passed]
+* 4d958f8 Merge pull request #21544 from RobertFach/fix-21543-blockdev-tune-issue
+  * a8873d0 fixed pylint issue with comparison to True
+
+ISSUE #21546 [CLOSED]: (RobertFach) state change detection for blockdev.tune broken 2014.7.x /develop [Bug], [Medium Severity]
+ISSUE #21543 [CLOSED]: (RobertFach) module blockdev.tune broken 2014.7.x /develop [Bug], [Medium Severity]
+PR #21587 [CLOSED]: (RobertFach) Fix 21546 blockdev tune state change issue [Minor Change]
+* d4f419a Merge pull request #21587 from RobertFach/fix-21546-blockdev-tune-state-change-issue
+  * f89f23c fixing pylint issues, sorry
+  * c204815 made blockdev.tune state change detection output pretty
+  * 5c526b2 added change detection for block device tune, reformatting
+  * 0bced7a added change detection for block device tune
+  * 370bf52 Merge branch 'fix-21543-blockdev-tune-issue' into fix-21546-blockdev-tune-state-change-issue
+  * d29bb2f fix blockdev.tune issue, where blockdev.tune doesn't report changes for read-write option and where it didn't translate boolean options properly, causing the underlying blockdev call to fail
+
+ISSUE #21522 [CLOSED]: (Diaoul) python setup.py -V crashes [Bug], [Fixed Pending Verification], [High Severity]
+PR #21568 [CLOSED]: (jfindlay) Don't obfuscate internal distutils attributes [Medium Change], [Tests Passed]
+PR #21559 [CLOSED]: (s0undt3ch) Don't obfuscate the internal version attribute [Medium Change], [Tests Passed]
+* 208b269 Merge pull request #21568 from jfindlay/setup_attrs
+  * e6f8ea3 Don't obfuscate internal distutils attributes
+
+ISSUE #20787 [CLOSED]: (pruiz) pillar_source_merging_strategy: smart not working when using more than one renderer at shebang line [Bug], [Fixed Pending Verification], [Medium Severity]
+PR #21514 [CLOSED]: (rallytime) Apply fix from #21489 to the 2014.7 branch [Minor Change], [Tests Passed]
+PR #21489 [CLOSED]: (pruiz) Fix #20787: YamlEx pillar merging fails when using gpg (even if pillar_source_merging_strategy is set to aggregate) [Bugfix - [Done] back-ported], [Minor Change]
+* f3ec86f Merge pull request #21514 from rallytime/manually_backport_21489
+  * ee159ff Apply fix from #21489 to the 2014.7 branch
+
+ISSUE #20932 [CLOSED]: (dtoubelis) Exception when calling create method on openstack cloud provider from reactor sls [Bug], [Medium Severity], [Salt-Cloud]
+PR #21562 [CLOSED]: (cro) Backport 21283 from develop. [Master Change], [Tests Passed]
+PR #21283 [CLOSED]: (gtmanfred) Fix openstack cloud driver to work with only bootstrapping [Bugfix - [Done] back-ported], [Master Change]
+* 44df93d Merge pull request #21562 from cro/bp-21283
+  * 470bc06 remove extra log.debug
+  * f049fe8 change deafult for kwargs
+  * 739935c pass kwargs so that fixed networks can be set
+  * fdcd4a0 split out setting up networks
+  * 1270a2b need to use data for changing password
+  * 4b417f7 use ex_set_password
+  * 8d34dcd use ex_get_node_details if instance_id is specified
+
+ISSUE #20198 [CLOSED]: (jcftang) virt.get_graphics, virt.get_nics are broken, in turn breaking other things [Bug], [Fixed Pending Verification], [High Severity]
+PR #21487 [CLOSED]: (rallytime) Backport #21469 to 2014.7 [Minor Change]
+PR #21469 [CLOSED]: (vdesjardins) fixes #20198: virt.get_graphics and virt.get_nics calls in module virt [Bugfix - [Done] back-ported], [Minor Change]
+* 4873382 Merge pull request #21487 from rallytime/bp-21469
+  * e4b33ef Move minidom import out of try block
+  * aef0d95 fix pylint error in virt module.
+  * d529390 fixes #20198: virt.get_graphics and virt.get_nics calls in module virt
+
+ISSUE #21522 [CLOSED]: (Diaoul) python setup.py -V crashes [Bug], [Fixed Pending Verification], [High Severity]
+PR #21559 [CLOSED]: (s0undt3ch) Don't obfuscate the internal version attribute [Medium Change], [Tests Passed]
+* 979ed66 Merge pull request #21559 from s0undt3ch/hotfix/issues-21522
+  * e5a7158 Don't obfuscate the internal version attribute
+
+ISSUE #555 [CLOSED]: (syphernl) Allow states to be called via wildcard 
+PR #21557 [CLOSED]: (s0undt3ch) [2014.7] Update the bootstrap script to latest stable, v2015.03.15 [Minor Change], [Tests Passed]
+* 70608d8 Merge pull request #21557 from s0undt3ch/2014.7
+  * 397f45e Update the bootstrap script to latest stable, v2015.03.15
+
+ISSUE #21057 [CLOSED]: (freimer) Windows saltutil.kill_job [Bug], [Duplicate], [Fixed Pending Verification], [High Severity], [Windows]
+PR #21523 [CLOSED]: (jfindlay) backport #21481 to 2014.7 [Minor Change], [Tests Passed]
+PR #21481 [CLOSED]: (opdude) Fixed an error with SIGKILL on windows [Bugfix - [Done] back-ported], [Minor Change], [Tests Passed]
+PR #21244 [CLOSED]: (freimer) Fix for Python without a signal.SIGKILL (Win32) [Medium Change], [Tests Passed]
+* 0d278a4 Merge pull request #21523 from jfindlay/bp-21481
+  * 08bd476 Fixed an error with SIGKILL on windows
+
+ISSUE #21491 [OPEN]: (martin-helmich) composer.installed should not always "return True" when composer.lock is present [Bug], [Fixed Pending Verification], [High Severity], [P2], [State Module]
+PR #21555 [CLOSED]: (ross-p) Fix for issue #21491 [Medium Change]
+PR #21553 [CLOSED]: (ross-p) Fix for issue #21491 (composer install should always run) [Bugfix - [Done] back-ported], [Medium Change]
+* 2fa4189 Merge pull request #21555 from xclusv/2014.7-fix-21491
+  * d473408 composer.install module does not support always_check, only the state does.  Removing the test on the module.
+  * ee1a8d7 Fix lint issue.
+  * 3f3218d Fix for issue #21491
+
+PR #21564 [CLOSED]: (eliasp) Typo (rendered → renderer) 
+* 8cd4849 Merge pull request #21564 from eliasp/patch-1
+  * bc9a30b Typo (rendered â renderer)
+
+PR #21551 [CLOSED]: (robgott) updated s3.query function to return headers for successful requests 
+* a531ab0 Merge pull request #21551 from robgott/fix-s3.head-returning-none
+  * 8999148 updated s3.query function to return headers array for successful requests fixes issue with s3.head returning None for files that exist
+
+PR #21162 [CLOSED]: (cro) Update linode salt-cloud driver to support using either linode-python or apache-libcloud [Expert Change], [Tests Passed]
+* 0eb66a3 Merge pull request #21162 from cro/linode-python-driver2
+  * 93c5d92 AGH. LINT.
+  * b3ff3ab More lint.
+  * f525425 Fix typo.
+  * 780c07b Fix lint.
+  * d19937e Add docs for linode cloud driver
+  * f87cb72 Update linode salt-cloud driver to support using either linode-python or apache-libcloud
+
+PR #21536 [CLOSED]: (eliasp) Correct typo ('win_update.install' → 'win.update_installed'). 
+* 3012e98 Merge pull request #21536 from eliasp/2014.7-salt.states.win_update.py-typo
+  * 0b02396 Correct typo ('win_update.install' â 'win.update_installed').
+
+PR #21510 [CLOSED]: (twangboy) Fixed disable function in win_service.py to actually disable service [Minor Change]
+* d8f4160 Merge pull request #21510 from twangboy/win_service
+  * ed1b7dd Fixed disable function in win_service.py to actually disable service
+
+ISSUE #21349 [CLOSED]: (ross-p) Salt composer state now broken due to apparent change in PHP Composer's output [Bug], [Medium Severity]
+PR #21497 [CLOSED]: (ross-p) Backport of PR #21358 to 2014.7 [Master Change], [Tests Passed]
+PR #21358 [CLOSED]: (ross-p) Fix composer, issue #21349 [Bugfix - [Done] back-ported]
+* 1c31dbf Merge pull request #21497 from xclusv/2014.7-fix-php-composer
+  * 8083cf5 Backport of PR #21358 to 2014.7
+
+PR #21488 [CLOSED]: (jacobhammons) Regenerated and updated man pages, updated release version in conf.py to... 
+* f6f6afe Merge pull request #21488 from jacobhammons/2014.7
+  * 921d679 Regenerated and updated man pages, updated release version in conf.py to 2014.7.2
+
+PR #21437 [CLOSED]: (rallytime) Backport #21409 to 2014.7 [Minor Change], [Tests Passed]
+PR #21409 [CLOSED]: (jquast) Gracefully handle race condition of 'makedirs' [Bugfix - [Done] back-ported], [Medium Change]
+* 6ac6a53 Merge pull request #21437 from rallytime/bp-21409
+  * 8a65d8c Gracefully handle race condition in `makedirs'
+
+ISSUE #21301 [CLOSED]: (syphernl) Optimize error about sls missing on master if running masterless [Bug], [Low Severity]
+PR #21439 [CLOSED]: (jfindlay) remove 'master' reference in error message [Minor Change]
+* 4fb4178 Merge pull request #21439 from jfindlay/no_master
+  * 3456ef6 remove 'master' reference in error message
+
+ISSUE #21304 [CLOSED]: (eliasp) Failing `blkid` call in `salt.modules.disk.blkid()` isn't handled properly [Bug], [Medium Severity]
+PR #21432 [CLOSED]: (eliasp) Fix #21304 (backport of #21431) [Minor Change]
+* 87591b3 Merge pull request #21432 from eliasp/2014.7-fix-21304
+  * 1ff5cc2 Fix #21304
+
+PR #21407 [CLOSED]: (freimer) Added status.master capability for Windows [Medium Change], [ZD]
+* 7a77375 Merge pull request #21407 from freimer/issue_21405
+  * 03c9e70 Added status.master capability for Windows
+  * fa0953c Added status.master capability for Windows
+
+ISSUE #20812 [CLOSED]: (jasonrm) Recurse failed with gitfs per-remote mountpoint and file.recurse [Bug], [Medium Severity]
+PR #21411 [CLOSED]: (terminalmage) Fix file.recurse on root of gitfs/hgfs/svnfs repo [Master Change], [Tests Passed]
+* c5db184 Merge pull request #21411 from terminalmage/issue20812
+  * cf05fd6 Fix file.recurse on root of svnfs repo
+  * 346f59c Fix file.recurse on root of hgfs repo
+  * 6f6f4b9 Fix file.recurse on root of gitfs repo
+
+ISSUE #20915 [CLOSED]: (lorengordon) Logic conflict with `changes` in service.running and service.dead? [Bug], [Medium Severity]
+PR #21380 [CLOSED]: (lorengordon) Fix logic conflict with `enabled` between service.running and service.dead [Master Change]
+* cd5463d Merge pull request #21380 from lorengordon/service-running-logic-conflict
+  * 6e4e9d5 Streamline logic, cleanup dead code
+  * 6f161a7 Re-add stateful return for service.enabled and service.disabled
+  * 91f499e Eliminate `enable` logic conflict
+
+ISSUE #20494 [OPEN]: (lorengordon) Traceback in output with `--log-level debug` on Windows [Bug], [Medium Severity], [Windows]
+PR #21395 [CLOSED]: (jacksontj) Backport fix for #20494 [Minor Change], [Tests Passed]
+* e2f135a Merge pull request #21395 from jacksontj/2014.7
+  * ff8b47c Catch case where 'return' not in opts, or other ways to get an empty returner (as it will just fail anyways)
+
+PR #21355 [CLOSED]: (The-Loeki) Fix for comments containing whitespaces 
+* fea6d83 Merge pull request #21355 from The-Loeki/patch-1
+  * bf6790b Update ssh_auth.py
+  * 10089ab Fix pylint PEP8 E231, patch absent function as well
+  * 6327479 Fix for comments containing whitespaces
+
+PR #21373 [CLOSED]: (hvnsweeting) bugfix: fix test mode in ssh_known_hosts 
+* 3736c89 Merge pull request #21373 from hvnsweeting/2014.7
+  * 2a84598 bugfix: fix test mode in ssh_known_hosts
+
+PR #21381 [CLOSED]: (rallytime) Pylint fix for 2014.7 branch [Minor Change], [Tests Passed]
+* 855d8cf Merge pull request #21381 from rallytime/pylint_seven
+  * b9f3b79 Pylint fix for 2014.7 branch
+
+ISSUE #21218 [CLOSED]: (sivann) grain virtual not working for CentOS 7 in Google Compute Engine [Bug], [Fixed Pending Verification], [Low-Hanging Fruit], [Medium Severity]
+PR #21374 [CLOSED]: (sivann) better grains.virtual through systemd-detect-virt and virt-what, fixes issue #21218 
+* 096021b Merge pull request #21374 from sivann/Issue_21218
+  * 15c371d correct string for microsoft and vmware
+  * 9d4fcdd better grains.virtual through systemd-detect-virt and virt-what, fixes issue #21218
+
+ISSUE #21114 [CLOSED]: (devweasel) states.keystone fails to create user-roles for more than 1 tenant/user (or remove them) [Bug], [Fixed Pending Verification], [Medium Severity]
+PR #21310 [CLOSED]: (devweasel) Fixes for #21114 [Master Change], [Tests Passed]
+* 7e56552 Merge pull request #21310 from devweasel/issue_21114
+  * 1c636ba Fixes #21114 [2/2]; keystone.user_present fails to remove user-roles
+  * 72b719f Fixes #21114 [1/2]; keystone.user_present fails to create user-roles for more than 1 tenant/user
+
+PR #21346 [CLOSED]: (MrMarvin) * fixes states.network bonding for debian [Minor Change]
+* be4405f Merge pull request #21346 from sinnerschrader/fix/2014_7_fix_ubuntu_network_bonding
+  * fc7ee45 * fixes states.network bonding for debian
+
+ISSUE #21300 [CLOSED]: (ferricoxide) sysctl.present dumps a traceback if driver disabled [Bug], [Fixed Pending Verification], [Medium Severity]
+PR #21360 [CLOSED]: (terminalmage) Fix traceback in sysctl.present state output 
+* 1c23c1f Merge pull request #21360 from terminalmage/issue21300
+  * 1322181 Fix traceback in sysctl.present state output
+
+ISSUE #18318 [CLOSED]: (arthurlogilab) network.managed removes comments and some options in /etc/network/interfaces [Bug], [Medium Severity]
+PR #21366 [CLOSED]: (d--j) Make debian_ip.get_interface not remove dns-nameservers 
+* 00323f0 Merge pull request #21366 from d--j/fix-debian-ip-dns-nameservers
+  * 32c7547 Make debian_ip not remove dns-nameservers
+
+PR #21308 [CLOSED]: (s0undt3ch) [2014.7] Update the bootstrap script to latest stable v2015.03.04 [Medium Change], [Tests Passed]
+* a5a14ff Merge pull request #21308 from s0undt3ch/2014.7
+  * 26f07a0 Update the bootstrap script to latest stable v2015.03.04
+
+PR #21302 [CLOSED]: (nmadhok) Adding src folder to .gitignore 
+* 0775966 Merge pull request #21302 from nmadhok/add-src-gitignore
+  * 67c1c4a Adding src folder to .gitignore
+
+ISSUE #21215 [CLOSED]: (nirnx) Mount state failed after upgrade [Bug], [Fixed Pending Verification], [Medium Severity], [Regression]
+PR #21269 [CLOSED]: (RobertFach) fixed issue which causes mount.mounted to fail when superopts are not pa... [Minor Change], [Tests Passed]
+* b86ed66 Merge pull request #21269 from RobertFach/fix-21215-mount-superopts
+  * 86852e5 fixed issue which causes mount.mounted to fail when superopts are not part of mount.active (extended=True), this fix will also fix potential problems with Solaris and FreeBSD
+
+PR #21289 [CLOSED]: (hvnsweeting) do not log at error lvl for ssh-keygen check command [Minor Change], [Tests Passed]
+* ce4d97f Merge pull request #21289 from hvnsweeting/2014.7
+  * fa10a97 do not log at error lvl for check command
+
+PR #21275 [CLOSED]: (terminalmage) Fix invalid kwarg output [Minor Change], [Tests Passed]
+* da6eb8b Merge pull request #21275 from terminalmage/fix-invalid-kwargs
+  * 9e8ce47 Fix invalid kwarg output
+
+ISSUE #20970 [CLOSED]: (lorengordon) file.replace doesn't replace `pattern` when `repl` exists [Bug], [Medium Severity], [Regression]
+ISSUE #20603 [CLOSED]: (lorengordon) file.search always returns True? [Bug], [Confirmed], [High Severity]
+ISSUE #18612 [CLOSED]: (eliasp) 'file.replace' with 'append_if_not_found=True' grows file infinitely [Bug], [Fixed Pending Verification], [Medium Severity]
+PR #21050 [CLOSED]: (lorengordon) Fix file.replace regressions, fixes saltstack#20970 and saltstack#20603 [Master Change], [Tests Passed]
+* 8379e51 Merge pull request #21050 from lorengordon/fix-file-search-regression
+  * 5bcf157 Check file before making changes, create backup only if necessary
+  * fef427b Fix file.replace regressions, fixes saltstack#20970 and saltstack#20603
+
+PR #21253 [CLOSED]: (freimer) Fix for Python (Win32) without a signal.SIGKILL 
+* aa03bac Merge pull request #21253 from freimer/issue_21057_2014.7
+  * 580afe7 Fix for Python (Win32) without a signal.SIGKILL
+
+PR #21242 [CLOSED]: (jfindlay) indent quoted code in cmdmod tests [Minor Change], [Tests Passed]
+* 8e63572 Merge pull request #21242 from jfindlay/cmd_tests
+  * a6b86ef indent quoted code in cmdmod tests
+
+PR #21182 [CLOSED]: (ndenev) Make sure tmp_dir does not end in a slash, and remove extra escapes. [Minor Change], [Tests Passed]
+* 5f3b818 Merge pull request #21182 from ndenev/2014.7
+  * d243c36 Merge remote-tracking branch 'upstream/2014.7' into 2014.7
+
+PR #21200 [CLOSED]: (UtahDave) Cherry pick back to 2014.7 branch - convert datetime objects to strings 
+* 6577a20 Merge pull request #21200 from UtahDave/2014.7local
+  * fc1c17b convert datetime objects to strings
+
+ISSUE #18436 [CLOSED]: (pass-by-value) Presence event returns with an empty list [Bug], [Documentation], [Fixed Pending Verification]
+PR #21179 [CLOSED]: (whiteinge) Improved presence docs; added cross-references and localhost caveat [Minor Change], [Tests Passed]
+* 0eaaf87 Merge pull request #21179 from whiteinge/doc-presence-cross-ref-localhost-prob
+  * 4d974d9 Improved presence docs; added cross-references and localhost caveat
+  * b586f07 convert datetime objects to strings
+  * 14af3e9 Improved presence docs; added cross-references and localhost caveat
+  * 026bd1b Consistently escape tmp_dir where it's used in root_cmd(). Also use single quotes to avoid problems with shells like tcsh which don't seem to like double quotes.
+  * e857425 - Make sure tmp_dir does not end in a slash. - Avoid escaping tmp_dir as this causes issues on FreeBSD's tcsh shell   (default for root). Also this is more consistent with rest of the code   where tmp_dir is not escaped.
+
+PR #21125 [CLOSED]: (jfindlay) add cmd module integration tests [Minor Change]
+* 5bbc21f Merge pull request #21125 from jfindlay/cmd_tests
+  * 17b8f73 add cmd module integration tests
+
+PR #21151 [CLOSED]: (s0undt3ch) [2014.7] Update bootstrap script to latest stable, v2015.02.28 [Minor Change], [Tests Passed]
+* 36776e7 Merge pull request #21151 from s0undt3ch/2014.7
+  * 0e5adac Update bootstrap script to latest stable, v2015.02.28
+
+ISSUE #496 [CLOSED]: (syphernl) apache.version shows 'apache2ctl' if Apache is missing 
+PR #21103 [CLOSED]: (s0undt3ch) [2014.7] Update the bootstrap script to latest stable v2015.02.27 
+PR #533 [CLOSED]: (syphernl) Only load nginx on machines that have nginx installed 
+* a3bd5f6 Merge pull request #21103 from s0undt3ch/2014.7
+  * 6248c6e Update the bootstrap script to latest stable v2015.02.27
+
+ISSUE #21039 [OPEN]: (jond64) non zero return code with salt-call --retcode-passthrough and ignore_retcode=True [Bug], [Medium Severity]
+PR #21095 [CLOSED]: (jond64) Fix for #21039 [Minor Change]
+* 1efcf40 Merge pull request #21095 from jond64/fix-for-21039
+  * 0a0f3f9 Fix for #21039
+
+PR #21058 [CLOSED]: (terminalmage) Support Chocolatey 0.9.9+ [Medium Change]
+* 7892d62 Merge pull request #21058 from terminalmage/fix-chocolatey-0.9.9
+  * ae5cad1 Add imp to windows freezer_includes
+  * 43e15d8 Support Chocolatey 0.9.9+
+
+ISSUE #21067 [CLOSED]: (RobertFach) mount state change detection issue, doesn't support user=XX option (2014.7.x) [Bug], [Fixed Pending Verification], [Medium Severity]
+PR #21070 [CLOSED]: (RobertFach) fixed issue where user option is internally transformed to username whic... [Minor Change], [Tests Passed]
+* 4d47b17 Merge pull request #21070 from RobertFach/fix-21067-mount-user-parameter
+  * 23524ea fixed identation
+  * 03ec03e fixed issue where user option is internally transformed to username which is what /proc/mounts reports for cifs mounts
+
+ISSUE #21043 [CLOSED]: (RobertFach) lvm state/module functions report invalid change data (2014.7.x) [Bug], [Fixed Pending Verification], [Medium Severity]
+PR #21076 [CLOSED]: (RobertFach) fixed invalid changes data issue [Minor Change]
+* f735a35 Merge pull request #21076 from RobertFach/fix-21043-lvm-invalid-change-data
+  * c943195 fixed invalid changes data issue
+
+PR #21077 [CLOSED]: (terminalmage) Add missing function config.gather_bootstrap_script [Minor Change], [Tests Passed]
+* 84a20d7 Merge pull request #21077 from terminalmage/add-bootstrap
+  * 3e276d9 add missing import
+  * c9eb0dc add argument explanation to docstring
+  * a3b0549 Add missing config.gather_bootstrap_script
+
+ISSUE #21068 [CLOSED]: (RobertFach) Forced remount because options changed when no options changed (option=[auto,users]) (2014.7) [Bug], [Fixed Pending Verification], [Medium Severity]
+PR #21069 [CLOSED]: (RobertFach) added options auto, users to mount invisible options [Minor Change]
+* bc4c1fa Merge pull request #21069 from RobertFach/fix-21068-mount-auto-users
+  * f42cd1c added options auto, users to mount invisible options
+
+PR #21063 [CLOSED]: (jond64) Backport #16306 to 2014.7 [Medium Change]
+PR #16306 [CLOSED]: (hathawsh) This patch fixes the 'test' mode of the 'network' state module. [Bugfix - [Done] back-ported]
+* c302796 Merge pull request #21063 from jond64/bp-16306
+  * 3c061ac Fix the 'test' mode of the 'network' state module.  It hit false positives due to inconsistent newline handling.
+
+ISSUE #21051 [CLOSED]: (lorengordon) TypeError in file.replace if the pattern is a string of numbers [Bug], [Execution Module], [Fixed Pending Verification]
+PR #21052 [CLOSED]: (lorengordon) Convert `pattern` to string, fixes saltstack#21051 [Medium Change]
+* 70276a9 Merge pull request #21052 from lorengordon/file-replace-convert-pattern-to-string
+  * 3d5d594 Convert `pattern` to string, fixes saltstack#21051
+
+ISSUE #21021 [CLOSED]: (JPT580) Bad gitfs_remote breaks sls-files in subdirectories for state.(sls|highstate) [Bug], [Medium Severity]
+ISSUE #20993 [CLOSED]: (nesv) Documentation: add note for SSH URLs when using dulwich as the gitfs_provider [Documentation], [Low-Hanging Fruit]
+ISSUE #20896 [CLOSED]: (jasonrm) gitfs locking issues [Bug], [Fixed Pending Verification], [Medium Severity], [Regression]
+ISSUE #20785 [CLOSED]: (eliasp) branches/environments from via GitFS are only added/deleted on salt-master restart [Bug], [Medium Severity]
+ISSUE #18839 [CLOSED]: (martinhoefling) Copying files from gitfs in file.recurse state fails / is slow [Bug], [Medium Severity]
+ISSUE #17945 [CLOSED]: (mclarkson) 2014.7.0 fileserver.update returns error [Bug], [Medium Severity]
+PR #20854 [CLOSED]: (terminalmage) VCS fileserver backend fixes/optimizations [Expert Change], [Pending Discussion], [Tests Passed]
+PR #20141 [CLOSED]: (crasu) Fix file locking for gitfs see #18839 [Expert Change]
+* 49cf39e Merge pull request #20854 from terminalmage/issue20785
+  * d54a04d Catch FileserverConfigError exceptions on master startup
+  * 9b2c90c svnfs: Raise exceptions on invalid configuration
+  * 6f24106 hg: Raise exceptions on invalid configuration
+  * 9ffdd40 gitfs: Raise exceptions on invalid configuration
+  * 8bc7a41 Fix missing space in log message
+  * 6322d15 Add FileserverConfigError exception class
+  * a2452aa gitfs: Add warning about ssh:// URLs (dulwich)
+  * 256786c gitfs: Support ssh:// URLs for dulwich
+  * 852c298 fix missing import
+  * 1a74097 Fix CLI example for fileserver.clear_cache runner
+  * a653025 Lint fixes
+  * e7a3142 Fix spurious error in master log
+  * d2c543c Log success/failure in dealing with lockfiles in their actual functions
+  * 7f96812 Add salt.fileserver.gitfs.lock()
+  * 2e07dc0 Add salt.fileserver.svnfs.lock()
+  * db85cd4 Improve salt fileserver documentation
+  * a183521 Add salt.runners.fileserver.lock()
+  * d07e21f Add salt.runners.fileserver.{,empty_}dir_list
+  * 1b7ca48 Add a backend argument for salt.runners.fileserver.{file,symlink}_list
+  * 8d1214a Add function in Fileserver class to invoke fsb.lock
+  * 9550596 Add salt.fileserver.hgfs.lock()
+  * b488952 Support fileserver backend passed in load for fileserver operations
+  * 1781534 Use new clear_lock() function to clear update lock in update()
+  * eeb0a4d svnfs: Avoid 2nd init() by returning repos from _clear_old_remotes
+  * 28663dc hgfs: Avoid 2nd init() by returning repos from _clear_old_remotes
+  * 8d64a41 gitfs/hgfs/svnfs: Rewrite _clear_old_remotes()
+  * 6c6021d Log an error if unexpected files are found in gitfs/hgfs/svnfs cachedir
+  * 1c17e37 Move hgfs update lock out of hg checkout
+  * c959dee Fix traceback in salt.fileserver.hgfs.init()
+  * bd42dcb Add logging noting which remote is being fetched
+  * f0c27d3 Use shorter version of salt-run command in warning
+  * 4dc9271 Add salt.fileserver.svnfs.clear_lock()
+  * 7c3788d Add salt.fileserver.hgfs.clear_lock()
+  * 15a9e84 Allow "fs" versions of VCS backends to work as arguments to fileserver runner functions
+  * 74a6737 fix broken salt.utils.is_fcntl_available
+  * ce36802 add fileserver.clear_lock runner
+  * 6de88fc Add function in Fileserver class to invoke fsb.clear_lock
+  * 19f52b0 Add salt.fileserver.gitfs.clear_lock()
+  * 7c3bb8b Revert file locking code from PR #20141
+  * 61cfed6 Add example of clearing gitfs cache pre-2015.2.0
+  * 5bb28b6 Add note about dulwich gitfs cache incompatibility
+  * 96d4151 runners.fileserver.clear_cache: display success and errors separately
+  * 259c498 fileserver.clear_cache: return success and errors separately
+  * 8a3f9ea svnfs.clear_cache: return errors instead of ignoring
+  * cad06a9 hgfs.clear_cache: return errors instead of ignoring
+  * 7dbb5a5 gitfs.clear_cache: return errors instead of ignoring
+  * fc4f4e3 Add fileserver.clear_cache runner
+  * 4a6c538 Add function in Fileserver class to invoke fsb.clear_cache
+  * 154af97 Add salt.fileserver.svnfs.clear_cache()
+  * 601a589 Add salt.fileserver.hgfs.clear_cache()
+  * 64f6efa Add salt.fileserver.gitfs.clear_cache()
+  * 32db86c gitfs: fix new branch detection (pygit2)
+  * 129851e gitfs: fix new branch detection (GitPython)
+
+ISSUE #18358 [CLOSED]: (msciciel) Problem with batch execution [Bug], [Fixed Pending Verification], [High Severity], [Pending Discussion]
+PR #21023 [CLOSED]: (rallytime) Backport #19303 to 2014.7 [Minor Change], [Tests Passed]
+PR #19303 [CLOSED]: (cachedout) Batch ckminions [Bugfix - [Done] back-ported]
+* 87c6e0c Merge pull request #21023 from rallytime/bp-19303
+  * 565f109 Add transport key to mocked opts to fix batch unit tests
+  * 011f8c4 Adjust batch test
+  * bf2b8de Just use ckminions in batch mode.
+
+ISSUE #18317 [CLOSED]: (mikn) Argument lists for module calls through publish.publish does not work any more [Bug], [Fixed Pending Verification], [High Severity], [Regression]
+PR #21047 [CLOSED]: (jfindlay) simplify yaml parsing for publish module [Medium Change]
+PR #20992 [CLOSED]: (jfindlay) fix arg preparation for publish module [Master Change]
+* 1572b80 Merge pull request #21047 from jfindlay/pub_args
+  * e2e59da simplify yaml parsing for publish module
+
+ISSUE #20418 [OPEN]: (Xiol) Permission denied error on salt-ssh deploy dir [Bug], [Medium Severity], [Salt-SSH]
+PR #21034 [CLOSED]: (basepi) [2014.7] Fix for salt-ssh without command line parsers [Minor Change], [Tests Passed]
+* c6ddfa2 Merge pull request #21034 from basepi/salt-ssh-salt-api-20418
+  * 1700d0c Fix for salt-ssh without command line parsers
+
+PR #21032 [CLOSED]: (rallytime) Backport #21024 to 2014.7 [Minor Change], [Tests Passed]
+PR #21024 [CLOSED]: (ptonelli) fix set_locale when no locale is defined initially in RedHat family [Bugfix - [Done] back-ported], [Minor Change]
+* d5a98f3 Merge pull request #21032 from rallytime/bp-21024
+  * ea90e4e Pylint fix
+  * 6ffffed use file.replace instead of file.sed
+  * 4e338a0 fix set_locale when locale file does not exist (in RedHat family)
+
+ISSUE #21012 [CLOSED]: (hackel) mongodb module incompatible with MongoDB 3.0 RCs [Bug], [Fixed Pending Verification], [Medium Severity]
+PR #21028 [CLOSED]: (rallytime) Use LooseVersion instead of StrictVersion to use an RC version of MongoDB [Minor Change], [Tests Passed]
+* 9eaac2b Merge pull request #21028 from rallytime/fix-21012
+  * aedc911 Use LooseVersion instead of StrictVersion to use an RC version of MongoDB
+
+PR #21022 [CLOSED]: (nitti) correctly count active devices when creating a mdadm array with spares [Minor Change], [Tests Passed]
+* 92a71b7 Merge pull request #21022 from nitti/2014.7
+  * 0753901 correctly count raid devices when creating an array with spares
+
+ISSUE #18317 [CLOSED]: (mikn) Argument lists for module calls through publish.publish does not work any more [Bug], [Fixed Pending Verification], [High Severity], [Regression]
+PR #20992 [CLOSED]: (jfindlay) fix arg preparation for publish module [Master Change]
+* 90eb36e Merge pull request #20992 from jfindlay/pub_args
+  * 5dace8f add integration test for #18317
+  * cec5ba3 improve publish arg yamlifying, fixes #18317
+
+PR #21002 [CLOSED]: (rallytime) Moar digitalocean tests [Minor Change]
+* 009012f Merge pull request #21002 from rallytime/moar_digitalocean_tests
+  * e5c4cf8 Move tearDown functionality into test_instance
+  * b2bc55f Add some more tests to catch API changes for digital ocean
+
+PR #21013 [CLOSED]: (wt) Add version to a deprecation log message. 
+* 117d335 Merge pull request #21013 from wt/2014.7_add_log_for_yaml_filter
+  * 28b47c1 Add version to a deprecation log message.
+
+ISSUE #18725 [CLOSED]: (wrigtim) salt.modules.kmod.remove - 'modprobe -r' will not remove a module if the .ko is missing [Bug], [Fixed Pending Verification], [Low Severity], [Low-Hanging Fruit]
+PR #20984 [CLOSED]: (rallytime) Switch modprobe -r to rmmod in kmod.remove [Minor Change], [Tests Passed]
+* 5a5f38a Merge pull request #20984 from rallytime/fix-18725
+  * 931f555 Switch modprobe -r to rmmod in kmod.remove
+
+PR #20990 [CLOSED]: (joehoyle) Backport fix #20987 [Minor Change]
+PR #20987 [CLOSED]: (joehoyle) Fix typo in s3fs fix [Minor Change]
+* 8a03484 Merge pull request #20990 from joehoyle/fix-typo-s3fs-backport
+  * f0ba7ee Fixed typo, doh!
+
+ISSUE #20276 [CLOSED]: (mventimi) salt-ssh operations fail with "'msgpack' not defined" error [Bug], [Medium Severity], [Salt-SSH]
+PR #20983 [CLOSED]: (basepi) [2014.7] Backport #20304 to catch msgpack errors in cmd.run 
+PR #20304 [CLOSED]: (basepi) [2015.2] Catch msgpack errors from cmd.run for salt-ssh 
+* 349ae2b Merge pull request #20983 from basepi/backport_20304
+  * d289084 Backport #20304 to catch msgpack errors in cmd.run in 2014.7
+
+PR #20957 [CLOSED]: (jfindlay) adding cmd.run integration tests [Minor Change]
+* 00e3dc3 Merge pull request #20957 from jfindlay/cmd_tests
+  * 5ab5380 adding cmd.run integration tests
+
+PR #20937 [CLOSED]: (wt) Log when the yaml filter outputs trailing ellipsis. [Minor Change], [Tests Passed]
+* 2cbf8e9 Merge pull request #20937 from wt/2014.7_add_log_for_yaml_filter
+  * f037dcf Log when the yaml filter outputs trailing ellipsis.
+
+PR #20954 [CLOSED]: (rallytime) Backport #20891 to 2014.7 [Minor Change], [Tests Passed]
+PR #20891 [CLOSED]: (jfindlay) pylint #20814 [Bugfix - [Done] back-ported], [Minor Change]
+* 34f83ee Merge pull request #20954 from rallytime/bp-20891
+  * 213ef3d fix lint
+  * b0a4e48 Fix disk.usage for Synology OS
+
+PR #20953 [CLOSED]: (rallytime) Backport #20888 to 2014.7 [Minor Change]
+PR #20888 [CLOSED]: (jfindlay) pylint #20885 [Bugfix - [Done] back-ported], [Minor Change], [Tests Passed]
+* 1fa8c7a Merge pull request #20953 from rallytime/bp-20888
+  * e9ff8ff fix lint
+  * 86029e7 Trim the env base off the dest file path in the s3fs fileserver
+
+PR #20951 [CLOSED]: (rallytime) Backport #20837 to 2014.7 [Minor Change]
+PR #20837 [CLOSED]: (viktorkrivak) Fix multi comps and multi dist bugs [Bugfix - [Done] back-ported], [Minor Change]
+* dfef980 Merge pull request #20951 from rallytime/bp-20837
+  * 5d1bc21 Fix multi comps and multi dist bugs
+
+ISSUE #20921 [CLOSED]: (bbinet) 2014.7 regression: InvalidRepository: Invalid repository name (debian:wheezy) [Bug], [Medium Severity]
+PR #20922 [CLOSED]: (bbinet) 2014.7: fix issue 20921 [Minor Change], [Tests Passed]
+* 55e7927 Merge pull request #20922 from bbinet/2014.7_fix20921
+  * c0f9b9d Fixed problem with tags occuring twice with docker.pulled
+  * c53ce9d Docker: improve tags support
+
+PR #20895 [CLOSED]: (bechtoldt) fix wrong dict access in smtp returner in 2014.7 
+* 081867c Merge pull request #20895 from bechtoldt/2014.7
+  * 8ee52d6 fix wrong dict access in smtp returner, that is already fixed in 2015.2 and later
+
+PR #20880 [CLOSED]: (thatch45) fix bug from systems without any legacy init scripts 
+* 964e77e Merge pull request #20880 from thatch45/systemd_listdir
+  * 626e13a fix bug from systems without any legacy init scripts
+
+ISSUE #20863 [CLOSED]: (clinta) listen and require conflict [Bug], [Medium Severity], [State Module]
+PR #20881 [CLOSED]: (thatch45) Remove requisites from listen post calls 
+* 9401b24 Merge pull request #20881 from thatch45/listen_req
+  * 44cda29 Remove requisites from listen post calls
+
+ISSUE #20855 [CLOSED]: (jrgp) Loopback filesystems always remount (option=loop) regardless of zero changes (2014.7) [Bug], [Medium Severity]
+PR #20856 [CLOSED]: (jrgp) Don't remount loop back filesystems upon every state run [Minor Change], [Tests Passed]
+* e6f1eb0 Merge pull request #20856 from jrgp/2014.7
+  * 8dbfed6 Don't remount loop back filesystems upon every state run
+
+ISSUE #20742 [CLOSED]: (transmutated) Broken Dependencies for new salt installation on Redhat/CentOS 5.X using epel5 repo [Bug], [Fixed Pending Verification], [High Severity], [Packaging]
+PR #20866 [CLOSED]: (terminalmage) Update the RHEL installation guide [Tests Passed]
+* abda600 Merge pull request #20866 from terminalmage/issue20742
+  * 396e234 Update the RHEL installation guide
+
+PR #20848 [CLOSED]: (rallytime) Integration tests for the new requisites added in 2014.7 [Medium Change], [Tests Passed]
+* ca79845 Merge pull request #20848 from rallytime/new_requisites_tests
+  * c3f786c listen and listen_in requisite tests
+  * 1437c9a onfail and onfail_in requisite tests
+  * 208b490 Onchanges and onchanges_in requisite tests!
+  * 8f0e80b Add one onchanges requisite test
+
+PR #20847 [CLOSED]: (rallytime) Add listen and listen_in to state internal kwargs [Minor Change], [Tests Passed]
+* c9b766c Merge pull request #20847 from rallytime/state_kwargs
+  * 5d22cba Add listen and listen_in to state internal kwargs
+
+PR #20839 [CLOSED]: (rallytime) Backport #20608 to 2014.7 [Minor Change], [Tests Passed]
+PR #20608 [CLOSED]: (cachedout) Avoid trying to deserialize empty files [Bugfix - [Done] back-ported], [Minor Change]
+* e0ba92f Merge pull request #20839 from rallytime/bp-20608
+  * e4ced3e Avoid trying to deserialize empty files
+
+PR #20842 [CLOSED]: (thatch45) Add requisite ins to state internal kwargs [Minor Change]
+* 2ef28c7 Merge pull request #20842 from thatch45/state_kwargs
+  * 97cda22 Add requisite ins to state internal kwargs
+
+PR #20834 [CLOSED]: (peresadam) Fixed dict unpacking in salt.utils.format_call [Minor Change], [Tests Passed]
+* e488572 Merge pull request #20834 from peresadam/fix_format_call_2014.7
+  * b50497b Fixed dict unpacking in salt.utils.format_call
+
+ISSUE #20828 [OPEN]: (RobertFach) Forced remount because options changed when no options changed (option=nointr) (2014.7) [Bug], [Medium Severity]
+PR #20831 [CLOSED]: (RobertFach) added nointr invisible mount option [Minor Change], [Tests Passed]
+* 3f42cf3 Merge pull request #20831 from RobertFach/fix-20828-mount-nointr
+  * 6855ca1 added nointr invisible mount option
+
+ISSUE #20612 [CLOSED]: (jfindlay) always change 'text' outputter to 'txt' [Bug], [Low Severity]
+PR #20613 [CLOSED]: (jfindlay) change incorrect 'text' outputter to 'txt' [Minor Change], [Tests Passed]
+* 7d44aaa Merge pull request #20613 from jfindlay/fix_output
+  * 0d6663b conform shell integration tests to txt runner
+  * f202aaf change incorrect 'text' outputter to 'txt'
+
+PR #20813 [CLOSED]: (rallytime) Update Arch installation docs to reference salt-zmq and salt-raet pkgs 
+* 71ccd5e Merge pull request #20813 from rallytime/arch_installation_docs
+  * 9322d3b Update Arch installation docs to reference salt-zmq and salt-raet pkgs
+
+PR #20810 [CLOSED]: (rallytime) Add 2014.7.2 package links to the windows installer docs [Minor Change]
+* f669b25 Merge pull request #20810 from rallytime/windows_install_docs_update
+  * 928bb30 Add 2014.7.2 package links to the windows installer docs
+
+PR #20800 [CLOSED]: (rallytime) Backport #20768 to 2014.7 [Medium Change]
+PR #20768 [CLOSED]: (vladislav-jomedia) "dictionary changed size during iteration" issue fixed in config.py for ... [Bugfix - [Done] back-ported], [Medium Change], [Tests Passed]
+* 2cf898e Merge pull request #20800 from rallytime/bp-20768
+  * 30616de Update config.py
+  * 89fd8ee "dictionary changed size during iteration" issue fixed in config.py for salt-cloud
+
+ISSUE #18943 [CLOSED]: (Diaoul) Synology support [Bug]
+PR #20778 [CLOSED]: (terminalmage) Add Synology OS detection [Medium Change], [Tests Passed]
+* 90ef4d7 Merge pull request #20778 from terminalmage/issue18943
+  * bd65632 Add Synology OS detection
+
+ISSUE #20747 [CLOSED]: (jayeshka) The function "get_rule_handle" in nftables module throw "Referenced before assignment" error. [Bug], [Medium Severity]
+PR #20762 [CLOSED]: (jfindlay) fix nftables.get_rule_handle return error [Minor Change], [Tests Passed]
+* 5ad79ae Merge pull request #20762 from jfindlay/fix_nftables
+  * 6708cf1 fix nftables.get_rule_handle return error
+
+PR #20765 [CLOSED]: (rallytime) Backport #20706 to 2014.7 [Minor Change], [Tests Passed]
+PR #20706 [CLOSED]: (Achimh3011) Make systemd impl. of service.running aware of legacy service units [Bugfix - [Done] back-ported], [Minor Change], [Tests Passed]
+* 8fda896 Merge pull request #20765 from rallytime/bp-20706
+  * 5d9ecaa Fix pep8 issues.
+  * 40d6963 Make systemd implementation of service.running aware of legacy service units.
+
+ISSUE #16510 [OPEN]: (UtahDave) publish.publish completely unreliable in 2014.7 branch [Bug], [Medium Severity], [ZD]
+PR #20739 [CLOSED]: (mikn) Giving publish.publish more robust return handling [Medium Change], [Tests Passed]
+* 237f804 Merge pull request #20739 from mikn/publish_return_fixes
+  * 5fab631 Removing some redundant code. This was moved to be above the loop exit
+  * 892db93 Giving publish.publish more robust handling of returns making sure that it can cope with duplicate responses and actually return what it has received if it reaches the timeout
+
+PR #20689 [CLOSED]: (rallytime) Backport #20457 to 2014.7 [Medium Change], [Tests Passed]
+PR #20457 [CLOSED]: (cachedout) Iterate over the socket copy [Bugfix - [Done] back-ported], [Medium Change], [Tests Passed]
+* 078865a Merge pull request #20689 from rallytime/bp-20457
+  * 1ab4d99 Use list instead
+  * e4fd27a Iterate over the socket copy
+
+PR #20697 [CLOSED]: (whiteinge) Add note to rest_cherrypy instructions: restarting daemons is required 
+* bdbb23d Merge pull request #20697 from whiteinge/doc-rest_cherrypy-install-usage
+  * 54e61e0 Minor clarifications to the rest_cherrypy setup/usage instructions
+  * 561ea7c Add note to rest_cherrypy instructions: restarting daemons is required
+
+PR #20684 [CLOSED]: (rallytime) Backport #20232 to 2014.7 [Minor Change], [Tests Passed]
+PR #20232 [CLOSED]: (jacksontj) Remove unecessary finish() calls [Bugfix - [Done] back-ported]
+PR #20221 [CLOSED]: (cachedout) Remove finish [DO NOT MERGE] 
+* 6c2ac49 Merge pull request #20684 from rallytime/bp-20232
+  * 8d63ac4 Remove unecessary finish() calls
+
+ISSUE #14799 [OPEN]: (lparmentier-quatral) Salt Cloud 2014.7 Provider issue [Bug], [Medium Severity], [Salt-Cloud]
+PR #20682 [CLOSED]: (rallytime) Add dependency notice to proxmox.rst 
+* f00a85a Merge pull request #20682 from rallytime/proxmox_docs
+  * 4805677 Add dependency notice to proxmox.rst
+
+PR #20671 [CLOSED]: (whiteinge) Reactor docs updates 
+* cc544e5 Merge pull request #20671 from whiteinge/doc-reactor-updates
+  * 37017a5 Replace doc examples for event.fire_master with event.send
+  * f0b5ddb Updated Reactor docs to reference state.event instead of eventlisten
+
+PR #20641 [CLOSED]: (whiteinge) Updated the event docs with the current Python API and more examples [Medium Change], [Tests Passed]
+* b898539 Merge pull request #20641 from whiteinge/doc-events
+  * 7de5f9d Updated the event docs with the current Python API and more examples
+
+PR #20640 [CLOSED]: (rallytime) Change the release notes title to 2014.7.2 
+* f4a6b35 Merge pull request #20640 from rallytime/fix_release_note_title
+  * 3f9af9f Change the release notes title to 2014.7.2
+
+PR #20633 [CLOSED]: (sbrandtb) Fixed wrong placement of speechmarks 
+* f79108b Merge pull request #20633 from sbrandtb/fix_locale_speechmarks
+  * 2fdb798 Fixed wrong placement of speechmarks
+
+PR #20616 [CLOSED]: (rallytime) Merge #20419 with test syntax fix [Medium Change], [Tests Passed]
+PR #20419 [CLOSED]: (hvnsweeting) bugfix: module function cmd.which would be wrong if arg is a dirname [Minor Change]
+* 9e054f3 Merge pull request #20616 from rallytime/merge-20419
+  * 6b2d64b Fix second pylint error that popped up
+  * 789570f Fix pylint/syntax of test in which_test to merge #20419
+  * d10ce3a fix unittest for windows
+  * 76e9be1 bugfix: module function cmd.which would be wrong if arg is a dirname
+
+ISSUE #20552 [CLOSED]: (resolan) Kali systems integration for pkg states [Bug], [Fixed Pending Verification], [Low Severity], [Low-Hanging Fruit]
+PR #20604 [CLOSED]: (basepi) [2014.7] Accept kali linux for aptpkg.py [Minor Change], [Tests Passed]
+* 2ec7191 Merge pull request #20604 from basepi/kali_linux_20552
+  * 0d1c0ab Accept kali linux for aptpkg.py
+
+PR #20591 [CLOSED]: (rallytime) Backport #20568 to 2014.7 [Minor Change], [Tests Passed]
+PR #20568 [CLOSED]: (cachedout) Last time with find removed [Bugfix - [Done] back-ported]
+* 3d60f75 Merge pull request #20591 from rallytime/bp-20568
+  * cffbca4 Pylint fix - remove unused import
+  * 194ad0f Last time with find removed
+
+PR #20578 [CLOSED]: (rallytime) Backport #20561 to 2014.7 [Medium Change], [Tests Passed]
+PR #20561 [CLOSED]: (cachedout) Disable gitfs test that does not produce valuable data [Bugfix - [Done] back-ported]
+* a4572f3 Merge pull request #20578 from rallytime/bp-20561
+  * 836b525 Disable gitfs test that does not produce valuable data
+
+PR #20579 [CLOSED]: (rallytime) Backport #20567 to 2014.7 
+PR #20567 [CLOSED]: (cachedout) Remove another test. [Bugfix - [Done] back-ported]
+* 45301d3 Merge pull request #20579 from rallytime/bp-20567
+  * c41998c Remove another test.
+
+ISSUE #20508 [CLOSED]: (bechtoldt) Backport ipv6 addr validation fix into 2014.7 [Bug], [Medium Severity]
+PR #20509 [CLOSED]: (bechtoldt) fix broken ipv6 address verification in salt.utils.validate.net, fixes #20508 [Medium Change], [Tests Passed]
+* 073d717 Merge pull request #20509 from bechtoldt/2014.7-arbe
+  * 9de6c1d improve test tests/unit/utils/validate_net_test.py useability
+  * 50ecfef do call class methods correctly
+  * 2c5f5f8 fix pep8 lint checks, refs #20508
+  * ef7834d fix broken ipv6 address verification in salt.utils.validate.net
+
+ISSUE #20499 [CLOSED]: (eliasp) "UnicodeDecodeError" in 'fileserver.file_list()' [Bug], [Medium Severity]
+PR #20500 [CLOSED]: (eliasp) Use same string encoding for results from all fileserver backends. [Medium Change], [Tests Passed]
+* ad370bc Merge pull request #20500 from eliasp/2014.7-issue-20499-fileserver-encoding
+  * 4951b78 Use same string encoding for results from all fileserver backends.
+
+PR #20534 [CLOSED]: (rallytime) Backport #20454 to 2014.7 [Minor Change], [Tests Passed]
+PR #20454 [CLOSED]: (scream3) RVM user-only installation is broken [Bugfix - [Done] back-ported]
+* 523a8f8 Merge pull request #20534 from rallytime/bp-20454
+  * f1aa693 Fix wrong check for rvm script existence
+
+PR #20533 [CLOSED]: (rallytime) Backport #20521 to 2014.7 [Minor Change], [Tests Passed]
+PR #20521 [CLOSED]: (umeboshi2) don't use empty string as command parameter [Bugfix - [Done] back-ported], [Minor Change], [Tests Passed]
+* a6fa35a Merge pull request #20533 from rallytime/bp-20521
+
+* 3fc398e don't use empty string as command parameter
