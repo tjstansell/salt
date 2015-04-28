@@ -10,31 +10,31 @@ Changes for 2014.7.5:
   pulling 3 issues:
   ...
 
-Changes related to merged PR `#22754`_
+Changes related to merged PR `#22754`_:
 
-- PR `#22754`_ ``CLOSED``: (twangboy) Removed redundant \ and " ``[Minor Change]``
+  PR `#22754`_ **CLOSED**: (twangboy) Removed redundant \ and " ``[Minor Change]``
 
   * 1fb606e Merge pull request `#22754`_ from twangboy/fix_bat_again
 
     * 223c46a Removed redundent \ and "
 
-Changes related to merged PR `#22748`_
+Changes related to merged PR `#22748`_:
 
-- ISSUE `#22740`_ ``CLOSED``: (lorengordon) New Windows installer assumes salt is installed to the current directory ``[Bug]``, ``[Fixed Pending Verification]``, ``[High Severity]``, ``[P1]``, ``[Platform Mgmt]``, ``[Windows]``
+  ISSUE `#22740`_ **CLOSED**: (lorengordon) New Windows installer assumes salt is installed to the current directory ``[Bug]``, ``[Fixed Pending Verification]``, ``[High Severity]``, ``[P1]``, ``[Platform Mgmt]``, ``[Windows]``
 
-- PR `#22748`_ ``CLOSED``: (twangboy) Changed %cd% to %~dp0 ``[Minor Change]``, ``[Tests Passed]``
+  PR `#22748`_ **CLOSED**: (twangboy) Changed %cd% to %~dp0 ``[Minor Change]``, ``[Tests Passed]``
 
   * 75348e5 Merge pull request `#22748`_ from twangboy/fix_bat
 
     * 2d3d0b1 Changed %cd% to %~dp0
 
-Changes related to merged PR `#22716`_
+Changes related to merged PR `#22716`_:
 
-- ISSUE `#17948`_ ``OPEN``: (eoyslebo) salt-call --local  pkg.list_pkgs does not list all installed programs on Windows ``[Bug]``, ``[Medium Severity]``, ``[Windows]``
+  ISSUE `#17948`_ **OPEN**: (eoyslebo) salt-call --local  pkg.list_pkgs does not list all installed programs on Windows ``[Bug]``, ``[Medium Severity]``, ``[Windows]``
 
-- ISSUE `#11341`_ ``OPEN``: (gtmacdonald) Windows pkg.list_pkgs not working ``[Bug]``, ``[Medium Severity]``, ``[Packaging]``, ``[Windows]``
+  ISSUE `#11341`_ **OPEN**: (gtmacdonald) Windows pkg.list_pkgs not working ``[Bug]``, ``[Medium Severity]``, ``[Packaging]``, ``[Windows]``
 
-- PR `#22716`_ ``CLOSED``: (twangboy) Removed list_pkgs caching ``[Minor Change]``
+  PR `#22716`_ **CLOSED**: (twangboy) Removed list_pkgs caching ``[Minor Change]``
 
   * 787ec88 Merge pull request `#22716`_ from twangboy/list_pkg_fix
 
@@ -42,63 +42,63 @@ Changes related to merged PR `#22716`_
 
     * 2ce35d2 Removed list_pkgs caching
 
-Changes related to merged PR `#22688`_
+Changes related to merged PR `#22688`_:
 
-- ISSUE `#22676`_ ``CLOSED``: (msteed) Options from cli help missing from manpages ``[Bug]``, ``[Documentation]``, ``[High Severity]``, ``[P3]``
+  ISSUE `#22676`_ **CLOSED**: (msteed) Options from cli help missing from manpages ``[Bug]``, ``[Documentation]``, ``[High Severity]``, ``[P3]``
 
-- PR `#22688`_ ``CLOSED``: (msteed) Add missing command line options to man pages ``[Medium Change]``, ``[Tests Passed]``
+  PR `#22688`_ **CLOSED**: (msteed) Add missing command line options to man pages ``[Medium Change]``, ``[Tests Passed]``
 
   * 3a5a60b Merge pull request `#22688`_ from msteed/issue-22676
 
     * 70f1ca9 Add missing command line options to man pages
 
-Changes related to merged PR `#22693`_
+Changes related to merged PR `#22693`_:
 
-- PR `#22693`_ ``CLOSED``: (dmyerscough) Fixing key error 
+  PR `#22693`_ **CLOSED**: (dmyerscough) Fixing key error 
 
   * fb31ab4 Merge pull request `#22693`_ from dmyerscough/fix-keyerror-in-salt-cloud
 
     * f35c3bd Fixing key error
 
-Changes related to merged PR `#22674`_
+Changes related to merged PR `#22674`_:
 
-- ISSUE `#22239`_ ``CLOSED``: (arthurlogilab) include --retcode-passthrough in man pages ``[Bug]``, ``[Documentation]``, ``[Low-Hanging Fruit]``, ``[Medium Severity]``, ``[P4]``
+  ISSUE `#22239`_ **CLOSED**: (arthurlogilab) include --retcode-passthrough in man pages ``[Bug]``, ``[Documentation]``, ``[Low-Hanging Fruit]``, ``[Medium Severity]``, ``[P4]``
 
-- PR `#22674`_ ``CLOSED``: (jacobhammons) Regenerated salt-call and salt.7 man pages ``[Master Change]``
+  PR `#22674`_ **CLOSED**: (jacobhammons) Regenerated salt-call and salt.7 man pages ``[Master Change]``
 
   * 23a9d77 Merge pull request `#22674`_ from jacobhammons/2014.7
 
     * 6e416fc Regenerated salt-call and salt.7 man pages Refs `#22239`_
 
-Changes related to merged PR `#22666`_
+Changes related to merged PR `#22666`_:
 
-- ISSUE `#22239`_ ``CLOSED``: (arthurlogilab) include --retcode-passthrough in man pages ``[Bug]``, ``[Documentation]``, ``[Low-Hanging Fruit]``, ``[Medium Severity]``, ``[P4]``
+  ISSUE `#22239`_ **CLOSED**: (arthurlogilab) include --retcode-passthrough in man pages ``[Bug]``, ``[Documentation]``, ``[Low-Hanging Fruit]``, ``[Medium Severity]``, ``[P4]``
 
-- PR `#22666`_ ``CLOSED``: (msteed) Update salt-call manpage to match cli help text ``[Minor Change]``, ``[Tests Passed]``
+  PR `#22666`_ **CLOSED**: (msteed) Update salt-call manpage to match cli help text ``[Minor Change]``, ``[Tests Passed]``
 
   * c0d1bdd Merge pull request `#22666`_ from msteed/issue_22239
 
     * 5efb284 Update salt-call manpage to match cli help text
 
-Changes related to merged PR `#22623`_
+Changes related to merged PR `#22623`_:
 
-- ISSUE `#21910`_ ``CLOSED``: (justyns) Salt-master too whitespace-sensitive when dealing with minion pub keys ``[Bug]``, ``[Fixed Pending Verification]``, ``[Low-Hanging Fruit]``, ``[Medium Severity]``, ``[P2]``
+  ISSUE `#21910`_ **CLOSED**: (justyns) Salt-master too whitespace-sensitive when dealing with minion pub keys ``[Bug]``, ``[Fixed Pending Verification]``, ``[Low-Hanging Fruit]``, ``[Medium Severity]``, ``[P2]``
 
-- PR `#22623`_ ``CLOSED``: (thatch45) merge 22115 in correct branch ``[Medium Change]``
+  PR `#22623`_ **CLOSED**: (thatch45) merge 22115 in correct branch ``[Medium Change]``
 
-- PR `#22115`_ ``CLOSED``: (douglas-vaz) Strip whitespace characters using strip() for pub key check ``[Medium Change]``, ``[Pending Discussion]``
+  PR `#22115`_ **CLOSED**: (douglas-vaz) Strip whitespace characters using strip() for pub key check ``[Medium Change]``, ``[Pending Discussion]``
 
   * edeec67 Merge pull request `#22623`_ from thatch45/merge_22115
 
     * 05a9f47 merge 22115 in correct branch
 
-Changes related to merged PR `#22656`_
+Changes related to merged PR `#22656`_:
 
-- PR `#22656`_ ``CLOSED``: (jfindlay) backport `#22624`_ to 2014.7 ``[Minor Change]``, ``[Tests Passed]``
+  PR `#22656`_ **CLOSED**: (jfindlay) backport `#22624`_ to 2014.7 ``[Minor Change]``, ``[Tests Passed]``
 
-- PR `#22624`_ ``CLOSED``: (rallytime) Backport `#22563`_ to 2015.2 ``[Minor Change]``, ``[Tests Passed]``
+  PR `#22624`_ **CLOSED**: (rallytime) Backport `#22563`_ to 2015.2 ``[Minor Change]``, ``[Tests Passed]``
 
-- PR `#22563`_ ``CLOSED``: (kaszuba) Fix for high cpu usage by salt-ssh ``[Bugfix - [Done]`` back-ported], ``[Medium Change]``, ``[Tests Passed]``
+  PR `#22563`_ **CLOSED**: (kaszuba) Fix for high cpu usage by salt-ssh ``[Bugfix - [Done]`` back-ported], ``[Medium Change]``, ``[Tests Passed]``
 
   * 795c01d Merge pull request `#22656`_ from jfindlay/`bp-22624`_
 
@@ -106,67 +106,67 @@ Changes related to merged PR `#22656`_
 
     * 0a5c345 Fix for high cpu usage by salt-ssh
 
-Changes related to merged PR `#22643`_
+Changes related to merged PR `#22643`_:
 
-- ISSUE `#22638`_ ``CLOSED``: (TimJones) pkgrepo.managed with ppa returns OK even though it fails ``[Bug]``, ``[Fixed Pending Verification]``, ``[High Severity]``, ``[P2]``, ``[Platform Mgmt]``
+  ISSUE `#22638`_ **CLOSED**: (TimJones) pkgrepo.managed with ppa returns OK even though it fails ``[Bug]``, ``[Fixed Pending Verification]``, ``[High Severity]``, ``[P2]``, ``[Platform Mgmt]``
 
-- PR `#22643`_ ``CLOSED``: (TimJones) Fix aptpkg.mod_repo returning OK even if apt-add-repository fails. ``[Minor Change]``, ``[Tests Passed]``
+  PR `#22643`_ **CLOSED**: (TimJones) Fix aptpkg.mod_repo returning OK even if apt-add-repository fails. ``[Minor Change]``, ``[Tests Passed]``
 
   * 9a2aca4 Merge pull request `#22643`_ from TimJones/fix-pkgrepo-ppa-missing-add-apt-repository
 
     * 5099621 Fix aptpkg.mod_repo returning OK even if apt-add-repository fails.
 
-Changes related to merged PR `#22625`_
+Changes related to merged PR `#22625`_:
 
-- PR `#22625`_ ``CLOSED``: (rallytime) Backport `#22565`_ to 2014.7 ``[Minor Change]``, ``[Tests Passed]``
+  PR `#22625`_ **CLOSED**: (rallytime) Backport `#22565`_ to 2014.7 ``[Minor Change]``, ``[Tests Passed]``
 
-- PR `#22565`_ ``CLOSED``: (kaszuba) Increase frequency of ssh terminal output checking ``[Bugfix - [Done]`` back-ported], ``[Medium Change]``, ``[Tests Passed]``
+  PR `#22565`_ **CLOSED**: (kaszuba) Increase frequency of ssh terminal output checking ``[Bugfix - [Done]`` back-ported], ``[Medium Change]``, ``[Tests Passed]``
 
   * a219be7 Merge pull request `#22625`_ from rallytime/`bp-22565`_
 
     * ecc14de Increase frequency of ssh terminal output checking
 
-Changes related to merged PR `#22621`_
+Changes related to merged PR `#22621`_:
 
-- ISSUE `#22359`_ ``CLOSED``: (kiorky) unless is not recognized as a state internal keyword ``[Bug]``, ``[Fixed Pending Verification]``, ``[Medium Severity]``
+  ISSUE `#22359`_ **CLOSED**: (kiorky) unless is not recognized as a state internal keyword ``[Bug]``, ``[Fixed Pending Verification]``, ``[Medium Severity]``
 
-- ISSUE `#21133`_ ``CLOSED``: (steverweber) iptables issue. 
+  ISSUE `#21133`_ **CLOSED**: (steverweber) iptables issue. 
 
-- ISSUE `#21120`_ ``CLOSED``: (kiorky) highstate changes spurious warnings ``[Bug]``, ``[Confirmed]``, ``[Medium Severity]``
+  ISSUE `#21120`_ **CLOSED**: (kiorky) highstate changes spurious warnings ``[Bug]``, ``[Confirmed]``, ``[Medium Severity]``
 
-- PR `#22621`_ ``CLOSED``: (rallytime) Add note about missing state internal keyword arguments to release notes 
+  PR `#22621`_ **CLOSED**: (rallytime) Add note about missing state internal keyword arguments to release notes 
 
-- PR `#22365`_ ``CLOSED``: (s0undt3ch) Include `unless` in the state internal keywords. ``[Medium Change]``
+  PR `#22365`_ **CLOSED**: (s0undt3ch) Include `unless` in the state internal keywords. ``[Medium Change]``
 
-- PR `#21164`_ ``CLOSED``: (s0undt3ch) Add `fun` and `state` to the runtime internal keywords listing ``[Medium Change]``, ``[Tests Passed]``
+  PR `#21164`_ **CLOSED**: (s0undt3ch) Add `fun` and `state` to the runtime internal keywords listing ``[Medium Change]``, ``[Tests Passed]``
 
   * 670c07b Merge pull request `#22621`_ from rallytime/release_note_change
 
     * fb03af3 Add note about missing state internal keyword arguments to release notes
 
-Changes related to merged PR `#22610`_
+Changes related to merged PR `#22610`_:
 
-- ISSUE `#18358`_ ``CLOSED``: (msciciel) Problem with batch execution ``[Bug]``, ``[Fixed Pending Verification]``, ``[High Severity]``, ``[Pending Discussion]``
+  ISSUE `#18358`_ **CLOSED**: (msciciel) Problem with batch execution ``[Bug]``, ``[Fixed Pending Verification]``, ``[High Severity]``, ``[Pending Discussion]``
 
-- PR `#22610`_ ``CLOSED``: (rallytime) Add batch matching bug note to known issues in 2014.7.4 release notes ``[Minor Change]``, ``[Tests Passed]``
+  PR `#22610`_ **CLOSED**: (rallytime) Add batch matching bug note to known issues in 2014.7.4 release notes ``[Minor Change]``, ``[Tests Passed]``
 
   * e24ffa0 Merge pull request `#22610`_ from rallytime/batch-bug_note
 
     * 9eb273f Add batch matching bug note to known issues in 2014.7.4 release notes
 
-Changes related to merged PR `#22608`_
+Changes related to merged PR `#22608`_:
 
-- PR `#22608`_ ``CLOSED``: (garethgreenaway) remount related fixes in 2014.7 ``[Minor Change]``, ``[Tests Passed]``
+  PR `#22608`_ **CLOSED**: (garethgreenaway) remount related fixes in 2014.7 ``[Minor Change]``, ``[Tests Passed]``
 
   * 953a625 Merge pull request `#22608`_ from garethgreenaway/19003_2014_7_mount_fixes
 
     * 2278930 Adding cvfs and any fuse based filesystem to the list of filesystems that should not be remounted, rather unmounted and mounted again.
 
-Changes related to merged PR `#22476`_
+Changes related to merged PR `#22476`_:
 
-- ISSUE `#21998`_ ``CLOSED``: (tjstansell) yum pkgrepo.managed basedir should default to reposdir location as specified in /etc/yum.conf ``[Feature]``
+  ISSUE `#21998`_ **CLOSED**: (tjstansell) yum pkgrepo.managed basedir should default to reposdir location as specified in /etc/yum.conf ``[Feature]``
 
-- PR `#22476`_ ``CLOSED``: (tjstansell) fix `#21998`_ - use yum reposdir as basedir defaults ``[Medium Change]``
+  PR `#22476`_ **CLOSED**: (tjstansell) fix `#21998`_ - use yum reposdir as basedir defaults ``[Medium Change]``
 
   * fe7ad0e Merge pull request `#22476`_ from tjstansell/`fix-21998`_
 
@@ -174,81 +174,81 @@ Changes related to merged PR `#22476`_
 
     * 8117e9f fix `#21998`_ - use yum reposdir as basedir defaults
 
-Changes related to merged PR `#22597`_
+Changes related to merged PR `#22597`_:
 
-- ISSUE `#12480`_ ``CLOSED``: (renecunningham) require sls fails when required state has single statement that shares state name. ``[Bug]``, ``[Low Severity]``
+  ISSUE `#12480`_ **CLOSED**: (renecunningham) require sls fails when required state has single statement that shares state name. ``[Bug]``, ``[Low Severity]``
 
-- PR `#22597`_ ``CLOSED``: (hvnsweeting) fix `#12480`_ ``[Expert Change]``, ``[Tests Passed]``
+  PR `#22597`_ **CLOSED**: (hvnsweeting) fix `#12480`_ ``[Expert Change]``, ``[Tests Passed]``
 
   * 289f6cb Merge pull request `#22597`_ from hvnsweeting/fix-sls-requisite-not-found
 
     * d03970f fix `#12480`_
 
-Changes related to merged PR `#22553`_
+Changes related to merged PR `#22553`_:
 
-- ISSUE `#15833`_ ``OPEN``: (tomasfejfar) git.latest does not check for HEAD existence ``[Bug]``, ``[Low-Hanging Fruit]``, ``[Medium Severity]``
+  ISSUE `#15833`_ **OPEN**: (tomasfejfar) git.latest does not check for HEAD existence ``[Bug]``, ``[Low-Hanging Fruit]``, ``[Medium Severity]``
 
-- PR `#22553`_ ``CLOSED``: (anlutro) Make git.latest work with empty source repositories ``[Minor Change]``, ``[Tests Passed]``
+  PR `#22553`_ **CLOSED**: (anlutro) Make git.latest work with empty source repositories ``[Minor Change]``, ``[Tests Passed]``
 
   * bd83b6c Merge pull request `#22553`_ from alprs/fix-git_latest_empty
 
     * 4f77f8a Make git.latest work with empty repositories
 
-Changes related to merged PR `#22576`_
+Changes related to merged PR `#22576`_:
 
-- ISSUE `#22329`_ ``CLOSED``: (batulin-s) Salt couldn't see the changes of accept_keywords. ``[Bug]``, ``[Fixed Pending Verification]``, ``[High Severity]``, ``[P3]``, ``[State Module]``
+  ISSUE `#22329`_ **CLOSED**: (batulin-s) Salt couldn't see the changes of accept_keywords. ``[Bug]``, ``[Fixed Pending Verification]``, ``[High Severity]``, ``[P3]``, ``[State Module]``
 
-- PR `#22576`_ ``CLOSED``: (batulin-s) fixed `#22329`_ bug ``[Minor Change]``
+  PR `#22576`_ **CLOSED**: (batulin-s) fixed `#22329`_ bug ``[Minor Change]``
 
   * 994f398 Merge pull request `#22576`_ from batulin-s/fix-checking-available-package-portage
 
     * 7123ea7 fixed checking of available version of package when accept_keywords were changed (`#22329`_ bug)
 
-Changes related to merged PR `#22584`_
+Changes related to merged PR `#22584`_:
 
-- PR `#22584`_ ``CLOSED``: (msusta) Fixed malformed locale string in localmod module ``[Minor Change]``
+  PR `#22584`_ **CLOSED**: (msusta) Fixed malformed locale string in localmod module ``[Minor Change]``
 
-- PR `#22362`_ ``CLOSED``: (msusta) Fixed malformed locale string in localmod module ``[Minor Change]``
+  PR `#22362`_ **CLOSED**: (msusta) Fixed malformed locale string in localmod module ``[Minor Change]``
 
   * a269334 Merge pull request `#22584`_ from msusta/`bp-22362`_
 
     * 625f141 Fixed malformed locale string in localmod module
 
-Changes related to merged PR `#22542`_
+Changes related to merged PR `#22542`_:
 
-- ISSUE `#22541`_ ``CLOSED``: (EliRibble) No detailed information provided on failure while rendering a reactor ``[Bug]``, ``[Core]``, ``[Fixed Pending Verification]``, ``[High Severity]``, ``[P2]``
+  ISSUE `#22541`_ **CLOSED**: (EliRibble) No detailed information provided on failure while rendering a reactor ``[Bug]``, ``[Core]``, ``[Fixed Pending Verification]``, ``[High Severity]``, ``[P2]``
 
-- PR `#22542`_ ``CLOSED``: (EliRibble) Show errors on failure to render reactors ``[Minor Change]``, ``[Tests Passed]``
+  PR `#22542`_ **CLOSED**: (EliRibble) Show errors on failure to render reactors ``[Minor Change]``, ``[Tests Passed]``
 
   * 9b41276 Merge pull request `#22542`_ from EliRibble/`fix-22541`_
 
     * 33b6e36 Show errors on failure to render reactors
 
-Changes related to merged PR `#22535`_
+Changes related to merged PR `#22535`_:
 
-- ISSUE `#22534`_ ``CLOSED``: (racooper) Documentation update - salt.states.grains ``[Bug]``, ``[Documentation]``, ``[Fixed Pending Verification]``, ``[High Severity]``, ``[Low-Hanging Fruit]``, ``[P4]``
+  ISSUE `#22534`_ **CLOSED**: (racooper) Documentation update - salt.states.grains ``[Bug]``, ``[Documentation]``, ``[Fixed Pending Verification]``, ``[High Severity]``, ``[Low-Hanging Fruit]``, ``[P4]``
 
-- PR `#22535`_ ``CLOSED``: (rallytime) Add additional examples to grains.list_absent and grains.list_present ``[Minor Change]``
+  PR `#22535`_ **CLOSED**: (rallytime) Add additional examples to grains.list_absent and grains.list_present ``[Minor Change]``
 
   * 061c730 Merge pull request `#22535`_ from rallytime/`fix-22534`_
 
     * d44d3e6 Add additional examples to grains.list_absent and grains.list_present
 
-Changes related to merged PR `#22532`_
+Changes related to merged PR `#22532`_:
 
-- PR `#22532`_ ``CLOSED``: (rallytime) Backport `#18846`_ to 2014.7 ``[Minor Change]``, ``[Tests Passed]``
+  PR `#22532`_ **CLOSED**: (rallytime) Backport `#18846`_ to 2014.7 ``[Minor Change]``, ``[Tests Passed]``
 
-  PR `#18846`_ ``CLOSED``: (basepi) Add **kwargs to service.mod_watch ``[Bugfix - [Done]`` back-ported]
+  PR `#18846`_ **CLOSED**: (basepi) Add **kwargs to service.mod_watch ``[Bugfix - [Done]`` back-ported]
 
   * 20fc878 Merge pull request `#22532`_ from rallytime/`bp-18846`_
 
     * b02d063 Add **kwargs to service.mod_watch
 
-Changes related to merged PR `#22484`_
+Changes related to merged PR `#22484`_:
 
-- ISSUE `#22472`_ ``CLOSED``: (EliRibble) Add ability to specify a key prefix for ext_pillar S3 ``[Bug]``, ``[Fixed Pending Verification]``, ``[High Severity]``, ``[P3]``, ``[Pillar]``
+  ISSUE `#22472`_ **CLOSED**: (EliRibble) Add ability to specify a key prefix for ext_pillar S3 ``[Bug]``, ``[Fixed Pending Verification]``, ``[High Severity]``, ``[P3]``, ``[Pillar]``
 
-- PR `#22484`_ ``CLOSED``: (EliRibble) Fix 22472 ``[Minor Change]``, ``[Tests Passed]``
+  PR `#22484`_ **CLOSED**: (EliRibble) Fix 22472 ``[Minor Change]``, ``[Tests Passed]``
 
   * 8d840aa Merge pull request `#22484`_ from EliRibble/`fix-22472`_
 
@@ -258,27 +258,27 @@ Changes related to merged PR `#22484`_
 
     * 85380df Add the prefix to the pillar root when necessary
 
-Changes related to merged PR `#22521`_
+Changes related to merged PR `#22521`_:
 
-- PR `#22521`_ ``CLOSED``: (anlutro) Add force argument to service to trigger force_reload ``[Minor Change]``, ``[Tests Passed]``
+  PR `#22521`_ **CLOSED**: (anlutro) Add force argument to service to trigger force_reload ``[Minor Change]``, ``[Tests Passed]``
 
   * b7f54cd Merge pull request `#22521`_ from alprs/feature-service_force_reload
 
     * 25db9ad Add force argument to service to trigger force_reload
 
-Changes related to merged PR `#22523`_
+Changes related to merged PR `#22523`_:
 
-- ISSUE `#20420`_ ``CLOSED``: (hvnsweeting) 2014.7.1 state error output is very verbose and full of back-slash ``[Bug]``, ``[Medium Severity]``
+  ISSUE `#20420`_ **CLOSED**: (hvnsweeting) 2014.7.1 state error output is very verbose and full of back-slash ``[Bug]``, ``[Medium Severity]``
 
-- PR `#22523`_ ``CLOSED``: (hvnsweeting) fix `#20420`_: using other state's comment makes comment grow fast ``[Master Change]``, ``[Tests Passed]``
+  PR `#22523`_ **CLOSED**: (hvnsweeting) fix `#20420`_: using other state's comment makes comment grow fast ``[Master Change]``, ``[Tests Passed]``
 
   * a62874d Merge pull request `#22523`_ from hvnsweeting/fix-big-comment-for-failed-requisite
 
     * 4a21515 fix `#20420`_: using other state comment makes comment grow fast
 
-Changes related to merged PR `#22511`_
+Changes related to merged PR `#22511`_:
 
-- PR `#22511`_ ``CLOSED``: (The-Loeki) small enhancement to dnsutil module ``[Minor Change]``, ``[Tests Passed]``
+  PR `#22511`_ **CLOSED**: (The-Loeki) small enhancement to dnsutil module ``[Minor Change]``, ``[Tests Passed]``
 
   * 0b4baa0 Merge pull request `#22511`_ from The-Loeki/dnsutil-aaa
 
@@ -288,21 +288,21 @@ Changes related to merged PR `#22511`_
 
     * 333daa1 Modify A to use non-deprecated C function Add AAAA function
 
-Changes related to merged PR `#22526`_
+Changes related to merged PR `#22526`_:
 
-- PR `#22526`_ ``CLOSED``: (dhs-rec) Return 0 for good puppet return codes (0 and 2), 1 otherwise ``[Minor Change]``
+  PR `#22526`_ **CLOSED**: (dhs-rec) Return 0 for good puppet return codes (0 and 2), 1 otherwise ``[Minor Change]``
 
   * d80f258 Merge pull request `#22526`_ from dhs-rec/2014.7
 
     * 36b9466 Return 0 for good puppet return codes (0 and 2), 1 otherwise
 
-Changes related to merged PR `#22464`_
+Changes related to merged PR `#22464`_:
 
-- ISSUE `#18358`_ ``CLOSED``: (msciciel) Problem with batch execution ``[Bug]``, ``[Fixed Pending Verification]``, ``[High Severity]``, ``[Pending Discussion]``
+  ISSUE `#18358`_ **CLOSED**: (msciciel) Problem with batch execution ``[Bug]``, ``[Fixed Pending Verification]``, ``[High Severity]``, ``[Pending Discussion]``
 
-- PR `#22464`_ ``CLOSED``: (jacksontj) 2014.7: Fix Batching ``[Master Change]``
+  PR `#22464`_ **CLOSED**: (jacksontj) 2014.7: Fix Batching ``[Master Change]``
 
-- PR `#22350`_ ``CLOSED``: (jacksontj) 2015.2: Fix batching ``[Master Change]``, ``[Tests Passed]``
+  PR `#22350`_ **CLOSED**: (jacksontj) 2015.2: Fix batching ``[Master Change]``, ``[Tests Passed]``
 
   * 2481e6c Merge pull request `#22464`_ from jacksontj/2014.7
 
@@ -326,31 +326,31 @@ Changes related to merged PR `#22464`_
 
     * 29cf438 Fix CKMinions _check_range_minions
 
-Changes related to merged PR `#22517`_
+Changes related to merged PR `#22517`_:
 
-- PR `#22517`_ ``CLOSED``: (s0undt3ch) Don't assume we're running the tests as root ``[Minor Change]``, ``[Tests Passed]``
+  PR `#22517`_ **CLOSED**: (s0undt3ch) Don't assume we're running the tests as root ``[Minor Change]``, ``[Tests Passed]``
 
   * c755463 Merge pull request `#22517`_ from s0undt3ch/2014.7
 
     * 1181a50 Don't assume we're running the tests as root
 
-Changes related to merged PR `#22506`_
+Changes related to merged PR `#22506`_:
 
-- ISSUE `#19737`_ ``CLOSED``: (Reiner030) pkgrepo.managed could better handle long keyids ``[Bug]``, ``[Fixed Pending Verification]``, ``[High Severity]``, ``[P4]``
+  ISSUE `#19737`_ **CLOSED**: (Reiner030) pkgrepo.managed could better handle long keyids ``[Bug]``, ``[Fixed Pending Verification]``, ``[High Severity]``, ``[P4]``
 
-- PR `#22506`_ ``CLOSED``: (rallytime) Backport `#20095`_ to 2014.7 ``[Minor Change]``, ``[Tests Passed]``
+  PR `#22506`_ **CLOSED**: (rallytime) Backport `#20095`_ to 2014.7 ``[Minor Change]``, ``[Tests Passed]``
 
-- PR `#20095`_ ``CLOSED``: (colincoghill) Handle pkgrepo keyids that have been converted to int.  `#19737`_ ``[Bugfix - [Done]`` back-ported]
+  PR `#20095`_ **CLOSED**: (colincoghill) Handle pkgrepo keyids that have been converted to int.  `#19737`_ ``[Bugfix - [Done]`` back-ported]
 
   * 38441a7 Merge pull request `#22506`_ from rallytime/`bp-20095`_
 
     * 755c26e Handle pkgrepo keyids that have been converted to int.  `#19737`_
 
-Changes related to merged PR `#22381`_
+Changes related to merged PR `#22381`_:
 
-- ISSUE `#22321`_ ``CLOSED``: (batulin-s) module.portage_config bug with appending accept_keywords ``[Bug]``, ``[Fixed Pending Verification]``, ``[High Severity]``, ``[P4]``, ``[State Module]``
+  ISSUE `#22321`_ **CLOSED**: (batulin-s) module.portage_config bug with appending accept_keywords ``[Bug]``, ``[Fixed Pending Verification]``, ``[High Severity]``, ``[P4]``, ``[State Module]``
 
-- PR `#22381`_ ``CLOSED``: (batulin-s) fix `#22321`_ bug ``[Minor Change]``, ``[Tests Passed]``
+  PR `#22381`_ **CLOSED**: (batulin-s) fix `#22321`_ bug ``[Minor Change]``, ``[Tests Passed]``
 
   * 0307ebe Merge pull request `#22381`_ from batulin-s/fix-portage_config-appending-accept_keywords
 
@@ -360,23 +360,23 @@ Changes related to merged PR `#22381`_
 
     * 03ba42c fix `#22321`_ bug
 
-Changes related to merged PR `#22492`_
+Changes related to merged PR `#22492`_:
 
-- ISSUE `#16508`_ ``CLOSED``: (o1e9) wrong disk.usage reported for very big RAID disk ``[Bug]``, ``[Low Severity]``, ``[Windows]``
+  ISSUE `#16508`_ **CLOSED**: (o1e9) wrong disk.usage reported for very big RAID disk ``[Bug]``, ``[Low Severity]``, ``[Windows]``
 
-- PR `#22492`_ ``CLOSED``: (davidjb) Correctly report disk usage on Windows. Fix `#16508`_ ``[Minor Change]``, ``[Tests Passed]``
+  PR `#22492`_ **CLOSED**: (davidjb) Correctly report disk usage on Windows. Fix `#16508`_ ``[Minor Change]``, ``[Tests Passed]``
 
-- PR `#22485`_ ``CLOSED``: (davidjb) Correctly report disk usage on Windows ``[Bugfix - [Done]`` back-ported], ``[Minor Change]``, ``[Tests Passed]``
+  PR `#22485`_ **CLOSED**: (davidjb) Correctly report disk usage on Windows ``[Bugfix - [Done]`` back-ported], ``[Minor Change]``, ``[Tests Passed]``
 
   * 6662853 Merge pull request `#22492`_ from davidjb/2014.7
 
     * 5d831ed Correctly report disk usage on Windows. Fix `#16508`_
 
-Changes related to merged PR `#22446`_
+Changes related to merged PR `#22446`_:
 
-- ISSUE `#20850`_ ``OPEN``: (br0ch0n) puppet.run always returns 0 ``[Bug]``, ``[Fixed Pending Verification]``, ``[Medium Severity]``
+  ISSUE `#20850`_ **OPEN**: (br0ch0n) puppet.run always returns 0 ``[Bug]``, ``[Fixed Pending Verification]``, ``[Medium Severity]``
 
-- PR `#22446`_ ``CLOSED``: (br0ch0n) Issue `#20850`_ puppet run should return actual code ``[Minor Change]``, ``[Tests Passed]``
+  PR `#22446`_ **CLOSED**: (br0ch0n) Issue `#20850`_ puppet run should return actual code ``[Minor Change]``, ``[Tests Passed]``
 
   * bf1957a Merge pull request `#22446`_ from br0ch0n/2014.7
 
@@ -384,47 +384,47 @@ Changes related to merged PR `#22446`_
 
     * c5ae09b Issue `#20850`_ puppet run should return actual code
 
-Changes related to merged PR `#22466`_
+Changes related to merged PR `#22466`_:
 
-- ISSUE `#22463`_ ``CLOSED``: (SaltwaterC) Unable to use the "name" variable into the defaults of a file template ``[Question]``
+  ISSUE `#22463`_ **CLOSED**: (SaltwaterC) Unable to use the "name" variable into the defaults of a file template ``[Question]``
 
-- PR `#22466`_ ``CLOSED``: (whiteinge) Updated wording about nested dictionaries in states.file.managed docs ``[Minor Change]``, ``[Tests Passed]``
+  PR `#22466`_ **CLOSED**: (whiteinge) Updated wording about nested dictionaries in states.file.managed docs ``[Minor Change]``, ``[Tests Passed]``
 
   * c83e2d7 Merge pull request `#22466`_ from whiteinge/doc-nested-dicts
 
     * 9a3a747 Updated wording about nested dictionaries in states.file.managed docs
 
-Changes related to merged PR `#22403`_
+Changes related to merged PR `#22403`_:
 
-- PR `#22403`_ ``CLOSED``: (hvnsweeting) create host file if it does not exist ``[Minor Change]``, ``[Tests Passed]``
+  PR `#22403`_ **CLOSED**: (hvnsweeting) create host file if it does not exist ``[Minor Change]``, ``[Tests Passed]``
 
   * 8f0f5ae Merge pull request `#22403`_ from hvnsweeting/enh-host-module-when-missing-hostfile
 
     * 9bf9855 create host file if it does not exist
 
-Changes related to merged PR `#22477`_
+Changes related to merged PR `#22477`_:
 
-- PR `#22477`_ ``CLOSED``: (twangboy) Moved file deletion to happen after user clicks install ``[Medium Change]``
+  PR `#22477`_ **CLOSED**: (twangboy) Moved file deletion to happen after user clicks install ``[Medium Change]``
 
   * c9394fd Merge pull request `#22477`_ from twangboy/fix_win_installer
 
     * 6d99681 Moved file deletion to happen after user clicks install
 
-Changes related to merged PR `#22473`_
+Changes related to merged PR `#22473`_:
 
-- ISSUE `#22472`_ ``CLOSED``: (EliRibble) Add ability to specify a key prefix for ext_pillar S3 ``[Bug]``, ``[Fixed Pending Verification]``, ``[High Severity]``, ``[P3]``, ``[Pillar]``
+  ISSUE `#22472`_ **CLOSED**: (EliRibble) Add ability to specify a key prefix for ext_pillar S3 ``[Bug]``, ``[Fixed Pending Verification]``, ``[High Severity]``, ``[P3]``, ``[Pillar]``
 
-- PR `#22473`_ ``CLOSED``: (EliRibble) Add the ability to specify key prefix for S3 ext_pillar ``[Minor Change]``, ``[Tests Passed]``
+  PR `#22473`_ **CLOSED**: (EliRibble) Add the ability to specify key prefix for S3 ext_pillar ``[Minor Change]``, ``[Tests Passed]``
 
   * 8ed97c5 Merge pull request `#22473`_ from EliRibble/`fix-22472`_
 
     * d96e470 Add the ability to specify key prefix for S3 ext_pillar
 
-Changes related to merged PR `#22448`_
+Changes related to merged PR `#22448`_:
 
-- ISSUE `#19450`_ ``CLOSED``: (gladiatr72) documentation: topics/cloud/config ``[Documentation]``, ``[Fixed Pending Verification]``, ``[Salt-Cloud]``
+  ISSUE `#19450`_ **CLOSED**: (gladiatr72) documentation: topics/cloud/config ``[Documentation]``, ``[Fixed Pending Verification]``, ``[Salt-Cloud]``
 
-- PR `#22448`_ ``CLOSED``: (rallytime) Migrate old cloud config documentation to own page ``[Master Change]``
+  PR `#22448`_ **CLOSED**: (rallytime) Migrate old cloud config documentation to own page ``[Master Change]``
 
   * aa23eb0 Merge pull request `#22448`_ from rallytime/migrate_old_cloud_config_docs
 
@@ -434,53 +434,53 @@ Changes related to merged PR `#22448`_
 
     * 9b5318f Move old cloud syntax to "Legacy" cloud config doc
 
-Changes related to merged PR `#22445`_
+Changes related to merged PR `#22445`_:
 
-- ISSUE `#19044`_ ``CLOSED``: (whiteinge) Document the file_map addition to salt-cloud ``[Bug]``, ``[Documentation]``, ``[Medium Severity]``, ``[Salt-Cloud]``
+  ISSUE `#19044`_ **CLOSED**: (whiteinge) Document the file_map addition to salt-cloud ``[Bug]``, ``[Documentation]``, ``[Medium Severity]``, ``[Salt-Cloud]``
 
-- PR `#22445`_ ``CLOSED``: (rallytime) Add docs explaing file_map upload functionality ``[Minor Change]``
+  PR `#22445`_ **CLOSED**: (rallytime) Add docs explaing file_map upload functionality ``[Minor Change]``
 
-- PR `#16886`_ ``CLOSED``: (techhat) Add file_map to salt.utils.cloud.bootstrap-enabled providers ``[Bugfix - [Done]`` back-ported]
+  PR `#16886`_ **CLOSED**: (techhat) Add file_map to salt.utils.cloud.bootstrap-enabled providers ``[Bugfix - [Done]`` back-ported]
 
   * d7b1f14 Merge pull request `#22445`_ from rallytime/`fix-19044`_
 
     * 7a9ce92 Add docs explaing file_map upload functionality
 
-Changes related to merged PR `#22426`_
+Changes related to merged PR `#22426`_:
 
-- PR `#22426`_ ``CLOSED``: (jraby) don't repeat the "if ret``['changes']``" condition ``[Minor Change]``, ``[Tests Passed]``
+  PR `#22426`_ **CLOSED**: (jraby) don't repeat the "if ret``['changes']``" condition ``[Minor Change]``, ``[Tests Passed]``
 
   * ade2474 Merge pull request `#22426`_ from jraby/patch-1
 
     * e2aa538 don't repeat the "if ret``['changes']``" condition
 
-Changes related to merged PR `#22416`_
+Changes related to merged PR `#22416`_:
 
-- PR `#22416`_ ``CLOSED``: (rallytime) Backport `#21044`_ to 2014.7 ``[Medium Change]``, ``[Tests Passed]``
+  PR `#22416`_ **CLOSED**: (rallytime) Backport `#21044`_ to 2014.7 ``[Medium Change]``, ``[Tests Passed]``
 
-- PR `#21044`_ ``CLOSED``: (cachedout) TCP keepalives on the ret side ``[Bugfix - [Done]`` back-ported], ``[Master Change]``
+  PR `#21044`_ **CLOSED**: (cachedout) TCP keepalives on the ret side ``[Bugfix - [Done]`` back-ported], ``[Master Change]``
 
   * 4c8d351 Merge pull request `#22416`_ from rallytime/`bp-21044`_
 
     * 7dd4b61 TCP keepalives on the ret side
 
-Changes related to merged PR `#22433`_
+Changes related to merged PR `#22433`_:
 
-- ISSUE `#22218`_ ``CLOSED``: (Seldaek) Error reporting on masterless gitfs includes is misleading ``[Bug]``, ``[Fixed Pending Verification]``, ``[Low Severity]``, ``[Low-Hanging Fruit]``
+  ISSUE `#22218`_ **CLOSED**: (Seldaek) Error reporting on masterless gitfs includes is misleading ``[Bug]``, ``[Fixed Pending Verification]``, ``[Low Severity]``, ``[Low-Hanging Fruit]``
 
-- PR `#22433`_ ``CLOSED``: (rallytime) Clarify that an sls is not available on a fileserver ``[Minor Change]``, ``[Tests Passed]``
+  PR `#22433`_ **CLOSED**: (rallytime) Clarify that an sls is not available on a fileserver ``[Minor Change]``, ``[Tests Passed]``
 
   * f76c5b4 Merge pull request `#22433`_ from rallytime/`fix-22218`_
 
     * f22f4dc Clarify that an sls is not available on a fileserver
 
-Changes related to merged PR `#22434`_
+Changes related to merged PR `#22434`_:
 
-- ISSUE `#22382`_ ``CLOSED``: (ghost) The 'proxmox' cloud provider alias, for the 'proxmox' driver, does not define the function 'disk'".  ``[Bug]``, ``[Medium Severity]``, ``[Salt-Cloud]``
+  ISSUE `#22382`_ **CLOSED**: (ghost) The 'proxmox' cloud provider alias, for the 'proxmox' driver, does not define the function 'disk'".  ``[Bug]``, ``[Medium Severity]``, ``[Salt-Cloud]``
 
-- PR `#22434`_ ``CLOSED``: (rallytime) Backport `#22414`_ to 2014.7 ``[Minor Change]``, ``[Tests Passed]``
+  PR `#22434`_ **CLOSED**: (rallytime) Backport `#22414`_ to 2014.7 ``[Minor Change]``, ``[Tests Passed]``
 
-- PR `#22414`_ ``CLOSED``: (syphernl) Cloud: Do not look for disk underneath config in Proxmox driver ``[Bugfix - [Done]`` back-ported], ``[Minor Change]``
+  PR `#22414`_ **CLOSED**: (syphernl) Cloud: Do not look for disk underneath config in Proxmox driver ``[Bugfix - [Done]`` back-ported], ``[Minor Change]``
 
   * 70ba52f Merge pull request `#22434`_ from rallytime/`bp-22414`_
 
@@ -488,17 +488,17 @@ Changes related to merged PR `#22434`_
 
     * 09e9b6e Do not look for disk underneath config
 
-Changes related to merged PR `#22400`_
+Changes related to merged PR `#22400`_:
 
-- PR `#22400`_ ``CLOSED``: (jfindlay) adding cmd.run state integration tests ``[Medium Change]``, ``[Tests Passed]``
+  PR `#22400`_ **CLOSED**: (jfindlay) adding cmd.run state integration tests ``[Medium Change]``, ``[Tests Passed]``
 
   * 28630b4 Merge pull request `#22400`_ from jfindlay/cmd_state_tests
 
     * 56364ff adding cmd.run state integration tests
 
-Changes related to merged PR `#22395`_
+Changes related to merged PR `#22395`_:
 
-- PR `#22395`_ ``CLOSED``: (twangboy) Fixed problem with pip not working on portable install ``[Medium Change]``, ``[Tests Passed]``
+  PR `#22395`_ **CLOSED**: (twangboy) Fixed problem with pip not working on portable install ``[Medium Change]``, ``[Tests Passed]``
 
   * 38482a5 Merge pull request `#22395`_ from twangboy/port_pip
 
@@ -512,19 +512,19 @@ Changes related to merged PR `#22395`_
 
     * c898b95 Fixed problem with pip not working on portable install
 
-Changes related to merged PR `#22379`_
+Changes related to merged PR `#22379`_:
 
-- PR `#22379`_ ``CLOSED``: (anlutro) Improve output when using iptables.save ``[Minor Change]``
+  PR `#22379`_ **CLOSED**: (anlutro) Improve output when using iptables.save ``[Minor Change]``
 
   * 66442a7 Merge pull request `#22379`_ from alprs/feature-iptables-improved_save_output
 
     * 568e1b7 Improve output when using iptables.save
 
-Changes related to merged PR `#22365`_
+Changes related to merged PR `#22365`_:
 
-- ISSUE `#22359`_ ``CLOSED``: (kiorky) unless is not recognized as a state internal keyword ``[Bug]``, ``[Fixed Pending Verification]``, ``[Medium Severity]``
+  ISSUE `#22359`_ **CLOSED**: (kiorky) unless is not recognized as a state internal keyword ``[Bug]``, ``[Fixed Pending Verification]``, ``[Medium Severity]``
 
-- PR `#22365`_ ``CLOSED``: (s0undt3ch) Include `unless` in the state internal keywords. ``[Medium Change]``
+  PR `#22365`_ **CLOSED**: (s0undt3ch) Include `unless` in the state internal keywords. ``[Medium Change]``
 
   * 2ac741b Merge pull request `#22365`_ from s0undt3ch/2014.7
 
@@ -532,35 +532,35 @@ Changes related to merged PR `#22365`_
 
     * 287bce3 Add `fun` and `state` to the runtime internal keywords listing
 
-Changes related to merged PR `#22374`_
+Changes related to merged PR `#22374`_:
 
-- PR `#22374`_ ``CLOSED``: (anlutro) Corrected output for iptables rule saved to file ``[Minor Change]``, ``[Tests Passed]``
+  PR `#22374`_ **CLOSED**: (anlutro) Corrected output for iptables rule saved to file ``[Minor Change]``, ``[Tests Passed]``
 
   * 16eb18e Merge pull request `#22374`_ from alprs/fix-iptables-saved_rule_to
 
     * bd1ff37 Corrected output for iptables rule saved to file
 
-Changes related to merged PR `#22372`_
+Changes related to merged PR `#22372`_:
 
-- PR `#22372`_ ``CLOSED``: (anlutro) iptables needs `-m state` for `--state` arguments ``[Minor Change]``, ``[Tests Passed]``
+  PR `#22372`_ **CLOSED**: (anlutro) iptables needs `-m state` for `--state` arguments ``[Minor Change]``, ``[Tests Passed]``
 
   * 9410c1f Merge pull request `#22372`_ from alprs/fix-iptables-missing_state_flag
 
     * 1452082 iptables needs `-m state` for `--state` arguments
 
-Changes related to merged PR `#22368`_
+Changes related to merged PR `#22368`_:
 
-- PR `#22368`_ ``CLOSED``: (anlutro) Make iptables module build_rules accept protocol as an alias for proto 
+  PR `#22368`_ **CLOSED**: (anlutro) Make iptables module build_rules accept protocol as an alias for proto 
 
   * 5d3dc7a Merge pull request `#22368`_ from alprs/fix-iptables_proto_protocol_alias
 
     * b62d76a Make iptables module build_rules accept protocol as an alias for proto
 
-Changes related to merged PR `#22349`_
+Changes related to merged PR `#22349`_:
 
-- PR `#22349`_ ``CLOSED``: (cro) Backport 22005 to 2014.7 ``[Medium Change]``, ``[Tests Passed]``
+  PR `#22349`_ **CLOSED**: (cro) Backport 22005 to 2014.7 ``[Medium Change]``, ``[Tests Passed]``
 
-- PR `#22005`_ ``CLOSED``: (cro) Add ability to eAuth against Active Directory ``[Master Change]``
+  PR `#22005`_ **CLOSED**: (cro) Add ability to eAuth against Active Directory ``[Master Change]``
 
   * a60579b Merge pull request `#22349`_ from cro/`bp-22005`_
 
@@ -574,11 +574,11 @@ Changes related to merged PR `#22349`_
 
     * ade0430 Add authentication against Active Directory
 
-Changes related to merged PR `#22345`_
+Changes related to merged PR `#22345`_:
 
-- ISSUE `#22328`_ ``CLOSED``: (rallytime) Document list_nodes functions in salt-cloud feature matrix ``[Documentation]``, ``[Salt-Cloud]``
+  ISSUE `#22328`_ **CLOSED**: (rallytime) Document list_nodes functions in salt-cloud feature matrix ``[Documentation]``, ``[Salt-Cloud]``
 
-  PR `#22345`_ ``CLOSED``: (rallytime) Document list_node* functions for salt cloud ``[Medium Change]``
+  PR `#22345`_ **CLOSED**: (rallytime) Document list_node* functions for salt cloud ``[Medium Change]``
 
   * 72f708a Merge pull request `#22345`_ from rallytime/document_list_nodes
 
@@ -588,9 +588,9 @@ Changes related to merged PR `#22345`_
 
     * d5fa02d Add list_node* functions to feature matrix
 
-Changes related to merged PR `#22341`_
+Changes related to merged PR `#22341`_:
 
-- PR `#22341`_ ``CLOSED``: (basepi) ``[2014.7]`` Fix some salt-ssh issues with Fedora 21 ``[Medium Change]``
+  PR `#22341`_ **CLOSED**: (basepi) ``[2014.7]`` Fix some salt-ssh issues with Fedora 21 ``[Medium Change]``
 
   * 8de6726 Merge pull request `#22341`_ from basepi/salt-ssh.requests.symlink.plus.some.other.stuff
 
@@ -600,21 +600,21 @@ Changes related to merged PR `#22341`_
 
     * 2de50bc Follow symlinks (mostly because of requests' stupidity)
 
-Changes related to merged PR `#22337`_
+Changes related to merged PR `#22337`_:
 
-- ISSUE `#14888`_ ``CLOSED``: (djs52) grains.get_or_set_hash  broken for multiple entries under the same key ``[Bug]``, ``[Fixed Pending Verification]``, ``[Medium Severity]``
+  ISSUE `#14888`_ **CLOSED**: (djs52) grains.get_or_set_hash  broken for multiple entries under the same key ``[Bug]``, ``[Fixed Pending Verification]``, ``[Medium Severity]``
 
-- PR `#22337`_ ``CLOSED``: (rallytime) Backport `#22245`_ to 2014.7 ``[Minor Change]``, ``[Tests Passed]``
+  PR `#22337`_ **CLOSED**: (rallytime) Backport `#22245`_ to 2014.7 ``[Minor Change]``, ``[Tests Passed]``
 
-- PR `#22245`_ ``CLOSED``: (achernev) Fix grains.get_or_set_hash to work with multiple entries under same key ``[Bugfix - [Done]`` back-ported], ``[Minor Change]``, ``[Tests Passed]``
+  PR `#22245`_ **CLOSED**: (achernev) Fix grains.get_or_set_hash to work with multiple entries under same key ``[Bugfix - [Done]`` back-ported], ``[Minor Change]``, ``[Tests Passed]``
 
   * f892335 Merge pull request `#22337`_ from rallytime/`bp-22245`_
 
     * f560056 Fix grains.get_or_set_hash to work with multiple entries under same key
 
-Changes related to merged PR `#22311`_
+Changes related to merged PR `#22311`_:
 
-- PR `#22311`_ ``CLOSED``: (twangboy) Win install ``[Minor Change]``, ``[Tests Passed]``
+  PR `#22311`_ **CLOSED**: (twangboy) Win install ``[Minor Change]``, ``[Tests Passed]``
 
   * 1be785e Merge pull request `#22311`_ from twangboy/win_install
 
@@ -622,27 +622,27 @@ Changes related to merged PR `#22311`_
 
     * 7377c50 Add switches for passing version to nsi script
 
-Changes related to merged PR `#22300`_
+Changes related to merged PR `#22300`_:
 
-- PR `#22300`_ ``CLOSED``: (rallytime) Add windows package installers to docs ``[Minor Change]``, ``[Tests Passed]``
+  PR `#22300`_ **CLOSED**: (rallytime) Add windows package installers to docs ``[Minor Change]``, ``[Tests Passed]``
 
   * 4281cd6 Merge pull request `#22300`_ from rallytime/windows_release_docs
 
     * 1abaacd Add windows package installers to docs
 
-Changes related to merged PR `#22308`_
+Changes related to merged PR `#22308`_:
 
-- ISSUE `#20841`_ ``CLOSED``: (paha) Passing arguments to runner from reactor/sls is broken? ``[Bug]``, ``[Medium Severity]``
+  ISSUE `#20841`_ **CLOSED**: (paha) Passing arguments to runner from reactor/sls is broken? ``[Bug]``, ``[Medium Severity]``
 
-- PR `#22308`_ ``CLOSED``: (whiteinge) Better explanations and more examples of how the Reactor calls functions 
+  PR `#22308`_ **CLOSED**: (whiteinge) Better explanations and more examples of how the Reactor calls functions 
 
   * 8558542 Merge pull request `#22308`_ from whiteinge/doc-reactor-what-where-how
 
     * a8bdc17 Better explanations and more examples of how the Reactor calls functions
 
-Changes related to merged PR `#22266`_
+Changes related to merged PR `#22266`_:
 
-- PR `#22266`_ ``CLOSED``: (twangboy) Win install fix ``[Minor Change]``, ``[Tests Passed]``
+  PR `#22266`_ **CLOSED**: (twangboy) Win install fix ``[Minor Change]``, ``[Tests Passed]``
 
   * 4d0ea7a Merge pull request `#22266`_ from twangboy/win_install_fix
 
@@ -650,19 +650,19 @@ Changes related to merged PR `#22266`_
 
     * 82b2f3e Removed message_box i left in for testing I'm an idiot
 
-Changes related to merged PR `#22288`_
+Changes related to merged PR `#22288`_:
 
-- PR `#22288`_ ``CLOSED``: (nshalman) SmartOS Esky: pkgsrc 2014Q4 Build Environment 
+  PR `#22288`_ **CLOSED**: (nshalman) SmartOS Esky: pkgsrc 2014Q4 Build Environment 
 
   * 2bb9760 Merge pull request `#22288`_ from nshalman/smartos-pkgsrc2014Q4
 
     * a51a90c SmartOS Esky: pkgsrc 2014Q4 Build Environment
 
-Changes related to merged PR `#22280`_
+Changes related to merged PR `#22280`_:
 
-- ISSUE `#19923`_ ``CLOSED``: (diegows) config_drive should not be a required option ``[Bug]``, ``[Medium Severity]``, ``[Salt-Cloud]``
+  ISSUE `#19923`_ **CLOSED**: (diegows) config_drive should not be a required option ``[Bug]``, ``[Medium Severity]``, ``[Salt-Cloud]``
 
-- PR `#22280`_ ``CLOSED``: (s0undt3ch) Don't pass `ex_config_drive` to libcloud unless it's explicitly enabled ``[Medium Change]``
+  PR `#22280`_ **CLOSED**: (s0undt3ch) Don't pass `ex_config_drive` to libcloud unless it's explicitly enabled ``[Medium Change]``
 
   * f474860 Merge pull request `#22280`_ from s0undt3ch/issues/19923-rackspace-config-drive
 
@@ -670,27 +670,27 @@ Changes related to merged PR `#22280`_
 
     * 23e7354 Don't pass `ex_config_drive` to libcloud unless it's explicitly enabled
 
-Changes related to merged PR `#22256`_
+Changes related to merged PR `#22256`_:
 
-- PR `#22256`_ ``CLOSED``: (twangboy) Fixed pip.install for windows ``[Awesome]``, ``[Minor Change]``, ``[Tests Passed]``
+  PR `#22256`_ **CLOSED**: (twangboy) Fixed pip.install for windows ``[Awesome]``, ``[Minor Change]``, ``[Tests Passed]``
 
   * 5129f21 Merge pull request `#22256`_ from twangboy/fix_pip_install
 
     * 3792ea1 Fixed pip.install for windows
 
-Changes related to merged PR `#22126`_
+Changes related to merged PR `#22126`_:
 
-- PR `#22126`_ ``CLOSED``: (s0undt3ch) Update environment variables. ``[Medium Change]``, ``[Pending Discussion]``
+  PR `#22126`_ **CLOSED**: (s0undt3ch) Update environment variables. ``[Medium Change]``, ``[Pending Discussion]``
 
   * 3001b72 Merge pull request `#22126`_ from s0undt3ch/2014.7
 
     * 9649339 Update environment variables.
 
-Changes related to merged PR `#22025`_
+Changes related to merged PR `#22025`_:
 
-- ISSUE `#21397`_ ``CLOSED``: (tjstansell) salt-minion getaddrinfo in dns_check() never gets updated nameservers because of glibc caching ``[Bug]``, ``[Medium Severity]``
+  ISSUE `#21397`_ **CLOSED**: (tjstansell) salt-minion getaddrinfo in dns_check() never gets updated nameservers because of glibc caching ``[Bug]``, ``[Medium Severity]``
 
-- PR `#22025`_ ``CLOSED``: (tjstansell) fix `#21397`_ - force glibc to re-read resolv.conf ``[Medium Change]``, ``[Tests Passed]``
+  PR `#22025`_ **CLOSED**: (tjstansell) fix `#21397`_ - force glibc to re-read resolv.conf ``[Medium Change]``, ``[Tests Passed]``
 
   * 47f542d Merge pull request `#22025`_ from tjstansell/`fix-21397`_
 
@@ -700,19 +700,19 @@ Changes related to merged PR `#22025`_
 
     * f6a81da fix `#21397`_ - force glibc to re-read resolv.conf
 
-Changes related to merged PR `#22235`_
+Changes related to merged PR `#22235`_:
 
-- ISSUE `#20850`_ ``OPEN``: (br0ch0n) puppet.run always returns 0 ``[Bug]``, ``[Fixed Pending Verification]``, ``[Medium Severity]``
+  ISSUE `#20850`_ **OPEN**: (br0ch0n) puppet.run always returns 0 ``[Bug]``, ``[Fixed Pending Verification]``, ``[Medium Severity]``
 
-- PR `#22235`_ ``CLOSED``: (dhs-rec) Possible fix for 'puppet.run always returns 0 `#20850`_' ``[Minor Change]``, ``[Tests Passed]``
+  PR `#22235`_ **CLOSED**: (dhs-rec) Possible fix for 'puppet.run always returns 0 `#20850`_' ``[Minor Change]``, ``[Tests Passed]``
 
   * 7d57a76 Merge pull request `#22235`_ from dhs-rec/2014.7
 
     * 9c8f5f8 - Change default Puppet agent args to just 'test', which includes the former ones plus 'detailed-exitcodes'. - Exit properly depending on those detailed exit codes.
 
-Changes related to merged PR `#22206`_
+Changes related to merged PR `#22206`_:
 
-- PR `#22206`_ ``CLOSED``: (s0undt3ch) more pylint disables ``[Medium Change]``
+  PR `#22206`_ **CLOSED**: (s0undt3ch) more pylint disables ``[Medium Change]``
 
   * 63919a3 Merge pull request `#22206`_ from s0undt3ch/hotfix/pep8-disables
 
@@ -722,45 +722,45 @@ Changes related to merged PR `#22206`_
 
     * a1586ef Ignore `E8731` - do not assign a lambda expression, use a def
 
-Changes related to merged PR `#22222`_
+Changes related to merged PR `#22222`_:
 
-- PR `#22222`_ ``CLOSED``: (twangboy) Fixed problem with nested directories 
+  PR `#22222`_ **CLOSED**: (twangboy) Fixed problem with nested directories 
 
   * 9ab3d5e Merge pull request `#22222`_ from twangboy/fix_installer
 
     * 8615e8d Fixed problem with nested directories
 
-Changes related to merged PR `#22228`_
+Changes related to merged PR `#22228`_:
 
-- ISSUE `#20107`_ ``OPEN``: (belvedere-trading) minion scheduling via pillar does not get applied some times ``[Bug]``, ``[Medium Severity]``
+  ISSUE `#20107`_ **OPEN**: (belvedere-trading) minion scheduling via pillar does not get applied some times ``[Bug]``, ``[Medium Severity]``
 
-- PR `#22228`_ ``CLOSED``: (garethgreenaway) backporting `#22226`_ to 2014.7 
+  PR `#22228`_ **CLOSED**: (garethgreenaway) backporting `#22226`_ to 2014.7 
 
-- PR `#22226`_ ``CLOSED``: (garethgreenaway) Fixes to scheduler 
+  PR `#22226`_ **CLOSED**: (garethgreenaway) Fixes to scheduler 
 
   * c8378ff Merge pull request `#22228`_ from garethgreenaway/20107_2014_7_scheduler_race_condition
 
     * 2019935 backporting `#22226`_ to 2014.7
 
-Changes related to merged PR `#22205`_
+Changes related to merged PR `#22205`_:
 
-- PR `#22205`_ ``CLOSED``: (twangboy) Removed _tkinter.lib ``[Minor Change]``, ``[Tests Passed]``
+  PR `#22205`_ **CLOSED**: (twangboy) Removed _tkinter.lib ``[Minor Change]``, ``[Tests Passed]``
 
   * 8b726e3 Merge pull request `#22205`_ from twangboy/win_install
 
     * 8644383 Removed _tkinter.lib
 
-Changes related to merged PR `#22183`_
+Changes related to merged PR `#22183`_:
 
-- PR `#22183`_ ``CLOSED``: (s0undt3ch) Disable PEP8 E402(E8402). Module level import not at top of file. ``[Minor Change]``, ``[Tests Passed]``
+  PR `#22183`_ **CLOSED**: (s0undt3ch) Disable PEP8 E402(E8402). Module level import not at top of file. ``[Minor Change]``, ``[Tests Passed]``
 
   * 73aa39d Merge pull request `#22183`_ from s0undt3ch/hotfix/pep8-disables
 
     * 38f95ec Disable PEP8 E402(E8402). Module level import not at top of file.
 
-Changes related to merged PR `#22168`_
+Changes related to merged PR `#22168`_:
 
-- PR `#22168`_ ``CLOSED``: (semarj) fix cas behavior on data module ``[Minor Change]``
+  PR `#22168`_ **CLOSED**: (semarj) fix cas behavior on data module ``[Minor Change]``
 
   * cf9b1f6 Merge pull request `#22168`_ from semarj/fix-data-cas
 
@@ -768,55 +768,55 @@ Changes related to merged PR `#22168`_
 
     * 95aa351 fix cas behavior on data module
 
-Changes related to merged PR `#22161`_
+Changes related to merged PR `#22161`_:
 
-- ISSUE `#21956`_ ``CLOSED``: (giannello) Reactor rendering error ``[Info Needed]``
+  ISSUE `#21956`_ **CLOSED**: (giannello) Reactor rendering error ``[Info Needed]``
 
-- PR `#22161`_ ``CLOSED``: (rallytime) Backport `#21959`_ to 2014.7 ``[Minor Change]``
+  PR `#22161`_ **CLOSED**: (rallytime) Backport `#21959`_ to 2014.7 ``[Minor Change]``
 
-- PR `#21959`_ ``CLOSED``: (giannello) Changed argument name ``[Bugfix - [Done]`` back-ported], ``[Minor Change]``
+  PR `#21959`_ **CLOSED**: (giannello) Changed argument name ``[Bugfix - [Done]`` back-ported], ``[Minor Change]``
 
   * d941579 Merge pull request `#22161`_ from rallytime/`bp-21959`_
 
     * b9d55bc Changed argument name
 
-Changes related to merged PR `#22160`_
+Changes related to merged PR `#22160`_:
 
-- ISSUE `#9960`_ ``CLOSED``: (jeteokeeffe) salt virt.query errors out ``[Bug]``, ``[Medium Severity]``
+  ISSUE `#9960`_ **CLOSED**: (jeteokeeffe) salt virt.query errors out ``[Bug]``, ``[Medium Severity]``
 
-- PR `#22160`_ ``CLOSED``: (rallytime) Backport `#22134`_ to 2014.7 ``[Minor Change]``, ``[Tests Passed]``
+  PR `#22160`_ **CLOSED**: (rallytime) Backport `#22134`_ to 2014.7 ``[Minor Change]``, ``[Tests Passed]``
 
-- PR `#22134`_ ``CLOSED``: (zboody) Fixes `#9960`_ ``[Bugfix - [Done]`` back-ported], ``[Minor Change]``
+  PR `#22134`_ **CLOSED**: (zboody) Fixes `#9960`_ ``[Bugfix - [Done]`` back-ported], ``[Minor Change]``
 
   * 9bf6f50 Merge pull request `#22160`_ from rallytime/`bp-22134`_
 
     * 061d085 Fixes `#9960`_
 
-Changes related to merged PR `#22156`_
+Changes related to merged PR `#22156`_:
 
-- ISSUE `#21997`_ ``CLOSED``: (scaissie) chef.solo IndexError: list index out of range ``[Bug]``, ``[Fixed Pending Verification]``, ``[Medium Severity]``
+  ISSUE `#21997`_ **CLOSED**: (scaissie) chef.solo IndexError: list index out of range ``[Bug]``, ``[Fixed Pending Verification]``, ``[Medium Severity]``
 
-- PR `#22156`_ ``CLOSED``: (amendlik) Fix arguments passed to chef-solo command ``[Minor Change]``, ``[Tests Passed]``
+  PR `#22156`_ **CLOSED**: (amendlik) Fix arguments passed to chef-solo command ``[Minor Change]``, ``[Tests Passed]``
 
   * f44b1d0 Merge pull request `#22156`_ from amendlik/chef-solo-fix
 
     * 11536f6 Fix arguments passed to chef-solo command
 
-Changes related to merged PR `#22121`_
+Changes related to merged PR `#22121`_:
 
-- ISSUE `#20841`_ ``CLOSED``: (paha) Passing arguments to runner from reactor/sls is broken? ``[Bug]``, ``[Medium Severity]``
+  ISSUE `#20841`_ **CLOSED**: (paha) Passing arguments to runner from reactor/sls is broken? ``[Bug]``, ``[Medium Severity]``
 
-- PR `#22121`_ ``CLOSED``: (tjstansell) fix `#20841`_: add sls name from reactor ``[Medium Change]``, ``[Tests Passed]``
+  PR `#22121`_ **CLOSED**: (tjstansell) fix `#20841`_: add sls name from reactor ``[Medium Change]``, ``[Tests Passed]``
 
   * 36eca12 Merge pull request `#22121`_ from tjstansell/`fix-20841`_
 
     * b2b554a fix `#20841`_: add sls name from reactor
 
-Changes related to merged PR `#22122`_
+Changes related to merged PR `#22122`_:
 
-- PR `#22122`_ ``CLOSED``: (tjstansell) backport `#20166`_ to 2014.7 ``[Medium Change]``
+  PR `#22122`_ **CLOSED**: (tjstansell) backport `#20166`_ to 2014.7 ``[Medium Change]``
 
-- PR `#20166`_ ``CLOSED``: (cachedout) Catch all exceptions in reactor ``[Bugfix - [Done]`` back-ported]
+  PR `#20166`_ **CLOSED**: (cachedout) Catch all exceptions in reactor ``[Bugfix - [Done]`` back-ported]
 
   * 4176c85 Merge pull request `#22122`_ from tjstansell/`bp-20166`_
 
