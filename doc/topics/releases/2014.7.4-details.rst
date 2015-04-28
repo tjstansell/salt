@@ -8,7 +8,6 @@ Changes for: 2014.7.3..2014.7.4
     pulling 4 issues:
     ....
 
-----
 - PR `#22145`_ [CLOSED]: (twangboy) Remove .chm files from windows build 
 
   - 1440ffa Merge pull request `#22145`_ from twangboy/winbuild
