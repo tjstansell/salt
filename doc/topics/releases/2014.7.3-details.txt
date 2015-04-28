@@ -7,7 +7,7 @@ pulling 2 issues:
 
 ISSUE #21657 [CLOSED]: (rallytime) salt-ssh cmd.run msgpack critical error [Blocker], [Bug], [Fixed Pending Verification], [High Severity], [Salt-SSH]
 PR #22002 [CLOSED]: (basepi) [2014.7] Backport #21703 [Minor Change]
-PR #21703 [CLOSED]: (basepi) [2015.2] Catch TypeErrors from cmd.run jid_file functionality in salt-ssh [Bugfix - [Done] back-ported]
+PR #21703 [CLOSED]: (basepi) [2015.2] Catch TypeErrors from cmd.run jid_file functionality in salt-ssh [Bugfix - Done back-ported]
 * 5fd1705 Merge pull request #22002 from basepi/bp-21703
   * 1470382 Catch TypeErrors from cmd.run jid_file functionality in salt-ssh
 
@@ -31,7 +31,7 @@ PR #21968 [CLOSED]: (ryanwohara) Verifying the key has a value before using it. 
   * cbb09b0 Verifying the key has a value before using it.
 
 PR #21962 [CLOSED]: (rallytime) Apply nested outputter optimization fix to 2014.7 [Master Change], [Tests Passed]
-PR #21920 [CLOSED]: (fellyns) refactor nested outputter for much better performance [Awesome], [Bugfix - [Done] back-ported], [Master Change]
+PR #21920 [CLOSED]: (fellyns) refactor nested outputter for much better performance [Awesome], [Bugfix - Done back-ported], [Master Change]
 * dd37f43 Merge pull request #21962 from rallytime/apply_nested_outputter_fix_to_2014.7
   * 72f1fff Remove unused import
   * 15680cd Apply nested outputter optimization fix to 2014.7
@@ -89,7 +89,7 @@ PR #21755 [CLOSED]: (jacksontj) Add timeout to saltnado's event listener [Medium
   * f4d8fb5 Re-work timeouts in saltnado
 
 PR #21918 [CLOSED]: (rallytime) Backport #21885 to 2014.7 [Minor Change], [Tests Passed]
-PR #21885 [CLOSED]: (mattwillsher) Remove check for physical virt type for salt.modules.virt.is_kvm_hyper() [Bugfix - [Done] back-ported], [Minor Change]
+PR #21885 [CLOSED]: (mattwillsher) Remove check for physical virt type for salt.modules.virt.is_kvm_hyper() [Bugfix - Done back-ported], [Minor Change]
 * 334a7b8 Merge pull request #21918 from rallytime/bp-21885
   * 78747b5 Remove check for physical virt type for KVM
 
@@ -110,20 +110,20 @@ PR #21861 [CLOSED]: (twangboy) Final (hopefully) improvements to the new build s
   * db64bef Updated BuildSalt and Salt-Minion-Setup.nsi - Fixed problem with missing folders and files - Fixed problem with detecting cpu architecture
 
 PR #21854 [CLOSED]: (jfindlay) backport #21791 to 2014.7 [Medium Change]
-PR #21791 [CLOSED]: (twangboy) Added additional files for building windows installations [Bugfix - [Done] back-ported]
+PR #21791 [CLOSED]: (twangboy) Added additional files for building windows installations [Bugfix - Done back-ported]
 * 86037bb Merge pull request #21854 from jfindlay/bp-21791
   * fbec100 Edited Salt-Minion-Setup.nsi, Added BuildSalt.bat
   * 98944e9 Added file to slim the windows install
 
 ISSUE #19953 [CLOSED]: (johanek) lsb_distrib grains on CentOS/RHEL [Bug], [Medium Severity]
 PR #21857 [CLOSED]: (jfindlay) backport #21844 to 2014.7 [Medium Change]
-PR #21844 [CLOSED]: (johanek) Always check other OS release files if lsb_distrib_id grain not populated from /etc/lsb-release [Bugfix - [Done] back-ported], [Medium Change]
+PR #21844 [CLOSED]: (johanek) Always check other OS release files if lsb_distrib_id grain not populated from /etc/lsb-release [Bugfix - Done back-ported], [Medium Change]
 * 9da5b33 Merge pull request #21857 from jfindlay/bp-21844
   * 4fe795f Always check other OS release files if lsb_distrib_id grain not populated from /etc/lsb-release
 
 ISSUE #6 [CLOSED]: (thatch45) Test module 
 PR #21855 [CLOSED]: (rallytime) Backport #21841 to 2014.7 [Minor Change]
-PR #21841 [CLOSED]: (ticosax) `override_params` contains the real list of allowed parameters [Bugfix - [Done] back-ported], [Minor Change]
+PR #21841 [CLOSED]: (ticosax) `override_params` contains the real list of allowed parameters [Bugfix - Done back-ported], [Minor Change]
 * 54b32db Merge pull request #21855 from rallytime/bp-21841
   * 000c55d Merge pull request #6 from terminalmage/bp-21841
     * 565fcea deepcopy the PER_REMOTE_PARAMS global
@@ -131,19 +131,19 @@ PR #21841 [CLOSED]: (ticosax) `override_params` contains the real list of allowe
 
 ISSUE #20735 [CLOSED]: (Whissi) All salt-minions died with an unhandled exceptions while salt-master was unavailable due to maintenance [Bug], [Fixed Pending Verification], [Medium Severity], [Needs Testcase]
 PR #21851 [CLOSED]: (rallytime) Backport the fix in #20781 manually to the 2014.7 branch [Medium Change]
-PR #20781 [CLOSED]: (cachedout) Don't float exceptions on auth errors in mine [Bugfix - [Done] back-ported], [Medium Change], [Tests Passed]
+PR #20781 [CLOSED]: (cachedout) Don't float exceptions on auth errors in mine [Bugfix - Done back-ported], [Medium Change], [Tests Passed]
 * c3c108d Merge pull request #21851 from rallytime/bp-20781
   * 0fb810a Don't forget to import SaltClientError
   * ba0560e Backport the fix in #20781 manually to the 2014.7 branch
 
 PR #21852 [CLOSED]: (jfindlay) backport #21790 to 2014.7 [Medium Change], [Tests Passed]
-PR #21790 [CLOSED]: (twangboy) Added files for the New Portable Salt Installer [Bugfix - [Done] back-ported]
+PR #21790 [CLOSED]: (twangboy) Added files for the New Portable Salt Installer [Bugfix - Done back-ported]
 * ca33da7 Merge pull request #21852 from jfindlay/bp-21790
   * ced2e57 Added files for the New Portable Salt Installer
 
 ISSUE #21603 [CLOSED]: (ipmb) ssh_auth.present fails on key without comment [Bug], [Fixed Pending Verification], [Low-Hanging Fruit], [Medium Severity], [Regression]
 PR #21848 [CLOSED]: (rallytime) Backport #21635 to 2014.7 [Minor Change], [Tests Passed]
-PR #21635 [CLOSED]: (jfindlay) check for ssh key comment [Bugfix - [Done] back-ported], [Minor Change]
+PR #21635 [CLOSED]: (jfindlay) check for ssh key comment [Bugfix - Done back-ported], [Minor Change]
 * c27692c Merge pull request #21848 from rallytime/bp-21635
   * c0f0414 check for ssh key comment
 
@@ -156,7 +156,7 @@ PR #21849 [CLOSED]: (basepi) [2014.7] saltutil.runner fixes [Medium Change]
 ISSUE #20197 [OPEN]: (jhenry82) Issue with multi-master and local job cache: An inconsistency occurred [Bug], [Fixed Pending Verification], [High Severity], [Multi-Master], [P1]
 ISSUE #19932 [CLOSED]: (smitt04) Calling salt '*' state.highstate on multi master, minions stop responding [Bug], [Fixed Pending Verification], [High Severity], [Multi-Master]
 PR #21846 [CLOSED]: (rallytime) Backport #21795 to 2014.7 
-PR #21795 [CLOSED]: (cachedout) Avoid dueling opts with fileclients in highstate [Bugfix - [Done] back-ported], [Expert Change]
+PR #21795 [CLOSED]: (cachedout) Avoid dueling opts with fileclients in highstate [Bugfix - Done back-ported], [Expert Change]
 * 82299ed Merge pull request #21846 from rallytime/bp-21795
   * 56142ad Avoid dueling opts with fileclients in highstate
 
@@ -164,8 +164,8 @@ ISSUE #20197 [OPEN]: (jhenry82) Issue with multi-master and local job cache: An 
 ISSUE #19932 [CLOSED]: (smitt04) Calling salt '*' state.highstate on multi master, minions stop responding [Bug], [Fixed Pending Verification], [High Severity], [Multi-Master]
 ISSUE #13944 [CLOSED]: (basepi) Multi-master minion not failing over properly for state runs [Bug], [Fixed Pending Verification], [High Severity], [Multi-Master]
 PR #21847 [CLOSED]: (rallytime) Backport #21832 to 2014.7 
-PR #21832 [CLOSED]: (cachedout) Revert regression caused by #15848 [Bugfix - [Done] back-ported]
-PR #15848 [CLOSED]: (cachedout) Re-inject opts into modules under multi-master mode. [Bugfix - [Done] back-ported]
+PR #21832 [CLOSED]: (cachedout) Revert regression caused by #15848 [Bugfix - Done back-ported]
+PR #15848 [CLOSED]: (cachedout) Re-inject opts into modules under multi-master mode. [Bugfix - Done back-ported]
 * c1ef044 Merge pull request #21847 from rallytime/bp-21832
   * 3782251 Revert regression caused by #15848
 
@@ -177,12 +177,12 @@ PR #21826 [CLOSED]: (jfindlay) propagate original IOError message through file.m
 ISSUE #21495 [CLOSED]: (UtahDave) Syndic not passing up lower level jobs to the higher master's job cache [Blocker], [Feature], [Fixed Pending Verification]
 PR #21828 [CLOSED]: (basepi) [2014.7] Append #21818 
 PR #21818 [CLOSED]: (basepi) [2014.7] Backport #21781 to 2014.7 [Medium Change], [Tests Passed]
-PR #21781 [CLOSED]: (basepi) [2015.2] Fix syndic pushing load to master of masters [Bugfix - [Done] back-ported]
+PR #21781 [CLOSED]: (basepi) [2015.2] Fix syndic pushing load to master of masters [Bugfix - Done back-ported]
 * 5292f5d Merge pull request #21828 from basepi/append_21818
   * 417e2ab Stupid backport didn't get this
 
 PR #21821 [CLOSED]: (basepi) [2014.7] Backport #21813 to 2014.7 [Master Change], [Tests Passed]
-PR #21813 [CLOSED]: (basepi) [2015.2] Syndic should only forward load once per job [Bugfix - [Done] back-ported], [Medium Change]
+PR #21813 [CLOSED]: (basepi) [2015.2] Syndic should only forward load once per job [Bugfix - Done back-ported], [Medium Change]
 * f20cfb6 Merge pull request #21821 from basepi/bp-21813
   * 06c3cf8 Make changes in both MultiSyndic and Syndic
   * 07c354b Rearrange a little
@@ -193,31 +193,31 @@ PR #21813 [CLOSED]: (basepi) [2015.2] Syndic should only forward load once per j
   * 36192e3 Fix Syndic to only forward unforwarded loads
 
 PR #21822 [CLOSED]: (basepi) [2014.7] Backport #21820 to 2014.7 
-PR #21820 [CLOSED]: (basepi) [2015.2] syndic load fix [Bugfix - [Done] back-ported]
+PR #21820 [CLOSED]: (basepi) [2015.2] syndic load fix [Bugfix - Done back-ported]
 * f92fd17 Merge pull request #21822 from basepi/bp-21820
   * 3870c66 Pass in the load you just checked for
 
 ISSUE #21495 [CLOSED]: (UtahDave) Syndic not passing up lower level jobs to the higher master's job cache [Blocker], [Feature], [Fixed Pending Verification]
 PR #21818 [CLOSED]: (basepi) [2014.7] Backport #21781 to 2014.7 [Medium Change], [Tests Passed]
-PR #21781 [CLOSED]: (basepi) [2015.2] Fix syndic pushing load to master of masters [Bugfix - [Done] back-ported]
+PR #21781 [CLOSED]: (basepi) [2015.2] Fix syndic pushing load to master of masters [Bugfix - Done back-ported]
 * 737ebb4 Merge pull request #21818 from basepi/bp-21781
   * e386db2 Update syndic_config test for new cachedir
   * 8d406c1 Fix syndic to get the load for __load__, not the jid
   * d40b387 Fix syndic to use master cachedir
 
 PR #21786 [CLOSED]: (rallytime) Backport #21739 to 2014.7 [Medium Change]
-PR #21739 [CLOSED]: (ticosax) If there no containers in the response it does not mean the command failed. [Bugfix - [Done] back-ported], [Medium Change]
+PR #21739 [CLOSED]: (ticosax) If there no containers in the response it does not mean the command failed. [Bugfix - Done back-ported], [Medium Change]
 * c09b737 Merge pull request #21786 from rallytime/bp-21739
   * eddef00 If there no containers in the response it does not mean the command failed.
 
 PR #21785 [CLOSED]: (rallytime) Backport #21738 to 2014.7 [Minor Change], [Tests Passed]
-PR #21738 [CLOSED]: (ticosax) transmit socket parameter for inner function calls [Bugfix - [Done] back-ported], [Minor Change]
+PR #21738 [CLOSED]: (ticosax) transmit socket parameter for inner function calls [Bugfix - Done back-ported], [Minor Change]
 * e7222c0 Merge pull request #21785 from rallytime/bp-21738
   * 14b367e transmit socket parameter for inner function calls
 
 ISSUE #19864 [CLOSED]: (claudiupopescu) Salt syndic architecture is slow [Bug], [Fixed Pending Verification], [High Severity]
 PR #21780 [CLOSED]: (cachedout) Backport #21775 to 2014.7 [Medium Change]
-PR #21775 [CLOSED]: (cachedout) Syndic client [Bugfix - [Done] back-ported], [Medium Change]
+PR #21775 [CLOSED]: (cachedout) Syndic client [Bugfix - Done back-ported], [Medium Change]
 PR #21175 [CLOSED]: (UtahDave) Cherry pick twilio beacon from develop to 2015.2 
 * efe7d09 Merge pull request #21780 from cachedout/syndic_client_2014_7
   * 36841bd Backport #21175 to 2014.7
@@ -257,14 +257,14 @@ PR #21701 [CLOSED]: (rvstaveren) Fix ldap group handling for 2014.7 [Minor Chang
   * 6e51093 username doesn't necessarily need to be in slot 0
 
 PR #21711 [CLOSED]: (rallytime) Backport #21676 to 2014.7 [Minor Change], [Tests Passed]
-PR #21676 [CLOSED]: (aneeshusa) Add error messages when missing setting_name param. [Bugfix - [Done] back-ported], [Minor Change]
+PR #21676 [CLOSED]: (aneeshusa) Add error messages when missing setting_name param. [Bugfix - Done back-ported], [Minor Change]
 * 2e5cdb1 Merge pull request #21711 from rallytime/bp-21676
   * 01f90d5 Add error messages when missing setting_name param.
 
 ISSUE #20317 [CLOSED]: (joshdover) RVM is not a function for gem state [Bug], [Fixed Pending Verification], [Medium Severity]
 ISSUE #6815 [CLOSED]: (davepeck) salt.modules.gem.install ignores ruby parameter if rvm is installed locally and runas is provided [Bug], [Fixed Pending Verification], [Low Severity]
 PR #21708 [CLOSED]: (rallytime) Backport #21666 to 2014.7 [Minor Change]
-PR #21666 [CLOSED]: (ahus1) RVM doesn't install as non-root, gems don't install for RVM [Bugfix - [Done] back-ported], [Minor Change]
+PR #21666 [CLOSED]: (ahus1) RVM doesn't install as non-root, gems don't install for RVM [Bugfix - Done back-ported], [Minor Change]
 * 0225463 Merge pull request #21708 from rallytime/bp-21666
   * 5f11f7b added tests to ensure commands are created accordingly (without additional single quotes)
   * 5f48e55 separate command from arguments to avoid problems when adding quotes
@@ -297,7 +297,7 @@ PR #21636 [CLOSED]: (basepi) Gate salt.utils.cloud (imports msgpack) in config.p
 
 ISSUE #21423 [CLOSED]: (roflmao) Function file.managed is run everytime on user = number [Bug], [Fixed Pending Verification], [Low-Hanging Fruit], [Medium Severity]
 PR #21626 [CLOSED]: (rallytime) Backport #21622 to 2014.7 [Minor Change]
-PR #21622 [CLOSED]: (aneeshusa) Teach file.check_perms to handle uids and gids. [Bugfix - [Done] back-ported], [Minor Change], [Tests Passed]
+PR #21622 [CLOSED]: (aneeshusa) Teach file.check_perms to handle uids and gids. [Bugfix - Done back-ported], [Minor Change], [Tests Passed]
 * 52e3901 Merge pull request #21626 from rallytime/bp-21622
   * b28dba2 Teach file.check_perms to handle uids and gids.
 
@@ -360,13 +360,13 @@ PR #21559 [CLOSED]: (s0undt3ch) Don't obfuscate the internal version attribute [
 
 ISSUE #20787 [CLOSED]: (pruiz) pillar_source_merging_strategy: smart not working when using more than one renderer at shebang line [Bug], [Fixed Pending Verification], [Medium Severity]
 PR #21514 [CLOSED]: (rallytime) Apply fix from #21489 to the 2014.7 branch [Minor Change], [Tests Passed]
-PR #21489 [CLOSED]: (pruiz) Fix #20787: YamlEx pillar merging fails when using gpg (even if pillar_source_merging_strategy is set to aggregate) [Bugfix - [Done] back-ported], [Minor Change]
+PR #21489 [CLOSED]: (pruiz) Fix #20787: YamlEx pillar merging fails when using gpg (even if pillar_source_merging_strategy is set to aggregate) [Bugfix - Done back-ported], [Minor Change]
 * f3ec86f Merge pull request #21514 from rallytime/manually_backport_21489
   * ee159ff Apply fix from #21489 to the 2014.7 branch
 
 ISSUE #20932 [CLOSED]: (dtoubelis) Exception when calling create method on openstack cloud provider from reactor sls [Bug], [Medium Severity], [Salt-Cloud]
 PR #21562 [CLOSED]: (cro) Backport 21283 from develop. [Master Change], [Tests Passed]
-PR #21283 [CLOSED]: (gtmanfred) Fix openstack cloud driver to work with only bootstrapping [Bugfix - [Done] back-ported], [Master Change]
+PR #21283 [CLOSED]: (gtmanfred) Fix openstack cloud driver to work with only bootstrapping [Bugfix - Done back-ported], [Master Change]
 * 44df93d Merge pull request #21562 from cro/bp-21283
   * 470bc06 remove extra log.debug
   * f049fe8 change deafult for kwargs
@@ -378,7 +378,7 @@ PR #21283 [CLOSED]: (gtmanfred) Fix openstack cloud driver to work with only boo
 
 ISSUE #20198 [CLOSED]: (jcftang) virt.get_graphics, virt.get_nics are broken, in turn breaking other things [Bug], [Fixed Pending Verification], [High Severity]
 PR #21487 [CLOSED]: (rallytime) Backport #21469 to 2014.7 [Minor Change]
-PR #21469 [CLOSED]: (vdesjardins) fixes #20198: virt.get_graphics and virt.get_nics calls in module virt [Bugfix - [Done] back-ported], [Minor Change]
+PR #21469 [CLOSED]: (vdesjardins) fixes #20198: virt.get_graphics and virt.get_nics calls in module virt [Bugfix - Done back-ported], [Minor Change]
 * 4873382 Merge pull request #21487 from rallytime/bp-21469
   * e4b33ef Move minidom import out of try block
   * aef0d95 fix pylint error in virt module.
@@ -396,14 +396,14 @@ PR #21557 [CLOSED]: (s0undt3ch) [2014.7] Update the bootstrap script to latest s
 
 ISSUE #21057 [CLOSED]: (freimer) Windows saltutil.kill_job [Bug], [Duplicate], [Fixed Pending Verification], [High Severity], [Windows]
 PR #21523 [CLOSED]: (jfindlay) backport #21481 to 2014.7 [Minor Change], [Tests Passed]
-PR #21481 [CLOSED]: (opdude) Fixed an error with SIGKILL on windows [Bugfix - [Done] back-ported], [Minor Change], [Tests Passed]
+PR #21481 [CLOSED]: (opdude) Fixed an error with SIGKILL on windows [Bugfix - Done back-ported], [Minor Change], [Tests Passed]
 PR #21244 [CLOSED]: (freimer) Fix for Python without a signal.SIGKILL (Win32) [Medium Change], [Tests Passed]
 * 0d278a4 Merge pull request #21523 from jfindlay/bp-21481
   * 08bd476 Fixed an error with SIGKILL on windows
 
 ISSUE #21491 [OPEN]: (martin-helmich) composer.installed should not always "return True" when composer.lock is present [Bug], [Fixed Pending Verification], [High Severity], [P2], [State Module]
 PR #21555 [CLOSED]: (ross-p) Fix for issue #21491 [Medium Change]
-PR #21553 [CLOSED]: (ross-p) Fix for issue #21491 (composer install should always run) [Bugfix - [Done] back-ported], [Medium Change]
+PR #21553 [CLOSED]: (ross-p) Fix for issue #21491 (composer install should always run) [Bugfix - Done back-ported], [Medium Change]
 * 2fa4189 Merge pull request #21555 from xclusv/2014.7-fix-21491
   * d473408 composer.install module does not support always_check, only the state does.  Removing the test on the module.
   * ee1a8d7 Fix lint issue.
@@ -436,7 +436,7 @@ PR #21510 [CLOSED]: (twangboy) Fixed disable function in win_service.py to actua
 
 ISSUE #21349 [CLOSED]: (ross-p) Salt composer state now broken due to apparent change in PHP Composer's output [Bug], [Medium Severity]
 PR #21497 [CLOSED]: (ross-p) Backport of PR #21358 to 2014.7 [Master Change], [Tests Passed]
-PR #21358 [CLOSED]: (ross-p) Fix composer, issue #21349 [Bugfix - [Done] back-ported]
+PR #21358 [CLOSED]: (ross-p) Fix composer, issue #21349 [Bugfix - Done back-ported]
 * 1c31dbf Merge pull request #21497 from xclusv/2014.7-fix-php-composer
   * 8083cf5 Backport of PR #21358 to 2014.7
 
@@ -445,7 +445,7 @@ PR #21488 [CLOSED]: (jacobhammons) Regenerated and updated man pages, updated re
   * 921d679 Regenerated and updated man pages, updated release version in conf.py to 2014.7.2
 
 PR #21437 [CLOSED]: (rallytime) Backport #21409 to 2014.7 [Minor Change], [Tests Passed]
-PR #21409 [CLOSED]: (jquast) Gracefully handle race condition of 'makedirs' [Bugfix - [Done] back-ported], [Medium Change]
+PR #21409 [CLOSED]: (jquast) Gracefully handle race condition of 'makedirs' [Bugfix - Done back-ported], [Medium Change]
 * 6ac6a53 Merge pull request #21437 from rallytime/bp-21409
   * 8a65d8c Gracefully handle race condition in `makedirs'
 
@@ -624,7 +624,7 @@ PR #21069 [CLOSED]: (RobertFach) added options auto, users to mount invisible op
   * f42cd1c added options auto, users to mount invisible options
 
 PR #21063 [CLOSED]: (jond64) Backport #16306 to 2014.7 [Medium Change]
-PR #16306 [CLOSED]: (hathawsh) This patch fixes the 'test' mode of the 'network' state module. [Bugfix - [Done] back-ported]
+PR #16306 [CLOSED]: (hathawsh) This patch fixes the 'test' mode of the 'network' state module. [Bugfix - Done back-ported]
 * c302796 Merge pull request #21063 from jond64/bp-16306
   * 3c061ac Fix the 'test' mode of the 'network' state module.  It hit false positives due to inconsistent newline handling.
 
@@ -698,7 +698,7 @@ PR #20141 [CLOSED]: (crasu) Fix file locking for gitfs see #18839 [Expert Change
 
 ISSUE #18358 [CLOSED]: (msciciel) Problem with batch execution [Bug], [Fixed Pending Verification], [High Severity], [Pending Discussion]
 PR #21023 [CLOSED]: (rallytime) Backport #19303 to 2014.7 [Minor Change], [Tests Passed]
-PR #19303 [CLOSED]: (cachedout) Batch ckminions [Bugfix - [Done] back-ported]
+PR #19303 [CLOSED]: (cachedout) Batch ckminions [Bugfix - Done back-ported]
 * 87c6e0c Merge pull request #21023 from rallytime/bp-19303
   * 565f109 Add transport key to mocked opts to fix batch unit tests
   * 011f8c4 Adjust batch test
@@ -716,7 +716,7 @@ PR #21034 [CLOSED]: (basepi) [2014.7] Fix for salt-ssh without command line pars
   * 1700d0c Fix for salt-ssh without command line parsers
 
 PR #21032 [CLOSED]: (rallytime) Backport #21024 to 2014.7 [Minor Change], [Tests Passed]
-PR #21024 [CLOSED]: (ptonelli) fix set_locale when no locale is defined initially in RedHat family [Bugfix - [Done] back-ported], [Minor Change]
+PR #21024 [CLOSED]: (ptonelli) fix set_locale when no locale is defined initially in RedHat family [Bugfix - Done back-ported], [Minor Change]
 * d5a98f3 Merge pull request #21032 from rallytime/bp-21024
   * ea90e4e Pylint fix
   * 6ffffed use file.replace instead of file.sed
@@ -771,19 +771,19 @@ PR #20937 [CLOSED]: (wt) Log when the yaml filter outputs trailing ellipsis. [Mi
   * f037dcf Log when the yaml filter outputs trailing ellipsis.
 
 PR #20954 [CLOSED]: (rallytime) Backport #20891 to 2014.7 [Minor Change], [Tests Passed]
-PR #20891 [CLOSED]: (jfindlay) pylint #20814 [Bugfix - [Done] back-ported], [Minor Change]
+PR #20891 [CLOSED]: (jfindlay) pylint #20814 [Bugfix - Done back-ported], [Minor Change]
 * 34f83ee Merge pull request #20954 from rallytime/bp-20891
   * 213ef3d fix lint
   * b0a4e48 Fix disk.usage for Synology OS
 
 PR #20953 [CLOSED]: (rallytime) Backport #20888 to 2014.7 [Minor Change]
-PR #20888 [CLOSED]: (jfindlay) pylint #20885 [Bugfix - [Done] back-ported], [Minor Change], [Tests Passed]
+PR #20888 [CLOSED]: (jfindlay) pylint #20885 [Bugfix - Done back-ported], [Minor Change], [Tests Passed]
 * 1fa8c7a Merge pull request #20953 from rallytime/bp-20888
   * e9ff8ff fix lint
   * 86029e7 Trim the env base off the dest file path in the s3fs fileserver
 
 PR #20951 [CLOSED]: (rallytime) Backport #20837 to 2014.7 [Minor Change]
-PR #20837 [CLOSED]: (viktorkrivak) Fix multi comps and multi dist bugs [Bugfix - [Done] back-ported], [Minor Change]
+PR #20837 [CLOSED]: (viktorkrivak) Fix multi comps and multi dist bugs [Bugfix - Done back-ported], [Minor Change]
 * dfef980 Merge pull request #20951 from rallytime/bp-20837
   * 5d1bc21 Fix multi comps and multi dist bugs
 
@@ -828,7 +828,7 @@ PR #20847 [CLOSED]: (rallytime) Add listen and listen_in to state internal kwarg
   * 5d22cba Add listen and listen_in to state internal kwargs
 
 PR #20839 [CLOSED]: (rallytime) Backport #20608 to 2014.7 [Minor Change], [Tests Passed]
-PR #20608 [CLOSED]: (cachedout) Avoid trying to deserialize empty files [Bugfix - [Done] back-ported], [Minor Change]
+PR #20608 [CLOSED]: (cachedout) Avoid trying to deserialize empty files [Bugfix - Done back-ported], [Minor Change]
 * e0ba92f Merge pull request #20839 from rallytime/bp-20608
   * e4ced3e Avoid trying to deserialize empty files
 
@@ -860,7 +860,7 @@ PR #20810 [CLOSED]: (rallytime) Add 2014.7.2 package links to the windows instal
   * 928bb30 Add 2014.7.2 package links to the windows installer docs
 
 PR #20800 [CLOSED]: (rallytime) Backport #20768 to 2014.7 [Medium Change]
-PR #20768 [CLOSED]: (vladislav-jomedia) "dictionary changed size during iteration" issue fixed in config.py for ... [Bugfix - [Done] back-ported], [Medium Change], [Tests Passed]
+PR #20768 [CLOSED]: (vladislav-jomedia) "dictionary changed size during iteration" issue fixed in config.py for ... [Bugfix - Done back-ported], [Medium Change], [Tests Passed]
 * 2cf898e Merge pull request #20800 from rallytime/bp-20768
   * 30616de Update config.py
   * 89fd8ee "dictionary changed size during iteration" issue fixed in config.py for salt-cloud
@@ -876,7 +876,7 @@ PR #20762 [CLOSED]: (jfindlay) fix nftables.get_rule_handle return error [Minor 
   * 6708cf1 fix nftables.get_rule_handle return error
 
 PR #20765 [CLOSED]: (rallytime) Backport #20706 to 2014.7 [Minor Change], [Tests Passed]
-PR #20706 [CLOSED]: (Achimh3011) Make systemd impl. of service.running aware of legacy service units [Bugfix - [Done] back-ported], [Minor Change], [Tests Passed]
+PR #20706 [CLOSED]: (Achimh3011) Make systemd impl. of service.running aware of legacy service units [Bugfix - Done back-ported], [Minor Change], [Tests Passed]
 * 8fda896 Merge pull request #20765 from rallytime/bp-20706
   * 5d9ecaa Fix pep8 issues.
   * 40d6963 Make systemd implementation of service.running aware of legacy service units.
@@ -888,7 +888,7 @@ PR #20739 [CLOSED]: (mikn) Giving publish.publish more robust return handling [M
   * 892db93 Giving publish.publish more robust handling of returns making sure that it can cope with duplicate responses and actually return what it has received if it reaches the timeout
 
 PR #20689 [CLOSED]: (rallytime) Backport #20457 to 2014.7 [Medium Change], [Tests Passed]
-PR #20457 [CLOSED]: (cachedout) Iterate over the socket copy [Bugfix - [Done] back-ported], [Medium Change], [Tests Passed]
+PR #20457 [CLOSED]: (cachedout) Iterate over the socket copy [Bugfix - Done back-ported], [Medium Change], [Tests Passed]
 * 078865a Merge pull request #20689 from rallytime/bp-20457
   * 1ab4d99 Use list instead
   * e4fd27a Iterate over the socket copy
@@ -899,7 +899,7 @@ PR #20697 [CLOSED]: (whiteinge) Add note to rest_cherrypy instructions: restarti
   * 561ea7c Add note to rest_cherrypy instructions: restarting daemons is required
 
 PR #20684 [CLOSED]: (rallytime) Backport #20232 to 2014.7 [Minor Change], [Tests Passed]
-PR #20232 [CLOSED]: (jacksontj) Remove unecessary finish() calls [Bugfix - [Done] back-ported]
+PR #20232 [CLOSED]: (jacksontj) Remove unecessary finish() calls [Bugfix - Done back-ported]
 PR #20221 [CLOSED]: (cachedout) Remove finish [DO NOT MERGE] 
 * 6c2ac49 Merge pull request #20684 from rallytime/bp-20232
   * 8d63ac4 Remove unecessary finish() calls
@@ -940,18 +940,18 @@ PR #20604 [CLOSED]: (basepi) [2014.7] Accept kali linux for aptpkg.py [Minor Cha
   * 0d1c0ab Accept kali linux for aptpkg.py
 
 PR #20591 [CLOSED]: (rallytime) Backport #20568 to 2014.7 [Minor Change], [Tests Passed]
-PR #20568 [CLOSED]: (cachedout) Last time with find removed [Bugfix - [Done] back-ported]
+PR #20568 [CLOSED]: (cachedout) Last time with find removed [Bugfix - Done back-ported]
 * 3d60f75 Merge pull request #20591 from rallytime/bp-20568
   * cffbca4 Pylint fix - remove unused import
   * 194ad0f Last time with find removed
 
 PR #20578 [CLOSED]: (rallytime) Backport #20561 to 2014.7 [Medium Change], [Tests Passed]
-PR #20561 [CLOSED]: (cachedout) Disable gitfs test that does not produce valuable data [Bugfix - [Done] back-ported]
+PR #20561 [CLOSED]: (cachedout) Disable gitfs test that does not produce valuable data [Bugfix - Done back-ported]
 * a4572f3 Merge pull request #20578 from rallytime/bp-20561
   * 836b525 Disable gitfs test that does not produce valuable data
 
 PR #20579 [CLOSED]: (rallytime) Backport #20567 to 2014.7 
-PR #20567 [CLOSED]: (cachedout) Remove another test. [Bugfix - [Done] back-ported]
+PR #20567 [CLOSED]: (cachedout) Remove another test. [Bugfix - Done back-ported]
 * 45301d3 Merge pull request #20579 from rallytime/bp-20567
   * c41998c Remove another test.
 
@@ -969,11 +969,11 @@ PR #20500 [CLOSED]: (eliasp) Use same string encoding for results from all files
   * 4951b78 Use same string encoding for results from all fileserver backends.
 
 PR #20534 [CLOSED]: (rallytime) Backport #20454 to 2014.7 [Minor Change], [Tests Passed]
-PR #20454 [CLOSED]: (scream3) RVM user-only installation is broken [Bugfix - [Done] back-ported]
+PR #20454 [CLOSED]: (scream3) RVM user-only installation is broken [Bugfix - Done back-ported]
 * 523a8f8 Merge pull request #20534 from rallytime/bp-20454
   * f1aa693 Fix wrong check for rvm script existence
 
 PR #20533 [CLOSED]: (rallytime) Backport #20521 to 2014.7 [Minor Change], [Tests Passed]
-PR #20521 [CLOSED]: (umeboshi2) don't use empty string as command parameter [Bugfix - [Done] back-ported], [Minor Change], [Tests Passed]
+PR #20521 [CLOSED]: (umeboshi2) don't use empty string as command parameter [Bugfix - Done back-ported], [Minor Change], [Tests Passed]
 * a6fa35a Merge pull request #20533 from rallytime/bp-20521
   * 3fc398e don't use empty string as command parameter

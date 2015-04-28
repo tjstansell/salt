@@ -72,7 +72,7 @@ PR #22016 [CLOSED]: (basepi) [2014.7] Move install.sh to cachedir for serverdens
   * e11298d Move install.sh to cachedir for serverdensity_device
 
 PR #22015 [CLOSED]: (rallytime) Backport #21947 to 2014.7 [Minor Change]
-PR #21947 [CLOSED]: (dmyerscough) Ensure nginx config check passes by checking the exit status [Bugfix - [Done] back-ported], [Minor Change]
+PR #21947 [CLOSED]: (dmyerscough) Ensure nginx config check passes by checking the exit status [Bugfix - Done back-ported], [Minor Change]
 * e9c9f9d Merge pull request #22015 from rallytime/bp-21947
   * ccf457c Ensure nginx config check passes by checking the exit status.... Nginx writes messages to stderr even when there are no errors
 

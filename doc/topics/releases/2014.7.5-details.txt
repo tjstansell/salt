@@ -48,7 +48,7 @@ PR #22115 [CLOSED]: (douglas-vaz) Strip whitespace characters using strip() for 
 
 PR #22656 [CLOSED]: (jfindlay) backport #22624 to 2014.7 [Minor Change], [Tests Passed]
 PR #22624 [CLOSED]: (rallytime) Backport #22563 to 2015.2 [Minor Change], [Tests Passed]
-PR #22563 [CLOSED]: (kaszuba) Fix for high cpu usage by salt-ssh [Bugfix - [Done] back-ported], [Medium Change], [Tests Passed]
+PR #22563 [CLOSED]: (kaszuba) Fix for high cpu usage by salt-ssh [Bugfix - Done back-ported], [Medium Change], [Tests Passed]
 * 795c01d Merge pull request #22656 from jfindlay/bp-22624
   * e4d8478 Remove blank line
   * 0a5c345 Fix for high cpu usage by salt-ssh
@@ -59,7 +59,7 @@ PR #22643 [CLOSED]: (TimJones) Fix aptpkg.mod_repo returning OK even if apt-add-
   * 5099621 Fix aptpkg.mod_repo returning OK even if apt-add-repository fails.
 
 PR #22625 [CLOSED]: (rallytime) Backport #22565 to 2014.7 [Minor Change], [Tests Passed]
-PR #22565 [CLOSED]: (kaszuba) Increase frequency of ssh terminal output checking [Bugfix - [Done] back-ported], [Medium Change], [Tests Passed]
+PR #22565 [CLOSED]: (kaszuba) Increase frequency of ssh terminal output checking [Bugfix - Done back-ported], [Medium Change], [Tests Passed]
 * a219be7 Merge pull request #22625 from rallytime/bp-22565
   * ecc14de Increase frequency of ssh terminal output checking
 
@@ -118,7 +118,7 @@ PR #22535 [CLOSED]: (rallytime) Add additional examples to grains.list_absent an
   * d44d3e6 Add additional examples to grains.list_absent and grains.list_present
 
 PR #22532 [CLOSED]: (rallytime) Backport #18846 to 2014.7 [Minor Change], [Tests Passed]
-PR #18846 [CLOSED]: (basepi) Add **kwargs to service.mod_watch [Bugfix - [Done] back-ported]
+PR #18846 [CLOSED]: (basepi) Add **kwargs to service.mod_watch [Bugfix - Done back-ported]
 * 20fc878 Merge pull request #22532 from rallytime/bp-18846
   * b02d063 Add **kwargs to service.mod_watch
 
@@ -169,7 +169,7 @@ PR #22517 [CLOSED]: (s0undt3ch) Don't assume we're running the tests as root [Mi
 
 ISSUE #19737 [CLOSED]: (Reiner030) pkgrepo.managed could better handle long keyids [Bug], [Fixed Pending Verification], [High Severity], [P4]
 PR #22506 [CLOSED]: (rallytime) Backport #20095 to 2014.7 [Minor Change], [Tests Passed]
-PR #20095 [CLOSED]: (colincoghill) Handle pkgrepo keyids that have been converted to int.  #19737 [Bugfix - [Done] back-ported]
+PR #20095 [CLOSED]: (colincoghill) Handle pkgrepo keyids that have been converted to int.  #19737 [Bugfix - Done back-ported]
 * 38441a7 Merge pull request #22506 from rallytime/bp-20095
   * 755c26e Handle pkgrepo keyids that have been converted to int.  #19737
 
@@ -182,7 +182,7 @@ PR #22381 [CLOSED]: (batulin-s) fix #22321 bug [Minor Change], [Tests Passed]
 
 ISSUE #16508 [CLOSED]: (o1e9) wrong disk.usage reported for very big RAID disk [Bug], [Low Severity], [Windows]
 PR #22492 [CLOSED]: (davidjb) Correctly report disk usage on Windows. Fix #16508 [Minor Change], [Tests Passed]
-PR #22485 [CLOSED]: (davidjb) Correctly report disk usage on Windows [Bugfix - [Done] back-ported], [Minor Change], [Tests Passed]
+PR #22485 [CLOSED]: (davidjb) Correctly report disk usage on Windows [Bugfix - Done back-ported], [Minor Change], [Tests Passed]
 * 6662853 Merge pull request #22492 from davidjb/2014.7
   * 5d831ed Correctly report disk usage on Windows. Fix #16508
 
@@ -219,7 +219,7 @@ PR #22448 [CLOSED]: (rallytime) Migrate old cloud config documentation to own pa
 
 ISSUE #19044 [CLOSED]: (whiteinge) Document the file_map addition to salt-cloud [Bug], [Documentation], [Medium Severity], [Salt-Cloud]
 PR #22445 [CLOSED]: (rallytime) Add docs explaing file_map upload functionality [Minor Change]
-PR #16886 [CLOSED]: (techhat) Add file_map to salt.utils.cloud.bootstrap-enabled providers [Bugfix - [Done] back-ported]
+PR #16886 [CLOSED]: (techhat) Add file_map to salt.utils.cloud.bootstrap-enabled providers [Bugfix - Done back-ported]
 * d7b1f14 Merge pull request #22445 from rallytime/fix-19044
   * 7a9ce92 Add docs explaing file_map upload functionality
 
@@ -228,7 +228,7 @@ PR #22426 [CLOSED]: (jraby) don't repeat the "if ret['changes']" condition [Mino
   * e2aa538 don't repeat the "if ret['changes']" condition
 
 PR #22416 [CLOSED]: (rallytime) Backport #21044 to 2014.7 [Medium Change], [Tests Passed]
-PR #21044 [CLOSED]: (cachedout) TCP keepalives on the ret side [Bugfix - [Done] back-ported], [Master Change]
+PR #21044 [CLOSED]: (cachedout) TCP keepalives on the ret side [Bugfix - Done back-ported], [Master Change]
 * 4c8d351 Merge pull request #22416 from rallytime/bp-21044
   * 7dd4b61 TCP keepalives on the ret side
 
@@ -239,7 +239,7 @@ PR #22433 [CLOSED]: (rallytime) Clarify that an sls is not available on a filese
 
 ISSUE #22382 [CLOSED]: (ghost) The 'proxmox' cloud provider alias, for the 'proxmox' driver, does not define the function 'disk'".  [Bug], [Medium Severity], [Salt-Cloud]
 PR #22434 [CLOSED]: (rallytime) Backport #22414 to 2014.7 [Minor Change], [Tests Passed]
-PR #22414 [CLOSED]: (syphernl) Cloud: Do not look for disk underneath config in Proxmox driver [Bugfix - [Done] back-ported], [Minor Change]
+PR #22414 [CLOSED]: (syphernl) Cloud: Do not look for disk underneath config in Proxmox driver [Bugfix - Done back-ported], [Minor Change]
 * 70ba52f Merge pull request #22434 from rallytime/bp-22414
   * 4a141c0 Lint
   * 09e9b6e Do not look for disk underneath config
@@ -302,7 +302,7 @@ PR #22341 [CLOSED]: (basepi) [2014.7] Fix some salt-ssh issues with Fedora 21 [M
 
 ISSUE #14888 [CLOSED]: (djs52) grains.get_or_set_hash  broken for multiple entries under the same key [Bug], [Fixed Pending Verification], [Medium Severity]
 PR #22337 [CLOSED]: (rallytime) Backport #22245 to 2014.7 [Minor Change], [Tests Passed]
-PR #22245 [CLOSED]: (achernev) Fix grains.get_or_set_hash to work with multiple entries under same key [Bugfix - [Done] back-ported], [Minor Change], [Tests Passed]
+PR #22245 [CLOSED]: (achernev) Fix grains.get_or_set_hash to work with multiple entries under same key [Bugfix - Done back-ported], [Minor Change], [Tests Passed]
 * f892335 Merge pull request #22337 from rallytime/bp-22245
   * f560056 Fix grains.get_or_set_hash to work with multiple entries under same key
 
@@ -386,13 +386,13 @@ PR #22168 [CLOSED]: (semarj) fix cas behavior on data module [Minor Change]
 
 ISSUE #21956 [CLOSED]: (giannello) Reactor rendering error [Info Needed]
 PR #22161 [CLOSED]: (rallytime) Backport #21959 to 2014.7 [Minor Change]
-PR #21959 [CLOSED]: (giannello) Changed argument name [Bugfix - [Done] back-ported], [Minor Change]
+PR #21959 [CLOSED]: (giannello) Changed argument name [Bugfix - Done back-ported], [Minor Change]
 * d941579 Merge pull request #22161 from rallytime/bp-21959
   * b9d55bc Changed argument name
 
 ISSUE #9960 [CLOSED]: (jeteokeeffe) salt virt.query errors out [Bug], [Medium Severity]
 PR #22160 [CLOSED]: (rallytime) Backport #22134 to 2014.7 [Minor Change], [Tests Passed]
-PR #22134 [CLOSED]: (zboody) Fixes #9960 [Bugfix - [Done] back-ported], [Minor Change]
+PR #22134 [CLOSED]: (zboody) Fixes #9960 [Bugfix - Done back-ported], [Minor Change]
 * 9bf6f50 Merge pull request #22160 from rallytime/bp-22134
   * 061d085 Fixes #9960
 
@@ -407,6 +407,6 @@ PR #22121 [CLOSED]: (tjstansell) fix #20841: add sls name from reactor [Medium C
   * b2b554a fix #20841: add sls name from reactor
 
 PR #22122 [CLOSED]: (tjstansell) backport #20166 to 2014.7 [Medium Change]
-PR #20166 [CLOSED]: (cachedout) Catch all exceptions in reactor [Bugfix - [Done] back-ported]
+PR #20166 [CLOSED]: (cachedout) Catch all exceptions in reactor [Bugfix - Done back-ported]
 * 4176c85 Merge pull request #22122 from tjstansell/bp-20166
   * 6750480 backport #20166 to 2014.7

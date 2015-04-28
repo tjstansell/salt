@@ -50,7 +50,7 @@ PR #20465 [CLOSED]: (cachedout) Fix mismatched config value for auth_safemode
 
 ISSUE #19916 [CLOSED]: (steverweber) cron.present is not working correctly. [Bug], [Fixed Pending Verification], [High Severity], [Regression], [State Module]
 PR #20433 [CLOSED]: (rallytime) Backport #20386 to 2014.7 
-PR #20386 [CLOSED]: (cachedout) Don't run cron as a user with -u on Linux [Bugfix - [Done] back-ported]
+PR #20386 [CLOSED]: (cachedout) Don't run cron as a user with -u on Linux [Bugfix - Done back-ported]
 * debb844 Merge pull request #20433 from rallytime/bp-20386
   * bc99eb8 Don't run cron as a user with -u on Linux
 
@@ -87,7 +87,7 @@ PR #20389 [CLOSED]: (jfindlay) fix pip venv regression, deprecate activate param
 
 ISSUE #14808 [CLOSED]: (Linuturk) salt-cloud Windows Openstack [Bug], [Medium Severity], [Salt-Cloud]
 PR #20405 [CLOSED]: (rallytime) Backport #14834 to 2014.7 
-PR #14834 [CLOSED]: (gtmanfred) Only assign win_password if it actually is set [Bugfix - [Done] back-ported]
+PR #14834 [CLOSED]: (gtmanfred) Only assign win_password if it actually is set [Bugfix - Done back-ported]
 * 35f45f7 Merge pull request #20405 from rallytime/bp-14834
   * c9f4b42 only overwrite password if win_password is set
   * e132e77 Only assign win_password if it actually is set
@@ -128,7 +128,7 @@ PR #20412 [CLOSED]: (rallytime) Cast ssh_port as an integer to stop stacktrace w
 ISSUE #17380 [CLOSED]: (UtahDave) external auth group support not working with pam [Bug], [Critical], [Fixed Pending Verification]
 ISSUE #2215 [CLOSED]: (techhat) 'list' object has no attribute 'difference' in static command 
 PR #20390 [CLOSED]: (basepi) [2014.7] Fix eauth group authentication (backport of #20281) 
-PR #20281 [CLOSED]: (MrMarvin) fixes a bug which broke eauth with group permissions [Bugfix - [Done] back-ported]
+PR #20281 [CLOSED]: (MrMarvin) fixes a bug which broke eauth with group permissions [Bugfix - Done back-ported]
 * e8b088a Merge pull request #20390 from basepi/eauthgroup17380
   * 4c3a816 fixes weird wording in comment
   * 5e897d8 fixes a bug which broke eauth with group permissions
@@ -138,7 +138,7 @@ PR #20365 [CLOSED]: (whiteinge) Pull grains into __opts__ before loading the exe
   * 14bf982 Pull grains into __opts__ before loading the execution modules
 
 PR #20351 [CLOSED]: (rallytime) Backport #20316 to 2014.7 
-PR #20316 [CLOSED]: (glomium) Event _stamp should be UTC [Bugfix - [Done] back-ported]
+PR #20316 [CLOSED]: (glomium) Event _stamp should be UTC [Bugfix - Done back-ported]
 * 6988ac8 Merge pull request #20351 from rallytime/bp-20316
   * c2d2db1 added utc timestamp to event
 
@@ -156,7 +156,7 @@ PR #20314 [CLOSED]: (jfindlay) fix systemd stacktrace on debian
   * f785002 fix systemd stacktrace on debian
 
 PR #20305 [CLOSED]: (rallytime) Backport #20216 to 2014.7 
-PR #20216 [CLOSED]: (steverweber) fix returning docs when some minions did not return [Bugfix - [Done] back-ported]
+PR #20216 [CLOSED]: (steverweber) fix returning docs when some minions did not return [Bugfix - Done back-ported]
 * 8ed1dab Merge pull request #20305 from rallytime/bp-20216
   * 6de9d62 fix returning docs when some minions did not return
 
@@ -204,7 +204,7 @@ PR #20229 [CLOSED]: (basepi) Check for terminated (errored) processes in salt-ss
 
 ISSUE #19080 [CLOSED]: (ferreol) multi master failover mode looping indefinitely [Bug], [Fixed Pending Verification], [Medium Severity]
 PR #20218 [CLOSED]: (felskrone) improved status.master to work with fqdns 
-PR #19380 [CLOSED]: (felskrone) improve master.status to work with host fqdns/hostnames as well as ips [Bugfix - [Done] back-ported]
+PR #19380 [CLOSED]: (felskrone) improve master.status to work with host fqdns/hostnames as well as ips [Bugfix - Done back-ported]
 * 9fafe41 Merge pull request #20218 from felskrone/fqdn_master_status_2014.7
   * c8f734b improved status.master to work with fqdns
 
@@ -238,7 +238,7 @@ PR #20203 [CLOSED]: (basepi) [2014.7] Iterate over the shortopts if there are mo
   * 8f322c9 Iterate over the shortopts if there are more than one
 
 PR #20210 [CLOSED]: (rallytime) Backport #20171 to 2014.7 
-PR #20171 [CLOSED]: (plastikos) Minor: Improve thin and shim warnings and comments. [Bugfix - [Done] back-ported]
+PR #20171 [CLOSED]: (plastikos) Minor: Improve thin and shim warnings and comments. [Bugfix - Done back-ported]
 * 8598559 Merge pull request #20210 from rallytime/bp-20171
   * 132f364 Don't use salt.defaults.exitcodes, just use salt.exitcodes in 2014.7
   * 80dc5ae Minor: Improve thin and shim warnings and comments.
@@ -246,7 +246,7 @@ PR #20171 [CLOSED]: (plastikos) Minor: Improve thin and shim warnings and commen
 ISSUE #14634 [OPEN]: (Sacro) 'unless' documentation isn't logically plausible [Bug], [Documentation], [Medium Severity]
 ISSUE #11879 [CLOSED]: (pille) cmd.run: unless/onlyif should show return code in debug loglevel [Feature], [Low Severity]
 PR #20211 [CLOSED]: (rallytime) Backport #20118 to 2014.7 
-PR #20118 [CLOSED]: (kitsemets) salt.states.cmd: fixed 'unless' behaviour in case of multiple commands are given [Bugfix - [Done] back-ported]
+PR #20118 [CLOSED]: (kitsemets) salt.states.cmd: fixed 'unless' behaviour in case of multiple commands are given [Bugfix - Done back-ported]
 PR #16044 [CLOSED]: (rallytime) Clarify unless and onlyif docs 
 PR #11898 [CLOSED]: (rallytime) Onlyif return codes added to debug log 
 * a72017d Merge pull request #20211 from rallytime/bp-20118
@@ -254,7 +254,7 @@ PR #11898 [CLOSED]: (rallytime) Onlyif return codes added to debug log
 
 PR #20212 [CLOSED]: (rallytime) Revert "Backport #19566 to 2014.7" 
 PR #20156 [CLOSED]: (rallytime) Backport #19566 to 2014.7 
-PR #19566 [CLOSED]: (traxair) Salt add azure volume support [Bugfix - [Done] back-ported]
+PR #19566 [CLOSED]: (traxair) Salt add azure volume support [Bugfix - Done back-ported]
 * 4aeaec7 Merge pull request #20212 from saltstack/revert-20156-bp-19566
   * 9fef292 Revert "Backport #19566 to 2014.7"
 
@@ -273,31 +273,31 @@ PR #20128 [CLOSED]: (kim0) Freebsd status.cpuinfo
   * 65f643e Implement freebsd-status.cpuinfo
 
 PR #20162 [CLOSED]: (rallytime) Backport #20062 to 2014.7 
-PR #20062 [CLOSED]: (cachedout) Increae default runner timeout to 60s [Bugfix - [Done] back-ported]
+PR #20062 [CLOSED]: (cachedout) Increae default runner timeout to 60s [Bugfix - Done back-ported]
 * daba06f Merge pull request #20162 from rallytime/bp-20062
   * 7c066c3 Increae default runner timeout to 60s
 
 ISSUE #19306 [CLOSED]: (TaiSHiNet) DigitalOcean API v1 private_networking is set to True instead of 'true' [Bug], [Low-Hanging Fruit], [Medium Severity], [Salt-Cloud]
 PR #20159 [CLOSED]: (rallytime) Backport #20115 to 2014.7 
-PR #20115 [CLOSED]: (TaiSHiNet) DO APIv1 issue Closes #19306 [Bugfix - [Done] back-ported]
+PR #20115 [CLOSED]: (TaiSHiNet) DO APIv1 issue Closes #19306 [Bugfix - Done back-ported]
 * 02cbd7e Merge pull request #20159 from rallytime/bp-20115
   * 2e58b07 DO APIv1 issue Closes #19306
 
 PR #20157 [CLOSED]: (rallytime) Backport #19976 to 2014.7 
-PR #19976 [CLOSED]: (oldmantaiter) Add compatibility to mount by label [Bugfix - [Done] back-ported]
+PR #19976 [CLOSED]: (oldmantaiter) Add compatibility to mount by label [Bugfix - Done back-ported]
 * 39bdd3a Merge pull request #20157 from rallytime/bp-19976
   * fe1f260 Add compatibility to mount by label
 
 ISSUE #19162 [CLOSED]: (traxair) Permanent disk on Azure [Feature], [Fixed Pending Verification]
 PR #20156 [CLOSED]: (rallytime) Backport #19566 to 2014.7 
-PR #19566 [CLOSED]: (traxair) Salt add azure volume support [Bugfix - [Done] back-ported]
+PR #19566 [CLOSED]: (traxair) Salt add azure volume support [Bugfix - Done back-ported]
 * 1295206 Merge pull request #20156 from rallytime/bp-19566
   * f874d8b Pylint fixes
   * 0a28a46 #19162 added disks to Azure VM creation. Only new empty disks are supported. Add a line volumes:   - { size: 10 (default 100), lun: [0-15](default: 0), disk_label: <label>(default: <role-name>-disk-<lun>) }
 
 ISSUE #15417 [CLOSED]: (Jille) file.replace returns None instead of True when it doesn't do anything [Bug], [Low Severity], [State Module]
 PR #20154 [CLOSED]: (rallytime) Backport #15701 to 2014.7 
-PR #15701 [CLOSED]: (Jille) Fixed the Result of file.replace (#15417) [Bugfix - [Done] back-ported]
+PR #15701 [CLOSED]: (Jille) Fixed the Result of file.replace (#15417) [Bugfix - Done back-ported]
 * 6511aac Merge pull request #20154 from rallytime/bp-15701
   * b9d2f5b Fixed the Result of file.replace
 
@@ -411,7 +411,7 @@ PR #20015 [CLOSED]: (basepi) Fix grains precedence issues
 
 PR #20001 [CLOSED]: (rallytime) Revert "Backport #19790 to 2014.7" 
 PR #19960 [CLOSED]: (rallytime) Backport #19790 to 2014.7 
-PR #19790 [CLOSED]: (cachedout) Fix multi-master event handling bug [Bugfix - [Done] back-ported]
+PR #19790 [CLOSED]: (cachedout) Fix multi-master event handling bug [Bugfix - Done back-ported]
 * 487fa9c Merge pull request #20001 from saltstack/revert-19960-bp-19790
   * f49edd1 Revert "Backport #19790 to 2014.7"
 
@@ -454,12 +454,12 @@ PR #18400 [CLOSED]: (terminalmage) Fix gitfs serving symlinks
 
 ISSUE #18673 [OPEN]: (dennisoconnor) docker.login module is failing [Bug], [Medium Severity]
 PR #19961 [CLOSED]: (rallytime) Backport #19855 to 2014.7 
-PR #19855 [CLOSED]: (colincoghill) Fix for docker login saltstack/salt#18673 [Bugfix - [Done] back-ported]
+PR #19855 [CLOSED]: (colincoghill) Fix for docker login saltstack/salt#18673 [Bugfix - Done back-ported]
 * 945a016 Merge pull request #19961 from rallytime/bp-19855
   * 28af4ef Fix for docker login saltstack/salt#18673
 
 PR #19960 [CLOSED]: (rallytime) Backport #19790 to 2014.7 
-PR #19790 [CLOSED]: (cachedout) Fix multi-master event handling bug [Bugfix - [Done] back-ported]
+PR #19790 [CLOSED]: (cachedout) Fix multi-master event handling bug [Bugfix - Done back-ported]
 * 21da224 Merge pull request #19960 from rallytime/bp-19790
   * cf83079 Remove unnecessary comment
   * f1aaf1b Fix multi-master event handling bug
@@ -580,7 +580,7 @@ PR #19804 [CLOSED]: (basepi) Fix for passing pillar to state runs in salt-ssh
   * 18a75e2 Remove the extra, unused cmd function
 
 ISSUE #19796 [CLOSED]: (highlyunavailable) Regression: win_pkg fails in msiexec mode [Bug], [Fixed Pending Verification], [Medium Severity], [Regression]
-PR #19798 [CLOSED]: (jfindlay) fix msiexec cmd, #19796 [Bugfix - [Done] back-ported]
+PR #19798 [CLOSED]: (jfindlay) fix msiexec cmd, #19796 [Bugfix - Done back-ported]
 * 5fb9e91 Merge pull request #19798 from jfindlay/fix_msiexec
   * 136386d fix msiexec cmd, #19796
 
@@ -644,7 +644,7 @@ PR #19698 [CLOSED]: (basepi) Force contents to string under Falsey conditions to
   * 95c82b1 Force contents to string under Falsey conditions too
 
 PR #19710 [CLOSED]: (rallytime) Backport #19580 to 2014.7 
-PR #19580 [CLOSED]: (traxair) Fix azure cloud service [Bugfix - [Done] back-ported]
+PR #19580 [CLOSED]: (traxair) Fix azure cloud service [Bugfix - Done back-ported]
 * 7e0b461 Merge pull request #19710 from rallytime/bp-19580
   * 43ab12f Whitespace fix
   * 374ab04 Backport #19580 to 2014.7
@@ -659,7 +659,7 @@ PR #19706 [CLOSED]: (jfindlay) fix freebsd commands
   * 2717c1b fix freebsd commands
 
 PR #19709 [CLOSED]: (rallytime) Backport #19523 to 2014.7 
-PR #19523 [CLOSED]: (cachedout) Try giving some rest tornado requests a little more time [Bugfix - [Done] back-ported]
+PR #19523 [CLOSED]: (cachedout) Try giving some rest tornado requests a little more time [Bugfix - Done back-ported]
 * 0ca2dbf Merge pull request #19709 from rallytime/bp-19523
   * c172470 Try giving some rest tornado requests a little more time
 
