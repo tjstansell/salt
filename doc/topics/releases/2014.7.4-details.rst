@@ -1,4 +1,4 @@
-There are 940 cached issues
+There are 932 cached issues
 pulling 18 issues:
 ,,,,+,,,+,+,,,,,+,,,,,
 pulling 4 issues:
@@ -31,7 +31,8 @@ f0b78e2 Merge pull request `#22109`_ from twangboy/win_install_ini
 6e5d0b4 Merge pull request `#22074`_ from borgstrom/pyobjects-reqs-2014.7
 
 - **ISSUE** `#20652`_: (*tomashavlas*) pyobjects renderer doesn't support onchanges/onfail requisites
-- **PR** `#22074`_: (*borgstrom*) Fix requisites missing from pyobjects that were introduced in 2014.7 *( references: `#20652`_ )*
+- **PR** `#22074`_: (*borgstrom*) Fix requisites missing from pyobjects that were introduced in 2014.7
+  refs: `#20652`_
 
   * 761eb5f Fix missing requisites that were introduced in 2014.7
 
@@ -70,7 +71,8 @@ ba0044d Merge pull request `#22035`_ from 0xf10e/patch-1
 b3b6f94 Merge pull request `#22020`_ from UtahDave/2014.7local
 
 - **ISSUE** `#21961`_: (*polliard*) SaltStack win_service.py:restart(name) kills the salt-minion on windows
-- **PR** `#22020`_: (*UtahDave*) fix bug where can't restart salt-minion *( references: `#21961`_ )*
+- **PR** `#22020`_: (*UtahDave*) fix bug where can't restart salt-minion
+  refs: `#21961`_
 
   * 49188a0 fix bug where can't restart salt-minion
 
@@ -97,7 +99,8 @@ f8e130f Merge pull request `#22012`_ from basepi/tmpfile-chef
 decd53b Merge pull request `#22022`_ from garethgreenaway/21992_2014_7_tmpfs_bind_mount
 
 - **ISSUE** `#21992`_: (*tlemarchand*) mount.mounted of tmpfs bind error
-- **PR** `#22022`_: (*garethgreenaway*) more fixes to mount.py state module *( references: `#21992`_ )*
+- **PR** `#22022`_: (*garethgreenaway*) more fixes to mount.py state module
+  refs: `#21992`_
 
   * 0060764 Fixing issues when using tmpfs and bind mounts.
 
@@ -117,7 +120,8 @@ e9c9f9d Merge pull request `#22015`_ from rallytime/`bp-21947`_
 f689782 Merge pull request `#22014`_ from garethgreenaway/21888_2014_7_mount_label_remount_madness
 
 - **ISSUE** `#21888`_: (*eliasp*) `salt.states.mount` - using LABEL=foo as 'device' leads to constant remounts
-- **PR** `#22014`_: (*garethgreenaway*) Fixes to mount.py state module *( references: `#21888`_ )*
+- **PR** `#22014`_: (*garethgreenaway*) Fixes to mount.py state module
+  refs: `#21888`_
 
 93f0c20 We do not have to lower() the label.
 
