@@ -1,6 +1,6 @@
 .. code-block:: bash
 
-    There are 931 cached issues
+    There are 934 cached issues
     pulling 239 issues:
     ,+,,,,+,+,,+,+,,,,+,,,,,,,,,,,,,+,,+,,,,,,+,,,,,+,+,,,+,+,,,,,,,,,,,,+++++,+,+,,+,,,,+,,,,,,,,,+,,,,,,,,,,+,,,,+,,,,,,,,,,,,+,,,,,,+,,,,,,,,,+,,,,,,,,+,+,+,,,+,,+,,,+,,,+,,+,,,+,,,,,,,,,,,+,+,+,,,,,+,,+,,,+,,,,,,+,+,,,,,++,,+,+,+,,,+,,,+,+,,+,+,+,,,,,+,,,,,,,,+,,,,+,+,,,+,,,,,,,,,,,,,,,,,+,,+,,+,,,,,+,,
     pulling 65 issues:
@@ -269,8 +269,8 @@ Changes:
   * f92fd17 Merge pull request `#21822`_ from basepi/`bp-21820`_
   * 3870c66 Pass in the load you just checked for
 - **PR** `#21818`_: (*basepi*) [2014.7] Backport `#21781`_ to 2014.7
-
   | refs: `#21828`_
+
   - **ISSUE** `#21495`_: (*UtahDave*) Syndic not passing up lower level jobs to the higher master's job cache
     | refs: `#21781`_
   - **PR** `#21781`_: (*basepi*) [2015.2] Fix syndic pushing load to master of masters
@@ -309,8 +309,8 @@ Changes:
   * 0c6b3e5 Merge pull request `#21782`_ from rallytime/syndic_doc_fix
   * f56cdd5 Update syndic documentation
 - **PR** `#21755`_: (*jacksontj*) Add timeout to saltnado's event listener
-
   | refs: `#21811`_
+
   - **ISSUE** `#21707`_: (*baweaver*) [saltnado rest] local requests hang indefinitely on glob / grain queries
     | refs: `#21755`_
   * 55a35c8 Merge pull request `#21755`_ from jacksontj/2014.7
@@ -514,8 +514,8 @@ Changes:
 
   * d529390 fixes `#20198`_: virt.get_graphics and virt.get_nics calls in module virt
 - **PR** `#21559`_: (*s0undt3ch*) Don't obfuscate the internal version attribute
-
   | refs: `#21568`_
+
   - **ISSUE** `#21522`_: (*Diaoul*) python setup.py -V crashes
     | refs: `#21559`_ `#21568`_
   * 979ed66 Merge pull request `#21559`_ from s0undt3ch/hotfix/issues-21522
@@ -987,8 +987,8 @@ Changes:
   * 92a71b7 Merge pull request `#21022`_ from nitti/2014.7
   * 0753901 correctly count raid devices when creating an array with spares
 - **PR** `#20992`_: (*jfindlay*) fix arg preparation for publish module
-
   | refs: `#21047`_
+
   - **ISSUE** `#18317`_: (*mikn*) Argument lists for module calls through publish.publish does not work any more
     | refs: `#20992`_
   * 90eb36e Merge pull request `#20992`_ from jfindlay/pub_args

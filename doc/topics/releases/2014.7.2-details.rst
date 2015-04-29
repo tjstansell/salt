@@ -1,6 +1,6 @@
 .. code-block:: bash
 
-    There are 938 cached issues
+    There are 940 cached issues
     pulling 157 issues:
     ,,,+,+,+,,,,,,,,+,,,,,,,,+,+,,,,,,,+,+,+,,,,,+,,,,+,,,+,+,,,,,,,,,,+,,,++,,+,+,+,,+,,,+,,,,,,,,,,,++,,,,,,+,,,,,,,,+,,,++,,,,,,+,,,,,+,,,+,,,,,++,+,,,,,+,+,,,,,,,,,,,,+,,,,+,,+,++,,,,,,+,+,,,,,,+,,+,,,
     pulling 44 issues:
@@ -376,8 +376,8 @@ Changes:
   * 39bdd3a Merge pull request `#20157`_ from rallytime/`bp-19976`_
   * fe1f260 Add compatibility to mount by label
 - **PR** `#20156`_: (*rallytime*) Backport `#19566`_ to 2014.7
-
   | refs: `#20212`_
+
   - **ISSUE** `#19162`_: (*traxair*) Permanent disk on Azure
   - **PR** `#19566`_: (*traxair*) Salt add azure volume support
     | refs: `#20156`_
@@ -434,8 +434,8 @@ Changes:
   * cc1e81a Merge pull request `#20112`_ from rallytime/pylint_7
   * 2a5396c Pylint fixes for 2014.7 branch
 - **PR** `#20097`_: (*jfindlay*) fix debian/ubuntu handling in locale.gen_locale
-
   | refs: `#20288`_
+
   - **ISSUE** `#18936`_: (*tomashavlas*) possible problems with locale.gen_locale
     | refs: `#20097`_
   * 873fde3 Merge pull request `#20097`_ from jfindlay/fix_locale_gen
@@ -543,8 +543,8 @@ Changes:
   * a368183 Merge pull request `#20003`_ from rallytime/pylint_dot_seven
   * 1ba8a77 Easy pylint fixes
 - **PR** `#19968`_: (*jfindlay*) allow user to disable DNS for win net iface
-
   | refs: `#20022`_
+
   - **ISSUE** `#18513`_: (*Supermathie*) network.managed (windows) cannot set interface without DNS servers
     | refs: `#19968`_ `#20022`_
   * fd8e474 Merge pull request `#19968`_ from jfindlay/no_win_dns
@@ -583,8 +583,8 @@ Changes:
   * 945a016 Merge pull request `#19961`_ from rallytime/`bp-19855`_
   * 28af4ef Fix for docker login saltstack/salt`#18673`_
 - **PR** `#19960`_: (*rallytime*) Backport `#19790`_ to 2014.7
-
   | refs: `#20001`_
+
   - **PR** `#19790`_: (*cachedout*) Fix multi-master event handling bug
     | refs: `#19960`_
   * 21da224 Merge pull request `#19960`_ from rallytime/`bp-19790`_
@@ -628,8 +628,8 @@ Changes:
 
   * 5464d70 Fix SysCtl check; when a key contains a /, it should be translated to a dot (for example VLAN interfaces; net.ipv6.conf.bond0/560.use_tempaddr = 0)
 - **PR** `#19912`_: (*basepi*) Assume __salt__['config.get'] is present in gpg renderer
-
   | refs: `#20023`_
+
   - **ISSUE** `#19114`_: (*pykler*) salt-ssh and gpg pillar renderer
     | refs: `#19912`_ `#19787`_
   - **PR** `#19787`_: (*slafs*) fixes GPG renderer when working with states in salt-ssh
@@ -701,8 +701,8 @@ Changes:
   * 3bf221c Merge pull request `#19809`_ from garethgreenaway/fix_schedule_reload
   * 787322f Fixing bug with schedule.reload if the saved schedule file existed but was empty.
 - **PR** `#19805`_: (*highlyunavailable*) Fixes `#14048`_ and also a bug in win_servermanager
-
   | refs: `#19820`_
+
   - **ISSUE** `#14048`_: (*belawaeckerlig*) salt masterless windows own modules do not work
     | refs: `#19805`_ `#19820`_
   * f41a163 Merge pull request `#19805`_ from highlyunavailable/feature/2014.7.1_fixwinpkg
@@ -846,8 +846,8 @@ Changes:
   * 80ec40b Merge pull request `#19689`_ from rallytime/locale_versionadded
   * 0b96b13 Add versionadded directives to newer locale functions
 - **PR** `#19682`_: (*kev009*) FreeBSD kmod bugfixes
-
   | refs: `#19715`_
+
   * 2da27f0 Merge pull request `#19682`_ from kev009/freebsd-kmods
   * edd4fba Bugfix my freebsdkmod implementation
 

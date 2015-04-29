@@ -1,6 +1,6 @@
 .. code-block:: bash
 
-    There are 935 cached issues
+    There are 949 cached issues
     pulling 457 issues:
     ,,,,,,,+,,,,,,,,,+,,,,,,,,,,,,,,,+,,,,,,,,,,,++,,,,,,+,+,,,,,,,,,+,,+,+,,,,,,,,,,,,,+,,,,,,,,,,,,,,,,,,+,,,,,,,+,,+,,,,,,,,,,,,,,,,,,,,,+,,,,,,,,+,,,,,+,,,,,,,,,+,,,,,+,+,,,,,,,+,,,+,,,,,,,,,+,+,+,,+,,+,,+,+,+,,,,,,,,,,+,,+,,+,,,+,,,+,,,,+,,,,,+,,,,,,,+,,+,,,,+,,,+,+,,,,,,,,+,,+,,,+,,+,,,+,,,,+,,+,,,,,,+,,,,,,,,+,+,,,+,,+,+,,,,,,,,,+,,,+,,+,,,+,,+,,+,,+,,,,,,+,,+,,+,,,,+,,,,,,,+,,,,,,,,+,+,+,,,,,,,,+,,,,+,,,,,,,,,,,,+,,+,,,,,,,,,+,,,,,+,+,++,+,,,,,+,,++,,,+,,,,,,,,,,+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+,,,,,,,,+,+,,,+,,,,,+,,,,,,,,,
     pulling 90 issues:
@@ -135,8 +135,8 @@ Changes:
   * 854088c Merge pull request `#19551`_ from cachedout/minor_note
   * b419366 Release note note
 - **PR** `#19538`_: (*rallytime*) Backport `#19368`_ to 2014.7
-
   | refs: `#19554`_
+
   - **PR** `#19368`_: (*rallytime*) Changes and additions of python shell kwargs
     | refs: `#19538`_
   * c6bd697 Merge pull request `#19538`_ from rallytime/`bp-19368`_
@@ -1011,8 +1011,8 @@ Changes:
   * 3b780e0 Merge pull request `#18968`_ from s0undt3ch/hotfix/issue-18877-hardcoded-path
   * 6db5f4e The `gpgkeys` path should use `salt.syspaths` for proper  multi-platform support.
 - **PR** `#18762`_: (*jacksontj*)  Move reactor master-clients to threads
-
   | refs: `#19004`_
+
   - **ISSUE** `#16564`_: (*jacksontj*) Reactor is VERY PID hungry
     | refs: `#18254`_
   - **PR** `#18741`_: (*terminalmage*) Revert `#18254`_
@@ -1153,8 +1153,8 @@ Changes:
   * 62fe9c4 Merge pull request `#18895`_ from rallytime/`bp-18712`_
   * e8a50ff Explicitly include stdlib csv module in esky build. Fixes missing csv module in Windows builds.
 - **PR** `#18615`_: (*eliasp*) Don't change a file again if it's already been done.
-
   | refs: `#19047`_
+
   - **ISSUE** `#18612`_: (*eliasp*) 'file.replace' with 'append_if_not_found=True' grows file infinitely
     | refs: `#18615`_ `#18655`_ `#19047`_
   * 969ecb4 Merge pull request `#18615`_ from eliasp/2014.7-modules.file.replace-issue-18612
@@ -1270,8 +1270,8 @@ Changes:
   * 14459bc Merge pull request `#18859`_ from saltstack/revert-18792-issue17963
   * 1e71344 Revert "Fix jinja search path for local file_client"
 - **PR** `#18792`_: (*terminalmage*) Fix jinja search path for local file_client
-
   | refs: `#18859`_ `#18860`_
+
   - **ISSUE** `#17963`_: (*alexeits*) Loading of Jinja macros from GitFS shouldn't fail with TemplateNotFound in masterless configuration
     | refs: `#18792`_ `#18860`_
   * e14d524 Merge pull request `#18792`_ from terminalmage/issue17963
@@ -1341,8 +1341,8 @@ Changes:
   * 7097cfd Merge pull request `#18770`_ from basepi/publish-prevent-fulldata
   * 0074842 Prevent all `publish.` calls from publish calls
 - **ISSUE** `#17963`_: (*alexeits*) Loading of Jinja macros from GitFS shouldn't fail with TemplateNotFound in masterless configuration
-
   | refs: `#18792`_ `#18860`_
+
   * 00bf5da Add bugfix for `#17963`_ to 2014.7.1 releae notes- **PR** `#18779`_: (*sjansen*) Restore salt-cloud ssh_gateway support
 
   * 2244ec3 Merge pull request `#18779`_ from sjansen/patch-2
@@ -1376,8 +1376,8 @@ Changes:
 
   * d085787 Change cmd.run to cmd.retcode for selinuxenabled check
 - **PR** `#18741`_: (*terminalmage*) Revert `#18254`_
-
   | refs: `#18762`_
+
   * 00ed074 Merge pull request `#18741`_ from terminalmage/revert-pr18264
   * 8c7d66d Revert "Historically the recator has just called the "async" method of the runner and wheel clients, but this actually creates daemonized processes. In addition to creating a new daemonized process each event, the number of process it creates is unbounded, meaning that the reactor can easily use all available PIDs on a fairly busy master. In addition, there is no bound on the CPU that these are allowed to use (since they can create ALL the pids). This changes the reactor to create a threadpool for executing its master-side clients (runner/wheel). This threadpool has a configurable number of workers (max parallelism) and hwm (max queue size before dropping events)."
 
@@ -1799,8 +1799,8 @@ Changes:
 
   * 792433f Started some unit tests for the cmdmod.py module
 - **PR** `#18450`_: (*jfindlay*) quote input in aptpkg mod
-
   | refs: `#18771`_
+
   * 31d8043 Merge pull request `#18450`_ from jfindlay/quote_apt
   * 68fa2ab quote input in aptpkg mod
 - **PR** `#18449`_: (*cachedout*) Friendly message if name arg is none/false
@@ -1913,8 +1913,8 @@ Changes:
   * 9a38c51 Merge pull request `#18385`_ from rallytime/cloud_events_doc
   * 91538d7 Add information about salt-cloud events to master events doc
 - **PR** `#18393`_: (*s0undt3ch*) Use requests instead of github package. Also output the PR incoming branch
-
   | refs: `#18439`_
+
   * 49e3878 Merge pull request `#18393`_ from s0undt3ch/2014.7
   * 74e23b9 And also the base branch of the incoming PR's branch
 
@@ -1965,8 +1965,8 @@ Changes:
 
   * 6118590 Fix for `#15663`_
 - **PR** `#18374`_: (*thatch45*) Add new sdecode to nested outputter
-
   | refs: `#18467`_
+
   - **ISSUE** `#18053`_: (*myg0v*) 'utf8' codec can't decode byte 0x81 in position 29: invalid start byte after upgrade to 2014.1.13 or 2014.7.0
     | refs: `#18374`_
   * be494c9 Merge pull request `#18374`_ from thatch45/18053
@@ -2122,8 +2122,8 @@ Changes:
   * 4a748b6 Merge pull request `#18272`_ from cachedout/freebsdkmod_native
   * daa8cdf Switch to native file.file
 - **PR** `#18254`_: (*jacksontj*) Move reactor master-clients to threads
-
   | refs: `#18762`_ `#18762`_
+
   - **ISSUE** `#16564`_: (*jacksontj*) Reactor is VERY PID hungry
     | refs: `#18254`_
   * 82ac851 Merge pull request `#18254`_ from jacksontj/2014.7
@@ -2808,8 +2808,8 @@ Changes:
   * fd683a5 Merge pull request `#17170`_ from cro/zypp_doc
   * b51a821 pkg.* on openSUSE needs python-zypp installed
 - **PR** `#17156`_: (*cachedout*) Update to new softwareproperties.ppa upstream changes
-
   | refs: `#17242`_
+
   - **ISSUE** `#17105`_: (*pkruithof*) pkgrepo is broken on Ubuntu 14.10
     | refs: `#17156`_ `#17242`_
   * 6e49163 Merge pull request `#17156`_ from cachedout/issue_17105
