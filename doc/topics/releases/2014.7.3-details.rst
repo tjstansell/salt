@@ -1,4 +1,4 @@
-There are 945 cached issues
+There are 939 cached issues
 pulling 239 issues:
 ,+,,,,+,+,,+,+,,,,+,,,,,,,,,,,,,+,,+,,,,,,+,,,,,+,+,,,+,+,,,,,,,,,,,,+++++,+,+,,+,,,,+,,,,,,,,,+,,,,,,,,,,+,,,,+,,,,,,,,,,,,+,,,,,,+,,,,,,,,,+,,,,,,,,+,+,+,,,+,,+,,,+,,,+,,+,,,+,,,,,,,,,,,+,+,+,,,,,+,,+,,,+,,,,,,+,+,,,,,++,,+,+,+,,,+,,,+,+,,+,+,+,,,,,+,,,,,,,,+,,,,+,+,,,+,,,,,,,,,,,,,,,,,+,,+,,+,,,,,+,,
 pulling 65 issues:
@@ -8,55 +8,55 @@ pulling 2 issues:
 
 5fd1705 Merge pull request `#22002`_ from basepi/`bp-21703`_
 
-- **ISSUE** `#21657`_: (*rallytime*) salt-ssh cmd.run msgpack critical error **LABELS** *Blocker*, *Bug*, *Fixed Pending Verification*, *High Severity*, *Salt-SSH*
-- **PR** `#22002`_: (*basepi*) [2014.7] Backport `#21703`_ **LABELS** *Minor Change*
-- **PR** `#21703`_: (*basepi*) [2015.2] Catch TypeErrors from cmd.run jid_file functionality in salt-ssh **LABELS** *Bugfix - [Done] back-ported*
+  - **ISSUE** `#21657`_: (*rallytime*) salt-ssh cmd.run msgpack critical error **LABELS** *Blocker*, *Bug*, *Fixed Pending Verification*, *High Severity*, *Salt-SSH*
+  - **PR** `#22002`_: (*basepi*) [2014.7] Backport `#21703`_ **LABELS** *Minor Change*
+  - **PR** `#21703`_: (*basepi*) [2015.2] Catch TypeErrors from cmd.run jid_file functionality in salt-ssh **LABELS** *Bugfix - [Done] back-ported*
     * 1470382 Catch TypeErrors from cmd.run jid_file functionality in salt-ssh
 
 c76ea26 Merge pull request `#21994`_ from twangboy/os_ver_15051
 
-- **ISSUE** `#15051`_: (*lorengordon*) On Windows 8.1 the grain 'osversion' is not detected correctly **LABELS** *Bug*, *Medium Severity*, *Windows*
-- **PR** `#21994`_: (*twangboy*) Used WMI to detect real osversion in Windows **LABELS** *Minor Change*, *Tests Passed*
+  - **ISSUE** `#15051`_: (*lorengordon*) On Windows 8.1 the grain 'osversion' is not detected correctly **LABELS** *Bug*, *Medium Severity*, *Windows*
+  - **PR** `#21994`_: (*twangboy*) Used WMI to detect real osversion in Windows **LABELS** *Minor Change*, *Tests Passed*
     * 2665ad4 Used WMI to detect real osversion in Windows
 
 6424984 Merge pull request `#21974`_ from tjstansell/`fix-21952`_-2014.7
 
-- **ISSUE** `#21952`_: (*tjstansell*) salt.modules.ssh.host_keys should not read full private key in legacy binary format **LABELS** *Feature*
-- **PR** `#21974`_: (*tjstansell*) fixes `#21952`_ - only read ssh host_key header for legacy binary format **LABELS** *Minor Change*, *Tests Passed*
+  - **ISSUE** `#21952`_: (*tjstansell*) salt.modules.ssh.host_keys should not read full private key in legacy binary format **LABELS** *Feature*
+  - **PR** `#21974`_: (*tjstansell*) fixes `#21952`_ - only read ssh host_key header for legacy binary format **LABELS** *Minor Change*, *Tests Passed*
     * 4aaacfd fixes `#21952`_ - only read ssh host_key header for legacy binary format of private key
 
 7e36c57 Merge pull request `#21972`_ from tjstansell/`fix-21971`_
 
-- **ISSUE** `#21971`_: (*tjstansell*) salt.modules.ssh.host_keys returns ssh_host_key.pub as key.pub.pub in output **LABELS** *Bug*, *Fixed Pending Verification*, *Medium Severity*
-- **PR** `#21972`_: (*tjstansell*) fix `#21971`_ - ssh_host_key.pub should return as key.pub not key.pub.pub **LABELS** *Minor Change*
+  - **ISSUE** `#21971`_: (*tjstansell*) salt.modules.ssh.host_keys returns ssh_host_key.pub as key.pub.pub in output **LABELS** *Bug*, *Fixed Pending Verification*, *Medium Severity*
+  - **PR** `#21972`_: (*tjstansell*) fix `#21971`_ - ssh_host_key.pub should return as key.pub not key.pub.pub **LABELS** *Minor Change*
     * 383e21b fix `#21971`_ - ssh_host_key.pub should return as key.pub not key.pub.pub
 
 b409209 Merge pull request `#21968`_ from ryanwohara/2014.7
 
-- **PR** `#21968`_: (*ryanwohara*) Verifying the key has a value before using it. **LABELS** *Minor Change*, *Tests Passed*
+  - **PR** `#21968`_: (*ryanwohara*) Verifying the key has a value before using it. **LABELS** *Minor Change*, *Tests Passed*
     * cbb09b0 Verifying the key has a value before using it.
 
 dd37f43 Merge pull request `#21962`_ from rallytime/apply_nested_outputter_fix_to_2014.7
 
-- **PR** `#21962`_: (*rallytime*) Apply nested outputter optimization fix to 2014.7 **LABELS** *Master Change*, *Tests Passed*
-- **PR** `#21920`_: (*fellyns*) refactor nested outputter for much better performance **LABELS** *Awesome*, *Bugfix - [Done] back-ported*, *Master Change*
+  - **PR** `#21962`_: (*rallytime*) Apply nested outputter optimization fix to 2014.7 **LABELS** *Master Change*, *Tests Passed*
+  - **PR** `#21920`_: (*fellyns*) refactor nested outputter for much better performance **LABELS** *Awesome*, *Bugfix - [Done] back-ported*, *Master Change*
     * 72f1fff Remove unused import
     * 15680cd Apply nested outputter optimization fix to 2014.7
 
 d768fe8 Merge pull request `#21965`_ from basepi/salt-ssh.file.recurse.21922
 
-- **ISSUE** `#21922`_: (*arr2036*) salt-ssh NameError: global name 'msgpack' is not defined (salt-ssh 2014.7.2 (Helium)) **LABELS** *Bug*, *High Severity*, *Salt-SSH*
-- **PR** `#21965`_: (*basepi*) [2014.7] Catch msgpack error in file.recurse in salt-ssh **LABELS** *Minor Change*, *Tests Passed*
+  - **ISSUE** `#21922`_: (*arr2036*) salt-ssh NameError: global name 'msgpack' is not defined (salt-ssh 2014.7.2 (Helium)) **LABELS** *Bug*, *High Severity*, *Salt-SSH*
+  - **PR** `#21965`_: (*basepi*) [2014.7] Catch msgpack error in file.recurse in salt-ssh **LABELS** *Minor Change*, *Tests Passed*
     * 3d8b31f Catch msgpack error in file.recurse
 
 cda629d Merge pull request `#21963`_ from cachedout/2014_7_3_changes
 
-- **PR** `#21963`_: (*cachedout*) Release note changes **LABELS** *Medium Change*
+  - **PR** `#21963`_: (*cachedout*) Release note changes **LABELS** *Medium Change*
     * 2639f4b Release note changes
 
 39d2b5b Merge pull request `#21944`_ from cachedout/catch_pillar_refresh_error
 
-- **PR** `#21944`_: (*cachedout*) Prevent multi-master from dying with pillar refresh error **LABELS** *Master Change*
+  - **PR** `#21944`_: (*cachedout*) Prevent multi-master from dying with pillar refresh error **LABELS** *Master Change*
     * e68306e Remove pass
     * 52c5489 Revert auth attempt
     * 9b45bc2 Re-auth after pillar fail
@@ -65,66 +65,66 @@ cda629d Merge pull request `#21963`_ from cachedout/2014_7_3_changes
 
 afcf1d7 Merge pull request `#21955`_ from rallytime/update_master_conf_doc
 
-- **ISSUE** `#21511`_: (*whiteinge*) Add default for pillar_source_merging_strategy in conf/master file **LABELS** *Feature*, *Fixed Pending Verification*, *Low-Hanging Fruit*
-- **PR** `#21955`_: (*rallytime*) Add default for pillar_source_merging_strategy in conf/master file **LABELS** *Minor Change*
+  - **ISSUE** `#21511`_: (*whiteinge*) Add default for pillar_source_merging_strategy in conf/master file **LABELS** *Feature*, *Fixed Pending Verification*, *Low-Hanging Fruit*
+  - **PR** `#21955`_: (*rallytime*) Add default for pillar_source_merging_strategy in conf/master file **LABELS** *Minor Change*
     * 73a0df1 There are 4 values, not 3.
     * c98118e Update pillar_source_merging_strategy config doc spacing to match accross all config values
     * 609dcdb Add default for pillar_source_merging_strategy in conf/master file
 
 16fbfa3 Merge pull request `#21957`_ from cachedout/2014_7_3_release_notes
 
-- **PR** `#21957`_: (*cachedout*) 2014.7.3 release notes **LABELS** 
+  - **PR** `#21957`_: (*cachedout*) 2014.7.3 release notes **LABELS** 
     * e6d7062 2014.7.3 release notes
 
 4eb759f Merge pull request `#21946`_ from cro/defaults_clarification
 
-- **PR** `#21946`_: (*cro*) Clarify how defaults are indicated in the config files. **LABELS** *Minor Change*, *Tests Passed*
+  - **PR** `#21946`_: (*cro*) Clarify how defaults are indicated in the config files. **LABELS** *Minor Change*, *Tests Passed*
     * a35f38a Clarify how defaults are indicated in the config files.
     * 5dbb0d4 Clarify how defaults are indicated in the config files.
 
 dfb794b Merge pull request `#21941`_ from thatch45/load_base_name
 
-- **PR** `#21941`_: (*thatch45*) Add a seperate loader base name path to multimaster **LABELS** *Awesome*, *Expert Change*, *Tests Passed*
+  - **PR** `#21941`_: (*thatch45*) Add a seperate loader base name path to multimaster **LABELS** *Awesome*, *Expert Change*, *Tests Passed*
     * 78fc0f8 Add a seperate loader base name path to multimaster
 
 278d293 Merge pull request `#21926`_ from jfindlay/fix_net
 
-- **PR** `#21926`_: (*jfindlay*) fix network.iface module related stack traces **LABELS** *Minor Change*
+  - **PR** `#21926`_: (*jfindlay*) fix network.iface module related stack traces **LABELS** *Minor Change*
     * a16039c fix network.iface module related stack traces
 
 d3e14e5 Merge pull request `#21921`_ from jfindlay/net_arp
 
-- **PR** `#21921`_: (*jfindlay*) config gate net.arp on presence of arp **LABELS** *Minor Change*, *Tests Passed*
+  - **PR** `#21921`_: (*jfindlay*) config gate net.arp on presence of arp **LABELS** *Minor Change*, *Tests Passed*
     * 958bf09 config gate net.arp on presence of arp
 
 fadf44c Merge pull request `#21811`_ from jacksontj/2014.7
 
-- **ISSUE** `#21707`_: (*baweaver*) [saltnado rest] local requests hang indefinitely on glob / grain queries **LABELS** *Bug*, *Fixed Pending Verification*, *Medium Severity*
-- **PR** `#21811`_: (*jacksontj*) Re-work timeouts in saltnado **LABELS** *Medium Change*, *Tests Passed*
-- **PR** `#21755`_: (*jacksontj*) Add timeout to saltnado's event listener **LABELS** *Medium Change*, *Tests Passed*
+  - **ISSUE** `#21707`_: (*baweaver*) [saltnado rest] local requests hang indefinitely on glob / grain queries **LABELS** *Bug*, *Fixed Pending Verification*, *Medium Severity*
+  - **PR** `#21811`_: (*jacksontj*) Re-work timeouts in saltnado **LABELS** *Medium Change*, *Tests Passed*
+  - **PR** `#21755`_: (*jacksontj*) Add timeout to saltnado's event listener **LABELS** *Medium Change*, *Tests Passed*
     * fbaf02c Have per-job minions_remaining
     * f4d8fb5 Re-work timeouts in saltnado
 
 334a7b8 Merge pull request `#21918`_ from rallytime/`bp-21885`_
 
-- **PR** `#21918`_: (*rallytime*) Backport `#21885`_ to 2014.7 **LABELS** *Minor Change*, *Tests Passed*
-- **PR** `#21885`_: (*mattwillsher*) Remove check for physical virt type for salt.modules.virt.is_kvm_hyper() **LABELS** *Bugfix - [Done] back-ported*, *Minor Change*
+  - **PR** `#21918`_: (*rallytime*) Backport `#21885`_ to 2014.7 **LABELS** *Minor Change*, *Tests Passed*
+  - **PR** `#21885`_: (*mattwillsher*) Remove check for physical virt type for salt.modules.virt.is_kvm_hyper() **LABELS** *Bugfix - [Done] back-ported*, *Minor Change*
     * 78747b5 Remove check for physical virt type for KVM
 
 e07220d Merge pull request `#21901`_ from cachedout/deepcopy_opts
 
-- **PR** `#21901`_: (*cachedout*) Deep copy opts **LABELS** *Master Change*, *Tests Passed*
+  - **PR** `#21901`_: (*cachedout*) Deep copy opts **LABELS** *Master Change*, *Tests Passed*
     * 3a5f36d Deep copy opts
 
 ba083a6 Merge pull request `#21872`_ from borgstrom/issue-21796-2014.7
 
-- **ISSUE** `#21796`_: (*grischa*) pyobjects behaving weirdly when calling python stdlib package **LABELS** *Bug*, *Fixed Pending Verification*, *Medium Severity*
-- **PR** `#21872`_: (*borgstrom*) Remove _locals from the final exec call in pyobjects (2014.7) **LABELS** *Minor Change*, *Tests Passed*
+  - **ISSUE** `#21796`_: (*grischa*) pyobjects behaving weirdly when calling python stdlib package **LABELS** *Bug*, *Fixed Pending Verification*, *Medium Severity*
+  - **PR** `#21872`_: (*borgstrom*) Remove _locals from the final exec call in pyobjects (2014.7) **LABELS** *Minor Change*, *Tests Passed*
     * 3223a15 This fixes `#21796`_
 
 af01dc7 Merge pull request `#21861`_ from twangboy/build
 
-- **PR** `#21861`_: (*twangboy*) Final (hopefully) improvements to the new build structure **LABELS** *Medium Change*
+  - **PR** `#21861`_: (*twangboy*) Final (hopefully) improvements to the new build structure **LABELS** *Medium Change*
     * febef7e Update salt-cp.bat
     * d5da92e Added batchfiles to mimick the behavior of the exe's
     * 81025d8 Fixed version parameter
@@ -132,91 +132,91 @@ af01dc7 Merge pull request `#21861`_ from twangboy/build
 
 86037bb Merge pull request `#21854`_ from jfindlay/`bp-21791`_
 
-- **PR** `#21854`_: (*jfindlay*) backport `#21791`_ to 2014.7 **LABELS** *Medium Change*
-- **PR** `#21791`_: (*twangboy*) Added additional files for building windows installations **LABELS** *Bugfix - [Done] back-ported*
+  - **PR** `#21854`_: (*jfindlay*) backport `#21791`_ to 2014.7 **LABELS** *Medium Change*
+  - **PR** `#21791`_: (*twangboy*) Added additional files for building windows installations **LABELS** *Bugfix - [Done] back-ported*
     * fbec100 Edited Salt-Minion-Setup.nsi, Added BuildSalt.bat
     * 98944e9 Added file to slim the windows install
 
 9da5b33 Merge pull request `#21857`_ from jfindlay/`bp-21844`_
 
-- **ISSUE** `#19953`_: (*johanek*) lsb_distrib grains on CentOS/RHEL **LABELS** *Bug*, *Medium Severity*
-- **PR** `#21857`_: (*jfindlay*) backport `#21844`_ to 2014.7 **LABELS** *Medium Change*
-- **PR** `#21844`_: (*johanek*) Always check other OS release files if lsb_distrib_id grain not populated from /etc/lsb-release **LABELS** *Bugfix - [Done] back-ported*, *Medium Change*
+  - **ISSUE** `#19953`_: (*johanek*) lsb_distrib grains on CentOS/RHEL **LABELS** *Bug*, *Medium Severity*
+  - **PR** `#21857`_: (*jfindlay*) backport `#21844`_ to 2014.7 **LABELS** *Medium Change*
+  - **PR** `#21844`_: (*johanek*) Always check other OS release files if lsb_distrib_id grain not populated from /etc/lsb-release **LABELS** *Bugfix - [Done] back-ported*, *Medium Change*
     * 4fe795f Always check other OS release files if lsb_distrib_id grain not populated from /etc/lsb-release
 
 54b32db Merge pull request `#21855`_ from rallytime/`bp-21841`_
 
-- **ISSUE** `#6`_: (*thatch45*) Test module **LABELS** 
-- **PR** `#21855`_: (*rallytime*) Backport `#21841`_ to 2014.7 **LABELS** *Minor Change*
-- **PR** `#21841`_: (*ticosax*) `override_params` contains the real list of allowed parameters **LABELS** *Bugfix - [Done] back-ported*, *Minor Change*
+  - **ISSUE** `#6`_: (*thatch45*) Test module **LABELS** 
+  - **PR** `#21855`_: (*rallytime*) Backport `#21841`_ to 2014.7 **LABELS** *Minor Change*
+  - **PR** `#21841`_: (*ticosax*) `override_params` contains the real list of allowed parameters **LABELS** *Bugfix - [Done] back-ported*, *Minor Change*
     * 000c55d Merge pull request `#6`_ from terminalmage/`bp-21841`_
       * 565fcea deepcopy the PER_REMOTE_PARAMS global
     * a6d8105 `override_params` contains the real list of allowed parameters
 
 c3c108d Merge pull request `#21851`_ from rallytime/`bp-20781`_
 
-- **ISSUE** `#20735`_: (*Whissi*) All salt-minions died with an unhandled exceptions while salt-master was unavailable due to maintenance **LABELS** *Bug*, *Fixed Pending Verification*, *Medium Severity*, *Needs Testcase*
-- **PR** `#21851`_: (*rallytime*) Backport the fix in `#20781`_ manually to the 2014.7 branch **LABELS** *Medium Change*
-- **PR** `#20781`_: (*cachedout*) Don't float exceptions on auth errors in mine **LABELS** *Bugfix - [Done] back-ported*, *Medium Change*, *Tests Passed*
+  - **ISSUE** `#20735`_: (*Whissi*) All salt-minions died with an unhandled exceptions while salt-master was unavailable due to maintenance **LABELS** *Bug*, *Fixed Pending Verification*, *Medium Severity*, *Needs Testcase*
+  - **PR** `#21851`_: (*rallytime*) Backport the fix in `#20781`_ manually to the 2014.7 branch **LABELS** *Medium Change*
+  - **PR** `#20781`_: (*cachedout*) Don't float exceptions on auth errors in mine **LABELS** *Bugfix - [Done] back-ported*, *Medium Change*, *Tests Passed*
     * 0fb810a Don't forget to import SaltClientError
     * ba0560e Backport the fix in `#20781`_ manually to the 2014.7 branch
 
 ca33da7 Merge pull request `#21852`_ from jfindlay/`bp-21790`_
 
-- **PR** `#21852`_: (*jfindlay*) backport `#21790`_ to 2014.7 **LABELS** *Medium Change*, *Tests Passed*
-- **PR** `#21790`_: (*twangboy*) Added files for the New Portable Salt Installer **LABELS** *Bugfix - [Done] back-ported*
+  - **PR** `#21852`_: (*jfindlay*) backport `#21790`_ to 2014.7 **LABELS** *Medium Change*, *Tests Passed*
+  - **PR** `#21790`_: (*twangboy*) Added files for the New Portable Salt Installer **LABELS** *Bugfix - [Done] back-ported*
     * ced2e57 Added files for the New Portable Salt Installer
 
 c27692c Merge pull request `#21848`_ from rallytime/`bp-21635`_
 
-- **ISSUE** `#21603`_: (*ipmb*) ssh_auth.present fails on key without comment **LABELS** *Bug*, *Fixed Pending Verification*, *Low-Hanging Fruit*, *Medium Severity*, *Regression*
-- **PR** `#21848`_: (*rallytime*) Backport `#21635`_ to 2014.7 **LABELS** *Minor Change*, *Tests Passed*
-- **PR** `#21635`_: (*jfindlay*) check for ssh key comment **LABELS** *Bugfix - [Done] back-ported*, *Minor Change*
+  - **ISSUE** `#21603`_: (*ipmb*) ssh_auth.present fails on key without comment **LABELS** *Bug*, *Fixed Pending Verification*, *Low-Hanging Fruit*, *Medium Severity*, *Regression*
+  - **PR** `#21848`_: (*rallytime*) Backport `#21635`_ to 2014.7 **LABELS** *Minor Change*, *Tests Passed*
+  - **PR** `#21635`_: (*jfindlay*) check for ssh key comment **LABELS** *Bugfix - [Done] back-ported*, *Minor Change*
     * c0f0414 check for ssh key comment
 
 8262d85 Merge pull request `#21849`_ from basepi/saltutil.runner.21650
 
-- **ISSUE** `#21650`_: (*jfindlay*) saltutil.runner jobs.list_jobs is broken **LABELS** *Blocker*, *Bug*, *Medium Severity*
-- **PR** `#21849`_: (*basepi*) [2014.7] saltutil.runner fixes **LABELS** *Medium Change*
+  - **ISSUE** `#21650`_: (*jfindlay*) saltutil.runner jobs.list_jobs is broken **LABELS** *Blocker*, *Bug*, *Medium Severity*
+  - **PR** `#21849`_: (*basepi*) [2014.7] saltutil.runner fixes **LABELS** *Medium Change*
     * 3f0b003 Generate master config if it's not present
     * 4e881bb Clean the __pub kwargs for saltutil.runner
 
 82299ed Merge pull request `#21846`_ from rallytime/`bp-21795`_
 
-- **ISSUE** `#20197`_: (*jhenry82*) Issue with multi-master and local job cache: An inconsistency occurred **LABELS** *Bug*, *Fixed Pending Verification*, *High Severity*, *Multi-Master*, *P1*
-- **ISSUE** `#19932`_: (*smitt04*) Calling salt '*' state.highstate on multi master, minions stop responding **LABELS** *Bug*, *Fixed Pending Verification*, *High Severity*, *Multi-Master*
-- **PR** `#21846`_: (*rallytime*) Backport `#21795`_ to 2014.7 **LABELS** 
-- **PR** `#21795`_: (*cachedout*) Avoid dueling opts with fileclients in highstate **LABELS** *Bugfix - [Done] back-ported*, *Expert Change*
+  - **ISSUE** `#20197`_: (*jhenry82*) Issue with multi-master and local job cache: An inconsistency occurred **LABELS** *Bug*, *Fixed Pending Verification*, *High Severity*, *Multi-Master*, *P1*
+  - **ISSUE** `#19932`_: (*smitt04*) Calling salt '*' state.highstate on multi master, minions stop responding **LABELS** *Bug*, *Fixed Pending Verification*, *High Severity*, *Multi-Master*
+  - **PR** `#21846`_: (*rallytime*) Backport `#21795`_ to 2014.7 **LABELS** 
+  - **PR** `#21795`_: (*cachedout*) Avoid dueling opts with fileclients in highstate **LABELS** *Bugfix - [Done] back-ported*, *Expert Change*
     * 56142ad Avoid dueling opts with fileclients in highstate
 
 c1ef044 Merge pull request `#21847`_ from rallytime/`bp-21832`_
 
-- **ISSUE** `#20197`_: (*jhenry82*) Issue with multi-master and local job cache: An inconsistency occurred **LABELS** *Bug*, *Fixed Pending Verification*, *High Severity*, *Multi-Master*, *P1*
-- **ISSUE** `#19932`_: (*smitt04*) Calling salt '*' state.highstate on multi master, minions stop responding **LABELS** *Bug*, *Fixed Pending Verification*, *High Severity*, *Multi-Master*
-- **ISSUE** `#13944`_: (*basepi*) Multi-master minion not failing over properly for state runs **LABELS** *Bug*, *Fixed Pending Verification*, *High Severity*, *Multi-Master*
-- **PR** `#21847`_: (*rallytime*) Backport `#21832`_ to 2014.7 **LABELS** 
-- **PR** `#21832`_: (*cachedout*) Revert regression caused by `#15848`_ **LABELS** *Bugfix - [Done] back-ported*
-- **PR** `#15848`_: (*cachedout*) Re-inject opts into modules under multi-master mode. **LABELS** *Bugfix - [Done] back-ported*
+  - **ISSUE** `#20197`_: (*jhenry82*) Issue with multi-master and local job cache: An inconsistency occurred **LABELS** *Bug*, *Fixed Pending Verification*, *High Severity*, *Multi-Master*, *P1*
+  - **ISSUE** `#19932`_: (*smitt04*) Calling salt '*' state.highstate on multi master, minions stop responding **LABELS** *Bug*, *Fixed Pending Verification*, *High Severity*, *Multi-Master*
+  - **ISSUE** `#13944`_: (*basepi*) Multi-master minion not failing over properly for state runs **LABELS** *Bug*, *Fixed Pending Verification*, *High Severity*, *Multi-Master*
+  - **PR** `#21847`_: (*rallytime*) Backport `#21832`_ to 2014.7 **LABELS** 
+  - **PR** `#21832`_: (*cachedout*) Revert regression caused by `#15848`_ **LABELS** *Bugfix - [Done] back-ported*
+  - **PR** `#15848`_: (*cachedout*) Re-inject opts into modules under multi-master mode. **LABELS** *Bugfix - [Done] back-ported*
     * 3782251 Revert regression caused by `#15848`_
 
 fd3623d Merge pull request `#21826`_ from jfindlay/file_error
 
-- **ISSUE** `#21774`_: (*Xiol*) "Failed to commit change, permission error" when using file.managed with check_cmd  **LABELS** *Bug*, *Medium Severity*, *P2*
-- **PR** `#21826`_: (*jfindlay*) propagate original IOError message through file.manage_file **LABELS** *Minor Change*, *Tests Passed*
+  - **ISSUE** `#21774`_: (*Xiol*) "Failed to commit change, permission error" when using file.managed with check_cmd  **LABELS** *Bug*, *Medium Severity*, *P2*
+  - **PR** `#21826`_: (*jfindlay*) propagate original IOError message through file.manage_file **LABELS** *Minor Change*, *Tests Passed*
     * ddbe16e propagate original IOError message through file.manage_file
 
 5292f5d Merge pull request `#21828`_ from basepi/append_21818
 
-- **ISSUE** `#21495`_: (*UtahDave*) Syndic not passing up lower level jobs to the higher master's job cache **LABELS** *Blocker*, *Feature*, *Fixed Pending Verification*
-- **PR** `#21828`_: (*basepi*) [2014.7] Append `#21818`_ **LABELS** 
-- **PR** `#21818`_: (*basepi*) [2014.7] Backport `#21781`_ to 2014.7 **LABELS** *Medium Change*, *Tests Passed*
-- **PR** `#21781`_: (*basepi*) [2015.2] Fix syndic pushing load to master of masters **LABELS** *Bugfix - [Done] back-ported*
+  - **ISSUE** `#21495`_: (*UtahDave*) Syndic not passing up lower level jobs to the higher master's job cache **LABELS** *Blocker*, *Feature*, *Fixed Pending Verification*
+  - **PR** `#21828`_: (*basepi*) [2014.7] Append `#21818`_ **LABELS** 
+  - **PR** `#21818`_: (*basepi*) [2014.7] Backport `#21781`_ to 2014.7 **LABELS** *Medium Change*, *Tests Passed*
+  - **PR** `#21781`_: (*basepi*) [2015.2] Fix syndic pushing load to master of masters **LABELS** *Bugfix - [Done] back-ported*
     * 417e2ab Stupid backport didn't get this
 
 f20cfb6 Merge pull request `#21821`_ from basepi/`bp-21813`_
 
-- **PR** `#21821`_: (*basepi*) [2014.7] Backport `#21813`_ to 2014.7 **LABELS** *Master Change*, *Tests Passed*
-- **PR** `#21813`_: (*basepi*) [2015.2] Syndic should only forward load once per job **LABELS** *Bugfix - [Done] back-ported*, *Medium Change*
+  - **PR** `#21821`_: (*basepi*) [2014.7] Backport `#21813`_ to 2014.7 **LABELS** *Master Change*, *Tests Passed*
+  - **PR** `#21813`_: (*basepi*) [2015.2] Syndic should only forward load once per job **LABELS** *Bugfix - [Done] back-ported*, *Medium Change*
     * 06c3cf8 Make changes in both MultiSyndic and Syndic
     * 07c354b Rearrange a little
     * 9cd3438 Gate the correct function call. *facepalm*
@@ -227,186 +227,186 @@ f20cfb6 Merge pull request `#21821`_ from basepi/`bp-21813`_
 
 f92fd17 Merge pull request `#21822`_ from basepi/`bp-21820`_
 
-- **PR** `#21822`_: (*basepi*) [2014.7] Backport `#21820`_ to 2014.7 **LABELS** 
-- **PR** `#21820`_: (*basepi*) [2015.2] syndic load fix **LABELS** *Bugfix - [Done] back-ported*
+  - **PR** `#21822`_: (*basepi*) [2014.7] Backport `#21820`_ to 2014.7 **LABELS** 
+  - **PR** `#21820`_: (*basepi*) [2015.2] syndic load fix **LABELS** *Bugfix - [Done] back-ported*
     * 3870c66 Pass in the load you just checked for
 
 737ebb4 Merge pull request `#21818`_ from basepi/`bp-21781`_
 
-- **ISSUE** `#21495`_: (*UtahDave*) Syndic not passing up lower level jobs to the higher master's job cache **LABELS** *Blocker*, *Feature*, *Fixed Pending Verification*
-- **PR** `#21818`_: (*basepi*) [2014.7] Backport `#21781`_ to 2014.7 **LABELS** *Medium Change*, *Tests Passed*
-- **PR** `#21781`_: (*basepi*) [2015.2] Fix syndic pushing load to master of masters **LABELS** *Bugfix - [Done] back-ported*
+  - **ISSUE** `#21495`_: (*UtahDave*) Syndic not passing up lower level jobs to the higher master's job cache **LABELS** *Blocker*, *Feature*, *Fixed Pending Verification*
+  - **PR** `#21818`_: (*basepi*) [2014.7] Backport `#21781`_ to 2014.7 **LABELS** *Medium Change*, *Tests Passed*
+  - **PR** `#21781`_: (*basepi*) [2015.2] Fix syndic pushing load to master of masters **LABELS** *Bugfix - [Done] back-ported*
     * e386db2 Update syndic_config test for new cachedir
     * 8d406c1 Fix syndic to get the load for __load__, not the jid
     * d40b387 Fix syndic to use master cachedir
 
 c09b737 Merge pull request `#21786`_ from rallytime/`bp-21739`_
 
-- **PR** `#21786`_: (*rallytime*) Backport `#21739`_ to 2014.7 **LABELS** *Medium Change*
-- **PR** `#21739`_: (*ticosax*) If there no containers in the response it does not mean the command failed. **LABELS** *Bugfix - [Done] back-ported*, *Medium Change*
+  - **PR** `#21786`_: (*rallytime*) Backport `#21739`_ to 2014.7 **LABELS** *Medium Change*
+  - **PR** `#21739`_: (*ticosax*) If there no containers in the response it does not mean the command failed. **LABELS** *Bugfix - [Done] back-ported*, *Medium Change*
     * eddef00 If there no containers in the response it does not mean the command failed.
 
 e7222c0 Merge pull request `#21785`_ from rallytime/`bp-21738`_
 
-- **PR** `#21785`_: (*rallytime*) Backport `#21738`_ to 2014.7 **LABELS** *Minor Change*, *Tests Passed*
-- **PR** `#21738`_: (*ticosax*) transmit socket parameter for inner function calls **LABELS** *Bugfix - [Done] back-ported*, *Minor Change*
+  - **PR** `#21785`_: (*rallytime*) Backport `#21738`_ to 2014.7 **LABELS** *Minor Change*, *Tests Passed*
+  - **PR** `#21738`_: (*ticosax*) transmit socket parameter for inner function calls **LABELS** *Bugfix - [Done] back-ported*, *Minor Change*
     * 14b367e transmit socket parameter for inner function calls
 
 efe7d09 Merge pull request `#21780`_ from cachedout/syndic_client_2014_7
 
-- **ISSUE** `#19864`_: (*claudiupopescu*) Salt syndic architecture is slow **LABELS** *Bug*, *Fixed Pending Verification*, *High Severity*
-- **PR** `#21780`_: (*cachedout*) Backport `#21775`_ to 2014.7 **LABELS** *Medium Change*
-- **PR** `#21775`_: (*cachedout*) Syndic client **LABELS** *Bugfix - [Done] back-ported*, *Medium Change*
-- **PR** `#21175`_: (*UtahDave*) Cherry pick twilio beacon from develop to 2015.2 **LABELS** 
+  - **ISSUE** `#19864`_: (*claudiupopescu*) Salt syndic architecture is slow **LABELS** *Bug*, *Fixed Pending Verification*, *High Severity*
+  - **PR** `#21780`_: (*cachedout*) Backport `#21775`_ to 2014.7 **LABELS** *Medium Change*
+  - **PR** `#21775`_: (*cachedout*) Syndic client **LABELS** *Bugfix - [Done] back-ported*, *Medium Change*
+  - **PR** `#21175`_: (*UtahDave*) Cherry pick twilio beacon from develop to 2015.2 **LABELS** 
     * 36841bd Backport `#21175`_ to 2014.7
 
 0c6b3e5 Merge pull request `#21782`_ from rallytime/syndic_doc_fix
 
-- **ISSUE** `#19864`_: (*claudiupopescu*) Salt syndic architecture is slow **LABELS** *Bug*, *Fixed Pending Verification*, *High Severity*
-- **PR** `#21782`_: (*rallytime*) Update syndic documentation **LABELS** 
+  - **ISSUE** `#19864`_: (*claudiupopescu*) Salt syndic architecture is slow **LABELS** *Bug*, *Fixed Pending Verification*, *High Severity*
+  - **PR** `#21782`_: (*rallytime*) Update syndic documentation **LABELS** 
     * f56cdd5 Update syndic documentation
 
 55a35c8 Merge pull request `#21755`_ from jacksontj/2014.7
 
-- **ISSUE** `#21707`_: (*baweaver*) [saltnado rest] local requests hang indefinitely on glob / grain queries **LABELS** *Bug*, *Fixed Pending Verification*, *Medium Severity*
-- **PR** `#21755`_: (*jacksontj*) Add timeout to saltnado's event listener **LABELS** *Medium Change*, *Tests Passed*
+  - **ISSUE** `#21707`_: (*baweaver*) [saltnado rest] local requests hang indefinitely on glob / grain queries **LABELS** *Bug*, *Fixed Pending Verification*, *Medium Severity*
+  - **PR** `#21755`_: (*jacksontj*) Add timeout to saltnado's event listener **LABELS** *Medium Change*, *Tests Passed*
     * a95f812 Cleanup merge
     * 70155dd Massive speedup to saltnado
     * 234d02b Add timeout to saltnado's event listener
 
 26689da Merge pull request `#21757`_ from jfindlay/tar_tests
 
-- **PR** `#21757`_: (*jfindlay*) Tar tests **LABELS** *Medium Change*, *Tests Passed*
+  - **PR** `#21757`_: (*jfindlay*) Tar tests **LABELS** *Medium Change*, *Tests Passed*
     * 5f143ec unit tests for states.archive.extracted tar opts
     * f2fe1b9 add positional arguments in order within longopts
     * 53c9d48 fix typo
 
 49d972d Merge pull request `#21743`_ from jfindlay/eauth_group_test
 
-- **ISSUE** `#17380`_: (*UtahDave*) external auth group support not working with pam **LABELS** *Bug*, *Critical*, *Fixed Pending Verification*
-- **PR** `#21743`_: (*jfindlay*) add eauth pam group tests **LABELS** *Medium Change*, *Tests Passed*
+  - **ISSUE** `#17380`_: (*UtahDave*) external auth group support not working with pam **LABELS** *Bug*, *Critical*, *Fixed Pending Verification*
+  - **PR** `#21743`_: (*jfindlay*) add eauth pam group tests **LABELS** *Medium Change*, *Tests Passed*
     * f735f0b add eauth pam group tests
 
 4406974 Merge pull request `#21734`_ from MrMarvin/fix/issue_19405_debian_ip_interfaces_parsing
 
-- **ISSUE** `#19405`_: (*numkem*) Network bridging under ubuntu fails with KeyError **LABELS** *Bug*, *Medium Severity*
-- **PR** `#21734`_: (*MrMarvin*) "fixes" bug when parsing interfaces **LABELS** *Minor Change*
+  - **ISSUE** `#19405`_: (*numkem*) Network bridging under ubuntu fails with KeyError **LABELS** *Bug*, *Medium Severity*
+  - **PR** `#21734`_: (*MrMarvin*) "fixes" bug when parsing interfaces **LABELS** *Minor Change*
     * d8892fd fixes PEP8 W601  and E713- thanks linting test
     * f43f8c4 "fixes" bug when parsing interfaces
 
 493a97c Merge pull request `#21701`_ from rvstaveren/fix_ldap_group_handling_2014_7
 
-- **ISSUE** `#21661`_: (*rvstaveren*) membership logic in salt/auth/ldap.py bug **LABELS** *Bug*, *Core*, *Fixed Pending Verification*, *High Severity*, *P3*
-- **PR** `#21701`_: (*rvstaveren*) Fix ldap group handling for 2014.7 **LABELS** *Minor Change*
+  - **ISSUE** `#21661`_: (*rvstaveren*) membership logic in salt/auth/ldap.py bug **LABELS** *Bug*, *Core*, *Fixed Pending Verification*, *High Severity*, *P3*
+  - **PR** `#21701`_: (*rvstaveren*) Fix ldap group handling for 2014.7 **LABELS** *Minor Change*
     * 6e51093 username doesn't necessarily need to be in slot 0
 
 2e5cdb1 Merge pull request `#21711`_ from rallytime/`bp-21676`_
 
-- **PR** `#21711`_: (*rallytime*) Backport `#21676`_ to 2014.7 **LABELS** *Minor Change*, *Tests Passed*
-- **PR** `#21676`_: (*aneeshusa*) Add error messages when missing setting_name param. **LABELS** *Bugfix - [Done] back-ported*, *Minor Change*
+  - **PR** `#21711`_: (*rallytime*) Backport `#21676`_ to 2014.7 **LABELS** *Minor Change*, *Tests Passed*
+  - **PR** `#21676`_: (*aneeshusa*) Add error messages when missing setting_name param. **LABELS** *Bugfix - [Done] back-ported*, *Minor Change*
     * 01f90d5 Add error messages when missing setting_name param.
 
 0225463 Merge pull request `#21708`_ from rallytime/`bp-21666`_
 
-- **ISSUE** `#20317`_: (*joshdover*) RVM is not a function for gem state **LABELS** *Bug*, *Fixed Pending Verification*, *Medium Severity*
-- **ISSUE** `#6815`_: (*davepeck*) salt.modules.gem.install ignores ruby parameter if rvm is installed locally and runas is provided **LABELS** *Bug*, *Fixed Pending Verification*, *Low Severity*
-- **PR** `#21708`_: (*rallytime*) Backport `#21666`_ to 2014.7 **LABELS** *Minor Change*
-- **PR** `#21666`_: (*ahus1*) RVM doesn't install as non-root, gems don't install for RVM **LABELS** *Bugfix - [Done] back-ported*, *Minor Change*
+  - **ISSUE** `#20317`_: (*joshdover*) RVM is not a function for gem state **LABELS** *Bug*, *Fixed Pending Verification*, *Medium Severity*
+  - **ISSUE** `#6815`_: (*davepeck*) salt.modules.gem.install ignores ruby parameter if rvm is installed locally and runas is provided **LABELS** *Bug*, *Fixed Pending Verification*, *Low Severity*
+  - **PR** `#21708`_: (*rallytime*) Backport `#21666`_ to 2014.7 **LABELS** *Minor Change*
+  - **PR** `#21666`_: (*ahus1*) RVM doesn't install as non-root, gems don't install for RVM **LABELS** *Bugfix - [Done] back-ported*, *Minor Change*
     * 5f11f7b added tests to ensure commands are created accordingly (without additional single quotes)
     * 5f48e55 separate command from arguments to avoid problems when adding quotes
 
 8a12fbb Merge pull request `#21630`_ from UtahDave/fix_syndic
 
-- **PR** `#21630`_: (*UtahDave*) WORK IN PROGRESS - Fix syndic **LABELS** *Minor Change*, *Pending Discussion*
+  - **PR** `#21630`_: (*UtahDave*) WORK IN PROGRESS - Fix syndic **LABELS** *Minor Change*, *Pending Discussion*
     * ad1768c make sure arg, tgt, and tgt_type are passed thru
     * 3611658 pass thru fun and fun_args if they exist
 
 0fc61de Merge pull request `#21677`_ from aneeshusa/check-http-response-status-2014.7
 
-- **ISSUE** `#21625`_: (*SaltwaterC*) file.managed for HTTP source doesn't use the HTTP status code **LABELS** *Bug*, *Fixed Pending Verification*, *Medium Severity*
-- **PR** `#21677`_: (*aneeshusa*) Check response status when using fileclient.get_url. **LABELS** *Minor Change*, *Tests Passed*
+  - **ISSUE** `#21625`_: (*SaltwaterC*) file.managed for HTTP source doesn't use the HTTP status code **LABELS** *Bug*, *Fixed Pending Verification*, *Medium Severity*
+  - **PR** `#21677`_: (*aneeshusa*) Check response status when using fileclient.get_url. **LABELS** *Minor Change*, *Tests Passed*
     * 58a1afc Check response status when using fileclient.get_url.
 
 2767409 Merge pull request `#21658`_ from rvstaveren/fix_eauth_in_batch_2014_7
 
-- **PR** `#21658`_: (*rvstaveren*) enable eauth during cli batch operations **LABELS** *Minor Change*
+  - **PR** `#21658`_: (*rvstaveren*) enable eauth during cli batch operations **LABELS** *Minor Change*
     * 58eacc0 Merge branch 'fix_eauth_in_batch_2014_7' of https://github.com/rvstaveren/salt into fix_eauth_in_batch_2014_7
       * 237d85d enable eauth during cli batch operations
     * 3939799 enable eauth during cli batch operations
 
 dd130a7 Merge pull request `#21648`_ from tjstansell/fix-rh_ip-stp
 
-- **ISSUE** `#21628`_: (*tjstansell*) rh_ip support for STP (spanning tree protocol) **LABELS** *Bug*, *Medium Severity*
-- **PR** `#21648`_: (*tjstansell*) fix `#21628`_: support STP option in rh_ip to enable/disable spanning tree **LABELS** *Minor Change*
+  - **ISSUE** `#21628`_: (*tjstansell*) rh_ip support for STP (spanning tree protocol) **LABELS** *Bug*, *Medium Severity*
+  - **PR** `#21648`_: (*tjstansell*) fix `#21628`_: support STP option in rh_ip to enable/disable spanning tree **LABELS** *Minor Change*
     * 317f627 fix `#21628`_: brctl accepts either "on" or "yes" to enable STP, otherwise it disables it, so using the existing loop to force the value to either "yes" or "no".
 
 a8e8cb9 Merge pull request `#21636`_ from basepi/salt-ssh.msgpack.gate.21226
 
-- **ISSUE** `#21226`_: (*jcftang*) salt-ssh:  Unable to import msgpack or msgpack_pure python modules **LABELS** *Bug*, *Confirmed*, *Fixed Pending Verification*, *High Severity*, *Regression*, *Salt-SSH*
-- **PR** `#21636`_: (*basepi*) Gate salt.utils.cloud (imports msgpack) in config.py for salt-ssh **LABELS** *Minor Change*, *Tests Passed*
+  - **ISSUE** `#21226`_: (*jcftang*) salt-ssh:  Unable to import msgpack or msgpack_pure python modules **LABELS** *Bug*, *Confirmed*, *Fixed Pending Verification*, *High Severity*, *Regression*, *Salt-SSH*
+  - **PR** `#21636`_: (*basepi*) Gate salt.utils.cloud (imports msgpack) in config.py for salt-ssh **LABELS** *Minor Change*, *Tests Passed*
     * 3ef09d3 Gate salt.utils.cloud (imports msgpack) in config.py for salt-ssh
 
 52e3901 Merge pull request `#21626`_ from rallytime/`bp-21622`_
 
-- **ISSUE** `#21423`_: (*roflmao*) Function file.managed is run everytime on user = number **LABELS** *Bug*, *Fixed Pending Verification*, *Low-Hanging Fruit*, *Medium Severity*
-- **PR** `#21626`_: (*rallytime*) Backport `#21622`_ to 2014.7 **LABELS** *Minor Change*
-- **PR** `#21622`_: (*aneeshusa*) Teach file.check_perms to handle uids and gids. **LABELS** *Bugfix - [Done] back-ported*, *Minor Change*, *Tests Passed*
+  - **ISSUE** `#21423`_: (*roflmao*) Function file.managed is run everytime on user = number **LABELS** *Bug*, *Fixed Pending Verification*, *Low-Hanging Fruit*, *Medium Severity*
+  - **PR** `#21626`_: (*rallytime*) Backport `#21622`_ to 2014.7 **LABELS** *Minor Change*
+  - **PR** `#21622`_: (*aneeshusa*) Teach file.check_perms to handle uids and gids. **LABELS** *Bugfix - [Done] back-ported*, *Minor Change*, *Tests Passed*
     * b28dba2 Teach file.check_perms to handle uids and gids.
 
 1b6e14c Merge pull request `#21645`_ from rallytime/set_password_linode
 
-- **PR** `#21645`_: (*rallytime*) Set the vm_ password before calling salt.utils.bootstrap **LABELS** 
+  - **PR** `#21645`_: (*rallytime*) Set the vm_ password before calling salt.utils.bootstrap **LABELS** 
     * 843a7ee Set the vm_ password before calling salt.utils.bootstrap
 
 3407360 Merge pull request `#21637`_ from highlyunavailable/increase_boto_route53_timeout
 
-- **PR** `#21637`_: (*highlyunavailable*) Increase the timeout of boto route53 module **LABELS** *Minor Change*, *Tests Passed*
+  - **PR** `#21637`_: (*highlyunavailable*) Increase the timeout of boto route53 module **LABELS** *Minor Change*, *Tests Passed*
     * 2a7c563 Increase the timeout of boto route53 application
 
 2db9f68 Merge pull request `#21632`_ from rallytime/linode_doc_update
 
-- **PR** `#21632`_: (*rallytime*) Add minimum version dependency for linode-python in docs **LABELS** 
+  - **PR** `#21632`_: (*rallytime*) Add minimum version dependency for linode-python in docs **LABELS** 
     * 01c8f94 Add minimum version dependency for linode-python in docs
 
 cfd8173 Merge pull request `#21631`_ from cro/remove_linodepy
 
-- **PR** `#21631`_: (*cro*) Remove linodepy.py in favor of linode.py. **LABELS** 
+  - **PR** `#21631`_: (*cro*) Remove linodepy.py in favor of linode.py. **LABELS** 
     * 47a9459 Remove linodepy.py in favor of linode.py
 
 74b9ec2 Merge pull request `#21621`_ from tjstansell/`fix-21620`_
 
-- **ISSUE** `#21620`_: (*tjstansell*) rh_ip templates cannot set DELAY=0 **LABELS** *Bug*, *Fixed Pending Verification*, *Medium Severity*
-- **PR** `#21621`_: (*tjstansell*) fixed `#21620`_ so delay: 0 works correctly for network.managed interfaces **LABELS** *Minor Change*, *Tests Passed*
+  - **ISSUE** `#21620`_: (*tjstansell*) rh_ip templates cannot set DELAY=0 **LABELS** *Bug*, *Fixed Pending Verification*, *Medium Severity*
+  - **PR** `#21621`_: (*tjstansell*) fixed `#21620`_ so delay: 0 works correctly for network.managed interfaces **LABELS** *Minor Change*, *Tests Passed*
     * bb63049 fixed `#21620`_ so delay: 0 works correctly for network.managed interfaces
 
 eb12f11 Merge pull request `#21605`_ from highlyunavailable/tar_args
 
-- **ISSUE** `#20795`_: (*Bilge*) archive.extracted tar_options does not support long options or non-option parameters **LABELS** *Bug*, *Fixed Pending Verification*, *Medium Severity*, *Regression*
-- **PR** `#21605`_: (*highlyunavailable*) Fix tar state options **LABELS** *Medium Change*, *Tests Passed*
+  - **ISSUE** `#20795`_: (*Bilge*) archive.extracted tar_options does not support long options or non-option parameters **LABELS** *Bug*, *Fixed Pending Verification*, *Medium Severity*, *Regression*
+  - **PR** `#21605`_: (*highlyunavailable*) Fix tar state options **LABELS** *Medium Change*, *Tests Passed*
     * 133318f Fix tar state options
 
 dc4e90f Merge pull request `#21593`_ from jfindlay/deb_ip_mode
 
-- **PR** `#21593`_: (*jfindlay*) add 802.3ad to debian_ip tunnel modes **LABELS** *Minor Change*
-- **PR** `#21239`_: (*mnguyen1289*) IPV4 mode should accept all modes **LABELS** *Minor Change*
+  - **PR** `#21593`_: (*jfindlay*) add 802.3ad to debian_ip tunnel modes **LABELS** *Minor Change*
+  - **PR** `#21239`_: (*mnguyen1289*) IPV4 mode should accept all modes **LABELS** *Minor Change*
     * 01d6056 add 802.3ad to debian_ip tunnel modes
 
 14efe70 Merge pull request `#21600`_ from eliasp/2014.7-salt.modules.win_ntp-parsing-NtpServer
 
-- **PR** `#21600`_: (*eliasp*) Fix parsing of NTP servers on Windows. **LABELS** *Minor Change*
+  - **PR** `#21600`_: (*eliasp*) Fix parsing of NTP servers on Windows. **LABELS** *Minor Change*
     * 60675de Fix parsing of NTP servers on Windows.
 
 4d958f8 Merge pull request `#21544`_ from RobertFach/`fix-21543`_-blockdev-tune-issue
 
-- **ISSUE** `#21543`_: (*RobertFach*) module blockdev.tune broken 2014.7.x /develop **LABELS** *Bug*, *Medium Severity*
-- **PR** `#21544`_: (*RobertFach*) fix blockdev.tune issue, where blockdev.tune doesn't report changes for ... **LABELS** *Minor Change*, *Tests Passed*
+  - **ISSUE** `#21543`_: (*RobertFach*) module blockdev.tune broken 2014.7.x /develop **LABELS** *Bug*, *Medium Severity*
+  - **PR** `#21544`_: (*RobertFach*) fix blockdev.tune issue, where blockdev.tune doesn't report changes for ... **LABELS** *Minor Change*, *Tests Passed*
     * a8873d0 fixed pylint issue with comparison to True
 
 d4f419a Merge pull request `#21587`_ from RobertFach/`fix-21546`_-blockdev-tune-state-change-issue
 
-- **ISSUE** `#21546`_: (*RobertFach*) state change detection for blockdev.tune broken 2014.7.x /develop **LABELS** *Bug*, *Medium Severity*
-- **ISSUE** `#21543`_: (*RobertFach*) module blockdev.tune broken 2014.7.x /develop **LABELS** *Bug*, *Medium Severity*
-- **PR** `#21587`_: (*RobertFach*) Fix 21546 blockdev tune state change issue **LABELS** *Minor Change*
+  - **ISSUE** `#21546`_: (*RobertFach*) state change detection for blockdev.tune broken 2014.7.x /develop **LABELS** *Bug*, *Medium Severity*
+  - **ISSUE** `#21543`_: (*RobertFach*) module blockdev.tune broken 2014.7.x /develop **LABELS** *Bug*, *Medium Severity*
+  - **PR** `#21587`_: (*RobertFach*) Fix 21546 blockdev tune state change issue **LABELS** *Minor Change*
     * f89f23c fixing pylint issues, sorry
     * c204815 made blockdev.tune state change detection output pretty
     * 5c526b2 added change detection for block device tune, reformatting
@@ -416,23 +416,23 @@ d4f419a Merge pull request `#21587`_ from RobertFach/`fix-21546`_-blockdev-tune-
 
 208b269 Merge pull request `#21568`_ from jfindlay/setup_attrs
 
-- **ISSUE** `#21522`_: (*Diaoul*) python setup.py -V crashes **LABELS** *Bug*, *Fixed Pending Verification*, *High Severity*
-- **PR** `#21568`_: (*jfindlay*) Don't obfuscate internal distutils attributes **LABELS** *Medium Change*, *Tests Passed*
-- **PR** `#21559`_: (*s0undt3ch*) Don't obfuscate the internal version attribute **LABELS** *Medium Change*, *Tests Passed*
+  - **ISSUE** `#21522`_: (*Diaoul*) python setup.py -V crashes **LABELS** *Bug*, *Fixed Pending Verification*, *High Severity*
+  - **PR** `#21568`_: (*jfindlay*) Don't obfuscate internal distutils attributes **LABELS** *Medium Change*, *Tests Passed*
+  - **PR** `#21559`_: (*s0undt3ch*) Don't obfuscate the internal version attribute **LABELS** *Medium Change*, *Tests Passed*
     * e6f8ea3 Don't obfuscate internal distutils attributes
 
 f3ec86f Merge pull request `#21514`_ from rallytime/manually_backport_21489
 
-- **ISSUE** `#20787`_: (*pruiz*) pillar_source_merging_strategy: smart not working when using more than one renderer at shebang line **LABELS** *Bug*, *Fixed Pending Verification*, *Medium Severity*
-- **PR** `#21514`_: (*rallytime*) Apply fix from `#21489`_ to the 2014.7 branch **LABELS** *Minor Change*, *Tests Passed*
-- **PR** `#21489`_: (*pruiz*) Fix `#20787`_: YamlEx pillar merging fails when using gpg (even if pillar_source_merging_strategy is set to aggregate) **LABELS** *Bugfix - [Done] back-ported*, *Minor Change*
+  - **ISSUE** `#20787`_: (*pruiz*) pillar_source_merging_strategy: smart not working when using more than one renderer at shebang line **LABELS** *Bug*, *Fixed Pending Verification*, *Medium Severity*
+  - **PR** `#21514`_: (*rallytime*) Apply fix from `#21489`_ to the 2014.7 branch **LABELS** *Minor Change*, *Tests Passed*
+  - **PR** `#21489`_: (*pruiz*) Fix `#20787`_: YamlEx pillar merging fails when using gpg (even if pillar_source_merging_strategy is set to aggregate) **LABELS** *Bugfix - [Done] back-ported*, *Minor Change*
     * ee159ff Apply fix from `#21489`_ to the 2014.7 branch
 
 44df93d Merge pull request `#21562`_ from cro/`bp-21283`_
 
-- **ISSUE** `#20932`_: (*dtoubelis*) Exception when calling create method on openstack cloud provider from reactor sls **LABELS** *Bug*, *Medium Severity*, *Salt-Cloud*
-- **PR** `#21562`_: (*cro*) Backport 21283 from develop. **LABELS** *Master Change*, *Tests Passed*
-- **PR** `#21283`_: (*gtmanfred*) Fix openstack cloud driver to work with only bootstrapping **LABELS** *Bugfix - [Done] back-ported*, *Master Change*
+  - **ISSUE** `#20932`_: (*dtoubelis*) Exception when calling create method on openstack cloud provider from reactor sls **LABELS** *Bug*, *Medium Severity*, *Salt-Cloud*
+  - **PR** `#21562`_: (*cro*) Backport 21283 from develop. **LABELS** *Master Change*, *Tests Passed*
+  - **PR** `#21283`_: (*gtmanfred*) Fix openstack cloud driver to work with only bootstrapping **LABELS** *Bugfix - [Done] back-ported*, *Master Change*
     * 470bc06 remove extra log.debug
     * f049fe8 change deafult for kwargs
     * 739935c pass kwargs so that fixed networks can be set
@@ -443,55 +443,55 @@ f3ec86f Merge pull request `#21514`_ from rallytime/manually_backport_21489
 
 4873382 Merge pull request `#21487`_ from rallytime/`bp-21469`_
 
-- **ISSUE** `#20198`_: (*jcftang*) virt.get_graphics, virt.get_nics are broken, in turn breaking other things **LABELS** *Bug*, *Fixed Pending Verification*, *High Severity*
-- **PR** `#21487`_: (*rallytime*) Backport `#21469`_ to 2014.7 **LABELS** *Minor Change*
-- **PR** `#21469`_: (*vdesjardins*) fixes `#20198`_: virt.get_graphics and virt.get_nics calls in module virt **LABELS** *Bugfix - [Done] back-ported*, *Minor Change*
+  - **ISSUE** `#20198`_: (*jcftang*) virt.get_graphics, virt.get_nics are broken, in turn breaking other things **LABELS** *Bug*, *Fixed Pending Verification*, *High Severity*
+  - **PR** `#21487`_: (*rallytime*) Backport `#21469`_ to 2014.7 **LABELS** *Minor Change*
+  - **PR** `#21469`_: (*vdesjardins*) fixes `#20198`_: virt.get_graphics and virt.get_nics calls in module virt **LABELS** *Bugfix - [Done] back-ported*, *Minor Change*
     * e4b33ef Move minidom import out of try block
     * aef0d95 fix pylint error in virt module.
     * d529390 fixes `#20198`_: virt.get_graphics and virt.get_nics calls in module virt
 
 979ed66 Merge pull request `#21559`_ from s0undt3ch/hotfix/issues-21522
 
-- **ISSUE** `#21522`_: (*Diaoul*) python setup.py -V crashes **LABELS** *Bug*, *Fixed Pending Verification*, *High Severity*
-- **PR** `#21559`_: (*s0undt3ch*) Don't obfuscate the internal version attribute **LABELS** *Medium Change*, *Tests Passed*
+  - **ISSUE** `#21522`_: (*Diaoul*) python setup.py -V crashes **LABELS** *Bug*, *Fixed Pending Verification*, *High Severity*
+  - **PR** `#21559`_: (*s0undt3ch*) Don't obfuscate the internal version attribute **LABELS** *Medium Change*, *Tests Passed*
     * e5a7158 Don't obfuscate the internal version attribute
 
 70608d8 Merge pull request `#21557`_ from s0undt3ch/2014.7
 
-- **ISSUE** `#555`_: (*syphernl*) Allow states to be called via wildcard **LABELS** 
-- **PR** `#21557`_: (*s0undt3ch*) [2014.7] Update the bootstrap script to latest stable, v2015.03.15 **LABELS** *Minor Change*, *Tests Passed*
+  - **ISSUE** `#555`_: (*syphernl*) Allow states to be called via wildcard **LABELS** 
+  - **PR** `#21557`_: (*s0undt3ch*) [2014.7] Update the bootstrap script to latest stable, v2015.03.15 **LABELS** *Minor Change*, *Tests Passed*
     * 397f45e Update the bootstrap script to latest stable, v2015.03.15
 
 0d278a4 Merge pull request `#21523`_ from jfindlay/`bp-21481`_
 
-- **ISSUE** `#21057`_: (*freimer*) Windows saltutil.kill_job **LABELS** *Bug*, *Duplicate*, *Fixed Pending Verification*, *High Severity*, *Windows*
-- **PR** `#21523`_: (*jfindlay*) backport `#21481`_ to 2014.7 **LABELS** *Minor Change*, *Tests Passed*
-- **PR** `#21481`_: (*opdude*) Fixed an error with SIGKILL on windows **LABELS** *Bugfix - [Done] back-ported*, *Minor Change*, *Tests Passed*
-- **PR** `#21244`_: (*freimer*) Fix for Python without a signal.SIGKILL (Win32) **LABELS** *Medium Change*, *Tests Passed*
+  - **ISSUE** `#21057`_: (*freimer*) Windows saltutil.kill_job **LABELS** *Bug*, *Duplicate*, *Fixed Pending Verification*, *High Severity*, *Windows*
+  - **PR** `#21523`_: (*jfindlay*) backport `#21481`_ to 2014.7 **LABELS** *Minor Change*, *Tests Passed*
+  - **PR** `#21481`_: (*opdude*) Fixed an error with SIGKILL on windows **LABELS** *Bugfix - [Done] back-ported*, *Minor Change*, *Tests Passed*
+  - **PR** `#21244`_: (*freimer*) Fix for Python without a signal.SIGKILL (Win32) **LABELS** *Medium Change*, *Tests Passed*
     * 08bd476 Fixed an error with SIGKILL on windows
 
 2fa4189 Merge pull request `#21555`_ from xclusv/2014.7-`fix-21491`_
 
-- **ISSUE** `#21491`_: (*martin-helmich*) composer.installed should not always "return True" when composer.lock is present **LABELS** *Bug*, *Fixed Pending Verification*, *High Severity*, *P2*, *State Module*
-- **PR** `#21555`_: (*ross-p*) Fix for issue `#21491`_ **LABELS** *Medium Change*
-- **PR** `#21553`_: (*ross-p*) Fix for issue `#21491`_ (composer install should always run) **LABELS** *Bugfix - [Done] back-ported*, *Medium Change*
+  - **ISSUE** `#21491`_: (*martin-helmich*) composer.installed should not always "return True" when composer.lock is present **LABELS** *Bug*, *Fixed Pending Verification*, *High Severity*, *P2*, *State Module*
+  - **PR** `#21555`_: (*ross-p*) Fix for issue `#21491`_ **LABELS** *Medium Change*
+  - **PR** `#21553`_: (*ross-p*) Fix for issue `#21491`_ (composer install should always run) **LABELS** *Bugfix - [Done] back-ported*, *Medium Change*
     * d473408 composer.install module does not support always_check, only the state does.  Removing the test on the module.
     * ee1a8d7 Fix lint issue.
     * 3f3218d Fix for issue `#21491`_
 
 8cd4849 Merge pull request `#21564`_ from eliasp/patch-1
 
-- **PR** `#21564`_: (*eliasp*) Typo (rendered → renderer) **LABELS** 
+  - **PR** `#21564`_: (*eliasp*) Typo (rendered → renderer) **LABELS** 
     * bc9a30b Typo (rendered â renderer)
 
 a531ab0 Merge pull request `#21551`_ from robgott/fix-s3.head-returning-none
 
-- **PR** `#21551`_: (*robgott*) updated s3.query function to return headers for successful requests **LABELS** 
+  - **PR** `#21551`_: (*robgott*) updated s3.query function to return headers for successful requests **LABELS** 
     * 8999148 updated s3.query function to return headers array for successful requests fixes issue with s3.head returning None for files that exist
 
 0eb66a3 Merge pull request `#21162`_ from cro/linode-python-driver2
 
-- **PR** `#21162`_: (*cro*) Update linode salt-cloud driver to support using either linode-python or apache-libcloud **LABELS** *Expert Change*, *Tests Passed*
+  - **PR** `#21162`_: (*cro*) Update linode salt-cloud driver to support using either linode-python or apache-libcloud **LABELS** *Expert Change*, *Tests Passed*
     * 93c5d92 AGH. LINT.
     * b3ff3ab More lint.
     * f525425 Fix typo.
@@ -501,179 +501,179 @@ a531ab0 Merge pull request `#21551`_ from robgott/fix-s3.head-returning-none
 
 3012e98 Merge pull request `#21536`_ from eliasp/2014.7-salt.states.win_update.py-typo
 
-- **PR** `#21536`_: (*eliasp*) Correct typo ('win_update.install' → 'win.update_installed'). **LABELS** 
+  - **PR** `#21536`_: (*eliasp*) Correct typo ('win_update.install' → 'win.update_installed'). **LABELS** 
     * 0b02396 Correct typo ('win_update.install' â 'win.update_installed').
 
 d8f4160 Merge pull request `#21510`_ from twangboy/win_service
 
-- **PR** `#21510`_: (*twangboy*) Fixed disable function in win_service.py to actually disable service **LABELS** *Minor Change*
+  - **PR** `#21510`_: (*twangboy*) Fixed disable function in win_service.py to actually disable service **LABELS** *Minor Change*
     * ed1b7dd Fixed disable function in win_service.py to actually disable service
 
 1c31dbf Merge pull request `#21497`_ from xclusv/2014.7-fix-php-composer
 
-- **ISSUE** `#21349`_: (*ross-p*) Salt composer state now broken due to apparent change in PHP Composer's output **LABELS** *Bug*, *Medium Severity*
-- **PR** `#21497`_: (*ross-p*) Backport of PR `#21358`_ to 2014.7 **LABELS** *Master Change*, *Tests Passed*
-- **PR** `#21358`_: (*ross-p*) Fix composer, issue `#21349`_ **LABELS** *Bugfix - [Done] back-ported*
+  - **ISSUE** `#21349`_: (*ross-p*) Salt composer state now broken due to apparent change in PHP Composer's output **LABELS** *Bug*, *Medium Severity*
+  - **PR** `#21497`_: (*ross-p*) Backport of PR `#21358`_ to 2014.7 **LABELS** *Master Change*, *Tests Passed*
+  - **PR** `#21358`_: (*ross-p*) Fix composer, issue `#21349`_ **LABELS** *Bugfix - [Done] back-ported*
     * 8083cf5 Backport of PR `#21358`_ to 2014.7
 
 f6f6afe Merge pull request `#21488`_ from jacobhammons/2014.7
 
-- **PR** `#21488`_: (*jacobhammons*) Regenerated and updated man pages, updated release version in conf.py to... **LABELS** 
+  - **PR** `#21488`_: (*jacobhammons*) Regenerated and updated man pages, updated release version in conf.py to... **LABELS** 
     * 921d679 Regenerated and updated man pages, updated release version in conf.py to 2014.7.2
 
 6ac6a53 Merge pull request `#21437`_ from rallytime/`bp-21409`_
 
-- **PR** `#21437`_: (*rallytime*) Backport `#21409`_ to 2014.7 **LABELS** *Minor Change*, *Tests Passed*
-- **PR** `#21409`_: (*jquast*) Gracefully handle race condition of 'makedirs' **LABELS** *Bugfix - [Done] back-ported*, *Medium Change*
+  - **PR** `#21437`_: (*rallytime*) Backport `#21409`_ to 2014.7 **LABELS** *Minor Change*, *Tests Passed*
+  - **PR** `#21409`_: (*jquast*) Gracefully handle race condition of 'makedirs' **LABELS** *Bugfix - [Done] back-ported*, *Medium Change*
     * 8a65d8c Gracefully handle race condition in `makedirs'
 
 4fb4178 Merge pull request `#21439`_ from jfindlay/no_master
 
-- **ISSUE** `#21301`_: (*syphernl*) Optimize error about sls missing on master if running masterless **LABELS** *Bug*, *Low Severity*
-- **PR** `#21439`_: (*jfindlay*) remove 'master' reference in error message **LABELS** *Minor Change*
+  - **ISSUE** `#21301`_: (*syphernl*) Optimize error about sls missing on master if running masterless **LABELS** *Bug*, *Low Severity*
+  - **PR** `#21439`_: (*jfindlay*) remove 'master' reference in error message **LABELS** *Minor Change*
     * 3456ef6 remove 'master' reference in error message
 
 87591b3 Merge pull request `#21432`_ from eliasp/2014.7-`fix-21304`_
 
-- **ISSUE** `#21304`_: (*eliasp*) Failing `blkid` call in `salt.modules.disk.blkid()` isn't handled properly **LABELS** *Bug*, *Medium Severity*
-- **PR** `#21432`_: (*eliasp*) Fix `#21304`_ (backport of `#21431`_) **LABELS** *Minor Change*
+  - **ISSUE** `#21304`_: (*eliasp*) Failing `blkid` call in `salt.modules.disk.blkid()` isn't handled properly **LABELS** *Bug*, *Medium Severity*
+  - **PR** `#21432`_: (*eliasp*) Fix `#21304`_ (backport of `#21431`_) **LABELS** *Minor Change*
     * 1ff5cc2 Fix `#21304`_
 
 7a77375 Merge pull request `#21407`_ from freimer/issue_21405
 
-- **PR** `#21407`_: (*freimer*) Added status.master capability for Windows **LABELS** *Medium Change*, *ZD*
+  - **PR** `#21407`_: (*freimer*) Added status.master capability for Windows **LABELS** *Medium Change*, *ZD*
     * 03c9e70 Added status.master capability for Windows
     * fa0953c Added status.master capability for Windows
 
 c5db184 Merge pull request `#21411`_ from terminalmage/issue20812
 
-- **ISSUE** `#20812`_: (*jasonrm*) Recurse failed with gitfs per-remote mountpoint and file.recurse **LABELS** *Bug*, *Medium Severity*
-- **PR** `#21411`_: (*terminalmage*) Fix file.recurse on root of gitfs/hgfs/svnfs repo **LABELS** *Master Change*, *Tests Passed*
+  - **ISSUE** `#20812`_: (*jasonrm*) Recurse failed with gitfs per-remote mountpoint and file.recurse **LABELS** *Bug*, *Medium Severity*
+  - **PR** `#21411`_: (*terminalmage*) Fix file.recurse on root of gitfs/hgfs/svnfs repo **LABELS** *Master Change*, *Tests Passed*
     * cf05fd6 Fix file.recurse on root of svnfs repo
     * 346f59c Fix file.recurse on root of hgfs repo
     * 6f6f4b9 Fix file.recurse on root of gitfs repo
 
 cd5463d Merge pull request `#21380`_ from lorengordon/service-running-logic-conflict
 
-- **ISSUE** `#20915`_: (*lorengordon*) Logic conflict with `changes` in service.running and service.dead? **LABELS** *Bug*, *Medium Severity*
-- **PR** `#21380`_: (*lorengordon*) Fix logic conflict with `enabled` between service.running and service.dead **LABELS** *Master Change*
+  - **ISSUE** `#20915`_: (*lorengordon*) Logic conflict with `changes` in service.running and service.dead? **LABELS** *Bug*, *Medium Severity*
+  - **PR** `#21380`_: (*lorengordon*) Fix logic conflict with `enabled` between service.running and service.dead **LABELS** *Master Change*
     * 6e4e9d5 Streamline logic, cleanup dead code
     * 6f161a7 Re-add stateful return for service.enabled and service.disabled
     * 91f499e Eliminate `enable` logic conflict
 
 e2f135a Merge pull request `#21395`_ from jacksontj/2014.7
 
-- **ISSUE** `#20494`_: (*lorengordon*) Traceback in output with `--log-level debug` on Windows **LABELS** *Bug*, *Medium Severity*, *Windows*
-- **PR** `#21395`_: (*jacksontj*) Backport fix for `#20494`_ **LABELS** *Minor Change*, *Tests Passed*
+  - **ISSUE** `#20494`_: (*lorengordon*) Traceback in output with `--log-level debug` on Windows **LABELS** *Bug*, *Medium Severity*, *Windows*
+  - **PR** `#21395`_: (*jacksontj*) Backport fix for `#20494`_ **LABELS** *Minor Change*, *Tests Passed*
     * ff8b47c Catch case where 'return' not in opts, or other ways to get an empty returner (as it will just fail anyways)
 
 fea6d83 Merge pull request `#21355`_ from The-Loeki/patch-1
 
-- **PR** `#21355`_: (*The-Loeki*) Fix for comments containing whitespaces **LABELS** 
+  - **PR** `#21355`_: (*The-Loeki*) Fix for comments containing whitespaces **LABELS** 
     * bf6790b Update ssh_auth.py
     * 10089ab Fix pylint PEP8 E231, patch absent function as well
     * 6327479 Fix for comments containing whitespaces
 
 3736c89 Merge pull request `#21373`_ from hvnsweeting/2014.7
 
-- **PR** `#21373`_: (*hvnsweeting*) bugfix: fix test mode in ssh_known_hosts **LABELS** 
+  - **PR** `#21373`_: (*hvnsweeting*) bugfix: fix test mode in ssh_known_hosts **LABELS** 
     * 2a84598 bugfix: fix test mode in ssh_known_hosts
 
 855d8cf Merge pull request `#21381`_ from rallytime/pylint_seven
 
-- **PR** `#21381`_: (*rallytime*) Pylint fix for 2014.7 branch **LABELS** *Minor Change*, *Tests Passed*
+  - **PR** `#21381`_: (*rallytime*) Pylint fix for 2014.7 branch **LABELS** *Minor Change*, *Tests Passed*
     * b9f3b79 Pylint fix for 2014.7 branch
 
 096021b Merge pull request `#21374`_ from sivann/Issue_21218
 
-- **ISSUE** `#21218`_: (*sivann*) grain virtual not working for CentOS 7 in Google Compute Engine **LABELS** *Bug*, *Fixed Pending Verification*, *Low-Hanging Fruit*, *Medium Severity*
-- **PR** `#21374`_: (*sivann*) better grains.virtual through systemd-detect-virt and virt-what, fixes issue `#21218`_ **LABELS** 
+  - **ISSUE** `#21218`_: (*sivann*) grain virtual not working for CentOS 7 in Google Compute Engine **LABELS** *Bug*, *Fixed Pending Verification*, *Low-Hanging Fruit*, *Medium Severity*
+  - **PR** `#21374`_: (*sivann*) better grains.virtual through systemd-detect-virt and virt-what, fixes issue `#21218`_ **LABELS** 
     * 15c371d correct string for microsoft and vmware
     * 9d4fcdd better grains.virtual through systemd-detect-virt and virt-what, fixes issue `#21218`_
 
 7e56552 Merge pull request `#21310`_ from devweasel/issue_21114
 
-- **ISSUE** `#21114`_: (*devweasel*) states.keystone fails to create user-roles for more than 1 tenant/user (or remove them) **LABELS** *Bug*, *Fixed Pending Verification*, *Medium Severity*
-- **PR** `#21310`_: (*devweasel*) Fixes for `#21114`_ **LABELS** *Master Change*, *Tests Passed*
+  - **ISSUE** `#21114`_: (*devweasel*) states.keystone fails to create user-roles for more than 1 tenant/user (or remove them) **LABELS** *Bug*, *Fixed Pending Verification*, *Medium Severity*
+  - **PR** `#21310`_: (*devweasel*) Fixes for `#21114`_ **LABELS** *Master Change*, *Tests Passed*
     * 1c636ba Fixes `#21114`_ [2/2]; keystone.user_present fails to remove user-roles
     * 72b719f Fixes `#21114`_ [1/2]; keystone.user_present fails to create user-roles for more than 1 tenant/user
 
 be4405f Merge pull request `#21346`_ from sinnerschrader/fix/2014_7_fix_ubuntu_network_bonding
 
-- **PR** `#21346`_: (*MrMarvin*) * fixes states.network bonding for debian **LABELS** *Minor Change*
+  - **PR** `#21346`_: (*MrMarvin*) * fixes states.network bonding for debian **LABELS** *Minor Change*
     * fc7ee45 * fixes states.network bonding for debian
 
 1c23c1f Merge pull request `#21360`_ from terminalmage/issue21300
 
-- **ISSUE** `#21300`_: (*ferricoxide*) sysctl.present dumps a traceback if driver disabled **LABELS** *Bug*, *Fixed Pending Verification*, *Medium Severity*
-- **PR** `#21360`_: (*terminalmage*) Fix traceback in sysctl.present state output **LABELS** 
+  - **ISSUE** `#21300`_: (*ferricoxide*) sysctl.present dumps a traceback if driver disabled **LABELS** *Bug*, *Fixed Pending Verification*, *Medium Severity*
+  - **PR** `#21360`_: (*terminalmage*) Fix traceback in sysctl.present state output **LABELS** 
     * 1322181 Fix traceback in sysctl.present state output
 
 00323f0 Merge pull request `#21366`_ from d--j/fix-debian-ip-dns-nameservers
 
-- **ISSUE** `#18318`_: (*arthurlogilab*) network.managed removes comments and some options in /etc/network/interfaces **LABELS** *Bug*, *Medium Severity*
-- **PR** `#21366`_: (*d--j*) Make debian_ip.get_interface not remove dns-nameservers **LABELS** 
+  - **ISSUE** `#18318`_: (*arthurlogilab*) network.managed removes comments and some options in /etc/network/interfaces **LABELS** *Bug*, *Medium Severity*
+  - **PR** `#21366`_: (*d--j*) Make debian_ip.get_interface not remove dns-nameservers **LABELS** 
     * 32c7547 Make debian_ip not remove dns-nameservers
 
 a5a14ff Merge pull request `#21308`_ from s0undt3ch/2014.7
 
-- **PR** `#21308`_: (*s0undt3ch*) [2014.7] Update the bootstrap script to latest stable v2015.03.04 **LABELS** *Medium Change*, *Tests Passed*
+  - **PR** `#21308`_: (*s0undt3ch*) [2014.7] Update the bootstrap script to latest stable v2015.03.04 **LABELS** *Medium Change*, *Tests Passed*
     * 26f07a0 Update the bootstrap script to latest stable v2015.03.04
 
 0775966 Merge pull request `#21302`_ from nmadhok/add-src-gitignore
 
-- **PR** `#21302`_: (*nmadhok*) Adding src folder to .gitignore **LABELS** 
+  - **PR** `#21302`_: (*nmadhok*) Adding src folder to .gitignore **LABELS** 
     * 67c1c4a Adding src folder to .gitignore
 
 b86ed66 Merge pull request `#21269`_ from RobertFach/`fix-21215`_-mount-superopts
 
-- **ISSUE** `#21215`_: (*nirnx*) Mount state failed after upgrade **LABELS** *Bug*, *Fixed Pending Verification*, *Medium Severity*, *Regression*
-- **PR** `#21269`_: (*RobertFach*) fixed issue which causes mount.mounted to fail when superopts are not pa... **LABELS** *Minor Change*, *Tests Passed*
+  - **ISSUE** `#21215`_: (*nirnx*) Mount state failed after upgrade **LABELS** *Bug*, *Fixed Pending Verification*, *Medium Severity*, *Regression*
+  - **PR** `#21269`_: (*RobertFach*) fixed issue which causes mount.mounted to fail when superopts are not pa... **LABELS** *Minor Change*, *Tests Passed*
     * 86852e5 fixed issue which causes mount.mounted to fail when superopts are not part of mount.active (extended=True), this fix will also fix potential problems with Solaris and FreeBSD
 
 ce4d97f Merge pull request `#21289`_ from hvnsweeting/2014.7
 
-- **PR** `#21289`_: (*hvnsweeting*) do not log at error lvl for ssh-keygen check command **LABELS** *Minor Change*, *Tests Passed*
+  - **PR** `#21289`_: (*hvnsweeting*) do not log at error lvl for ssh-keygen check command **LABELS** *Minor Change*, *Tests Passed*
     * fa10a97 do not log at error lvl for check command
 
 da6eb8b Merge pull request `#21275`_ from terminalmage/fix-invalid-kwargs
 
-- **PR** `#21275`_: (*terminalmage*) Fix invalid kwarg output **LABELS** *Minor Change*, *Tests Passed*
+  - **PR** `#21275`_: (*terminalmage*) Fix invalid kwarg output **LABELS** *Minor Change*, *Tests Passed*
     * 9e8ce47 Fix invalid kwarg output
 
 8379e51 Merge pull request `#21050`_ from lorengordon/fix-file-search-regression
 
-- **ISSUE** `#20970`_: (*lorengordon*) file.replace doesn't replace `pattern` when `repl` exists **LABELS** *Bug*, *Medium Severity*, *Regression*
-- **ISSUE** `#20603`_: (*lorengordon*) file.search always returns True? **LABELS** *Bug*, *Confirmed*, *High Severity*
-- **ISSUE** `#18612`_: (*eliasp*) 'file.replace' with 'append_if_not_found=True' grows file infinitely **LABELS** *Bug*, *Fixed Pending Verification*, *Medium Severity*
-- **PR** `#21050`_: (*lorengordon*) Fix file.replace regressions, fixes saltstack`#20970`_ and saltstack`#20603`_ **LABELS** *Master Change*, *Tests Passed*
+  - **ISSUE** `#20970`_: (*lorengordon*) file.replace doesn't replace `pattern` when `repl` exists **LABELS** *Bug*, *Medium Severity*, *Regression*
+  - **ISSUE** `#20603`_: (*lorengordon*) file.search always returns True? **LABELS** *Bug*, *Confirmed*, *High Severity*
+  - **ISSUE** `#18612`_: (*eliasp*) 'file.replace' with 'append_if_not_found=True' grows file infinitely **LABELS** *Bug*, *Fixed Pending Verification*, *Medium Severity*
+  - **PR** `#21050`_: (*lorengordon*) Fix file.replace regressions, fixes saltstack`#20970`_ and saltstack`#20603`_ **LABELS** *Master Change*, *Tests Passed*
     * 5bcf157 Check file before making changes, create backup only if necessary
     * fef427b Fix file.replace regressions, fixes saltstack`#20970`_ and saltstack`#20603`_
 
 aa03bac Merge pull request `#21253`_ from freimer/issue_21057_2014.7
 
-- **PR** `#21253`_: (*freimer*) Fix for Python (Win32) without a signal.SIGKILL **LABELS** 
+  - **PR** `#21253`_: (*freimer*) Fix for Python (Win32) without a signal.SIGKILL **LABELS** 
     * 580afe7 Fix for Python (Win32) without a signal.SIGKILL
 
 8e63572 Merge pull request `#21242`_ from jfindlay/cmd_tests
 
-- **PR** `#21242`_: (*jfindlay*) indent quoted code in cmdmod tests **LABELS** *Minor Change*, *Tests Passed*
+  - **PR** `#21242`_: (*jfindlay*) indent quoted code in cmdmod tests **LABELS** *Minor Change*, *Tests Passed*
     * a6b86ef indent quoted code in cmdmod tests
 
 5f3b818 Merge pull request `#21182`_ from ndenev/2014.7
 
-- **PR** `#21182`_: (*ndenev*) Make sure tmp_dir does not end in a slash, and remove extra escapes. **LABELS** *Minor Change*, *Tests Passed*
+  - **PR** `#21182`_: (*ndenev*) Make sure tmp_dir does not end in a slash, and remove extra escapes. **LABELS** *Minor Change*, *Tests Passed*
     * d243c36 Merge remote-tracking branch 'upstream/2014.7' into 2014.7
 
 6577a20 Merge pull request `#21200`_ from UtahDave/2014.7local
 
-- **PR** `#21200`_: (*UtahDave*) Cherry pick back to 2014.7 branch - convert datetime objects to strings **LABELS** 
+  - **PR** `#21200`_: (*UtahDave*) Cherry pick back to 2014.7 branch - convert datetime objects to strings **LABELS** 
     * fc1c17b convert datetime objects to strings
 
 0eaaf87 Merge pull request `#21179`_ from whiteinge/doc-presence-cross-ref-localhost-prob
 
-- **ISSUE** `#18436`_: (*pass-by-value*) Presence event returns with an empty list **LABELS** *Bug*, *Documentation*, *Fixed Pending Verification*
-- **PR** `#21179`_: (*whiteinge*) Improved presence docs; added cross-references and localhost caveat **LABELS** *Minor Change*, *Tests Passed*
+  - **ISSUE** `#18436`_: (*pass-by-value*) Presence event returns with an empty list **LABELS** *Bug*, *Documentation*, *Fixed Pending Verification*
+  - **PR** `#21179`_: (*whiteinge*) Improved presence docs; added cross-references and localhost caveat **LABELS** *Minor Change*, *Tests Passed*
     * 4d974d9 Improved presence docs; added cross-references and localhost caveat
     * b586f07 convert datetime objects to strings
     * 14af3e9 Improved presence docs; added cross-references and localhost caveat
@@ -682,81 +682,81 @@ aa03bac Merge pull request `#21253`_ from freimer/issue_21057_2014.7
 
 5bbc21f Merge pull request `#21125`_ from jfindlay/cmd_tests
 
-- **PR** `#21125`_: (*jfindlay*) add cmd module integration tests **LABELS** *Minor Change*
+  - **PR** `#21125`_: (*jfindlay*) add cmd module integration tests **LABELS** *Minor Change*
     * 17b8f73 add cmd module integration tests
 
 36776e7 Merge pull request `#21151`_ from s0undt3ch/2014.7
 
-- **PR** `#21151`_: (*s0undt3ch*) [2014.7] Update bootstrap script to latest stable, v2015.02.28 **LABELS** *Minor Change*, *Tests Passed*
+  - **PR** `#21151`_: (*s0undt3ch*) [2014.7] Update bootstrap script to latest stable, v2015.02.28 **LABELS** *Minor Change*, *Tests Passed*
     * 0e5adac Update bootstrap script to latest stable, v2015.02.28
 
 a3bd5f6 Merge pull request `#21103`_ from s0undt3ch/2014.7
 
-- **ISSUE** `#496`_: (*syphernl*) apache.version shows 'apache2ctl' if Apache is missing **LABELS** 
-- **PR** `#21103`_: (*s0undt3ch*) [2014.7] Update the bootstrap script to latest stable v2015.02.27 **LABELS** 
-- **PR** `#533`_: (*syphernl*) Only load nginx on machines that have nginx installed **LABELS** 
+  - **ISSUE** `#496`_: (*syphernl*) apache.version shows 'apache2ctl' if Apache is missing **LABELS** 
+  - **PR** `#21103`_: (*s0undt3ch*) [2014.7] Update the bootstrap script to latest stable v2015.02.27 **LABELS** 
+  - **PR** `#533`_: (*syphernl*) Only load nginx on machines that have nginx installed **LABELS** 
     * 6248c6e Update the bootstrap script to latest stable v2015.02.27
 
 1efcf40 Merge pull request `#21095`_ from jond64/fix-for-21039
 
-- **ISSUE** `#21039`_: (*jond64*) non zero return code with salt-call --retcode-passthrough and ignore_retcode=True **LABELS** *Bug*, *Medium Severity*
-- **PR** `#21095`_: (*jond64*) Fix for `#21039`_ **LABELS** *Minor Change*
+  - **ISSUE** `#21039`_: (*jond64*) non zero return code with salt-call --retcode-passthrough and ignore_retcode=True **LABELS** *Bug*, *Medium Severity*
+  - **PR** `#21095`_: (*jond64*) Fix for `#21039`_ **LABELS** *Minor Change*
     * 0a0f3f9 Fix for `#21039`_
 
 7892d62 Merge pull request `#21058`_ from terminalmage/fix-chocolatey-0.9.9
 
-- **PR** `#21058`_: (*terminalmage*) Support Chocolatey 0.9.9+ **LABELS** *Medium Change*
+  - **PR** `#21058`_: (*terminalmage*) Support Chocolatey 0.9.9+ **LABELS** *Medium Change*
     * ae5cad1 Add imp to windows freezer_includes
     * 43e15d8 Support Chocolatey 0.9.9+
 
 4d47b17 Merge pull request `#21070`_ from RobertFach/`fix-21067`_-mount-user-parameter
 
-- **ISSUE** `#21067`_: (*RobertFach*) mount state change detection issue, doesn't support user=XX option (2014.7.x) **LABELS** *Bug*, *Fixed Pending Verification*, *Medium Severity*
-- **PR** `#21070`_: (*RobertFach*) fixed issue where user option is internally transformed to username whic... **LABELS** *Minor Change*, *Tests Passed*
+  - **ISSUE** `#21067`_: (*RobertFach*) mount state change detection issue, doesn't support user=XX option (2014.7.x) **LABELS** *Bug*, *Fixed Pending Verification*, *Medium Severity*
+  - **PR** `#21070`_: (*RobertFach*) fixed issue where user option is internally transformed to username whic... **LABELS** *Minor Change*, *Tests Passed*
     * 23524ea fixed identation
     * 03ec03e fixed issue where user option is internally transformed to username which is what /proc/mounts reports for cifs mounts
 
 f735a35 Merge pull request `#21076`_ from RobertFach/`fix-21043`_-lvm-invalid-change-data
 
-- **ISSUE** `#21043`_: (*RobertFach*) lvm state/module functions report invalid change data (2014.7.x) **LABELS** *Bug*, *Fixed Pending Verification*, *Medium Severity*
-- **PR** `#21076`_: (*RobertFach*) fixed invalid changes data issue **LABELS** *Minor Change*
+  - **ISSUE** `#21043`_: (*RobertFach*) lvm state/module functions report invalid change data (2014.7.x) **LABELS** *Bug*, *Fixed Pending Verification*, *Medium Severity*
+  - **PR** `#21076`_: (*RobertFach*) fixed invalid changes data issue **LABELS** *Minor Change*
     * c943195 fixed invalid changes data issue
 
 84a20d7 Merge pull request `#21077`_ from terminalmage/add-bootstrap
 
-- **PR** `#21077`_: (*terminalmage*) Add missing function config.gather_bootstrap_script **LABELS** *Minor Change*, *Tests Passed*
+  - **PR** `#21077`_: (*terminalmage*) Add missing function config.gather_bootstrap_script **LABELS** *Minor Change*, *Tests Passed*
     * 3e276d9 add missing import
     * c9eb0dc add argument explanation to docstring
     * a3b0549 Add missing config.gather_bootstrap_script
 
 bc4c1fa Merge pull request `#21069`_ from RobertFach/`fix-21068`_-mount-auto-users
 
-- **ISSUE** `#21068`_: (*RobertFach*) Forced remount because options changed when no options changed (option=[auto,users]) (2014.7) **LABELS** *Bug*, *Fixed Pending Verification*, *Medium Severity*
-- **PR** `#21069`_: (*RobertFach*) added options auto, users to mount invisible options **LABELS** *Minor Change*
+  - **ISSUE** `#21068`_: (*RobertFach*) Forced remount because options changed when no options changed (option=[auto,users]) (2014.7) **LABELS** *Bug*, *Fixed Pending Verification*, *Medium Severity*
+  - **PR** `#21069`_: (*RobertFach*) added options auto, users to mount invisible options **LABELS** *Minor Change*
     * f42cd1c added options auto, users to mount invisible options
 
 c302796 Merge pull request `#21063`_ from jond64/`bp-16306`_
 
-- **PR** `#21063`_: (*jond64*) Backport `#16306`_ to 2014.7 **LABELS** *Medium Change*
-- **PR** `#16306`_: (*hathawsh*) This patch fixes the 'test' mode of the 'network' state module. **LABELS** *Bugfix - [Done] back-ported*
+  - **PR** `#21063`_: (*jond64*) Backport `#16306`_ to 2014.7 **LABELS** *Medium Change*
+  - **PR** `#16306`_: (*hathawsh*) This patch fixes the 'test' mode of the 'network' state module. **LABELS** *Bugfix - [Done] back-ported*
     * 3c061ac Fix the 'test' mode of the 'network' state module.  It hit false positives due to inconsistent newline handling.
 
 70276a9 Merge pull request `#21052`_ from lorengordon/file-replace-convert-pattern-to-string
 
-- **ISSUE** `#21051`_: (*lorengordon*) TypeError in file.replace if the pattern is a string of numbers **LABELS** *Bug*, *Execution Module*, *Fixed Pending Verification*
-- **PR** `#21052`_: (*lorengordon*) Convert `pattern` to string, fixes saltstack`#21051`_ **LABELS** *Medium Change*
+  - **ISSUE** `#21051`_: (*lorengordon*) TypeError in file.replace if the pattern is a string of numbers **LABELS** *Bug*, *Execution Module*, *Fixed Pending Verification*
+  - **PR** `#21052`_: (*lorengordon*) Convert `pattern` to string, fixes saltstack`#21051`_ **LABELS** *Medium Change*
     * 3d5d594 Convert `pattern` to string, fixes saltstack`#21051`_
 
 49cf39e Merge pull request `#20854`_ from terminalmage/issue20785
 
-- **ISSUE** `#21021`_: (*JPT580*) Bad gitfs_remote breaks sls-files in subdirectories for state.(sls|highstate) **LABELS** *Bug*, *Medium Severity*
-- **ISSUE** `#20993`_: (*nesv*) Documentation: add note for SSH URLs when using dulwich as the gitfs_provider **LABELS** *Documentation*, *Low-Hanging Fruit*
-- **ISSUE** `#20896`_: (*jasonrm*) gitfs locking issues **LABELS** *Bug*, *Fixed Pending Verification*, *Medium Severity*, *Regression*
-- **ISSUE** `#20785`_: (*eliasp*) branches/environments from via GitFS are only added/deleted on salt-master restart **LABELS** *Bug*, *Medium Severity*
-- **ISSUE** `#18839`_: (*martinhoefling*) Copying files from gitfs in file.recurse state fails / is slow **LABELS** *Bug*, *Medium Severity*
-- **ISSUE** `#17945`_: (*mclarkson*) 2014.7.0 fileserver.update returns error **LABELS** *Bug*, *Medium Severity*
-- **PR** `#20854`_: (*terminalmage*) VCS fileserver backend fixes/optimizations **LABELS** *Expert Change*, *Pending Discussion*, *Tests Passed*
-- **PR** `#20141`_: (*crasu*) Fix file locking for gitfs see `#18839`_ **LABELS** *Expert Change*
+  - **ISSUE** `#21021`_: (*JPT580*) Bad gitfs_remote breaks sls-files in subdirectories for state.(sls|highstate) **LABELS** *Bug*, *Medium Severity*
+  - **ISSUE** `#20993`_: (*nesv*) Documentation: add note for SSH URLs when using dulwich as the gitfs_provider **LABELS** *Documentation*, *Low-Hanging Fruit*
+  - **ISSUE** `#20896`_: (*jasonrm*) gitfs locking issues **LABELS** *Bug*, *Fixed Pending Verification*, *Medium Severity*, *Regression*
+  - **ISSUE** `#20785`_: (*eliasp*) branches/environments from via GitFS are only added/deleted on salt-master restart **LABELS** *Bug*, *Medium Severity*
+  - **ISSUE** `#18839`_: (*martinhoefling*) Copying files from gitfs in file.recurse state fails / is slow **LABELS** *Bug*, *Medium Severity*
+  - **ISSUE** `#17945`_: (*mclarkson*) 2014.7.0 fileserver.update returns error **LABELS** *Bug*, *Medium Severity*
+  - **PR** `#20854`_: (*terminalmage*) VCS fileserver backend fixes/optimizations **LABELS** *Expert Change*, *Pending Discussion*, *Tests Passed*
+  - **PR** `#20141`_: (*crasu*) Fix file locking for gitfs see `#18839`_ **LABELS** *Expert Change*
     * d54a04d Catch FileserverConfigError exceptions on master startup
     * 9b2c90c svnfs: Raise exceptions on invalid configuration
     * 6f24106 hg: Raise exceptions on invalid configuration
@@ -813,150 +813,150 @@ c302796 Merge pull request `#21063`_ from jond64/`bp-16306`_
 
 87c6e0c Merge pull request `#21023`_ from rallytime/`bp-19303`_
 
-- **ISSUE** `#18358`_: (*msciciel*) Problem with batch execution **LABELS** *Bug*, *Fixed Pending Verification*, *High Severity*, *Pending Discussion*
-- **PR** `#21023`_: (*rallytime*) Backport `#19303`_ to 2014.7 **LABELS** *Minor Change*, *Tests Passed*
-- **PR** `#19303`_: (*cachedout*) Batch ckminions **LABELS** *Bugfix - [Done] back-ported*
+  - **ISSUE** `#18358`_: (*msciciel*) Problem with batch execution **LABELS** *Bug*, *Fixed Pending Verification*, *High Severity*, *Pending Discussion*
+  - **PR** `#21023`_: (*rallytime*) Backport `#19303`_ to 2014.7 **LABELS** *Minor Change*, *Tests Passed*
+  - **PR** `#19303`_: (*cachedout*) Batch ckminions **LABELS** *Bugfix - [Done] back-ported*
     * 565f109 Add transport key to mocked opts to fix batch unit tests
     * 011f8c4 Adjust batch test
     * bf2b8de Just use ckminions in batch mode.
 
 1572b80 Merge pull request `#21047`_ from jfindlay/pub_args
 
-- **ISSUE** `#18317`_: (*mikn*) Argument lists for module calls through publish.publish does not work any more **LABELS** *Bug*, *Fixed Pending Verification*, *High Severity*, *Regression*
-- **PR** `#21047`_: (*jfindlay*) simplify yaml parsing for publish module **LABELS** *Medium Change*
-- **PR** `#20992`_: (*jfindlay*) fix arg preparation for publish module **LABELS** *Master Change*
+  - **ISSUE** `#18317`_: (*mikn*) Argument lists for module calls through publish.publish does not work any more **LABELS** *Bug*, *Fixed Pending Verification*, *High Severity*, *Regression*
+  - **PR** `#21047`_: (*jfindlay*) simplify yaml parsing for publish module **LABELS** *Medium Change*
+  - **PR** `#20992`_: (*jfindlay*) fix arg preparation for publish module **LABELS** *Master Change*
     * e2e59da simplify yaml parsing for publish module
 
 c6ddfa2 Merge pull request `#21034`_ from basepi/salt-ssh-salt-api-20418
 
-- **ISSUE** `#20418`_: (*Xiol*) Permission denied error on salt-ssh deploy dir **LABELS** *Bug*, *Medium Severity*, *Salt-SSH*
-- **PR** `#21034`_: (*basepi*) [2014.7] Fix for salt-ssh without command line parsers **LABELS** *Minor Change*, *Tests Passed*
+  - **ISSUE** `#20418`_: (*Xiol*) Permission denied error on salt-ssh deploy dir **LABELS** *Bug*, *Medium Severity*, *Salt-SSH*
+  - **PR** `#21034`_: (*basepi*) [2014.7] Fix for salt-ssh without command line parsers **LABELS** *Minor Change*, *Tests Passed*
     * 1700d0c Fix for salt-ssh without command line parsers
 
 d5a98f3 Merge pull request `#21032`_ from rallytime/`bp-21024`_
 
-- **PR** `#21032`_: (*rallytime*) Backport `#21024`_ to 2014.7 **LABELS** *Minor Change*, *Tests Passed*
-- **PR** `#21024`_: (*ptonelli*) fix set_locale when no locale is defined initially in RedHat family **LABELS** *Bugfix - [Done] back-ported*, *Minor Change*
+  - **PR** `#21032`_: (*rallytime*) Backport `#21024`_ to 2014.7 **LABELS** *Minor Change*, *Tests Passed*
+  - **PR** `#21024`_: (*ptonelli*) fix set_locale when no locale is defined initially in RedHat family **LABELS** *Bugfix - [Done] back-ported*, *Minor Change*
     * ea90e4e Pylint fix
     * 6ffffed use file.replace instead of file.sed
     * 4e338a0 fix set_locale when locale file does not exist (in RedHat family)
 
 9eaac2b Merge pull request `#21028`_ from rallytime/`fix-21012`_
 
-- **ISSUE** `#21012`_: (*hackel*) mongodb module incompatible with MongoDB 3.0 RCs **LABELS** *Bug*, *Fixed Pending Verification*, *Medium Severity*
-- **PR** `#21028`_: (*rallytime*) Use LooseVersion instead of StrictVersion to use an RC version of MongoDB **LABELS** *Minor Change*, *Tests Passed*
+  - **ISSUE** `#21012`_: (*hackel*) mongodb module incompatible with MongoDB 3.0 RCs **LABELS** *Bug*, *Fixed Pending Verification*, *Medium Severity*
+  - **PR** `#21028`_: (*rallytime*) Use LooseVersion instead of StrictVersion to use an RC version of MongoDB **LABELS** *Minor Change*, *Tests Passed*
     * aedc911 Use LooseVersion instead of StrictVersion to use an RC version of MongoDB
 
 92a71b7 Merge pull request `#21022`_ from nitti/2014.7
 
-- **PR** `#21022`_: (*nitti*) correctly count active devices when creating a mdadm array with spares **LABELS** *Minor Change*, *Tests Passed*
+  - **PR** `#21022`_: (*nitti*) correctly count active devices when creating a mdadm array with spares **LABELS** *Minor Change*, *Tests Passed*
     * 0753901 correctly count raid devices when creating an array with spares
 
 90eb36e Merge pull request `#20992`_ from jfindlay/pub_args
 
-- **ISSUE** `#18317`_: (*mikn*) Argument lists for module calls through publish.publish does not work any more **LABELS** *Bug*, *Fixed Pending Verification*, *High Severity*, *Regression*
-- **PR** `#20992`_: (*jfindlay*) fix arg preparation for publish module **LABELS** *Master Change*
+  - **ISSUE** `#18317`_: (*mikn*) Argument lists for module calls through publish.publish does not work any more **LABELS** *Bug*, *Fixed Pending Verification*, *High Severity*, *Regression*
+  - **PR** `#20992`_: (*jfindlay*) fix arg preparation for publish module **LABELS** *Master Change*
     * 5dace8f add integration test for `#18317`_
     * cec5ba3 improve publish arg yamlifying, fixes `#18317`_
 
 009012f Merge pull request `#21002`_ from rallytime/moar_digitalocean_tests
 
-- **PR** `#21002`_: (*rallytime*) Moar digitalocean tests **LABELS** *Minor Change*
+  - **PR** `#21002`_: (*rallytime*) Moar digitalocean tests **LABELS** *Minor Change*
     * e5c4cf8 Move tearDown functionality into test_instance
     * b2bc55f Add some more tests to catch API changes for digital ocean
 
 117d335 Merge pull request `#21013`_ from wt/2014.7_add_log_for_yaml_filter
 
-- **PR** `#21013`_: (*wt*) Add version to a deprecation log message. **LABELS** 
+  - **PR** `#21013`_: (*wt*) Add version to a deprecation log message. **LABELS** 
     * 28b47c1 Add version to a deprecation log message.
 
 5a5f38a Merge pull request `#20984`_ from rallytime/`fix-18725`_
 
-- **ISSUE** `#18725`_: (*wrigtim*) salt.modules.kmod.remove - 'modprobe -r' will not remove a module if the .ko is missing **LABELS** *Bug*, *Fixed Pending Verification*, *Low Severity*, *Low-Hanging Fruit*
-- **PR** `#20984`_: (*rallytime*) Switch modprobe -r to rmmod in kmod.remove **LABELS** *Minor Change*, *Tests Passed*
+  - **ISSUE** `#18725`_: (*wrigtim*) salt.modules.kmod.remove - 'modprobe -r' will not remove a module if the .ko is missing **LABELS** *Bug*, *Fixed Pending Verification*, *Low Severity*, *Low-Hanging Fruit*
+  - **PR** `#20984`_: (*rallytime*) Switch modprobe -r to rmmod in kmod.remove **LABELS** *Minor Change*, *Tests Passed*
     * 931f555 Switch modprobe -r to rmmod in kmod.remove
 
 8a03484 Merge pull request `#20990`_ from joehoyle/fix-typo-s3fs-backport
 
-- **PR** `#20990`_: (*joehoyle*) Backport fix `#20987`_ **LABELS** *Minor Change*
-- **PR** `#20987`_: (*joehoyle*) Fix typo in s3fs fix **LABELS** *Minor Change*
+  - **PR** `#20990`_: (*joehoyle*) Backport fix `#20987`_ **LABELS** *Minor Change*
+  - **PR** `#20987`_: (*joehoyle*) Fix typo in s3fs fix **LABELS** *Minor Change*
     * f0ba7ee Fixed typo, doh!
 
 349ae2b Merge pull request `#20983`_ from basepi/backport_20304
 
-- **ISSUE** `#20276`_: (*mventimi*) salt-ssh operations fail with "'msgpack' not defined" error **LABELS** *Bug*, *Medium Severity*, *Salt-SSH*
-- **PR** `#20983`_: (*basepi*) [2014.7] Backport `#20304`_ to catch msgpack errors in cmd.run **LABELS** 
-- **PR** `#20304`_: (*basepi*) [2015.2] Catch msgpack errors from cmd.run for salt-ssh **LABELS** 
+  - **ISSUE** `#20276`_: (*mventimi*) salt-ssh operations fail with "'msgpack' not defined" error **LABELS** *Bug*, *Medium Severity*, *Salt-SSH*
+  - **PR** `#20983`_: (*basepi*) [2014.7] Backport `#20304`_ to catch msgpack errors in cmd.run **LABELS** 
+  - **PR** `#20304`_: (*basepi*) [2015.2] Catch msgpack errors from cmd.run for salt-ssh **LABELS** 
     * d289084 Backport `#20304`_ to catch msgpack errors in cmd.run in 2014.7
 
 00e3dc3 Merge pull request `#20957`_ from jfindlay/cmd_tests
 
-- **PR** `#20957`_: (*jfindlay*) adding cmd.run integration tests **LABELS** *Minor Change*
+  - **PR** `#20957`_: (*jfindlay*) adding cmd.run integration tests **LABELS** *Minor Change*
     * 5ab5380 adding cmd.run integration tests
 
 2cbf8e9 Merge pull request `#20937`_ from wt/2014.7_add_log_for_yaml_filter
 
-- **PR** `#20937`_: (*wt*) Log when the yaml filter outputs trailing ellipsis. **LABELS** *Minor Change*, *Tests Passed*
+  - **PR** `#20937`_: (*wt*) Log when the yaml filter outputs trailing ellipsis. **LABELS** *Minor Change*, *Tests Passed*
     * f037dcf Log when the yaml filter outputs trailing ellipsis.
 
 34f83ee Merge pull request `#20954`_ from rallytime/`bp-20891`_
 
-- **PR** `#20954`_: (*rallytime*) Backport `#20891`_ to 2014.7 **LABELS** *Minor Change*, *Tests Passed*
-- **PR** `#20891`_: (*jfindlay*) pylint `#20814`_ **LABELS** *Bugfix - [Done] back-ported*, *Minor Change*
+  - **PR** `#20954`_: (*rallytime*) Backport `#20891`_ to 2014.7 **LABELS** *Minor Change*, *Tests Passed*
+  - **PR** `#20891`_: (*jfindlay*) pylint `#20814`_ **LABELS** *Bugfix - [Done] back-ported*, *Minor Change*
     * 213ef3d fix lint
     * b0a4e48 Fix disk.usage for Synology OS
 
 1fa8c7a Merge pull request `#20953`_ from rallytime/`bp-20888`_
 
-- **PR** `#20953`_: (*rallytime*) Backport `#20888`_ to 2014.7 **LABELS** *Minor Change*
-- **PR** `#20888`_: (*jfindlay*) pylint `#20885`_ **LABELS** *Bugfix - [Done] back-ported*, *Minor Change*, *Tests Passed*
+  - **PR** `#20953`_: (*rallytime*) Backport `#20888`_ to 2014.7 **LABELS** *Minor Change*
+  - **PR** `#20888`_: (*jfindlay*) pylint `#20885`_ **LABELS** *Bugfix - [Done] back-ported*, *Minor Change*, *Tests Passed*
     * e9ff8ff fix lint
     * 86029e7 Trim the env base off the dest file path in the s3fs fileserver
 
 dfef980 Merge pull request `#20951`_ from rallytime/`bp-20837`_
 
-- **PR** `#20951`_: (*rallytime*) Backport `#20837`_ to 2014.7 **LABELS** *Minor Change*
-- **PR** `#20837`_: (*viktorkrivak*) Fix multi comps and multi dist bugs **LABELS** *Bugfix - [Done] back-ported*, *Minor Change*
+  - **PR** `#20951`_: (*rallytime*) Backport `#20837`_ to 2014.7 **LABELS** *Minor Change*
+  - **PR** `#20837`_: (*viktorkrivak*) Fix multi comps and multi dist bugs **LABELS** *Bugfix - [Done] back-ported*, *Minor Change*
     * 5d1bc21 Fix multi comps and multi dist bugs
 
 55e7927 Merge pull request `#20922`_ from bbinet/2014.7_fix20921
 
-- **ISSUE** `#20921`_: (*bbinet*) 2014.7 regression: InvalidRepository: Invalid repository name (debian:wheezy) **LABELS** *Bug*, *Medium Severity*
-- **PR** `#20922`_: (*bbinet*) 2014.7: fix issue 20921 **LABELS** *Minor Change*, *Tests Passed*
+  - **ISSUE** `#20921`_: (*bbinet*) 2014.7 regression: InvalidRepository: Invalid repository name (debian:wheezy) **LABELS** *Bug*, *Medium Severity*
+  - **PR** `#20922`_: (*bbinet*) 2014.7: fix issue 20921 **LABELS** *Minor Change*, *Tests Passed*
     * c0f9b9d Fixed problem with tags occuring twice with docker.pulled
     * c53ce9d Docker: improve tags support
 
 081867c Merge pull request `#20895`_ from bechtoldt/2014.7
 
-- **PR** `#20895`_: (*bechtoldt*) fix wrong dict access in smtp returner in 2014.7 **LABELS** 
+  - **PR** `#20895`_: (*bechtoldt*) fix wrong dict access in smtp returner in 2014.7 **LABELS** 
     * 8ee52d6 fix wrong dict access in smtp returner, that is already fixed in 2015.2 and later
 
 964e77e Merge pull request `#20880`_ from thatch45/systemd_listdir
 
-- **PR** `#20880`_: (*thatch45*) fix bug from systems without any legacy init scripts **LABELS** 
+  - **PR** `#20880`_: (*thatch45*) fix bug from systems without any legacy init scripts **LABELS** 
     * 626e13a fix bug from systems without any legacy init scripts
 
 9401b24 Merge pull request `#20881`_ from thatch45/listen_req
 
-- **ISSUE** `#20863`_: (*clinta*) listen and require conflict **LABELS** *Bug*, *Medium Severity*, *State Module*
-- **PR** `#20881`_: (*thatch45*) Remove requisites from listen post calls **LABELS** 
+  - **ISSUE** `#20863`_: (*clinta*) listen and require conflict **LABELS** *Bug*, *Medium Severity*, *State Module*
+  - **PR** `#20881`_: (*thatch45*) Remove requisites from listen post calls **LABELS** 
     * 44cda29 Remove requisites from listen post calls
 
 e6f1eb0 Merge pull request `#20856`_ from jrgp/2014.7
 
-- **ISSUE** `#20855`_: (*jrgp*) Loopback filesystems always remount (option=loop) regardless of zero changes (2014.7) **LABELS** *Bug*, *Medium Severity*
-- **PR** `#20856`_: (*jrgp*) Don't remount loop back filesystems upon every state run **LABELS** *Minor Change*, *Tests Passed*
+  - **ISSUE** `#20855`_: (*jrgp*) Loopback filesystems always remount (option=loop) regardless of zero changes (2014.7) **LABELS** *Bug*, *Medium Severity*
+  - **PR** `#20856`_: (*jrgp*) Don't remount loop back filesystems upon every state run **LABELS** *Minor Change*, *Tests Passed*
     * 8dbfed6 Don't remount loop back filesystems upon every state run
 
 abda600 Merge pull request `#20866`_ from terminalmage/issue20742
 
-- **ISSUE** `#20742`_: (*transmutated*) Broken Dependencies for new salt installation on Redhat/CentOS 5.X using epel5 repo **LABELS** *Bug*, *Fixed Pending Verification*, *High Severity*, *Packaging*
-- **PR** `#20866`_: (*terminalmage*) Update the RHEL installation guide **LABELS** *Tests Passed*
+  - **ISSUE** `#20742`_: (*transmutated*) Broken Dependencies for new salt installation on Redhat/CentOS 5.X using epel5 repo **LABELS** *Bug*, *Fixed Pending Verification*, *High Severity*, *Packaging*
+  - **PR** `#20866`_: (*terminalmage*) Update the RHEL installation guide **LABELS** *Tests Passed*
     * 396e234 Update the RHEL installation guide
 
 ca79845 Merge pull request `#20848`_ from rallytime/new_requisites_tests
 
-- **PR** `#20848`_: (*rallytime*) Integration tests for the new requisites added in 2014.7 **LABELS** *Medium Change*, *Tests Passed*
+  - **PR** `#20848`_: (*rallytime*) Integration tests for the new requisites added in 2014.7 **LABELS** *Medium Change*, *Tests Passed*
     * c3f786c listen and listen_in requisite tests
     * 1437c9a onfail and onfail_in requisite tests
     * 208b490 Onchanges and onchanges_in requisite tests!
@@ -964,132 +964,132 @@ ca79845 Merge pull request `#20848`_ from rallytime/new_requisites_tests
 
 c9b766c Merge pull request `#20847`_ from rallytime/state_kwargs
 
-- **PR** `#20847`_: (*rallytime*) Add listen and listen_in to state internal kwargs **LABELS** *Minor Change*, *Tests Passed*
+  - **PR** `#20847`_: (*rallytime*) Add listen and listen_in to state internal kwargs **LABELS** *Minor Change*, *Tests Passed*
     * 5d22cba Add listen and listen_in to state internal kwargs
 
 e0ba92f Merge pull request `#20839`_ from rallytime/`bp-20608`_
 
-- **PR** `#20839`_: (*rallytime*) Backport `#20608`_ to 2014.7 **LABELS** *Minor Change*, *Tests Passed*
-- **PR** `#20608`_: (*cachedout*) Avoid trying to deserialize empty files **LABELS** *Bugfix - [Done] back-ported*, *Minor Change*
+  - **PR** `#20839`_: (*rallytime*) Backport `#20608`_ to 2014.7 **LABELS** *Minor Change*, *Tests Passed*
+  - **PR** `#20608`_: (*cachedout*) Avoid trying to deserialize empty files **LABELS** *Bugfix - [Done] back-ported*, *Minor Change*
     * e4ced3e Avoid trying to deserialize empty files
 
 2ef28c7 Merge pull request `#20842`_ from thatch45/state_kwargs
 
-- **PR** `#20842`_: (*thatch45*) Add requisite ins to state internal kwargs **LABELS** *Minor Change*
+  - **PR** `#20842`_: (*thatch45*) Add requisite ins to state internal kwargs **LABELS** *Minor Change*
     * 97cda22 Add requisite ins to state internal kwargs
 
 e488572 Merge pull request `#20834`_ from peresadam/fix_format_call_2014.7
 
-- **PR** `#20834`_: (*peresadam*) Fixed dict unpacking in salt.utils.format_call **LABELS** *Minor Change*, *Tests Passed*
+  - **PR** `#20834`_: (*peresadam*) Fixed dict unpacking in salt.utils.format_call **LABELS** *Minor Change*, *Tests Passed*
     * b50497b Fixed dict unpacking in salt.utils.format_call
 
 3f42cf3 Merge pull request `#20831`_ from RobertFach/`fix-20828`_-mount-nointr
 
-- **ISSUE** `#20828`_: (*RobertFach*) Forced remount because options changed when no options changed (option=nointr) (2014.7) **LABELS** *Bug*, *Medium Severity*
-- **PR** `#20831`_: (*RobertFach*) added nointr invisible mount option **LABELS** *Minor Change*, *Tests Passed*
+  - **ISSUE** `#20828`_: (*RobertFach*) Forced remount because options changed when no options changed (option=nointr) (2014.7) **LABELS** *Bug*, *Medium Severity*
+  - **PR** `#20831`_: (*RobertFach*) added nointr invisible mount option **LABELS** *Minor Change*, *Tests Passed*
     * 6855ca1 added nointr invisible mount option
 
 7d44aaa Merge pull request `#20613`_ from jfindlay/fix_output
 
-- **ISSUE** `#20612`_: (*jfindlay*) always change 'text' outputter to 'txt' **LABELS** *Bug*, *Low Severity*
-- **PR** `#20613`_: (*jfindlay*) change incorrect 'text' outputter to 'txt' **LABELS** *Minor Change*, *Tests Passed*
+  - **ISSUE** `#20612`_: (*jfindlay*) always change 'text' outputter to 'txt' **LABELS** *Bug*, *Low Severity*
+  - **PR** `#20613`_: (*jfindlay*) change incorrect 'text' outputter to 'txt' **LABELS** *Minor Change*, *Tests Passed*
     * 0d6663b conform shell integration tests to txt runner
     * f202aaf change incorrect 'text' outputter to 'txt'
 
 71ccd5e Merge pull request `#20813`_ from rallytime/arch_installation_docs
 
-- **PR** `#20813`_: (*rallytime*) Update Arch installation docs to reference salt-zmq and salt-raet pkgs **LABELS** 
+  - **PR** `#20813`_: (*rallytime*) Update Arch installation docs to reference salt-zmq and salt-raet pkgs **LABELS** 
     * 9322d3b Update Arch installation docs to reference salt-zmq and salt-raet pkgs
 
 f669b25 Merge pull request `#20810`_ from rallytime/windows_install_docs_update
 
-- **PR** `#20810`_: (*rallytime*) Add 2014.7.2 package links to the windows installer docs **LABELS** *Minor Change*
+  - **PR** `#20810`_: (*rallytime*) Add 2014.7.2 package links to the windows installer docs **LABELS** *Minor Change*
     * 928bb30 Add 2014.7.2 package links to the windows installer docs
 
 2cf898e Merge pull request `#20800`_ from rallytime/`bp-20768`_
 
-- **PR** `#20800`_: (*rallytime*) Backport `#20768`_ to 2014.7 **LABELS** *Medium Change*
-- **PR** `#20768`_: (*vladislav-jomedia*) "dictionary changed size during iteration" issue fixed in config.py for ... **LABELS** *Bugfix - [Done] back-ported*, *Medium Change*, *Tests Passed*
+  - **PR** `#20800`_: (*rallytime*) Backport `#20768`_ to 2014.7 **LABELS** *Medium Change*
+  - **PR** `#20768`_: (*vladislav-jomedia*) "dictionary changed size during iteration" issue fixed in config.py for ... **LABELS** *Bugfix - [Done] back-ported*, *Medium Change*, *Tests Passed*
     * 30616de Update config.py
     * 89fd8ee "dictionary changed size during iteration" issue fixed in config.py for salt-cloud
 
 90ef4d7 Merge pull request `#20778`_ from terminalmage/issue18943
 
-- **ISSUE** `#18943`_: (*Diaoul*) Synology support **LABELS** *Bug*
-- **PR** `#20778`_: (*terminalmage*) Add Synology OS detection **LABELS** *Medium Change*, *Tests Passed*
+  - **ISSUE** `#18943`_: (*Diaoul*) Synology support **LABELS** *Bug*
+  - **PR** `#20778`_: (*terminalmage*) Add Synology OS detection **LABELS** *Medium Change*, *Tests Passed*
     * bd65632 Add Synology OS detection
 
 5ad79ae Merge pull request `#20762`_ from jfindlay/fix_nftables
 
-- **ISSUE** `#20747`_: (*jayeshka*) The function "get_rule_handle" in nftables module throw "Referenced before assignment" error. **LABELS** *Bug*, *Medium Severity*
-- **PR** `#20762`_: (*jfindlay*) fix nftables.get_rule_handle return error **LABELS** *Minor Change*, *Tests Passed*
+  - **ISSUE** `#20747`_: (*jayeshka*) The function "get_rule_handle" in nftables module throw "Referenced before assignment" error. **LABELS** *Bug*, *Medium Severity*
+  - **PR** `#20762`_: (*jfindlay*) fix nftables.get_rule_handle return error **LABELS** *Minor Change*, *Tests Passed*
     * 6708cf1 fix nftables.get_rule_handle return error
 
 8fda896 Merge pull request `#20765`_ from rallytime/`bp-20706`_
 
-- **PR** `#20765`_: (*rallytime*) Backport `#20706`_ to 2014.7 **LABELS** *Minor Change*, *Tests Passed*
-- **PR** `#20706`_: (*Achimh3011*) Make systemd impl. of service.running aware of legacy service units **LABELS** *Bugfix - [Done] back-ported*, *Minor Change*, *Tests Passed*
+  - **PR** `#20765`_: (*rallytime*) Backport `#20706`_ to 2014.7 **LABELS** *Minor Change*, *Tests Passed*
+  - **PR** `#20706`_: (*Achimh3011*) Make systemd impl. of service.running aware of legacy service units **LABELS** *Bugfix - [Done] back-ported*, *Minor Change*, *Tests Passed*
     * 5d9ecaa Fix pep8 issues.
     * 40d6963 Make systemd implementation of service.running aware of legacy service units.
 
 237f804 Merge pull request `#20739`_ from mikn/publish_return_fixes
 
-- **ISSUE** `#16510`_: (*UtahDave*) publish.publish completely unreliable in 2014.7 branch **LABELS** *Bug*, *Medium Severity*, *ZD*
-- **PR** `#20739`_: (*mikn*) Giving publish.publish more robust return handling **LABELS** *Medium Change*, *Tests Passed*
+  - **ISSUE** `#16510`_: (*UtahDave*) publish.publish completely unreliable in 2014.7 branch **LABELS** *Bug*, *Medium Severity*, *ZD*
+  - **PR** `#20739`_: (*mikn*) Giving publish.publish more robust return handling **LABELS** *Medium Change*, *Tests Passed*
     * 5fab631 Removing some redundant code. This was moved to be above the loop exit
     * 892db93 Giving publish.publish more robust handling of returns making sure that it can cope with duplicate responses and actually return what it has received if it reaches the timeout
 
 078865a Merge pull request `#20689`_ from rallytime/`bp-20457`_
 
-- **PR** `#20689`_: (*rallytime*) Backport `#20457`_ to 2014.7 **LABELS** *Medium Change*, *Tests Passed*
-- **PR** `#20457`_: (*cachedout*) Iterate over the socket copy **LABELS** *Bugfix - [Done] back-ported*, *Medium Change*, *Tests Passed*
+  - **PR** `#20689`_: (*rallytime*) Backport `#20457`_ to 2014.7 **LABELS** *Medium Change*, *Tests Passed*
+  - **PR** `#20457`_: (*cachedout*) Iterate over the socket copy **LABELS** *Bugfix - [Done] back-ported*, *Medium Change*, *Tests Passed*
     * 1ab4d99 Use list instead
     * e4fd27a Iterate over the socket copy
 
 bdbb23d Merge pull request `#20697`_ from whiteinge/doc-rest_cherrypy-install-usage
 
-- **PR** `#20697`_: (*whiteinge*) Add note to rest_cherrypy instructions: restarting daemons is required **LABELS** 
+  - **PR** `#20697`_: (*whiteinge*) Add note to rest_cherrypy instructions: restarting daemons is required **LABELS** 
     * 54e61e0 Minor clarifications to the rest_cherrypy setup/usage instructions
     * 561ea7c Add note to rest_cherrypy instructions: restarting daemons is required
 
 6c2ac49 Merge pull request `#20684`_ from rallytime/`bp-20232`_
 
-- **PR** `#20684`_: (*rallytime*) Backport `#20232`_ to 2014.7 **LABELS** *Minor Change*, *Tests Passed*
-- **PR** `#20232`_: (*jacksontj*) Remove unecessary finish() calls **LABELS** *Bugfix - [Done] back-ported*
-- **PR** `#20221`_: (*cachedout*) Remove finish [DO NOT MERGE] **LABELS** 
+  - **PR** `#20684`_: (*rallytime*) Backport `#20232`_ to 2014.7 **LABELS** *Minor Change*, *Tests Passed*
+  - **PR** `#20232`_: (*jacksontj*) Remove unecessary finish() calls **LABELS** *Bugfix - [Done] back-ported*
+  - **PR** `#20221`_: (*cachedout*) Remove finish [DO NOT MERGE] **LABELS** 
     * 8d63ac4 Remove unecessary finish() calls
 
 f00a85a Merge pull request `#20682`_ from rallytime/proxmox_docs
 
-- **ISSUE** `#14799`_: (*lparmentier-quatral*) Salt Cloud 2014.7 Provider issue **LABELS** *Bug*, *Medium Severity*, *Salt-Cloud*
-- **PR** `#20682`_: (*rallytime*) Add dependency notice to proxmox.rst **LABELS** 
+  - **ISSUE** `#14799`_: (*lparmentier-quatral*) Salt Cloud 2014.7 Provider issue **LABELS** *Bug*, *Medium Severity*, *Salt-Cloud*
+  - **PR** `#20682`_: (*rallytime*) Add dependency notice to proxmox.rst **LABELS** 
     * 4805677 Add dependency notice to proxmox.rst
 
 cc544e5 Merge pull request `#20671`_ from whiteinge/doc-reactor-updates
 
-- **PR** `#20671`_: (*whiteinge*) Reactor docs updates **LABELS** 
+  - **PR** `#20671`_: (*whiteinge*) Reactor docs updates **LABELS** 
     * 37017a5 Replace doc examples for event.fire_master with event.send
     * f0b5ddb Updated Reactor docs to reference state.event instead of eventlisten
 
 b898539 Merge pull request `#20641`_ from whiteinge/doc-events
 
-- **PR** `#20641`_: (*whiteinge*) Updated the event docs with the current Python API and more examples **LABELS** *Medium Change*, *Tests Passed*
+  - **PR** `#20641`_: (*whiteinge*) Updated the event docs with the current Python API and more examples **LABELS** *Medium Change*, *Tests Passed*
     * 7de5f9d Updated the event docs with the current Python API and more examples
 
 f4a6b35 Merge pull request `#20640`_ from rallytime/fix_release_note_title
 
-- **PR** `#20640`_: (*rallytime*) Change the release notes title to 2014.7.2 **LABELS** 
+  - **PR** `#20640`_: (*rallytime*) Change the release notes title to 2014.7.2 **LABELS** 
     * 3f9af9f Change the release notes title to 2014.7.2
 
 f79108b Merge pull request `#20633`_ from sbrandtb/fix_locale_speechmarks
 
-- **PR** `#20633`_: (*sbrandtb*) Fixed wrong placement of speechmarks **LABELS** 
+  - **PR** `#20633`_: (*sbrandtb*) Fixed wrong placement of speechmarks **LABELS** 
     * 2fdb798 Fixed wrong placement of speechmarks
 
 9e054f3 Merge pull request `#20616`_ from rallytime/merge-20419
 
-- **PR** `#20616`_: (*rallytime*) Merge `#20419`_ with test syntax fix **LABELS** *Medium Change*, *Tests Passed*
-- **PR** `#20419`_: (*hvnsweeting*) bugfix: module function cmd.which would be wrong if arg is a dirname **LABELS** *Minor Change*
+  - **PR** `#20616`_: (*rallytime*) Merge `#20419`_ with test syntax fix **LABELS** *Medium Change*, *Tests Passed*
+  - **PR** `#20419`_: (*hvnsweeting*) bugfix: module function cmd.which would be wrong if arg is a dirname **LABELS** *Minor Change*
     * 6b2d64b Fix second pylint error that popped up
     * 789570f Fix pylint/syntax of test in which_test to merge `#20419`_
     * d10ce3a fix unittest for windows
@@ -1097,33 +1097,33 @@ f79108b Merge pull request `#20633`_ from sbrandtb/fix_locale_speechmarks
 
 2ec7191 Merge pull request `#20604`_ from basepi/kali_linux_20552
 
-- **ISSUE** `#20552`_: (*resolan*) Kali systems integration for pkg states **LABELS** *Bug*, *Fixed Pending Verification*, *Low Severity*, *Low-Hanging Fruit*
-- **PR** `#20604`_: (*basepi*) [2014.7] Accept kali linux for aptpkg.py **LABELS** *Minor Change*, *Tests Passed*
+  - **ISSUE** `#20552`_: (*resolan*) Kali systems integration for pkg states **LABELS** *Bug*, *Fixed Pending Verification*, *Low Severity*, *Low-Hanging Fruit*
+  - **PR** `#20604`_: (*basepi*) [2014.7] Accept kali linux for aptpkg.py **LABELS** *Minor Change*, *Tests Passed*
     * 0d1c0ab Accept kali linux for aptpkg.py
 
 3d60f75 Merge pull request `#20591`_ from rallytime/`bp-20568`_
 
-- **PR** `#20591`_: (*rallytime*) Backport `#20568`_ to 2014.7 **LABELS** *Minor Change*, *Tests Passed*
-- **PR** `#20568`_: (*cachedout*) Last time with find removed **LABELS** *Bugfix - [Done] back-ported*
+  - **PR** `#20591`_: (*rallytime*) Backport `#20568`_ to 2014.7 **LABELS** *Minor Change*, *Tests Passed*
+  - **PR** `#20568`_: (*cachedout*) Last time with find removed **LABELS** *Bugfix - [Done] back-ported*
     * cffbca4 Pylint fix - remove unused import
     * 194ad0f Last time with find removed
 
 a4572f3 Merge pull request `#20578`_ from rallytime/`bp-20561`_
 
-- **PR** `#20578`_: (*rallytime*) Backport `#20561`_ to 2014.7 **LABELS** *Medium Change*, *Tests Passed*
-- **PR** `#20561`_: (*cachedout*) Disable gitfs test that does not produce valuable data **LABELS** *Bugfix - [Done] back-ported*
+  - **PR** `#20578`_: (*rallytime*) Backport `#20561`_ to 2014.7 **LABELS** *Medium Change*, *Tests Passed*
+  - **PR** `#20561`_: (*cachedout*) Disable gitfs test that does not produce valuable data **LABELS** *Bugfix - [Done] back-ported*
     * 836b525 Disable gitfs test that does not produce valuable data
 
 45301d3 Merge pull request `#20579`_ from rallytime/`bp-20567`_
 
-- **PR** `#20579`_: (*rallytime*) Backport `#20567`_ to 2014.7 **LABELS** 
-- **PR** `#20567`_: (*cachedout*) Remove another test. **LABELS** *Bugfix - [Done] back-ported*
+  - **PR** `#20579`_: (*rallytime*) Backport `#20567`_ to 2014.7 **LABELS** 
+  - **PR** `#20567`_: (*cachedout*) Remove another test. **LABELS** *Bugfix - [Done] back-ported*
     * c41998c Remove another test.
 
 073d717 Merge pull request `#20509`_ from bechtoldt/2014.7-arbe
 
-- **ISSUE** `#20508`_: (*bechtoldt*) Backport ipv6 addr validation fix into 2014.7 **LABELS** *Bug*, *Medium Severity*
-- **PR** `#20509`_: (*bechtoldt*) fix broken ipv6 address verification in salt.utils.validate.net, fixes `#20508`_ **LABELS** *Medium Change*, *Tests Passed*
+  - **ISSUE** `#20508`_: (*bechtoldt*) Backport ipv6 addr validation fix into 2014.7 **LABELS** *Bug*, *Medium Severity*
+  - **PR** `#20509`_: (*bechtoldt*) fix broken ipv6 address verification in salt.utils.validate.net, fixes `#20508`_ **LABELS** *Medium Change*, *Tests Passed*
     * 9de6c1d improve test tests/unit/utils/validate_net_test.py useability
     * 50ecfef do call class methods correctly
     * 2c5f5f8 fix pep8 lint checks, refs `#20508`_
@@ -1131,20 +1131,20 @@ a4572f3 Merge pull request `#20578`_ from rallytime/`bp-20561`_
 
 ad370bc Merge pull request `#20500`_ from eliasp/2014.7-issue-20499-fileserver-encoding
 
-- **ISSUE** `#20499`_: (*eliasp*) "UnicodeDecodeError" in 'fileserver.file_list()' **LABELS** *Bug*, *Medium Severity*
-- **PR** `#20500`_: (*eliasp*) Use same string encoding for results from all fileserver backends. **LABELS** *Medium Change*, *Tests Passed*
+  - **ISSUE** `#20499`_: (*eliasp*) "UnicodeDecodeError" in 'fileserver.file_list()' **LABELS** *Bug*, *Medium Severity*
+  - **PR** `#20500`_: (*eliasp*) Use same string encoding for results from all fileserver backends. **LABELS** *Medium Change*, *Tests Passed*
     * 4951b78 Use same string encoding for results from all fileserver backends.
 
 523a8f8 Merge pull request `#20534`_ from rallytime/`bp-20454`_
 
-- **PR** `#20534`_: (*rallytime*) Backport `#20454`_ to 2014.7 **LABELS** *Minor Change*, *Tests Passed*
-- **PR** `#20454`_: (*scream3*) RVM user-only installation is broken **LABELS** *Bugfix - [Done] back-ported*
+  - **PR** `#20534`_: (*rallytime*) Backport `#20454`_ to 2014.7 **LABELS** *Minor Change*, *Tests Passed*
+  - **PR** `#20454`_: (*scream3*) RVM user-only installation is broken **LABELS** *Bugfix - [Done] back-ported*
     * f1aa693 Fix wrong check for rvm script existence
 
 a6fa35a Merge pull request `#20533`_ from rallytime/`bp-20521`_
 
-- **PR** `#20533`_: (*rallytime*) Backport `#20521`_ to 2014.7 **LABELS** *Minor Change*, *Tests Passed*
-- **PR** `#20521`_: (*umeboshi2*) don't use empty string as command parameter **LABELS** *Bugfix - [Done] back-ported*, *Minor Change*, *Tests Passed*
+  - **PR** `#20533`_: (*rallytime*) Backport `#20521`_ to 2014.7 **LABELS** *Minor Change*, *Tests Passed*
+  - **PR** `#20521`_: (*umeboshi2*) don't use empty string as command parameter **LABELS** *Bugfix - [Done] back-ported*, *Minor Change*, *Tests Passed*
 
 3fc398e don't use empty string as command parameter
 
