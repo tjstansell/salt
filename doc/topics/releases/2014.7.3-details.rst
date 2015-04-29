@@ -6,6 +6,13 @@ pulling 65 issues:
 pulling 2 issues:
 ,,
 
+Changes for v2014.7.2..v2014.7.3
+--------------------------------
+
+Total Issues: *93*
+Total Pull Requests: *228*
+
+
 5fd1705 Merge pull request `#22002`_ from basepi/`bp-21703`_
 
 - **ISSUE** `#21657`_: (*rallytime*) salt-ssh cmd.run msgpack critical error
