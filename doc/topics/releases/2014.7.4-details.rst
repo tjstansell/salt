@@ -25,7 +25,7 @@ Changes for 2014.7.4:
 
 **PR** `#22074`_ : (borgstrom) Fix requisites missing from pyobjects that were introduced in 2014.7 
 
-- **ISSUE** `#20652`_ : (tomashavlas) pyobjects renderer doesn't support onchanges/onfail requisites 
+- **ISSUE** `#20652`_ *OPEN*: (tomashavlas) pyobjects renderer doesn't support onchanges/onfail requisites 
 
 **PR** `#22077`_ : (ticosax) states.docker: fix docstring 
 
@@ -45,7 +45,8 @@ Changes for 2014.7.4:
 
 **PR** `#22020`_ : (UtahDave) fix bug where can't restart salt-minion 
 
-- **ISSUE** `#21961`_ : (polliard) SaltStack win_service.py:restart(name) kills the salt-minion on windows 
+- **ISSUE** `#21961`_ : (polliard) SaltStack win_service.py:restart(name) kills the salt-minion on windows [Info Needed], [Windows], *ZD*
+
 
 **PR** `#22007`_ : (twangboy) Checks for existing installation and prompts to remove 
 

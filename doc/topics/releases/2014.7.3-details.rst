@@ -120,14 +120,14 @@ Changes for 2014.7.3:
 **PR** `#21846`_ : (rallytime) Backport `#21795`_ to 2014.7 
 
 
-- **ISSUE** `#20197`_ : (jhenry82) Issue with multi-master and local job cache: An inconsistency occurred 
+- **ISSUE** `#20197`_ *OPEN*: (jhenry82) Issue with multi-master and local job cache: An inconsistency occurred 
 - **ISSUE** `#19932`_ : (smitt04) Calling salt '*' state.highstate on multi master, minions stop responding 
 - **PR** `#21795`_ : (cachedout) Avoid dueling opts with fileclients in highstate 
 
 **PR** `#21847`_ : (rallytime) Backport `#21832`_ to 2014.7 
 
 
-- **ISSUE** `#20197`_ : (jhenry82) Issue with multi-master and local job cache: An inconsistency occurred 
+- **ISSUE** `#20197`_ *OPEN*: (jhenry82) Issue with multi-master and local job cache: An inconsistency occurred 
 - **ISSUE** `#19932`_ : (smitt04) Calling salt '*' state.highstate on multi master, minions stop responding 
 - **ISSUE** `#13944`_ : (basepi) Multi-master minion not failing over properly for state runs 
 - **PR** `#21832`_ : (cachedout) Revert regression caused by `#15848`_ 
@@ -135,7 +135,7 @@ Changes for 2014.7.3:
 
 **PR** `#21826`_ : (jfindlay) propagate original IOError message through file.manage_file 
 
-- **ISSUE** `#21774`_ : (Xiol) "Failed to commit change, permission error" when using file.managed with check_cmd  
+- **ISSUE** `#21774`_ *OPEN*: (Xiol) "Failed to commit change, permission error" when using file.managed with check_cmd  
 
 **PR** `#21828`_ : (basepi) [2014.7] Append `#21818`_ 
 
@@ -191,7 +191,7 @@ Changes for 2014.7.3:
 
 **PR** `#21734`_ : (MrMarvin) "fixes" bug when parsing interfaces 
 
-- **ISSUE** `#19405`_ : (numkem) Network bridging under ubuntu fails with KeyError 
+- **ISSUE** `#19405`_ *OPEN*: (numkem) Network bridging under ubuntu fails with KeyError 
 
 **PR** `#21701`_ : (rvstaveren) Fix ldap group handling for 2014.7 
 
@@ -306,7 +306,7 @@ Changes for 2014.7.3:
 
 **PR** `#21555`_ : (ross-p) Fix for issue `#21491`_ 
 
-- **ISSUE** `#21491`_ : (martin-helmich) composer.installed should not always "return True" when composer.lock is present 
+- **ISSUE** `#21491`_ *OPEN*: (martin-helmich) composer.installed should not always "return True" when composer.lock is present 
 - **PR** `#21553`_ : (ross-p) Fix for issue `#21491`_ (composer install should always run) 
 
 **PR** `#21564`_ : (eliasp) Typo (rendered → renderer) 
@@ -348,7 +348,8 @@ Changes for 2014.7.3:
 
 - **ISSUE** `#21304`_ : (eliasp) Failing `blkid` call in `salt.modules.disk.blkid()` isn't handled properly 
 
-**PR** `#21407`_ : (freimer) Added status.master capability for Windows 
+**PR** `#21407`_ : (freimer) Added status.master capability for Windows [Medium Change], *ZD*
+
 
 
 **PR** `#21411`_ : (terminalmage) Fix file.recurse on root of gitfs/hgfs/svnfs repo 
@@ -361,7 +362,7 @@ Changes for 2014.7.3:
 
 **PR** `#21395`_ : (jacksontj) Backport fix for `#20494`_ 
 
-- **ISSUE** `#20494`_ : (lorengordon) Traceback in output with `--log-level debug` on Windows 
+- **ISSUE** `#20494`_ *OPEN*: (lorengordon) Traceback in output with `--log-level debug` on Windows 
 
 **PR** `#21355`_ : (The-Loeki) Fix for comments containing whitespaces 
 
@@ -453,7 +454,7 @@ Changes for 2014.7.3:
 
 **PR** `#21095`_ : (jond64) Fix for `#21039`_ 
 
-- **ISSUE** `#21039`_ : (jond64) non zero return code with salt-call --retcode-passthrough and ignore_retcode=True 
+- **ISSUE** `#21039`_ *OPEN*: (jond64) non zero return code with salt-call --retcode-passthrough and ignore_retcode=True 
 
 **PR** `#21058`_ : (terminalmage) Support Chocolatey 0.9.9+ 
 
@@ -503,7 +504,7 @@ Changes for 2014.7.3:
 
 **PR** `#21034`_ : (basepi) [2014.7] Fix for salt-ssh without command line parsers 
 
-- **ISSUE** `#20418`_ : (Xiol) Permission denied error on salt-ssh deploy dir 
+- **ISSUE** `#20418`_ *OPEN*: (Xiol) Permission denied error on salt-ssh deploy dir 
 
 **PR** `#21032`_ : (rallytime) Backport `#21024`_ to 2014.7 
 
@@ -603,7 +604,7 @@ Changes for 2014.7.3:
 
 **PR** `#20831`_ : (RobertFach) added nointr invisible mount option 
 
-- **ISSUE** `#20828`_ : (RobertFach) Forced remount because options changed when no options changed (option=nointr) (2014.7) 
+- **ISSUE** `#20828`_ *OPEN*: (RobertFach) Forced remount because options changed when no options changed (option=nointr) (2014.7) 
 
 **PR** `#20613`_ : (jfindlay) change incorrect 'text' outputter to 'txt' 
 
@@ -634,7 +635,8 @@ Changes for 2014.7.3:
 
 **PR** `#20739`_ : (mikn) Giving publish.publish more robust return handling 
 
-- **ISSUE** `#16510`_ : (UtahDave) publish.publish completely unreliable in 2014.7 branch 
+- **ISSUE** `#16510`_ *OPEN*: (UtahDave) publish.publish completely unreliable in 2014.7 branch [Bug], [Medium Severity], *ZD*
+
 
 **PR** `#20689`_ : (rallytime) Backport `#20457`_ to 2014.7 
 
@@ -652,7 +654,7 @@ Changes for 2014.7.3:
 **PR** `#20682`_ : (rallytime) Add dependency notice to proxmox.rst 
 
 
-- **ISSUE** `#14799`_ : (lparmentier-quatral) Salt Cloud 2014.7 Provider issue 
+- **ISSUE** `#14799`_ *OPEN*: (lparmentier-quatral) Salt Cloud 2014.7 Provider issue 
 
 **PR** `#20671`_ : (whiteinge) Reactor docs updates 
 
