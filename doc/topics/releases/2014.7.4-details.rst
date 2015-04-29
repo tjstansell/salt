@@ -1,6 +1,6 @@
 .. code-block:: bash
 
-    There are 943 cached issues
+    There are 914 cached issues
     pulling 18 issues:
     ,,,,+,,,+,+,,,,,+,,,,,
     pulling 4 issues:
@@ -128,24 +128,24 @@ Changes:
 
 .. _`#20652`: https://github.com/saltstack/salt/issues/20652
 .. _`#21888`: https://github.com/saltstack/salt/issues/21888
-.. _`#21947`: https://github.com/saltstack/salt/issues/21947
+.. _`#21947`: https://github.com/saltstack/salt/pull/21947
 .. _`#21961`: https://github.com/saltstack/salt/issues/21961
 .. _`#21992`: https://github.com/saltstack/salt/issues/21992
-.. _`#22007`: https://github.com/saltstack/salt/issues/22007
-.. _`#22012`: https://github.com/saltstack/salt/issues/22012
-.. _`#22014`: https://github.com/saltstack/salt/issues/22014
-.. _`#22015`: https://github.com/saltstack/salt/issues/22015
-.. _`#22016`: https://github.com/saltstack/salt/issues/22016
-.. _`#22020`: https://github.com/saltstack/salt/issues/22020
-.. _`#22022`: https://github.com/saltstack/salt/issues/22022
-.. _`#22035`: https://github.com/saltstack/salt/issues/22035
-.. _`#22042`: https://github.com/saltstack/salt/issues/22042
-.. _`#22051`: https://github.com/saltstack/salt/issues/22051
-.. _`#22053`: https://github.com/saltstack/salt/issues/22053
-.. _`#22074`: https://github.com/saltstack/salt/issues/22074
-.. _`#22077`: https://github.com/saltstack/salt/issues/22077
-.. _`#22109`: https://github.com/saltstack/salt/issues/22109
-.. _`#22113`: https://github.com/saltstack/salt/issues/22113
-.. _`#22130`: https://github.com/saltstack/salt/issues/22130
-.. _`#22145`: https://github.com/saltstack/salt/issues/22145
-.. _`bp-21947`: https://github.com/saltstack/salt/issues/21947
+.. _`#22007`: https://github.com/saltstack/salt/pull/22007
+.. _`#22012`: https://github.com/saltstack/salt/pull/22012
+.. _`#22014`: https://github.com/saltstack/salt/pull/22014
+.. _`#22015`: https://github.com/saltstack/salt/pull/22015
+.. _`#22016`: https://github.com/saltstack/salt/pull/22016
+.. _`#22020`: https://github.com/saltstack/salt/pull/22020
+.. _`#22022`: https://github.com/saltstack/salt/pull/22022
+.. _`#22035`: https://github.com/saltstack/salt/pull/22035
+.. _`#22042`: https://github.com/saltstack/salt/pull/22042
+.. _`#22051`: https://github.com/saltstack/salt/pull/22051
+.. _`#22053`: https://github.com/saltstack/salt/pull/22053
+.. _`#22074`: https://github.com/saltstack/salt/pull/22074
+.. _`#22077`: https://github.com/saltstack/salt/pull/22077
+.. _`#22109`: https://github.com/saltstack/salt/pull/22109
+.. _`#22113`: https://github.com/saltstack/salt/pull/22113
+.. _`#22130`: https://github.com/saltstack/salt/pull/22130
+.. _`#22145`: https://github.com/saltstack/salt/pull/22145
+.. _`bp-21947`: https://github.com/saltstack/salt/pull/21947
