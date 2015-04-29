@@ -1,4 +1,4 @@
-There are 934 cached issues
+There are 945 cached issues
 pulling 18 issues:
 ,,,,+,,,+,+,,,,,+,,,,,
 pulling 4 issues:
@@ -114,6 +114,7 @@ e9c9f9d Merge pull request `#22015`_ from rallytime/`bp-21947`_
 
 - **PR** `#22015`_: (*rallytime*) Backport `#21947`_ to 2014.7
 - **PR** `#21947`_: (*dmyerscough*) Ensure nginx config check passes by checking the exit status
+  refs: `#22015`_
 
   * ccf457c Ensure nginx config check passes by checking the exit status.... Nginx writes messages to stderr even when there are no errors
 

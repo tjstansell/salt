@@ -1,4 +1,4 @@
-There are 925 cached issues
+There are 939 cached issues
 pulling 105 issues:
 ,,,,,,,,,,,,,+,,,,,,,,+,,,,,,,,,+,,,,+,,,+,,,,,,,,,+,,,+,,,,,,,,,+,,,,,+,,+,+,+,,,,,,+,,,,,,,,,,,,+,,,,,,+,+,+,+,,+,,,,+,,++,+,,
 pulling 23 issues:
@@ -49,6 +49,7 @@ fb31ab4 Merge pull request `#22693`_ from dmyerscough/fix-keyerror-in-salt-cloud
 23a9d77 Merge pull request `#22674`_ from jacobhammons/2014.7
 
 - **ISSUE** `#22239`_: (*arthurlogilab*) include --retcode-passthrough in man pages
+  refs: `#22666`_ `#22674`_
 - **PR** `#22674`_: (*jacobhammons*) Regenerated salt-call and salt.7 man pages
 
   * 6e416fc Regenerated salt-call and salt.7 man pages Refs `#22239`_
@@ -56,6 +57,7 @@ fb31ab4 Merge pull request `#22693`_ from dmyerscough/fix-keyerror-in-salt-cloud
 c0d1bdd Merge pull request `#22666`_ from msteed/issue_22239
 
 - **ISSUE** `#22239`_: (*arthurlogilab*) include --retcode-passthrough in man pages
+  refs: `#22666`_ `#22674`_
 - **PR** `#22666`_: (*msteed*) Update salt-call manpage to match cli help text
 
   * 5efb284 Update salt-call manpage to match cli help text
@@ -74,6 +76,7 @@ edeec67 Merge pull request `#22623`_ from thatch45/merge_22115
 
 - **PR** `#22656`_: (*jfindlay*) backport `#22624`_ to 2014.7
 - **PR** `#22624`_: (*rallytime*) Backport `#22563`_ to 2015.2
+  refs: `#22656`_
 - **PR** `#22563`_: (*kaszuba*) Fix for high cpu usage by salt-ssh
   refs: `#22624`_
 
@@ -93,6 +96,7 @@ a219be7 Merge pull request `#22625`_ from rallytime/`bp-22565`_
 
 - **PR** `#22625`_: (*rallytime*) Backport `#22565`_ to 2014.7
 - **PR** `#22565`_: (*kaszuba*) Increase frequency of ssh terminal output checking
+  refs: `#22625`_
 
   * ecc14de Increase frequency of ssh terminal output checking
 
@@ -106,6 +110,7 @@ a219be7 Merge pull request `#22625`_ from rallytime/`bp-22565`_
   refs: `#21164`_
 - **PR** `#22621`_: (*rallytime*) Add note about missing state internal keyword arguments to release notes
 - **PR** `#22365`_: (*s0undt3ch*) Include `unless` in the state internal keywords.
+  refs: `#22621`_
 - **PR** `#21164`_: (*s0undt3ch*) Add `fun` and `state` to the runtime internal keywords listing
   refs: `#22621`_
 
@@ -114,7 +119,7 @@ a219be7 Merge pull request `#22625`_ from rallytime/`bp-22565`_
 e24ffa0 Merge pull request `#22610`_ from rallytime/batch-bug_note
 
 - **ISSUE** `#18358`_: (*msciciel*) Problem with batch execution
-  refs: `#22610`_
+  refs: `#22610`_ `#22350`_
 - **PR** `#22610`_: (*rallytime*) Add batch matching bug note to known issues in 2014.7.4 release notes
 
   * 9eb273f Add batch matching bug note to known issues in 2014.7.4 release notes
@@ -128,6 +133,7 @@ e24ffa0 Merge pull request `#22610`_ from rallytime/batch-bug_note
 fe7ad0e Merge pull request `#22476`_ from tjstansell/`fix-21998`_
 
 - **ISSUE** `#21998`_: (*tjstansell*) yum pkgrepo.managed basedir should default to reposdir location as specified in /etc/yum.conf
+  refs: `#22476`_
 - **PR** `#22476`_: (*tjstansell*) fix `#21998`_ - use yum reposdir as basedir defaults
 
   * 3013583 fix pylint issues
@@ -152,6 +158,7 @@ bd83b6c Merge pull request `#22553`_ from alprs/fix-git_latest_empty
 994f398 Merge pull request `#22576`_ from batulin-s/fix-checking-available-package-portage
 
 - **ISSUE** `#22329`_: (*batulin-s*) Salt couldn't see the changes of accept_keywords.
+  refs: `#22576`_
 - **PR** `#22576`_: (*batulin-s*) fixed `#22329`_ bug
 
   * 7123ea7 fixed checking of available version of package when accept_keywords were changed (`#22329`_ bug)
@@ -173,6 +180,7 @@ a269334 Merge pull request `#22584`_ from msusta/`bp-22362`_
 061c730 Merge pull request `#22535`_ from rallytime/`fix-22534`_
 
 - **ISSUE** `#22534`_: (*racooper*) Documentation update - salt.states.grains
+  refs: `#22535`_
 - **PR** `#22535`_: (*rallytime*) Add additional examples to grains.list_absent and grains.list_present
 
   * d44d3e6 Add additional examples to grains.list_absent and grains.list_present
@@ -181,6 +189,7 @@ a269334 Merge pull request `#22584`_ from msusta/`bp-22362`_
 
 - **PR** `#22532`_: (*rallytime*) Backport `#18846`_ to 2014.7
 - **PR** `#18846`_: (*basepi*) Add **kwargs to service.mod_watch
+  refs: `#22532`_
 
   * b02d063 Add **kwargs to service.mod_watch
 
@@ -227,7 +236,7 @@ d80f258 Merge pull request `#22526`_ from dhs-rec/2014.7
 2481e6c Merge pull request `#22464`_ from jacksontj/2014.7
 
 - **ISSUE** `#18358`_: (*msciciel*) Problem with batch execution
-  refs: `#22610`_
+  refs: `#22610`_ `#22350`_
 - **PR** `#22464`_: (*jacksontj*) 2014.7: Fix Batching
 - **PR** `#22350`_: (*jacksontj*) 2015.2: Fix batching
   refs: `#22464`_
@@ -261,8 +270,10 @@ c755463 Merge pull request `#22517`_ from s0undt3ch/2014.7
 38441a7 Merge pull request `#22506`_ from rallytime/`bp-20095`_
 
 - **ISSUE** `#19737`_: (*Reiner030*) pkgrepo.managed could better handle long keyids
+  refs: `#20095`_
 - **PR** `#22506`_: (*rallytime*) Backport `#20095`_ to 2014.7
 - **PR** `#20095`_: (*colincoghill*) Handle pkgrepo keyids that have been converted to int.  `#19737`_
+  refs: `#22506`_
 
   * 755c26e Handle pkgrepo keyids that have been converted to int.  `#19737`_
 
@@ -280,6 +291,7 @@ c755463 Merge pull request `#22517`_ from s0undt3ch/2014.7
 6662853 Merge pull request `#22492`_ from davidjb/2014.7
 
 - **ISSUE** `#16508`_: (*o1e9*) wrong disk.usage reported for very big RAID disk
+  refs: `#22485`_
 - **PR** `#22492`_: (*davidjb*) Correctly report disk usage on Windows. Fix `#16508`_
 - **PR** `#22485`_: (*davidjb*) Correctly report disk usage on Windows
   refs: `#22492`_
@@ -289,6 +301,7 @@ c755463 Merge pull request `#22517`_ from s0undt3ch/2014.7
 bf1957a Merge pull request `#22446`_ from br0ch0n/2014.7
 
 - **ISSUE** `#20850`_: (*br0ch0n*) puppet.run always returns 0
+  refs: `#22235`_
 - **PR** `#22446`_: (*br0ch0n*) Issue `#20850`_ puppet run should return actual code
 
   * 4e2ab36 Issue `#20850`_ puppet run should return actual code --lint fix
@@ -353,12 +366,14 @@ ade2474 Merge pull request `#22426`_ from jraby/patch-1
 
 - **PR** `#22416`_: (*rallytime*) Backport `#21044`_ to 2014.7
 - **PR** `#21044`_: (*cachedout*) TCP keepalives on the ret side
+  refs: `#22416`_
 
   * 7dd4b61 TCP keepalives on the ret side
 
 f76c5b4 Merge pull request `#22433`_ from rallytime/`fix-22218`_
 
 - **ISSUE** `#22218`_: (*Seldaek*) Error reporting on masterless gitfs includes is misleading
+  refs: `#22433`_
 - **PR** `#22433`_: (*rallytime*) Clarify that an sls is not available on a fileserver
 
   * f22f4dc Clarify that an sls is not available on a fileserver
@@ -369,6 +384,7 @@ f76c5b4 Merge pull request `#22433`_ from rallytime/`fix-22218`_
   refs: `#22414`_
 - **PR** `#22434`_: (*rallytime*) Backport `#22414`_ to 2014.7
 - **PR** `#22414`_: (*syphernl*) Cloud: Do not look for disk underneath config in Proxmox driver
+  refs: `#22434`_
 
   * 4a141c0 Lint
 
@@ -405,6 +421,7 @@ f76c5b4 Merge pull request `#22433`_ from rallytime/`fix-22218`_
 - **ISSUE** `#22359`_: (*kiorky*) unless is not recognized as a state internal keyword
   refs: `#22365`_
 - **PR** `#22365`_: (*s0undt3ch*) Include `unless` in the state internal keywords.
+  refs: `#22621`_
 
   * ff4aa5b Include `unless` in the state internal keywords.
 
@@ -432,6 +449,7 @@ a60579b Merge pull request `#22349`_ from cro/`bp-22005`_
 
 - **PR** `#22349`_: (*cro*) Backport 22005 to 2014.7
 - **PR** `#22005`_: (*cro*) Add ability to eAuth against Active Directory
+  refs: `#22349`_
 
   * 936254c Lint
 
@@ -471,6 +489,7 @@ f892335 Merge pull request `#22337`_ from rallytime/`bp-22245`_
   refs: `#22245`_
 - **PR** `#22337`_: (*rallytime*) Backport `#22245`_ to 2014.7
 - **PR** `#22245`_: (*achernev*) Fix grains.get_or_set_hash to work with multiple entries under same key
+  refs: `#22337`_
 
   * f560056 Fix grains.get_or_set_hash to work with multiple entries under same key
 
@@ -491,6 +510,7 @@ f892335 Merge pull request `#22337`_ from rallytime/`bp-22245`_
 8558542 Merge pull request `#22308`_ from whiteinge/doc-reactor-what-where-how
 
 - **ISSUE** `#20841`_: (*paha*) Passing arguments to runner from reactor/sls is broken?
+  refs: `#22121`_ `#22308`_
 - **PR** `#22308`_: (*whiteinge*) Better explanations and more examples of how the Reactor calls functions
 
   * a8bdc17 Better explanations and more examples of how the Reactor calls functions
@@ -534,6 +554,7 @@ f474860 Merge pull request `#22280`_ from s0undt3ch/issues/19923-rackspace-confi
 47f542d Merge pull request `#22025`_ from tjstansell/`fix-21397`_
 
 - **ISSUE** `#21397`_: (*tjstansell*) salt-minion getaddrinfo in dns_check() never gets updated nameservers because of glibc caching
+  refs: `#22025`_
 - **PR** `#22025`_: (*tjstansell*) fix `#21397`_ - force glibc to re-read resolv.conf
 
   * 7d5ce28 add appropriate exception types we might expect
@@ -545,6 +566,7 @@ f474860 Merge pull request `#22280`_ from s0undt3ch/issues/19923-rackspace-confi
 7d57a76 Merge pull request `#22235`_ from dhs-rec/2014.7
 
 - **ISSUE** `#20850`_: (*br0ch0n*) puppet.run always returns 0
+  refs: `#22235`_
 - **PR** `#22235`_: (*dhs-rec*) Possible fix for 'puppet.run always returns 0 `#20850`_'
 
   * 9c8f5f8 - Change default Puppet agent args to just 'test', which includes the former ones plus 'detailed-exitcodes'. - Exit properly depending on those detailed exit codes.
@@ -571,6 +593,7 @@ c8378ff Merge pull request `#22228`_ from garethgreenaway/20107_2014_7_scheduler
   refs: `#22226`_
 - **PR** `#22228`_: (*garethgreenaway*) backporting `#22226`_ to 2014.7
 - **PR** `#22226`_: (*garethgreenaway*) Fixes to scheduler
+  refs: `#22228`_
 
   * 2019935 backporting `#22226`_ to 2014.7
 
@@ -600,6 +623,7 @@ d941579 Merge pull request `#22161`_ from rallytime/`bp-21959`_
   refs: `#21959`_
 - **PR** `#22161`_: (*rallytime*) Backport `#21959`_ to 2014.7
 - **PR** `#21959`_: (*giannello*) Changed argument name
+  refs: `#22161`_
 
   * b9d55bc Changed argument name
 
@@ -608,6 +632,7 @@ d941579 Merge pull request `#22161`_ from rallytime/`bp-21959`_
 - **ISSUE** `#9960`_: (*jeteokeeffe*) salt virt.query errors out
 - **PR** `#22160`_: (*rallytime*) Backport `#22134`_ to 2014.7
 - **PR** `#22134`_: (*zboody*) Fixes `#9960`_
+  refs: `#22160`_
 
   * 061d085 Fixes `#9960`_
 
@@ -622,6 +647,7 @@ f44b1d0 Merge pull request `#22156`_ from amendlik/chef-solo-fix
 36eca12 Merge pull request `#22121`_ from tjstansell/`fix-20841`_
 
 - **ISSUE** `#20841`_: (*paha*) Passing arguments to runner from reactor/sls is broken?
+  refs: `#22121`_ `#22308`_
 - **PR** `#22121`_: (*tjstansell*) fix `#20841`_: add sls name from reactor
 
   * b2b554a fix `#20841`_: add sls name from reactor
@@ -630,10 +656,12 @@ f44b1d0 Merge pull request `#22156`_ from amendlik/chef-solo-fix
 
 - **PR** `#22122`_: (*tjstansell*) backport `#20166`_ to 2014.7
 - **PR** `#20166`_: (*cachedout*) Catch all exceptions in reactor
+  refs: `#22122`_
 
 6750480 backport `#20166`_ to 2014.7
 
 - **PR** `#20166`_: (*cachedout*) Catch all exceptions in reactor
+  refs: `#22122`_
 
 
 .. _`#11341`: https://github.com/saltstack/salt/issues/11341

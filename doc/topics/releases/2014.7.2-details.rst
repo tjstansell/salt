@@ -1,4 +1,4 @@
-There are 952 cached issues
+There are 930 cached issues
 pulling 157 issues:
 ,,,+,+,+,,,,,,,,+,,,,,,,,+,+,,,,,,,+,+,+,,,,,+,,,,+,,,+,+,,,,,,,,,,+,,,++,,+,+,+,,+,,,+,,,,,,,,,,,++,,,,,,+,,,,,,,,+,,,++,,,,,,+,,,,,+,,,+,,,,,++,+,,,,,+,+,,,,,,,,,,,,+,,,,+,,+,++,,,,,,+,+,,,,,,+,,+,,,
 pulling 44 issues:
@@ -34,6 +34,7 @@ e97d463 Merge branch 'crasu-2014.7' into 2014.7
 f9e1e43 Merge pull request `#20510`_ from eliasp/2014.7-issue-18689
 
 - **ISSUE** `#18689`_: (*eliasp*) `ps.pgrep` causes backtrace for non-accessible processes on Windows
+  refs: `#20510`_
 - **PR** `#20510`_: (*eliasp*) Fix `#18689`_ by handling psutil exceptions.
 
   * 35baba9 Fix `#18689`_ by handling psutil exceptions.
@@ -52,7 +53,7 @@ f57c15f Merge pull request `#20480`_ from basepi/saltssh.errors.20223
   refs: `#20229`_
 - **PR** `#20480`_: (*basepi*) [2014.7] Fix bugs in salt-ssh cleanup code from `#20229`_
 - **PR** `#20229`_: (*basepi*) Check for terminated (errored) processes in salt-ssh
-  refs: `#20261`_
+  refs: `#20261`_ `#20480`_
 
   * 0249383 Fix pylint
 
@@ -82,6 +83,7 @@ debb844 Merge pull request `#20433`_ from rallytime/`bp-20386`_
   refs: `#20386`_
 - **PR** `#20433`_: (*rallytime*) Backport `#20386`_ to 2014.7
 - **PR** `#20386`_: (*cachedout*) Don't run cron as a user with -u on Linux
+  refs: `#20433`_
 
   * bc99eb8 Don't run cron as a user with -u on Linux
 
@@ -140,6 +142,7 @@ fc22ca5 Merge pull request `#20389`_ from jfindlay/fix_pip_venv
   refs: `#14834`_
 - **PR** `#20405`_: (*rallytime*) Backport `#14834`_ to 2014.7
 - **PR** `#14834`_: (*gtmanfred*) Only assign win_password if it actually is set
+  refs: `#20405`_
 
   * c9f4b42 only overwrite password if win_password is set
 
@@ -202,7 +205,7 @@ e8b088a Merge pull request `#20390`_ from basepi/eauthgroup17380
 - **ISSUE** `#17380`_: (*UtahDave*) external auth group support not working with pam
   refs: `#20390`_
 - **ISSUE** `#2215`_: (*techhat*) 'list' object has no attribute 'difference' in static command
-  refs: `#20281`_
+  refs: `#20281`_ `#20281`_
 - **PR** `#20390`_: (*basepi*) [2014.7] Fix eauth group authentication (backport of `#20281`_)
 - **PR** `#20281`_: (*MrMarvin*) fixes a bug which broke eauth with group permissions
   refs: `#20390`_
@@ -221,6 +224,7 @@ e8b088a Merge pull request `#20390`_ from basepi/eauthgroup17380
 
 - **PR** `#20351`_: (*rallytime*) Backport `#20316`_ to 2014.7
 - **PR** `#20316`_: (*glomium*) Event _stamp should be UTC
+  refs: `#20351`_
 
   * c2d2db1 added utc timestamp to event
 
@@ -247,6 +251,7 @@ c364b99 Merge pull request `#20328`_ from bbinet/fix-allow-hotplug
 
 - **PR** `#20305`_: (*rallytime*) Backport `#20216`_ to 2014.7
 - **PR** `#20216`_: (*steverweber*) fix returning docs when some minions did not return
+  refs: `#20305`_
 
   * 6de9d62 fix returning docs when some minions did not return
 
@@ -268,6 +273,7 @@ dbc5bb8 Merge pull request `#20288`_ from jfindlay/fix_locale_gen
   refs: `#20097`_
 - **PR** `#20288`_: (*jfindlay*) Fix locale gen
 - **PR** `#20097`_: (*jfindlay*) fix debian/ubuntu handling in locale.gen_locale
+  refs: `#20288`_
 
   * 8565d7e fix arch support for gen_locale
 
@@ -310,7 +316,7 @@ d0a629e Merge pull request `#20261`_ from thatch45/basepi-saltssh.errors.20223
   refs: `#20229`_
 - **PR** `#20261`_: (*thatch45*) Merge `#20229`_ with fixes
 - **PR** `#20229`_: (*basepi*) Check for terminated (errored) processes in salt-ssh
-  refs: `#20261`_
+  refs: `#20261`_ `#20480`_
 
   * a2a4722 lint fixes
 
@@ -321,7 +327,7 @@ d0a629e Merge pull request `#20261`_ from thatch45/basepi-saltssh.errors.20223
 9fafe41 Merge pull request `#20218`_ from felskrone/fqdn_master_status_2014.7
 
 - **ISSUE** `#19080`_: (*ferreol*) multi master failover mode looping indefinitely
-  refs: `#20218`_
+  refs: `#20218`_ `#19380`_
 - **PR** `#20218`_: (*felskrone*) improved status.master to work with fqdns
 - **PR** `#19380`_: (*felskrone*) improve master.status to work with host fqdns/hostnames as well as ips
   refs: `#20218`_
@@ -379,6 +385,7 @@ ab5cf4b Merge pull request `#20203`_ from basepi/archiveextract20195
 
 - **PR** `#20210`_: (*rallytime*) Backport `#20171`_ to 2014.7
 - **PR** `#20171`_: (*plastikos*) Minor: Improve thin and shim warnings and comments.
+  refs: `#20210`_
 
   * 132f364 Don't use salt.defaults.exitcodes, just use salt.exitcodes in 2014.7
 
@@ -392,10 +399,11 @@ a72017d Merge pull request `#20211`_ from rallytime/`bp-20118`_
   refs: `#11898`_
 - **PR** `#20211`_: (*rallytime*) Backport `#20118`_ to 2014.7
 - **PR** `#20118`_: (*kitsemets*) salt.states.cmd: fixed 'unless' behaviour in case of multiple commands are given
+  refs: `#20211`_
 - **PR** `#16044`_: (*rallytime*) Clarify unless and onlyif docs
   refs: `#20118`_
 - **PR** `#11898`_: (*rallytime*) Onlyif return codes added to debug log
-  refs: `#20118`_
+  refs: `#20118`_ `#20118`_
 
   * d6e70fd salt.states.cmd: fixed 'unless' behaviour in case of multiple unless commands are given
 
@@ -403,7 +411,9 @@ a72017d Merge pull request `#20211`_ from rallytime/`bp-20118`_
 
 - **PR** `#20212`_: (*rallytime*) Revert "Backport `#19566`_ to 2014.7"
 - **PR** `#20156`_: (*rallytime*) Backport `#19566`_ to 2014.7
+  refs: `#20212`_
 - **PR** `#19566`_: (*traxair*) Salt add azure volume support
+  refs: `#20156`_
 
   * 9fef292 Revert "Backport `#19566`_ to 2014.7"
 
@@ -433,6 +443,7 @@ daba06f Merge pull request `#20162`_ from rallytime/`bp-20062`_
 
 - **PR** `#20162`_: (*rallytime*) Backport `#20062`_ to 2014.7
 - **PR** `#20062`_: (*cachedout*) Increae default runner timeout to 60s
+  refs: `#20162`_
 
   * 7c066c3 Increae default runner timeout to 60s
 
@@ -441,6 +452,7 @@ daba06f Merge pull request `#20162`_ from rallytime/`bp-20062`_
 - **ISSUE** `#19306`_: (*TaiSHiNet*) DigitalOcean API v1 private_networking is set to True instead of 'true'
 - **PR** `#20159`_: (*rallytime*) Backport `#20115`_ to 2014.7
 - **PR** `#20115`_: (*TaiSHiNet*) DO APIv1 issue Closes `#19306`_
+  refs: `#20159`_
 
   * 2e58b07 DO APIv1 issue Closes `#19306`_
 
@@ -448,6 +460,7 @@ daba06f Merge pull request `#20162`_ from rallytime/`bp-20062`_
 
 - **PR** `#20157`_: (*rallytime*) Backport `#19976`_ to 2014.7
 - **PR** `#19976`_: (*oldmantaiter*) Add compatibility to mount by label
+  refs: `#20157`_
 
   * fe1f260 Add compatibility to mount by label
 
@@ -455,7 +468,9 @@ daba06f Merge pull request `#20162`_ from rallytime/`bp-20062`_
 
 - **ISSUE** `#19162`_: (*traxair*) Permanent disk on Azure
 - **PR** `#20156`_: (*rallytime*) Backport `#19566`_ to 2014.7
+  refs: `#20212`_
 - **PR** `#19566`_: (*traxair*) Salt add azure volume support
+  refs: `#20156`_
 
   * f874d8b Pylint fixes
 
@@ -467,6 +482,7 @@ daba06f Merge pull request `#20162`_ from rallytime/`bp-20062`_
   refs: `#15701`_
 - **PR** `#20154`_: (*rallytime*) Backport `#15701`_ to 2014.7
 - **PR** `#15701`_: (*Jille*) Fixed the Result of file.replace (`#15417`_)
+  refs: `#20154`_
 
   * b9d2f5b Fixed the Result of file.replace
 
@@ -527,6 +543,7 @@ cc1e81a Merge pull request `#20112`_ from rallytime/pylint_7
 - **ISSUE** `#18936`_: (*tomashavlas*) possible problems with locale.gen_locale
   refs: `#20097`_
 - **PR** `#20097`_: (*jfindlay*) fix debian/ubuntu handling in locale.gen_locale
+  refs: `#20288`_
 
   * 4be92ed fix debian/ubuntu handling in locale.gen_locale
 
@@ -599,9 +616,10 @@ c5ac604 Merge pull request `#20046`_ from hvnsweeting/2014.7
 85e32d1 Merge pull request `#20023`_ from basepi/gpgrenderersaltssh19114
 
 - **ISSUE** `#19114`_: (*pykler*) salt-ssh and gpg pillar renderer
-  refs: `#19912`_
+  refs: `#19912`_ `#19787`_
 - **PR** `#20023`_: (*basepi*) Partially revert `#19912`_
 - **PR** `#19912`_: (*basepi*) Assume __salt__['config.get'] is present in gpg renderer
+  refs: `#20023`_
 - **PR** `#19787`_: (*slafs*) fixes GPG renderer when working with states in salt-ssh
   refs: `#19912`_
 
@@ -622,9 +640,10 @@ c5ac604 Merge pull request `#20046`_ from hvnsweeting/2014.7
 7ac742b Merge pull request `#20022`_ from jfindlay/yes_win_dns
 
 - **ISSUE** `#18513`_: (*Supermathie*) network.managed (windows) cannot set interface without DNS servers
-  refs: `#19968`_
+  refs: `#19968`_ `#20022`_
 - **PR** `#20022`_: (*jfindlay*) require DNS for win network.managed state
 - **PR** `#19968`_: (*jfindlay*) allow user to disable DNS for win net iface
+  refs: `#20022`_
 
   * 7d23ad5 require DNS for win network.managed state
 
@@ -644,7 +663,9 @@ c5ac604 Merge pull request `#20046`_ from hvnsweeting/2014.7
 
 - **PR** `#20001`_: (*rallytime*) Revert "Backport `#19790`_ to 2014.7"
 - **PR** `#19960`_: (*rallytime*) Backport `#19790`_ to 2014.7
+  refs: `#20001`_
 - **PR** `#19790`_: (*cachedout*) Fix multi-master event handling bug
+  refs: `#19960`_
 
   * f49edd1 Revert "Backport `#19790`_ to 2014.7"
 
@@ -664,8 +685,9 @@ a368183 Merge pull request `#20003`_ from rallytime/pylint_dot_seven
 fd8e474 Merge pull request `#19968`_ from jfindlay/no_win_dns
 
 - **ISSUE** `#18513`_: (*Supermathie*) network.managed (windows) cannot set interface without DNS servers
-  refs: `#19968`_
+  refs: `#19968`_ `#20022`_
 - **PR** `#19968`_: (*jfindlay*) allow user to disable DNS for win net iface
+  refs: `#20022`_
 
   * bbb83a8 allow user to disable DNS for win net iface
 
@@ -710,13 +732,16 @@ f3019a8 Merge pull request `#18400`_ from terminalmage/issue17700
 - **ISSUE** `#18673`_: (*dennisoconnor*) docker.login module is failing
 - **PR** `#19961`_: (*rallytime*) Backport `#19855`_ to 2014.7
 - **PR** `#19855`_: (*colincoghill*) Fix for docker login saltstack/salt`#18673`_
+  refs: `#19961`_
 
   * 28af4ef Fix for docker login saltstack/salt`#18673`_
 
 21da224 Merge pull request `#19960`_ from rallytime/`bp-19790`_
 
 - **PR** `#19960`_: (*rallytime*) Backport `#19790`_ to 2014.7
+  refs: `#20001`_
 - **PR** `#19790`_: (*cachedout*) Fix multi-master event handling bug
+  refs: `#19960`_
 
   * cf83079 Remove unnecessary comment
 
@@ -773,8 +798,9 @@ a677984 Merge pull request `#19927`_ from jfindlay/fix_sysctl
 02782e3 Merge pull request `#19912`_ from basepi/salt-ssh-gpg-renderer19114
 
 - **ISSUE** `#19114`_: (*pykler*) salt-ssh and gpg pillar renderer
-  refs: `#19912`_
+  refs: `#19912`_ `#19787`_
 - **PR** `#19912`_: (*basepi*) Assume __salt__['config.get'] is present in gpg renderer
+  refs: `#20023`_
 - **PR** `#19787`_: (*slafs*) fixes GPG renderer when working with states in salt-ssh
   refs: `#19912`_
 
@@ -827,6 +853,7 @@ ab725d5 Merge pull request `#19904`_ from rallytime/pylint_dot_seven
 1d5e8b5 Merge pull request `#19826`_ from jfindlay/sdecode_jinja
 
 - **ISSUE** `#19173`_: (*TJuberg*) SLS Rendering fails with Jinja error: 'ascii' codec can't decode byte <nnnn> in position <nn>: ordinal not in range(128)
+  refs: `#19826`_
 - **PR** `#19826`_: (*jfindlay*) properly decode jinja rendering, fixes `#19173`_
 
   * 581b6ea properly decode jinja rendering, fixes `#19173`_
@@ -850,8 +877,10 @@ ef3d51c Merge pull request `#19820`_ from highlyunavailable/feature/2014.7_fix_f
 - **ISSUE** `#19815`_: (*highlyunavailable*) file.recurse on masterless windows minions fails due to path separator issues
   refs: `#19820`_
 - **ISSUE** `#14048`_: (*belawaeckerlig*) salt masterless windows own modules do not work
+  refs: `#19805`_ `#19820`_
 - **PR** `#19820`_: (*highlyunavailable*) Force roots fileclient on Masterless Windows to return fake POSIX/"url"
 - **PR** `#19805`_: (*highlyunavailable*) Fixes `#14048`_ and also a bug in win_servermanager
+  refs: `#19820`_
 
   * d2853fd Force roots fileclient on Masterless Windows to return fake POSIX/"url" paths
 
@@ -870,7 +899,9 @@ ef3d51c Merge pull request `#19820`_ from highlyunavailable/feature/2014.7_fix_f
 f41a163 Merge pull request `#19805`_ from highlyunavailable/feature/2014.7.1_fixwinpkg
 
 - **ISSUE** `#14048`_: (*belawaeckerlig*) salt masterless windows own modules do not work
+  refs: `#19805`_ `#19820`_
 - **PR** `#19805`_: (*highlyunavailable*) Fixes `#14048`_ and also a bug in win_servermanager
+  refs: `#19820`_
 
   * ef1ba92 Fixes `#14048`_ and also a bug in win_servermanager
 
@@ -905,6 +936,7 @@ ffcf7ce Merge pull request `#19789`_ from jfindlay/hosts_eol
 5fb9e91 Merge pull request `#19798`_ from jfindlay/fix_msiexec
 
 - **ISSUE** `#19796`_: (*highlyunavailable*) Regression: win_pkg fails in msiexec mode
+  refs: `#19798`_
 - **PR** `#19798`_: (*jfindlay*) fix msiexec cmd, `#19796`_
 
   * 136386d fix msiexec cmd, `#19796`_
@@ -995,6 +1027,7 @@ dcf9128 Merge pull request `#19743`_ from basepi/2014.7.2releasenotes
 
 - **PR** `#19715`_: (*kev009*) Switch FreeBSD kmod module to use loader.conf
 - **PR** `#19682`_: (*kev009*) FreeBSD kmod bugfixes
+  refs: `#19715`_
 
   * 5dbfd02 Switch freebsdkmod to use loader.conf
 
@@ -1010,6 +1043,7 @@ d204fe4 Merge pull request `#19698`_ from basepi/filemanagedcontents19669
 
 - **PR** `#19710`_: (*rallytime*) Backport `#19580`_ to 2014.7
 - **PR** `#19580`_: (*traxair*) Fix azure cloud service
+  refs: `#19710`_
 
   * 43ab12f Whitespace fix
 
@@ -1033,6 +1067,7 @@ b847109 Merge pull request `#19722`_ from rallytime/fix_19453
 
 - **PR** `#19709`_: (*rallytime*) Backport `#19523`_ to 2014.7
 - **PR** `#19523`_: (*cachedout*) Try giving some rest tornado requests a little more time
+  refs: `#19709`_
 
   * c172470 Try giving some rest tornado requests a little more time
 
@@ -1047,6 +1082,7 @@ b847109 Merge pull request `#19722`_ from rallytime/fix_19453
 2da27f0 Merge pull request `#19682`_ from kev009/freebsd-kmods
 
 - **PR** `#19682`_: (*kev009*) FreeBSD kmod bugfixes
+  refs: `#19715`_
 
   * edd4fba Bugfix my freebsdkmod implementation
 
@@ -1073,11 +1109,13 @@ b847109 Merge pull request `#19722`_ from rallytime/fix_19453
 1eb0b4b Merge pull request `#19661`_ from basepi/sysctlretcode19606
 
 - **ISSUE** `#19606`_: (*pwaller*) systemctl is-enabled foo-bar.service failed with return code: 1
+  refs: `#19661`_
 - **PR** `#19661`_: (*basepi*) Suppress retcode warnings for systemd enabled check, Fixes `#19606`_
 
 01d1907 Suppress retcode warnings for systemd enabled check, Fixes `#19606`_
 
 - **ISSUE** `#19606`_: (*pwaller*) systemctl is-enabled foo-bar.service failed with return code: 1
+  refs: `#19661`_
 
 
 .. _`#10258`: https://github.com/saltstack/salt/issues/10258
