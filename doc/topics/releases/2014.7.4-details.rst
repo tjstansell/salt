@@ -1,6 +1,5 @@
 .. code-block:: bash
 
-    There are 914 cached issues
     pulling 18 issues:
     ,,,,+,,,+,+,,,,,+,,,,,
     pulling 4 issues:

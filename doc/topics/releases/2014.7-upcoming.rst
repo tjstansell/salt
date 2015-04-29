@@ -1,141 +1,271 @@
-Changes for 2014.7.NEXT:
-========================
-
 .. code-block:: bash
 
-  pulling 40 issues:
-  .....++....+...+....+..+...........+...+...++..+...
-  pulling 11 issues:
-  ..........+.
-  pulling 1 issues:
-  .
+    pulling 40 issues:
+    ,,,,,++,,,,+,,,+,,,,+,,+,,,,,,,,,,,+,,,+,,,++,,+,,,
+    pulling 11 issues:
+    ,,,,,,,,,,+,
+    pulling 1 issues:
+    ,
 
+Changes for v2014.7.5..2014.7
+-----------------------------
 
-**PR** `#22955`_ : (terminalmage) Fix regression introduced yesterday in dockerio module 
+Statistics:
 
+- Total Merges: **34**
+- Total Issue references: **14**
+- Total PR references: **39**
 
-**PR** `#22954`_ : (rallytime) Backport `#22909`_ to 2014.7 
+Changes:
 
-- **PR** `#22909`_ : (mguegan) Fix compatibility with pkgin > 0.7 [Bugfix - [Done] back-ported]
 
-**PR** `#22856`_ : (jfindlay) increase timeout and decrease tries for route53 records 
+- **PR** `#22955`_: (*terminalmage*) Fix regression introduced yesterday in dockerio module
 
-- **ISSUE** `#18720`_ : (Reiner030) timeouts when setting Route53 records 
+  * 89fa185 Merge pull request `#22955`_ from terminalmage/dockerio-run-fix
+  * b4472ad Fix regression introduced yesterday in dockerio module
 
-**PR** `#22946`_ : (s0undt3ch) Test with a more recent pip version to avoid a traceback 
+- **PR** `#22954`_: (*rallytime*) Backport `#22909`_ to 2014.7
 
+  - **PR** `#22909`_: (*mguegan*) Fix compatibility with pkgin > 0.7
+    | refs: `#22954`_
+  * 46ef227 Merge pull request `#22954`_ from rallytime/`bp-22909`_
+  * 70c1cd3 Fix compatibility with pkgin > 0.7
 
-**PR** `#22945`_ : (garethgreenaway) Fixes to scheduler 
+- **PR** `#22856`_: (*jfindlay*) increase timeout and decrease tries for route53 records
 
-- **ISSUE** `#22571`_ *[OPEN]*: (BoomerB) same error message as on issue `#18504`_ 
+  - **ISSUE** `#18720`_: (*Reiner030*) timeouts when setting Route53 records
+    | refs: `#22856`_
+  * c9ae593 Merge pull request `#22856`_ from jfindlay/route53_timeout
+  * ba4a786 add route53 record sync wait, default=False
 
-**PR** `#22887`_ : (hvnsweeting) fix `#18843`_ 
+  * ea2fd50 increase timeout and tries for route53 records
 
-- **ISSUE** `#18843`_ : (calvinhp) State user.present will fail to create home if user exists and homedir doesn't 
+- **PR** `#22946`_: (*s0undt3ch*) Test with a more recent pip version to avoid a traceback
 
-**PR** `#22930`_ : (jfindlay) localemod.gen_locale now always returns a boolean 
+  * a178d44 Merge pull request `#22946`_ from s0undt3ch/2014.7
+  * bc87749 Test with a more recent pip version to avoid a traceback
 
-- **ISSUE** `#21140`_ : (holms) locale.present state executed successfully, although originally fails 
-- **ISSUE** `#2417`_ *[OPEN]*: (ffa) Module standards 
-- **PR** `#22829`_ : (F30) Always return a boolean in gen_locale() [Bugfix - [Done] back-ported]
+- **PR** `#22945`_: (*garethgreenaway*) Fixes to scheduler
 
-**PR** `#22933`_ : (hvnsweeting) add test for `#18843`_ 
+  - **ISSUE** `#22571`_: (*BoomerB*) same error message as on issue `#18504`_
+    | refs: `#22945`_
+  * de339be Merge pull request `#22945`_ from garethgreenaway/22571_2014_7_schedule_pillar_refresh_seconds_exceptions
+  * bfa6d25 Fixing a reported issue when using a scheduled job from pillar with splay.  _seconds element that acted as a backup of the actual seconds was being removed when pillar was refreshed and causing exceptions.  This fix moves some splay related code out of the if else condition so it's checked whether the job is in the job queue or not.
 
+- **PR** `#22887`_: (*hvnsweeting*) fix `#18843`_
 
-- **ISSUE** `#18843`_ : (calvinhp) State user.present will fail to create home if user exists and homedir doesn't 
+  - **ISSUE** `#18843`_: (*calvinhp*) State user.present will fail to create home if user exists and homedir doesn't
+  * 12d2b91 Merge pull request `#22887`_ from hvnsweeting/18843-fix-user-present-home
+  * 7fe7b08 run user.chhome once to avoid any side-effect when run it twice
 
-**PR** `#22925`_ : (rallytime) Backport `#22895`_ to 2014.7 
+  * 19de995 clarify the usage of home arg
 
-- **PR** `#22895`_ : (aletourneau) pam_tally counter was not reset to 0 after a succesfull login [Bugfix - [Done] back-ported]
+  * d6dc09a enhance doc, as usermod on ubuntu 12.04 will not CREATE home
 
-**PR** `#22914`_ : (cachedout) Call proper returner function in jobs.list_jobs 
+  * 0ce4d7f refactor: force to use boolean
 
-- **ISSUE** `#22790`_ : (whiteinge) jobs.list_jobs runner tracebacks on 'missing' argument 
+  * 849d19e log debug the creating dir process
 
-**PR** `#22918`_ : (JaseFace) Add a note to the git_pillar docs stating that GitPython is the only currently supported provider 
+  * c4e95b9 fix `#18843`_: usermod won't create a dir if old home does not exist
 
+- **PR** `#22930`_: (*jfindlay*) localemod.gen_locale now always returns a boolean
 
-**PR** `#22907`_ : (techhat) Properly merge cloud configs to create profiles 
+  - **ISSUE** `#21140`_: (*holms*) locale.present state executed successfully, although originally fails
+    | refs: `#22930`_ `#22829`_
+  - **ISSUE** `#2417`_: (*ffa*) Module standards
+    | refs: `#22829`_
+  - **PR** `#22829`_: (*F30*) Always return a boolean in gen_locale()
+    | refs: `#22930`_
+  * b7de7bd Merge pull request `#22930`_ from jfindlay/localegen_bool
+  * 399399f localemod.gen_locale now always returns a boolean
 
+- **PR** `#22933`_: (*hvnsweeting*) add test for `#18843`_
 
-**PR** `#22894`_ : (0xf10e) Fix issue `#22782`_ 
+  - **ISSUE** `#18843`_: (*calvinhp*) State user.present will fail to create home if user exists and homedir doesn't
+  * 11bcf14 Merge pull request `#22933`_ from hvnsweeting/18843-test
+  * b13db32 add test for `#18843`_
 
+- **PR** `#22925`_: (*rallytime*) Backport `#22895`_ to 2014.7
 
-**PR** `#22902`_ : (rallytime) Change state example to use proper kwarg 
+  - **PR** `#22895`_: (*aletourneau*) pam_tally counter was not reset to 0 after a succesfull login
+    | refs: `#22925`_
+  * 6890752 Merge pull request `#22925`_ from rallytime/`bp-22895`_
+  * 3852d96 Pylint fix
 
-- **ISSUE** `#12003`_ : (MarkusMuellerAU) [state.dockerio] docker.run TypeError: run() argument after ** must be a mapping, not str 
+  * 90f7829 Fixed pylint issues
 
-**PR** `#22898`_ : (terminalmage) dockerio: better error message for native exec driver 
+  * 5ebf159 Cleaned up pull request
 
+  * a08ac47 pam_tally counter was not reset to 0 after a succesfull login
 
-**PR** `#22897`_ : (rallytime) Add param documentation for file.replace state 
+- **PR** `#22914`_: (*cachedout*) Call proper returner function in jobs.list_jobs
 
-- **ISSUE** `#22825`_ : (paolodina) Issue using file.replace in state file 
+  - **ISSUE** `#22790`_: (*whiteinge*) jobs.list_jobs runner tracebacks on 'missing' argument
+    | refs: `#22914`_
+  * eca37eb Merge pull request `#22914`_ from cachedout/issue_22790
+  * d828d6f Call proper returner function in jobs.list_jobs
 
-**PR** `#22850`_ : (bersace) Fix pillar and salt fileserver mixed 
+- **PR** `#22918`_: (*JaseFace*) Add a note to the git_pillar docs stating that GitPython is the only currently supported provider
 
-- **ISSUE** `#22844`_ *[OPEN]*: (bersace) LocalClient file cache confuse pillar and state files 
+  * 44f3409 Merge pull request `#22918`_ from JaseFace/git-pillar-provider-doc-note
+  * 0aee5c2 Add a note to the git_pillar docs stating that GitPython is the only currently supported provider
 
-**PR** `#22818`_ : (twangboy) Added documentation regarding pip in windows 
+- **PR** `#22907`_: (*techhat*) Properly merge cloud configs to create profiles
 
+  * 31c461f Merge pull request `#22907`_ from techhat/cloudconfig
+  * 3bf4e66 Properly merge cloud configs to create profiles
 
-**PR** `#22872`_ : (rallytime) Prevent stacktrace on os.path.exists in hosts module 
+- **PR** `#22894`_: (*0xf10e*) Fix issue `#22782`_
 
+  * f093975 Merge pull request `#22894`_ from 0xf10e/2014.7
+  * 58fa24c Clarify doc on kwarg 'roles' for user_present().
 
-**PR** `#22853`_ : (s0undt3ch) Don't assume package installation order. 
+  * f0ae2eb Improve readability by renaming tenant_role
 
+- **PR** `#22902`_: (*rallytime*) Change state example to use proper kwarg
 
-**PR** `#22877`_ : (s0undt3ch) Don't fail on `make clean` just because the directory does not exist 
+  - **ISSUE** `#12003`_: (*MarkusMuellerAU*) [state.dockerio] docker.run TypeError: run() argument after ** must be a mapping, not str
+    | refs: `#22902`_
+  * c802ba7 Merge pull request `#22902`_ from rallytime/docker_doc_fix
+  * 8f70346 Change state example to use proper kwarg
 
+- **PR** `#22898`_: (*terminalmage*) dockerio: better error message for native exec driver
 
-**PR** `#22873`_ : (thatch45) Type check the version since it will often be numeric 
+  * 81771a7 Merge pull request `#22898`_ from terminalmage/issue12003
+  * c375309 dockerio: better error message for native exec driver
 
+- **PR** `#22897`_: (*rallytime*) Add param documentation for file.replace state
 
-**PR** `#22870`_ : (twangboy) Added ability to send a version with a space in it 
+  - **ISSUE** `#22825`_: (*paolodina*) Issue using file.replace in state file
+    | refs: `#22897`_
+  * e2ec4ec Merge pull request `#22897`_ from rallytime/`fix-22825`_
+  * 9c51630 Add param documentation for file.replace state
 
+- **PR** `#22850`_: (*bersace*) Fix pillar and salt fileserver mixed
 
+  - **ISSUE** `#22844`_: (*bersace*) LocalClient file cache confuse pillar and state files
+    | refs: `#22850`_
+  * fd53889 Merge pull request `#22850`_ from bersace/fix-pillar-salt-mixed
+  * 31b98e7 Initialize state file client after pillar loading
 
-**PR** `#22863`_ : (rallytime) Backport `#20974`_ to 2014.7 
+  * f6bebb7 Use saltenv
 
-- **PR** `#20974`_ : (JohannesEbke) Fix expr_match usage in salt.utils.check_whitelist_blacklist [Bugfix - [Done] back-ported]
+- **PR** `#22818`_: (*twangboy*) Added documentation regarding pip in windows
 
-**PR** `#22578`_ : (hvnsweeting) gracefully handle when salt-minion cannot decrypt key 
+  * 1380fec Merge pull request `#22818`_ from twangboy/upd_pip_docs
+  * cb999c7 Update pip.py
 
+  * 3cc5c97 Added documentation regarding pip in windows
 
-**PR** `#22800`_ : (terminalmage) Improve error logging for pygit2 SSH-based remotes 
+- **PR** `#22872`_: (*rallytime*) Prevent stacktrace on os.path.exists in hosts module
 
-- **ISSUE** `#21979`_ : (yrdevops) gitfs: error message not descriptive enough when libgit2 was compiled without libssh2 
+  * b2bf17f Merge pull request `#22872`_ from rallytime/fix_hosts_stacktrace
+  * c88a1ea Prevent stacktrace on os.path.exists in hosts module
 
-**PR** `#22813`_ : (twangboy) Updated instructions for building salt 
+- **PR** `#22853`_: (*s0undt3ch*) Don't assume package installation order.
 
+  * 03af523 Merge pull request `#22853`_ from s0undt3ch/2014.7
+  * b62df62 Don't assume package installation order.
 
-**PR** `#22810`_ : (basepi) [2014.7] More msgpack gating for salt-ssh 
+- **PR** `#22877`_: (*s0undt3ch*) Don't fail on `make clean` just because the directory does not exist
 
-- **ISSUE** `#22708`_ : (Bilge) salt-ssh file.accumulated error: NameError: global name 'msgpack' is not defined 
+  * 9211e36 Merge pull request `#22877`_ from s0undt3ch/hotfix/clean-docs-fix
+  * 95d6887 Don't fail on `make clean` just because the directory does not exist
 
-**PR** `#22803`_ : (rallytime) Allow map file to work with softlayer 
+- **PR** `#22873`_: (*thatch45*) Type check the version since it will often be numeric
 
-- **ISSUE** `#17144`_ : (xpender) salt-cloud -m fails with softlayer 
+  * 5bdbd08 Merge pull request `#22873`_ from thatch45/type_check
+  * 53b8376 Type check the version since it will often be numeric
 
-**PR** `#22807`_ : (rallytime) Add 2014.7.5 links to windows installation docs 
+- **PR** `#22870`_: (*twangboy*) Added ability to send a version with a space in it
 
+  * c965b0a Merge pull request `#22870`_ from twangboy/fix_installer_again
+  * 3f180cf Added ability to send a version with a space in it
 
-**PR** `#22795`_ : (rallytime) Added release note for 2014.7.5 release 
+- **PR** `#22863`_: (*rallytime*) Backport `#20974`_ to 2014.7
 
+  - **PR** `#20974`_: (*JohannesEbke*) Fix expr_match usage in salt.utils.check_whitelist_blacklist
+    | refs: `#22863`_
+  * 2973eb1 Merge pull request `#22863`_ from rallytime/`bp-20974`_
+  * 14913a4 Fix expr_match usage in salt.utils.check_whitelist_blacklist
 
-**PR** `#22759`_ : (twangboy) Final edits to the batch files for running salt 
+- **PR** `#22578`_: (*hvnsweeting*) gracefully handle when salt-minion cannot decrypt key
 
-- **ISSUE** `#22740`_ : (lorengordon) New Windows installer assumes salt is installed to the current directory 
-- **PR** `#22754`_ : (twangboy) Removed redundant \ and " 
+  * c45b92b Merge pull request `#22578`_ from hvnsweeting/2014-7-fix-compile-pillar
+  * f75b24a gracefully handle when salt-minion cannot decrypt key
 
-**PR** `#22760`_ : (thatch45) Fix issues with the syndic 
+- **PR** `#22800`_: (*terminalmage*) Improve error logging for pygit2 SSH-based remotes
 
+  - **ISSUE** `#21979`_: (*yrdevops*) gitfs: error message not descriptive enough when libgit2 was compiled without libssh2
+    | refs: `#22800`_
+  * 900c7a5 Merge pull request `#22800`_ from terminalmage/issue21979
+  * 8f1c008 Clarify that for pygit2, receiving 0 objects means repo is up-to-date
 
-**PR** `#22762`_ : (twangboy) Fixed version not showing in Add/Remove Programs 
+  * 98885f7 Add information about libssh2 requirement for pygit2 ssh auth
 
+  * 09468d2 Fix incorrect log message
 
+  * 2093bf8 Adjust loglevels for gitfs errors
 
+  * 9d394df Improve error logging for pygit2 SSH-based remotes
 
+- **PR** `#22813`_: (*twangboy*) Updated instructions for building salt
+
+  * e99f2fd Merge pull request `#22813`_ from twangboy/win_doc_fix
+  * adc421a Fixed some formatting issues
+
+  * 8901b3b Updated instructions for building salt
+
+- **PR** `#22810`_: (*basepi*) [2014.7] More msgpack gating for salt-ssh
+
+  - **ISSUE** `#22708`_: (*Bilge*) salt-ssh file.accumulated error: NameError: global name 'msgpack' is not defined
+    | refs: `#22810`_
+  * fe1de89 Merge pull request `#22810`_ from basepi/salt-ssh.more.msgpack.gating
+  * d4da8e6 Gate msgpack in salt/modules/saltutil.py
+
+  * 02303b2 Gate msgpack in salt/modules/data.py
+
+  * d7e8741 Gate salt.states.file.py msgpack
+
+- **PR** `#22803`_: (*rallytime*) Allow map file to work with softlayer
+
+  - **ISSUE** `#17144`_: (*xpender*) salt-cloud -m fails with softlayer
+    | refs: `#22803`_
+  * 11df71e Merge pull request `#22803`_ from rallytime/`fix-17144`_
+  * ce88b6a Allow map file to work with softlayer
+
+- **PR** `#22807`_: (*rallytime*) Add 2014.7.5 links to windows installation docs
+
+  * cd43a95 Merge pull request `#22807`_ from rallytime/windows_docs_update
+  * 5931a58 Replace all 4s with 5s
+
+  * eadaead Add 2014.7.5 links to windows installation docs
+
+- **PR** `#22795`_: (*rallytime*) Added release note for 2014.7.5 release
+
+  * 0b295e2 Merge pull request `#22795`_ from rallytime/release_notes
+  * fde1fee Remove extra line
+
+  * b19b95d Added release note for 2014.7.5 release
+
+- **PR** `#22759`_: (*twangboy*) Final edits to the batch files for running salt
+
+  - **ISSUE** `#22740`_: (*lorengordon*) New Windows installer assumes salt is installed to the current directory
+    | refs: `#22759`_
+  - **PR** `#22754`_: (*twangboy*) Removed redundant \\ and "
+    | refs: `#22759`_
+  * 3c91459 Merge pull request `#22759`_ from twangboy/fix_bat_one_last_time
+  * 075f82e Final edits to the batch files for running salt
+
+- **PR** `#22760`_: (*thatch45*) Fix issues with the syndic
+
+  * 20d3f2b Merge pull request `#22760`_ from thatch45/syndic_fix
+  * e2db624 Fix issues with the syndic not resolving the master when the interface is set
+
+- **PR** `#22762`_: (*twangboy*) Fixed version not showing in Add/Remove Programs
+
+  * 54c4584 Merge pull request `#22762`_ from twangboy/fix_installer
+  * 4d25af8 Fixed version not showing in Add/Remove Programs
 
 
 .. _`#12003`: https://github.com/saltstack/salt/issues/12003
@@ -143,57 +273,57 @@ Changes for 2014.7.NEXT:
 .. _`#18504`: https://github.com/saltstack/salt/issues/18504
 .. _`#18720`: https://github.com/saltstack/salt/issues/18720
 .. _`#18843`: https://github.com/saltstack/salt/issues/18843
-.. _`#20974`: https://github.com/saltstack/salt/issues/20974
+.. _`#20974`: https://github.com/saltstack/salt/pull/20974
 .. _`#21140`: https://github.com/saltstack/salt/issues/21140
 .. _`#21979`: https://github.com/saltstack/salt/issues/21979
 .. _`#22571`: https://github.com/saltstack/salt/issues/22571
-.. _`#22578`: https://github.com/saltstack/salt/issues/22578
+.. _`#22578`: https://github.com/saltstack/salt/pull/22578
 .. _`#22708`: https://github.com/saltstack/salt/issues/22708
 .. _`#22740`: https://github.com/saltstack/salt/issues/22740
-.. _`#22754`: https://github.com/saltstack/salt/issues/22754
-.. _`#22759`: https://github.com/saltstack/salt/issues/22759
-.. _`#22760`: https://github.com/saltstack/salt/issues/22760
-.. _`#22762`: https://github.com/saltstack/salt/issues/22762
+.. _`#22754`: https://github.com/saltstack/salt/pull/22754
+.. _`#22759`: https://github.com/saltstack/salt/pull/22759
+.. _`#22760`: https://github.com/saltstack/salt/pull/22760
+.. _`#22762`: https://github.com/saltstack/salt/pull/22762
 .. _`#22782`: https://github.com/saltstack/salt/issues/22782
 .. _`#22790`: https://github.com/saltstack/salt/issues/22790
-.. _`#22795`: https://github.com/saltstack/salt/issues/22795
-.. _`#22800`: https://github.com/saltstack/salt/issues/22800
-.. _`#22803`: https://github.com/saltstack/salt/issues/22803
-.. _`#22807`: https://github.com/saltstack/salt/issues/22807
-.. _`#22810`: https://github.com/saltstack/salt/issues/22810
-.. _`#22813`: https://github.com/saltstack/salt/issues/22813
-.. _`#22818`: https://github.com/saltstack/salt/issues/22818
+.. _`#22795`: https://github.com/saltstack/salt/pull/22795
+.. _`#22800`: https://github.com/saltstack/salt/pull/22800
+.. _`#22803`: https://github.com/saltstack/salt/pull/22803
+.. _`#22807`: https://github.com/saltstack/salt/pull/22807
+.. _`#22810`: https://github.com/saltstack/salt/pull/22810
+.. _`#22813`: https://github.com/saltstack/salt/pull/22813
+.. _`#22818`: https://github.com/saltstack/salt/pull/22818
 .. _`#22825`: https://github.com/saltstack/salt/issues/22825
-.. _`#22829`: https://github.com/saltstack/salt/issues/22829
+.. _`#22829`: https://github.com/saltstack/salt/pull/22829
 .. _`#22844`: https://github.com/saltstack/salt/issues/22844
-.. _`#22850`: https://github.com/saltstack/salt/issues/22850
-.. _`#22853`: https://github.com/saltstack/salt/issues/22853
-.. _`#22856`: https://github.com/saltstack/salt/issues/22856
-.. _`#22863`: https://github.com/saltstack/salt/issues/22863
-.. _`#22870`: https://github.com/saltstack/salt/issues/22870
-.. _`#22872`: https://github.com/saltstack/salt/issues/22872
-.. _`#22873`: https://github.com/saltstack/salt/issues/22873
-.. _`#22877`: https://github.com/saltstack/salt/issues/22877
-.. _`#22887`: https://github.com/saltstack/salt/issues/22887
-.. _`#22894`: https://github.com/saltstack/salt/issues/22894
-.. _`#22895`: https://github.com/saltstack/salt/issues/22895
-.. _`#22897`: https://github.com/saltstack/salt/issues/22897
-.. _`#22898`: https://github.com/saltstack/salt/issues/22898
-.. _`#22902`: https://github.com/saltstack/salt/issues/22902
-.. _`#22907`: https://github.com/saltstack/salt/issues/22907
-.. _`#22909`: https://github.com/saltstack/salt/issues/22909
-.. _`#22914`: https://github.com/saltstack/salt/issues/22914
-.. _`#22918`: https://github.com/saltstack/salt/issues/22918
-.. _`#22925`: https://github.com/saltstack/salt/issues/22925
-.. _`#22930`: https://github.com/saltstack/salt/issues/22930
-.. _`#22933`: https://github.com/saltstack/salt/issues/22933
-.. _`#22945`: https://github.com/saltstack/salt/issues/22945
-.. _`#22946`: https://github.com/saltstack/salt/issues/22946
-.. _`#22954`: https://github.com/saltstack/salt/issues/22954
-.. _`#22955`: https://github.com/saltstack/salt/issues/22955
+.. _`#22850`: https://github.com/saltstack/salt/pull/22850
+.. _`#22853`: https://github.com/saltstack/salt/pull/22853
+.. _`#22856`: https://github.com/saltstack/salt/pull/22856
+.. _`#22863`: https://github.com/saltstack/salt/pull/22863
+.. _`#22870`: https://github.com/saltstack/salt/pull/22870
+.. _`#22872`: https://github.com/saltstack/salt/pull/22872
+.. _`#22873`: https://github.com/saltstack/salt/pull/22873
+.. _`#22877`: https://github.com/saltstack/salt/pull/22877
+.. _`#22887`: https://github.com/saltstack/salt/pull/22887
+.. _`#22894`: https://github.com/saltstack/salt/pull/22894
+.. _`#22895`: https://github.com/saltstack/salt/pull/22895
+.. _`#22897`: https://github.com/saltstack/salt/pull/22897
+.. _`#22898`: https://github.com/saltstack/salt/pull/22898
+.. _`#22902`: https://github.com/saltstack/salt/pull/22902
+.. _`#22907`: https://github.com/saltstack/salt/pull/22907
+.. _`#22909`: https://github.com/saltstack/salt/pull/22909
+.. _`#22914`: https://github.com/saltstack/salt/pull/22914
+.. _`#22918`: https://github.com/saltstack/salt/pull/22918
+.. _`#22925`: https://github.com/saltstack/salt/pull/22925
+.. _`#22930`: https://github.com/saltstack/salt/pull/22930
+.. _`#22933`: https://github.com/saltstack/salt/pull/22933
+.. _`#22945`: https://github.com/saltstack/salt/pull/22945
+.. _`#22946`: https://github.com/saltstack/salt/pull/22946
+.. _`#22954`: https://github.com/saltstack/salt/pull/22954
+.. _`#22955`: https://github.com/saltstack/salt/pull/22955
 .. _`#2417`: https://github.com/saltstack/salt/issues/2417
-.. _`bp-20974`: https://github.com/saltstack/salt/issues/20974
-.. _`bp-22895`: https://github.com/saltstack/salt/issues/22895
-.. _`bp-22909`: https://github.com/saltstack/salt/issues/22909
+.. _`bp-20974`: https://github.com/saltstack/salt/pull/20974
+.. _`bp-22895`: https://github.com/saltstack/salt/pull/22895
+.. _`bp-22909`: https://github.com/saltstack/salt/pull/22909
 .. _`fix-17144`: https://github.com/saltstack/salt/issues/17144
 .. _`fix-22825`: https://github.com/saltstack/salt/issues/22825
