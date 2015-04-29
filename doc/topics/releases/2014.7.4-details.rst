@@ -1,6 +1,6 @@
 .. code-block:: bash
 
-    There are 949 cached issues
+    There are 930 cached issues
     pulling 18 issues:
     ,,,,+,,,+,+,,,,,+,,,,,
     pulling 4 issues:
@@ -14,6 +14,8 @@ Statistics:
 - Total Merges: **17**
 - Total Issue references: **4**
 - Total PR references: **18**
+
+Changes:
 
 - **PR** `#22145`_: (*twangboy*) Remove .chm files from windows build
 

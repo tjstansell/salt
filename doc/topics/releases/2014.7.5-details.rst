@@ -1,6 +1,6 @@
 .. code-block:: bash
 
-    There are 926 cached issues
+    There are 932 cached issues
     pulling 105 issues:
     ,,,,,,,,,,,,,+,,,,,,,,+,,,,,,,,,+,,,,+,,,+,,,,,,,,,+,,,+,,,,,,,,,+,,,,,+,,+,+,+,,,,,,+,,,,,,,,,,,,+,,,,,,+,+,+,+,,+,,,,+,,++,+,,
     pulling 23 issues:
@@ -16,6 +16,8 @@ Statistics:
 - Total Merges: **75**
 - Total Issue references: **43**
 - Total PR references: **95**
+
+Changes:
 
 - **PR** `#22754`_: (*twangboy*) Removed redundant \\ and "
 
