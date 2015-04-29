@@ -1,6 +1,6 @@
 .. code-block:: bash
 
-    There are 940 cached issues
+    There are 943 cached issues
     pulling 105 issues:
     ,,,,,,,,,,,,,+,,,,,,,,+,,,,,,,,,+,,,,+,,,+,,,,,,,,,+,,,+,,,,,,,,,+,,,,,+,,+,+,+,,,,,,+,,,,,,,,,,,,+,,,,,,+,+,+,+,,+,,,,+,,++,+,,
     pulling 23 issues:
@@ -339,7 +339,7 @@ Changes:
   * 568e1b7 Improve output when using iptables.save
 - **PR** `#22365`_: (*s0undt3ch*) Include `unless` in the state internal keywords.
 
-    | refs: `#22621`_
+  | refs: `#22621`_
   - **ISSUE** `#22359`_: (*kiorky*) unless is not recognized as a state internal keyword
     | refs: `#22365`_
   * 2ac741b Merge pull request `#22365`_ from s0undt3ch/2014.7
