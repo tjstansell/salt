@@ -20,6 +20,7 @@ Changes:
 
 
 - **PR** `#22002`_: (*basepi*) [2014.7] Backport `#21703`_
+  | closed at 2015-03-25T19:08:31Z
 
   - **ISSUE** `#21657`_: (*rallytime*) salt-ssh cmd.run msgpack critical error
     | refs: `#21703`_
@@ -29,6 +30,7 @@ Changes:
   * 1470382 Catch TypeErrors from cmd.run jid_file functionality in salt-ssh
 
 - **PR** `#21994`_: (*twangboy*) Used WMI to detect real osversion in Windows
+  | closed at 2015-03-25T17:50:22Z
 
   - **ISSUE** `#15051`_: (*lorengordon*) On Windows 8.1 the grain 'osversion' is not detected correctly
     | refs: `#21994`_
@@ -36,6 +38,7 @@ Changes:
   * 2665ad4 Used WMI to detect real osversion in Windows
 
 - **PR** `#21974`_: (*tjstansell*) fixes `#21952`_ - only read ssh host_key header for legacy binary format
+  | closed at 2015-03-25T14:41:21Z
 
   - **ISSUE** `#21952`_: (*tjstansell*) salt.modules.ssh.host_keys should not read full private key in legacy binary format
     | refs: `#21974`_
@@ -43,17 +46,20 @@ Changes:
   * 4aaacfd fixes `#21952`_ - only read ssh host_key header for legacy binary format of private key
 
 - **PR** `#21972`_: (*tjstansell*) fix `#21971`_ - ssh_host_key.pub should return as key.pub not key.pub.pub
+  | closed at 2015-03-25T14:40:45Z
 
   - **ISSUE** `#21971`_: (*tjstansell*) salt.modules.ssh.host_keys returns ssh_host_key.pub as key.pub.pub in output
   * 7e36c57 Merge pull request `#21972`_ from tjstansell/`fix-21971`_
   * 383e21b fix `#21971`_ - ssh_host_key.pub should return as key.pub not key.pub.pub
 
 - **PR** `#21968`_: (*ryanwohara*) Verifying the key has a value before using it.
+  | closed at 2015-03-25T04:03:09Z
 
   * b409209 Merge pull request `#21968`_ from ryanwohara/2014.7
   * cbb09b0 Verifying the key has a value before using it.
 
 - **PR** `#21962`_: (*rallytime*) Apply nested outputter optimization fix to 2014.7
+  | closed at 2015-03-25T04:02:11Z
 
   - **PR** `#21920`_: (*fellyns*) refactor nested outputter for much better performance
     | refs: `#21962`_
@@ -63,6 +69,7 @@ Changes:
   * 15680cd Apply nested outputter optimization fix to 2014.7
 
 - **PR** `#21965`_: (*basepi*) [2014.7] Catch msgpack error in file.recurse in salt-ssh
+  | closed at 2015-03-25T01:27:47Z
 
   - **ISSUE** `#21922`_: (*arr2036*) salt-ssh NameError: global name 'msgpack' is not defined (salt-ssh 2014.7.2 (Helium))
     | refs: `#21965`_
@@ -70,11 +77,13 @@ Changes:
   * 3d8b31f Catch msgpack error in file.recurse
 
 - **PR** `#21963`_: (*cachedout*) Release note changes
+  | closed at 2015-03-24T23:32:25Z
 
   * cda629d Merge pull request `#21963`_ from cachedout/2014_7_3_changes
   * 2639f4b Release note changes
 
 - **PR** `#21944`_: (*cachedout*) Prevent multi-master from dying with pillar refresh error
+  | closed at 2015-03-24T23:19:58Z
 
   * 39d2b5b Merge pull request `#21944`_ from cachedout/catch_pillar_refresh_error
   * e68306e Remove pass
@@ -88,6 +97,7 @@ Changes:
   * 5d0f2bc Prevent multi-master from dying with pillar refresh error
 
 - **PR** `#21955`_: (*rallytime*) Add default for pillar_source_merging_strategy in conf/master file
+  | closed at 2015-03-24T22:45:40Z
 
   - **ISSUE** `#21511`_: (*whiteinge*) Add default for pillar_source_merging_strategy in conf/master file
     | refs: `#21955`_
@@ -99,11 +109,13 @@ Changes:
   * 609dcdb Add default for pillar_source_merging_strategy in conf/master file
 
 - **PR** `#21957`_: (*cachedout*) 2014.7.3 release notes
+  | closed at 2015-03-24T21:50:24Z
 
   * 16fbfa3 Merge pull request `#21957`_ from cachedout/2014_7_3_release_notes
   * e6d7062 2014.7.3 release notes
 
 - **PR** `#21946`_: (*cro*) Clarify how defaults are indicated in the config files.
+  | closed at 2015-03-24T20:16:19Z
 
   * 4eb759f Merge pull request `#21946`_ from cro/defaults_clarification
   * a35f38a Clarify how defaults are indicated in the config files.
@@ -111,21 +123,25 @@ Changes:
   * 5dbb0d4 Clarify how defaults are indicated in the config files.
 
 - **PR** `#21941`_: (*thatch45*) Add a seperate loader base name path to multimaster
+  | closed at 2015-03-24T18:25:02Z
 
   * dfb794b Merge pull request `#21941`_ from thatch45/load_base_name
   * 78fc0f8 Add a seperate loader base name path to multimaster
 
 - **PR** `#21926`_: (*jfindlay*) fix network.iface module related stack traces
+  | closed at 2015-03-24T03:37:53Z
 
   * 278d293 Merge pull request `#21926`_ from jfindlay/fix_net
   * a16039c fix network.iface module related stack traces
 
 - **PR** `#21921`_: (*jfindlay*) config gate net.arp on presence of arp
+  | closed at 2015-03-24T01:25:54Z
 
   * d3e14e5 Merge pull request `#21921`_ from jfindlay/net_arp
   * 958bf09 config gate net.arp on presence of arp
 
 - **PR** `#21811`_: (*jacksontj*) Re-work timeouts in saltnado
+  | closed at 2015-03-24T01:22:22Z
 
   - **ISSUE** `#21707`_: (*baweaver*) [saltnado rest] local requests hang indefinitely on glob / grain queries
     | refs: `#21755`_
@@ -137,6 +153,7 @@ Changes:
   * f4d8fb5 Re-work timeouts in saltnado
 
 - **PR** `#21918`_: (*rallytime*) Backport `#21885`_ to 2014.7
+  | closed at 2015-03-24T01:19:07Z
 
   - **PR** `#21885`_: (*mattwillsher*) Remove check for physical virt type for salt.modules.virt.is_kvm_hyper()
     | refs: `#21918`_
@@ -144,11 +161,13 @@ Changes:
   * 78747b5 Remove check for physical virt type for KVM
 
 - **PR** `#21901`_: (*cachedout*) Deep copy opts
+  | closed at 2015-03-23T21:56:03Z
 
   * e07220d Merge pull request `#21901`_ from cachedout/deepcopy_opts
   * 3a5f36d Deep copy opts
 
 - **PR** `#21872`_: (*borgstrom*) Remove _locals from the final exec call in pyobjects (2014.7)
+  | closed at 2015-03-21T17:04:30Z
 
   - **ISSUE** `#21796`_: (*grischa*) pyobjects behaving weirdly when calling python stdlib package
     | refs: `#21872`_
@@ -156,6 +175,7 @@ Changes:
   * 3223a15 This fixes `#21796`_
 
 - **PR** `#21861`_: (*twangboy*) Final (hopefully) improvements to the new build structure
+  | closed at 2015-03-20T20:19:32Z
 
   * af01dc7 Merge pull request `#21861`_ from twangboy/build
   * febef7e Update salt-cp.bat
@@ -167,6 +187,7 @@ Changes:
   * db64bef Updated BuildSalt and Salt-Minion-Setup.nsi - Fixed problem with missing folders and files - Fixed problem with detecting cpu architecture
 
 - **PR** `#21854`_: (*jfindlay*) backport `#21791`_ to 2014.7
+  | closed at 2015-03-20T19:44:24Z
 
   - **PR** `#21791`_: (*twangboy*) Added additional files for building windows installations
     | refs: `#21854`_
@@ -176,6 +197,7 @@ Changes:
   * 98944e9 Added file to slim the windows install
 
 - **PR** `#21857`_: (*jfindlay*) backport `#21844`_ to 2014.7
+  | closed at 2015-03-20T19:23:00Z
 
   - **ISSUE** `#19953`_: (*johanek*) lsb_distrib grains on CentOS/RHEL
     | refs: `#21844`_
@@ -185,6 +207,7 @@ Changes:
   * 4fe795f Always check other OS release files if lsb_distrib_id grain not populated from /etc/lsb-release
 
 - **PR** `#21855`_: (*rallytime*) Backport `#21841`_ to 2014.7
+  | closed at 2015-03-20T19:15:33Z
 
   - **ISSUE** `#6`_: (*thatch45*) Test module
   - **PR** `#21841`_: (*ticosax*) `override_params` contains the real list of allowed parameters
@@ -197,6 +220,7 @@ Changes:
   * a6d8105 `override_params` contains the real list of allowed parameters
 
 - **PR** `#21851`_: (*rallytime*) Backport the fix in `#20781`_ manually to the 2014.7 branch
+  | closed at 2015-03-20T18:56:31Z
 
   - **ISSUE** `#20735`_: (*Whissi*) All salt-minions died with an unhandled exceptions while salt-master was unavailable due to maintenance
     | refs: `#20781`_
@@ -208,6 +232,7 @@ Changes:
   * ba0560e Backport the fix in `#20781`_ manually to the 2014.7 branch
 
 - **PR** `#21852`_: (*jfindlay*) backport `#21790`_ to 2014.7
+  | closed at 2015-03-20T18:35:31Z
 
   - **PR** `#21790`_: (*twangboy*) Added files for the New Portable Salt Installer
     | refs: `#21852`_
@@ -215,6 +240,7 @@ Changes:
   * ced2e57 Added files for the New Portable Salt Installer
 
 - **PR** `#21848`_: (*rallytime*) Backport `#21635`_ to 2014.7
+  | closed at 2015-03-20T17:36:21Z
 
   - **ISSUE** `#21603`_: (*ipmb*) ssh_auth.present fails on key without comment
     | refs: `#21635`_
@@ -224,6 +250,7 @@ Changes:
   * c0f0414 check for ssh key comment
 
 - **PR** `#21849`_: (*basepi*) [2014.7] saltutil.runner fixes
+  | closed at 2015-03-20T17:36:02Z
 
   - **ISSUE** `#21650`_: (*jfindlay*) saltutil.runner jobs.list_jobs is broken
     | refs: `#21849`_
@@ -233,6 +260,7 @@ Changes:
   * 4e881bb Clean the __pub kwargs for saltutil.runner
 
 - **PR** `#21846`_: (*rallytime*) Backport `#21795`_ to 2014.7
+  | closed at 2015-03-20T16:35:01Z
 
   - **ISSUE** `#20197`_: (*jhenry82*) Issue with multi-master and local job cache: An inconsistency occurred
     | refs: `#21846`_ `#21847`_
@@ -244,6 +272,7 @@ Changes:
   * 56142ad Avoid dueling opts with fileclients in highstate
 
 - **PR** `#21847`_: (*rallytime*) Backport `#21832`_ to 2014.7
+  | closed at 2015-03-20T16:34:51Z
 
   - **ISSUE** `#20197`_: (*jhenry82*) Issue with multi-master and local job cache: An inconsistency occurred
     | refs: `#21846`_ `#21847`_
@@ -258,6 +287,7 @@ Changes:
   * 3782251 Revert regression caused by `#15848`_
 
 - **PR** `#21826`_: (*jfindlay*) propagate original IOError message through file.manage_file
+  | closed at 2015-03-20T16:25:58Z
 
   - **ISSUE** `#21774`_: (*Xiol*) "Failed to commit change, permission error" when using file.managed with check_cmd 
     | refs: `#21826`_
@@ -265,6 +295,7 @@ Changes:
   * ddbe16e propagate original IOError message through file.manage_file
 
 - **PR** `#21828`_: (*basepi*) [2014.7] Append `#21818`_
+  | closed at 2015-03-19T22:00:35Z
 
   - **ISSUE** `#21495`_: (*UtahDave*) Syndic not passing up lower level jobs to the higher master's job cache
     | refs: `#21781`_
@@ -276,6 +307,7 @@ Changes:
   * 417e2ab Stupid backport didn't get this
 
 - **PR** `#21821`_: (*basepi*) [2014.7] Backport `#21813`_ to 2014.7
+  | closed at 2015-03-19T21:36:17Z
 
   - **PR** `#21813`_: (*basepi*) [2015.2] Syndic should only forward load once per job
     | refs: `#21821`_
@@ -295,6 +327,7 @@ Changes:
   * 36192e3 Fix Syndic to only forward unforwarded loads
 
 - **PR** `#21822`_: (*basepi*) [2014.7] Backport `#21820`_ to 2014.7
+  | closed at 2015-03-19T20:39:21Z
 
   - **PR** `#21820`_: (*basepi*) [2015.2] syndic load fix
     | refs: `#21822`_
@@ -303,6 +336,7 @@ Changes:
 
 - **PR** `#21818`_: (*basepi*) [2014.7] Backport `#21781`_ to 2014.7
   | refs: `#21828`_
+  | closed at 2015-03-19T19:24:23Z
 
   - **ISSUE** `#21495`_: (*UtahDave*) Syndic not passing up lower level jobs to the higher master's job cache
     | refs: `#21781`_
@@ -316,6 +350,7 @@ Changes:
   * d40b387 Fix syndic to use master cachedir
 
 - **PR** `#21786`_: (*rallytime*) Backport `#21739`_ to 2014.7
+  | closed at 2015-03-19T07:39:52Z
 
   - **PR** `#21739`_: (*ticosax*) If there no containers in the response it does not mean the command failed.
     | refs: `#21786`_
@@ -323,6 +358,7 @@ Changes:
   * eddef00 If there no containers in the response it does not mean the command failed.
 
 - **PR** `#21785`_: (*rallytime*) Backport `#21738`_ to 2014.7
+  | closed at 2015-03-19T07:38:57Z
 
   - **PR** `#21738`_: (*ticosax*) transmit socket parameter for inner function calls
     | refs: `#21785`_
@@ -330,6 +366,7 @@ Changes:
   * 14b367e transmit socket parameter for inner function calls
 
 - **PR** `#21780`_: (*cachedout*) Backport `#21775`_ to 2014.7
+  | closed at 2015-03-18T23:04:36Z
 
   - **ISSUE** `#19864`_: (*claudiupopescu*) Salt syndic architecture is slow
     | refs: `#21782`_ `#21775`_
@@ -340,6 +377,7 @@ Changes:
   * 36841bd Backport `#21175`_ to 2014.7
 
 - **PR** `#21782`_: (*rallytime*) Update syndic documentation
+  | closed at 2015-03-18T22:21:08Z
 
   - **ISSUE** `#19864`_: (*claudiupopescu*) Salt syndic architecture is slow
     | refs: `#21782`_ `#21775`_
@@ -348,6 +386,7 @@ Changes:
 
 - **PR** `#21755`_: (*jacksontj*) Add timeout to saltnado's event listener
   | refs: `#21811`_
+  | closed at 2015-03-18T17:49:38Z
 
   - **ISSUE** `#21707`_: (*baweaver*) [saltnado rest] local requests hang indefinitely on glob / grain queries
     | refs: `#21755`_
@@ -359,6 +398,7 @@ Changes:
   * 234d02b Add timeout to saltnado's event listener
 
 - **PR** `#21757`_: (*jfindlay*) Tar tests
+  | closed at 2015-03-18T15:39:33Z
 
   * 26689da Merge pull request `#21757`_ from jfindlay/tar_tests
   * 5f143ec unit tests for states.archive.extracted tar opts
@@ -368,6 +408,7 @@ Changes:
   * 53c9d48 fix typo
 
 - **PR** `#21743`_: (*jfindlay*) add eauth pam group tests
+  | closed at 2015-03-17T23:51:18Z
 
   - **ISSUE** `#17380`_: (*UtahDave*) external auth group support not working with pam
     | refs: `#21743`_
@@ -375,6 +416,7 @@ Changes:
   * f735f0b add eauth pam group tests
 
 - **PR** `#21734`_: (*MrMarvin*) "fixes" bug when parsing interfaces
+  | closed at 2015-03-17T18:50:09Z
 
   - **ISSUE** `#19405`_: (*numkem*) Network bridging under ubuntu fails with KeyError
     | refs: `#21734`_
@@ -384,6 +426,7 @@ Changes:
   * f43f8c4 "fixes" bug when parsing interfaces
 
 - **PR** `#21701`_: (*rvstaveren*) Fix ldap group handling for 2014.7
+  | closed at 2015-03-16T23:30:44Z
 
   - **ISSUE** `#21661`_: (*rvstaveren*) membership logic in salt/auth/ldap.py bug
     | refs: `#21701`_
@@ -391,6 +434,7 @@ Changes:
   * 6e51093 username doesn't necessarily need to be in slot 0
 
 - **PR** `#21711`_: (*rallytime*) Backport `#21676`_ to 2014.7
+  | closed at 2015-03-16T22:00:51Z
 
   - **PR** `#21676`_: (*aneeshusa*) Add error messages when missing setting_name param.
     | refs: `#21711`_
@@ -398,6 +442,7 @@ Changes:
   * 01f90d5 Add error messages when missing setting_name param.
 
 - **PR** `#21708`_: (*rallytime*) Backport `#21666`_ to 2014.7
+  | closed at 2015-03-16T21:48:52Z
 
   - **ISSUE** `#20317`_: (*joshdover*) RVM is not a function for gem state
     | refs: `#21666`_
@@ -411,6 +456,7 @@ Changes:
   * 5f48e55 separate command from arguments to avoid problems when adding quotes
 
 - **PR** `#21630`_: (*UtahDave*) WORK IN PROGRESS - Fix syndic
+  | closed at 2015-03-16T20:26:31Z
 
   * 8a12fbb Merge pull request `#21630`_ from UtahDave/fix_syndic
   * ad1768c make sure arg, tgt, and tgt_type are passed thru
@@ -418,6 +464,7 @@ Changes:
   * 3611658 pass thru fun and fun_args if they exist
 
 - **PR** `#21677`_: (*aneeshusa*) Check response status when using fileclient.get_url.
+  | closed at 2015-03-16T18:35:47Z
 
   - **ISSUE** `#21625`_: (*SaltwaterC*) file.managed for HTTP source doesn't use the HTTP status code
     | refs: `#21677`_
@@ -425,6 +472,7 @@ Changes:
   * 58a1afc Check response status when using fileclient.get_url.
 
 - **PR** `#21658`_: (*rvstaveren*) enable eauth during cli batch operations
+  | closed at 2015-03-15T18:54:20Z
 
   * 2767409 Merge pull request `#21658`_ from rvstaveren/fix_eauth_in_batch_2014_7
   * 58eacc0 Merge branch 'fix_eauth_in_batch_2014_7' of https://github.com/rvstaveren/salt into fix_eauth_in_batch_2014_7
@@ -434,6 +482,7 @@ Changes:
   * 3939799 enable eauth during cli batch operations
 
 - **PR** `#21648`_: (*tjstansell*) fix `#21628`_: support STP option in rh_ip to enable/disable spanning tree
+  | closed at 2015-03-13T22:29:17Z
 
   - **ISSUE** `#21628`_: (*tjstansell*) rh_ip support for STP (spanning tree protocol)
     | refs: `#21648`_
@@ -441,6 +490,7 @@ Changes:
   * 317f627 fix `#21628`_: brctl accepts either "on" or "yes" to enable STP, otherwise it disables it, so using the existing loop to force the value to either "yes" or "no".
 
 - **PR** `#21636`_: (*basepi*) Gate salt.utils.cloud (imports msgpack) in config.py for salt-ssh
+  | closed at 2015-03-13T22:28:14Z
 
   - **ISSUE** `#21226`_: (*jcftang*) salt-ssh:  Unable to import msgpack or msgpack_pure python modules
     | refs: `#21636`_
@@ -448,6 +498,7 @@ Changes:
   * 3ef09d3 Gate salt.utils.cloud (imports msgpack) in config.py for salt-ssh
 
 - **PR** `#21626`_: (*rallytime*) Backport `#21622`_ to 2014.7
+  | closed at 2015-03-13T22:26:40Z
 
   - **ISSUE** `#21423`_: (*roflmao*) Function file.managed is run everytime on user = number
     | refs: `#21622`_
@@ -457,26 +508,31 @@ Changes:
   * b28dba2 Teach file.check_perms to handle uids and gids.
 
 - **PR** `#21645`_: (*rallytime*) Set the vm_ password before calling salt.utils.bootstrap
+  | closed at 2015-03-13T21:16:07Z
 
   * 1b6e14c Merge pull request `#21645`_ from rallytime/set_password_linode
   * 843a7ee Set the vm_ password before calling salt.utils.bootstrap
 
 - **PR** `#21637`_: (*highlyunavailable*) Increase the timeout of boto route53 module
+  | closed at 2015-03-13T20:15:11Z
 
   * 3407360 Merge pull request `#21637`_ from highlyunavailable/increase_boto_route53_timeout
   * 2a7c563 Increase the timeout of boto route53 application
 
 - **PR** `#21632`_: (*rallytime*) Add minimum version dependency for linode-python in docs
+  | closed at 2015-03-13T17:56:10Z
 
   * 2db9f68 Merge pull request `#21632`_ from rallytime/linode_doc_update
   * 01c8f94 Add minimum version dependency for linode-python in docs
 
 - **PR** `#21631`_: (*cro*) Remove linodepy.py in favor of linode.py.
+  | closed at 2015-03-13T17:55:37Z
 
   * cfd8173 Merge pull request `#21631`_ from cro/remove_linodepy
   * 47a9459 Remove linodepy.py in favor of linode.py
 
 - **PR** `#21621`_: (*tjstansell*) fixed `#21620`_ so delay: 0 works correctly for network.managed interfaces
+  | closed at 2015-03-13T15:23:41Z
 
   - **ISSUE** `#21620`_: (*tjstansell*) rh_ip templates cannot set DELAY=0
     | refs: `#21621`_
@@ -484,6 +540,7 @@ Changes:
   * bb63049 fixed `#21620`_ so delay: 0 works correctly for network.managed interfaces
 
 - **PR** `#21605`_: (*highlyunavailable*) Fix tar state options
+  | closed at 2015-03-13T15:15:33Z
 
   - **ISSUE** `#20795`_: (*Bilge*) archive.extracted tar_options does not support long options or non-option parameters
     | refs: `#21605`_
@@ -491,6 +548,7 @@ Changes:
   * 133318f Fix tar state options
 
 - **PR** `#21593`_: (*jfindlay*) add 802.3ad to debian_ip tunnel modes
+  | closed at 2015-03-13T15:15:16Z
 
   - **PR** `#21239`_: (*mnguyen1289*) IPV4 mode should accept all modes
     | refs: `#21593`_
@@ -498,11 +556,13 @@ Changes:
   * 01d6056 add 802.3ad to debian_ip tunnel modes
 
 - **PR** `#21600`_: (*eliasp*) Fix parsing of NTP servers on Windows.
+  | closed at 2015-03-12T20:10:47Z
 
   * 14efe70 Merge pull request `#21600`_ from eliasp/2014.7-salt.modules.win_ntp-parsing-NtpServer
   * 60675de Fix parsing of NTP servers on Windows.
 
 - **PR** `#21544`_: (*RobertFach*) fix blockdev.tune issue, where blockdev.tune doesn't report changes for ...
+  | closed at 2015-03-12T16:14:16Z
 
   - **ISSUE** `#21543`_: (*RobertFach*) module blockdev.tune broken 2014.7.x /develop
     | refs: `#21544`_ `#21587`_
@@ -510,6 +570,7 @@ Changes:
   * a8873d0 fixed pylint issue with comparison to True
 
 - **PR** `#21587`_: (*RobertFach*) Fix 21546 blockdev tune state change issue
+  | closed at 2015-03-12T15:56:57Z
 
   - **ISSUE** `#21546`_: (*RobertFach*) state change detection for blockdev.tune broken 2014.7.x /develop
     | refs: `#21587`_
@@ -529,6 +590,7 @@ Changes:
   * d29bb2f fix blockdev.tune issue, where blockdev.tune doesn't report changes for read-write option and where it didn't translate boolean options properly, causing the underlying blockdev call to fail
 
 - **PR** `#21568`_: (*jfindlay*) Don't obfuscate internal distutils attributes
+  | closed at 2015-03-12T00:36:47Z
 
   - **ISSUE** `#21522`_: (*Diaoul*) python setup.py -V crashes
     | refs: `#21559`_ `#21568`_
@@ -538,6 +600,7 @@ Changes:
   * e6f8ea3 Don't obfuscate internal distutils attributes
 
 - **PR** `#21514`_: (*rallytime*) Apply fix from `#21489`_ to the 2014.7 branch
+  | closed at 2015-03-11T21:05:57Z
 
   - **ISSUE** `#20787`_: (*pruiz*) pillar_source_merging_strategy: smart not working when using more than one renderer at shebang line
     | refs: `#21489`_
@@ -547,6 +610,7 @@ Changes:
   * ee159ff Apply fix from `#21489`_ to the 2014.7 branch
 
 - **PR** `#21562`_: (*cro*) Backport 21283 from develop.
+  | closed at 2015-03-11T21:05:43Z
 
   - **ISSUE** `#20932`_: (*dtoubelis*) Exception when calling create method on openstack cloud provider from reactor sls
     | refs: `#21283`_
@@ -567,6 +631,7 @@ Changes:
   * 8d34dcd use ex_get_node_details if instance_id is specified
 
 - **PR** `#21487`_: (*rallytime*) Backport `#21469`_ to 2014.7
+  | closed at 2015-03-11T21:05:08Z
 
   - **ISSUE** `#20198`_: (*jcftang*) virt.get_graphics, virt.get_nics are broken, in turn breaking other things
   - **PR** `#21469`_: (*vdesjardins*) fixes `#20198`_: virt.get_graphics and virt.get_nics calls in module virt
@@ -580,6 +645,7 @@ Changes:
 
 - **PR** `#21559`_: (*s0undt3ch*) Don't obfuscate the internal version attribute
   | refs: `#21568`_
+  | closed at 2015-03-11T20:36:36Z
 
   - **ISSUE** `#21522`_: (*Diaoul*) python setup.py -V crashes
     | refs: `#21559`_ `#21568`_
@@ -587,6 +653,7 @@ Changes:
   * e5a7158 Don't obfuscate the internal version attribute
 
 - **PR** `#21557`_: (*s0undt3ch*) [2014.7] Update the bootstrap script to latest stable, v2015.03.15
+  | closed at 2015-03-11T20:27:18Z
 
   - **ISSUE** `#555`_: (*syphernl*) Allow states to be called via wildcard
     | refs: `#21557`_
@@ -594,6 +661,7 @@ Changes:
   * 397f45e Update the bootstrap script to latest stable, v2015.03.15
 
 - **PR** `#21523`_: (*jfindlay*) backport `#21481`_ to 2014.7
+  | closed at 2015-03-11T20:21:33Z
 
   - **ISSUE** `#21057`_: (*freimer*) Windows saltutil.kill_job
     | refs: `#21244`_
@@ -605,6 +673,7 @@ Changes:
   * 08bd476 Fixed an error with SIGKILL on windows
 
 - **PR** `#21555`_: (*ross-p*) Fix for issue `#21491`_
+  | closed at 2015-03-11T20:21:18Z
 
   - **ISSUE** `#21491`_: (*martin-helmich*) composer.installed should not always "return True" when composer.lock is present
     | refs: `#21553`_
@@ -618,16 +687,19 @@ Changes:
   * 3f3218d Fix for issue `#21491`_
 
 - **PR** `#21564`_: (*eliasp*) Typo (rendered → renderer)
+  | closed at 2015-03-11T20:20:12Z
 
   * 8cd4849 Merge pull request `#21564`_ from eliasp/patch-1
   * bc9a30b Typo (rendered â renderer)
 
 - **PR** `#21551`_: (*robgott*) updated s3.query function to return headers for successful requests
+  | closed at 2015-03-11T18:12:19Z
 
   * a531ab0 Merge pull request `#21551`_ from robgott/fix-s3.head-returning-none
   * 8999148 updated s3.query function to return headers array for successful requests fixes issue with s3.head returning None for files that exist
 
 - **PR** `#21162`_: (*cro*) Update linode salt-cloud driver to support using either linode-python or apache-libcloud
+  | closed at 2015-03-11T17:45:15Z
 
   * 0eb66a3 Merge pull request `#21162`_ from cro/linode-python-driver2
   * 93c5d92 AGH. LINT.
@@ -643,16 +715,19 @@ Changes:
   * f87cb72 Update linode salt-cloud driver to support using either linode-python or apache-libcloud
 
 - **PR** `#21536`_: (*eliasp*) Correct typo ('win_update.install' → 'win.update_installed').
+  | closed at 2015-03-11T15:17:28Z
 
   * 3012e98 Merge pull request `#21536`_ from eliasp/2014.7-salt.states.win_update.py-typo
   * 0b02396 Correct typo ('win_update.install' â 'win.update_installed').
 
 - **PR** `#21510`_: (*twangboy*) Fixed disable function in win_service.py to actually disable service
+  | closed at 2015-03-10T21:14:31Z
 
   * d8f4160 Merge pull request `#21510`_ from twangboy/win_service
   * ed1b7dd Fixed disable function in win_service.py to actually disable service
 
 - **PR** `#21497`_: (*ross-p*) Backport of PR `#21358`_ to 2014.7
+  | closed at 2015-03-10T21:12:30Z
 
   - **ISSUE** `#21349`_: (*ross-p*) Salt composer state now broken due to apparent change in PHP Composer's output
     | refs: `#21358`_
@@ -662,11 +737,13 @@ Changes:
   * 8083cf5 Backport of PR `#21358`_ to 2014.7
 
 - **PR** `#21488`_: (*jacobhammons*) Regenerated and updated man pages, updated release version in conf.py to...
+  | closed at 2015-03-10T15:31:39Z
 
   * f6f6afe Merge pull request `#21488`_ from jacobhammons/2014.7
   * 921d679 Regenerated and updated man pages, updated release version in conf.py to 2014.7.2
 
 - **PR** `#21437`_: (*rallytime*) Backport `#21409`_ to 2014.7
+  | closed at 2015-03-09T20:21:48Z
 
   - **PR** `#21409`_: (*jquast*) Gracefully handle race condition of 'makedirs'
     | refs: `#21437`_
@@ -674,6 +751,7 @@ Changes:
   * 8a65d8c Gracefully handle race condition in `makedirs'
 
 - **PR** `#21439`_: (*jfindlay*) remove 'master' reference in error message
+  | closed at 2015-03-09T19:33:00Z
 
   - **ISSUE** `#21301`_: (*syphernl*) Optimize error about sls missing on master if running masterless
     | refs: `#21439`_
@@ -681,12 +759,14 @@ Changes:
   * 3456ef6 remove 'master' reference in error message
 
 - **PR** `#21432`_: (*eliasp*) Fix `#21304`_ (backport of `#21431`_)
+  | closed at 2015-03-09T19:27:19Z
 
   - **ISSUE** `#21304`_: (*eliasp*) Failing `blkid` call in `salt.modules.disk.blkid()` isn't handled properly
   * 87591b3 Merge pull request `#21432`_ from eliasp/2014.7-`fix-21304`_
   * 1ff5cc2 Fix `#21304`_
 
 - **PR** `#21407`_: (*freimer*) Added status.master capability for Windows
+  | closed at 2015-03-09T16:55:17Z
 
   * 7a77375 Merge pull request `#21407`_ from freimer/issue_21405
   * 03c9e70 Added status.master capability for Windows
@@ -694,6 +774,7 @@ Changes:
   * fa0953c Added status.master capability for Windows
 
 - **PR** `#21411`_: (*terminalmage*) Fix file.recurse on root of gitfs/hgfs/svnfs repo
+  | closed at 2015-03-09T16:55:01Z
 
   - **ISSUE** `#20812`_: (*jasonrm*) Recurse failed with gitfs per-remote mountpoint and file.recurse
     | refs: `#21411`_
@@ -705,6 +786,7 @@ Changes:
   * 6f6f4b9 Fix file.recurse on root of gitfs repo
 
 - **PR** `#21380`_: (*lorengordon*) Fix logic conflict with `enabled` between service.running and service.dead
+  | closed at 2015-03-09T16:48:19Z
 
   - **ISSUE** `#20915`_: (*lorengordon*) Logic conflict with `changes` in service.running and service.dead?
     | refs: `#21380`_
@@ -716,6 +798,7 @@ Changes:
   * 91f499e Eliminate `enable` logic conflict
 
 - **PR** `#21395`_: (*jacksontj*) Backport fix for `#20494`_
+  | closed at 2015-03-07T01:38:00Z
 
   - **ISSUE** `#20494`_: (*lorengordon*) Traceback in output with `--log-level debug` on Windows
     | refs: `#21395`_
@@ -723,6 +806,7 @@ Changes:
   * ff8b47c Catch case where 'return' not in opts, or other ways to get an empty returner (as it will just fail anyways)
 
 - **PR** `#21355`_: (*The-Loeki*) Fix for comments containing whitespaces
+  | closed at 2015-03-07T00:27:33Z
 
   * fea6d83 Merge pull request `#21355`_ from The-Loeki/patch-1
   * bf6790b Update ssh_auth.py
@@ -732,16 +816,19 @@ Changes:
   * 6327479 Fix for comments containing whitespaces
 
 - **PR** `#21373`_: (*hvnsweeting*) bugfix: fix test mode in ssh_known_hosts
+  | closed at 2015-03-07T00:27:14Z
 
   * 3736c89 Merge pull request `#21373`_ from hvnsweeting/2014.7
   * 2a84598 bugfix: fix test mode in ssh_known_hosts
 
 - **PR** `#21381`_: (*rallytime*) Pylint fix for 2014.7 branch
+  | closed at 2015-03-06T19:14:26Z
 
   * 855d8cf Merge pull request `#21381`_ from rallytime/pylint_seven
   * b9f3b79 Pylint fix for 2014.7 branch
 
 - **PR** `#21374`_: (*sivann*) better grains.virtual through systemd-detect-virt and virt-what, fixes issue `#21218`_
+  | closed at 2015-03-06T16:01:39Z
 
   - **ISSUE** `#21218`_: (*sivann*) grain virtual not working for CentOS 7 in Google Compute Engine
     | refs: `#21374`_
@@ -751,6 +838,7 @@ Changes:
   * 9d4fcdd better grains.virtual through systemd-detect-virt and virt-what, fixes issue `#21218`_
 
 - **PR** `#21310`_: (*devweasel*) Fixes for `#21114`_
+  | closed at 2015-03-06T15:59:02Z
 
   - **ISSUE** `#21114`_: (*devweasel*) states.keystone fails to create user-roles for more than 1 tenant/user (or remove them)
     | refs: `#21310`_
@@ -760,11 +848,13 @@ Changes:
   * 72b719f Fixes `#21114`_ [1/2]; keystone.user_present fails to create user-roles for more than 1 tenant/user
 
 - **PR** `#21346`_: (*MrMarvin*) * fixes states.network bonding for debian
+  | closed at 2015-03-06T15:56:16Z
 
   * be4405f Merge pull request `#21346`_ from sinnerschrader/fix/2014_7_fix_ubuntu_network_bonding
   * fc7ee45 * fixes states.network bonding for debian
 
 - **PR** `#21360`_: (*terminalmage*) Fix traceback in sysctl.present state output
+  | closed at 2015-03-06T15:45:41Z
 
   - **ISSUE** `#21300`_: (*ferricoxide*) sysctl.present dumps a traceback if driver disabled
     | refs: `#21360`_
@@ -772,6 +862,7 @@ Changes:
   * 1322181 Fix traceback in sysctl.present state output
 
 - **PR** `#21366`_: (*d--j*) Make debian_ip.get_interface not remove dns-nameservers
+  | closed at 2015-03-06T15:43:18Z
 
   - **ISSUE** `#18318`_: (*arthurlogilab*) network.managed removes comments and some options in /etc/network/interfaces
     | refs: `#21366`_
@@ -779,16 +870,19 @@ Changes:
   * 32c7547 Make debian_ip not remove dns-nameservers
 
 - **PR** `#21308`_: (*s0undt3ch*) [2014.7] Update the bootstrap script to latest stable v2015.03.04
+  | closed at 2015-03-04T18:01:03Z
 
   * a5a14ff Merge pull request `#21308`_ from s0undt3ch/2014.7
   * 26f07a0 Update the bootstrap script to latest stable v2015.03.04
 
 - **PR** `#21302`_: (*nmadhok*) Adding src folder to .gitignore
+  | closed at 2015-03-04T15:39:48Z
 
   * 0775966 Merge pull request `#21302`_ from nmadhok/add-src-gitignore
   * 67c1c4a Adding src folder to .gitignore
 
 - **PR** `#21269`_: (*RobertFach*) fixed issue which causes mount.mounted to fail when superopts are not pa...
+  | closed at 2015-03-04T15:36:32Z
 
   - **ISSUE** `#21215`_: (*nirnx*) Mount state failed after upgrade
     | refs: `#21269`_
@@ -796,16 +890,19 @@ Changes:
   * 86852e5 fixed issue which causes mount.mounted to fail when superopts are not part of mount.active (extended=True), this fix will also fix potential problems with Solaris and FreeBSD
 
 - **PR** `#21289`_: (*hvnsweeting*) do not log at error lvl for ssh-keygen check command
+  | closed at 2015-03-04T06:23:40Z
 
   * ce4d97f Merge pull request `#21289`_ from hvnsweeting/2014.7
   * fa10a97 do not log at error lvl for check command
 
 - **PR** `#21275`_: (*terminalmage*) Fix invalid kwarg output
+  | closed at 2015-03-03T21:13:47Z
 
   * da6eb8b Merge pull request `#21275`_ from terminalmage/fix-invalid-kwargs
   * 9e8ce47 Fix invalid kwarg output
 
 - **PR** `#21050`_: (*lorengordon*) Fix file.replace regressions, fixes saltstack`#20970`_ and saltstack`#20603`_
+  | closed at 2015-03-03T16:42:02Z
 
   - **ISSUE** `#20970`_: (*lorengordon*) file.replace doesn't replace `pattern` when `repl` exists
     | refs: `#21050`_
@@ -819,26 +916,31 @@ Changes:
   * fef427b Fix file.replace regressions, fixes saltstack`#20970`_ and saltstack`#20603`_
 
 - **PR** `#21253`_: (*freimer*) Fix for Python (Win32) without a signal.SIGKILL
+  | closed at 2015-03-03T16:38:49Z
 
   * aa03bac Merge pull request `#21253`_ from freimer/issue_21057_2014.7
   * 580afe7 Fix for Python (Win32) without a signal.SIGKILL
 
 - **PR** `#21242`_: (*jfindlay*) indent quoted code in cmdmod tests
+  | closed at 2015-03-03T16:37:36Z
 
   * 8e63572 Merge pull request `#21242`_ from jfindlay/cmd_tests
   * a6b86ef indent quoted code in cmdmod tests
 
 - **PR** `#21182`_: (*ndenev*) Make sure tmp_dir does not end in a slash, and remove extra escapes.
+  | closed at 2015-03-03T01:02:10Z
 
   * 5f3b818 Merge pull request `#21182`_ from ndenev/2014.7
   * d243c36 Merge remote-tracking branch 'upstream/2014.7' into 2014.7
 
 - **PR** `#21200`_: (*UtahDave*) Cherry pick back to 2014.7 branch - convert datetime objects to strings
+  | closed at 2015-03-02T04:06:02Z
 
   * 6577a20 Merge pull request `#21200`_ from UtahDave/2014.7local
   * fc1c17b convert datetime objects to strings
 
 - **PR** `#21179`_: (*whiteinge*) Improved presence docs; added cross-references and localhost caveat
+  | closed at 2015-03-01T16:40:44Z
 
   - **ISSUE** `#18436`_: (*pass-by-value*) Presence event returns with an empty list
     | refs: `#21179`_
@@ -854,16 +956,19 @@ Changes:
   * e857425 - Make sure tmp_dir does not end in a slash. - Avoid escaping tmp_dir as this causes issues on FreeBSD's tcsh shell   (default for root). Also this is more consistent with rest of the code   where tmp_dir is not escaped.
 
 - **PR** `#21125`_: (*jfindlay*) add cmd module integration tests
+  | closed at 2015-02-28T16:24:42Z
 
   * 5bbc21f Merge pull request `#21125`_ from jfindlay/cmd_tests
   * 17b8f73 add cmd module integration tests
 
 - **PR** `#21151`_: (*s0undt3ch*) [2014.7] Update bootstrap script to latest stable, v2015.02.28
+  | closed at 2015-02-28T16:04:41Z
 
   * 36776e7 Merge pull request `#21151`_ from s0undt3ch/2014.7
   * 0e5adac Update bootstrap script to latest stable, v2015.02.28
 
 - **PR** `#21103`_: (*s0undt3ch*) [2014.7] Update the bootstrap script to latest stable v2015.02.27
+  | closed at 2015-02-27T04:13:44Z
 
   - **ISSUE** `#496`_: (*syphernl*) apache.version shows 'apache2ctl' if Apache is missing
     | refs: `#533`_
@@ -873,6 +978,7 @@ Changes:
   * 6248c6e Update the bootstrap script to latest stable v2015.02.27
 
 - **PR** `#21095`_: (*jond64*) Fix for `#21039`_
+  | closed at 2015-02-27T01:10:01Z
 
   - **ISSUE** `#21039`_: (*jond64*) non zero return code with salt-call --retcode-passthrough and ignore_retcode=True
     | refs: `#21095`_
@@ -880,6 +986,7 @@ Changes:
   * 0a0f3f9 Fix for `#21039`_
 
 - **PR** `#21058`_: (*terminalmage*) Support Chocolatey 0.9.9+
+  | closed at 2015-02-26T18:08:38Z
 
   * 7892d62 Merge pull request `#21058`_ from terminalmage/fix-chocolatey-0.9.9
   * ae5cad1 Add imp to windows freezer_includes
@@ -887,6 +994,7 @@ Changes:
   * 43e15d8 Support Chocolatey 0.9.9+
 
 - **PR** `#21070`_: (*RobertFach*) fixed issue where user option is internally transformed to username whic...
+  | closed at 2015-02-26T18:07:54Z
 
   - **ISSUE** `#21067`_: (*RobertFach*) mount state change detection issue, doesn't support user=XX option (2014.7.x)
     | refs: `#21070`_
@@ -896,6 +1004,7 @@ Changes:
   * 03ec03e fixed issue where user option is internally transformed to username which is what /proc/mounts reports for cifs mounts
 
 - **PR** `#21076`_: (*RobertFach*) fixed invalid changes data issue
+  | closed at 2015-02-26T17:49:00Z
 
   - **ISSUE** `#21043`_: (*RobertFach*) lvm state/module functions report invalid change data (2014.7.x)
     | refs: `#21076`_
@@ -903,6 +1012,7 @@ Changes:
   * c943195 fixed invalid changes data issue
 
 - **PR** `#21077`_: (*terminalmage*) Add missing function config.gather_bootstrap_script
+  | closed at 2015-02-26T17:48:41Z
 
   * 84a20d7 Merge pull request `#21077`_ from terminalmage/add-bootstrap
   * 3e276d9 add missing import
@@ -912,6 +1022,7 @@ Changes:
   * a3b0549 Add missing config.gather_bootstrap_script
 
 - **PR** `#21069`_: (*RobertFach*) added options auto, users to mount invisible options
+  | closed at 2015-02-26T16:29:01Z
 
   - **ISSUE** `#21068`_: (*RobertFach*) Forced remount because options changed when no options changed (option=[auto,users]) (2014.7)
     | refs: `#21069`_
@@ -919,6 +1030,7 @@ Changes:
   * f42cd1c added options auto, users to mount invisible options
 
 - **PR** `#21063`_: (*jond64*) Backport `#16306`_ to 2014.7
+  | closed at 2015-02-26T16:20:09Z
 
   - **PR** `#16306`_: (*hathawsh*) This patch fixes the 'test' mode of the 'network' state module.
     | refs: `#21063`_
@@ -926,12 +1038,14 @@ Changes:
   * 3c061ac Fix the 'test' mode of the 'network' state module.  It hit false positives due to inconsistent newline handling.
 
 - **PR** `#21052`_: (*lorengordon*) Convert `pattern` to string, fixes saltstack`#21051`_
+  | closed at 2015-02-26T02:58:34Z
 
   - **ISSUE** `#21051`_: (*lorengordon*) TypeError in file.replace if the pattern is a string of numbers
   * 70276a9 Merge pull request `#21052`_ from lorengordon/file-replace-convert-pattern-to-string
   * 3d5d594 Convert `pattern` to string, fixes saltstack`#21051`_
 
 - **PR** `#20854`_: (*terminalmage*) VCS fileserver backend fixes/optimizations
+  | closed at 2015-02-26T01:09:17Z
 
   - **ISSUE** `#21021`_: (*JPT580*) Bad gitfs_remote breaks sls-files in subdirectories for state.(sls|highstate)
     | refs: `#20854`_
@@ -1055,6 +1169,7 @@ Changes:
   * 129851e gitfs: fix new branch detection (GitPython)
 
 - **PR** `#21023`_: (*rallytime*) Backport `#19303`_ to 2014.7
+  | closed at 2015-02-26T01:07:00Z
 
   - **ISSUE** `#18358`_: (*msciciel*) Problem with batch execution
     | refs: `#19303`_
@@ -1068,6 +1183,7 @@ Changes:
   * bf2b8de Just use ckminions in batch mode.
 
 - **PR** `#21047`_: (*jfindlay*) simplify yaml parsing for publish module
+  | closed at 2015-02-26T00:44:02Z
 
   - **ISSUE** `#18317`_: (*mikn*) Argument lists for module calls through publish.publish does not work any more
     | refs: `#20992`_
@@ -1077,6 +1193,7 @@ Changes:
   * e2e59da simplify yaml parsing for publish module
 
 - **PR** `#21034`_: (*basepi*) [2014.7] Fix for salt-ssh without command line parsers
+  | closed at 2015-02-25T23:13:03Z
 
   - **ISSUE** `#20418`_: (*Xiol*) Permission denied error on salt-ssh deploy dir
     | refs: `#21034`_
@@ -1084,6 +1201,7 @@ Changes:
   * 1700d0c Fix for salt-ssh without command line parsers
 
 - **PR** `#21032`_: (*rallytime*) Backport `#21024`_ to 2014.7
+  | closed at 2015-02-25T23:12:16Z
 
   - **PR** `#21024`_: (*ptonelli*) fix set_locale when no locale is defined initially in RedHat family
     | refs: `#21032`_
@@ -1095,6 +1213,7 @@ Changes:
   * 4e338a0 fix set_locale when locale file does not exist (in RedHat family)
 
 - **PR** `#21028`_: (*rallytime*) Use LooseVersion instead of StrictVersion to use an RC version of MongoDB
+  | closed at 2015-02-25T22:55:29Z
 
   - **ISSUE** `#21012`_: (*hackel*) mongodb module incompatible with MongoDB 3.0 RCs
     | refs: `#21028`_
@@ -1102,12 +1221,14 @@ Changes:
   * aedc911 Use LooseVersion instead of StrictVersion to use an RC version of MongoDB
 
 - **PR** `#21022`_: (*nitti*) correctly count active devices when creating a mdadm array with spares
+  | closed at 2015-02-25T17:22:30Z
 
   * 92a71b7 Merge pull request `#21022`_ from nitti/2014.7
   * 0753901 correctly count raid devices when creating an array with spares
 
 - **PR** `#20992`_: (*jfindlay*) fix arg preparation for publish module
   | refs: `#21047`_
+  | closed at 2015-02-25T16:39:33Z
 
   - **ISSUE** `#18317`_: (*mikn*) Argument lists for module calls through publish.publish does not work any more
     | refs: `#20992`_
@@ -1117,6 +1238,7 @@ Changes:
   * cec5ba3 improve publish arg yamlifying, fixes `#18317`_
 
 - **PR** `#21002`_: (*rallytime*) Moar digitalocean tests
+  | closed at 2015-02-25T16:36:25Z
 
   * 009012f Merge pull request `#21002`_ from rallytime/moar_digitalocean_tests
   * e5c4cf8 Move tearDown functionality into test_instance
@@ -1124,11 +1246,13 @@ Changes:
   * b2bc55f Add some more tests to catch API changes for digital ocean
 
 - **PR** `#21013`_: (*wt*) Add version to a deprecation log message.
+  | closed at 2015-02-25T16:14:05Z
 
   * 117d335 Merge pull request `#21013`_ from wt/2014.7_add_log_for_yaml_filter
   * 28b47c1 Add version to a deprecation log message.
 
 - **PR** `#20984`_: (*rallytime*) Switch modprobe -r to rmmod in kmod.remove
+  | closed at 2015-02-24T22:32:21Z
 
   - **ISSUE** `#18725`_: (*wrigtim*) salt.modules.kmod.remove - 'modprobe -r' will not remove a module if the .ko is missing
     | refs: `#20984`_
@@ -1136,6 +1260,7 @@ Changes:
   * 931f555 Switch modprobe -r to rmmod in kmod.remove
 
 - **PR** `#20990`_: (*joehoyle*) Backport fix `#20987`_
+  | closed at 2015-02-24T22:29:21Z
 
   - **PR** `#20987`_: (*joehoyle*) Fix typo in s3fs fix
     | refs: `#20990`_
@@ -1143,6 +1268,7 @@ Changes:
   * f0ba7ee Fixed typo, doh!
 
 - **PR** `#20983`_: (*basepi*) [2014.7] Backport `#20304`_ to catch msgpack errors in cmd.run
+  | closed at 2015-02-24T21:23:15Z
 
   - **ISSUE** `#20276`_: (*mventimi*) salt-ssh operations fail with "'msgpack' not defined" error
     | refs: `#20304`_
@@ -1151,16 +1277,19 @@ Changes:
   * d289084 Backport `#20304`_ to catch msgpack errors in cmd.run in 2014.7
 
 - **PR** `#20957`_: (*jfindlay*) adding cmd.run integration tests
+  | closed at 2015-02-24T03:04:04Z
 
   * 00e3dc3 Merge pull request `#20957`_ from jfindlay/cmd_tests
   * 5ab5380 adding cmd.run integration tests
 
 - **PR** `#20937`_: (*wt*) Log when the yaml filter outputs trailing ellipsis.
+  | closed at 2015-02-24T02:14:42Z
 
   * 2cbf8e9 Merge pull request `#20937`_ from wt/2014.7_add_log_for_yaml_filter
   * f037dcf Log when the yaml filter outputs trailing ellipsis.
 
 - **PR** `#20954`_: (*rallytime*) Backport `#20891`_ to 2014.7
+  | closed at 2015-02-24T02:02:00Z
 
   - **PR** `#20891`_: (*jfindlay*) pylint `#20814`_
     | refs: `#20954`_
@@ -1170,6 +1299,7 @@ Changes:
   * b0a4e48 Fix disk.usage for Synology OS
 
 - **PR** `#20953`_: (*rallytime*) Backport `#20888`_ to 2014.7
+  | closed at 2015-02-24T00:01:01Z
 
   - **PR** `#20888`_: (*jfindlay*) pylint `#20885`_
     | refs: `#20953`_
@@ -1179,6 +1309,7 @@ Changes:
   * 86029e7 Trim the env base off the dest file path in the s3fs fileserver
 
 - **PR** `#20951`_: (*rallytime*) Backport `#20837`_ to 2014.7
+  | closed at 2015-02-23T23:44:08Z
 
   - **PR** `#20837`_: (*viktorkrivak*) Fix multi comps and multi dist bugs
     | refs: `#20951`_
@@ -1186,6 +1317,7 @@ Changes:
   * 5d1bc21 Fix multi comps and multi dist bugs
 
 - **PR** `#20922`_: (*bbinet*) 2014.7: fix issue 20921
+  | closed at 2015-02-23T15:35:02Z
 
   - **ISSUE** `#20921`_: (*bbinet*) 2014.7 regression: InvalidRepository: Invalid repository name (debian:wheezy)
     | refs: `#20922`_
@@ -1195,16 +1327,19 @@ Changes:
   * c53ce9d Docker: improve tags support
 
 - **PR** `#20895`_: (*bechtoldt*) fix wrong dict access in smtp returner in 2014.7
+  | closed at 2015-02-21T14:02:48Z
 
   * 081867c Merge pull request `#20895`_ from bechtoldt/2014.7
   * 8ee52d6 fix wrong dict access in smtp returner, that is already fixed in 2015.2 and later
 
 - **PR** `#20880`_: (*thatch45*) fix bug from systems without any legacy init scripts
+  | closed at 2015-02-21T00:47:34Z
 
   * 964e77e Merge pull request `#20880`_ from thatch45/systemd_listdir
   * 626e13a fix bug from systems without any legacy init scripts
 
 - **PR** `#20881`_: (*thatch45*) Remove requisites from listen post calls
+  | closed at 2015-02-21T00:41:17Z
 
   - **ISSUE** `#20863`_: (*clinta*) listen and require conflict
     | refs: `#20881`_
@@ -1212,6 +1347,7 @@ Changes:
   * 44cda29 Remove requisites from listen post calls
 
 - **PR** `#20856`_: (*jrgp*) Don't remount loop back filesystems upon every state run
+  | closed at 2015-02-20T23:58:33Z
 
   - **ISSUE** `#20855`_: (*jrgp*) Loopback filesystems always remount (option=loop) regardless of zero changes (2014.7)
     | refs: `#20856`_
@@ -1219,6 +1355,7 @@ Changes:
   * 8dbfed6 Don't remount loop back filesystems upon every state run
 
 - **PR** `#20866`_: (*terminalmage*) Update the RHEL installation guide
+  | closed at 2015-02-20T20:37:23Z
 
   - **ISSUE** `#20742`_: (*transmutated*) Broken Dependencies for new salt installation on Redhat/CentOS 5.X using epel5 repo
     | refs: `#20866`_
@@ -1226,6 +1363,7 @@ Changes:
   * 396e234 Update the RHEL installation guide
 
 - **PR** `#20848`_: (*rallytime*) Integration tests for the new requisites added in 2014.7
+  | closed at 2015-02-20T01:29:00Z
 
   * ca79845 Merge pull request `#20848`_ from rallytime/new_requisites_tests
   * c3f786c listen and listen_in requisite tests
@@ -1237,11 +1375,13 @@ Changes:
   * 8f0e80b Add one onchanges requisite test
 
 - **PR** `#20847`_: (*rallytime*) Add listen and listen_in to state internal kwargs
+  | closed at 2015-02-19T23:43:50Z
 
   * c9b766c Merge pull request `#20847`_ from rallytime/state_kwargs
   * 5d22cba Add listen and listen_in to state internal kwargs
 
 - **PR** `#20839`_: (*rallytime*) Backport `#20608`_ to 2014.7
+  | closed at 2015-02-19T20:07:45Z
 
   - **PR** `#20608`_: (*cachedout*) Avoid trying to deserialize empty files
     | refs: `#20839`_
@@ -1249,22 +1389,26 @@ Changes:
   * e4ced3e Avoid trying to deserialize empty files
 
 - **PR** `#20842`_: (*thatch45*) Add requisite ins to state internal kwargs
+  | closed at 2015-02-19T20:06:07Z
 
   * 2ef28c7 Merge pull request `#20842`_ from thatch45/state_kwargs
   * 97cda22 Add requisite ins to state internal kwargs
 
 - **PR** `#20834`_: (*peresadam*) Fixed dict unpacking in salt.utils.format_call
+  | closed at 2015-02-19T17:41:24Z
 
   * e488572 Merge pull request `#20834`_ from peresadam/fix_format_call_2014.7
   * b50497b Fixed dict unpacking in salt.utils.format_call
 
 - **PR** `#20831`_: (*RobertFach*) added nointr invisible mount option
+  | closed at 2015-02-19T17:40:24Z
 
   - **ISSUE** `#20828`_: (*RobertFach*) Forced remount because options changed when no options changed (option=nointr) (2014.7)
   * 3f42cf3 Merge pull request `#20831`_ from RobertFach/`fix-20828`_-mount-nointr
   * 6855ca1 added nointr invisible mount option
 
 - **PR** `#20613`_: (*jfindlay*) change incorrect 'text' outputter to 'txt'
+  | closed at 2015-02-19T17:15:17Z
 
   - **ISSUE** `#20612`_: (*jfindlay*) always change 'text' outputter to 'txt'
     | refs: `#20613`_
@@ -1274,16 +1418,19 @@ Changes:
   * f202aaf change incorrect 'text' outputter to 'txt'
 
 - **PR** `#20813`_: (*rallytime*) Update Arch installation docs to reference salt-zmq and salt-raet pkgs
+  | closed at 2015-02-18T23:25:46Z
 
   * 71ccd5e Merge pull request `#20813`_ from rallytime/arch_installation_docs
   * 9322d3b Update Arch installation docs to reference salt-zmq and salt-raet pkgs
 
 - **PR** `#20810`_: (*rallytime*) Add 2014.7.2 package links to the windows installer docs
+  | closed at 2015-02-18T21:54:47Z
 
   * f669b25 Merge pull request `#20810`_ from rallytime/windows_install_docs_update
   * 928bb30 Add 2014.7.2 package links to the windows installer docs
 
 - **PR** `#20800`_: (*rallytime*) Backport `#20768`_ to 2014.7
+  | closed at 2015-02-18T17:59:31Z
 
   - **PR** `#20768`_: (*vladislav-jomedia*) "dictionary changed size during iteration" issue fixed in config.py for ...
     | refs: `#20800`_
@@ -1293,6 +1440,7 @@ Changes:
   * 89fd8ee "dictionary changed size during iteration" issue fixed in config.py for salt-cloud
 
 - **PR** `#20778`_: (*terminalmage*) Add Synology OS detection
+  | closed at 2015-02-18T00:38:32Z
 
   - **ISSUE** `#18943`_: (*Diaoul*) Synology support
     | refs: `#20778`_
@@ -1300,6 +1448,7 @@ Changes:
   * bd65632 Add Synology OS detection
 
 - **PR** `#20762`_: (*jfindlay*) fix nftables.get_rule_handle return error
+  | closed at 2015-02-17T20:01:39Z
 
   - **ISSUE** `#20747`_: (*jayeshka*) The function "get_rule_handle" in nftables module throw "Referenced before assignment" error.
     | refs: `#20762`_
@@ -1307,6 +1456,7 @@ Changes:
   * 6708cf1 fix nftables.get_rule_handle return error
 
 - **PR** `#20765`_: (*rallytime*) Backport `#20706`_ to 2014.7
+  | closed at 2015-02-17T19:36:10Z
 
   - **PR** `#20706`_: (*Achimh3011*) Make systemd impl. of service.running aware of legacy service units
     | refs: `#20765`_
@@ -1316,6 +1466,7 @@ Changes:
   * 40d6963 Make systemd implementation of service.running aware of legacy service units.
 
 - **PR** `#20739`_: (*mikn*) Giving publish.publish more robust return handling
+  | closed at 2015-02-17T19:31:17Z
 
   - **ISSUE** `#16510`_: (*UtahDave*) publish.publish completely unreliable in 2014.7 branch
     | refs: `#20739`_ `#20739`_
@@ -1325,6 +1476,7 @@ Changes:
   * 892db93 Giving publish.publish more robust handling of returns making sure that it can cope with duplicate responses and actually return what it has received if it reaches the timeout
 
 - **PR** `#20689`_: (*rallytime*) Backport `#20457`_ to 2014.7
+  | closed at 2015-02-17T04:58:43Z
 
   - **PR** `#20457`_: (*cachedout*) Iterate over the socket copy
     | refs: `#20689`_
@@ -1334,6 +1486,7 @@ Changes:
   * e4fd27a Iterate over the socket copy
 
 - **PR** `#20697`_: (*whiteinge*) Add note to rest_cherrypy instructions: restarting daemons is required
+  | closed at 2015-02-14T00:46:25Z
 
   * bdbb23d Merge pull request `#20697`_ from whiteinge/doc-rest_cherrypy-install-usage
   * 54e61e0 Minor clarifications to the rest_cherrypy setup/usage instructions
@@ -1341,6 +1494,7 @@ Changes:
   * 561ea7c Add note to rest_cherrypy instructions: restarting daemons is required
 
 - **PR** `#20684`_: (*rallytime*) Backport `#20232`_ to 2014.7
+  | closed at 2015-02-13T18:21:15Z
 
   - **PR** `#20232`_: (*jacksontj*) Remove unecessary finish() calls
     | refs: `#20684`_
@@ -1350,6 +1504,7 @@ Changes:
   * 8d63ac4 Remove unecessary finish() calls
 
 - **PR** `#20682`_: (*rallytime*) Add dependency notice to proxmox.rst
+  | closed at 2015-02-13T16:16:28Z
 
   - **ISSUE** `#14799`_: (*lparmentier-quatral*) Salt Cloud 2014.7 Provider issue
     | refs: `#20682`_
@@ -1357,6 +1512,7 @@ Changes:
   * 4805677 Add dependency notice to proxmox.rst
 
 - **PR** `#20671`_: (*whiteinge*) Reactor docs updates
+  | closed at 2015-02-13T00:39:31Z
 
   * cc544e5 Merge pull request `#20671`_ from whiteinge/doc-reactor-updates
   * 37017a5 Replace doc examples for event.fire_master with event.send
@@ -1364,21 +1520,25 @@ Changes:
   * f0b5ddb Updated Reactor docs to reference state.event instead of eventlisten
 
 - **PR** `#20641`_: (*whiteinge*) Updated the event docs with the current Python API and more examples
+  | closed at 2015-02-12T19:53:01Z
 
   * b898539 Merge pull request `#20641`_ from whiteinge/doc-events
   * 7de5f9d Updated the event docs with the current Python API and more examples
 
 - **PR** `#20640`_: (*rallytime*) Change the release notes title to 2014.7.2
+  | closed at 2015-02-12T18:44:29Z
 
   * f4a6b35 Merge pull request `#20640`_ from rallytime/fix_release_note_title
   * 3f9af9f Change the release notes title to 2014.7.2
 
 - **PR** `#20633`_: (*sbrandtb*) Fixed wrong placement of speechmarks
+  | closed at 2015-02-12T18:11:14Z
 
   * f79108b Merge pull request `#20633`_ from sbrandtb/fix_locale_speechmarks
   * 2fdb798 Fixed wrong placement of speechmarks
 
 - **PR** `#20616`_: (*rallytime*) Merge `#20419`_ with test syntax fix
+  | closed at 2015-02-12T17:38:53Z
 
   - **PR** `#20419`_: (*hvnsweeting*) bugfix: module function cmd.which would be wrong if arg is a dirname
     | refs: `#20616`_
@@ -1392,6 +1552,7 @@ Changes:
   * 76e9be1 bugfix: module function cmd.which would be wrong if arg is a dirname
 
 - **PR** `#20604`_: (*basepi*) [2014.7] Accept kali linux for aptpkg.py
+  | closed at 2015-02-11T22:07:41Z
 
   - **ISSUE** `#20552`_: (*resolan*) Kali systems integration for pkg states
     | refs: `#20604`_
@@ -1399,6 +1560,7 @@ Changes:
   * 0d1c0ab Accept kali linux for aptpkg.py
 
 - **PR** `#20591`_: (*rallytime*) Backport `#20568`_ to 2014.7
+  | closed at 2015-02-11T18:46:10Z
 
   - **PR** `#20568`_: (*cachedout*) Last time with find removed
     | refs: `#20591`_
@@ -1408,6 +1570,7 @@ Changes:
   * 194ad0f Last time with find removed
 
 - **PR** `#20578`_: (*rallytime*) Backport `#20561`_ to 2014.7
+  | closed at 2015-02-11T03:51:23Z
 
   - **PR** `#20561`_: (*cachedout*) Disable gitfs test that does not produce valuable data
     | refs: `#20578`_
@@ -1415,6 +1578,7 @@ Changes:
   * 836b525 Disable gitfs test that does not produce valuable data
 
 - **PR** `#20579`_: (*rallytime*) Backport `#20567`_ to 2014.7
+  | closed at 2015-02-11T02:56:23Z
 
   - **PR** `#20567`_: (*cachedout*) Remove another test.
     | refs: `#20579`_
@@ -1422,6 +1586,7 @@ Changes:
   * c41998c Remove another test.
 
 - **PR** `#20509`_: (*bechtoldt*) fix broken ipv6 address verification in salt.utils.validate.net, fixes `#20508`_
+  | closed at 2015-02-10T19:44:21Z
 
   - **ISSUE** `#20508`_: (*bechtoldt*) Backport ipv6 addr validation fix into 2014.7
   * 073d717 Merge pull request `#20509`_ from bechtoldt/2014.7-arbe
@@ -1434,6 +1599,7 @@ Changes:
   * ef7834d fix broken ipv6 address verification in salt.utils.validate.net
 
 - **PR** `#20500`_: (*eliasp*) Use same string encoding for results from all fileserver backends.
+  | closed at 2015-02-10T17:00:05Z
 
   - **ISSUE** `#20499`_: (*eliasp*) "UnicodeDecodeError" in 'fileserver.file_list()'
     | refs: `#20500`_
@@ -1441,6 +1607,7 @@ Changes:
   * 4951b78 Use same string encoding for results from all fileserver backends.
 
 - **PR** `#20534`_: (*rallytime*) Backport `#20454`_ to 2014.7
+  | closed at 2015-02-10T01:34:10Z
 
   - **PR** `#20454`_: (*scream3*) RVM user-only installation is broken
     | refs: `#20534`_
@@ -1448,6 +1615,7 @@ Changes:
   * f1aa693 Fix wrong check for rvm script existence
 
 - **PR** `#20533`_: (*rallytime*) Backport `#20521`_ to 2014.7
+  | closed at 2015-02-10T01:32:01Z
 
   - **PR** `#20521`_: (*umeboshi2*) don't use empty string as command parameter
     | refs: `#20533`_
