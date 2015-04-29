@@ -1,6 +1,6 @@
 .. code-block:: bash
 
-    There are 920 cached issues
+    There are 925 cached issues
     pulling 457 issues:
     ,,,,,,,+,,,,,,,,,+,,,,,,,,,,,,,,,+,,,,,,,,,,,++,,,,,,+,+,,,,,,,,,+,,+,+,,,,,,,,,,,,,+,,,,,,,,,,,,,,,,,,+,,,,,,,+,,+,,,,,,,,,,,,,,,,,,,,,+,,,,,,,,+,,,,,+,,,,,,,,,+,,,,,+,+,,,,,,,+,,,+,,,,,,,,,+,+,+,,+,,+,,+,+,+,,,,,,,,,,+,,+,,+,,,+,,,+,,,,+,,,,,+,,,,,,,+,,+,,,,+,,,+,+,,,,,,,,+,,+,,,+,,+,,,+,,,,+,,+,,,,,,+,,,,,,,,+,+,,,+,,+,+,,,,,,,,,+,,,+,,+,,,+,,+,,+,,+,,,,,,+,,+,,+,,,,+,,,,,,,+,,,,,,,,+,+,+,,,,,,,,+,,,,+,,,,,,,,,,,,+,,+,,,,,,,,,+,,,,,+,+,++,+,,,,,+,,++,,,+,,,,,,,,,,+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+,,,,,,,,+,+,,,+,,,,,+,,,,,,,,,
     pulling 90 issues:
@@ -1514,10 +1514,11 @@ Changes:
   * 7097cfd Merge pull request `#18770`_ from basepi/publish-prevent-fulldata
   * 0074842 Prevent all `publish.` calls from publish calls
 
-- **ISSUE** `#17963`_: (*alexeits*) Loading of Jinja macros from GitFS shouldn't fail with TemplateNotFound in masterless configuration
-  | refs: `#18792`_ `#18860`_
+* 00bf5da Add bugfix for `#17963`_ to 2014.7.1 releae notes
 
-  * 00bf5da Add bugfix for `#17963`_ to 2014.7.1 releae notes
+  - **ISSUE** `#17963`_: (*alexeits*) Loading of Jinja macros from GitFS shouldn't fail with TemplateNotFound in masterless configuration
+    | refs: `#18792`_ `#18860`_
+
 - **PR** `#18779`_: (*sjansen*) Restore salt-cloud ssh_gateway support
 
   * 2244ec3 Merge pull request `#18779`_ from sjansen/patch-2
