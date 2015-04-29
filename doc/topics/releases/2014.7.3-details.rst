@@ -19,7 +19,8 @@ Statistics:
 Changes:
 
 
-- 2015-03-25T19:08:31Z **PR** `#22002`_: (*basepi*) [2014.7] Backport `#21703`_
+- **PR** `#22002`_: (*basepi*) [2014.7] Backport `#21703`_
+  <span style='float:right'>*2015-03-25T19:08:31Z*</span>
 
   - **ISSUE** `#21657`_: (*rallytime*) salt-ssh cmd.run msgpack critical error
     | refs: `#21703`_
@@ -28,32 +29,37 @@ Changes:
   * 5fd1705 Merge pull request `#22002`_ from basepi/`bp-21703`_
   * 1470382 Catch TypeErrors from cmd.run jid_file functionality in salt-ssh
 
-- 2015-03-25T17:50:22Z **PR** `#21994`_: (*twangboy*) Used WMI to detect real osversion in Windows
+- **PR** `#21994`_: (*twangboy*) Used WMI to detect real osversion in Windows
+  <span style='float:right'>*2015-03-25T17:50:22Z*</span>
 
   - **ISSUE** `#15051`_: (*lorengordon*) On Windows 8.1 the grain 'osversion' is not detected correctly
     | refs: `#21994`_
   * c76ea26 Merge pull request `#21994`_ from twangboy/os_ver_15051
   * 2665ad4 Used WMI to detect real osversion in Windows
 
-- 2015-03-25T14:41:21Z **PR** `#21974`_: (*tjstansell*) fixes `#21952`_ - only read ssh host_key header for legacy binary format
+- **PR** `#21974`_: (*tjstansell*) fixes `#21952`_ - only read ssh host_key header for legacy binary format
+  <span style='float:right'>*2015-03-25T14:41:21Z*</span>
 
   - **ISSUE** `#21952`_: (*tjstansell*) salt.modules.ssh.host_keys should not read full private key in legacy binary format
     | refs: `#21974`_
   * 6424984 Merge pull request `#21974`_ from tjstansell/`fix-21952`_-2014.7
   * 4aaacfd fixes `#21952`_ - only read ssh host_key header for legacy binary format of private key
 
-- 2015-03-25T14:40:45Z **PR** `#21972`_: (*tjstansell*) fix `#21971`_ - ssh_host_key.pub should return as key.pub not key.pub.pub
+- **PR** `#21972`_: (*tjstansell*) fix `#21971`_ - ssh_host_key.pub should return as key.pub not key.pub.pub
+  <span style='float:right'>*2015-03-25T14:40:45Z*</span>
 
   - **ISSUE** `#21971`_: (*tjstansell*) salt.modules.ssh.host_keys returns ssh_host_key.pub as key.pub.pub in output
   * 7e36c57 Merge pull request `#21972`_ from tjstansell/`fix-21971`_
   * 383e21b fix `#21971`_ - ssh_host_key.pub should return as key.pub not key.pub.pub
 
-- 2015-03-25T04:03:09Z **PR** `#21968`_: (*ryanwohara*) Verifying the key has a value before using it.
+- **PR** `#21968`_: (*ryanwohara*) Verifying the key has a value before using it.
+  <span style='float:right'>*2015-03-25T04:03:09Z*</span>
 
   * b409209 Merge pull request `#21968`_ from ryanwohara/2014.7
   * cbb09b0 Verifying the key has a value before using it.
 
-- 2015-03-25T04:02:11Z **PR** `#21962`_: (*rallytime*) Apply nested outputter optimization fix to 2014.7
+- **PR** `#21962`_: (*rallytime*) Apply nested outputter optimization fix to 2014.7
+  <span style='float:right'>*2015-03-25T04:02:11Z*</span>
 
   - **PR** `#21920`_: (*fellyns*) refactor nested outputter for much better performance
     | refs: `#21962`_
@@ -62,19 +68,22 @@ Changes:
 
   * 15680cd Apply nested outputter optimization fix to 2014.7
 
-- 2015-03-25T01:27:47Z **PR** `#21965`_: (*basepi*) [2014.7] Catch msgpack error in file.recurse in salt-ssh
+- **PR** `#21965`_: (*basepi*) [2014.7] Catch msgpack error in file.recurse in salt-ssh
+  <span style='float:right'>*2015-03-25T01:27:47Z*</span>
 
   - **ISSUE** `#21922`_: (*arr2036*) salt-ssh NameError: global name 'msgpack' is not defined (salt-ssh 2014.7.2 (Helium))
     | refs: `#21965`_
   * d768fe8 Merge pull request `#21965`_ from basepi/salt-ssh.file.recurse.21922
   * 3d8b31f Catch msgpack error in file.recurse
 
-- 2015-03-24T23:32:25Z **PR** `#21963`_: (*cachedout*) Release note changes
+- **PR** `#21963`_: (*cachedout*) Release note changes
+  <span style='float:right'>*2015-03-24T23:32:25Z*</span>
 
   * cda629d Merge pull request `#21963`_ from cachedout/2014_7_3_changes
   * 2639f4b Release note changes
 
-- 2015-03-24T23:19:58Z **PR** `#21944`_: (*cachedout*) Prevent multi-master from dying with pillar refresh error
+- **PR** `#21944`_: (*cachedout*) Prevent multi-master from dying with pillar refresh error
+  <span style='float:right'>*2015-03-24T23:19:58Z*</span>
 
   * 39d2b5b Merge pull request `#21944`_ from cachedout/catch_pillar_refresh_error
   * e68306e Remove pass
@@ -87,7 +96,8 @@ Changes:
 
   * 5d0f2bc Prevent multi-master from dying with pillar refresh error
 
-- 2015-03-24T22:45:40Z **PR** `#21955`_: (*rallytime*) Add default for pillar_source_merging_strategy in conf/master file
+- **PR** `#21955`_: (*rallytime*) Add default for pillar_source_merging_strategy in conf/master file
+  <span style='float:right'>*2015-03-24T22:45:40Z*</span>
 
   - **ISSUE** `#21511`_: (*whiteinge*) Add default for pillar_source_merging_strategy in conf/master file
     | refs: `#21955`_
@@ -98,34 +108,40 @@ Changes:
 
   * 609dcdb Add default for pillar_source_merging_strategy in conf/master file
 
-- 2015-03-24T21:50:24Z **PR** `#21957`_: (*cachedout*) 2014.7.3 release notes
+- **PR** `#21957`_: (*cachedout*) 2014.7.3 release notes
+  <span style='float:right'>*2015-03-24T21:50:24Z*</span>
 
   * 16fbfa3 Merge pull request `#21957`_ from cachedout/2014_7_3_release_notes
   * e6d7062 2014.7.3 release notes
 
-- 2015-03-24T20:16:19Z **PR** `#21946`_: (*cro*) Clarify how defaults are indicated in the config files.
+- **PR** `#21946`_: (*cro*) Clarify how defaults are indicated in the config files.
+  <span style='float:right'>*2015-03-24T20:16:19Z*</span>
 
   * 4eb759f Merge pull request `#21946`_ from cro/defaults_clarification
   * a35f38a Clarify how defaults are indicated in the config files.
 
   * 5dbb0d4 Clarify how defaults are indicated in the config files.
 
-- 2015-03-24T18:25:02Z **PR** `#21941`_: (*thatch45*) Add a seperate loader base name path to multimaster
+- **PR** `#21941`_: (*thatch45*) Add a seperate loader base name path to multimaster
+  <span style='float:right'>*2015-03-24T18:25:02Z*</span>
 
   * dfb794b Merge pull request `#21941`_ from thatch45/load_base_name
   * 78fc0f8 Add a seperate loader base name path to multimaster
 
-- 2015-03-24T03:37:53Z **PR** `#21926`_: (*jfindlay*) fix network.iface module related stack traces
+- **PR** `#21926`_: (*jfindlay*) fix network.iface module related stack traces
+  <span style='float:right'>*2015-03-24T03:37:53Z*</span>
 
   * 278d293 Merge pull request `#21926`_ from jfindlay/fix_net
   * a16039c fix network.iface module related stack traces
 
-- 2015-03-24T01:25:54Z **PR** `#21921`_: (*jfindlay*) config gate net.arp on presence of arp
+- **PR** `#21921`_: (*jfindlay*) config gate net.arp on presence of arp
+  <span style='float:right'>*2015-03-24T01:25:54Z*</span>
 
   * d3e14e5 Merge pull request `#21921`_ from jfindlay/net_arp
   * 958bf09 config gate net.arp on presence of arp
 
-- 2015-03-24T01:22:22Z **PR** `#21811`_: (*jacksontj*) Re-work timeouts in saltnado
+- **PR** `#21811`_: (*jacksontj*) Re-work timeouts in saltnado
+  <span style='float:right'>*2015-03-24T01:22:22Z*</span>
 
   - **ISSUE** `#21707`_: (*baweaver*) [saltnado rest] local requests hang indefinitely on glob / grain queries
     | refs: `#21755`_
@@ -136,26 +152,30 @@ Changes:
 
   * f4d8fb5 Re-work timeouts in saltnado
 
-- 2015-03-24T01:19:07Z **PR** `#21918`_: (*rallytime*) Backport `#21885`_ to 2014.7
+- **PR** `#21918`_: (*rallytime*) Backport `#21885`_ to 2014.7
+  <span style='float:right'>*2015-03-24T01:19:07Z*</span>
 
   - **PR** `#21885`_: (*mattwillsher*) Remove check for physical virt type for salt.modules.virt.is_kvm_hyper()
     | refs: `#21918`_
   * 334a7b8 Merge pull request `#21918`_ from rallytime/`bp-21885`_
   * 78747b5 Remove check for physical virt type for KVM
 
-- 2015-03-23T21:56:03Z **PR** `#21901`_: (*cachedout*) Deep copy opts
+- **PR** `#21901`_: (*cachedout*) Deep copy opts
+  <span style='float:right'>*2015-03-23T21:56:03Z*</span>
 
   * e07220d Merge pull request `#21901`_ from cachedout/deepcopy_opts
   * 3a5f36d Deep copy opts
 
-- 2015-03-21T17:04:30Z **PR** `#21872`_: (*borgstrom*) Remove _locals from the final exec call in pyobjects (2014.7)
+- **PR** `#21872`_: (*borgstrom*) Remove _locals from the final exec call in pyobjects (2014.7)
+  <span style='float:right'>*2015-03-21T17:04:30Z*</span>
 
   - **ISSUE** `#21796`_: (*grischa*) pyobjects behaving weirdly when calling python stdlib package
     | refs: `#21872`_
   * ba083a6 Merge pull request `#21872`_ from borgstrom/issue-21796-2014.7
   * 3223a15 This fixes `#21796`_
 
-- 2015-03-20T20:19:32Z **PR** `#21861`_: (*twangboy*) Final (hopefully) improvements to the new build structure
+- **PR** `#21861`_: (*twangboy*) Final (hopefully) improvements to the new build structure
+  <span style='float:right'>*2015-03-20T20:19:32Z*</span>
 
   * af01dc7 Merge pull request `#21861`_ from twangboy/build
   * febef7e Update salt-cp.bat
@@ -166,7 +186,8 @@ Changes:
 
   * db64bef Updated BuildSalt and Salt-Minion-Setup.nsi - Fixed problem with missing folders and files - Fixed problem with detecting cpu architecture
 
-- 2015-03-20T19:44:24Z **PR** `#21854`_: (*jfindlay*) backport `#21791`_ to 2014.7
+- **PR** `#21854`_: (*jfindlay*) backport `#21791`_ to 2014.7
+  <span style='float:right'>*2015-03-20T19:44:24Z*</span>
 
   - **PR** `#21791`_: (*twangboy*) Added additional files for building windows installations
     | refs: `#21854`_
@@ -175,7 +196,8 @@ Changes:
 
   * 98944e9 Added file to slim the windows install
 
-- 2015-03-20T19:23:00Z **PR** `#21857`_: (*jfindlay*) backport `#21844`_ to 2014.7
+- **PR** `#21857`_: (*jfindlay*) backport `#21844`_ to 2014.7
+  <span style='float:right'>*2015-03-20T19:23:00Z*</span>
 
   - **ISSUE** `#19953`_: (*johanek*) lsb_distrib grains on CentOS/RHEL
     | refs: `#21844`_
@@ -184,7 +206,8 @@ Changes:
   * 9da5b33 Merge pull request `#21857`_ from jfindlay/`bp-21844`_
   * 4fe795f Always check other OS release files if lsb_distrib_id grain not populated from /etc/lsb-release
 
-- 2015-03-20T19:15:33Z **PR** `#21855`_: (*rallytime*) Backport `#21841`_ to 2014.7
+- **PR** `#21855`_: (*rallytime*) Backport `#21841`_ to 2014.7
+  <span style='float:right'>*2015-03-20T19:15:33Z*</span>
 
   - **ISSUE** `#6`_: (*thatch45*) Test module
   - **PR** `#21841`_: (*ticosax*) `override_params` contains the real list of allowed parameters
@@ -196,7 +219,8 @@ Changes:
 
   * a6d8105 `override_params` contains the real list of allowed parameters
 
-- 2015-03-20T18:56:31Z **PR** `#21851`_: (*rallytime*) Backport the fix in `#20781`_ manually to the 2014.7 branch
+- **PR** `#21851`_: (*rallytime*) Backport the fix in `#20781`_ manually to the 2014.7 branch
+  <span style='float:right'>*2015-03-20T18:56:31Z*</span>
 
   - **ISSUE** `#20735`_: (*Whissi*) All salt-minions died with an unhandled exceptions while salt-master was unavailable due to maintenance
     | refs: `#20781`_
@@ -207,14 +231,16 @@ Changes:
 
   * ba0560e Backport the fix in `#20781`_ manually to the 2014.7 branch
 
-- 2015-03-20T18:35:31Z **PR** `#21852`_: (*jfindlay*) backport `#21790`_ to 2014.7
+- **PR** `#21852`_: (*jfindlay*) backport `#21790`_ to 2014.7
+  <span style='float:right'>*2015-03-20T18:35:31Z*</span>
 
   - **PR** `#21790`_: (*twangboy*) Added files for the New Portable Salt Installer
     | refs: `#21852`_
   * ca33da7 Merge pull request `#21852`_ from jfindlay/`bp-21790`_
   * ced2e57 Added files for the New Portable Salt Installer
 
-- 2015-03-20T17:36:21Z **PR** `#21848`_: (*rallytime*) Backport `#21635`_ to 2014.7
+- **PR** `#21848`_: (*rallytime*) Backport `#21635`_ to 2014.7
+  <span style='float:right'>*2015-03-20T17:36:21Z*</span>
 
   - **ISSUE** `#21603`_: (*ipmb*) ssh_auth.present fails on key without comment
     | refs: `#21635`_
@@ -223,7 +249,8 @@ Changes:
   * c27692c Merge pull request `#21848`_ from rallytime/`bp-21635`_
   * c0f0414 check for ssh key comment
 
-- 2015-03-20T17:36:02Z **PR** `#21849`_: (*basepi*) [2014.7] saltutil.runner fixes
+- **PR** `#21849`_: (*basepi*) [2014.7] saltutil.runner fixes
+  <span style='float:right'>*2015-03-20T17:36:02Z*</span>
 
   - **ISSUE** `#21650`_: (*jfindlay*) saltutil.runner jobs.list_jobs is broken
     | refs: `#21849`_
@@ -232,7 +259,8 @@ Changes:
 
   * 4e881bb Clean the __pub kwargs for saltutil.runner
 
-- 2015-03-20T16:35:01Z **PR** `#21846`_: (*rallytime*) Backport `#21795`_ to 2014.7
+- **PR** `#21846`_: (*rallytime*) Backport `#21795`_ to 2014.7
+  <span style='float:right'>*2015-03-20T16:35:01Z*</span>
 
   - **ISSUE** `#20197`_: (*jhenry82*) Issue with multi-master and local job cache: An inconsistency occurred
     | refs: `#21846`_ `#21847`_
@@ -243,7 +271,8 @@ Changes:
   * 82299ed Merge pull request `#21846`_ from rallytime/`bp-21795`_
   * 56142ad Avoid dueling opts with fileclients in highstate
 
-- 2015-03-20T16:34:51Z **PR** `#21847`_: (*rallytime*) Backport `#21832`_ to 2014.7
+- **PR** `#21847`_: (*rallytime*) Backport `#21832`_ to 2014.7
+  <span style='float:right'>*2015-03-20T16:34:51Z*</span>
 
   - **ISSUE** `#20197`_: (*jhenry82*) Issue with multi-master and local job cache: An inconsistency occurred
     | refs: `#21846`_ `#21847`_
@@ -257,14 +286,16 @@ Changes:
   * c1ef044 Merge pull request `#21847`_ from rallytime/`bp-21832`_
   * 3782251 Revert regression caused by `#15848`_
 
-- 2015-03-20T16:25:58Z **PR** `#21826`_: (*jfindlay*) propagate original IOError message through file.manage_file
+- **PR** `#21826`_: (*jfindlay*) propagate original IOError message through file.manage_file
+  <span style='float:right'>*2015-03-20T16:25:58Z*</span>
 
   - **ISSUE** `#21774`_: (*Xiol*) "Failed to commit change, permission error" when using file.managed with check_cmd 
     | refs: `#21826`_
   * fd3623d Merge pull request `#21826`_ from jfindlay/file_error
   * ddbe16e propagate original IOError message through file.manage_file
 
-- 2015-03-19T22:00:35Z **PR** `#21828`_: (*basepi*) [2014.7] Append `#21818`_
+- **PR** `#21828`_: (*basepi*) [2014.7] Append `#21818`_
+  <span style='float:right'>*2015-03-19T22:00:35Z*</span>
 
   - **ISSUE** `#21495`_: (*UtahDave*) Syndic not passing up lower level jobs to the higher master's job cache
     | refs: `#21781`_
@@ -275,7 +306,8 @@ Changes:
   * 5292f5d Merge pull request `#21828`_ from basepi/append_21818
   * 417e2ab Stupid backport didn't get this
 
-- 2015-03-19T21:36:17Z **PR** `#21821`_: (*basepi*) [2014.7] Backport `#21813`_ to 2014.7
+- **PR** `#21821`_: (*basepi*) [2014.7] Backport `#21813`_ to 2014.7
+  <span style='float:right'>*2015-03-19T21:36:17Z*</span>
 
   - **PR** `#21813`_: (*basepi*) [2015.2] Syndic should only forward load once per job
     | refs: `#21821`_
@@ -294,15 +326,17 @@ Changes:
 
   * 36192e3 Fix Syndic to only forward unforwarded loads
 
-- 2015-03-19T20:39:21Z **PR** `#21822`_: (*basepi*) [2014.7] Backport `#21820`_ to 2014.7
+- **PR** `#21822`_: (*basepi*) [2014.7] Backport `#21820`_ to 2014.7
+  <span style='float:right'>*2015-03-19T20:39:21Z*</span>
 
   - **PR** `#21820`_: (*basepi*) [2015.2] syndic load fix
     | refs: `#21822`_
   * f92fd17 Merge pull request `#21822`_ from basepi/`bp-21820`_
   * 3870c66 Pass in the load you just checked for
 
-- 2015-03-19T19:24:23Z **PR** `#21818`_: (*basepi*) [2014.7] Backport `#21781`_ to 2014.7
+- **PR** `#21818`_: (*basepi*) [2014.7] Backport `#21781`_ to 2014.7
   | refs: `#21828`_
+  <span style='float:right'>*2015-03-19T19:24:23Z*</span>
 
   - **ISSUE** `#21495`_: (*UtahDave*) Syndic not passing up lower level jobs to the higher master's job cache
     | refs: `#21781`_
@@ -315,21 +349,24 @@ Changes:
 
   * d40b387 Fix syndic to use master cachedir
 
-- 2015-03-19T07:39:52Z **PR** `#21786`_: (*rallytime*) Backport `#21739`_ to 2014.7
+- **PR** `#21786`_: (*rallytime*) Backport `#21739`_ to 2014.7
+  <span style='float:right'>*2015-03-19T07:39:52Z*</span>
 
   - **PR** `#21739`_: (*ticosax*) If there no containers in the response it does not mean the command failed.
     | refs: `#21786`_
   * c09b737 Merge pull request `#21786`_ from rallytime/`bp-21739`_
   * eddef00 If there no containers in the response it does not mean the command failed.
 
-- 2015-03-19T07:38:57Z **PR** `#21785`_: (*rallytime*) Backport `#21738`_ to 2014.7
+- **PR** `#21785`_: (*rallytime*) Backport `#21738`_ to 2014.7
+  <span style='float:right'>*2015-03-19T07:38:57Z*</span>
 
   - **PR** `#21738`_: (*ticosax*) transmit socket parameter for inner function calls
     | refs: `#21785`_
   * e7222c0 Merge pull request `#21785`_ from rallytime/`bp-21738`_
   * 14b367e transmit socket parameter for inner function calls
 
-- 2015-03-18T23:04:36Z **PR** `#21780`_: (*cachedout*) Backport `#21775`_ to 2014.7
+- **PR** `#21780`_: (*cachedout*) Backport `#21775`_ to 2014.7
+  <span style='float:right'>*2015-03-18T23:04:36Z*</span>
 
   - **ISSUE** `#19864`_: (*claudiupopescu*) Salt syndic architecture is slow
     | refs: `#21782`_ `#21775`_
@@ -339,15 +376,17 @@ Changes:
   * efe7d09 Merge pull request `#21780`_ from cachedout/syndic_client_2014_7
   * 36841bd Backport `#21175`_ to 2014.7
 
-- 2015-03-18T22:21:08Z **PR** `#21782`_: (*rallytime*) Update syndic documentation
+- **PR** `#21782`_: (*rallytime*) Update syndic documentation
+  <span style='float:right'>*2015-03-18T22:21:08Z*</span>
 
   - **ISSUE** `#19864`_: (*claudiupopescu*) Salt syndic architecture is slow
     | refs: `#21782`_ `#21775`_
   * 0c6b3e5 Merge pull request `#21782`_ from rallytime/syndic_doc_fix
   * f56cdd5 Update syndic documentation
 
-- 2015-03-18T17:49:38Z **PR** `#21755`_: (*jacksontj*) Add timeout to saltnado's event listener
+- **PR** `#21755`_: (*jacksontj*) Add timeout to saltnado's event listener
   | refs: `#21811`_
+  <span style='float:right'>*2015-03-18T17:49:38Z*</span>
 
   - **ISSUE** `#21707`_: (*baweaver*) [saltnado rest] local requests hang indefinitely on glob / grain queries
     | refs: `#21755`_
@@ -358,7 +397,8 @@ Changes:
 
   * 234d02b Add timeout to saltnado's event listener
 
-- 2015-03-18T15:39:33Z **PR** `#21757`_: (*jfindlay*) Tar tests
+- **PR** `#21757`_: (*jfindlay*) Tar tests
+  <span style='float:right'>*2015-03-18T15:39:33Z*</span>
 
   * 26689da Merge pull request `#21757`_ from jfindlay/tar_tests
   * 5f143ec unit tests for states.archive.extracted tar opts
@@ -367,14 +407,16 @@ Changes:
 
   * 53c9d48 fix typo
 
-- 2015-03-17T23:51:18Z **PR** `#21743`_: (*jfindlay*) add eauth pam group tests
+- **PR** `#21743`_: (*jfindlay*) add eauth pam group tests
+  <span style='float:right'>*2015-03-17T23:51:18Z*</span>
 
   - **ISSUE** `#17380`_: (*UtahDave*) external auth group support not working with pam
     | refs: `#21743`_
   * 49d972d Merge pull request `#21743`_ from jfindlay/eauth_group_test
   * f735f0b add eauth pam group tests
 
-- 2015-03-17T18:50:09Z **PR** `#21734`_: (*MrMarvin*) "fixes" bug when parsing interfaces
+- **PR** `#21734`_: (*MrMarvin*) "fixes" bug when parsing interfaces
+  <span style='float:right'>*2015-03-17T18:50:09Z*</span>
 
   - **ISSUE** `#19405`_: (*numkem*) Network bridging under ubuntu fails with KeyError
     | refs: `#21734`_
@@ -383,21 +425,24 @@ Changes:
 
   * f43f8c4 "fixes" bug when parsing interfaces
 
-- 2015-03-16T23:30:44Z **PR** `#21701`_: (*rvstaveren*) Fix ldap group handling for 2014.7
+- **PR** `#21701`_: (*rvstaveren*) Fix ldap group handling for 2014.7
+  <span style='float:right'>*2015-03-16T23:30:44Z*</span>
 
   - **ISSUE** `#21661`_: (*rvstaveren*) membership logic in salt/auth/ldap.py bug
     | refs: `#21701`_
   * 493a97c Merge pull request `#21701`_ from rvstaveren/fix_ldap_group_handling_2014_7
   * 6e51093 username doesn't necessarily need to be in slot 0
 
-- 2015-03-16T22:00:51Z **PR** `#21711`_: (*rallytime*) Backport `#21676`_ to 2014.7
+- **PR** `#21711`_: (*rallytime*) Backport `#21676`_ to 2014.7
+  <span style='float:right'>*2015-03-16T22:00:51Z*</span>
 
   - **PR** `#21676`_: (*aneeshusa*) Add error messages when missing setting_name param.
     | refs: `#21711`_
   * 2e5cdb1 Merge pull request `#21711`_ from rallytime/`bp-21676`_
   * 01f90d5 Add error messages when missing setting_name param.
 
-- 2015-03-16T21:48:52Z **PR** `#21708`_: (*rallytime*) Backport `#21666`_ to 2014.7
+- **PR** `#21708`_: (*rallytime*) Backport `#21666`_ to 2014.7
+  <span style='float:right'>*2015-03-16T21:48:52Z*</span>
 
   - **ISSUE** `#20317`_: (*joshdover*) RVM is not a function for gem state
     | refs: `#21666`_
@@ -410,21 +455,24 @@ Changes:
 
   * 5f48e55 separate command from arguments to avoid problems when adding quotes
 
-- 2015-03-16T20:26:31Z **PR** `#21630`_: (*UtahDave*) WORK IN PROGRESS - Fix syndic
+- **PR** `#21630`_: (*UtahDave*) WORK IN PROGRESS - Fix syndic
+  <span style='float:right'>*2015-03-16T20:26:31Z*</span>
 
   * 8a12fbb Merge pull request `#21630`_ from UtahDave/fix_syndic
   * ad1768c make sure arg, tgt, and tgt_type are passed thru
 
   * 3611658 pass thru fun and fun_args if they exist
 
-- 2015-03-16T18:35:47Z **PR** `#21677`_: (*aneeshusa*) Check response status when using fileclient.get_url.
+- **PR** `#21677`_: (*aneeshusa*) Check response status when using fileclient.get_url.
+  <span style='float:right'>*2015-03-16T18:35:47Z*</span>
 
   - **ISSUE** `#21625`_: (*SaltwaterC*) file.managed for HTTP source doesn't use the HTTP status code
     | refs: `#21677`_
   * 0fc61de Merge pull request `#21677`_ from aneeshusa/check-http-response-status-2014.7
   * 58a1afc Check response status when using fileclient.get_url.
 
-- 2015-03-15T18:54:20Z **PR** `#21658`_: (*rvstaveren*) enable eauth during cli batch operations
+- **PR** `#21658`_: (*rvstaveren*) enable eauth during cli batch operations
+  <span style='float:right'>*2015-03-15T18:54:20Z*</span>
 
   * 2767409 Merge pull request `#21658`_ from rvstaveren/fix_eauth_in_batch_2014_7
   * 58eacc0 Merge branch 'fix_eauth_in_batch_2014_7' of https://github.com/rvstaveren/salt into fix_eauth_in_batch_2014_7
@@ -433,21 +481,24 @@ Changes:
 
   * 3939799 enable eauth during cli batch operations
 
-- 2015-03-13T22:29:17Z **PR** `#21648`_: (*tjstansell*) fix `#21628`_: support STP option in rh_ip to enable/disable spanning tree
+- **PR** `#21648`_: (*tjstansell*) fix `#21628`_: support STP option in rh_ip to enable/disable spanning tree
+  <span style='float:right'>*2015-03-13T22:29:17Z*</span>
 
   - **ISSUE** `#21628`_: (*tjstansell*) rh_ip support for STP (spanning tree protocol)
     | refs: `#21648`_
   * dd130a7 Merge pull request `#21648`_ from tjstansell/fix-rh_ip-stp
   * 317f627 fix `#21628`_: brctl accepts either "on" or "yes" to enable STP, otherwise it disables it, so using the existing loop to force the value to either "yes" or "no".
 
-- 2015-03-13T22:28:14Z **PR** `#21636`_: (*basepi*) Gate salt.utils.cloud (imports msgpack) in config.py for salt-ssh
+- **PR** `#21636`_: (*basepi*) Gate salt.utils.cloud (imports msgpack) in config.py for salt-ssh
+  <span style='float:right'>*2015-03-13T22:28:14Z*</span>
 
   - **ISSUE** `#21226`_: (*jcftang*) salt-ssh:  Unable to import msgpack or msgpack_pure python modules
     | refs: `#21636`_
   * a8e8cb9 Merge pull request `#21636`_ from basepi/salt-ssh.msgpack.gate.21226
   * 3ef09d3 Gate salt.utils.cloud (imports msgpack) in config.py for salt-ssh
 
-- 2015-03-13T22:26:40Z **PR** `#21626`_: (*rallytime*) Backport `#21622`_ to 2014.7
+- **PR** `#21626`_: (*rallytime*) Backport `#21622`_ to 2014.7
+  <span style='float:right'>*2015-03-13T22:26:40Z*</span>
 
   - **ISSUE** `#21423`_: (*roflmao*) Function file.managed is run everytime on user = number
     | refs: `#21622`_
@@ -456,60 +507,70 @@ Changes:
   * 52e3901 Merge pull request `#21626`_ from rallytime/`bp-21622`_
   * b28dba2 Teach file.check_perms to handle uids and gids.
 
-- 2015-03-13T21:16:07Z **PR** `#21645`_: (*rallytime*) Set the vm_ password before calling salt.utils.bootstrap
+- **PR** `#21645`_: (*rallytime*) Set the vm_ password before calling salt.utils.bootstrap
+  <span style='float:right'>*2015-03-13T21:16:07Z*</span>
 
   * 1b6e14c Merge pull request `#21645`_ from rallytime/set_password_linode
   * 843a7ee Set the vm_ password before calling salt.utils.bootstrap
 
-- 2015-03-13T20:15:11Z **PR** `#21637`_: (*highlyunavailable*) Increase the timeout of boto route53 module
+- **PR** `#21637`_: (*highlyunavailable*) Increase the timeout of boto route53 module
+  <span style='float:right'>*2015-03-13T20:15:11Z*</span>
 
   * 3407360 Merge pull request `#21637`_ from highlyunavailable/increase_boto_route53_timeout
   * 2a7c563 Increase the timeout of boto route53 application
 
-- 2015-03-13T17:56:10Z **PR** `#21632`_: (*rallytime*) Add minimum version dependency for linode-python in docs
+- **PR** `#21632`_: (*rallytime*) Add minimum version dependency for linode-python in docs
+  <span style='float:right'>*2015-03-13T17:56:10Z*</span>
 
   * 2db9f68 Merge pull request `#21632`_ from rallytime/linode_doc_update
   * 01c8f94 Add minimum version dependency for linode-python in docs
 
-- 2015-03-13T17:55:37Z **PR** `#21631`_: (*cro*) Remove linodepy.py in favor of linode.py.
+- **PR** `#21631`_: (*cro*) Remove linodepy.py in favor of linode.py.
+  <span style='float:right'>*2015-03-13T17:55:37Z*</span>
 
   * cfd8173 Merge pull request `#21631`_ from cro/remove_linodepy
   * 47a9459 Remove linodepy.py in favor of linode.py
 
-- 2015-03-13T15:23:41Z **PR** `#21621`_: (*tjstansell*) fixed `#21620`_ so delay: 0 works correctly for network.managed interfaces
+- **PR** `#21621`_: (*tjstansell*) fixed `#21620`_ so delay: 0 works correctly for network.managed interfaces
+  <span style='float:right'>*2015-03-13T15:23:41Z*</span>
 
   - **ISSUE** `#21620`_: (*tjstansell*) rh_ip templates cannot set DELAY=0
     | refs: `#21621`_
   * 74b9ec2 Merge pull request `#21621`_ from tjstansell/`fix-21620`_
   * bb63049 fixed `#21620`_ so delay: 0 works correctly for network.managed interfaces
 
-- 2015-03-13T15:15:33Z **PR** `#21605`_: (*highlyunavailable*) Fix tar state options
+- **PR** `#21605`_: (*highlyunavailable*) Fix tar state options
+  <span style='float:right'>*2015-03-13T15:15:33Z*</span>
 
   - **ISSUE** `#20795`_: (*Bilge*) archive.extracted tar_options does not support long options or non-option parameters
     | refs: `#21605`_
   * eb12f11 Merge pull request `#21605`_ from highlyunavailable/tar_args
   * 133318f Fix tar state options
 
-- 2015-03-13T15:15:16Z **PR** `#21593`_: (*jfindlay*) add 802.3ad to debian_ip tunnel modes
+- **PR** `#21593`_: (*jfindlay*) add 802.3ad to debian_ip tunnel modes
+  <span style='float:right'>*2015-03-13T15:15:16Z*</span>
 
   - **PR** `#21239`_: (*mnguyen1289*) IPV4 mode should accept all modes
     | refs: `#21593`_
   * dc4e90f Merge pull request `#21593`_ from jfindlay/deb_ip_mode
   * 01d6056 add 802.3ad to debian_ip tunnel modes
 
-- 2015-03-12T20:10:47Z **PR** `#21600`_: (*eliasp*) Fix parsing of NTP servers on Windows.
+- **PR** `#21600`_: (*eliasp*) Fix parsing of NTP servers on Windows.
+  <span style='float:right'>*2015-03-12T20:10:47Z*</span>
 
   * 14efe70 Merge pull request `#21600`_ from eliasp/2014.7-salt.modules.win_ntp-parsing-NtpServer
   * 60675de Fix parsing of NTP servers on Windows.
 
-- 2015-03-12T16:14:16Z **PR** `#21544`_: (*RobertFach*) fix blockdev.tune issue, where blockdev.tune doesn't report changes for ...
+- **PR** `#21544`_: (*RobertFach*) fix blockdev.tune issue, where blockdev.tune doesn't report changes for ...
+  <span style='float:right'>*2015-03-12T16:14:16Z*</span>
 
   - **ISSUE** `#21543`_: (*RobertFach*) module blockdev.tune broken 2014.7.x /develop
     | refs: `#21544`_ `#21587`_
   * 4d958f8 Merge pull request `#21544`_ from RobertFach/`fix-21543`_-blockdev-tune-issue
   * a8873d0 fixed pylint issue with comparison to True
 
-- 2015-03-12T15:56:57Z **PR** `#21587`_: (*RobertFach*) Fix 21546 blockdev tune state change issue
+- **PR** `#21587`_: (*RobertFach*) Fix 21546 blockdev tune state change issue
+  <span style='float:right'>*2015-03-12T15:56:57Z*</span>
 
   - **ISSUE** `#21546`_: (*RobertFach*) state change detection for blockdev.tune broken 2014.7.x /develop
     | refs: `#21587`_
@@ -528,7 +589,8 @@ Changes:
 
   * d29bb2f fix blockdev.tune issue, where blockdev.tune doesn't report changes for read-write option and where it didn't translate boolean options properly, causing the underlying blockdev call to fail
 
-- 2015-03-12T00:36:47Z **PR** `#21568`_: (*jfindlay*) Don't obfuscate internal distutils attributes
+- **PR** `#21568`_: (*jfindlay*) Don't obfuscate internal distutils attributes
+  <span style='float:right'>*2015-03-12T00:36:47Z*</span>
 
   - **ISSUE** `#21522`_: (*Diaoul*) python setup.py -V crashes
     | refs: `#21559`_ `#21568`_
@@ -537,7 +599,8 @@ Changes:
   * 208b269 Merge pull request `#21568`_ from jfindlay/setup_attrs
   * e6f8ea3 Don't obfuscate internal distutils attributes
 
-- 2015-03-11T21:05:57Z **PR** `#21514`_: (*rallytime*) Apply fix from `#21489`_ to the 2014.7 branch
+- **PR** `#21514`_: (*rallytime*) Apply fix from `#21489`_ to the 2014.7 branch
+  <span style='float:right'>*2015-03-11T21:05:57Z*</span>
 
   - **ISSUE** `#20787`_: (*pruiz*) pillar_source_merging_strategy: smart not working when using more than one renderer at shebang line
     | refs: `#21489`_
@@ -546,7 +609,8 @@ Changes:
   * f3ec86f Merge pull request `#21514`_ from rallytime/manually_backport_21489
   * ee159ff Apply fix from `#21489`_ to the 2014.7 branch
 
-- 2015-03-11T21:05:43Z **PR** `#21562`_: (*cro*) Backport 21283 from develop.
+- **PR** `#21562`_: (*cro*) Backport 21283 from develop.
+  <span style='float:right'>*2015-03-11T21:05:43Z*</span>
 
   - **ISSUE** `#20932`_: (*dtoubelis*) Exception when calling create method on openstack cloud provider from reactor sls
     | refs: `#21283`_
@@ -566,7 +630,8 @@ Changes:
 
   * 8d34dcd use ex_get_node_details if instance_id is specified
 
-- 2015-03-11T21:05:08Z **PR** `#21487`_: (*rallytime*) Backport `#21469`_ to 2014.7
+- **PR** `#21487`_: (*rallytime*) Backport `#21469`_ to 2014.7
+  <span style='float:right'>*2015-03-11T21:05:08Z*</span>
 
   - **ISSUE** `#20198`_: (*jcftang*) virt.get_graphics, virt.get_nics are broken, in turn breaking other things
   - **PR** `#21469`_: (*vdesjardins*) fixes `#20198`_: virt.get_graphics and virt.get_nics calls in module virt
@@ -578,22 +643,25 @@ Changes:
 
   * d529390 fixes `#20198`_: virt.get_graphics and virt.get_nics calls in module virt
 
-- 2015-03-11T20:36:36Z **PR** `#21559`_: (*s0undt3ch*) Don't obfuscate the internal version attribute
+- **PR** `#21559`_: (*s0undt3ch*) Don't obfuscate the internal version attribute
   | refs: `#21568`_
+  <span style='float:right'>*2015-03-11T20:36:36Z*</span>
 
   - **ISSUE** `#21522`_: (*Diaoul*) python setup.py -V crashes
     | refs: `#21559`_ `#21568`_
   * 979ed66 Merge pull request `#21559`_ from s0undt3ch/hotfix/issues-21522
   * e5a7158 Don't obfuscate the internal version attribute
 
-- 2015-03-11T20:27:18Z **PR** `#21557`_: (*s0undt3ch*) [2014.7] Update the bootstrap script to latest stable, v2015.03.15
+- **PR** `#21557`_: (*s0undt3ch*) [2014.7] Update the bootstrap script to latest stable, v2015.03.15
+  <span style='float:right'>*2015-03-11T20:27:18Z*</span>
 
   - **ISSUE** `#555`_: (*syphernl*) Allow states to be called via wildcard
     | refs: `#21557`_
   * 70608d8 Merge pull request `#21557`_ from s0undt3ch/2014.7
   * 397f45e Update the bootstrap script to latest stable, v2015.03.15
 
-- 2015-03-11T20:21:33Z **PR** `#21523`_: (*jfindlay*) backport `#21481`_ to 2014.7
+- **PR** `#21523`_: (*jfindlay*) backport `#21481`_ to 2014.7
+  <span style='float:right'>*2015-03-11T20:21:33Z*</span>
 
   - **ISSUE** `#21057`_: (*freimer*) Windows saltutil.kill_job
     | refs: `#21244`_
@@ -604,7 +672,8 @@ Changes:
   * 0d278a4 Merge pull request `#21523`_ from jfindlay/`bp-21481`_
   * 08bd476 Fixed an error with SIGKILL on windows
 
-- 2015-03-11T20:21:18Z **PR** `#21555`_: (*ross-p*) Fix for issue `#21491`_
+- **PR** `#21555`_: (*ross-p*) Fix for issue `#21491`_
+  <span style='float:right'>*2015-03-11T20:21:18Z*</span>
 
   - **ISSUE** `#21491`_: (*martin-helmich*) composer.installed should not always "return True" when composer.lock is present
     | refs: `#21553`_
@@ -617,17 +686,20 @@ Changes:
 
   * 3f3218d Fix for issue `#21491`_
 
-- 2015-03-11T20:20:12Z **PR** `#21564`_: (*eliasp*) Typo (rendered → renderer)
+- **PR** `#21564`_: (*eliasp*) Typo (rendered → renderer)
+  <span style='float:right'>*2015-03-11T20:20:12Z*</span>
 
   * 8cd4849 Merge pull request `#21564`_ from eliasp/patch-1
   * bc9a30b Typo (rendered â renderer)
 
-- 2015-03-11T18:12:19Z **PR** `#21551`_: (*robgott*) updated s3.query function to return headers for successful requests
+- **PR** `#21551`_: (*robgott*) updated s3.query function to return headers for successful requests
+  <span style='float:right'>*2015-03-11T18:12:19Z*</span>
 
   * a531ab0 Merge pull request `#21551`_ from robgott/fix-s3.head-returning-none
   * 8999148 updated s3.query function to return headers array for successful requests fixes issue with s3.head returning None for files that exist
 
-- 2015-03-11T17:45:15Z **PR** `#21162`_: (*cro*) Update linode salt-cloud driver to support using either linode-python or apache-libcloud
+- **PR** `#21162`_: (*cro*) Update linode salt-cloud driver to support using either linode-python or apache-libcloud
+  <span style='float:right'>*2015-03-11T17:45:15Z*</span>
 
   * 0eb66a3 Merge pull request `#21162`_ from cro/linode-python-driver2
   * 93c5d92 AGH. LINT.
@@ -642,17 +714,20 @@ Changes:
 
   * f87cb72 Update linode salt-cloud driver to support using either linode-python or apache-libcloud
 
-- 2015-03-11T15:17:28Z **PR** `#21536`_: (*eliasp*) Correct typo ('win_update.install' → 'win.update_installed').
+- **PR** `#21536`_: (*eliasp*) Correct typo ('win_update.install' → 'win.update_installed').
+  <span style='float:right'>*2015-03-11T15:17:28Z*</span>
 
   * 3012e98 Merge pull request `#21536`_ from eliasp/2014.7-salt.states.win_update.py-typo
   * 0b02396 Correct typo ('win_update.install' â 'win.update_installed').
 
-- 2015-03-10T21:14:31Z **PR** `#21510`_: (*twangboy*) Fixed disable function in win_service.py to actually disable service
+- **PR** `#21510`_: (*twangboy*) Fixed disable function in win_service.py to actually disable service
+  <span style='float:right'>*2015-03-10T21:14:31Z*</span>
 
   * d8f4160 Merge pull request `#21510`_ from twangboy/win_service
   * ed1b7dd Fixed disable function in win_service.py to actually disable service
 
-- 2015-03-10T21:12:30Z **PR** `#21497`_: (*ross-p*) Backport of PR `#21358`_ to 2014.7
+- **PR** `#21497`_: (*ross-p*) Backport of PR `#21358`_ to 2014.7
+  <span style='float:right'>*2015-03-10T21:12:30Z*</span>
 
   - **ISSUE** `#21349`_: (*ross-p*) Salt composer state now broken due to apparent change in PHP Composer's output
     | refs: `#21358`_
@@ -661,39 +736,45 @@ Changes:
   * 1c31dbf Merge pull request `#21497`_ from xclusv/2014.7-fix-php-composer
   * 8083cf5 Backport of PR `#21358`_ to 2014.7
 
-- 2015-03-10T15:31:39Z **PR** `#21488`_: (*jacobhammons*) Regenerated and updated man pages, updated release version in conf.py to...
+- **PR** `#21488`_: (*jacobhammons*) Regenerated and updated man pages, updated release version in conf.py to...
+  <span style='float:right'>*2015-03-10T15:31:39Z*</span>
 
   * f6f6afe Merge pull request `#21488`_ from jacobhammons/2014.7
   * 921d679 Regenerated and updated man pages, updated release version in conf.py to 2014.7.2
 
-- 2015-03-09T20:21:48Z **PR** `#21437`_: (*rallytime*) Backport `#21409`_ to 2014.7
+- **PR** `#21437`_: (*rallytime*) Backport `#21409`_ to 2014.7
+  <span style='float:right'>*2015-03-09T20:21:48Z*</span>
 
   - **PR** `#21409`_: (*jquast*) Gracefully handle race condition of 'makedirs'
     | refs: `#21437`_
   * 6ac6a53 Merge pull request `#21437`_ from rallytime/`bp-21409`_
   * 8a65d8c Gracefully handle race condition in `makedirs'
 
-- 2015-03-09T19:33:00Z **PR** `#21439`_: (*jfindlay*) remove 'master' reference in error message
+- **PR** `#21439`_: (*jfindlay*) remove 'master' reference in error message
+  <span style='float:right'>*2015-03-09T19:33:00Z*</span>
 
   - **ISSUE** `#21301`_: (*syphernl*) Optimize error about sls missing on master if running masterless
     | refs: `#21439`_
   * 4fb4178 Merge pull request `#21439`_ from jfindlay/no_master
   * 3456ef6 remove 'master' reference in error message
 
-- 2015-03-09T19:27:19Z **PR** `#21432`_: (*eliasp*) Fix `#21304`_ (backport of `#21431`_)
+- **PR** `#21432`_: (*eliasp*) Fix `#21304`_ (backport of `#21431`_)
+  <span style='float:right'>*2015-03-09T19:27:19Z*</span>
 
   - **ISSUE** `#21304`_: (*eliasp*) Failing `blkid` call in `salt.modules.disk.blkid()` isn't handled properly
   * 87591b3 Merge pull request `#21432`_ from eliasp/2014.7-`fix-21304`_
   * 1ff5cc2 Fix `#21304`_
 
-- 2015-03-09T16:55:17Z **PR** `#21407`_: (*freimer*) Added status.master capability for Windows
+- **PR** `#21407`_: (*freimer*) Added status.master capability for Windows
+  <span style='float:right'>*2015-03-09T16:55:17Z*</span>
 
   * 7a77375 Merge pull request `#21407`_ from freimer/issue_21405
   * 03c9e70 Added status.master capability for Windows
 
   * fa0953c Added status.master capability for Windows
 
-- 2015-03-09T16:55:01Z **PR** `#21411`_: (*terminalmage*) Fix file.recurse on root of gitfs/hgfs/svnfs repo
+- **PR** `#21411`_: (*terminalmage*) Fix file.recurse on root of gitfs/hgfs/svnfs repo
+  <span style='float:right'>*2015-03-09T16:55:01Z*</span>
 
   - **ISSUE** `#20812`_: (*jasonrm*) Recurse failed with gitfs per-remote mountpoint and file.recurse
     | refs: `#21411`_
@@ -704,7 +785,8 @@ Changes:
 
   * 6f6f4b9 Fix file.recurse on root of gitfs repo
 
-- 2015-03-09T16:48:19Z **PR** `#21380`_: (*lorengordon*) Fix logic conflict with `enabled` between service.running and service.dead
+- **PR** `#21380`_: (*lorengordon*) Fix logic conflict with `enabled` between service.running and service.dead
+  <span style='float:right'>*2015-03-09T16:48:19Z*</span>
 
   - **ISSUE** `#20915`_: (*lorengordon*) Logic conflict with `changes` in service.running and service.dead?
     | refs: `#21380`_
@@ -715,14 +797,16 @@ Changes:
 
   * 91f499e Eliminate `enable` logic conflict
 
-- 2015-03-07T01:38:00Z **PR** `#21395`_: (*jacksontj*) Backport fix for `#20494`_
+- **PR** `#21395`_: (*jacksontj*) Backport fix for `#20494`_
+  <span style='float:right'>*2015-03-07T01:38:00Z*</span>
 
   - **ISSUE** `#20494`_: (*lorengordon*) Traceback in output with `--log-level debug` on Windows
     | refs: `#21395`_
   * e2f135a Merge pull request `#21395`_ from jacksontj/2014.7
   * ff8b47c Catch case where 'return' not in opts, or other ways to get an empty returner (as it will just fail anyways)
 
-- 2015-03-07T00:27:33Z **PR** `#21355`_: (*The-Loeki*) Fix for comments containing whitespaces
+- **PR** `#21355`_: (*The-Loeki*) Fix for comments containing whitespaces
+  <span style='float:right'>*2015-03-07T00:27:33Z*</span>
 
   * fea6d83 Merge pull request `#21355`_ from The-Loeki/patch-1
   * bf6790b Update ssh_auth.py
@@ -731,17 +815,20 @@ Changes:
 
   * 6327479 Fix for comments containing whitespaces
 
-- 2015-03-07T00:27:14Z **PR** `#21373`_: (*hvnsweeting*) bugfix: fix test mode in ssh_known_hosts
+- **PR** `#21373`_: (*hvnsweeting*) bugfix: fix test mode in ssh_known_hosts
+  <span style='float:right'>*2015-03-07T00:27:14Z*</span>
 
   * 3736c89 Merge pull request `#21373`_ from hvnsweeting/2014.7
   * 2a84598 bugfix: fix test mode in ssh_known_hosts
 
-- 2015-03-06T19:14:26Z **PR** `#21381`_: (*rallytime*) Pylint fix for 2014.7 branch
+- **PR** `#21381`_: (*rallytime*) Pylint fix for 2014.7 branch
+  <span style='float:right'>*2015-03-06T19:14:26Z*</span>
 
   * 855d8cf Merge pull request `#21381`_ from rallytime/pylint_seven
   * b9f3b79 Pylint fix for 2014.7 branch
 
-- 2015-03-06T16:01:39Z **PR** `#21374`_: (*sivann*) better grains.virtual through systemd-detect-virt and virt-what, fixes issue `#21218`_
+- **PR** `#21374`_: (*sivann*) better grains.virtual through systemd-detect-virt and virt-what, fixes issue `#21218`_
+  <span style='float:right'>*2015-03-06T16:01:39Z*</span>
 
   - **ISSUE** `#21218`_: (*sivann*) grain virtual not working for CentOS 7 in Google Compute Engine
     | refs: `#21374`_
@@ -750,7 +837,8 @@ Changes:
 
   * 9d4fcdd better grains.virtual through systemd-detect-virt and virt-what, fixes issue `#21218`_
 
-- 2015-03-06T15:59:02Z **PR** `#21310`_: (*devweasel*) Fixes for `#21114`_
+- **PR** `#21310`_: (*devweasel*) Fixes for `#21114`_
+  <span style='float:right'>*2015-03-06T15:59:02Z*</span>
 
   - **ISSUE** `#21114`_: (*devweasel*) states.keystone fails to create user-roles for more than 1 tenant/user (or remove them)
     | refs: `#21310`_
@@ -759,53 +847,62 @@ Changes:
 
   * 72b719f Fixes `#21114`_ [1/2]; keystone.user_present fails to create user-roles for more than 1 tenant/user
 
-- 2015-03-06T15:56:16Z **PR** `#21346`_: (*MrMarvin*) * fixes states.network bonding for debian
+- **PR** `#21346`_: (*MrMarvin*) * fixes states.network bonding for debian
+  <span style='float:right'>*2015-03-06T15:56:16Z*</span>
 
   * be4405f Merge pull request `#21346`_ from sinnerschrader/fix/2014_7_fix_ubuntu_network_bonding
   * fc7ee45 * fixes states.network bonding for debian
 
-- 2015-03-06T15:45:41Z **PR** `#21360`_: (*terminalmage*) Fix traceback in sysctl.present state output
+- **PR** `#21360`_: (*terminalmage*) Fix traceback in sysctl.present state output
+  <span style='float:right'>*2015-03-06T15:45:41Z*</span>
 
   - **ISSUE** `#21300`_: (*ferricoxide*) sysctl.present dumps a traceback if driver disabled
     | refs: `#21360`_
   * 1c23c1f Merge pull request `#21360`_ from terminalmage/issue21300
   * 1322181 Fix traceback in sysctl.present state output
 
-- 2015-03-06T15:43:18Z **PR** `#21366`_: (*d--j*) Make debian_ip.get_interface not remove dns-nameservers
+- **PR** `#21366`_: (*d--j*) Make debian_ip.get_interface not remove dns-nameservers
+  <span style='float:right'>*2015-03-06T15:43:18Z*</span>
 
   - **ISSUE** `#18318`_: (*arthurlogilab*) network.managed removes comments and some options in /etc/network/interfaces
     | refs: `#21366`_
   * 00323f0 Merge pull request `#21366`_ from d--j/fix-debian-ip-dns-nameservers
   * 32c7547 Make debian_ip not remove dns-nameservers
 
-- 2015-03-04T18:01:03Z **PR** `#21308`_: (*s0undt3ch*) [2014.7] Update the bootstrap script to latest stable v2015.03.04
+- **PR** `#21308`_: (*s0undt3ch*) [2014.7] Update the bootstrap script to latest stable v2015.03.04
+  <span style='float:right'>*2015-03-04T18:01:03Z*</span>
 
   * a5a14ff Merge pull request `#21308`_ from s0undt3ch/2014.7
   * 26f07a0 Update the bootstrap script to latest stable v2015.03.04
 
-- 2015-03-04T15:39:48Z **PR** `#21302`_: (*nmadhok*) Adding src folder to .gitignore
+- **PR** `#21302`_: (*nmadhok*) Adding src folder to .gitignore
+  <span style='float:right'>*2015-03-04T15:39:48Z*</span>
 
   * 0775966 Merge pull request `#21302`_ from nmadhok/add-src-gitignore
   * 67c1c4a Adding src folder to .gitignore
 
-- 2015-03-04T15:36:32Z **PR** `#21269`_: (*RobertFach*) fixed issue which causes mount.mounted to fail when superopts are not pa...
+- **PR** `#21269`_: (*RobertFach*) fixed issue which causes mount.mounted to fail when superopts are not pa...
+  <span style='float:right'>*2015-03-04T15:36:32Z*</span>
 
   - **ISSUE** `#21215`_: (*nirnx*) Mount state failed after upgrade
     | refs: `#21269`_
   * b86ed66 Merge pull request `#21269`_ from RobertFach/`fix-21215`_-mount-superopts
   * 86852e5 fixed issue which causes mount.mounted to fail when superopts are not part of mount.active (extended=True), this fix will also fix potential problems with Solaris and FreeBSD
 
-- 2015-03-04T06:23:40Z **PR** `#21289`_: (*hvnsweeting*) do not log at error lvl for ssh-keygen check command
+- **PR** `#21289`_: (*hvnsweeting*) do not log at error lvl for ssh-keygen check command
+  <span style='float:right'>*2015-03-04T06:23:40Z*</span>
 
   * ce4d97f Merge pull request `#21289`_ from hvnsweeting/2014.7
   * fa10a97 do not log at error lvl for check command
 
-- 2015-03-03T21:13:47Z **PR** `#21275`_: (*terminalmage*) Fix invalid kwarg output
+- **PR** `#21275`_: (*terminalmage*) Fix invalid kwarg output
+  <span style='float:right'>*2015-03-03T21:13:47Z*</span>
 
   * da6eb8b Merge pull request `#21275`_ from terminalmage/fix-invalid-kwargs
   * 9e8ce47 Fix invalid kwarg output
 
-- 2015-03-03T16:42:02Z **PR** `#21050`_: (*lorengordon*) Fix file.replace regressions, fixes saltstack`#20970`_ and saltstack`#20603`_
+- **PR** `#21050`_: (*lorengordon*) Fix file.replace regressions, fixes saltstack`#20970`_ and saltstack`#20603`_
+  <span style='float:right'>*2015-03-03T16:42:02Z*</span>
 
   - **ISSUE** `#20970`_: (*lorengordon*) file.replace doesn't replace `pattern` when `repl` exists
     | refs: `#21050`_
@@ -818,27 +915,32 @@ Changes:
 
   * fef427b Fix file.replace regressions, fixes saltstack`#20970`_ and saltstack`#20603`_
 
-- 2015-03-03T16:38:49Z **PR** `#21253`_: (*freimer*) Fix for Python (Win32) without a signal.SIGKILL
+- **PR** `#21253`_: (*freimer*) Fix for Python (Win32) without a signal.SIGKILL
+  <span style='float:right'>*2015-03-03T16:38:49Z*</span>
 
   * aa03bac Merge pull request `#21253`_ from freimer/issue_21057_2014.7
   * 580afe7 Fix for Python (Win32) without a signal.SIGKILL
 
-- 2015-03-03T16:37:36Z **PR** `#21242`_: (*jfindlay*) indent quoted code in cmdmod tests
+- **PR** `#21242`_: (*jfindlay*) indent quoted code in cmdmod tests
+  <span style='float:right'>*2015-03-03T16:37:36Z*</span>
 
   * 8e63572 Merge pull request `#21242`_ from jfindlay/cmd_tests
   * a6b86ef indent quoted code in cmdmod tests
 
-- 2015-03-03T01:02:10Z **PR** `#21182`_: (*ndenev*) Make sure tmp_dir does not end in a slash, and remove extra escapes.
+- **PR** `#21182`_: (*ndenev*) Make sure tmp_dir does not end in a slash, and remove extra escapes.
+  <span style='float:right'>*2015-03-03T01:02:10Z*</span>
 
   * 5f3b818 Merge pull request `#21182`_ from ndenev/2014.7
   * d243c36 Merge remote-tracking branch 'upstream/2014.7' into 2014.7
 
-- 2015-03-02T04:06:02Z **PR** `#21200`_: (*UtahDave*) Cherry pick back to 2014.7 branch - convert datetime objects to strings
+- **PR** `#21200`_: (*UtahDave*) Cherry pick back to 2014.7 branch - convert datetime objects to strings
+  <span style='float:right'>*2015-03-02T04:06:02Z*</span>
 
   * 6577a20 Merge pull request `#21200`_ from UtahDave/2014.7local
   * fc1c17b convert datetime objects to strings
 
-- 2015-03-01T16:40:44Z **PR** `#21179`_: (*whiteinge*) Improved presence docs; added cross-references and localhost caveat
+- **PR** `#21179`_: (*whiteinge*) Improved presence docs; added cross-references and localhost caveat
+  <span style='float:right'>*2015-03-01T16:40:44Z*</span>
 
   - **ISSUE** `#18436`_: (*pass-by-value*) Presence event returns with an empty list
     | refs: `#21179`_
@@ -853,17 +955,20 @@ Changes:
 
   * e857425 - Make sure tmp_dir does not end in a slash. - Avoid escaping tmp_dir as this causes issues on FreeBSD's tcsh shell   (default for root). Also this is more consistent with rest of the code   where tmp_dir is not escaped.
 
-- 2015-02-28T16:24:42Z **PR** `#21125`_: (*jfindlay*) add cmd module integration tests
+- **PR** `#21125`_: (*jfindlay*) add cmd module integration tests
+  <span style='float:right'>*2015-02-28T16:24:42Z*</span>
 
   * 5bbc21f Merge pull request `#21125`_ from jfindlay/cmd_tests
   * 17b8f73 add cmd module integration tests
 
-- 2015-02-28T16:04:41Z **PR** `#21151`_: (*s0undt3ch*) [2014.7] Update bootstrap script to latest stable, v2015.02.28
+- **PR** `#21151`_: (*s0undt3ch*) [2014.7] Update bootstrap script to latest stable, v2015.02.28
+  <span style='float:right'>*2015-02-28T16:04:41Z*</span>
 
   * 36776e7 Merge pull request `#21151`_ from s0undt3ch/2014.7
   * 0e5adac Update bootstrap script to latest stable, v2015.02.28
 
-- 2015-02-27T04:13:44Z **PR** `#21103`_: (*s0undt3ch*) [2014.7] Update the bootstrap script to latest stable v2015.02.27
+- **PR** `#21103`_: (*s0undt3ch*) [2014.7] Update the bootstrap script to latest stable v2015.02.27
+  <span style='float:right'>*2015-02-27T04:13:44Z*</span>
 
   - **ISSUE** `#496`_: (*syphernl*) apache.version shows 'apache2ctl' if Apache is missing
     | refs: `#533`_
@@ -872,21 +977,24 @@ Changes:
   * a3bd5f6 Merge pull request `#21103`_ from s0undt3ch/2014.7
   * 6248c6e Update the bootstrap script to latest stable v2015.02.27
 
-- 2015-02-27T01:10:01Z **PR** `#21095`_: (*jond64*) Fix for `#21039`_
+- **PR** `#21095`_: (*jond64*) Fix for `#21039`_
+  <span style='float:right'>*2015-02-27T01:10:01Z*</span>
 
   - **ISSUE** `#21039`_: (*jond64*) non zero return code with salt-call --retcode-passthrough and ignore_retcode=True
     | refs: `#21095`_
   * 1efcf40 Merge pull request `#21095`_ from jond64/fix-for-21039
   * 0a0f3f9 Fix for `#21039`_
 
-- 2015-02-26T18:08:38Z **PR** `#21058`_: (*terminalmage*) Support Chocolatey 0.9.9+
+- **PR** `#21058`_: (*terminalmage*) Support Chocolatey 0.9.9+
+  <span style='float:right'>*2015-02-26T18:08:38Z*</span>
 
   * 7892d62 Merge pull request `#21058`_ from terminalmage/fix-chocolatey-0.9.9
   * ae5cad1 Add imp to windows freezer_includes
 
   * 43e15d8 Support Chocolatey 0.9.9+
 
-- 2015-02-26T18:07:54Z **PR** `#21070`_: (*RobertFach*) fixed issue where user option is internally transformed to username whic...
+- **PR** `#21070`_: (*RobertFach*) fixed issue where user option is internally transformed to username whic...
+  <span style='float:right'>*2015-02-26T18:07:54Z*</span>
 
   - **ISSUE** `#21067`_: (*RobertFach*) mount state change detection issue, doesn't support user=XX option (2014.7.x)
     | refs: `#21070`_
@@ -895,14 +1003,16 @@ Changes:
 
   * 03ec03e fixed issue where user option is internally transformed to username which is what /proc/mounts reports for cifs mounts
 
-- 2015-02-26T17:49:00Z **PR** `#21076`_: (*RobertFach*) fixed invalid changes data issue
+- **PR** `#21076`_: (*RobertFach*) fixed invalid changes data issue
+  <span style='float:right'>*2015-02-26T17:49:00Z*</span>
 
   - **ISSUE** `#21043`_: (*RobertFach*) lvm state/module functions report invalid change data (2014.7.x)
     | refs: `#21076`_
   * f735a35 Merge pull request `#21076`_ from RobertFach/`fix-21043`_-lvm-invalid-change-data
   * c943195 fixed invalid changes data issue
 
-- 2015-02-26T17:48:41Z **PR** `#21077`_: (*terminalmage*) Add missing function config.gather_bootstrap_script
+- **PR** `#21077`_: (*terminalmage*) Add missing function config.gather_bootstrap_script
+  <span style='float:right'>*2015-02-26T17:48:41Z*</span>
 
   * 84a20d7 Merge pull request `#21077`_ from terminalmage/add-bootstrap
   * 3e276d9 add missing import
@@ -911,27 +1021,31 @@ Changes:
 
   * a3b0549 Add missing config.gather_bootstrap_script
 
-- 2015-02-26T16:29:01Z **PR** `#21069`_: (*RobertFach*) added options auto, users to mount invisible options
+- **PR** `#21069`_: (*RobertFach*) added options auto, users to mount invisible options
+  <span style='float:right'>*2015-02-26T16:29:01Z*</span>
 
   - **ISSUE** `#21068`_: (*RobertFach*) Forced remount because options changed when no options changed (option=[auto,users]) (2014.7)
     | refs: `#21069`_
   * bc4c1fa Merge pull request `#21069`_ from RobertFach/`fix-21068`_-mount-auto-users
   * f42cd1c added options auto, users to mount invisible options
 
-- 2015-02-26T16:20:09Z **PR** `#21063`_: (*jond64*) Backport `#16306`_ to 2014.7
+- **PR** `#21063`_: (*jond64*) Backport `#16306`_ to 2014.7
+  <span style='float:right'>*2015-02-26T16:20:09Z*</span>
 
   - **PR** `#16306`_: (*hathawsh*) This patch fixes the 'test' mode of the 'network' state module.
     | refs: `#21063`_
   * c302796 Merge pull request `#21063`_ from jond64/`bp-16306`_
   * 3c061ac Fix the 'test' mode of the 'network' state module.  It hit false positives due to inconsistent newline handling.
 
-- 2015-02-26T02:58:34Z **PR** `#21052`_: (*lorengordon*) Convert `pattern` to string, fixes saltstack`#21051`_
+- **PR** `#21052`_: (*lorengordon*) Convert `pattern` to string, fixes saltstack`#21051`_
+  <span style='float:right'>*2015-02-26T02:58:34Z*</span>
 
   - **ISSUE** `#21051`_: (*lorengordon*) TypeError in file.replace if the pattern is a string of numbers
   * 70276a9 Merge pull request `#21052`_ from lorengordon/file-replace-convert-pattern-to-string
   * 3d5d594 Convert `pattern` to string, fixes saltstack`#21051`_
 
-- 2015-02-26T01:09:17Z **PR** `#20854`_: (*terminalmage*) VCS fileserver backend fixes/optimizations
+- **PR** `#20854`_: (*terminalmage*) VCS fileserver backend fixes/optimizations
+  <span style='float:right'>*2015-02-26T01:09:17Z*</span>
 
   - **ISSUE** `#21021`_: (*JPT580*) Bad gitfs_remote breaks sls-files in subdirectories for state.(sls|highstate)
     | refs: `#20854`_
@@ -1054,7 +1168,8 @@ Changes:
 
   * 129851e gitfs: fix new branch detection (GitPython)
 
-- 2015-02-26T01:07:00Z **PR** `#21023`_: (*rallytime*) Backport `#19303`_ to 2014.7
+- **PR** `#21023`_: (*rallytime*) Backport `#19303`_ to 2014.7
+  <span style='float:right'>*2015-02-26T01:07:00Z*</span>
 
   - **ISSUE** `#18358`_: (*msciciel*) Problem with batch execution
     | refs: `#19303`_
@@ -1067,7 +1182,8 @@ Changes:
 
   * bf2b8de Just use ckminions in batch mode.
 
-- 2015-02-26T00:44:02Z **PR** `#21047`_: (*jfindlay*) simplify yaml parsing for publish module
+- **PR** `#21047`_: (*jfindlay*) simplify yaml parsing for publish module
+  <span style='float:right'>*2015-02-26T00:44:02Z*</span>
 
   - **ISSUE** `#18317`_: (*mikn*) Argument lists for module calls through publish.publish does not work any more
     | refs: `#20992`_
@@ -1076,14 +1192,16 @@ Changes:
   * 1572b80 Merge pull request `#21047`_ from jfindlay/pub_args
   * e2e59da simplify yaml parsing for publish module
 
-- 2015-02-25T23:13:03Z **PR** `#21034`_: (*basepi*) [2014.7] Fix for salt-ssh without command line parsers
+- **PR** `#21034`_: (*basepi*) [2014.7] Fix for salt-ssh without command line parsers
+  <span style='float:right'>*2015-02-25T23:13:03Z*</span>
 
   - **ISSUE** `#20418`_: (*Xiol*) Permission denied error on salt-ssh deploy dir
     | refs: `#21034`_
   * c6ddfa2 Merge pull request `#21034`_ from basepi/salt-ssh-salt-api-20418
   * 1700d0c Fix for salt-ssh without command line parsers
 
-- 2015-02-25T23:12:16Z **PR** `#21032`_: (*rallytime*) Backport `#21024`_ to 2014.7
+- **PR** `#21032`_: (*rallytime*) Backport `#21024`_ to 2014.7
+  <span style='float:right'>*2015-02-25T23:12:16Z*</span>
 
   - **PR** `#21024`_: (*ptonelli*) fix set_locale when no locale is defined initially in RedHat family
     | refs: `#21032`_
@@ -1094,20 +1212,23 @@ Changes:
 
   * 4e338a0 fix set_locale when locale file does not exist (in RedHat family)
 
-- 2015-02-25T22:55:29Z **PR** `#21028`_: (*rallytime*) Use LooseVersion instead of StrictVersion to use an RC version of MongoDB
+- **PR** `#21028`_: (*rallytime*) Use LooseVersion instead of StrictVersion to use an RC version of MongoDB
+  <span style='float:right'>*2015-02-25T22:55:29Z*</span>
 
   - **ISSUE** `#21012`_: (*hackel*) mongodb module incompatible with MongoDB 3.0 RCs
     | refs: `#21028`_
   * 9eaac2b Merge pull request `#21028`_ from rallytime/`fix-21012`_
   * aedc911 Use LooseVersion instead of StrictVersion to use an RC version of MongoDB
 
-- 2015-02-25T17:22:30Z **PR** `#21022`_: (*nitti*) correctly count active devices when creating a mdadm array with spares
+- **PR** `#21022`_: (*nitti*) correctly count active devices when creating a mdadm array with spares
+  <span style='float:right'>*2015-02-25T17:22:30Z*</span>
 
   * 92a71b7 Merge pull request `#21022`_ from nitti/2014.7
   * 0753901 correctly count raid devices when creating an array with spares
 
-- 2015-02-25T16:39:33Z **PR** `#20992`_: (*jfindlay*) fix arg preparation for publish module
+- **PR** `#20992`_: (*jfindlay*) fix arg preparation for publish module
   | refs: `#21047`_
+  <span style='float:right'>*2015-02-25T16:39:33Z*</span>
 
   - **ISSUE** `#18317`_: (*mikn*) Argument lists for module calls through publish.publish does not work any more
     | refs: `#20992`_
@@ -1116,33 +1237,38 @@ Changes:
 
   * cec5ba3 improve publish arg yamlifying, fixes `#18317`_
 
-- 2015-02-25T16:36:25Z **PR** `#21002`_: (*rallytime*) Moar digitalocean tests
+- **PR** `#21002`_: (*rallytime*) Moar digitalocean tests
+  <span style='float:right'>*2015-02-25T16:36:25Z*</span>
 
   * 009012f Merge pull request `#21002`_ from rallytime/moar_digitalocean_tests
   * e5c4cf8 Move tearDown functionality into test_instance
 
   * b2bc55f Add some more tests to catch API changes for digital ocean
 
-- 2015-02-25T16:14:05Z **PR** `#21013`_: (*wt*) Add version to a deprecation log message.
+- **PR** `#21013`_: (*wt*) Add version to a deprecation log message.
+  <span style='float:right'>*2015-02-25T16:14:05Z*</span>
 
   * 117d335 Merge pull request `#21013`_ from wt/2014.7_add_log_for_yaml_filter
   * 28b47c1 Add version to a deprecation log message.
 
-- 2015-02-24T22:32:21Z **PR** `#20984`_: (*rallytime*) Switch modprobe -r to rmmod in kmod.remove
+- **PR** `#20984`_: (*rallytime*) Switch modprobe -r to rmmod in kmod.remove
+  <span style='float:right'>*2015-02-24T22:32:21Z*</span>
 
   - **ISSUE** `#18725`_: (*wrigtim*) salt.modules.kmod.remove - 'modprobe -r' will not remove a module if the .ko is missing
     | refs: `#20984`_
   * 5a5f38a Merge pull request `#20984`_ from rallytime/`fix-18725`_
   * 931f555 Switch modprobe -r to rmmod in kmod.remove
 
-- 2015-02-24T22:29:21Z **PR** `#20990`_: (*joehoyle*) Backport fix `#20987`_
+- **PR** `#20990`_: (*joehoyle*) Backport fix `#20987`_
+  <span style='float:right'>*2015-02-24T22:29:21Z*</span>
 
   - **PR** `#20987`_: (*joehoyle*) Fix typo in s3fs fix
     | refs: `#20990`_
   * 8a03484 Merge pull request `#20990`_ from joehoyle/fix-typo-s3fs-backport
   * f0ba7ee Fixed typo, doh!
 
-- 2015-02-24T21:23:15Z **PR** `#20983`_: (*basepi*) [2014.7] Backport `#20304`_ to catch msgpack errors in cmd.run
+- **PR** `#20983`_: (*basepi*) [2014.7] Backport `#20304`_ to catch msgpack errors in cmd.run
+  <span style='float:right'>*2015-02-24T21:23:15Z*</span>
 
   - **ISSUE** `#20276`_: (*mventimi*) salt-ssh operations fail with "'msgpack' not defined" error
     | refs: `#20304`_
@@ -1150,17 +1276,20 @@ Changes:
   * 349ae2b Merge pull request `#20983`_ from basepi/backport_20304
   * d289084 Backport `#20304`_ to catch msgpack errors in cmd.run in 2014.7
 
-- 2015-02-24T03:04:04Z **PR** `#20957`_: (*jfindlay*) adding cmd.run integration tests
+- **PR** `#20957`_: (*jfindlay*) adding cmd.run integration tests
+  <span style='float:right'>*2015-02-24T03:04:04Z*</span>
 
   * 00e3dc3 Merge pull request `#20957`_ from jfindlay/cmd_tests
   * 5ab5380 adding cmd.run integration tests
 
-- 2015-02-24T02:14:42Z **PR** `#20937`_: (*wt*) Log when the yaml filter outputs trailing ellipsis.
+- **PR** `#20937`_: (*wt*) Log when the yaml filter outputs trailing ellipsis.
+  <span style='float:right'>*2015-02-24T02:14:42Z*</span>
 
   * 2cbf8e9 Merge pull request `#20937`_ from wt/2014.7_add_log_for_yaml_filter
   * f037dcf Log when the yaml filter outputs trailing ellipsis.
 
-- 2015-02-24T02:02:00Z **PR** `#20954`_: (*rallytime*) Backport `#20891`_ to 2014.7
+- **PR** `#20954`_: (*rallytime*) Backport `#20891`_ to 2014.7
+  <span style='float:right'>*2015-02-24T02:02:00Z*</span>
 
   - **PR** `#20891`_: (*jfindlay*) pylint `#20814`_
     | refs: `#20954`_
@@ -1169,7 +1298,8 @@ Changes:
 
   * b0a4e48 Fix disk.usage for Synology OS
 
-- 2015-02-24T00:01:01Z **PR** `#20953`_: (*rallytime*) Backport `#20888`_ to 2014.7
+- **PR** `#20953`_: (*rallytime*) Backport `#20888`_ to 2014.7
+  <span style='float:right'>*2015-02-24T00:01:01Z*</span>
 
   - **PR** `#20888`_: (*jfindlay*) pylint `#20885`_
     | refs: `#20953`_
@@ -1178,14 +1308,16 @@ Changes:
 
   * 86029e7 Trim the env base off the dest file path in the s3fs fileserver
 
-- 2015-02-23T23:44:08Z **PR** `#20951`_: (*rallytime*) Backport `#20837`_ to 2014.7
+- **PR** `#20951`_: (*rallytime*) Backport `#20837`_ to 2014.7
+  <span style='float:right'>*2015-02-23T23:44:08Z*</span>
 
   - **PR** `#20837`_: (*viktorkrivak*) Fix multi comps and multi dist bugs
     | refs: `#20951`_
   * dfef980 Merge pull request `#20951`_ from rallytime/`bp-20837`_
   * 5d1bc21 Fix multi comps and multi dist bugs
 
-- 2015-02-23T15:35:02Z **PR** `#20922`_: (*bbinet*) 2014.7: fix issue 20921
+- **PR** `#20922`_: (*bbinet*) 2014.7: fix issue 20921
+  <span style='float:right'>*2015-02-23T15:35:02Z*</span>
 
   - **ISSUE** `#20921`_: (*bbinet*) 2014.7 regression: InvalidRepository: Invalid repository name (debian:wheezy)
     | refs: `#20922`_
@@ -1194,38 +1326,44 @@ Changes:
 
   * c53ce9d Docker: improve tags support
 
-- 2015-02-21T14:02:48Z **PR** `#20895`_: (*bechtoldt*) fix wrong dict access in smtp returner in 2014.7
+- **PR** `#20895`_: (*bechtoldt*) fix wrong dict access in smtp returner in 2014.7
+  <span style='float:right'>*2015-02-21T14:02:48Z*</span>
 
   * 081867c Merge pull request `#20895`_ from bechtoldt/2014.7
   * 8ee52d6 fix wrong dict access in smtp returner, that is already fixed in 2015.2 and later
 
-- 2015-02-21T00:47:34Z **PR** `#20880`_: (*thatch45*) fix bug from systems without any legacy init scripts
+- **PR** `#20880`_: (*thatch45*) fix bug from systems without any legacy init scripts
+  <span style='float:right'>*2015-02-21T00:47:34Z*</span>
 
   * 964e77e Merge pull request `#20880`_ from thatch45/systemd_listdir
   * 626e13a fix bug from systems without any legacy init scripts
 
-- 2015-02-21T00:41:17Z **PR** `#20881`_: (*thatch45*) Remove requisites from listen post calls
+- **PR** `#20881`_: (*thatch45*) Remove requisites from listen post calls
+  <span style='float:right'>*2015-02-21T00:41:17Z*</span>
 
   - **ISSUE** `#20863`_: (*clinta*) listen and require conflict
     | refs: `#20881`_
   * 9401b24 Merge pull request `#20881`_ from thatch45/listen_req
   * 44cda29 Remove requisites from listen post calls
 
-- 2015-02-20T23:58:33Z **PR** `#20856`_: (*jrgp*) Don't remount loop back filesystems upon every state run
+- **PR** `#20856`_: (*jrgp*) Don't remount loop back filesystems upon every state run
+  <span style='float:right'>*2015-02-20T23:58:33Z*</span>
 
   - **ISSUE** `#20855`_: (*jrgp*) Loopback filesystems always remount (option=loop) regardless of zero changes (2014.7)
     | refs: `#20856`_
   * e6f1eb0 Merge pull request `#20856`_ from jrgp/2014.7
   * 8dbfed6 Don't remount loop back filesystems upon every state run
 
-- 2015-02-20T20:37:23Z **PR** `#20866`_: (*terminalmage*) Update the RHEL installation guide
+- **PR** `#20866`_: (*terminalmage*) Update the RHEL installation guide
+  <span style='float:right'>*2015-02-20T20:37:23Z*</span>
 
   - **ISSUE** `#20742`_: (*transmutated*) Broken Dependencies for new salt installation on Redhat/CentOS 5.X using epel5 repo
     | refs: `#20866`_
   * abda600 Merge pull request `#20866`_ from terminalmage/issue20742
   * 396e234 Update the RHEL installation guide
 
-- 2015-02-20T01:29:00Z **PR** `#20848`_: (*rallytime*) Integration tests for the new requisites added in 2014.7
+- **PR** `#20848`_: (*rallytime*) Integration tests for the new requisites added in 2014.7
+  <span style='float:right'>*2015-02-20T01:29:00Z*</span>
 
   * ca79845 Merge pull request `#20848`_ from rallytime/new_requisites_tests
   * c3f786c listen and listen_in requisite tests
@@ -1236,35 +1374,41 @@ Changes:
 
   * 8f0e80b Add one onchanges requisite test
 
-- 2015-02-19T23:43:50Z **PR** `#20847`_: (*rallytime*) Add listen and listen_in to state internal kwargs
+- **PR** `#20847`_: (*rallytime*) Add listen and listen_in to state internal kwargs
+  <span style='float:right'>*2015-02-19T23:43:50Z*</span>
 
   * c9b766c Merge pull request `#20847`_ from rallytime/state_kwargs
   * 5d22cba Add listen and listen_in to state internal kwargs
 
-- 2015-02-19T20:07:45Z **PR** `#20839`_: (*rallytime*) Backport `#20608`_ to 2014.7
+- **PR** `#20839`_: (*rallytime*) Backport `#20608`_ to 2014.7
+  <span style='float:right'>*2015-02-19T20:07:45Z*</span>
 
   - **PR** `#20608`_: (*cachedout*) Avoid trying to deserialize empty files
     | refs: `#20839`_
   * e0ba92f Merge pull request `#20839`_ from rallytime/`bp-20608`_
   * e4ced3e Avoid trying to deserialize empty files
 
-- 2015-02-19T20:06:07Z **PR** `#20842`_: (*thatch45*) Add requisite ins to state internal kwargs
+- **PR** `#20842`_: (*thatch45*) Add requisite ins to state internal kwargs
+  <span style='float:right'>*2015-02-19T20:06:07Z*</span>
 
   * 2ef28c7 Merge pull request `#20842`_ from thatch45/state_kwargs
   * 97cda22 Add requisite ins to state internal kwargs
 
-- 2015-02-19T17:41:24Z **PR** `#20834`_: (*peresadam*) Fixed dict unpacking in salt.utils.format_call
+- **PR** `#20834`_: (*peresadam*) Fixed dict unpacking in salt.utils.format_call
+  <span style='float:right'>*2015-02-19T17:41:24Z*</span>
 
   * e488572 Merge pull request `#20834`_ from peresadam/fix_format_call_2014.7
   * b50497b Fixed dict unpacking in salt.utils.format_call
 
-- 2015-02-19T17:40:24Z **PR** `#20831`_: (*RobertFach*) added nointr invisible mount option
+- **PR** `#20831`_: (*RobertFach*) added nointr invisible mount option
+  <span style='float:right'>*2015-02-19T17:40:24Z*</span>
 
   - **ISSUE** `#20828`_: (*RobertFach*) Forced remount because options changed when no options changed (option=nointr) (2014.7)
   * 3f42cf3 Merge pull request `#20831`_ from RobertFach/`fix-20828`_-mount-nointr
   * 6855ca1 added nointr invisible mount option
 
-- 2015-02-19T17:15:17Z **PR** `#20613`_: (*jfindlay*) change incorrect 'text' outputter to 'txt'
+- **PR** `#20613`_: (*jfindlay*) change incorrect 'text' outputter to 'txt'
+  <span style='float:right'>*2015-02-19T17:15:17Z*</span>
 
   - **ISSUE** `#20612`_: (*jfindlay*) always change 'text' outputter to 'txt'
     | refs: `#20613`_
@@ -1273,17 +1417,20 @@ Changes:
 
   * f202aaf change incorrect 'text' outputter to 'txt'
 
-- 2015-02-18T23:25:46Z **PR** `#20813`_: (*rallytime*) Update Arch installation docs to reference salt-zmq and salt-raet pkgs
+- **PR** `#20813`_: (*rallytime*) Update Arch installation docs to reference salt-zmq and salt-raet pkgs
+  <span style='float:right'>*2015-02-18T23:25:46Z*</span>
 
   * 71ccd5e Merge pull request `#20813`_ from rallytime/arch_installation_docs
   * 9322d3b Update Arch installation docs to reference salt-zmq and salt-raet pkgs
 
-- 2015-02-18T21:54:47Z **PR** `#20810`_: (*rallytime*) Add 2014.7.2 package links to the windows installer docs
+- **PR** `#20810`_: (*rallytime*) Add 2014.7.2 package links to the windows installer docs
+  <span style='float:right'>*2015-02-18T21:54:47Z*</span>
 
   * f669b25 Merge pull request `#20810`_ from rallytime/windows_install_docs_update
   * 928bb30 Add 2014.7.2 package links to the windows installer docs
 
-- 2015-02-18T17:59:31Z **PR** `#20800`_: (*rallytime*) Backport `#20768`_ to 2014.7
+- **PR** `#20800`_: (*rallytime*) Backport `#20768`_ to 2014.7
+  <span style='float:right'>*2015-02-18T17:59:31Z*</span>
 
   - **PR** `#20768`_: (*vladislav-jomedia*) "dictionary changed size during iteration" issue fixed in config.py for ...
     | refs: `#20800`_
@@ -1292,21 +1439,24 @@ Changes:
 
   * 89fd8ee "dictionary changed size during iteration" issue fixed in config.py for salt-cloud
 
-- 2015-02-18T00:38:32Z **PR** `#20778`_: (*terminalmage*) Add Synology OS detection
+- **PR** `#20778`_: (*terminalmage*) Add Synology OS detection
+  <span style='float:right'>*2015-02-18T00:38:32Z*</span>
 
   - **ISSUE** `#18943`_: (*Diaoul*) Synology support
     | refs: `#20778`_
   * 90ef4d7 Merge pull request `#20778`_ from terminalmage/issue18943
   * bd65632 Add Synology OS detection
 
-- 2015-02-17T20:01:39Z **PR** `#20762`_: (*jfindlay*) fix nftables.get_rule_handle return error
+- **PR** `#20762`_: (*jfindlay*) fix nftables.get_rule_handle return error
+  <span style='float:right'>*2015-02-17T20:01:39Z*</span>
 
   - **ISSUE** `#20747`_: (*jayeshka*) The function "get_rule_handle" in nftables module throw "Referenced before assignment" error.
     | refs: `#20762`_
   * 5ad79ae Merge pull request `#20762`_ from jfindlay/fix_nftables
   * 6708cf1 fix nftables.get_rule_handle return error
 
-- 2015-02-17T19:36:10Z **PR** `#20765`_: (*rallytime*) Backport `#20706`_ to 2014.7
+- **PR** `#20765`_: (*rallytime*) Backport `#20706`_ to 2014.7
+  <span style='float:right'>*2015-02-17T19:36:10Z*</span>
 
   - **PR** `#20706`_: (*Achimh3011*) Make systemd impl. of service.running aware of legacy service units
     | refs: `#20765`_
@@ -1315,7 +1465,8 @@ Changes:
 
   * 40d6963 Make systemd implementation of service.running aware of legacy service units.
 
-- 2015-02-17T19:31:17Z **PR** `#20739`_: (*mikn*) Giving publish.publish more robust return handling
+- **PR** `#20739`_: (*mikn*) Giving publish.publish more robust return handling
+  <span style='float:right'>*2015-02-17T19:31:17Z*</span>
 
   - **ISSUE** `#16510`_: (*UtahDave*) publish.publish completely unreliable in 2014.7 branch
     | refs: `#20739`_ `#20739`_
@@ -1324,7 +1475,8 @@ Changes:
 
   * 892db93 Giving publish.publish more robust handling of returns making sure that it can cope with duplicate responses and actually return what it has received if it reaches the timeout
 
-- 2015-02-17T04:58:43Z **PR** `#20689`_: (*rallytime*) Backport `#20457`_ to 2014.7
+- **PR** `#20689`_: (*rallytime*) Backport `#20457`_ to 2014.7
+  <span style='float:right'>*2015-02-17T04:58:43Z*</span>
 
   - **PR** `#20457`_: (*cachedout*) Iterate over the socket copy
     | refs: `#20689`_
@@ -1333,14 +1485,16 @@ Changes:
 
   * e4fd27a Iterate over the socket copy
 
-- 2015-02-14T00:46:25Z **PR** `#20697`_: (*whiteinge*) Add note to rest_cherrypy instructions: restarting daemons is required
+- **PR** `#20697`_: (*whiteinge*) Add note to rest_cherrypy instructions: restarting daemons is required
+  <span style='float:right'>*2015-02-14T00:46:25Z*</span>
 
   * bdbb23d Merge pull request `#20697`_ from whiteinge/doc-rest_cherrypy-install-usage
   * 54e61e0 Minor clarifications to the rest_cherrypy setup/usage instructions
 
   * 561ea7c Add note to rest_cherrypy instructions: restarting daemons is required
 
-- 2015-02-13T18:21:15Z **PR** `#20684`_: (*rallytime*) Backport `#20232`_ to 2014.7
+- **PR** `#20684`_: (*rallytime*) Backport `#20232`_ to 2014.7
+  <span style='float:right'>*2015-02-13T18:21:15Z*</span>
 
   - **PR** `#20232`_: (*jacksontj*) Remove unecessary finish() calls
     | refs: `#20684`_
@@ -1349,36 +1503,42 @@ Changes:
   * 6c2ac49 Merge pull request `#20684`_ from rallytime/`bp-20232`_
   * 8d63ac4 Remove unecessary finish() calls
 
-- 2015-02-13T16:16:28Z **PR** `#20682`_: (*rallytime*) Add dependency notice to proxmox.rst
+- **PR** `#20682`_: (*rallytime*) Add dependency notice to proxmox.rst
+  <span style='float:right'>*2015-02-13T16:16:28Z*</span>
 
   - **ISSUE** `#14799`_: (*lparmentier-quatral*) Salt Cloud 2014.7 Provider issue
     | refs: `#20682`_
   * f00a85a Merge pull request `#20682`_ from rallytime/proxmox_docs
   * 4805677 Add dependency notice to proxmox.rst
 
-- 2015-02-13T00:39:31Z **PR** `#20671`_: (*whiteinge*) Reactor docs updates
+- **PR** `#20671`_: (*whiteinge*) Reactor docs updates
+  <span style='float:right'>*2015-02-13T00:39:31Z*</span>
 
   * cc544e5 Merge pull request `#20671`_ from whiteinge/doc-reactor-updates
   * 37017a5 Replace doc examples for event.fire_master with event.send
 
   * f0b5ddb Updated Reactor docs to reference state.event instead of eventlisten
 
-- 2015-02-12T19:53:01Z **PR** `#20641`_: (*whiteinge*) Updated the event docs with the current Python API and more examples
+- **PR** `#20641`_: (*whiteinge*) Updated the event docs with the current Python API and more examples
+  <span style='float:right'>*2015-02-12T19:53:01Z*</span>
 
   * b898539 Merge pull request `#20641`_ from whiteinge/doc-events
   * 7de5f9d Updated the event docs with the current Python API and more examples
 
-- 2015-02-12T18:44:29Z **PR** `#20640`_: (*rallytime*) Change the release notes title to 2014.7.2
+- **PR** `#20640`_: (*rallytime*) Change the release notes title to 2014.7.2
+  <span style='float:right'>*2015-02-12T18:44:29Z*</span>
 
   * f4a6b35 Merge pull request `#20640`_ from rallytime/fix_release_note_title
   * 3f9af9f Change the release notes title to 2014.7.2
 
-- 2015-02-12T18:11:14Z **PR** `#20633`_: (*sbrandtb*) Fixed wrong placement of speechmarks
+- **PR** `#20633`_: (*sbrandtb*) Fixed wrong placement of speechmarks
+  <span style='float:right'>*2015-02-12T18:11:14Z*</span>
 
   * f79108b Merge pull request `#20633`_ from sbrandtb/fix_locale_speechmarks
   * 2fdb798 Fixed wrong placement of speechmarks
 
-- 2015-02-12T17:38:53Z **PR** `#20616`_: (*rallytime*) Merge `#20419`_ with test syntax fix
+- **PR** `#20616`_: (*rallytime*) Merge `#20419`_ with test syntax fix
+  <span style='float:right'>*2015-02-12T17:38:53Z*</span>
 
   - **PR** `#20419`_: (*hvnsweeting*) bugfix: module function cmd.which would be wrong if arg is a dirname
     | refs: `#20616`_
@@ -1391,14 +1551,16 @@ Changes:
 
   * 76e9be1 bugfix: module function cmd.which would be wrong if arg is a dirname
 
-- 2015-02-11T22:07:41Z **PR** `#20604`_: (*basepi*) [2014.7] Accept kali linux for aptpkg.py
+- **PR** `#20604`_: (*basepi*) [2014.7] Accept kali linux for aptpkg.py
+  <span style='float:right'>*2015-02-11T22:07:41Z*</span>
 
   - **ISSUE** `#20552`_: (*resolan*) Kali systems integration for pkg states
     | refs: `#20604`_
   * 2ec7191 Merge pull request `#20604`_ from basepi/kali_linux_20552
   * 0d1c0ab Accept kali linux for aptpkg.py
 
-- 2015-02-11T18:46:10Z **PR** `#20591`_: (*rallytime*) Backport `#20568`_ to 2014.7
+- **PR** `#20591`_: (*rallytime*) Backport `#20568`_ to 2014.7
+  <span style='float:right'>*2015-02-11T18:46:10Z*</span>
 
   - **PR** `#20568`_: (*cachedout*) Last time with find removed
     | refs: `#20591`_
@@ -1407,21 +1569,24 @@ Changes:
 
   * 194ad0f Last time with find removed
 
-- 2015-02-11T03:51:23Z **PR** `#20578`_: (*rallytime*) Backport `#20561`_ to 2014.7
+- **PR** `#20578`_: (*rallytime*) Backport `#20561`_ to 2014.7
+  <span style='float:right'>*2015-02-11T03:51:23Z*</span>
 
   - **PR** `#20561`_: (*cachedout*) Disable gitfs test that does not produce valuable data
     | refs: `#20578`_
   * a4572f3 Merge pull request `#20578`_ from rallytime/`bp-20561`_
   * 836b525 Disable gitfs test that does not produce valuable data
 
-- 2015-02-11T02:56:23Z **PR** `#20579`_: (*rallytime*) Backport `#20567`_ to 2014.7
+- **PR** `#20579`_: (*rallytime*) Backport `#20567`_ to 2014.7
+  <span style='float:right'>*2015-02-11T02:56:23Z*</span>
 
   - **PR** `#20567`_: (*cachedout*) Remove another test.
     | refs: `#20579`_
   * 45301d3 Merge pull request `#20579`_ from rallytime/`bp-20567`_
   * c41998c Remove another test.
 
-- 2015-02-10T19:44:21Z **PR** `#20509`_: (*bechtoldt*) fix broken ipv6 address verification in salt.utils.validate.net, fixes `#20508`_
+- **PR** `#20509`_: (*bechtoldt*) fix broken ipv6 address verification in salt.utils.validate.net, fixes `#20508`_
+  <span style='float:right'>*2015-02-10T19:44:21Z*</span>
 
   - **ISSUE** `#20508`_: (*bechtoldt*) Backport ipv6 addr validation fix into 2014.7
   * 073d717 Merge pull request `#20509`_ from bechtoldt/2014.7-arbe
@@ -1433,21 +1598,24 @@ Changes:
 
   * ef7834d fix broken ipv6 address verification in salt.utils.validate.net
 
-- 2015-02-10T17:00:05Z **PR** `#20500`_: (*eliasp*) Use same string encoding for results from all fileserver backends.
+- **PR** `#20500`_: (*eliasp*) Use same string encoding for results from all fileserver backends.
+  <span style='float:right'>*2015-02-10T17:00:05Z*</span>
 
   - **ISSUE** `#20499`_: (*eliasp*) "UnicodeDecodeError" in 'fileserver.file_list()'
     | refs: `#20500`_
   * ad370bc Merge pull request `#20500`_ from eliasp/2014.7-issue-20499-fileserver-encoding
   * 4951b78 Use same string encoding for results from all fileserver backends.
 
-- 2015-02-10T01:34:10Z **PR** `#20534`_: (*rallytime*) Backport `#20454`_ to 2014.7
+- **PR** `#20534`_: (*rallytime*) Backport `#20454`_ to 2014.7
+  <span style='float:right'>*2015-02-10T01:34:10Z*</span>
 
   - **PR** `#20454`_: (*scream3*) RVM user-only installation is broken
     | refs: `#20534`_
   * 523a8f8 Merge pull request `#20534`_ from rallytime/`bp-20454`_
   * f1aa693 Fix wrong check for rvm script existence
 
-- 2015-02-10T01:32:01Z **PR** `#20533`_: (*rallytime*) Backport `#20521`_ to 2014.7
+- **PR** `#20533`_: (*rallytime*) Backport `#20521`_ to 2014.7
+  <span style='float:right'>*2015-02-10T01:32:01Z*</span>
 
   - **PR** `#20521`_: (*umeboshi2*) don't use empty string as command parameter
     | refs: `#20533`_

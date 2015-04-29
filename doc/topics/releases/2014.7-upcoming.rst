@@ -19,14 +19,16 @@ Statistics:
 Changes:
 
 
-- 2015-04-29T16:18:59Z **PR** `#23154`_: (*cachedout*) Re-establish channel on interruption in fileclient
+- **PR** `#23154`_: (*cachedout*) Re-establish channel on interruption in fileclient
+  <span style='float:right'>*2015-04-29T16:18:59Z*</span>
 
   - **ISSUE** `#21480`_: (*msciciel*) TypeError: string indices must be integers, not str
     | refs: `#23154`_
   * 168508e Merge pull request `#23154`_ from cachedout/refresh_channel
   * 9f8dd80 Re-establish channel on interruption in fileclient
 
-- 2015-04-28T20:45:06Z **PR** `#23146`_: (*rallytime*) Backport `#20779`_ to 2014.7
+- **PR** `#23146`_: (*rallytime*) Backport `#20779`_ to 2014.7
+  <span style='float:right'>*2015-04-28T20:45:06Z*</span>
 
   - **ISSUE** `#20647`_: (*ryan-lane*) file.serialize fails to serialize due to ordered dicts
     | refs: `#20779`_
@@ -39,14 +41,16 @@ Changes:
 
   * a111798 Use declared yaml options
 
-- 2015-04-28T20:44:56Z **PR** `#23145`_: (*rallytime*) Backport `#23089`_ to 2014.7
+- **PR** `#23145`_: (*rallytime*) Backport `#23089`_ to 2014.7
+  <span style='float:right'>*2015-04-28T20:44:56Z*</span>
 
   - **PR** `#23089`_: (*cachedout*) Stringify version number before lstrip
     | refs: `#23145`_
   * 8bb4664 Merge pull request `#23145`_ from rallytime/`bp-23089`_
   * 93c41af Stringify version number before lstrip
 
-- 2015-04-28T20:44:46Z **PR** `#23144`_: (*rallytime*) Backport `#23124`_ to 2014.7 
+- **PR** `#23144`_: (*rallytime*) Backport `#23124`_ to 2014.7 
+  <span style='float:right'>*2015-04-28T20:44:46Z*</span>
 
   - **ISSUE** `#16188`_: (*drawks*) salt.modules.parted has various functions with bogus input validation.
     | refs: `#23124`_
@@ -55,17 +59,20 @@ Changes:
   * c85d36f Merge pull request `#23144`_ from rallytime/`bp-23124`_-2014-7
   * 6b64da7 fix parsing the output of parted
 
-- 2015-04-28T15:46:54Z **PR** `#23120`_: (*terminalmage*) Don't run os.path.relpath() if repo doesn't have a "root" param set
+- **PR** `#23120`_: (*terminalmage*) Don't run os.path.relpath() if repo doesn't have a "root" param set
+  <span style='float:right'>*2015-04-28T15:46:54Z*</span>
 
   * a27b158 Merge pull request `#23120`_ from terminalmage/fix-gitfs-relpath
   * 1860fff Don't run os.path.relpath() if repo doesn't have a "root" param set
 
-- 2015-04-28T15:00:30Z **PR** `#23132`_: (*clinta*) Backport b27c176
+- **PR** `#23132`_: (*clinta*) Backport b27c176
+  <span style='float:right'>*2015-04-28T15:00:30Z*</span>
 
   * fcba607 Merge pull request `#23132`_ from clinta/patch-2
   * a824d72 Backport b27c176
 
-- 2015-04-28T03:59:24Z **PR** `#23114`_: (*rallytime*) Adjust ZeroMQ 4 docs to reflect changes to Ubuntu 12 packages
+- **PR** `#23114`_: (*rallytime*) Adjust ZeroMQ 4 docs to reflect changes to Ubuntu 12 packages
+  <span style='float:right'>*2015-04-28T03:59:24Z*</span>
 
   - **ISSUE** `#18476`_: (*Auha*) Upgrading salt on my master caused dependency issues
     | refs: `#23114`_ `#18610`_
@@ -74,7 +81,8 @@ Changes:
   * b0f4b28 Merge pull request `#23114`_ from rallytime/remove_ubuntu_zmq4_docs
   * f6cc7c8 Adjust ZeroMQ 4 docs to reflect changes to Ubuntu 12 packages
 
-- 2015-04-28T03:58:05Z **PR** `#23108`_: (*rallytime*) Backport `#23097`_ to 2014.7
+- **PR** `#23108`_: (*rallytime*) Backport `#23097`_ to 2014.7
+  <span style='float:right'>*2015-04-28T03:58:05Z*</span>
 
   - **ISSUE** `#23085`_: (*xenophonf*) Use "s3fs" (not "s3") in fileserver_roots
     | refs: `#23097`_
@@ -83,7 +91,8 @@ Changes:
   * 399857f Merge pull request `#23108`_ from rallytime/`bp-23097`_
   * fa88984 Change s3 to s3fs in fileserver_roots docs example
 
-- 2015-04-28T03:55:44Z **PR** `#23112`_: (*basepi*) [2014.7] Backport `#22199`_ to fix mysql returner save_load errors
+- **PR** `#23112`_: (*basepi*) [2014.7] Backport `#22199`_ to fix mysql returner save_load errors
+  <span style='float:right'>*2015-04-28T03:55:44Z*</span>
 
   - **ISSUE** `#22171`_: (*basepi*) We should only call returner.save_load once per jid
     | refs: `#22199`_
@@ -92,7 +101,8 @@ Changes:
   * 5541537 Merge pull request `#23112`_ from basepi/mysql_returner_save_load
   * 0127012 Put a bandaid on the save_load duplicate issue
 
-- 2015-04-28T03:27:29Z **PR** `#23113`_: (*rallytime*) Revert "Backport `#22895`_ to 2014.7"
+- **PR** `#23113`_: (*rallytime*) Revert "Backport `#22895`_ to 2014.7"
+  <span style='float:right'>*2015-04-28T03:27:29Z*</span>
 
   - **PR** `#22925`_: (*rallytime*) Backport `#22895`_ to 2014.7
     | refs: `#23113`_
@@ -101,86 +111,100 @@ Changes:
   * dfe2066 Merge pull request `#23113`_ from saltstack/revert-22925-`bp-22895`_
   * b957ea8 Revert "Backport `#22895`_ to 2014.7"
 
-- 2015-04-27T20:51:28Z **PR** `#23094`_: (*terminalmage*) pygit2: disable cleaning of stale refs for authenticated remotes
+- **PR** `#23094`_: (*terminalmage*) pygit2: disable cleaning of stale refs for authenticated remotes
+  <span style='float:right'>*2015-04-27T20:51:28Z*</span>
 
   - **ISSUE** `#23013`_: (*markusr815*) gitfs regression with authenticated repos
     | refs: `#23094`_
   * 21515f3 Merge pull request `#23094`_ from terminalmage/issue23013
   * aaf7b04 pygit2: disable cleaning of stale refs for authenticated remotes
 
-- 2015-04-25T16:56:45Z **PR** `#23048`_: (*jfindlay*) py-2.6 compat for utils/boto.py ElementTree exception
+- **PR** `#23048`_: (*jfindlay*) py-2.6 compat for utils/boto.py ElementTree exception
+  <span style='float:right'>*2015-04-25T16:56:45Z*</span>
 
   * d45aa21 Merge pull request `#23048`_ from jfindlay/ET_error
   * 64c42cc py-2.6 compat for utils/boto.py ElementTree exception
 
-- 2015-04-25T16:56:30Z **PR** `#23025`_: (*jfindlay*) catch exceptions on bad system locales/encodings
+- **PR** `#23025`_: (*jfindlay*) catch exceptions on bad system locales/encodings
+  <span style='float:right'>*2015-04-25T16:56:30Z*</span>
 
   - **ISSUE** `#22981`_: (*syphernl*) Locale state throwing traceback when generating not (yet) existing locale
     | refs: `#23025`_
   * d25a5c1 Merge pull request `#23025`_ from jfindlay/fix_sys_locale
   * 9c4d62b catch exceptions on bad system locales/encodings
 
-- 2015-04-25T16:54:58Z **PR** `#22932`_: (*hvnsweeting*) bugfix: also manipulate dir_mode when source not defined
+- **PR** `#22932`_: (*hvnsweeting*) bugfix: also manipulate dir_mode when source not defined
+  <span style='float:right'>*2015-04-25T16:54:58Z*</span>
 
   * 5e44b59 Merge pull request `#22932`_ from hvnsweeting/file-append-bugfix
   * 3f368de do not use assert in execution module
 
   * 9d4fd4a bugfix: also manipulate dir_mode when source not defined
 
-- 2015-04-24T22:39:49Z **PR** `#23055`_: (*jfindlay*) prevent ps module errors on accessing dead procs
+- **PR** `#23055`_: (*jfindlay*) prevent ps module errors on accessing dead procs
+  <span style='float:right'>*2015-04-24T22:39:49Z*</span>
 
   - **ISSUE** `#23021`_: (*ether42*) ps.pgrep raises NoSuchProcess
     | refs: `#23055`_
   * c2416a4 Merge pull request `#23055`_ from jfindlay/fix_ps
   * c2dc7ad prevent ps module errors on accessing dead procs
 
-- 2015-04-24T18:38:13Z **PR** `#23031`_: (*jfindlay*) convert exception e.message to just e
+- **PR** `#23031`_: (*jfindlay*) convert exception e.message to just e
+  <span style='float:right'>*2015-04-24T18:38:13Z*</span>
 
   * bfd9158 Merge pull request `#23031`_ from jfindlay/exception
   * 856bad1 convert exception e.message to just e
 
-- 2015-04-24T14:35:10Z **PR** `#23015`_: (*hvnsweeting*) if status of service is stop, there is not an error with it
+- **PR** `#23015`_: (*hvnsweeting*) if status of service is stop, there is not an error with it
+  <span style='float:right'>*2015-04-24T14:35:10Z*</span>
 
   * 7747f33 Merge pull request `#23015`_ from hvnsweeting/set-non-error-lvl-for-service-status-log
   * 92ea163 if status of service is stop, there is not an error with it
 
-- 2015-04-24T03:42:39Z **PR** `#23000`_: (*jfindlay*) set systemd service killMode to process for minion
+- **PR** `#23000`_: (*jfindlay*) set systemd service killMode to process for minion
+  <span style='float:right'>*2015-04-24T03:42:39Z*</span>
 
   - **ISSUE** `#22993`_: (*jetpak*) salt-minion restart causes all spawned daemons to die on centos7 (systemd)
     | refs: `#23000`_
   * 2e09789 Merge pull request `#23000`_ from jfindlay/systemd_kill
   * 3d575e2 set systemd service killMode to process for minion
 
-- 2015-04-24T03:30:24Z **PR** `#22999`_: (*jtand*) Added retry_dns to minion doc.
+- **PR** `#22999`_: (*jtand*) Added retry_dns to minion doc.
+  <span style='float:right'>*2015-04-24T03:30:24Z*</span>
 
   - **ISSUE** `#22707`_: (*arthurlogilab*) retry_dns of master configuration is missing from the  documentation
     | refs: `#22999`_
   * b5c059a Merge pull request `#22999`_ from jtand/fix_22707
   * 8486e17 Added retry_dns to minion doc.
 
-- 2015-04-23T17:48:07Z **PR** `#22990`_: (*techhat*) Use the proper cloud conf variable
+- **PR** `#22990`_: (*techhat*) Use the proper cloud conf variable
+  <span style='float:right'>*2015-04-23T17:48:07Z*</span>
 
   * 27dc877 Merge pull request `#22990`_ from techhat/2014.7
   * d33bcbc Use the proper cloud conf variable
 
-- 2015-04-23T12:24:22Z **PR** `#22976`_: (*multani*) Improve state_output documentation
+- **PR** `#22976`_: (*multani*) Improve state_output documentation
+  <span style='float:right'>*2015-04-23T12:24:22Z*</span>
 
   * 13dff65 Merge pull request `#22976`_ from multani/fix/state-output-doc
   * 19efd41 Improve state_output documentation
 
-- 2015-04-22T18:56:39Z **PR** `#22955`_: (*terminalmage*) Fix regression introduced yesterday in dockerio module
+- **PR** `#22955`_: (*terminalmage*) Fix regression introduced yesterday in dockerio module
+  <span style='float:right'>*2015-04-22T18:56:39Z*</span>
 
   * 89fa185 Merge pull request `#22955`_ from terminalmage/dockerio-run-fix
   * b4472ad Fix regression introduced yesterday in dockerio module
 
-- 2015-04-22T18:56:20Z **PR** `#22954`_: (*rallytime*) Backport `#22909`_ to 2014.7
+- **PR** `#22954`_: (*rallytime*) Backport `#22909`_ to 2014.7
+  <span style='float:right'>*2015-04-22T18:56:20Z*</span>
 
   - **PR** `#22909`_: (*mguegan*) Fix compatibility with pkgin > 0.7
     | refs: `#22954`_
   * 46ef227 Merge pull request `#22954`_ from rallytime/`bp-22909`_
   * 70c1cd3 Fix compatibility with pkgin > 0.7
 
-- 2015-04-22T16:47:01Z **PR** `#22856`_: (*jfindlay*) increase timeout and decrease tries for route53 records
+- **PR** `#22856`_: (*jfindlay*) increase timeout and decrease tries for route53 records
+  <span style='float:right'>*2015-04-22T16:47:01Z*</span>
 
   - **ISSUE** `#18720`_: (*Reiner030*) timeouts when setting Route53 records
     | refs: `#22856`_
@@ -189,19 +213,22 @@ Changes:
 
   * ea2fd50 increase timeout and tries for route53 records
 
-- 2015-04-22T16:25:17Z **PR** `#22946`_: (*s0undt3ch*) Test with a more recent pip version to avoid a traceback
+- **PR** `#22946`_: (*s0undt3ch*) Test with a more recent pip version to avoid a traceback
+  <span style='float:right'>*2015-04-22T16:25:17Z*</span>
 
   * a178d44 Merge pull request `#22946`_ from s0undt3ch/2014.7
   * bc87749 Test with a more recent pip version to avoid a traceback
 
-- 2015-04-22T16:25:00Z **PR** `#22945`_: (*garethgreenaway*) Fixes to scheduler
+- **PR** `#22945`_: (*garethgreenaway*) Fixes to scheduler
+  <span style='float:right'>*2015-04-22T16:25:00Z*</span>
 
   - **ISSUE** `#22571`_: (*BoomerB*) same error message as on issue `#18504`_
     | refs: `#22945`_
   * de339be Merge pull request `#22945`_ from garethgreenaway/22571_2014_7_schedule_pillar_refresh_seconds_exceptions
   * bfa6d25 Fixing a reported issue when using a scheduled job from pillar with splay.  _seconds element that acted as a backup of the actual seconds was being removed when pillar was refreshed and causing exceptions.  This fix moves some splay related code out of the if else condition so it's checked whether the job is in the job queue or not.
 
-- 2015-04-22T15:47:05Z **PR** `#22887`_: (*hvnsweeting*) fix `#18843`_
+- **PR** `#22887`_: (*hvnsweeting*) fix `#18843`_
+  <span style='float:right'>*2015-04-22T15:47:05Z*</span>
 
   - **ISSUE** `#18843`_: (*calvinhp*) State user.present will fail to create home if user exists and homedir doesn't
   * 12d2b91 Merge pull request `#22887`_ from hvnsweeting/18843-fix-user-present-home
@@ -217,7 +244,8 @@ Changes:
 
   * c4e95b9 fix `#18843`_: usermod won't create a dir if old home does not exist
 
-- 2015-04-22T15:37:39Z **PR** `#22930`_: (*jfindlay*) localemod.gen_locale now always returns a boolean
+- **PR** `#22930`_: (*jfindlay*) localemod.gen_locale now always returns a boolean
+  <span style='float:right'>*2015-04-22T15:37:39Z*</span>
 
   - **ISSUE** `#21140`_: (*holms*) locale.present state executed successfully, although originally fails
     | refs: `#22930`_ `#22829`_
@@ -228,14 +256,16 @@ Changes:
   * b7de7bd Merge pull request `#22930`_ from jfindlay/localegen_bool
   * 399399f localemod.gen_locale now always returns a boolean
 
-- 2015-04-22T15:27:18Z **PR** `#22933`_: (*hvnsweeting*) add test for `#18843`_
+- **PR** `#22933`_: (*hvnsweeting*) add test for `#18843`_
+  <span style='float:right'>*2015-04-22T15:27:18Z*</span>
 
   - **ISSUE** `#18843`_: (*calvinhp*) State user.present will fail to create home if user exists and homedir doesn't
   * 11bcf14 Merge pull request `#22933`_ from hvnsweeting/18843-test
   * b13db32 add test for `#18843`_
 
-- 2015-04-22T02:30:26Z **PR** `#22925`_: (*rallytime*) Backport `#22895`_ to 2014.7
+- **PR** `#22925`_: (*rallytime*) Backport `#22895`_ to 2014.7
   | refs: `#23113`_
+  <span style='float:right'>*2015-04-22T02:30:26Z*</span>
 
   - **PR** `#22895`_: (*aletourneau*) pam_tally counter was not reset to 0 after a succesfull login
     | refs: `#22925`_
@@ -248,50 +278,58 @@ Changes:
 
   * a08ac47 pam_tally counter was not reset to 0 after a succesfull login
 
-- 2015-04-22T00:49:01Z **PR** `#22914`_: (*cachedout*) Call proper returner function in jobs.list_jobs
+- **PR** `#22914`_: (*cachedout*) Call proper returner function in jobs.list_jobs
+  <span style='float:right'>*2015-04-22T00:49:01Z*</span>
 
   - **ISSUE** `#22790`_: (*whiteinge*) jobs.list_jobs runner tracebacks on 'missing' argument
     | refs: `#22914`_
   * eca37eb Merge pull request `#22914`_ from cachedout/issue_22790
   * d828d6f Call proper returner function in jobs.list_jobs
 
-- 2015-04-22T00:48:26Z **PR** `#22918`_: (*JaseFace*) Add a note to the git_pillar docs stating that GitPython is the only currently supported provider
+- **PR** `#22918`_: (*JaseFace*) Add a note to the git_pillar docs stating that GitPython is the only currently supported provider
+  <span style='float:right'>*2015-04-22T00:48:26Z*</span>
 
   * 44f3409 Merge pull request `#22918`_ from JaseFace/git-pillar-provider-doc-note
   * 0aee5c2 Add a note to the git_pillar docs stating that GitPython is the only currently supported provider
 
-- 2015-04-21T22:02:44Z **PR** `#22907`_: (*techhat*) Properly merge cloud configs to create profiles
+- **PR** `#22907`_: (*techhat*) Properly merge cloud configs to create profiles
+  <span style='float:right'>*2015-04-21T22:02:44Z*</span>
 
   * 31c461f Merge pull request `#22907`_ from techhat/cloudconfig
   * 3bf4e66 Properly merge cloud configs to create profiles
 
-- 2015-04-21T18:55:18Z **PR** `#22894`_: (*0xf10e*) Fix issue `#22782`_
+- **PR** `#22894`_: (*0xf10e*) Fix issue `#22782`_
+  <span style='float:right'>*2015-04-21T18:55:18Z*</span>
 
   * f093975 Merge pull request `#22894`_ from 0xf10e/2014.7
   * 58fa24c Clarify doc on kwarg 'roles' for user_present().
 
   * f0ae2eb Improve readability by renaming tenant_role
 
-- 2015-04-21T18:50:47Z **PR** `#22902`_: (*rallytime*) Change state example to use proper kwarg
+- **PR** `#22902`_: (*rallytime*) Change state example to use proper kwarg
+  <span style='float:right'>*2015-04-21T18:50:47Z*</span>
 
   - **ISSUE** `#12003`_: (*MarkusMuellerAU*) [state.dockerio] docker.run TypeError: run() argument after ** must be a mapping, not str
     | refs: `#22902`_
   * c802ba7 Merge pull request `#22902`_ from rallytime/docker_doc_fix
   * 8f70346 Change state example to use proper kwarg
 
-- 2015-04-21T18:02:58Z **PR** `#22898`_: (*terminalmage*) dockerio: better error message for native exec driver
+- **PR** `#22898`_: (*terminalmage*) dockerio: better error message for native exec driver
+  <span style='float:right'>*2015-04-21T18:02:58Z*</span>
 
   * 81771a7 Merge pull request `#22898`_ from terminalmage/issue12003
   * c375309 dockerio: better error message for native exec driver
 
-- 2015-04-21T17:31:04Z **PR** `#22897`_: (*rallytime*) Add param documentation for file.replace state
+- **PR** `#22897`_: (*rallytime*) Add param documentation for file.replace state
+  <span style='float:right'>*2015-04-21T17:31:04Z*</span>
 
   - **ISSUE** `#22825`_: (*paolodina*) Issue using file.replace in state file
     | refs: `#22897`_
   * e2ec4ec Merge pull request `#22897`_ from rallytime/`fix-22825`_
   * 9c51630 Add param documentation for file.replace state
 
-- 2015-04-21T17:04:33Z **PR** `#22850`_: (*bersace*) Fix pillar and salt fileserver mixed
+- **PR** `#22850`_: (*bersace*) Fix pillar and salt fileserver mixed
+  <span style='float:right'>*2015-04-21T17:04:33Z*</span>
 
   - **ISSUE** `#22844`_: (*bersace*) LocalClient file cache confuse pillar and state files
     | refs: `#22850`_
@@ -300,51 +338,60 @@ Changes:
 
   * f6bebb7 Use saltenv
 
-- 2015-04-21T03:58:59Z **PR** `#22818`_: (*twangboy*) Added documentation regarding pip in windows
+- **PR** `#22818`_: (*twangboy*) Added documentation regarding pip in windows
+  <span style='float:right'>*2015-04-21T03:58:59Z*</span>
 
   * 1380fec Merge pull request `#22818`_ from twangboy/upd_pip_docs
   * cb999c7 Update pip.py
 
   * 3cc5c97 Added documentation regarding pip in windows
 
-- 2015-04-21T02:54:40Z **PR** `#22872`_: (*rallytime*) Prevent stacktrace on os.path.exists in hosts module
+- **PR** `#22872`_: (*rallytime*) Prevent stacktrace on os.path.exists in hosts module
+  <span style='float:right'>*2015-04-21T02:54:40Z*</span>
 
   * b2bf17f Merge pull request `#22872`_ from rallytime/fix_hosts_stacktrace
   * c88a1ea Prevent stacktrace on os.path.exists in hosts module
 
-- 2015-04-21T02:42:41Z **PR** `#22853`_: (*s0undt3ch*) Don't assume package installation order.
+- **PR** `#22853`_: (*s0undt3ch*) Don't assume package installation order.
+  <span style='float:right'>*2015-04-21T02:42:41Z*</span>
 
   * 03af523 Merge pull request `#22853`_ from s0undt3ch/2014.7
   * b62df62 Don't assume package installation order.
 
-- 2015-04-21T02:40:47Z **PR** `#22877`_: (*s0undt3ch*) Don't fail on `make clean` just because the directory does not exist
+- **PR** `#22877`_: (*s0undt3ch*) Don't fail on `make clean` just because the directory does not exist
+  <span style='float:right'>*2015-04-21T02:40:47Z*</span>
 
   * 9211e36 Merge pull request `#22877`_ from s0undt3ch/hotfix/clean-docs-fix
   * 95d6887 Don't fail on `make clean` just because the directory does not exist
 
-- 2015-04-21T02:38:11Z **PR** `#22873`_: (*thatch45*) Type check the version since it will often be numeric
+- **PR** `#22873`_: (*thatch45*) Type check the version since it will often be numeric
+  <span style='float:right'>*2015-04-21T02:38:11Z*</span>
 
   * 5bdbd08 Merge pull request `#22873`_ from thatch45/type_check
   * 53b8376 Type check the version since it will often be numeric
 
-- 2015-04-20T23:18:28Z **PR** `#22870`_: (*twangboy*) Added ability to send a version with a space in it
+- **PR** `#22870`_: (*twangboy*) Added ability to send a version with a space in it
+  <span style='float:right'>*2015-04-20T23:18:28Z*</span>
 
   * c965b0a Merge pull request `#22870`_ from twangboy/fix_installer_again
   * 3f180cf Added ability to send a version with a space in it
 
-- 2015-04-20T19:29:37Z **PR** `#22863`_: (*rallytime*) Backport `#20974`_ to 2014.7
+- **PR** `#22863`_: (*rallytime*) Backport `#20974`_ to 2014.7
+  <span style='float:right'>*2015-04-20T19:29:37Z*</span>
 
   - **PR** `#20974`_: (*JohannesEbke*) Fix expr_match usage in salt.utils.check_whitelist_blacklist
     | refs: `#22863`_
   * 2973eb1 Merge pull request `#22863`_ from rallytime/`bp-20974`_
   * 14913a4 Fix expr_match usage in salt.utils.check_whitelist_blacklist
 
-- 2015-04-20T15:24:45Z **PR** `#22578`_: (*hvnsweeting*) gracefully handle when salt-minion cannot decrypt key
+- **PR** `#22578`_: (*hvnsweeting*) gracefully handle when salt-minion cannot decrypt key
+  <span style='float:right'>*2015-04-20T15:24:45Z*</span>
 
   * c45b92b Merge pull request `#22578`_ from hvnsweeting/2014-7-fix-compile-pillar
   * f75b24a gracefully handle when salt-minion cannot decrypt key
 
-- 2015-04-18T17:18:55Z **PR** `#22800`_: (*terminalmage*) Improve error logging for pygit2 SSH-based remotes
+- **PR** `#22800`_: (*terminalmage*) Improve error logging for pygit2 SSH-based remotes
+  <span style='float:right'>*2015-04-18T17:18:55Z*</span>
 
   - **ISSUE** `#21979`_: (*yrdevops*) gitfs: error message not descriptive enough when libgit2 was compiled without libssh2
     | refs: `#22800`_
@@ -359,14 +406,16 @@ Changes:
 
   * 9d394df Improve error logging for pygit2 SSH-based remotes
 
-- 2015-04-18T04:10:07Z **PR** `#22813`_: (*twangboy*) Updated instructions for building salt
+- **PR** `#22813`_: (*twangboy*) Updated instructions for building salt
+  <span style='float:right'>*2015-04-18T04:10:07Z*</span>
 
   * e99f2fd Merge pull request `#22813`_ from twangboy/win_doc_fix
   * adc421a Fixed some formatting issues
 
   * 8901b3b Updated instructions for building salt
 
-- 2015-04-17T22:28:24Z **PR** `#22810`_: (*basepi*) [2014.7] More msgpack gating for salt-ssh
+- **PR** `#22810`_: (*basepi*) [2014.7] More msgpack gating for salt-ssh
+  <span style='float:right'>*2015-04-17T22:28:24Z*</span>
 
   - **ISSUE** `#22708`_: (*Bilge*) salt-ssh file.accumulated error: NameError: global name 'msgpack' is not defined
     | refs: `#22810`_
@@ -377,28 +426,32 @@ Changes:
 
   * d7e8741 Gate salt.states.file.py msgpack
 
-- 2015-04-17T20:34:42Z **PR** `#22803`_: (*rallytime*) Allow map file to work with softlayer
+- **PR** `#22803`_: (*rallytime*) Allow map file to work with softlayer
+  <span style='float:right'>*2015-04-17T20:34:42Z*</span>
 
   - **ISSUE** `#17144`_: (*xpender*) salt-cloud -m fails with softlayer
     | refs: `#22803`_
   * 11df71e Merge pull request `#22803`_ from rallytime/`fix-17144`_
   * ce88b6a Allow map file to work with softlayer
 
-- 2015-04-17T20:32:13Z **PR** `#22807`_: (*rallytime*) Add 2014.7.5 links to windows installation docs
+- **PR** `#22807`_: (*rallytime*) Add 2014.7.5 links to windows installation docs
+  <span style='float:right'>*2015-04-17T20:32:13Z*</span>
 
   * cd43a95 Merge pull request `#22807`_ from rallytime/windows_docs_update
   * 5931a58 Replace all 4s with 5s
 
   * eadaead Add 2014.7.5 links to windows installation docs
 
-- 2015-04-17T18:05:36Z **PR** `#22795`_: (*rallytime*) Added release note for 2014.7.5 release
+- **PR** `#22795`_: (*rallytime*) Added release note for 2014.7.5 release
+  <span style='float:right'>*2015-04-17T18:05:36Z*</span>
 
   * 0b295e2 Merge pull request `#22795`_ from rallytime/release_notes
   * fde1fee Remove extra line
 
   * b19b95d Added release note for 2014.7.5 release
 
-- 2015-04-17T04:31:15Z **PR** `#22759`_: (*twangboy*) Final edits to the batch files for running salt
+- **PR** `#22759`_: (*twangboy*) Final edits to the batch files for running salt
+  <span style='float:right'>*2015-04-17T04:31:15Z*</span>
 
   - **ISSUE** `#22740`_: (*lorengordon*) New Windows installer assumes salt is installed to the current directory
     | refs: `#22759`_
@@ -407,12 +460,14 @@ Changes:
   * 3c91459 Merge pull request `#22759`_ from twangboy/fix_bat_one_last_time
   * 075f82e Final edits to the batch files for running salt
 
-- 2015-04-17T04:30:48Z **PR** `#22760`_: (*thatch45*) Fix issues with the syndic
+- **PR** `#22760`_: (*thatch45*) Fix issues with the syndic
+  <span style='float:right'>*2015-04-17T04:30:48Z*</span>
 
   * 20d3f2b Merge pull request `#22760`_ from thatch45/syndic_fix
   * e2db624 Fix issues with the syndic not resolving the master when the interface is set
 
-- 2015-04-17T04:29:46Z **PR** `#22762`_: (*twangboy*) Fixed version not showing in Add/Remove Programs
+- **PR** `#22762`_: (*twangboy*) Fixed version not showing in Add/Remove Programs
+  <span style='float:right'>*2015-04-17T04:29:46Z*</span>
 
   * 54c4584 Merge pull request `#22762`_ from twangboy/fix_installer
   * 4d25af8 Fixed version not showing in Add/Remove Programs
