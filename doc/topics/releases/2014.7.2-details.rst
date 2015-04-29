@@ -1,6 +1,6 @@
 .. code-block:: bash
 
-    There are 940 cached issues
+    There are 937 cached issues
     pulling 157 issues:
     ,,,+,+,+,,,,,,,,+,,,,,,,,+,+,,,,,,,+,+,+,,,,,+,,,,+,,,+,+,,,,,,,,,,+,,,++,,+,+,+,,+,,,+,,,,,,,,,,,++,,,,,,+,,,,,,,,+,,,++,,,,,,+,,,,,+,,,+,,,,,++,+,,,,,+,+,,,,,,,,,,,,+,,,,+,,+,++,,,,,,+,+,,,,,,+,,+,,,
     pulling 44 issues:
@@ -28,7 +28,8 @@ Changes for v2014.7.1..v2014.7.2
 
 e97d463 Merge branch 'crasu-2014.7' into 2014.7
 
-- => **ISSUE** `#18839`_: (*martinhoefling*) Copying files from gitfs in file.recurse state fails / is slow
+- Referenced pull requests and issues
+  - **ISSUE** `#18839`_: (*martinhoefling*) Copying files from gitfs in file.recurse state fails / is slow
 - **ISSUE** #: (**) 
 
   * 56653cb Added closing of filehandle and removal of gitfs update.lk
@@ -45,7 +46,8 @@ e97d463 Merge branch 'crasu-2014.7' into 2014.7
 
 f9e1e43 Merge pull request `#20510`_ from eliasp/2014.7-issue-18689
 
-- => **ISSUE** `#18689`_: (*eliasp*) `ps.pgrep` causes backtrace for non-accessible processes on Windows
+- Referenced pull requests and issues
+  - **ISSUE** `#18689`_: (*eliasp*) `ps.pgrep` causes backtrace for non-accessible processes on Windows
   | refs: `#20510`_
 - **PR** `#20510`_: (*eliasp*) Fix `#18689`_ by handling psutil exceptions.
 
@@ -53,7 +55,8 @@ f9e1e43 Merge pull request `#20510`_ from eliasp/2014.7-issue-18689
 
 5586c20 Merge pull request `#20487`_ from whiteinge/doc-remove-mako-mock
 
-- => **ISSUE** `#9571`_: (*jcftang*) Building the docs (and thus the debs) in ubuntu precise fails if python-mako is installed
+- Referenced pull requests and issues
+  - **ISSUE** `#9571`_: (*jcftang*) Building the docs (and thus the debs) in ubuntu precise fails if python-mako is installed
   | refs: `#20487`_
 - **PR** `#20487`_: (*whiteinge*) Remove Mako from mocked deps for docs build
 
@@ -61,9 +64,10 @@ f9e1e43 Merge pull request `#20510`_ from eliasp/2014.7-issue-18689
 
 f57c15f Merge pull request `#20480`_ from basepi/saltssh.errors.20223
 
-- => **ISSUE** `#20223`_: (*basepi*) Salt-ssh hangs when exceptions are thrown
+- Referenced pull requests and issues
+  - **ISSUE** `#20223`_: (*basepi*) Salt-ssh hangs when exceptions are thrown
   | refs: `#20229`_
-- => **PR** `#20229`_: (*basepi*) Check for terminated (errored) processes in salt-ssh
+  - **PR** `#20229`_: (*basepi*) Check for terminated (errored) processes in salt-ssh
   | refs: `#20261`_ `#20480`_
 - **PR** `#20480`_: (*basepi*) [2014.7] Fix bugs in salt-ssh cleanup code from `#20229`_
 
@@ -83,7 +87,8 @@ f57c15f Merge pull request `#20480`_ from basepi/saltssh.errors.20223
 
 c96b472 Merge pull request `#20465`_ from cachedout/safemode_config
 
-- => **ISSUE** `#19945`_: (*HontoNoRoger*) Default setting for auth_safemode is False
+- Referenced pull requests and issues
+  - **ISSUE** `#19945`_: (*HontoNoRoger*) Default setting for auth_safemode is False
   | refs: `#20465`_
 - **PR** `#20465`_: (*cachedout*) Fix mismatched config value for auth_safemode
 
@@ -91,9 +96,10 @@ c96b472 Merge pull request `#20465`_ from cachedout/safemode_config
 
 debb844 Merge pull request `#20433`_ from rallytime/`bp-20386`_
 
-- => **ISSUE** `#19916`_: (*steverweber*) cron.present is not working correctly.
+- Referenced pull requests and issues
+  - **ISSUE** `#19916`_: (*steverweber*) cron.present is not working correctly.
   | refs: `#20386`_
-- => **PR** `#20386`_: (*cachedout*) Don't run cron as a user with -u on Linux
+  - **PR** `#20386`_: (*cachedout*) Don't run cron as a user with -u on Linux
   | refs: `#20433`_
 - **PR** `#20433`_: (*rallytime*) Backport `#20386`_ to 2014.7
 
@@ -127,7 +133,8 @@ a0ab98d Merge pull request `#20437`_ from cro/linode-python-driver
 
 79b3f0d Merge pull request `#20430`_ from kim0/freebsd-status-is-done
 
-- => **ISSUE** `#20045`_: (*rodrigc*) status module has Linux-specific references which do not work on FreeBSD
+- Referenced pull requests and issues
+  - **ISSUE** `#20045`_: (*rodrigc*) status module has Linux-specific references which do not work on FreeBSD
   | refs: `#20430`_
 - **PR** `#20430`_: (*kim0*) FreeBSD support for module status .. is done (fixes `#20045`_)
 
@@ -135,14 +142,16 @@ a0ab98d Merge pull request `#20437`_ from cro/linode-python-driver
 
 43b59d7 Merge pull request `#20342`_ from atbell/GH-20322_fix_cert_creation_in_tls_module
 
-- => **ISSUE** `#20322`_: (*pravka*) tls module should check if certificate already exists
+- Referenced pull requests and issues
+  - **ISSUE** `#20322`_: (*pravka*) tls module should check if certificate already exists
 - **PR** `#20342`_: (*pravka*) Fixes `#20322`_, check for existing cert, return CN (not ca_name)
 
   * 6a87cff Fixes `#20322`_, check for existing cert, return CN (not ca_name)
 
 fc22ca5 Merge pull request `#20389`_ from jfindlay/fix_pip_venv
 
-- => **ISSUE** `#20191`_: (*bercab*) pip.installed fails after upgrading minion to 2014.7.1
+- Referenced pull requests and issues
+  - **ISSUE** `#20191`_: (*bercab*) pip.installed fails after upgrading minion to 2014.7.1
   | refs: `#20389`_
 - **PR** `#20389`_: (*jfindlay*) fix pip venv regression, deprecate activate param
 
@@ -150,9 +159,10 @@ fc22ca5 Merge pull request `#20389`_ from jfindlay/fix_pip_venv
 
 35f45f7 Merge pull request `#20405`_ from rallytime/`bp-14834`_
 
-- => **ISSUE** `#14808`_: (*Linuturk*) salt-cloud Windows Openstack
+- Referenced pull requests and issues
+  - **ISSUE** `#14808`_: (*Linuturk*) salt-cloud Windows Openstack
   | refs: `#14834`_
-- => **PR** `#14834`_: (*gtmanfred*) Only assign win_password if it actually is set
+  - **PR** `#14834`_: (*gtmanfred*) Only assign win_password if it actually is set
   | refs: `#20405`_
 - **PR** `#20405`_: (*rallytime*) Backport `#14834`_ to 2014.7
 
@@ -168,7 +178,8 @@ fc22ca5 Merge pull request `#20389`_ from jfindlay/fix_pip_venv
 
 66b27d9 Merge pull request `#20344`_ from jfindlay/fix_npm_names
 
-- => **ISSUE** `#20329`_: (*kaittodesk*) NPM case-sensitive package name
+- Referenced pull requests and issues
+  - **ISSUE** `#20329`_: (*kaittodesk*) NPM case-sensitive package name
   | refs: `#20344`_
 - **PR** `#20344`_: (*jfindlay*) allow upper case letters in npm package names
 
@@ -206,7 +217,8 @@ b34b53e Merge pull request `#20388`_ from kim0/freebsd-status.netstats
 
 b94b2e6 Merge pull request `#20412`_ from rallytime/fix_azure_stacktrace
 
-- => **ISSUE** `#20385`_: (*rallytime*) Azure broken on 2014.7 branch
+- Referenced pull requests and issues
+  - **ISSUE** `#20385`_: (*rallytime*) Azure broken on 2014.7 branch
   | refs: `#20412`_
 - **PR** `#20412`_: (*rallytime*) Cast ssh_port as an integer to stop stacktrace when provising azure instances
 
@@ -214,11 +226,12 @@ b94b2e6 Merge pull request `#20412`_ from rallytime/fix_azure_stacktrace
 
 e8b088a Merge pull request `#20390`_ from basepi/eauthgroup17380
 
-- => **ISSUE** `#17380`_: (*UtahDave*) external auth group support not working with pam
+- Referenced pull requests and issues
+  - **ISSUE** `#17380`_: (*UtahDave*) external auth group support not working with pam
   | refs: `#20390`_
-- => **ISSUE** `#2215`_: (*techhat*) 'list' object has no attribute 'difference' in static command
+  - **ISSUE** `#2215`_: (*techhat*) 'list' object has no attribute 'difference' in static command
   | refs: `#20281`_ `#20281`_
-- => **PR** `#20281`_: (*MrMarvin*) fixes a bug which broke eauth with group permissions
+  - **PR** `#20281`_: (*MrMarvin*) fixes a bug which broke eauth with group permissions
   | refs: `#20390`_
 - **PR** `#20390`_: (*basepi*) [2014.7] Fix eauth group authentication (backport of `#20281`_)
 
@@ -234,7 +247,8 @@ e8b088a Merge pull request `#20390`_ from basepi/eauthgroup17380
 
 6988ac8 Merge pull request `#20351`_ from rallytime/`bp-20316`_
 
-- => **PR** `#20316`_: (*glomium*) Event _stamp should be UTC
+- Referenced pull requests and issues
+  - **PR** `#20316`_: (*glomium*) Event _stamp should be UTC
   | refs: `#20351`_
 - **PR** `#20351`_: (*rallytime*) Backport `#20316`_ to 2014.7
 
@@ -242,7 +256,8 @@ e8b088a Merge pull request `#20390`_ from basepi/eauthgroup17380
 
 b633765 Merge pull request `#20347`_ from jfindlay/fix_sysctl_tests
 
-- => **PR** `#20314`_: (*jfindlay*) fix systemd stacktrace on debian
+- Referenced pull requests and issues
+  - **PR** `#20314`_: (*jfindlay*) fix systemd stacktrace on debian
 - **PR** `#20347`_: (*jfindlay*) fix linux_sysctl_test failures caused by `#20314`_
 
   * 8eab04b fix linux_sysctl_test failures caused by `#20314`_
@@ -261,7 +276,8 @@ c364b99 Merge pull request `#20328`_ from bbinet/fix-allow-hotplug
 
 8ed1dab Merge pull request `#20305`_ from rallytime/`bp-20216`_
 
-- => **PR** `#20216`_: (*steverweber*) fix returning docs when some minions did not return
+- Referenced pull requests and issues
+  - **PR** `#20216`_: (*steverweber*) fix returning docs when some minions did not return
   | refs: `#20305`_
 - **PR** `#20305`_: (*rallytime*) Backport `#20216`_ to 2014.7
 
@@ -281,9 +297,10 @@ c364b99 Merge pull request `#20328`_ from bbinet/fix-allow-hotplug
 
 dbc5bb8 Merge pull request `#20288`_ from jfindlay/fix_locale_gen
 
-- => **ISSUE** `#18936`_: (*tomashavlas*) possible problems with locale.gen_locale
+- Referenced pull requests and issues
+  - **ISSUE** `#18936`_: (*tomashavlas*) possible problems with locale.gen_locale
   | refs: `#20097`_
-- => **PR** `#20097`_: (*jfindlay*) fix debian/ubuntu handling in locale.gen_locale
+  - **PR** `#20097`_: (*jfindlay*) fix debian/ubuntu handling in locale.gen_locale
   | refs: `#20288`_
 - **PR** `#20288`_: (*jfindlay*) Fix locale gen
 
@@ -315,7 +332,8 @@ f84249e Merge pull request `#20271`_ from s0undt3ch/2014.7
 
 b37eda2 Merge pull request `#20250`_ from Azidburn/2014.7
 
-- => **ISSUE** `#10258`_: (*pwaller*) ssh_auth.present using options with `source: salt://`
+- Referenced pull requests and issues
+  - **ISSUE** `#10258`_: (*pwaller*) ssh_auth.present using options with `source: salt://`
 - **PR** `#20250`_: (*Azidburn*) Fix for feature request `#10258`_
 
   * 6c9fd6d corrections from jenkins build
@@ -324,9 +342,10 @@ b37eda2 Merge pull request `#20250`_ from Azidburn/2014.7
 
 d0a629e Merge pull request `#20261`_ from thatch45/basepi-saltssh.errors.20223
 
-- => **ISSUE** `#20223`_: (*basepi*) Salt-ssh hangs when exceptions are thrown
+- Referenced pull requests and issues
+  - **ISSUE** `#20223`_: (*basepi*) Salt-ssh hangs when exceptions are thrown
   | refs: `#20229`_
-- => **PR** `#20229`_: (*basepi*) Check for terminated (errored) processes in salt-ssh
+  - **PR** `#20229`_: (*basepi*) Check for terminated (errored) processes in salt-ssh
   | refs: `#20261`_ `#20480`_
 - **PR** `#20261`_: (*thatch45*) Merge `#20229`_ with fixes
 
@@ -338,9 +357,10 @@ d0a629e Merge pull request `#20261`_ from thatch45/basepi-saltssh.errors.20223
 
 9fafe41 Merge pull request `#20218`_ from felskrone/fqdn_master_status_2014.7
 
-- => **ISSUE** `#19080`_: (*ferreol*) multi master failover mode looping indefinitely
+- Referenced pull requests and issues
+  - **ISSUE** `#19080`_: (*ferreol*) multi master failover mode looping indefinitely
   | refs: `#20218`_ `#19380`_
-- => **PR** `#19380`_: (*felskrone*) improve master.status to work with host fqdns/hostnames as well as ips
+  - **PR** `#19380`_: (*felskrone*) improve master.status to work with host fqdns/hostnames as well as ips
   | refs: `#20218`_
 - **PR** `#20218`_: (*felskrone*) improved status.master to work with fqdns
 
@@ -348,7 +368,8 @@ d0a629e Merge pull request `#20261`_ from thatch45/basepi-saltssh.errors.20223
 
 ad6cb8c Merge pull request `#20260`_ from thatch45/Jiaion-2014.7
 
-- => **PR** `#20241`_: (*Jiaion*) fix salt libs .systemd import error
+- Referenced pull requests and issues
+  - **PR** `#20241`_: (*Jiaion*) fix salt libs .systemd import error
   | refs: `#20260`_
 - **PR** `#20260`_: (*thatch45*) Merge `#20241`_ with fixes
 
@@ -360,7 +381,8 @@ ad6cb8c Merge pull request `#20260`_ from thatch45/Jiaion-2014.7
 
 5c94ea3 Merge pull request `#20237`_ from joejulian/2014.7
 
-- => **ISSUE** `#20235`_: (*joejulian*) blockdev.format state can fail even if it succeeds
+- Referenced pull requests and issues
+  - **ISSUE** `#20235`_: (*joejulian*) blockdev.format state can fail even if it succeeds
 - **PR** `#20237`_: (*joejulian*) Issue `#20235`_: blockdev.format fails when succeeding
 
   * 762c622 Issue `#20235`_: blockdev.format fails when succeeding
@@ -379,7 +401,8 @@ f9b01bf Merge pull request `#20231`_ from whiteinge/rest_cherrypy-docs-examples
 
 bf80cf4 Merge pull request `#20225`_ from jfindlay/fix_svn_mod
 
-- => **ISSUE** `#20224`_: (*jfindlay*) svn module username and password options broken
+- Referenced pull requests and issues
+  - **ISSUE** `#20224`_: (*jfindlay*) svn module username and password options broken
   | refs: `#20225`_
 - **PR** `#20225`_: (*jfindlay*) extend a list not a tuple
 
@@ -387,7 +410,8 @@ bf80cf4 Merge pull request `#20225`_ from jfindlay/fix_svn_mod
 
 ab5cf4b Merge pull request `#20203`_ from basepi/archiveextract20195
 
-- => **ISSUE** `#20195`_: (*justinsb*) Behaviour change in archive extract
+- Referenced pull requests and issues
+  - **ISSUE** `#20195`_: (*justinsb*) Behaviour change in archive extract
   | refs: `#20203`_
 - **PR** `#20203`_: (*basepi*) [2014.7] Iterate over the shortopts if there are more than one for archive.extracted
 
@@ -395,7 +419,8 @@ ab5cf4b Merge pull request `#20203`_ from basepi/archiveextract20195
 
 8598559 Merge pull request `#20210`_ from rallytime/`bp-20171`_
 
-- => **PR** `#20171`_: (*plastikos*) Minor: Improve thin and shim warnings and comments.
+- Referenced pull requests and issues
+  - **PR** `#20171`_: (*plastikos*) Minor: Improve thin and shim warnings and comments.
   | refs: `#20210`_
 - **PR** `#20210`_: (*rallytime*) Backport `#20171`_ to 2014.7
 
@@ -405,15 +430,16 @@ ab5cf4b Merge pull request `#20203`_ from basepi/archiveextract20195
 
 a72017d Merge pull request `#20211`_ from rallytime/`bp-20118`_
 
-- => **ISSUE** `#14634`_: (*Sacro*) 'unless' documentation isn't logically plausible
+- Referenced pull requests and issues
+  - **ISSUE** `#14634`_: (*Sacro*) 'unless' documentation isn't logically plausible
   | refs: `#16044`_
-- => **ISSUE** `#11879`_: (*pille*) cmd.run: unless/onlyif should show return code in debug loglevel
+  - **ISSUE** `#11879`_: (*pille*) cmd.run: unless/onlyif should show return code in debug loglevel
   | refs: `#11898`_
-- => **PR** `#20118`_: (*kitsemets*) salt.states.cmd: fixed 'unless' behaviour in case of multiple commands are given
+  - **PR** `#20118`_: (*kitsemets*) salt.states.cmd: fixed 'unless' behaviour in case of multiple commands are given
   | refs: `#20211`_
-- => **PR** `#16044`_: (*rallytime*) Clarify unless and onlyif docs
+  - **PR** `#16044`_: (*rallytime*) Clarify unless and onlyif docs
   | refs: `#20118`_
-- => **PR** `#11898`_: (*rallytime*) Onlyif return codes added to debug log
+  - **PR** `#11898`_: (*rallytime*) Onlyif return codes added to debug log
   | refs: `#20118`_ `#20118`_
 - **PR** `#20211`_: (*rallytime*) Backport `#20118`_ to 2014.7
 
@@ -421,9 +447,10 @@ a72017d Merge pull request `#20211`_ from rallytime/`bp-20118`_
 
 4aeaec7 Merge pull request `#20212`_ from saltstack/revert-20156-`bp-19566`_
 
-- => **PR** `#20156`_: (*rallytime*) Backport `#19566`_ to 2014.7
+- Referenced pull requests and issues
+  - **PR** `#20156`_: (*rallytime*) Backport `#19566`_ to 2014.7
   | refs: `#20212`_
-- => **PR** `#19566`_: (*traxair*) Salt add azure volume support
+  - **PR** `#19566`_: (*traxair*) Salt add azure volume support
   | refs: `#20156`_
 - **PR** `#20212`_: (*rallytime*) Revert "Backport `#19566`_ to 2014.7"
 
@@ -437,7 +464,8 @@ eb19ccd Merge pull request `#20174`_ from kim0/freebsd-status.meminfo
 
 d04999d Merge pull request `#20163`_ from jfindlay/fix_sysctl
 
-- => **ISSUE** `#20145`_: (*ferreol*) regression in sysctl present result whith test=True
+- Referenced pull requests and issues
+  - **ISSUE** `#20145`_: (*ferreol*) regression in sysctl present result whith test=True
   | refs: `#20163`_
 - **PR** `#20163`_: (*jfindlay*) fix sysctl test state comparison
 
@@ -453,7 +481,8 @@ c6a1164 Merge pull request `#20128`_ from kim0/freebsd-status.cpuinfo
 
 daba06f Merge pull request `#20162`_ from rallytime/`bp-20062`_
 
-- => **PR** `#20062`_: (*cachedout*) Increae default runner timeout to 60s
+- Referenced pull requests and issues
+  - **PR** `#20062`_: (*cachedout*) Increae default runner timeout to 60s
   | refs: `#20162`_
 - **PR** `#20162`_: (*rallytime*) Backport `#20062`_ to 2014.7
 
@@ -461,8 +490,9 @@ daba06f Merge pull request `#20162`_ from rallytime/`bp-20062`_
 
 02cbd7e Merge pull request `#20159`_ from rallytime/`bp-20115`_
 
-- => **ISSUE** `#19306`_: (*TaiSHiNet*) DigitalOcean API v1 private_networking is set to True instead of 'true'
-- => **PR** `#20115`_: (*TaiSHiNet*) DO APIv1 issue Closes `#19306`_
+- Referenced pull requests and issues
+  - **ISSUE** `#19306`_: (*TaiSHiNet*) DigitalOcean API v1 private_networking is set to True instead of 'true'
+  - **PR** `#20115`_: (*TaiSHiNet*) DO APIv1 issue Closes `#19306`_
   | refs: `#20159`_
 - **PR** `#20159`_: (*rallytime*) Backport `#20115`_ to 2014.7
 
@@ -470,7 +500,8 @@ daba06f Merge pull request `#20162`_ from rallytime/`bp-20062`_
 
 39bdd3a Merge pull request `#20157`_ from rallytime/`bp-19976`_
 
-- => **PR** `#19976`_: (*oldmantaiter*) Add compatibility to mount by label
+- Referenced pull requests and issues
+  - **PR** `#19976`_: (*oldmantaiter*) Add compatibility to mount by label
   | refs: `#20157`_
 - **PR** `#20157`_: (*rallytime*) Backport `#19976`_ to 2014.7
 
@@ -478,8 +509,9 @@ daba06f Merge pull request `#20162`_ from rallytime/`bp-20062`_
 
 1295206 Merge pull request `#20156`_ from rallytime/`bp-19566`_
 
-- => **ISSUE** `#19162`_: (*traxair*) Permanent disk on Azure
-- => **PR** `#19566`_: (*traxair*) Salt add azure volume support
+- Referenced pull requests and issues
+  - **ISSUE** `#19162`_: (*traxair*) Permanent disk on Azure
+  - **PR** `#19566`_: (*traxair*) Salt add azure volume support
   | refs: `#20156`_
 - **PR** `#20156`_: (*rallytime*) Backport `#19566`_ to 2014.7
   | refs: `#20212`_
@@ -490,9 +522,10 @@ daba06f Merge pull request `#20162`_ from rallytime/`bp-20062`_
 
 6511aac Merge pull request `#20154`_ from rallytime/`bp-15701`_
 
-- => **ISSUE** `#15417`_: (*Jille*) file.replace returns None instead of True when it doesn't do anything
+- Referenced pull requests and issues
+  - **ISSUE** `#15417`_: (*Jille*) file.replace returns None instead of True when it doesn't do anything
   | refs: `#15701`_
-- => **PR** `#15701`_: (*Jille*) Fixed the Result of file.replace (`#15417`_)
+  - **PR** `#15701`_: (*Jille*) Fixed the Result of file.replace (`#15417`_)
   | refs: `#20154`_
 - **PR** `#20154`_: (*rallytime*) Backport `#15701`_ to 2014.7
 
@@ -506,9 +539,10 @@ daba06f Merge pull request `#20162`_ from rallytime/`bp-20062`_
 
 0b47a56 Merge pull request `#20000`_ from terminalmage/`fix-19552`_
 
-- => **ISSUE** `#19540`_: (*wuxxin*) regression from 2014.7 to git/2014.7 branch: masterless salt-call, pillar jinja rendering can not import/load files from pillar
+- Referenced pull requests and issues
+  - **ISSUE** `#19540`_: (*wuxxin*) regression from 2014.7 to git/2014.7 branch: masterless salt-call, pillar jinja rendering can not import/load files from pillar
   | refs: `#19552`_
-- => **PR** `#19552`_: (*terminalmage*) Fix regression in masterless pillar generation
+  - **PR** `#19552`_: (*terminalmage*) Fix regression in masterless pillar generation
 - **PR** `#20000`_: (*terminalmage*) Better check for pillar for jinja templating
 
   * 59e7481 Fix TestSaltCacheLoader tests
@@ -525,7 +559,8 @@ daba06f Merge pull request `#20162`_ from rallytime/`bp-20062`_
 
 4e93117 Merge pull request `#20155`_ from basepi/debianip19528
 
-- => **ISSUE** `#19528`_: (*ssgward*) network.managed errors when bonding interfaces
+- Referenced pull requests and issues
+  - **ISSUE** `#19528`_: (*ssgward*) network.managed errors when bonding interfaces
   | refs: `#20155`_
 - **PR** `#20155`_: (*basepi*) Do not use 'is' for string comparison
 
@@ -533,7 +568,8 @@ daba06f Merge pull request `#20162`_ from rallytime/`bp-20062`_
 
 eba8d9e Merge pull request `#20136`_ from kev009/sockstat-args
 
-- => **ISSUE** `#20044`_: (*cedwards*) [freebsd][2014.7.1] traceback when using 'show_timeout: True'
+- Referenced pull requests and issues
+  - **ISSUE** `#20044`_: (*cedwards*) [freebsd][2014.7.1] traceback when using 'show_timeout: True'
 - **PR** `#20136`_: (*kev009*) Try to fix sockstat args for `#20044`_
 
   * 5728653 Try to fix sockstat args for `#20044`_
@@ -552,7 +588,8 @@ cc1e81a Merge pull request `#20112`_ from rallytime/pylint_7
 
 873fde3 Merge pull request `#20097`_ from jfindlay/fix_locale_gen
 
-- => **ISSUE** `#18936`_: (*tomashavlas*) possible problems with locale.gen_locale
+- Referenced pull requests and issues
+  - **ISSUE** `#18936`_: (*tomashavlas*) possible problems with locale.gen_locale
   | refs: `#20097`_
 - **PR** `#20097`_: (*jfindlay*) fix debian/ubuntu handling in locale.gen_locale
   | refs: `#20288`_
@@ -619,8 +656,9 @@ f254f1f Merge pull request `#20041`_ from rallytime/fix_dulwich_check
 
 c5ac604 Merge pull request `#20046`_ from hvnsweeting/2014.7
 
-- => **ISSUE** `#8881`_: (*kiorky*) file.managed & file.blockreplace using file.accumulated do not support reload
-- => **PR** `#19731`_: (*hvnsweeting*) bugfix: persist accumulator data after reload_modules, fix `#8881`_
+- Referenced pull requests and issues
+  - **ISSUE** `#8881`_: (*kiorky*) file.managed & file.blockreplace using file.accumulated do not support reload
+  - **PR** `#19731`_: (*hvnsweeting*) bugfix: persist accumulator data after reload_modules, fix `#8881`_
   | refs: `#20046`_
 - **PR** `#20046`_: (*hvnsweeting*) bugfix: persist accumulator data after reload_modules, fix `#8881`_
 
@@ -628,11 +666,12 @@ c5ac604 Merge pull request `#20046`_ from hvnsweeting/2014.7
 
 85e32d1 Merge pull request `#20023`_ from basepi/gpgrenderersaltssh19114
 
-- => **ISSUE** `#19114`_: (*pykler*) salt-ssh and gpg pillar renderer
+- Referenced pull requests and issues
+  - **ISSUE** `#19114`_: (*pykler*) salt-ssh and gpg pillar renderer
   | refs: `#19912`_ `#19787`_
-- => **PR** `#19912`_: (*basepi*) Assume __salt__['config.get'] is present in gpg renderer
+  - **PR** `#19912`_: (*basepi*) Assume __salt__['config.get'] is present in gpg renderer
   | refs: `#20023`_
-- => **PR** `#19787`_: (*slafs*) fixes GPG renderer when working with states in salt-ssh
+  - **PR** `#19787`_: (*slafs*) fixes GPG renderer when working with states in salt-ssh
   | refs: `#19912`_
 - **PR** `#20023`_: (*basepi*) Partially revert `#19912`_
 
@@ -652,9 +691,10 @@ c5ac604 Merge pull request `#20046`_ from hvnsweeting/2014.7
 
 7ac742b Merge pull request `#20022`_ from jfindlay/yes_win_dns
 
-- => **ISSUE** `#18513`_: (*Supermathie*) network.managed (windows) cannot set interface without DNS servers
+- Referenced pull requests and issues
+  - **ISSUE** `#18513`_: (*Supermathie*) network.managed (windows) cannot set interface without DNS servers
   | refs: `#19968`_ `#20022`_
-- => **PR** `#19968`_: (*jfindlay*) allow user to disable DNS for win net iface
+  - **PR** `#19968`_: (*jfindlay*) allow user to disable DNS for win net iface
   | refs: `#20022`_
 - **PR** `#20022`_: (*jfindlay*) require DNS for win network.managed state
 
@@ -662,9 +702,10 @@ c5ac604 Merge pull request `#20046`_ from hvnsweeting/2014.7
 
 55cb7fd Merge pull request `#20015`_ from basepi/grainsprecedencedocs19611
 
-- => **ISSUE** `#19612`_: (*dnd*) File based grains do not override custom grains
+- Referenced pull requests and issues
+  - **ISSUE** `#19612`_: (*dnd*) File based grains do not override custom grains
   | refs: `#20015`_
-- => **ISSUE** `#19611`_: (*dnd*) Document grains evaluation order
+  - **ISSUE** `#19611`_: (*dnd*) Document grains evaluation order
   | refs: `#20015`_
 - **PR** `#20015`_: (*basepi*) Fix grains precedence issues
 
@@ -674,9 +715,10 @@ c5ac604 Merge pull request `#20046`_ from hvnsweeting/2014.7
 
 487fa9c Merge pull request `#20001`_ from saltstack/revert-19960-`bp-19790`_
 
-- => **PR** `#19960`_: (*rallytime*) Backport `#19790`_ to 2014.7
+- Referenced pull requests and issues
+  - **PR** `#19960`_: (*rallytime*) Backport `#19790`_ to 2014.7
   | refs: `#20001`_
-- => **PR** `#19790`_: (*cachedout*) Fix multi-master event handling bug
+  - **PR** `#19790`_: (*cachedout*) Fix multi-master event handling bug
   | refs: `#19960`_
 - **PR** `#20001`_: (*rallytime*) Revert "Backport `#19790`_ to 2014.7"
 
@@ -684,7 +726,8 @@ c5ac604 Merge pull request `#20046`_ from hvnsweeting/2014.7
 
 f21f6c2 Merge pull request `#19988`_ from thatch45/fix_file_test
 
-- => **PR** `#19833`_: (*clan*) update ret of check_managed_changes
+- Referenced pull requests and issues
+  - **PR** `#19833`_: (*clan*) update ret of check_managed_changes
 - **PR** `#19988`_: (*thatch45*) Fix for a state file change issue, fix for `#19833`_
 
   * 8e0a9e2 Fix for a state file change issue, fix for `#19833`_
@@ -697,7 +740,8 @@ a368183 Merge pull request `#20003`_ from rallytime/pylint_dot_seven
 
 fd8e474 Merge pull request `#19968`_ from jfindlay/no_win_dns
 
-- => **ISSUE** `#18513`_: (*Supermathie*) network.managed (windows) cannot set interface without DNS servers
+- Referenced pull requests and issues
+  - **ISSUE** `#18513`_: (*Supermathie*) network.managed (windows) cannot set interface without DNS servers
   | refs: `#19968`_ `#20022`_
 - **PR** `#19968`_: (*jfindlay*) allow user to disable DNS for win net iface
   | refs: `#20022`_
@@ -730,7 +774,8 @@ c391f88 Merge pull request `#19982`_ from basepi/2014.7.1release
 
 f3019a8 Merge pull request `#18400`_ from terminalmage/issue17700
 
-- => **ISSUE** `#17700`_: (*damonnk*) Salt doesn't honor symlinks with gitfs
+- Referenced pull requests and issues
+  - **ISSUE** `#17700`_: (*damonnk*) Salt doesn't honor symlinks with gitfs
   | refs: `#18400`_
 - **PR** `#18400`_: (*terminalmage*) Fix gitfs serving symlinks
 
@@ -742,8 +787,9 @@ f3019a8 Merge pull request `#18400`_ from terminalmage/issue17700
 
 945a016 Merge pull request `#19961`_ from rallytime/`bp-19855`_
 
-- => **ISSUE** `#18673`_: (*dennisoconnor*) docker.login module is failing
-- => **PR** `#19855`_: (*colincoghill*) Fix for docker login saltstack/salt`#18673`_
+- Referenced pull requests and issues
+  - **ISSUE** `#18673`_: (*dennisoconnor*) docker.login module is failing
+  - **PR** `#19855`_: (*colincoghill*) Fix for docker login saltstack/salt`#18673`_
   | refs: `#19961`_
 - **PR** `#19961`_: (*rallytime*) Backport `#19855`_ to 2014.7
 
@@ -751,7 +797,8 @@ f3019a8 Merge pull request `#18400`_ from terminalmage/issue17700
 
 21da224 Merge pull request `#19960`_ from rallytime/`bp-19790`_
 
-- => **PR** `#19790`_: (*cachedout*) Fix multi-master event handling bug
+- Referenced pull requests and issues
+  - **PR** `#19790`_: (*cachedout*) Fix multi-master event handling bug
   | refs: `#19960`_
 - **PR** `#19960`_: (*rallytime*) Backport `#19790`_ to 2014.7
   | refs: `#20001`_
@@ -762,7 +809,8 @@ f3019a8 Merge pull request `#18400`_ from terminalmage/issue17700
 
 43f4451 Merge pull request `#19959`_ from RobertFach/doc-19875-gitfs-dulwich
 
-- => **ISSUE** `#19875`_: (*RobertFach*) gitfs backend dulwich broken on Ubuntu 12.04 LTS
+- Referenced pull requests and issues
+  - **ISSUE** `#19875`_: (*RobertFach*) gitfs backend dulwich broken on Ubuntu 12.04 LTS
   | refs: `#19959`_
 - **PR** `#19959`_: (*RobertFach*) updated information regarding required version for dulwich gitfs backend
 
@@ -776,7 +824,8 @@ f3019a8 Merge pull request `#18400`_ from terminalmage/issue17700
 
 9cce544 Merge pull request `#19930`_ from highlyunavailable/feature/fix_tar_options
 
-- => **ISSUE** `#19928`_: (*highlyunavailable*) Regression in archive.extracted with tar_options
+- Referenced pull requests and issues
+  - **ISSUE** `#19928`_: (*highlyunavailable*) Regression in archive.extracted with tar_options
   | refs: `#19930`_
 - **PR** `#19930`_: (*highlyunavailable*) Split out tar options into long and short array-based arguments
 
@@ -784,7 +833,8 @@ f3019a8 Merge pull request `#18400`_ from terminalmage/issue17700
 
 a677984 Merge pull request `#19927`_ from jfindlay/fix_sysctl
 
-- => **ISSUE** `#19870`_: (*bigg01*) state sysctl.present does not create the /etc/sysctl.d/99-salt.conf on a systemd using system
+- Referenced pull requests and issues
+  - **ISSUE** `#19870`_: (*bigg01*) state sysctl.present does not create the /etc/sysctl.d/99-salt.conf on a systemd using system
   | refs: `#19927`_
 - **PR** `#19927`_: (*jfindlay*) create /etc/sysctl.d/99-salt.conf if not present
 
@@ -798,7 +848,8 @@ a677984 Merge pull request `#19927`_ from jfindlay/fix_sysctl
 
 5bd3ad8 Merge pull request `#19921`_ from thatch45/The-Loeki-fix_sysctl
 
-- => **PR** `#19838`_: (*The-Loeki*) Bugfix setting sysctl keys with '/' in it
+- Referenced pull requests and issues
+  - **PR** `#19838`_: (*The-Loeki*) Bugfix setting sysctl keys with '/' in it
   | refs: `#19921`_
 - **PR** `#19921`_: (*thatch45*) Merge `#19838`_
 
@@ -810,9 +861,10 @@ a677984 Merge pull request `#19927`_ from jfindlay/fix_sysctl
 
 02782e3 Merge pull request `#19912`_ from basepi/salt-ssh-gpg-renderer19114
 
-- => **ISSUE** `#19114`_: (*pykler*) salt-ssh and gpg pillar renderer
+- Referenced pull requests and issues
+  - **ISSUE** `#19114`_: (*pykler*) salt-ssh and gpg pillar renderer
   | refs: `#19912`_ `#19787`_
-- => **PR** `#19787`_: (*slafs*) fixes GPG renderer when working with states in salt-ssh
+  - **PR** `#19787`_: (*slafs*) fixes GPG renderer when working with states in salt-ssh
   | refs: `#19912`_
 - **PR** `#19912`_: (*basepi*) Assume __salt__['config.get'] is present in gpg renderer
   | refs: `#20023`_
@@ -827,7 +879,8 @@ a677984 Merge pull request `#19927`_ from jfindlay/fix_sysctl
 
 938af03 Merge pull request `#19902`_ from jfindlay/fix_blkid
 
-- => **ISSUE** `#19795`_: (*kim0*) disk.blkid stack trace on freebsd
+- Referenced pull requests and issues
+  - **ISSUE** `#19795`_: (*kim0*) disk.blkid stack trace on freebsd
   | refs: `#19902`_
 - **PR** `#19902`_: (*jfindlay*) test for blkid before running disk.blkid
 
@@ -865,7 +918,8 @@ ab725d5 Merge pull request `#19904`_ from rallytime/pylint_dot_seven
 
 1d5e8b5 Merge pull request `#19826`_ from jfindlay/sdecode_jinja
 
-- => **ISSUE** `#19173`_: (*TJuberg*) SLS Rendering fails with Jinja error: 'ascii' codec can't decode byte <nnnn> in position <nn>: ordinal not in range(128)
+- Referenced pull requests and issues
+  - **ISSUE** `#19173`_: (*TJuberg*) SLS Rendering fails with Jinja error: 'ascii' codec can't decode byte <nnnn> in position <nn>: ordinal not in range(128)
   | refs: `#19826`_
 - **PR** `#19826`_: (*jfindlay*) properly decode jinja rendering, fixes `#19173`_
 
@@ -879,7 +933,8 @@ ab725d5 Merge pull request `#19904`_ from rallytime/pylint_dot_seven
 
 ba505e4 Merge pull request `#19825`_ from jfindlay/fix_lvcreate
 
-- => **ISSUE** `#19824`_: (*jfindlay*) linux_lvm lvcreate function does not use extra_arguments
+- Referenced pull requests and issues
+  - **ISSUE** `#19824`_: (*jfindlay*) linux_lvm lvcreate function does not use extra_arguments
   | refs: `#19825`_
 - **PR** `#19825`_: (*jfindlay*) remove redundant code, append extra_arguments to cmd
 
@@ -887,11 +942,12 @@ ba505e4 Merge pull request `#19825`_ from jfindlay/fix_lvcreate
 
 ef3d51c Merge pull request `#19820`_ from highlyunavailable/feature/2014.7_fix_file_recurse_windows
 
-- => **ISSUE** `#19815`_: (*highlyunavailable*) file.recurse on masterless windows minions fails due to path separator issues
+- Referenced pull requests and issues
+  - **ISSUE** `#19815`_: (*highlyunavailable*) file.recurse on masterless windows minions fails due to path separator issues
   | refs: `#19820`_
-- => **ISSUE** `#14048`_: (*belawaeckerlig*) salt masterless windows own modules do not work
+  - **ISSUE** `#14048`_: (*belawaeckerlig*) salt masterless windows own modules do not work
   | refs: `#19805`_ `#19820`_
-- => **PR** `#19805`_: (*highlyunavailable*) Fixes `#14048`_ and also a bug in win_servermanager
+  - **PR** `#19805`_: (*highlyunavailable*) Fixes `#14048`_ and also a bug in win_servermanager
   | refs: `#19820`_
 - **PR** `#19820`_: (*highlyunavailable*) Force roots fileclient on Masterless Windows to return fake POSIX/"url"
 
@@ -911,7 +967,8 @@ ef3d51c Merge pull request `#19820`_ from highlyunavailable/feature/2014.7_fix_f
 
 f41a163 Merge pull request `#19805`_ from highlyunavailable/feature/2014.7.1_fixwinpkg
 
-- => **ISSUE** `#14048`_: (*belawaeckerlig*) salt masterless windows own modules do not work
+- Referenced pull requests and issues
+  - **ISSUE** `#14048`_: (*belawaeckerlig*) salt masterless windows own modules do not work
   | refs: `#19805`_ `#19820`_
 - **PR** `#19805`_: (*highlyunavailable*) Fixes `#14048`_ and also a bug in win_servermanager
   | refs: `#19820`_
@@ -920,7 +977,8 @@ f41a163 Merge pull request `#19805`_ from highlyunavailable/feature/2014.7.1_fix
 
 ffcf7ce Merge pull request `#19789`_ from jfindlay/hosts_eol
 
-- => **ISSUE** `#19738`_: (*Reiner030*) host.present drops last newline
+- Referenced pull requests and issues
+  - **ISSUE** `#19738`_: (*Reiner030*) host.present drops last newline
   | refs: `#19789`_
 - **PR** `#19789`_: (*jfindlay*) end /etc/hosts with EOL to not break utils that read it
 
@@ -928,7 +986,8 @@ ffcf7ce Merge pull request `#19789`_ from jfindlay/hosts_eol
 
 6736f6d Merge pull request `#19804`_ from basepi/salt-ssh.arg.yamlify.19773
 
-- => **ISSUE** `#19773`_: (*kt97679*) salt-ssh fails to render pillar provided as command line argument
+- Referenced pull requests and issues
+  - **ISSUE** `#19773`_: (*kt97679*) salt-ssh fails to render pillar provided as command line argument
   | refs: `#19804`_
 - **PR** `#19804`_: (*basepi*) Fix for passing pillar to state runs in salt-ssh
 
@@ -948,7 +1007,8 @@ ffcf7ce Merge pull request `#19789`_ from jfindlay/hosts_eol
 
 5fb9e91 Merge pull request `#19798`_ from jfindlay/fix_msiexec
 
-- => **ISSUE** `#19796`_: (*highlyunavailable*) Regression: win_pkg fails in msiexec mode
+- Referenced pull requests and issues
+  - **ISSUE** `#19796`_: (*highlyunavailable*) Regression: win_pkg fails in msiexec mode
   | refs: `#19798`_
 - **PR** `#19798`_: (*jfindlay*) fix msiexec cmd, `#19796`_
 
@@ -968,7 +1028,8 @@ ffcf7ce Merge pull request `#19789`_ from jfindlay/hosts_eol
 
 d3fc81e Merge pull request `#19742`_ from basepi/saltssh.msgpack.remove.7913
 
-- => **ISSUE** `#7913`_: (*pfalcon*) salt-ssh imports unrelated python modules on both slave (fatal) and master
+- Referenced pull requests and issues
+  - **ISSUE** `#7913`_: (*pfalcon*) salt-ssh imports unrelated python modules on both slave (fatal) and master
   | refs: `#19742`_
 - **PR** `#19742`_: (*basepi*) [DO NOT MERGE] Remove msgpack from thin generation for salt-ssh
 
@@ -1006,7 +1067,8 @@ d3fc81e Merge pull request `#19742`_ from basepi/saltssh.msgpack.remove.7913
 
 4158b17 Merge pull request `#19741`_ from basepi/saltssh.jinja.newconvention.19681
 
-- => **ISSUE** `#19681`_: (*Bilge*) salt-ssh cannot use new salt module calling convention from state templates
+- Referenced pull requests and issues
+  - **ISSUE** `#19681`_: (*Bilge*) salt-ssh cannot use new salt module calling convention from state templates
   | refs: `#19741`_
 - **PR** `#19741`_: (*basepi*) Fix FunctionWrapper to allow for jinja salt.cmd.run() syntax
 
@@ -1038,7 +1100,8 @@ dcf9128 Merge pull request `#19743`_ from basepi/2014.7.2releasenotes
 
 5a3bd60 Merge pull request `#19715`_ from kev009/freebsd-kmods
 
-- => **PR** `#19682`_: (*kev009*) FreeBSD kmod bugfixes
+- Referenced pull requests and issues
+  - **PR** `#19682`_: (*kev009*) FreeBSD kmod bugfixes
   | refs: `#19715`_
 - **PR** `#19715`_: (*kev009*) Switch FreeBSD kmod module to use loader.conf
 
@@ -1046,7 +1109,8 @@ dcf9128 Merge pull request `#19743`_ from basepi/2014.7.2releasenotes
 
 d204fe4 Merge pull request `#19698`_ from basepi/filemanagedcontents19669
 
-- => **ISSUE** `#19669`_: (*MrMarvin*) file.managed with `contents` and without `contents_newline` seems broken
+- Referenced pull requests and issues
+  - **ISSUE** `#19669`_: (*MrMarvin*) file.managed with `contents` and without `contents_newline` seems broken
   | refs: `#19698`_
 - **PR** `#19698`_: (*basepi*) Force contents to string under Falsey conditions too for file.managed
 
@@ -1054,7 +1118,8 @@ d204fe4 Merge pull request `#19698`_ from basepi/filemanagedcontents19669
 
 7e0b461 Merge pull request `#19710`_ from rallytime/`bp-19580`_
 
-- => **PR** `#19580`_: (*traxair*) Fix azure cloud service
+- Referenced pull requests and issues
+  - **PR** `#19580`_: (*traxair*) Fix azure cloud service
   | refs: `#19710`_
 - **PR** `#19710`_: (*rallytime*) Backport `#19580`_ to 2014.7
 
@@ -1064,7 +1129,8 @@ d204fe4 Merge pull request `#19698`_ from basepi/filemanagedcontents19669
 
 b847109 Merge pull request `#19722`_ from rallytime/fix_19453
 
-- => **ISSUE** `#19453`_: (*theherk*) Output switches return "salt-cloud: error: no such option:"
+- Referenced pull requests and issues
+  - **ISSUE** `#19453`_: (*theherk*) Output switches return "salt-cloud: error: no such option:"
   | refs: `#19722`_
 - **PR** `#19722`_: (*rallytime*) Remove old --out options from salt-cloud docs
 
@@ -1078,7 +1144,8 @@ b847109 Merge pull request `#19722`_ from rallytime/fix_19453
 
 0ca2dbf Merge pull request `#19709`_ from rallytime/`bp-19523`_
 
-- => **PR** `#19523`_: (*cachedout*) Try giving some rest tornado requests a little more time
+- Referenced pull requests and issues
+  - **PR** `#19523`_: (*cachedout*) Try giving some rest tornado requests a little more time
   | refs: `#19709`_
 - **PR** `#19709`_: (*rallytime*) Backport `#19523`_ to 2014.7
 
@@ -1086,7 +1153,8 @@ b847109 Merge pull request `#19722`_ from rallytime/fix_19453
 
 80ec40b Merge pull request `#19689`_ from rallytime/locale_versionadded
 
-- => **ISSUE** `#19607`_: (*pwaller*) State locale.present found in sls common is unavailable
+- Referenced pull requests and issues
+  - **ISSUE** `#19607`_: (*pwaller*) State locale.present found in sls common is unavailable
   | refs: `#19689`_
 - **PR** `#19689`_: (*rallytime*) Add versionadded directives to newer locale functions
 
@@ -1121,7 +1189,8 @@ b847109 Merge pull request `#19722`_ from rallytime/fix_19453
 
 1eb0b4b Merge pull request `#19661`_ from basepi/sysctlretcode19606
 
-- => **ISSUE** `#19606`_: (*pwaller*) systemctl is-enabled foo-bar.service failed with return code: 1
+- Referenced pull requests and issues
+  - **ISSUE** `#19606`_: (*pwaller*) systemctl is-enabled foo-bar.service failed with return code: 1
   | refs: `#19661`_
 - **PR** `#19661`_: (*basepi*) Suppress retcode warnings for systemd enabled check, Fixes `#19606`_
 
