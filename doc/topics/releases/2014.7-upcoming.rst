@@ -1,0 +1,199 @@
+Changes for 2014.7.NEXT:
+========================
+
+.. code-block:: bash
+
+  pulling 40 issues:
+  .....++....+...+....+..+...........+...+...++..+...
+  pulling 11 issues:
+  ..........+.
+  pulling 1 issues:
+  .
+
+
+**PR** `#22955`_ : (terminalmage) Fix regression introduced yesterday in dockerio module 
+
+
+**PR** `#22954`_ : (rallytime) Backport `#22909`_ to 2014.7 
+
+- **PR** `#22909`_ : (mguegan) Fix compatibility with pkgin > 0.7 [Bugfix - [Done] back-ported]
+
+**PR** `#22856`_ : (jfindlay) increase timeout and decrease tries for route53 records 
+
+- **ISSUE** `#18720`_ : (Reiner030) timeouts when setting Route53 records 
+
+**PR** `#22946`_ : (s0undt3ch) Test with a more recent pip version to avoid a traceback 
+
+
+**PR** `#22945`_ : (garethgreenaway) Fixes to scheduler 
+
+- **ISSUE** `#22571`_ *[OPEN]*: (BoomerB) same error message as on issue `#18504`_ 
+
+**PR** `#22887`_ : (hvnsweeting) fix `#18843`_ 
+
+- **ISSUE** `#18843`_ : (calvinhp) State user.present will fail to create home if user exists and homedir doesn't 
+
+**PR** `#22930`_ : (jfindlay) localemod.gen_locale now always returns a boolean 
+
+- **ISSUE** `#21140`_ : (holms) locale.present state executed successfully, although originally fails 
+- **ISSUE** `#2417`_ *[OPEN]*: (ffa) Module standards 
+- **PR** `#22829`_ : (F30) Always return a boolean in gen_locale() [Bugfix - [Done] back-ported]
+
+**PR** `#22933`_ : (hvnsweeting) add test for `#18843`_ 
+
+
+- **ISSUE** `#18843`_ : (calvinhp) State user.present will fail to create home if user exists and homedir doesn't 
+
+**PR** `#22925`_ : (rallytime) Backport `#22895`_ to 2014.7 
+
+- **PR** `#22895`_ : (aletourneau) pam_tally counter was not reset to 0 after a succesfull login [Bugfix - [Done] back-ported]
+
+**PR** `#22914`_ : (cachedout) Call proper returner function in jobs.list_jobs 
+
+- **ISSUE** `#22790`_ : (whiteinge) jobs.list_jobs runner tracebacks on 'missing' argument 
+
+**PR** `#22918`_ : (JaseFace) Add a note to the git_pillar docs stating that GitPython is the only currently supported provider 
+
+
+**PR** `#22907`_ : (techhat) Properly merge cloud configs to create profiles 
+
+
+**PR** `#22894`_ : (0xf10e) Fix issue `#22782`_ 
+
+
+**PR** `#22902`_ : (rallytime) Change state example to use proper kwarg 
+
+- **ISSUE** `#12003`_ : (MarkusMuellerAU) [state.dockerio] docker.run TypeError: run() argument after ** must be a mapping, not str 
+
+**PR** `#22898`_ : (terminalmage) dockerio: better error message for native exec driver 
+
+
+**PR** `#22897`_ : (rallytime) Add param documentation for file.replace state 
+
+- **ISSUE** `#22825`_ : (paolodina) Issue using file.replace in state file 
+
+**PR** `#22850`_ : (bersace) Fix pillar and salt fileserver mixed 
+
+- **ISSUE** `#22844`_ *[OPEN]*: (bersace) LocalClient file cache confuse pillar and state files 
+
+**PR** `#22818`_ : (twangboy) Added documentation regarding pip in windows 
+
+
+**PR** `#22872`_ : (rallytime) Prevent stacktrace on os.path.exists in hosts module 
+
+
+**PR** `#22853`_ : (s0undt3ch) Don't assume package installation order. 
+
+
+**PR** `#22877`_ : (s0undt3ch) Don't fail on `make clean` just because the directory does not exist 
+
+
+**PR** `#22873`_ : (thatch45) Type check the version since it will often be numeric 
+
+
+**PR** `#22870`_ : (twangboy) Added ability to send a version with a space in it 
+
+
+
+**PR** `#22863`_ : (rallytime) Backport `#20974`_ to 2014.7 
+
+- **PR** `#20974`_ : (JohannesEbke) Fix expr_match usage in salt.utils.check_whitelist_blacklist [Bugfix - [Done] back-ported]
+
+**PR** `#22578`_ : (hvnsweeting) gracefully handle when salt-minion cannot decrypt key 
+
+
+**PR** `#22800`_ : (terminalmage) Improve error logging for pygit2 SSH-based remotes 
+
+- **ISSUE** `#21979`_ : (yrdevops) gitfs: error message not descriptive enough when libgit2 was compiled without libssh2 
+
+**PR** `#22813`_ : (twangboy) Updated instructions for building salt 
+
+
+**PR** `#22810`_ : (basepi) [2014.7] More msgpack gating for salt-ssh 
+
+- **ISSUE** `#22708`_ : (Bilge) salt-ssh file.accumulated error: NameError: global name 'msgpack' is not defined 
+
+**PR** `#22803`_ : (rallytime) Allow map file to work with softlayer 
+
+- **ISSUE** `#17144`_ : (xpender) salt-cloud -m fails with softlayer 
+
+**PR** `#22807`_ : (rallytime) Add 2014.7.5 links to windows installation docs 
+
+
+**PR** `#22795`_ : (rallytime) Added release note for 2014.7.5 release 
+
+
+**PR** `#22759`_ : (twangboy) Final edits to the batch files for running salt 
+
+- **ISSUE** `#22740`_ : (lorengordon) New Windows installer assumes salt is installed to the current directory 
+- **PR** `#22754`_ : (twangboy) Removed redundant \ and " 
+
+**PR** `#22760`_ : (thatch45) Fix issues with the syndic 
+
+
+**PR** `#22762`_ : (twangboy) Fixed version not showing in Add/Remove Programs 
+
+
+
+
+
+
+.. _`#12003`: https://github.com/saltstack/salt/issues/12003
+.. _`#17144`: https://github.com/saltstack/salt/issues/17144
+.. _`#18504`: https://github.com/saltstack/salt/issues/18504
+.. _`#18720`: https://github.com/saltstack/salt/issues/18720
+.. _`#18843`: https://github.com/saltstack/salt/issues/18843
+.. _`#20974`: https://github.com/saltstack/salt/issues/20974
+.. _`#21140`: https://github.com/saltstack/salt/issues/21140
+.. _`#21979`: https://github.com/saltstack/salt/issues/21979
+.. _`#22571`: https://github.com/saltstack/salt/issues/22571
+.. _`#22578`: https://github.com/saltstack/salt/issues/22578
+.. _`#22708`: https://github.com/saltstack/salt/issues/22708
+.. _`#22740`: https://github.com/saltstack/salt/issues/22740
+.. _`#22754`: https://github.com/saltstack/salt/issues/22754
+.. _`#22759`: https://github.com/saltstack/salt/issues/22759
+.. _`#22760`: https://github.com/saltstack/salt/issues/22760
+.. _`#22762`: https://github.com/saltstack/salt/issues/22762
+.. _`#22782`: https://github.com/saltstack/salt/issues/22782
+.. _`#22790`: https://github.com/saltstack/salt/issues/22790
+.. _`#22795`: https://github.com/saltstack/salt/issues/22795
+.. _`#22800`: https://github.com/saltstack/salt/issues/22800
+.. _`#22803`: https://github.com/saltstack/salt/issues/22803
+.. _`#22807`: https://github.com/saltstack/salt/issues/22807
+.. _`#22810`: https://github.com/saltstack/salt/issues/22810
+.. _`#22813`: https://github.com/saltstack/salt/issues/22813
+.. _`#22818`: https://github.com/saltstack/salt/issues/22818
+.. _`#22825`: https://github.com/saltstack/salt/issues/22825
+.. _`#22829`: https://github.com/saltstack/salt/issues/22829
+.. _`#22844`: https://github.com/saltstack/salt/issues/22844
+.. _`#22850`: https://github.com/saltstack/salt/issues/22850
+.. _`#22853`: https://github.com/saltstack/salt/issues/22853
+.. _`#22856`: https://github.com/saltstack/salt/issues/22856
+.. _`#22863`: https://github.com/saltstack/salt/issues/22863
+.. _`#22870`: https://github.com/saltstack/salt/issues/22870
+.. _`#22872`: https://github.com/saltstack/salt/issues/22872
+.. _`#22873`: https://github.com/saltstack/salt/issues/22873
+.. _`#22877`: https://github.com/saltstack/salt/issues/22877
+.. _`#22887`: https://github.com/saltstack/salt/issues/22887
+.. _`#22894`: https://github.com/saltstack/salt/issues/22894
+.. _`#22895`: https://github.com/saltstack/salt/issues/22895
+.. _`#22897`: https://github.com/saltstack/salt/issues/22897
+.. _`#22898`: https://github.com/saltstack/salt/issues/22898
+.. _`#22902`: https://github.com/saltstack/salt/issues/22902
+.. _`#22907`: https://github.com/saltstack/salt/issues/22907
+.. _`#22909`: https://github.com/saltstack/salt/issues/22909
+.. _`#22914`: https://github.com/saltstack/salt/issues/22914
+.. _`#22918`: https://github.com/saltstack/salt/issues/22918
+.. _`#22925`: https://github.com/saltstack/salt/issues/22925
+.. _`#22930`: https://github.com/saltstack/salt/issues/22930
+.. _`#22933`: https://github.com/saltstack/salt/issues/22933
+.. _`#22945`: https://github.com/saltstack/salt/issues/22945
+.. _`#22946`: https://github.com/saltstack/salt/issues/22946
+.. _`#22954`: https://github.com/saltstack/salt/issues/22954
+.. _`#22955`: https://github.com/saltstack/salt/issues/22955
+.. _`#2417`: https://github.com/saltstack/salt/issues/2417
+.. _`bp-20974`: https://github.com/saltstack/salt/issues/20974
+.. _`bp-22895`: https://github.com/saltstack/salt/issues/22895
+.. _`bp-22909`: https://github.com/saltstack/salt/issues/22909
+.. _`fix-17144`: https://github.com/saltstack/salt/issues/17144
+.. _`fix-22825`: https://github.com/saltstack/salt/issues/22825

@@ -1,0 +1,183 @@
+pulling 40 issues:
+.....++....+...+....+..+...........+...+...++..+...
+pulling 11 issues:
+..........+.
+pulling 1 issues:
+.
+
+PR #22955 [CLOSED]: (terminalmage) Fix regression introduced yesterday in dockerio module [Minor Change], [Tests Passed]
+* 89fa185 Merge pull request #22955 from terminalmage/dockerio-run-fix
+  * b4472ad Fix regression introduced yesterday in dockerio module
+
+PR #22954 [CLOSED]: (rallytime) Backport #22909 to 2014.7 [Minor Change], [Tests Passed]
+PR #22909 [CLOSED]: (mguegan) Fix compatibility with pkgin > 0.7 [Bugfix - [Done] back-ported], [Minor Change], [Tests Passed]
+* 46ef227 Merge pull request #22954 from rallytime/bp-22909
+  * 70c1cd3 Fix compatibility with pkgin > 0.7
+
+ISSUE #18720 [CLOSED]: (Reiner030) timeouts when setting Route53 records [Bug], [High Severity], [P2], [Salt-Cloud]
+PR #22856 [CLOSED]: (jfindlay) increase timeout and decrease tries for route53 records [Medium Change], [Tests Passed]
+* c9ae593 Merge pull request #22856 from jfindlay/route53_timeout
+  * ba4a786 add route53 record sync wait, default=False
+  * ea2fd50 increase timeout and tries for route53 records
+
+PR #22946 [CLOSED]: (s0undt3ch) Test with a more recent pip version to avoid a traceback [Minor Change]
+* a178d44 Merge pull request #22946 from s0undt3ch/2014.7
+  * bc87749 Test with a more recent pip version to avoid a traceback
+
+ISSUE #22571 [OPEN]: (BoomerB) same error message as on issue #18504 [Core], [Fixed Pending Verification], [High Severity], [P3]
+PR #22945 [CLOSED]: (garethgreenaway) Fixes to scheduler [Medium Change]
+* de339be Merge pull request #22945 from garethgreenaway/22571_2014_7_schedule_pillar_refresh_seconds_exceptions
+  * bfa6d25 Fixing a reported issue when using a scheduled job from pillar with splay.  _seconds element that acted as a backup of the actual seconds was being removed when pillar was refreshed and causing exceptions.  This fix moves some splay related code out of the if else condition so it's checked whether the job is in the job queue or not.
+
+ISSUE #18843 [CLOSED]: (calvinhp) State user.present will fail to create home if user exists and homedir doesn't [Bug], [Medium Severity]
+PR #22887 [CLOSED]: (hvnsweeting) fix #18843 [Medium Change]
+* 12d2b91 Merge pull request #22887 from hvnsweeting/18843-fix-user-present-home
+  * 7fe7b08 run user.chhome once to avoid any side-effect when run it twice
+  * 19de995 clarify the usage of home arg
+  * d6dc09a enhance doc, as usermod on ubuntu 12.04 will not CREATE home
+  * 0ce4d7f refactor: force to use boolean
+  * 849d19e log debug the creating dir process
+  * c4e95b9 fix #18843: usermod won't create a dir if old home does not exist
+
+ISSUE #21140 [CLOSED]: (holms) locale.present state executed successfully, although originally fails [Bug], [High Severity], [P3], [State Module]
+ISSUE #2417 [OPEN]: (ffa) Module standards [Documentation]
+PR #22930 [CLOSED]: (jfindlay) localemod.gen_locale now always returns a boolean [Minor Change], [Tests Passed]
+PR #22829 [CLOSED]: (F30) Always return a boolean in gen_locale() [Bugfix - [Done] back-ported], [Minor Change]
+* b7de7bd Merge pull request #22930 from jfindlay/localegen_bool
+  * 399399f localemod.gen_locale now always returns a boolean
+
+ISSUE #18843 [CLOSED]: (calvinhp) State user.present will fail to create home if user exists and homedir doesn't [Bug], [Medium Severity]
+PR #22933 [CLOSED]: (hvnsweeting) add test for #18843 
+* 11bcf14 Merge pull request #22933 from hvnsweeting/18843-test
+  * b13db32 add test for #18843
+
+PR #22925 [CLOSED]: (rallytime) Backport #22895 to 2014.7 [Medium Change]
+PR #22895 [CLOSED]: (aletourneau) pam_tally counter was not reset to 0 after a succesfull login [Bugfix - [Done] back-ported], [Master Change]
+* 6890752 Merge pull request #22925 from rallytime/bp-22895
+  * 3852d96 Pylint fix
+  * 90f7829 Fixed pylint issues
+  * 5ebf159 Cleaned up pull request
+  * a08ac47 pam_tally counter was not reset to 0 after a succesfull login
+
+ISSUE #22790 [CLOSED]: (whiteinge) jobs.list_jobs runner tracebacks on 'missing' argument [Bug], [Core], [Fixed Pending Verification], [High Severity], [P3], [Regression]
+PR #22914 [CLOSED]: (cachedout) Call proper returner function in jobs.list_jobs [Medium Change], [Tests Passed]
+* eca37eb Merge pull request #22914 from cachedout/issue_22790
+  * d828d6f Call proper returner function in jobs.list_jobs
+
+PR #22918 [CLOSED]: (JaseFace) Add a note to the git_pillar docs stating that GitPython is the only currently supported provider [Minor Change]
+* 44f3409 Merge pull request #22918 from JaseFace/git-pillar-provider-doc-note
+  * 0aee5c2 Add a note to the git_pillar docs stating that GitPython is the only currently supported provider
+
+PR #22907 [CLOSED]: (techhat) Properly merge cloud configs to create profiles [Minor Change], [Tests Passed]
+* 31c461f Merge pull request #22907 from techhat/cloudconfig
+  * 3bf4e66 Properly merge cloud configs to create profiles
+
+PR #22894 [CLOSED]: (0xf10e) Fix issue #22782 [Medium Change], [Tests Passed]
+* f093975 Merge pull request #22894 from 0xf10e/2014.7
+  * 58fa24c Clarify doc on kwarg 'roles' for user_present().
+  * f0ae2eb Improve readability by renaming tenant_role
+
+ISSUE #12003 [CLOSED]: (MarkusMuellerAU) [state.dockerio] docker.run TypeError: run() argument after ** must be a mapping, not str [Bug], [Documentation], [Fixed Pending Verification], [High Severity], [P4], [State Module]
+PR #22902 [CLOSED]: (rallytime) Change state example to use proper kwarg [Minor Change]
+* c802ba7 Merge pull request #22902 from rallytime/docker_doc_fix
+  * 8f70346 Change state example to use proper kwarg
+
+PR #22898 [CLOSED]: (terminalmage) dockerio: better error message for native exec driver [Minor Change], [Tests Passed]
+* 81771a7 Merge pull request #22898 from terminalmage/issue12003
+  * c375309 dockerio: better error message for native exec driver
+
+ISSUE #22825 [CLOSED]: (paolodina) Issue using file.replace in state file [Bug], [Documentation], [High Severity], [P3]
+PR #22897 [CLOSED]: (rallytime) Add param documentation for file.replace state [Medium Change]
+* e2ec4ec Merge pull request #22897 from rallytime/fix-22825
+  * 9c51630 Add param documentation for file.replace state
+
+ISSUE #22844 [OPEN]: (bersace) LocalClient file cache confuse pillar and state files [Bug], [High Severity], [P2], [Pillar]
+PR #22850 [CLOSED]: (bersace) Fix pillar and salt fileserver mixed [Master Change], [Tests Passed]
+* fd53889 Merge pull request #22850 from bersace/fix-pillar-salt-mixed
+  * 31b98e7 Initialize state file client after pillar loading
+  * f6bebb7 Use saltenv
+
+PR #22818 [CLOSED]: (twangboy) Added documentation regarding pip in windows [Medium Change]
+* 1380fec Merge pull request #22818 from twangboy/upd_pip_docs
+  * cb999c7 Update pip.py
+  * 3cc5c97 Added documentation regarding pip in windows
+
+PR #22872 [CLOSED]: (rallytime) Prevent stacktrace on os.path.exists in hosts module [Minor Change]
+* b2bf17f Merge pull request #22872 from rallytime/fix_hosts_stacktrace
+  * c88a1ea Prevent stacktrace on os.path.exists in hosts module
+
+PR #22853 [CLOSED]: (s0undt3ch) Don't assume package installation order. [Minor Change], [Tests Passed]
+* 03af523 Merge pull request #22853 from s0undt3ch/2014.7
+  * b62df62 Don't assume package installation order.
+
+PR #22877 [CLOSED]: (s0undt3ch) Don't fail on `make clean` just because the directory does not exist [Minor Change], [Tests Passed]
+* 9211e36 Merge pull request #22877 from s0undt3ch/hotfix/clean-docs-fix
+  * 95d6887 Don't fail on `make clean` just because the directory does not exist
+
+PR #22873 [CLOSED]: (thatch45) Type check the version since it will often be numeric [Minor Change], [Tests Passed]
+* 5bdbd08 Merge pull request #22873 from thatch45/type_check
+  * 53b8376 Type check the version since it will often be numeric
+
+PR #22870 [CLOSED]: (twangboy) Added ability to send a version with a space in it 
+* c965b0a Merge pull request #22870 from twangboy/fix_installer_again
+  * 3f180cf Added ability to send a version with a space in it
+
+PR #22863 [CLOSED]: (rallytime) Backport #20974 to 2014.7 [Minor Change], [Tests Passed]
+PR #20974 [CLOSED]: (JohannesEbke) Fix expr_match usage in salt.utils.check_whitelist_blacklist [Bugfix - [Done] back-ported], [Minor Change]
+* 2973eb1 Merge pull request #22863 from rallytime/bp-20974
+  * 14913a4 Fix expr_match usage in salt.utils.check_whitelist_blacklist
+
+PR #22578 [CLOSED]: (hvnsweeting) gracefully handle when salt-minion cannot decrypt key [Medium Change], [Tests Passed]
+* c45b92b Merge pull request #22578 from hvnsweeting/2014-7-fix-compile-pillar
+  * f75b24a gracefully handle when salt-minion cannot decrypt key
+
+ISSUE #21979 [CLOSED]: (yrdevops) gitfs: error message not descriptive enough when libgit2 was compiled without libssh2 [Bug], [File Servers], [Medium Severity], [P4], [Pending Discussion]
+PR #22800 [CLOSED]: (terminalmage) Improve error logging for pygit2 SSH-based remotes [Medium Change]
+* 900c7a5 Merge pull request #22800 from terminalmage/issue21979
+  * 8f1c008 Clarify that for pygit2, receiving 0 objects means repo is up-to-date
+  * 98885f7 Add information about libssh2 requirement for pygit2 ssh auth
+  * 09468d2 Fix incorrect log message
+  * 2093bf8 Adjust loglevels for gitfs errors
+  * 9d394df Improve error logging for pygit2 SSH-based remotes
+
+PR #22813 [CLOSED]: (twangboy) Updated instructions for building salt [Master Change], [Tests Passed]
+* e99f2fd Merge pull request #22813 from twangboy/win_doc_fix
+  * adc421a Fixed some formatting issues
+  * 8901b3b Updated instructions for building salt
+
+ISSUE #22708 [CLOSED]: (Bilge) salt-ssh file.accumulated error: NameError: global name 'msgpack' is not defined [Bug], [Fixed Pending Verification], [High Severity], [P2], [Salt-SSH]
+PR #22810 [CLOSED]: (basepi) [2014.7] More msgpack gating for salt-ssh [Minor Change], [Tests Passed]
+* fe1de89 Merge pull request #22810 from basepi/salt-ssh.more.msgpack.gating
+  * d4da8e6 Gate msgpack in salt/modules/saltutil.py
+  * 02303b2 Gate msgpack in salt/modules/data.py
+  * d7e8741 Gate salt.states.file.py msgpack
+
+ISSUE #17144 [CLOSED]: (xpender) salt-cloud -m fails with softlayer [Bug], [Fixed Pending Verification], [High Severity], [P1], [Salt-Cloud]
+PR #22803 [CLOSED]: (rallytime) Allow map file to work with softlayer [Minor Change]
+* 11df71e Merge pull request #22803 from rallytime/fix-17144
+  * ce88b6a Allow map file to work with softlayer
+
+PR #22807 [CLOSED]: (rallytime) Add 2014.7.5 links to windows installation docs [Minor Change]
+* cd43a95 Merge pull request #22807 from rallytime/windows_docs_update
+  * 5931a58 Replace all 4s with 5s
+  * eadaead Add 2014.7.5 links to windows installation docs
+
+PR #22795 [CLOSED]: (rallytime) Added release note for 2014.7.5 release [Medium Change]
+* 0b295e2 Merge pull request #22795 from rallytime/release_notes
+  * fde1fee Remove extra line
+  * b19b95d Added release note for 2014.7.5 release
+
+ISSUE #22740 [CLOSED]: (lorengordon) New Windows installer assumes salt is installed to the current directory [Bug], [Fixed Pending Verification], [High Severity], [P1], [Platform Mgmt], [Windows]
+PR #22759 [CLOSED]: (twangboy) Final edits to the batch files for running salt [Minor Change], [Tests Passed]
+PR #22754 [CLOSED]: (twangboy) Removed redundant \ and " [Minor Change]
+* 3c91459 Merge pull request #22759 from twangboy/fix_bat_one_last_time
+  * 075f82e Final edits to the batch files for running salt
+
+PR #22760 [CLOSED]: (thatch45) Fix issues with the syndic [Minor Change], [Tests Passed]
+* 20d3f2b Merge pull request #22760 from thatch45/syndic_fix
+  * e2db624 Fix issues with the syndic not resolving the master when the interface is set
+
+PR #22762 [CLOSED]: (twangboy) Fixed version not showing in Add/Remove Programs [Minor Change], [Tests Passed]
+* 54c4584 Merge pull request #22762 from twangboy/fix_installer
+
+* 4d25af8 Fixed version not showing in Add/Remove Programs
