@@ -1,6 +1,6 @@
 .. code-block:: bash
 
-    There are 946 cached issues
+    There are 966 cached issues
     pulling 157 issues:
     ,,,+,+,+,,,,,,,,+,,,,,,,,+,+,,,,,,,+,+,+,,,,,+,,,,+,,,+,+,,,,,,,,,,+,,,++,,+,+,+,,+,,,+,,,,,,,,,,,++,,,,,,+,,,,,,,,+,,,++,,,,,,+,,,,,+,,,+,,,,,++,+,,,,,+,+,,,,,,,,,,,,+,,,,+,,+,++,,,,,,+,+,,,,,,+,,+,,,
     pulling 44 issues:
@@ -12,7 +12,7 @@ Changes for v2014.7.1..v2014.7.2
 --------------------------------
 
 - Total Merges: **0**
-- Total Issue references: **62**
+- Total Issue references: **61**
 - Total PR references: **164**
 
 - **PR** `#20523`_: (*terminalmage*) Fix regression in arg parsing
@@ -866,9 +866,8 @@ Changes for v2014.7.1..v2014.7.2
 
   - **ISSUE** `#19606`_: (*pwaller*) systemctl is-enabled foo-bar.service failed with return code: 1
     | refs: `#19661`_
-- **ISSUE** `#19606`_: (*pwaller*) systemctl is-enabled foo-bar.service failed with return code: 1
 
-    | refs: `#19661`_
+  * 01d1907 Suppress retcode warnings for systemd enabled check, Fixes `#19606`_
 
 
 .. _`#10258`: https://github.com/saltstack/salt/issues/10258

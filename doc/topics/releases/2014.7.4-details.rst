@@ -1,6 +1,6 @@
 .. code-block:: bash
 
-    There are 947 cached issues
+    There are 928 cached issues
     pulling 18 issues:
     ,,,,+,,,+,+,,,,,+,,,,,
     pulling 4 issues:
@@ -10,7 +10,7 @@ Changes for v2014.7.3..v2014.7.4
 --------------------------------
 
 - Total Merges: **0**
-- Total Issue references: **6**
+- Total Issue references: **4**
 - Total PR references: **18**
 
 - **PR** `#22145`_: (*twangboy*) Remove .chm files from windows build
@@ -99,10 +99,10 @@ Changes for v2014.7.3..v2014.7.4
 
   - **ISSUE** `#21888`_: (*eliasp*) `salt.states.mount` - using LABEL=foo as 'device' leads to constant remounts
     | refs: `#22014`_
-- **ISSUE** #: (**) 
 
-- **ISSUE** #: (**) 
+  * 93f0c20 We do not have to lower() the label.
 
+  * 98aaf35 Adding some code to be able to properly handle the situation when disk labels are being used for the device.
 
 
 .. _`#20652`: https://github.com/saltstack/salt/issues/20652

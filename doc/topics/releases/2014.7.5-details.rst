@@ -1,6 +1,6 @@
 .. code-block:: bash
 
-    There are 928 cached issues
+    There are 946 cached issues
     pulling 105 issues:
     ,,,,,,,,,,,,,+,,,,,,,,+,,,,,,,,,+,,,,+,,,+,,,,,,,,,+,,,+,,,,,,,,,+,,,,,+,,+,+,+,,,,,,+,,,,,,,,,,,,+,,,,,,+,+,+,+,,+,,,,+,,++,+,,
     pulling 23 issues:
@@ -13,7 +13,7 @@ Changes for v2014.7.4..v2014.7.5
 
 - Total Merges: **0**
 - Total Issue references: **43**
-- Total PR references: **96**
+- Total PR references: **95**
 
 - **PR** `#22754`_: (*twangboy*) Removed redundant \\ and "
 
@@ -517,9 +517,8 @@ Changes for v2014.7.4..v2014.7.5
 
   - **PR** `#20166`_: (*cachedout*) Catch all exceptions in reactor
     | refs: `#22122`_
-- **PR** `#20166`_: (*cachedout*) Catch all exceptions in reactor
 
-    | refs: `#22122`_
+  * 6750480 backport `#20166`_ to 2014.7
 
 
 .. _`#11341`: https://github.com/saltstack/salt/issues/11341

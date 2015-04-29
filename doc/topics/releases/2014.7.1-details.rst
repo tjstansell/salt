@@ -1,6 +1,6 @@
 .. code-block:: bash
 
-    There are 947 cached issues
+    There are 948 cached issues
     pulling 457 issues:
     ,,,,,,,+,,,,,,,,,+,,,,,,,,,,,,,,,+,,,,,,,,,,,++,,,,,,+,+,,,,,,,,,+,,+,+,,,,,,,,,,,,,+,,,,,,,,,,,,,,,,,,+,,,,,,,+,,+,,,,,,,,,,,,,,,,,,,,,+,,,,,,,,+,,,,,+,,,,,,,,,+,,,,,+,+,,,,,,,+,,,+,,,,,,,,,+,+,+,,+,,+,,+,+,+,,,,,,,,,,+,,+,,+,,,+,,,+,,,,+,,,,,+,,,,,,,+,,+,,,,+,,,+,+,,,,,,,,+,,+,,,+,,+,,,+,,,,+,,+,,,,,,+,,,,,,,,+,+,,,+,,+,+,,,,,,,,,+,,,+,,+,,,+,,+,,+,,+,,,,,,+,,+,,+,,,,+,,,,,,,+,,,,,,,,+,+,+,,,,,,,,+,,,,+,,,,,,,,,,,,+,,+,,,,,,,,,+,,,,,+,+,++,+,,,,,+,,++,,,+,,,,,,,,,,+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+,,,,,,,,+,+,,,+,,,,,+,,,,,,,,,
     pulling 90 issues:
@@ -12,7 +12,7 @@ Changes for v2014.7.0..v2014.7.1
 --------------------------------
 
 - Total Merges: **0**
-- Total Issue references: **132**
+- Total Issue references: **131**
 - Total PR references: **459**
 
 - **PR** `#19664`_: (*s0undt3ch*) [2014.7] Update the bootstrap script to latest stable v2015.01.12
@@ -2924,8 +2924,8 @@ Changes for v2014.7.0..v2014.7.1
   * 096347e Greatly simplify Salt's setup.py script logic
 - **PR** `#17084`_: (*terminalmage*) Update RC version in docs sidebar
 
-- **ISSUE** #: (**) 
 
+  * dfc10ef Update RC version in docs sidebar
 
 
 .. _`#12178`: https://github.com/saltstack/salt/issues/12178

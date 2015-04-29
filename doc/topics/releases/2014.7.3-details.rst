@@ -1,6 +1,6 @@
 .. code-block:: bash
 
-    There are 938 cached issues
+    There are 944 cached issues
     pulling 239 issues:
     ,+,,,,+,+,,+,+,,,,+,,,,,,,,,,,,,+,,+,,,,,,+,,,,,+,+,,,+,+,,,,,,,,,,,,+++++,+,+,,+,,,,+,,,,,,,,,+,,,,,,,,,,+,,,,+,,,,,,,,,,,,+,,,,,,+,,,,,,,,,+,,,,,,,,+,+,+,,,+,,+,,,+,,,+,,+,,,+,,,,,,,,,,,+,+,+,,,,,+,,+,,,+,,,,,,+,+,,,,,++,,+,+,+,,,+,,,+,+,,+,+,+,,,,,+,,,,,,,,+,,,,+,+,,,+,,,,,,,,,,,,,,,,,+,,+,,+,,,,,+,,
     pulling 65 issues:
@@ -12,7 +12,7 @@ Changes for v2014.7.2..v2014.7.3
 --------------------------------
 
 - Total Merges: **1**
-- Total Issue references: **94**
+- Total Issue references: **93**
 - Total PR references: **228**
 
 - **PR** `#22002`_: (*basepi*) [2014.7] Backport `#21703`_
@@ -1280,8 +1280,8 @@ Changes for v2014.7.2..v2014.7.3
 
   - **PR** `#20521`_: (*umeboshi2*) don't use empty string as command parameter
     | refs: `#20533`_
-- **ISSUE** #: (**) 
 
+  * 3fc398e don't use empty string as command parameter
 
 
 .. _`#13944`: https://github.com/saltstack/salt/issues/13944
