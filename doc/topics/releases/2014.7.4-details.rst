@@ -1,6 +1,6 @@
 .. code-block:: bash
 
-    There are 944 cached issues
+    There are 942 cached issues
     pulling 18 issues:
     ,,,,+,,,+,+,,,,,+,,,,,
     pulling 4 issues:
@@ -10,7 +10,7 @@ Changes for v2014.7.3..v2014.7.4
 --------------------------------
 
 - Total Merges: **17**
-- Total Issue references: **4**
+- Total Issue references: **6**
 - Total PR references: **18**
 
 
@@ -40,7 +40,7 @@ f0b78e2 Merge pull request `#22109`_ from twangboy/win_install_ini
 
 6e5d0b4 Merge pull request `#22074`_ from borgstrom/pyobjects-reqs-2014.7
 
-- **ISSUE** `#20652`_: (*tomashavlas*) pyobjects renderer doesn't support onchanges/onfail requisites
+- => **ISSUE** `#20652`_: (*tomashavlas*) pyobjects renderer doesn't support onchanges/onfail requisites
   refs: `#22074`_
 - **PR** `#22074`_: (*borgstrom*) Fix requisites missing from pyobjects that were introduced in 2014.7
 
@@ -80,7 +80,7 @@ ba0044d Merge pull request `#22035`_ from 0xf10e/patch-1
 
 b3b6f94 Merge pull request `#22020`_ from UtahDave/2014.7local
 
-- **ISSUE** `#21961`_: (*polliard*) SaltStack win_service.py:restart(name) kills the salt-minion on windows
+- => **ISSUE** `#21961`_: (*polliard*) SaltStack win_service.py:restart(name) kills the salt-minion on windows
   refs: `#22020`_
 - **PR** `#22020`_: (*UtahDave*) fix bug where can't restart salt-minion
 
@@ -108,7 +108,7 @@ f8e130f Merge pull request `#22012`_ from basepi/tmpfile-chef
 
 decd53b Merge pull request `#22022`_ from garethgreenaway/21992_2014_7_tmpfs_bind_mount
 
-- **ISSUE** `#21992`_: (*tlemarchand*) mount.mounted of tmpfs bind error
+- => **ISSUE** `#21992`_: (*tlemarchand*) mount.mounted of tmpfs bind error
   refs: `#22022`_
 - **PR** `#22022`_: (*garethgreenaway*) more fixes to mount.py state module
 
@@ -122,23 +122,25 @@ decd53b Merge pull request `#22022`_ from garethgreenaway/21992_2014_7_tmpfs_bin
 
 e9c9f9d Merge pull request `#22015`_ from rallytime/`bp-21947`_
 
-- **PR** `#22015`_: (*rallytime*) Backport `#21947`_ to 2014.7
-- **PR** `#21947`_: (*dmyerscough*) Ensure nginx config check passes by checking the exit status
+- => **PR** `#21947`_: (*dmyerscough*) Ensure nginx config check passes by checking the exit status
   refs: `#22015`_
+- **PR** `#22015`_: (*rallytime*) Backport `#21947`_ to 2014.7
 
   * ccf457c Ensure nginx config check passes by checking the exit status.... Nginx writes messages to stderr even when there are no errors
 
 f689782 Merge pull request `#22014`_ from garethgreenaway/21888_2014_7_mount_label_remount_madness
 
-- **ISSUE** `#21888`_: (*eliasp*) `salt.states.mount` - using LABEL=foo as 'device' leads to constant remounts
+- => **ISSUE** `#21888`_: (*eliasp*) `salt.states.mount` - using LABEL=foo as 'device' leads to constant remounts
   refs: `#22014`_
 - **PR** `#22014`_: (*garethgreenaway*) Fixes to mount.py state module
 
 93f0c20 We do not have to lower() the label.
 
+- **ISSUE** #: (**) 
 
 98aaf35 Adding some code to be able to properly handle the situation when disk labels are being used for the device.
 
+- **ISSUE** #: (**) 
 
 
 .. _`#20652`: https://github.com/saltstack/salt/issues/20652
