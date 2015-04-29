@@ -279,7 +279,7 @@ Changes for 2014.7.1:
 **PR** `#19369`_ : (eliasp) 2014.7 states.mount invisible options 
 
 
-- **ISSUE** `#18630`_ *OPEN*: (nvx) Forced remount because options changed when no options changed (2014.7 regression) 
+- **ISSUE** `#18630`_ *[OPEN]*: (nvx) Forced remount because options changed when no options changed (2014.7 regression) 
 
 **PR** `#19358`_ : (rallytime) Backport `#19347`_ to 2014.7 
 
@@ -356,7 +356,7 @@ Changes for 2014.7.1:
 
 
 - **ISSUE** `#19308`_ : (eliasp) `states.mount.mounted` backtraces in case a device/resource is busy 
-- **ISSUE** `#18630`_ *OPEN*: (nvx) Forced remount because options changed when no options changed (2014.7 regression) 
+- **ISSUE** `#18630`_ *[OPEN]*: (nvx) Forced remount because options changed when no options changed (2014.7 regression) 
 
 **PR** `#19312`_ : (llinder) pydsl/pyobjects missing listen and listen_in 
 
@@ -375,7 +375,7 @@ Changes for 2014.7.1:
 **PR** `#19321`_ : (cvedel) Add ssl_match_hostname to deps in thin tarball 
 
 
-- **ISSUE** `#18083`_ *OPEN*: (Learner11) salt-ssh commands are mostly broken after SaltStack update 
+- **ISSUE** `#18083`_ *[OPEN]*: (Learner11) salt-ssh commands are mostly broken after SaltStack update 
 
 **PR** `#19295`_ : (belvedere-trading) [32702] Patch salt to allow scheduling to work properly on Windows 
 
@@ -470,7 +470,7 @@ Changes for 2014.7.1:
 **PR** `#19113`_ : (garethgreenaway) Fixes for when using bind mounts. 
 
 
-- **ISSUE** `#19003`_ *OPEN*: (darkvertex) mount.mounted always remounts for bind mounts 
+- **ISSUE** `#19003`_ *[OPEN]*: (darkvertex) mount.mounted always remounts for bind mounts 
 
 **PR** `#19111`_ : (jfindlay) Split chocolatey commands 
 
@@ -494,7 +494,7 @@ Changes for 2014.7.1:
 **PR** `#19086`_ : (rallytime) Backport `#19014`_ to 2014.7 
 
 
-- **ISSUE** `#18966`_ *OPEN*: (bechtoldt) file.serialize ignores test=True 
+- **ISSUE** `#18966`_ *[OPEN]*: (bechtoldt) file.serialize ignores test=True 
 - **PR** `#19014`_ : (nmadhok) Adding ability to do a test run with test=True. 
 
 **PR** `#19065`_ : (basepi) Fix salt-ssh with sudo and tty enabled 
@@ -505,7 +505,7 @@ Changes for 2014.7.1:
 **PR** `#19047`_ : (eliasp) 2014.7 file.replace integration test coverage 
 
 
-- **ISSUE** `#18841`_ *OPEN*: (DanielZuck) file.replace -> creates backups and touches the file, even if there are no changes at all 
+- **ISSUE** `#18841`_ *[OPEN]*: (DanielZuck) file.replace -> creates backups and touches the file, even if there are no changes at all 
 - **ISSUE** `#18612`_ : (eliasp) 'file.replace' with 'append_if_not_found=True' grows file infinitely 
 - **PR** `#18615`_ : (eliasp) Don't change a file again if it's already been done. 
 
@@ -534,7 +534,7 @@ Changes for 2014.7.1:
 **PR** `#19004`_ : (jacksontj) Fix for new threaded reactor 
 
 
-- **ISSUE** `#16564`_ *OPEN*: (jacksontj) Reactor is VERY PID hungry 
+- **ISSUE** `#16564`_ *[OPEN]*: (jacksontj) Reactor is VERY PID hungry 
 - **PR** `#18762`_ : (jacksontj)  Move reactor master-clients to threads 
 
 - **PR** `#18741`_ : (terminalmage) Revert `#18254`_ 
@@ -586,7 +586,7 @@ Changes for 2014.7.1:
 **PR** `#18978`_ : (garethgreenaway) fixes to mount for nfs share 
 
 
-- **ISSUE** `#18907`_ *OPEN*: (babilen) mount.mounted does not completely unmount NFS mounts when options change 
+- **ISSUE** `#18907`_ *[OPEN]*: (babilen) mount.mounted does not completely unmount NFS mounts when options change 
 
 **PR** `#18988`_ : (rallytime) Use lists instead of tuples in modules/zypper.py 
 
@@ -612,7 +612,7 @@ Changes for 2014.7.1:
 **PR** `#18762`_ : (jacksontj)  Move reactor master-clients to threads 
 
 
-- **ISSUE** `#16564`_ *OPEN*: (jacksontj) Reactor is VERY PID hungry 
+- **ISSUE** `#16564`_ *[OPEN]*: (jacksontj) Reactor is VERY PID hungry 
 - **PR** `#18741`_ : (terminalmage) Revert `#18254`_ 
 
 - **PR** `#18254`_ : (jacksontj) Move reactor master-clients to threads 
@@ -629,7 +629,7 @@ Changes for 2014.7.1:
 **PR** `#18948`_ : (walgitrus) fix ec2 instance creation with delete volume enabled (issue `#18315`_) 
 
 
-- **ISSUE** `#18315`_ *OPEN*: (An42Ma) salt-cloud fails for ec2 for query without params 
+- **ISSUE** `#18315`_ *[OPEN]*: (An42Ma) salt-cloud fails for ec2 for query without params 
 
 **PR** `#18930`_ : (s0undt3ch) Update to the latest v2014.12.11 stable release 
 
@@ -770,7 +770,7 @@ Changes for 2014.7.1:
 **PR** `#18804`_ : (garethgreenaway) fixes to debian_ip.py 
 
 
-- **ISSUE** `#12178`_ *OPEN*: (wyattanderson) Network interface bridging is a mess on Debian/Ubuntu 
+- **ISSUE** `#12178`_ *[OPEN]*: (wyattanderson) Network interface bridging is a mess on Debian/Ubuntu 
 
 **PR** `#18782`_ : (rallytime) Fix markup so master_tops document will render correctly 
 
@@ -881,7 +881,7 @@ Changes for 2014.7.1:
 **PR** `#18654`_ : (thatch45) Add retcode and success to function not found 
 
 
-- **ISSUE** `#18512`_ *OPEN*: (amendlik) salt.function returns success when the function is unavailable 
+- **ISSUE** `#18512`_ *[OPEN]*: (amendlik) salt.function returns success when the function is unavailable 
 
 **PR** `#18644`_ : (rallytime) If the asg does not exist in the region provided, don't return True. 
 
@@ -1102,7 +1102,7 @@ Changes for 2014.7.1:
 **PR** `#18443`_ : (basepi) Add warning to docs about topfile compilation 
 
 
-- **ISSUE** `#12483`_ *OPEN*: (driskell) Top SLS compilation does not behave the same as Docs describe [Bug], [Core], [High Severity], [P2], *ZD*
+- **ISSUE** `#12483`_ *[OPEN]*: (driskell) Top SLS compilation does not behave the same as Docs describe [Bug], [Core], [High Severity], [P2], *[ZD]*
 
 
 **PR** `#18438`_ : (thatch45) Fix `#18428`_ 
@@ -1129,7 +1129,7 @@ Changes for 2014.7.1:
 **PR** `#18382`_ : (thatch45) Add verification of unicode data in windows data sets 
 
 
-- **ISSUE** `#12255`_ *OPEN*: (eliasp) 'system.set_computer_desc' fails with non-ASCII chars 
+- **ISSUE** `#12255`_ *[OPEN]*: (eliasp) 'system.set_computer_desc' fails with non-ASCII chars 
 
 **PR** `#18379`_ : (thatch45) Fixes `#15690`_ 
 
@@ -1192,7 +1192,7 @@ Changes for 2014.7.1:
 **PR** `#18365`_ : (jacksontj) Better output on requisite failure 
 
 
-- **ISSUE** `#15663`_ *OPEN*: (basepi) Add failed test=True output to prereq failure 
+- **ISSUE** `#15663`_ *[OPEN]*: (basepi) Add failed test=True output to prereq failure 
 
 **PR** `#18374`_ : (thatch45) Add new sdecode to nested outputter 
 
@@ -1233,7 +1233,7 @@ Changes for 2014.7.1:
 **PR** `#18348`_ : (thatch45) Fix error with perm denial on unpriv job lookups 
 
 
-- **ISSUE** `#17958`_ *OPEN*: (Supermathie) unpriv salt.client.LocalClient.get_cache_returns spins forever 
+- **ISSUE** `#17958`_ *[OPEN]*: (Supermathie) unpriv salt.client.LocalClient.get_cache_returns spins forever 
 
 **PR** `#18347`_ : (rallytime) Backport `#17706`_ to 2014.7 
 
@@ -1274,7 +1274,7 @@ Changes for 2014.7.1:
 **PR** `#18338`_ : (thatch45) Fix `#18168`_ 
 
 
-- **ISSUE** `#18168`_ *OPEN*: (aleksmm) states/network.py managed() - no way to manage IP aliases in 2014.7 
+- **ISSUE** `#18168`_ *[OPEN]*: (aleksmm) states/network.py managed() - no way to manage IP aliases in 2014.7 
 
 **PR** `#18333`_ : (whiteinge) Fix missing space after colon in architecture doc 
 
@@ -1311,7 +1311,7 @@ Changes for 2014.7.1:
 **PR** `#18254`_ : (jacksontj) Move reactor master-clients to threads 
 
 
-- **ISSUE** `#16564`_ *OPEN*: (jacksontj) Reactor is VERY PID hungry 
+- **ISSUE** `#16564`_ *[OPEN]*: (jacksontj) Reactor is VERY PID hungry 
 
 **PR** `#18243`_ : (cro) Update macports package manager to behave a little better. 
 
@@ -1465,7 +1465,7 @@ Changes for 2014.7.1:
 **PR** `#18186`_ : (whiteinge) Added nohup example to the FAQ about restarting Salt with Salt 
 
 
-- **ISSUE** `#7997`_ *OPEN*: (shantanub) Proper way to upgrade salt-minions / salt-master packages without losing minion connectivity 
+- **ISSUE** `#7997`_ *[OPEN]*: (shantanub) Proper way to upgrade salt-minions / salt-master packages without losing minion connectivity 
 
 **PR** `#18169`_ : (jfindlay) update timezone.py shell cmds 
 

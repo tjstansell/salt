@@ -20,8 +20,8 @@ Changes for 2014.7.5:
 
 **PR** `#22716`_ : (twangboy) Removed list_pkgs caching 
 
-- **ISSUE** `#17948`_ *OPEN*: (eoyslebo) salt-call --local  pkg.list_pkgs does not list all installed programs on Windows 
-- **ISSUE** `#11341`_ *OPEN*: (gtmacdonald) Windows pkg.list_pkgs not working 
+- **ISSUE** `#17948`_ *[OPEN]*: (eoyslebo) salt-call --local  pkg.list_pkgs does not list all installed programs on Windows 
+- **ISSUE** `#11341`_ *[OPEN]*: (gtmacdonald) Windows pkg.list_pkgs not working 
 
 **PR** `#22688`_ : (msteed) Add missing command line options to man pages 
 
@@ -84,7 +84,7 @@ Changes for 2014.7.5:
 
 **PR** `#22553`_ : (anlutro) Make git.latest work with empty source repositories 
 
-- **ISSUE** `#15833`_ *OPEN*: (tomasfejfar) git.latest does not check for HEAD existence 
+- **ISSUE** `#15833`_ *[OPEN]*: (tomasfejfar) git.latest does not check for HEAD existence 
 
 **PR** `#22576`_ : (batulin-s) fixed `#22329`_ bug 
 
@@ -147,7 +147,7 @@ Changes for 2014.7.5:
 
 **PR** `#22446`_ : (br0ch0n) Issue `#20850`_ puppet run should return actual code 
 
-- **ISSUE** `#20850`_ *OPEN*: (br0ch0n) puppet.run always returns 0 
+- **ISSUE** `#20850`_ *[OPEN]*: (br0ch0n) puppet.run always returns 0 
 
 **PR** `#22466`_ : (whiteinge) Updated wording about nested dictionaries in states.file.managed docs 
 
@@ -261,7 +261,7 @@ Changes for 2014.7.5:
 
 **PR** `#22235`_ : (dhs-rec) Possible fix for 'puppet.run always returns 0 `#20850`_' 
 
-- **ISSUE** `#20850`_ *OPEN*: (br0ch0n) puppet.run always returns 0 
+- **ISSUE** `#20850`_ *[OPEN]*: (br0ch0n) puppet.run always returns 0 
 
 **PR** `#22206`_ : (s0undt3ch) more pylint disables 
 
@@ -273,7 +273,7 @@ Changes for 2014.7.5:
 **PR** `#22228`_ : (garethgreenaway) backporting `#22226`_ to 2014.7 
 
 
-- **ISSUE** `#20107`_ *OPEN*: (belvedere-trading) minion scheduling via pillar does not get applied some times 
+- **ISSUE** `#20107`_ *[OPEN]*: (belvedere-trading) minion scheduling via pillar does not get applied some times 
 - **PR** `#22226`_ : (garethgreenaway) Fixes to scheduler 
 
 

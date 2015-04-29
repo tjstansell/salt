@@ -225,7 +225,7 @@ Changes for 2014.7.2:
 **PR** `#20211`_ : (rallytime) Backport `#20118`_ to 2014.7 
 
 
-- **ISSUE** `#14634`_ *OPEN*: (Sacro) 'unless' documentation isn't logically plausible 
+- **ISSUE** `#14634`_ *[OPEN]*: (Sacro) 'unless' documentation isn't logically plausible 
 - **ISSUE** `#11879`_ : (pille) cmd.run: unless/onlyif should show return code in debug loglevel 
 - **PR** `#20118`_ : (kitsemets) salt.states.cmd: fixed 'unless' behaviour in case of multiple commands are given 
 - **PR** `#16044`_ : (rallytime) Clarify unless and onlyif docs 
@@ -295,7 +295,7 @@ Changes for 2014.7.2:
 **PR** `#20155`_ : (basepi) Do not use 'is' for string comparison 
 
 
-- **ISSUE** `#19528`_ : (ssgward) network.managed errors when bonding interfaces [Bug], [Fixed Pending Verification], [Medium Severity], [Regression], *ZD*
+- **ISSUE** `#19528`_ : (ssgward) network.managed errors when bonding interfaces [Bug], [Fixed Pending Verification], [Medium Severity], [Regression], *[ZD]*
 
 
 **PR** `#20136`_ : (kev009) Try to fix sockstat args for `#20044`_ 
@@ -358,7 +358,7 @@ Changes for 2014.7.2:
 **PR** `#20023`_ : (basepi) Partially revert `#19912`_ 
 
 
-- **ISSUE** `#19114`_ *OPEN*: (pykler) salt-ssh and gpg pillar renderer 
+- **ISSUE** `#19114`_ *[OPEN]*: (pykler) salt-ssh and gpg pillar renderer 
 - **PR** `#19912`_ : (basepi) Assume __salt__['config.get'] is present in gpg renderer 
 
 - **PR** `#19787`_ : (slafs) fixes GPG renderer when working with states in salt-ssh 
@@ -431,7 +431,7 @@ Changes for 2014.7.2:
 **PR** `#19961`_ : (rallytime) Backport `#19855`_ to 2014.7 
 
 
-- **ISSUE** `#18673`_ *OPEN*: (dennisoconnor) docker.login module is failing 
+- **ISSUE** `#18673`_ *[OPEN]*: (dennisoconnor) docker.login module is failing 
 - **PR** `#19855`_ : (colincoghill) Fix for docker login saltstack/salt`#18673`_ 
 
 **PR** `#19960`_ : (rallytime) Backport `#19790`_ to 2014.7 
@@ -471,7 +471,7 @@ Changes for 2014.7.2:
 **PR** `#19912`_ : (basepi) Assume __salt__['config.get'] is present in gpg renderer 
 
 
-- **ISSUE** `#19114`_ *OPEN*: (pykler) salt-ssh and gpg pillar renderer 
+- **ISSUE** `#19114`_ *[OPEN]*: (pykler) salt-ssh and gpg pillar renderer 
 - **PR** `#19787`_ : (slafs) fixes GPG renderer when working with states in salt-ssh 
 
 
@@ -516,7 +516,7 @@ Changes for 2014.7.2:
 **PR** `#19825`_ : (jfindlay) remove redundant code, append extra_arguments to cmd 
 
 
-- **ISSUE** `#19824`_ *OPEN*: (jfindlay) linux_lvm lvcreate function does not use extra_arguments 
+- **ISSUE** `#19824`_ *[OPEN]*: (jfindlay) linux_lvm lvcreate function does not use extra_arguments 
 
 **PR** `#19820`_ : (highlyunavailable) Force roots fileclient on Masterless Windows to return fake POSIX/"url" 
 
