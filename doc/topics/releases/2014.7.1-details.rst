@@ -1,6 +1,6 @@
 .. code-block:: bash
 
-    There are 923 cached issues
+    There are 935 cached issues
     pulling 457 issues:
     ,,,,,,,+,,,,,,,,,+,,,,,,,,,,,,,,,+,,,,,,,,,,,++,,,,,,+,+,,,,,,,,,+,,+,+,,,,,,,,,,,,,+,,,,,,,,,,,,,,,,,,+,,,,,,,+,,+,,,,,,,,,,,,,,,,,,,,,+,,,,,,,,+,,,,,+,,,,,,,,,+,,,,,+,+,,,,,,,+,,,+,,,,,,,,,+,+,+,,+,,+,,+,+,+,,,,,,,,,,+,,+,,+,,,+,,,+,,,,+,,,,,+,,,,,,,+,,+,,,,+,,,+,+,,,,,,,,+,,+,,,+,,+,,,+,,,,+,,+,,,,,,+,,,,,,,,+,+,,,+,,+,+,,,,,,,,,+,,,+,,+,,,+,,+,,+,,+,,,,,,+,,+,,+,,,,+,,,,,,,+,,,,,,,,+,+,+,,,,,,,,+,,,,+,,,,,,,,,,,,+,,+,,,,,,,,,+,,,,,+,+,++,+,,,,,+,,++,,,+,,,,,,,,,,+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+,,,,,,,,+,+,,,+,,,,,+,,,,,,,,,
     pulling 90 issues:
@@ -18,6 +18,7 @@ Changes for v2014.7.0..v2014.7.1
 
 a48e565 Merge pull request `#19664`_ from s0undt3ch/2014.7
 
+
 - **PR** `#19664`_: (*s0undt3ch*) [2014.7] Update the bootstrap script to latest stable v2015.01.12
 
   * 5f3bd0e Update the bootstrap script to latest stable v2015.01.12
@@ -25,8 +26,10 @@ a48e565 Merge pull request `#19664`_ from s0undt3ch/2014.7
 cfb8670 Merge pull request `#19570`_ from basepi/cmdrunlogquiet
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#19479`_: (*msheiny*) cmd.run state - quiet / output_loglevel quiet have no affect
-  | refs: `#19570`_
+    | refs: `#19570`_
+
 - **PR** `#19570`_: (*basepi*) Fix some logging issues for cmd.run with quiet
 
   * fe34663 Fix for level as int
@@ -37,6 +40,7 @@ cfb8670 Merge pull request `#19570`_ from basepi/cmdrunlogquiet
 
 9b6e53a Merge pull request `#19645`_ from RobertFach/tmpfs-argument-fix-issue-19451
 
+
 - **PR** `#19645`_: (*RobertFach*) added fix for matching the unit of size values for devices to the unit o...
 
   * 9da67a5 fixed format error "string-substitution-usage-error"
@@ -45,11 +49,13 @@ cfb8670 Merge pull request `#19570`_ from basepi/cmdrunlogquiet
 
 84d2310 Merge pull request `#19628`_ from jfindlay/update_lxc_commands
 
+
 - **PR** `#19628`_: (*jfindlay*) update lxc commands
 
   * 8dca3cd update lxc commands
 
 baf838b Merge pull request `#19632`_ from jfindlay/fix_ip_cmds
+
 
 - **PR** `#19632`_: (*jfindlay*) fix some ip commands
 
@@ -58,8 +64,10 @@ baf838b Merge pull request `#19632`_ from jfindlay/fix_ip_cmds
 014e1cd Merge pull request `#19602`_ from rallytime/`bp-19585`_
 
 - Referenced pull requests and issues
+
   - **PR** `#19585`_: (*cachedout*) Async flag for test run
-  | refs: `#19602`_
+    | refs: `#19602`_
+
 - **PR** `#19602`_: (*rallytime*) Backport `#19585`_ to 2014.7
 
   * 1277b71 Typo
@@ -68,6 +76,7 @@ baf838b Merge pull request `#19632`_ from jfindlay/fix_ip_cmds
 
 f554acc Merge pull request `#19616`_ from jfindlay/fix_win_servermanager
 
+
 - **PR** `#19616`_: (*jfindlay*) quote servermanager cmds
 
   * 19d31a7 quote servermanager cmds
@@ -75,8 +84,10 @@ f554acc Merge pull request `#19616`_ from jfindlay/fix_win_servermanager
 329c8c5 Merge pull request `#19590`_ from basepi/supervisordvirtual
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18044`_: (*rvora*) supervisor state fails if supervisor is not installed in system python
-  | refs: `#19590`_
+    | refs: `#19590`_
+
 - **PR** `#19590`_: (*basepi*) Always return True from supervisord virtual function
 
   * 9659447 Always return True from supervisord virtual function
@@ -84,13 +95,16 @@ f554acc Merge pull request `#19616`_ from jfindlay/fix_win_servermanager
 3066686 Merge pull request `#19584`_ from rallytime/`bp-19574`_
 
 - Referenced pull requests and issues
+
   - **PR** `#19574`_: (*rallytime*) Cleaner and actual fix for the failing weird pip test for CentOS 5
-  | refs: `#19584`_
+    | refs: `#19584`_
+
 - **PR** `#19584`_: (*rallytime*) Backport `#19574`_ to 2014.7
 
   * d6b3f69 Cleaner and actual fix for the failing weird pip test for CentOS 5
 
 1079603 Merge pull request `#19572`_ from jfindlay/cmd_fixes
+
 
 - **PR** `#19572`_: (*jfindlay*) fix some commands
 
@@ -99,11 +113,13 @@ f554acc Merge pull request `#19616`_ from jfindlay/fix_win_servermanager
 4c17b14 Merge pull request `#19549`_ from rallytime/`bp-19517`_
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#15959`_: (*egilh*) Azure: salt-cloud should be able to set specific cloud service for VM
-  | refs: `#19155`_
+    | refs: `#19155`_
   - **PR** `#19517`_: (*traxair*) Azure: fixes VM creation under another service name
-  | refs: `#19549`_
+    | refs: `#19549`_
   - **PR** `#19155`_: (*techhat*) Allow service_name to be specified for azure
+
 - **PR** `#19549`_: (*rallytime*) Backport `#19517`_ to 2014.7
 
   * 3fe0ec8 Azure: catch a benign WindowsAzureConflictError when trying to create a service that already exists. In delete if kwargs is None, set it to an empty dict. `#19155`_
@@ -111,8 +127,10 @@ f554acc Merge pull request `#19616`_ from jfindlay/fix_win_servermanager
 22c8a42 Merge pull request `#19552`_ from terminalmage/issue19540
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#19540`_: (*wuxxin*) regression from 2014.7 to git/2014.7 branch: masterless salt-call, pillar jinja rendering can not import/load files from pillar
-  | refs: `#19552`_
+    | refs: `#19552`_
+
 - **PR** `#19552`_: (*terminalmage*) Fix regression in masterless pillar generation
 
   * 1996656 Look in local files for pillar data on masterless
@@ -121,6 +139,7 @@ f554acc Merge pull request `#19616`_ from jfindlay/fix_win_servermanager
 
 47d1e65 Merge pull request `#19556`_ from rallytime/fix_brew_mod
 
+
 - **PR** `#19556`_: (*rallytime*) Add python_shell kwarg to brew module
 
   * a8c9f95 Add python_shell kwarg to brew module
@@ -128,15 +147,18 @@ f554acc Merge pull request `#19616`_ from jfindlay/fix_win_servermanager
 8dd6f36 Merge pull request `#19554`_ from rallytime/fix_disk_mod
 
 - Referenced pull requests and issues
+
   - **PR** `#19538`_: (*rallytime*) Backport `#19368`_ to 2014.7
-  | refs: `#19554`_
+    | refs: `#19554`_
   - **PR** `#19368`_: (*rallytime*) Changes and additions of python shell kwargs
-  | refs: `#19538`_
+    | refs: `#19538`_
+
 - **PR** `#19554`_: (*rallytime*) Move python shell kwarg to correct place
 
   * 635898c Move python shell kwarg to correct place
 
 2623aa6 Merge pull request `#19541`_ from jfindlay/fix_pip
+
 
 - **PR** `#19541`_: (*jfindlay*) change one more pip command
 
@@ -145,10 +167,12 @@ f554acc Merge pull request `#19616`_ from jfindlay/fix_win_servermanager
 081c96c Merge pull request `#19537`_ from rallytime/`bp-19344`_
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#19343`_: (*RobertFach*) svn.export fails with module svn
-  | refs: `#19344`_
+    | refs: `#19344`_
   - **PR** `#19344`_: (*RobertFach*) Svn export fix issue 19343
-  | refs: `#19537`_
+    | refs: `#19537`_
+
 - **PR** `#19537`_: (*rallytime*) Backport `#19344`_ to 2014.7
 
   * 85e7169 fixed identation problem
@@ -159,11 +183,13 @@ f554acc Merge pull request `#19616`_ from jfindlay/fix_win_servermanager
 
 31f825d Merge pull request `#19539`_ from terminalmage/fix-archive-tests
 
+
 - **PR** `#19539`_: (*terminalmage*) Update archive tests to use python_shell=False
 
   * ab23bf0 Update archive tests to use python_shell=False
 
 9f2ee27 Merge pull request `#19542`_ from jfindlay/fixup_svn
+
 
 - **PR** `#19542`_: (*jfindlay*) fix svn module str + list error
 
@@ -172,8 +198,10 @@ f554acc Merge pull request `#19616`_ from jfindlay/fix_win_servermanager
 854088c Merge pull request `#19551`_ from cachedout/minor_note
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18551`_: (*denys-duchier*) (helium) salt-master worker threads slowly ramp up to consuming 100% cpu
-  | refs: `#19551`_
+    | refs: `#19551`_
+
 - **PR** `#19551`_: (*cachedout*) Release note note
 
   * b419366 Release note note
@@ -181,10 +209,12 @@ f554acc Merge pull request `#19616`_ from jfindlay/fix_win_servermanager
 c6bd697 Merge pull request `#19538`_ from rallytime/`bp-19368`_
 
 - Referenced pull requests and issues
+
   - **PR** `#19368`_: (*rallytime*) Changes and additions of python shell kwargs
-  | refs: `#19538`_
+    | refs: `#19538`_
+
 - **PR** `#19538`_: (*rallytime*) Backport `#19368`_ to 2014.7
-  | refs: `#19554`_
+    | refs: `#19554`_
 
   * ea76982 Fix my pylint errors
 
@@ -220,6 +250,7 @@ c6bd697 Merge pull request `#19538`_ from rallytime/`bp-19368`_
 
 fd174db Merge pull request `#19519`_ from terminalmage/archive-shell-fixes
 
+
 - **PR** `#19519`_: (*terminalmage*) Update archive.py to use python_shell=False
 
   * 67aa42f more docstring updates
@@ -227,6 +258,7 @@ fd174db Merge pull request `#19519`_ from terminalmage/archive-shell-fixes
   * a7813b9 Update archive.py to use python_shell=False
 
 1e670f7 Merge pull request `#19478`_ from thatch45/qp_shell
+
 
 - **PR** `#19478`_: (*thatch45*) shellisms for q and p modules
 
@@ -254,11 +286,13 @@ fd174db Merge pull request `#19519`_ from terminalmage/archive-shell-fixes
 
 9b8e007 Merge pull request `#19497`_ from basepi/shell-locale
 
+
 - **PR** `#19497`_: (*basepi*) Fix localemod.py to be more salty
 
   * a5a1a42 Fix localemod.py to be more salt instead of relying on shellisms
 
 f31128b Merge pull request `#19492`_ from basepi/shell01
+
 
 - **PR** `#19492`_: (*basepi*) Set python_shell=false
 
@@ -274,11 +308,13 @@ f31128b Merge pull request `#19492`_ from basepi/shell01
 
 090bad4 Merge pull request `#19533`_ from basepi/KILL_THE_PRINTS_WITH_FIRE
 
+
 - **PR** `#19533`_: (*basepi*) Kill prints with fire
 
   * 2828fc0 Kill the print with fire
 
 54afd2a Merge pull request `#19488`_ from thatch45/kl_shell
+
 
 - **PR** `#19488`_: (*thatch45*) migrate to new shellisms modules k-l
 
@@ -301,6 +337,7 @@ f31128b Merge pull request `#19492`_ from basepi/shell01
   * 483933b migrate lvs to new shellisms
 
 5ddd8ab Merge pull request `#19484`_ from thatch45/mno_shell
+
 
 - **PR** `#19484`_: (*thatch45*) Migrate shellisms for m, n and o modules
 
@@ -331,8 +368,10 @@ f31128b Merge pull request `#19492`_ from basepi/shell01
 e94359d Merge pull request `#19521`_ from thatch45/amendlik-chef-windows-compat
 
 - Referenced pull requests and issues
+
   - **PR** `#19493`_: (*amendlik*) Chef windows compatibility
-  | refs: `#19521`_
+    | refs: `#19521`_
+
 - **PR** `#19521`_: (*thatch45*) Merge `#19493`_
 
   * 54754c3 Merge branch 'chef-windows-compat' of https://github.com/amendlik/salt into amendlik-chef-windows-compat
@@ -342,6 +381,7 @@ e94359d Merge pull request `#19521`_ from thatch45/amendlik-chef-windows-compat
   * bf9c4ba Add Windows compatibility to the Chef module
 
 f81d068 Merge pull request `#19491`_ from thatch45/hi_shell
+
 
 - **PR** `#19491`_: (*thatch45*) Shell migration for g, h and i
 
@@ -363,6 +403,7 @@ f81d068 Merge pull request `#19491`_ from thatch45/hi_shell
 
 392de2a Merge pull request `#19503`_ from terminalmage/fix-dig-tests
 
+
 - **PR** `#19503`_: (*terminalmage*) Fix dig tests
 
   * 5edba8e Add back double-quote
@@ -370,6 +411,7 @@ f81d068 Merge pull request `#19491`_ from thatch45/hi_shell
   * 98e2e33 Fix dig tests
 
 615921b Merge pull request `#19483`_ from basepi/shell02
+
 
 - **PR** `#19483`_: (*basepi*) Set python_shell=False
 
@@ -380,6 +422,7 @@ f81d068 Merge pull request `#19491`_ from thatch45/hi_shell
   * eabab56 Set python_shell=False for ebuild.py
 
 7550c76 Merge pull request `#19476`_ from thatch45/sr_shell
+
 
 - **PR** `#19476`_: (*thatch45*) s-r modules shell migrate
 
@@ -403,11 +446,13 @@ f81d068 Merge pull request `#19491`_ from thatch45/hi_shell
 
 aaa2c85 Merge pull request `#19474`_ from thatch45/smaimg_shell
 
+
 - **PR** `#19474`_: (*thatch45*) migrate smart_imgadm to new shellisms
 
   * 83db88f migrate smart_imgadm to new shellisms
 
 a3ec160 Merge pull request `#19473`_ from thatch45/smf_shell
+
 
 - **PR** `#19473`_: (*thatch45*) migrate to new shellisms in smf
 
@@ -415,11 +460,13 @@ a3ec160 Merge pull request `#19473`_ from thatch45/smf_shell
 
 0e300ac Merge pull request `#19469`_ from thatch45/softup_shell
 
+
 - **PR** `#19469`_: (*thatch45*) migrate to new shellisms for softwareupdate
 
   * 47b7b8b migrate to new shellisms for softwareupdate
 
 9a7026b Merge pull request `#19468`_ from thatch45/sgroup
+
 
 - **PR** `#19468`_: (*thatch45*) migrate to new shellisms for solaris_group
 
@@ -427,11 +474,13 @@ a3ec160 Merge pull request `#19473`_ from thatch45/smf_shell
 
 0aa46e5 Merge pull request `#19467`_ from thatch45/spkg
 
+
 - **PR** `#19467`_: (*thatch45*) migrate to new shellisms for solarispkg
 
   * 8d2701f migrate to new shellisms for solarispkg
 
 e74ddc1 Merge pull request `#19466`_ from thatch45/sshadow
+
 
 - **PR** `#19466`_: (*thatch45*) migrate to new shellisms for solaris shadow
 
@@ -439,11 +488,13 @@ e74ddc1 Merge pull request `#19466`_ from thatch45/sshadow
 
 10371dd Merge pull request `#19465`_ from thatch45/suser_shell
 
+
 - **PR** `#19465`_: (*thatch45*) migrate solaris_user to new shellism
 
   * 90d9a09 migrate solaris_user to new shellism
 
 38f3b02 Merge pull request `#19463`_ from thatch45/solr_shell
+
 
 - **PR** `#19463`_: (*thatch45*) Migrate solr to new shellism
 
@@ -451,11 +502,13 @@ e74ddc1 Merge pull request `#19466`_ from thatch45/sshadow
 
 84503ab Merge pull request `#19462`_ from thatch45/ssh_shell
 
+
 - **PR** `#19462`_: (*thatch45*) shellism migration for ssh
 
   * 531489b shellism migration for ssh
 
 be5d8a2 Merge pull request `#19461`_ from thatch45/svd_shell
+
 
 - **PR** `#19461`_: (*thatch45*) shellism migration for supervisord
 
@@ -463,11 +516,13 @@ be5d8a2 Merge pull request `#19461`_ from thatch45/svd_shell
 
 8e775ab Merge pull request `#19460`_ from jfindlay/split_svn
 
+
 - **PR** `#19460`_: (*jfindlay*) split svn command
 
   * 1e01289 split svn command
 
 6c5f7e1 Merge pull request `#19458`_ from jfindlay/split_system
+
 
 - **PR** `#19458`_: (*jfindlay*) split system commands
 
@@ -475,11 +530,13 @@ be5d8a2 Merge pull request `#19461`_ from thatch45/svd_shell
 
 7ec180c Merge pull request `#19457`_ from jfindlay/split_upstart
 
+
 - **PR** `#19457`_: (*jfindlay*) split upstart commands
 
   * 05a8cc9 split upstart commands
 
 a60ce30 Merge pull request `#19455`_ from jfindlay/split_uwsgi
+
 
 - **PR** `#19455`_: (*jfindlay*) split uwsgi command
 
@@ -488,6 +545,7 @@ a60ce30 Merge pull request `#19455`_ from jfindlay/split_uwsgi
   * 7b09d0d split uwsgi command
 
 ae60f32 Merge pull request `#19477`_ from basepi/shell01
+
 
 - **PR** `#19477`_: (*basepi*) Set python_shell=False
 
@@ -505,11 +563,13 @@ ae60f32 Merge pull request `#19477`_ from basepi/shell01
 
 0bc9e98 Merge pull request `#19475`_ from rallytime/pylint_dot_seven
 
+
 - **PR** `#19475`_: (*rallytime*) Remove unused import
 
   * c754c4f Remove unused import
 
 148643d Merge pull request `#19456`_ from jfindlay/split_useradd
+
 
 - **PR** `#19456`_: (*jfindlay*) split useradd commands
 
@@ -517,17 +577,20 @@ ae60f32 Merge pull request `#19477`_ from basepi/shell01
 
 75d3328 Merge pull request `#19454`_ from jfindlay/split_varnish
 
+
 - **PR** `#19454`_: (*jfindlay*) split varnish commands
 
   * 7d578da split varnish commands
 
 d8a2fca Merge pull request `#19438`_ from jfindlay/split_znc
 
+
 - **PR** `#19438`_: (*jfindlay*) split znc commands
 
   * e50d36d split znc commands
 
 b86cc4a Merge pull request `#19437`_ from jfindlay/split_zpool
+
 
 - **PR** `#19437`_: (*jfindlay*) Split zpool commands
 
@@ -538,8 +601,10 @@ b86cc4a Merge pull request `#19437`_ from jfindlay/split_zpool
 acc54dd Merge pull request `#19430`_ from rallytime/`bp-19073`_
 
 - Referenced pull requests and issues
+
   - **PR** `#19073`_: (*s0undt3ch*) Enable file permissions lint checker
-  | refs: `#19430`_
+    | refs: `#19430`_
+
 - **PR** `#19430`_: (*rallytime*) Backport `#19073`_ to 2014.7
 
   * 10a7ead Add file perms pylint plugin specific settings
@@ -547,6 +612,7 @@ acc54dd Merge pull request `#19430`_ from rallytime/`bp-19073`_
   * 8976d00 Enable file permissions lint checker.
 
 41c58bf Merge pull request `#19420`_ from jfindlay/split_win
+
 
 - **PR** `#19420`_: (*jfindlay*) Split windows commands
 
@@ -556,6 +622,7 @@ acc54dd Merge pull request `#19430`_ from rallytime/`bp-19073`_
 
 a022507 Merge pull request `#19324`_ from whiteinge/git_pillar-branch-env-mapping
 
+
 - **PR** `#19324`_: (*whiteinge*) Added git_pillar branch to environment mapping
 
   * e966547 Added test for git_pillar branch to env mappings
@@ -564,11 +631,13 @@ a022507 Merge pull request `#19324`_ from whiteinge/git_pillar-branch-env-mappin
 
 dbbab28 Merge pull request `#19425`_ from s0undt3ch/2014.7
 
+
 - **PR** `#19425`_: (*s0undt3ch*) Ignore the file perms lint check
 
   * a9eaf18 Ignore the file perms lint check
 
 378639f Merge pull request `#19416`_ from cachedout/jenkins_debug_version
+
 
 - **PR** `#19416`_: (*cachedout*) Add debugging to jenkins script
 
@@ -576,11 +645,13 @@ dbbab28 Merge pull request `#19425`_ from s0undt3ch/2014.7
 
 e923ff1 Merge pull request `#19404`_ from eliasp/2014.7-states.service-dont-report-changes
 
+
 - **PR** `#19404`_: (*eliasp*) Don't report changes when there aren't any
 
   * 4b1413f Don't report changes when there aren't any
 
 83e451d Merge pull request `#19401`_ from rallytime/test_fixes
+
 
 - **PR** `#19401`_: (*rallytime*) Pylint and psutil unit test fixes for 2014.7 branch
 
@@ -591,13 +662,16 @@ e923ff1 Merge pull request `#19404`_ from eliasp/2014.7-states.service-dont-repo
 ec84d57 Merge pull request `#19397`_ from rallytime/`bp-19396`_
 
 - Referenced pull requests and issues
+
   - **PR** `#19396`_: (*cachedout*) These were unused and causing weird recursion errors in unit tests
-  | refs: `#19397`_
+    | refs: `#19397`_
+
 - **PR** `#19397`_: (*rallytime*) Backport `#19396`_ to 2014.7
 
   * 88f3477 These were unused and causing weird recursion errors in unit tests
 
 5452436 Merge pull request `#19394`_ from s0undt3ch/2014.7
+
 
 - **PR** `#19394`_: (*s0undt3ch*) Remove unused script
 
@@ -606,7 +680,9 @@ ec84d57 Merge pull request `#19397`_ from rallytime/`bp-19396`_
 6d3461d Merge pull request `#19391`_ from lorengordon/2014.7
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#19387`_: (*lorengordon*) Update version of vcredist in Windows installer
+
 - **PR** `#19391`_: (*lorengordon*) Update vcredist version, fixes saltstack/salt`#19387`_
 
   * 7f7c7bd Update vcredist version, fixes saltstack/salt`#19387`_
@@ -614,8 +690,10 @@ ec84d57 Merge pull request `#19397`_ from rallytime/`bp-19396`_
 4566591 Merge pull request `#19369`_ from eliasp/2014.7-states.mount_invisible-options
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18630`_: (*nvx*) Forced remount because options changed when no options changed (2014.7 regression)
-  | refs: `#19319`_ `#19369`_
+    | refs: `#19319`_ `#19369`_
+
 - **PR** `#19369`_: (*eliasp*) 2014.7 states.mount invisible options
 
   * 6979767 Add 'actimeo' to the invisible mount options
@@ -637,8 +715,10 @@ ec84d57 Merge pull request `#19397`_ from rallytime/`bp-19396`_
 f5349e9 Merge pull request `#19358`_ from rallytime/`bp-19347`_
 
 - Referenced pull requests and issues
+
   - **PR** `#19347`_: (*mens*) Update states/augeas.py. Fix index error.
-  | refs: `#19358`_
+    | refs: `#19358`_
+
 - **PR** `#19358`_: (*rallytime*) Backport `#19347`_ to 2014.7
 
   * aea2188 Update states/augeas.py. Fix index error.
@@ -646,8 +726,10 @@ f5349e9 Merge pull request `#19358`_ from rallytime/`bp-19347`_
 aec0417 Merge pull request `#19357`_ from rallytime/`bp-19278`_
 
 - Referenced pull requests and issues
+
   - **PR** `#19278`_: (*blueicefield*) Fixed the function user_list of mongodb module to work properly with MongoDB 2.6
-  | refs: `#19357`_
+    | refs: `#19357`_
+
 - **PR** `#19357`_: (*rallytime*) Backport `#19278`_ to 2014.7
 
   * 0c4e2f0 Pylint fix for backport
@@ -659,8 +741,10 @@ aec0417 Merge pull request `#19357`_ from rallytime/`bp-19278`_
 41bef77 Merge pull request `#19356`_ from rallytime/`bp-19340`_
 
 - Referenced pull requests and issues
+
   - **PR** `#19340`_: (*nmadhok*) Adding unit tests for salt.modules.zpool
-  | refs: `#19356`_
+    | refs: `#19356`_
+
 - **PR** `#19356`_: (*rallytime*) Backport `#19340`_ to 2014.7
 
   * f20f899 Changing return to match zpool list instead of zfs list
@@ -672,10 +756,12 @@ aec0417 Merge pull request `#19357`_ from rallytime/`bp-19278`_
 2775737 Merge pull request `#19355`_ from rallytime/`bp-19247`_
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#13312`_: (*KevinTsai*) Out of order the execute sequence when use the 'names' parameters in states.
-  | refs: `#19247`_
+    | refs: `#19247`_
   - **PR** `#19247`_: (*Nikerabbit*) Fix execution order with "names" in relation to other states
-  | refs: `#19355`_
+    | refs: `#19355`_
+
 - **PR** `#19355`_: (*rallytime*) Backport `#19247`_ to 2014.7
 
   * 9efb07e Fix execution order with "names"
@@ -683,8 +769,10 @@ aec0417 Merge pull request `#19357`_ from rallytime/`bp-19278`_
 c6b3670 Merge pull request `#19354`_ from cachedout/avoid_open_mode_key_race
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#19061`_: (*smithjm*) corrupt keys in Helium
-  | refs: `#19354`_
+    | refs: `#19354`_
+
 - **PR** `#19354`_: (*cachedout*) Avoid a race between multiple auth requests for a minion key
 
   * 2e1bfa3 Avoid a race between multiple auth requests for a minion key.
@@ -692,10 +780,12 @@ c6b3670 Merge pull request `#19354`_ from cachedout/avoid_open_mode_key_race
 ce34da5 Merge pull request `#19353`_ from rallytime/`bp-18323`_
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18320`_: (*jmdcal*) cloud client full_query returns min query
-  | refs: `#18323`_
+    | refs: `#18323`_
   - **PR** `#18323`_: (*techhat*) Use proper query method from CloudClient
-  | refs: `#19353`_
+    | refs: `#19353`_
+
 - **PR** `#19353`_: (*rallytime*) Backport `#18323`_ to 2014.7
 
   * 92744e9 mapper.opts, not self.opts
@@ -705,8 +795,10 @@ ce34da5 Merge pull request `#19353`_ from rallytime/`bp-18323`_
 e31cd42 Merge pull request `#19352`_ from rallytime/`bp-19280`_
 
 - Referenced pull requests and issues
+
   - **PR** `#19280`_: (*cachedout*) Attempt to fix inconsintent VT test by preventing a spin
-  | refs: `#19352`_
+    | refs: `#19352`_
+
 - **PR** `#19352`_: (*rallytime*) Backport `#19280`_ to 2014.7
 
   * 0194fbe Attempt to fix inconsintent VT test by preventing a spin
@@ -714,13 +806,16 @@ e31cd42 Merge pull request `#19352`_ from rallytime/`bp-19280`_
 4da0b59 Merge pull request `#19378`_ from llinder/2014.7
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#19376`_: (*llinder*) Module function s3.get threw an exception
-  | refs: `#19378`_
+    | refs: `#19378`_
+
 - **PR** `#19378`_: (*llinder*) Fixed undefined data variable in s3 utils
 
   * cf9bc43 Fixed undefined data variable in s3 utils
 
 99de56f Merge pull request `#19386`_ from eliasp/2014.7-modules.parted.mkpart-doc
+
 
 - **PR** `#19386`_: (*eliasp*) Correct doc
 
@@ -728,17 +823,20 @@ e31cd42 Merge pull request `#19352`_ from rallytime/`bp-19280`_
 
 aa84367 Merge pull request `#19331`_ from Basis/data.p-race-condition
 
+
 - **PR** `#19331`_: (*hangxie*) Write to temp file then move to data.p to avoid race condition
 
   * 6edc596 Write to temp file then move to data.p to avoid race condition
 
 bf96eee Merge pull request `#19367`_ from cachedout/msgpack_2014_7
 
+
 - **PR** `#19367`_: (*cachedout*) Fix occasional critical error on console
 
   * fa64450 Fix occasional critical error on console
 
 eb6fd3d Merge pull request `#19361`_ from jfindlay/ensure_cmds
+
 
 - **PR** `#19361`_: (*jfindlay*) make some command contexts explicit
 
@@ -747,6 +845,7 @@ eb6fd3d Merge pull request `#19361`_ from jfindlay/ensure_cmds
   * 0927a75 ensure grain commands
 
 7ef0de5 Merge pull request `#19363`_ from rallytime/fix_dot_seven_test
+
 
 - **PR** `#19363`_: (*rallytime*) Fix dot seven test
 
@@ -757,10 +856,12 @@ eb6fd3d Merge pull request `#19361`_ from jfindlay/ensure_cmds
 c43256d Merge pull request `#19350`_ from UtahDave/2014.7local
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#19167`_: (*markuskramerIgitt*) "salt-minion.exe" thread leak in Salt 2014.7.0 on Windows 
-  | refs: `#19350`_
+    | refs: `#19350`_
   - **ISSUE** `#18515`_: (*ajonesspin*) Multiple Windows Minion 'Established TCP' connections causing master to become unresponsive
-  | refs: `#19350`_
+    | refs: `#19350`_
+
 - **PR** `#19350`_: (*UtahDave*) Fix thread leak on Windows when using threading.
 
   * d83858b fix pylint whitespace errors
@@ -773,6 +874,7 @@ c43256d Merge pull request `#19350`_ from UtahDave/2014.7local
 
 0679522 Merge pull request `#19334`_ from rallytime/pylint
 
+
 - **PR** `#19334`_: (*rallytime*) Fix pylint on 2014.7 branch
 
   * 57514d8 Fix pylint on 2014.7 branch
@@ -780,10 +882,12 @@ c43256d Merge pull request `#19350`_ from UtahDave/2014.7local
 b8dd2af Merge pull request `#19319`_ from garethgreenaway/18630_2014_7_mount_options
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#19308`_: (*eliasp*) `states.mount.mounted` backtraces in case a device/resource is busy
-  | refs: `#19319`_
+    | refs: `#19319`_
   - **ISSUE** `#18630`_: (*nvx*) Forced remount because options changed when no options changed (2014.7 regression)
-  | refs: `#19319`_ `#19369`_
+    | refs: `#19319`_ `#19369`_
+
 - **PR** `#19319`_: (*garethgreenaway*) Fixes to mount module and mount state module
 
   * 547d55b removing unused import
@@ -793,8 +897,10 @@ b8dd2af Merge pull request `#19319`_ from garethgreenaway/18630_2014_7_mount_opt
 908f382 Merge pull request `#19312`_ from llinder/2014.7
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#19311`_: (*llinder*) pyobjects and pydsl renderers don't include new requisites 'listen' and 'listen_in'
-  | refs: `#19312`_
+    | refs: `#19312`_
+
 - **PR** `#19312`_: (*llinder*) pydsl/pyobjects missing listen and listen_in
 
   * 5c39c88 pydsl/pyobjects missing listen and listen_in
@@ -802,8 +908,10 @@ b8dd2af Merge pull request `#19319`_ from garethgreenaway/18630_2014_7_mount_opt
 e2ed214 Merge pull request `#19310`_ from juiceinc/2014.7
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#19300`_: (*perdurabo93*) Tomcat modules don't work using old or new config style in 2014.7.0
-  | refs: `#19310`_
+    | refs: `#19310`_
+
 - **PR** `#19310`_: (*timoguin*) Fix typo in Tomcat module docs
 
   * b9744c6 merge
@@ -818,6 +926,7 @@ e2ed214 Merge pull request `#19310`_ from juiceinc/2014.7
 
 463974d Merge pull request `#19299`_ from terminalmage/cleanup-pip-requirements
 
+
 - **PR** `#19299`_: (*terminalmage*) Cleanup pip state when requirements file is used
 
   * 68efa5a Cleanup pip state when requirements file is used
@@ -825,19 +934,23 @@ e2ed214 Merge pull request `#19310`_ from juiceinc/2014.7
 04e22ee Merge pull request `#19321`_ from cvedel/issue-18083
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18083`_: (*Learner11*) salt-ssh commands are mostly broken after SaltStack update
-  | refs: `#19321`_
+    | refs: `#19321`_
+
 - **PR** `#19321`_: (*cvedel*) Add ssl_match_hostname to deps in thin tarball
 
   * 9aeda9b Add ssl_match_hostname to deps in thin tarball
 
 38d4fec Merge pull request `#19295`_ from belvedere-trading/2014.7
 
+
 - **PR** `#19295`_: (*belvedere-trading*) [32702] Patch salt to allow scheduling to work properly on Windows
 
   * 019eaf0 [32702] Patch salt to allow scheduling to work properly on Windows
 
 cd1239a Merge pull request `#19238`_ from jfindlay/ensure_cmd
+
 
 - **PR** `#19238`_: (*jfindlay*) update cmd state and module integration tests
 
@@ -850,8 +963,10 @@ cd1239a Merge pull request `#19238`_ from jfindlay/ensure_cmd
 4f2ecf1 Merge pull request `#19228`_ from rallytime/`bp-19154`_
 
 - Referenced pull requests and issues
+
   - **PR** `#19154`_: (*ryan-lane*) Fix for boto_secgroup state to properly support lists for cidrs, group i...
-  | refs: `#19228`_
+    | refs: `#19228`_
+
 - **PR** `#19228`_: (*rallytime*) Backport `#19154`_ to 2014.7
 
   * e4460d0 Fix for boto_secgroup state to properly support lists for cidrs, group ids and group names
@@ -859,12 +974,14 @@ cd1239a Merge pull request `#19238`_ from jfindlay/ensure_cmd
 1671b7e Merge pull request `#19226`_ from rallytime/`bp-19121`_
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18991`_: (*atira-skr*) mdadm (state and module) errors
-  | refs: `#19051`_ `#19121`_
+    | refs: `#19051`_ `#19121`_
   - **PR** `#19121`_: (*nmadhok*) Fixing salt.modules.mdadm.create broken functionality
-  | refs: `#19226`_
+    | refs: `#19226`_
   - **PR** `#19051`_: (*nmadhok*) Fixing salt.modules.mdadm.create and correcting incorrect code.
-  | refs: `#19121`_ `#19121`_ `#19139`_
+    | refs: `#19121`_ `#19121`_ `#19139`_
+
 - **PR** `#19226`_: (*rallytime*) Backport `#19121`_ to 2014.7
 
   * 9f60148 Fixing unit tests for mdadm
@@ -872,6 +989,7 @@ cd1239a Merge pull request `#19238`_ from jfindlay/ensure_cmd
   * d744fc6 Fixing salt.modules.mdadm.create broken functionality
 
 f8f1ee2 Merge pull request `#19182`_ from cro/eauth_in_django2
+
 
 - **PR** `#19182`_: (*cro*) Add ability for Salt to authenticate against Django's ORM
 
@@ -891,17 +1009,20 @@ f8f1ee2 Merge pull request `#19182`_ from cro/eauth_in_django2
 
 4c8ee80 Merge pull request `#19222`_ from rallytime/linting
 
+
 - **PR** `#19222`_: (*rallytime*) Add missing import
 
   * 0307304 Add missing import
 
 6a94253 Merge pull request `#19207`_ from whiteinge/doc-key-urls-version
 
+
 - **PR** `#19207`_: (*whiteinge*) Added missing versionadded directives for the /key URLs
 
   * f3d936f Added missing versionadded directives for the /key URLs
 
 8c8c547 Merge pull request `#19202`_ from basepi/salt-ssh.tty.scp
+
 
 - **PR** `#19202`_: (*basepi*) Fix for salt-ssh with tty enabled
 
@@ -916,8 +1037,10 @@ f8f1ee2 Merge pull request `#19182`_ from cro/eauth_in_django2
 334f1f8 Merge pull request `#19150`_ from rallytime/`bp-19134`_
 
 - Referenced pull requests and issues
+
   - **PR** `#19134`_: (*ryan-lane*) Fix issue in boto_secgroup state that caused rules to not be properly up...
-  | refs: `#19150`_
+    | refs: `#19150`_
+
 - **PR** `#19150`_: (*rallytime*) Backport `#19134`_ to 2014.7
 
   * 63d0184 Fix issue in boto_secgroup state that caused rules to not be properly updated
@@ -925,12 +1048,14 @@ f8f1ee2 Merge pull request `#19182`_ from cro/eauth_in_django2
 5e2473c Merge pull request `#19144`_ from rallytime/`bp-19116`_
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#19117`_: (*nmadhok*) salt.modules.mdadm.destroy fails if mdadm config file is missing
-  | refs: `#19116`_
+    | refs: `#19116`_
   - **ISSUE** `#19115`_: (*nmadhok*) salt.modules.mdadm.destroy fails with error
-  | refs: `#19116`_
+    | refs: `#19116`_
   - **PR** `#19116`_: (*nmadhok*) Access dictionary values correctly in salt.modules.mdadm.destroy
-  | refs: `#19144`_
+    | refs: `#19144`_
+
 - **PR** `#19144`_: (*rallytime*) Backport `#19116`_ to 2014.7
 
   * a833d89 Redoing some changes
@@ -940,6 +1065,7 @@ f8f1ee2 Merge pull request `#19182`_ from cro/eauth_in_django2
   * 09b11bf Access dictionary values correctly in salt.modules.mdadm.destroy Fixes `#19115`_
 
 f2fd892 Merge pull request `#19145`_ from whiteinge/sphinx-fixups
+
 
 - **PR** `#19145`_: (*whiteinge*) Minor Sphinx fixups
 
@@ -954,8 +1080,10 @@ f2fd892 Merge pull request `#19145`_ from whiteinge/sphinx-fixups
 daf782d Merge pull request `#19153`_ from rallytime/windows_pkg_docs
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#19146`_: (*saxonww*) Problem with Salt-Minion Windows installer
-  | refs: `#19153`_
+    | refs: `#19153`_
+
 - **PR** `#19153`_: (*rallytime*) Update the windows package to correct one: 2014.7.0 --> 2014.7.0-1
 
   * b43519b Update the windows package to correct one: 2014.7.0 --> 2014.7.0-1
@@ -963,8 +1091,10 @@ daf782d Merge pull request `#19153`_ from rallytime/windows_pkg_docs
 052f90e Merge pull request `#19143`_ from rallytime/`bp-19079`_
 
 - Referenced pull requests and issues
+
   - **PR** `#19079`_: (*Lendar*) Fix PUT/DELETE in s3.query
-  | refs: `#19143`_
+    | refs: `#19143`_
+
 - **PR** `#19143`_: (*rallytime*) Backport `#19079`_ to 2014.7
 
   * 8a885fc Fix PUT/DELETE in s3.query
@@ -972,10 +1102,12 @@ daf782d Merge pull request `#19153`_ from rallytime/windows_pkg_docs
 f0924b6 Merge pull request `#19139`_ from rallytime/`bp-19051`_
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18991`_: (*atira-skr*) mdadm (state and module) errors
-  | refs: `#19051`_ `#19121`_
+    | refs: `#19051`_ `#19121`_
   - **PR** `#19051`_: (*nmadhok*) Fixing salt.modules.mdadm.create and correcting incorrect code.
-  | refs: `#19121`_ `#19121`_ `#19139`_
+    | refs: `#19121`_ `#19121`_ `#19139`_
+
 - **PR** `#19139`_: (*rallytime*) Backport `#19051`_ to 2014.7
 
   * 16692ad Refactor mdadm tests
@@ -988,6 +1120,7 @@ f0924b6 Merge pull request `#19139`_ from rallytime/`bp-19051`_
 
 d0e2986 Merge pull request `#19158`_ from eliasp/2014.7-modules.win_system-doc
 
+
 - **PR** `#19158`_: (*eliasp*) Syntax/formatting.
 
   * a276dc1 Syntax/formatting.
@@ -995,8 +1128,10 @@ d0e2986 Merge pull request `#19158`_ from eliasp/2014.7-modules.win_system-doc
 566d477 Merge pull request `#19155`_ from techhat/issue15959
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#15959`_: (*egilh*) Azure: salt-cloud should be able to set specific cloud service for VM
-  | refs: `#19155`_
+    | refs: `#19155`_
+
 - **PR** `#19155`_: (*techhat*) Allow service_name to be specified for azure
 
   * d8fc47b Allow service_name to be specified for azure
@@ -1004,10 +1139,12 @@ d0e2986 Merge pull request `#19158`_ from eliasp/2014.7-modules.win_system-doc
 61c59d8 Merge pull request `#19135`_ from rallytime/`bp-18915`_
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18909`_: (*babilen*) pkgrepo.managed leaves duplicate entries in apt sources.list
-  | refs: `#18915`_
+    | refs: `#18915`_
   - **PR** `#18915`_: (*babilen*) Ensure aptpkg._consolidate_repo strips trailing slashes from repo_uri
-  | refs: `#19135`_
+    | refs: `#19135`_
+
 - **PR** `#19135`_: (*rallytime*) Backport `#18915`_ to 2014.7
 
   * c2715dc Ensure aptpkg._consolidate_repo strips trailing slashes from repo_uri
@@ -1015,13 +1152,16 @@ d0e2986 Merge pull request `#19158`_ from eliasp/2014.7-modules.win_system-doc
 2fadac5 Merge pull request `#19104`_ from whiteinge/salt-fix-highstate-output-jobs-runner
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#19099`_: (*whiteinge*) Regression in salt-run jobs output for state runs
-  | refs: `#19104`_
+    | refs: `#19104`_
+
 - **PR** `#19104`_: (*whiteinge*) Used unused variable; fix highstate output for jobs runner
 
   * d5ed3f3 Used unused variable; fix highstate output for jobs runner
 
 91edd75 Merge pull request `#19106`_ from jfindlay/split_win
+
 
 - **PR** `#19106`_: (*jfindlay*) Split windows commands
 
@@ -1060,13 +1200,16 @@ d0e2986 Merge pull request `#19158`_ from eliasp/2014.7-modules.win_system-doc
 74cbd8f Merge pull request `#19113`_ from garethgreenaway/19003_2014_7_bind_mounts
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#19003`_: (*darkvertex*) mount.mounted always remounts for bind mounts
-  | refs: `#19113`_
+    | refs: `#19113`_
+
 - **PR** `#19113`_: (*garethgreenaway*) Fixes for when using bind mounts.
 
   * ec90619 Fixes for when using bind mounts.
 
 e919e18 Merge pull request `#19111`_ from jfindlay/split_choc
+
 
 - **PR** `#19111`_: (*jfindlay*) Split chocolatey commands
 
@@ -1076,11 +1219,13 @@ e919e18 Merge pull request `#19111`_ from jfindlay/split_choc
 
 b62f78d Merge pull request `#19107`_ from basepi/2014.7.1.release
 
+
 - **PR** `#19107`_: (*basepi*) Add more release notes for 2014.7.1
 
   * 9d5e05a Add more release notes for 2014.7.1
 
 23a2cf7 Merge pull request `#19103`_ from cachedout/remove_mine_cruft
+
 
 - **PR** `#19103`_: (*cachedout*) Remove cruft
 
@@ -1088,11 +1233,13 @@ b62f78d Merge pull request `#19107`_ from basepi/2014.7.1.release
 
 5387757 Merge pull request `#19102`_ from cachedout/remove_perm_unit_test
 
+
 - **PR** `#19102`_: (*cachedout*) Replaced by pylint check.
 
   * 3493cfa Replaced by pylint check.
 
 f69575b Merge pull request `#19088`_ from terminalmage/fix-update_lxc_conf
+
 
 - **PR** `#19088`_: (*terminalmage*) Fix regression in lxc.update_lxc_conf
 
@@ -1101,10 +1248,12 @@ f69575b Merge pull request `#19088`_ from terminalmage/fix-update_lxc_conf
 34def7d Merge pull request `#19086`_ from rallytime/`bp-19014`_
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18966`_: (*bechtoldt*) file.serialize ignores test=True
-  | refs: `#19014`_
+    | refs: `#19014`_
   - **PR** `#19014`_: (*nmadhok*) Adding ability to do a test run with test=True.
-  | refs: `#19086`_
+    | refs: `#19086`_
+
 - **PR** `#19086`_: (*rallytime*) Backport `#19014`_ to 2014.7
 
   * d585771 Adding ability to do a test run with test=True. `#18966`_
@@ -1112,8 +1261,10 @@ f69575b Merge pull request `#19088`_ from terminalmage/fix-update_lxc_conf
 716e456 Merge pull request `#19065`_ from basepi/salt-ssh-tty-16847
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#16847`_: (*mabroor*) salt-ssh hangs on some remote hosts and does not timeout
-  | refs: `#19065`_
+    | refs: `#19065`_
+
 - **PR** `#19065`_: (*basepi*) Fix salt-ssh with sudo and tty enabled
 
   * 228b2b6 Discard stderr for salt-ssh with tty
@@ -1123,12 +1274,14 @@ f69575b Merge pull request `#19088`_ from terminalmage/fix-update_lxc_conf
 f25f92d Merge pull request `#19047`_ from eliasp/2014.7-modules.file.replace-test-coverage
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18841`_: (*DanielZuck*) file.replace -> creates backups and touches the file, even if there are no changes at all
-  | refs: `#19047`_
+    | refs: `#19047`_
   - **ISSUE** `#18612`_: (*eliasp*) 'file.replace' with 'append_if_not_found=True' grows file infinitely
-  | refs: `#18615`_ `#18655`_ `#19047`_
+    | refs: `#18615`_ `#18655`_ `#19047`_
   - **PR** `#18615`_: (*eliasp*) Don't change a file again if it's already been done.
-  | refs: `#19047`_
+    | refs: `#19047`_
+
 - **PR** `#19047`_: (*eliasp*) 2014.7 file.replace integration test coverage
 
   * e702c79 Pylint.
@@ -1147,6 +1300,7 @@ f25f92d Merge pull request `#19047`_ from eliasp/2014.7-modules.file.replace-tes
 
 8e184b3 Merge pull request `#19082`_ from Lendar/fix-schedule-examples
 
+
 - **PR** `#19082`_: (*Lendar*) Fix states.schedule examples
 
   * 14fa721 Fix states.schedule examples
@@ -1154,19 +1308,23 @@ f25f92d Merge pull request `#19047`_ from eliasp/2014.7-modules.file.replace-tes
 ca1d2fa Merge pull request `#19062`_ from terminalmage/issue19055
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#19055`_: (*achamo*) LXC config wants to strip() everything (even an int value)
-  | refs: `#19062`_
+    | refs: `#19062`_
+
 - **PR** `#19062`_: (*terminalmage*) Fix traceback for non-string values in lxc config files
 
   * 721699d Fix traceback for non-string values in lxc config files
 
 6dd3c6e Merge pull request `#19042`_ from JaseFace/aptpkg-uninstall-env-vars
 
+
 - **PR** `#19042`_: (*JaseFace*) The aptpkg uninstall operation needs to inherit DPKG_ENV_VARS set above as install and upgrade currently do.
 
   * 317ff52 The uninstall operation needs to inherit DPKG_ENV_VARS set above as install and upgrade currently do. Without this packages that prompt on removal cause that state to hang. resolvconf in particular prompts you with a warning about rebooting your system after removal.
 
 c362592 Merge pull request `#19040`_ from whiteinge/salt-log-granular-example
+
 
 - **PR** `#19040`_: (*whiteinge*) Updates to the logging docs in the example conf files
 
@@ -1175,6 +1333,7 @@ c362592 Merge pull request `#19040`_ from whiteinge/salt-log-granular-example
   * 90edd21 Removed trailing comma from log_granular_levels example; is invalid YAML
 
 60f1e36 Merge pull request `#19008`_ from juiceinc/bugfix/tomcat-pillar
+
 
 - **PR** `#19008`_: (*timoguin*) Backwards compatibility for Tomcat module Pillar configuration
 
@@ -1185,14 +1344,16 @@ c362592 Merge pull request `#19040`_ from whiteinge/salt-log-granular-example
 a261e5b Merge pull request `#19004`_ from jacksontj/2014.7
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#16564`_: (*jacksontj*) Reactor is VERY PID hungry
-  | refs: `#18254`_
+    | refs: `#18254`_
   - **PR** `#18762`_: (*jacksontj*)  Move reactor master-clients to threads
-  | refs: `#19004`_
+    | refs: `#19004`_
   - **PR** `#18741`_: (*terminalmage*) Revert `#18254`_
-  | refs: `#18762`_
+    | refs: `#18762`_
   - **PR** `#18254`_: (*jacksontj*) Move reactor master-clients to threads
-  | refs: `#18762`_ `#18762`_
+    | refs: `#18762`_ `#18762`_
+
 - **PR** `#19004`_: (*jacksontj*) Fix for new threaded reactor
 
   * 22019ba Pylint cleanup
@@ -1204,13 +1365,16 @@ a261e5b Merge pull request `#19004`_ from jacksontj/2014.7
 b347e77 Merge pull request `#19059`_ from rallytime/docs_fix
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#19057`_: (*overquota*) mistype in docs
-  | refs: `#19059`_
+    | refs: `#19059`_
+
 - **PR** `#19059`_: (*rallytime*) Correct master_sign_key_name reference
 
   * 926c486 Correct master_sign_key_name reference
 
 df4cf1c Merge pull request `#19033`_ from rallytime/disable_tests
+
 
 - **PR** `#19033`_: (*rallytime*) Disable zcbuildout tests as they are not running reliably.
 
@@ -1220,6 +1384,7 @@ df4cf1c Merge pull request `#19033`_ from rallytime/disable_tests
 
 b93a77f Merge pull request `#19031`_ from rallytime/pylint_fix
 
+
 - **PR** `#19031`_: (*rallytime*) Fix yumpkg pylint error
 
   * 6916bde Fix yumpkg pylint error
@@ -1227,8 +1392,10 @@ b93a77f Merge pull request `#19031`_ from rallytime/pylint_fix
 b448a15 Merge pull request `#19019`_ from jacksontj/2014.7-config
 
 - Referenced pull requests and issues
+
   - **PR** `#19012`_: (*jacksontj*) Fix infinites spinning in minion RemoteFileClient
-  | refs: `#19019`_
+    | refs: `#19019`_
+
 - **PR** `#19019`_: (*jacksontj*) Backport `#19012`_ to 2014.7
 
   * a86c2e8 Pylint cleanup
@@ -1237,6 +1404,7 @@ b448a15 Merge pull request `#19019`_ from jacksontj/2014.7-config
 
 f960a87 Merge pull request `#19024`_ from galet/fix-ini-manage-for-nonstrings
 
+
 - **PR** `#19024`_: (*galet*) Fix ini_manage state - equality detection for non-string values
 
   * 782f611 Fix ini_manage state - equality detection for non-string values
@@ -1244,13 +1412,16 @@ f960a87 Merge pull request `#19024`_ from galet/fix-ini-manage-for-nonstrings
 31d7c6f Merge pull request `#18996`_ from garethgreenaway/18969_2014_7_schedule_list
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18969`_: (*christianchristensen*) Should modules/schedule.py return and empty list instead of None
-  | refs: `#18996`_
+    | refs: `#18996`_
+
 - **PR** `#18996`_: (*garethgreenaway*) schedule.list should return an empty dictionary, not None
 
   * 67c08f4 schedule.list should return an empty dictionary, not None
 
 10b1fd8 Merge pull request `#19006`_ from cro/walkpath
+
 
 - **PR** `#19006`_: (*cro*) Fix typo in os.walk
 
@@ -1258,11 +1429,13 @@ f960a87 Merge pull request `#19024`_ from galet/fix-ini-manage-for-nonstrings
 
 79b9198 Merge pull request `#19009`_ from rallytime/dont_quote_ints
 
+
 - **PR** `#19009`_: (*rallytime*) Fix mac_user.py module --> Don't quote integers like uid and gid
 
   * 44e60ac Fix mac_user.py module --> Don't quote integers like uid and gid
 
 6933728 Merge pull request `#19000`_ from jfindlay/split_state
+
 
 - **PR** `#19000`_: (*jfindlay*) split win commands in state
 
@@ -1270,24 +1443,29 @@ f960a87 Merge pull request `#19024`_ from galet/fix-ini-manage-for-nonstrings
 
 a6b5011 Typo
 
+
 - **ISSUE** #: (**) 
 
 c2a50ec Merge pull request `#18978`_ from garethgreenaway/nfs_requires_remount_options_changed
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18907`_: (*babilen*) mount.mounted does not completely unmount NFS mounts when options change
-  | refs: `#18978`_
+    | refs: `#18978`_
+
 - **PR** `#18978`_: (*garethgreenaway*) fixes to mount for nfs share
 
   * 1d33fae Rebasing to fix the merge conflict
 
 d5ba92b Merge pull request `#18988`_ from rallytime/zypper_list_not_tuple
 
+
 - **PR** `#18988`_: (*rallytime*) Use lists instead of tuples in modules/zypper.py
 
   * e6bf243 Use lists instead of tuples in modules/zypper.py
 
 4a98663 Merge pull request `#18976`_ from techhipster/windows-detect-openstack
+
 
 - **PR** `#18976`_: (*amendlik*) Detect a Windows VM on OpenStack and populate the 'virtual' grain
 
@@ -1296,13 +1474,16 @@ d5ba92b Merge pull request `#18988`_ from rallytime/zypper_list_not_tuple
 34ed8b0 Merge pull request `#18972`_ from garethgreenaway/18874_2014_7_mount_fixes
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18874`_: (*kormoc*) state.mount very broken in current head
-  | refs: `#18972`_
+    | refs: `#18972`_
+
 - **PR** `#18972`_: (*garethgreenaway*) Fixes to mount module
 
   * ba38050 Each line can have any number of optional parameters, we use the location of the seperator field to determine the location of the elements after it. On remount, the remount option was ending up in the /etc/fstab. Ensuring that it is removed from the options. Some mount options end up in the superopts so we should look for them there too.
 
 3b89cff Merge pull request `#18971`_ from whiteinge/doc-formula-style-guide
+
 
 - **PR** `#18971`_: (*whiteinge*) Fixes and additions to the Formula best practices doc
 
@@ -1317,8 +1498,10 @@ d5ba92b Merge pull request `#18988`_ from rallytime/zypper_list_not_tuple
 3b780e0 Merge pull request `#18968`_ from s0undt3ch/hotfix/issue-18877-hardcoded-path
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18877`_: (*cedwards*) GPG renderer is Linux specific
-  | refs: `#18968`_
+    | refs: `#18968`_
+
 - **PR** `#18968`_: (*s0undt3ch*) The `gpgkeys` path should use `salt.syspaths`
 
   * 6db5f4e The `gpgkeys` path should use `salt.syspaths` for proper  multi-platform support.
@@ -1326,14 +1509,16 @@ d5ba92b Merge pull request `#18988`_ from rallytime/zypper_list_not_tuple
 75cc71b Merge pull request `#18762`_ from jacksontj/2014.7
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#16564`_: (*jacksontj*) Reactor is VERY PID hungry
-  | refs: `#18254`_
+    | refs: `#18254`_
   - **PR** `#18741`_: (*terminalmage*) Revert `#18254`_
-  | refs: `#18762`_
+    | refs: `#18762`_
   - **PR** `#18254`_: (*jacksontj*) Move reactor master-clients to threads
-  | refs: `#18762`_ `#18762`_
+    | refs: `#18762`_ `#18762`_
+
 - **PR** `#18762`_: (*jacksontj*)  Move reactor master-clients to threads
-  | refs: `#19004`_
+    | refs: `#19004`_
 
   * 545400e Pylint cleanup
 
@@ -1361,11 +1546,13 @@ d5ba92b Merge pull request `#18988`_ from rallytime/zypper_list_not_tuple
 
 79c7dad Merge pull request `#18989`_ from davidjb/fix-yumpkg-groupinfo
 
+
 - **PR** `#18989`_: (*davidjb*) Avoid double-quoting of group names for yum
 
   * 89f0f92 Avoid double-quoting of group name for yum
 
 52ffd17 Merge pull request `#18963`_ from cro/mdadm_cmdline
+
 
 - **PR** `#18963`_: (*cro*) Needed to pass madam command line as an array
 
@@ -1378,12 +1565,15 @@ d5ba92b Merge pull request `#18988`_ from rallytime/zypper_list_not_tuple
 e4c9c26 Merge pull request `#18948`_ from walgitrus/fix-ec2-toggle-delvol
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18315`_: (*An42Ma*) salt-cloud fails for ec2 for query without params
+
 - **PR** `#18948`_: (*walgitrus*) fix ec2 instance creation with delete volume enabled (issue `#18315`_)
 
   * 29776df fix ec2 instance creation with delete volume enabled (issue `#18315`_) - `ec2.query()` requires non-empty `param` argument - replace `param`-less call to `ec2.query()` with `show_delvol_on_destroy()` - TODO: remove `requesturl` as none of the callers of `_toggle_delvol()`   make use of it
 
 35eba76 Merge pull request `#18930`_ from s0undt3ch/hotfix/bootstrap-script
+
 
 - **PR** `#18930`_: (*s0undt3ch*) Update to the latest v2014.12.11 stable release
 
@@ -1392,10 +1582,12 @@ e4c9c26 Merge pull request `#18948`_ from walgitrus/fix-ec2-toggle-delvol
 f88de6c Merge pull request `#18926`_ from rallytime/`bp-18807`_
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18778`_: (*kt97679*) salt-ssh tries to copy file to the filesystem root
-  | refs: `#18807`_
+    | refs: `#18807`_
   - **PR** `#18807`_: (*kt97679*) fix for `#18778`_ (salt-ssh tries to copy file to the filesystem root)
-  | refs: `#18926`_
+    | refs: `#18926`_
+
 - **PR** `#18926`_: (*rallytime*) Backport `#18807`_ to 2014.7
 
   * 44810f5 fix for `#18778`_ (salt-ssh tries to copy file to the filesystem root)
@@ -1403,8 +1595,10 @@ f88de6c Merge pull request `#18926`_ from rallytime/`bp-18807`_
 8094cff Merge pull request `#18924`_ from cro/pkgng_fromrepo
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18851`_: (*m87carlson*) FreeBSD pkgng fromrepo problem
-  | refs: `#18924`_
+    | refs: `#18924`_
+
 - **PR** `#18924`_: (*cro*) Fix bad option handling for FreeBSD pkgng.
 
   * bd35f46 Fix lint errors.
@@ -1415,11 +1609,13 @@ f88de6c Merge pull request `#18926`_ from rallytime/`bp-18807`_
 
 e98923b Merge pull request `#18923`_ from rallytime/format_cli_examples
 
+
 - **PR** `#18923`_: (*rallytime*) Add bash codeblock markup to CLI examples in genesis.py
 
   * 5ddddc9 Add bash codeblock markup to CLI examples in genesis.py
 
 37d7ef3 Merge pull request `#18899`_ from techhipster/freebsd-virtual-grain
+
 
 - **PR** `#18899`_: (*amendlik*) Populate the 'virtual' grain on OpenStack FreeBSD systems
 
@@ -1428,8 +1624,10 @@ e98923b Merge pull request `#18923`_ from rallytime/format_cli_examples
 ad13ee0 Merge pull request `#18897`_ from UtahDave/2014.7local
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18244`_: (*soodr*) Minion install ends with a stack trace
-  | refs: `#18897`_
+    | refs: `#18897`_
+
 - **PR** `#18897`_: (*UtahDave*) Use Salt defined exit codes.
 
   * f255e3e Correct comment. Keep in sync with exitcodes.py
@@ -1455,8 +1653,10 @@ ad13ee0 Merge pull request `#18897`_ from UtahDave/2014.7local
 28075d3 Merge pull request `#18894`_ from cro/fbsd_sockstat
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18584`_: (*cedwards*) lsof a new requirement in 2014.7.0?
-  | refs: `#18894`_
+    | refs: `#18894`_
+
 - **PR** `#18894`_: (*cro*) Add support for sockstat on FreeBSD as an alternative to lsof
 
   * 8e691d7 Fix lint
@@ -1466,10 +1666,12 @@ ad13ee0 Merge pull request `#18897`_ from UtahDave/2014.7local
 43b307f Merge pull request `#18860`_ from terminalmage/issue17963
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#17963`_: (*alexeits*) Loading of Jinja macros from GitFS shouldn't fail with TemplateNotFound in masterless configuration
-  | refs: `#18792`_ `#18860`_
+    | refs: `#18792`_ `#18860`_
   - **PR** `#18792`_: (*terminalmage*) Fix jinja search path for local file_client
-  | refs: `#18859`_ `#18860`_
+    | refs: `#18859`_ `#18860`_
+
 - **PR** `#18860`_: (*terminalmage*) Fix jinja search path for local file_client
 
   * c1fd180 Fix jinja tests
@@ -1479,10 +1681,12 @@ ad13ee0 Merge pull request `#18897`_ from UtahDave/2014.7local
 4c0504d Merge pull request `#18892`_ from rallytime/`bp-18213`_
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18152`_: (*sumso*) sqlite3 module does not commit writes to database
-  | refs: `#18213`_
+    | refs: `#18213`_
   - **PR** `#18213`_: (*sumso*) Update sqlite3.py to enable autocommit
-  | refs: `#18892`_
+    | refs: `#18892`_
+
 - **PR** `#18892`_: (*rallytime*) Backport `#18213`_ to 2014.7
 
   * 61ed91a Update sqlite3.py to enable autocommit
@@ -1490,8 +1694,10 @@ ad13ee0 Merge pull request `#18897`_ from UtahDave/2014.7local
 bdfc61a Merge pull request `#18893`_ from rallytime/`bp-18706`_
 
 - Referenced pull requests and issues
+
   - **PR** `#18706`_: (*elvis-macak*) fix the salt.utils.expr_match
-  | refs: `#18893`_
+    | refs: `#18893`_
+
 - **PR** `#18893`_: (*rallytime*) Backport `#18706`_ to 2014.7
 
   * fed5ece fix the salt.utils.expr_match
@@ -1499,8 +1705,10 @@ bdfc61a Merge pull request `#18893`_ from rallytime/`bp-18706`_
 62fe9c4 Merge pull request `#18895`_ from rallytime/`bp-18712`_
 
 - Referenced pull requests and issues
+
   - **PR** `#18712`_: (*styro*) Explicitly include stdlib csv module in esky build. Fixes missing csv mo...
-  | refs: `#18895`_
+    | refs: `#18895`_
+
 - **PR** `#18895`_: (*rallytime*) Backport `#18712`_ to 2014.7
 
   * e8a50ff Explicitly include stdlib csv module in esky build. Fixes missing csv module in Windows builds.
@@ -1508,10 +1716,12 @@ bdfc61a Merge pull request `#18893`_ from rallytime/`bp-18706`_
 969ecb4 Merge pull request `#18615`_ from eliasp/2014.7-modules.file.replace-issue-18612
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18612`_: (*eliasp*) 'file.replace' with 'append_if_not_found=True' grows file infinitely
-  | refs: `#18615`_ `#18655`_ `#19047`_
+    | refs: `#18615`_ `#18655`_ `#19047`_
+
 - **PR** `#18615`_: (*eliasp*) Don't change a file again if it's already been done.
-  | refs: `#19047`_
+    | refs: `#19047`_
 
   * a4dfb8a Remove dead code - 'search_only' is handled now earlier.
 
@@ -1522,8 +1732,10 @@ bdfc61a Merge pull request `#18893`_ from rallytime/`bp-18706`_
 4757b61 Merge pull request `#18876`_ from garethgreenaway/17185_2014_7_iptables_get_policy_slow_many_rules
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#17185`_: (*viraptor*) Iptables state is unusable with too many existing entries
-  | refs: `#18876`_
+    | refs: `#18876`_
+
 - **PR** `#18876`_: (*garethgreenaway*) fixes to iptables module
 
   * a53bcdc Moving the call to the parser out of the for loop loop so that it's not re-created for line.
@@ -1531,9 +1743,11 @@ bdfc61a Merge pull request `#18893`_ from rallytime/`bp-18706`_
 4c1e78e Merge pull request `#18889`_ from thatch45/wuxxin-fix_18632_in_2014.7
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18632`_: (*wuxxin*) state rbenv.installed still fails if user= is set (branch 2014.7)
   - **PR** `#18871`_: (*wuxxin*) shlex.split is used with "None" as parameter which makes split wait for stdinput (contributes to `#18632`_)
-  | refs: `#18889`_
+    | refs: `#18889`_
+
 - **PR** `#18889`_: (*thatch45*) Merge `#18871`_
 
   * e809fa6 make lint happ and python fast :)
@@ -1544,6 +1758,7 @@ bdfc61a Merge pull request `#18893`_ from rallytime/`bp-18706`_
 
 2a679dd Merge pull request `#18885`_ from eliasp/2014.7-deprecated-syntax
 
+
 - **PR** `#18885`_: (*eliasp*) Blank line before '.. deprecated::' required.
 
   * 0636d6e Blank line before '.. deprecated::' required.
@@ -1551,7 +1766,9 @@ bdfc61a Merge pull request `#18893`_ from rallytime/`bp-18706`_
 1e77fc9 Merge pull request `#18869`_ from wuxxin/2014.7
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18331`_: (*wuxxin*) debian/ubuntu: salt 2014.7.0 modules/debian_ip.py has wrong parameter name "pointtopoint" instead of "pointopoint"
+
 - **PR** `#18869`_: (*wuxxin*) change pointtopoint to pointopoint also in template (contributes to `#18331`_ )
 
   * 05cf77b change pointtopoint to pointopoint also in template (contributes to `#18331`_ )
@@ -1559,8 +1776,10 @@ bdfc61a Merge pull request `#18893`_ from rallytime/`bp-18706`_
 fb1577e Merge pull request `#18865`_ from jfindlay/venv_python
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18852`_: (*gutworth*) virtualenv.create requires a full path for the "python" argument
-  | refs: `#18865`_
+    | refs: `#18865`_
+
 - **PR** `#18865`_: (*jfindlay*) allow lookup of python on system path fix: `#18852`_
 
   * 5f2d175 update venv no python msg accordingly
@@ -1570,19 +1789,23 @@ fb1577e Merge pull request `#18865`_ from jfindlay/venv_python
 6fe4f9a Merge pull request `#18864`_ from techhat/issue18862
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18862`_: (*Vye*) disk.inodeusage bug on CentOS 6 in 2014.7
-  | refs: `#18864`_
+    | refs: `#18864`_
+
 - **PR** `#18864`_: (*techhat*) Run disk.inodeusage in posix mode
 
   * 15f1fde Run disk.inodeusage in posix mode
 
 da14f0f Merge pull request `#18825`_ from lyft/backport-grain-masterless-nosync
 
+
 - **PR** `#18825`_: (*ryan-lane*) Do not sync grains in grains.setval when using local mode
 
   * 8e2a9f8 Do not sync grains in grains.setval when using local mode
 
 da14f32 Merge pull request `#18821`_ from s0undt3ch/2014.7
+
 
 - **PR** `#18821`_: (*s0undt3ch*) Remove deprecated pylint options
 
@@ -1591,8 +1814,10 @@ da14f32 Merge pull request `#18821`_ from s0undt3ch/2014.7
 5a7f26c Merge pull request `#18814`_ from eliasp/2014.7-eselect-improvements
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18783`_: (*podshumok*) eselect state can't handle some configurations
-  | refs: `#18814`_ `#18814`_
+    | refs: `#18814`_ `#18814`_
+
 - **PR** `#18814`_: (*eliasp*) 2014.7 eselect improvements
 
   * b9f5c83 Pylint.
@@ -1636,8 +1861,10 @@ da14f32 Merge pull request `#18821`_ from s0undt3ch/2014.7
 7993f5c Merge pull request `#18812`_ from cro/proxy_logic_fix
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18799`_: (*cro*) Proxy minions not loading modules properly.
-  | refs: `#18812`_
+    | refs: `#18812`_
+
 - **PR** `#18812`_: (*cro*) Fix logic error introduced sometime in the past 6 months that prevented ...
 
   * f31afbd Fix pylint, remove unecessary call to pu.db
@@ -1647,10 +1874,12 @@ da14f32 Merge pull request `#18821`_ from s0undt3ch/2014.7
 14459bc Merge pull request `#18859`_ from saltstack/revert-18792-issue17963
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#17963`_: (*alexeits*) Loading of Jinja macros from GitFS shouldn't fail with TemplateNotFound in masterless configuration
-  | refs: `#18792`_ `#18860`_
+    | refs: `#18792`_ `#18860`_
   - **PR** `#18792`_: (*terminalmage*) Fix jinja search path for local file_client
-  | refs: `#18859`_ `#18860`_
+    | refs: `#18859`_ `#18860`_
+
 - **PR** `#18859`_: (*thatch45*) Revert "Fix jinja search path for local file_client"
 
   * 1e71344 Revert "Fix jinja search path for local file_client"
@@ -1658,20 +1887,24 @@ da14f32 Merge pull request `#18821`_ from s0undt3ch/2014.7
 e14d524 Merge pull request `#18792`_ from terminalmage/issue17963
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#17963`_: (*alexeits*) Loading of Jinja macros from GitFS shouldn't fail with TemplateNotFound in masterless configuration
-  | refs: `#18792`_ `#18860`_
+    | refs: `#18792`_ `#18860`_
+
 - **PR** `#18792`_: (*terminalmage*) Fix jinja search path for local file_client
-  | refs: `#18859`_ `#18860`_
+    | refs: `#18859`_ `#18860`_
 
   * fd604d1 Fix jinja search path for local file_client
 
 6368bef Merge pull request `#18845`_ from thatch45/bootstrap_paths
+
 
 - **PR** `#18845`_: (*thatch45*) Add more paths to syspaths
 
   * 2fad613 Add more paths to syspaths
 
 48e1df7 Merge pull request `#18776`_ from jfindlay/quote_virtualenv
+
 
 - **PR** `#18776`_: (*jfindlay*) unquote venv mod commands
 
@@ -1681,11 +1914,13 @@ e14d524 Merge pull request `#18792`_ from terminalmage/issue17963
 
 8a8d888 Merge pull request `#18816`_ from lyft/six-to-2014-7
 
+
 - **PR** `#18816`_: (*ryan-lane*) Add salt.ext.six to 2014.7 for module backwards compat from develop
 
   * 70f6ed8 Add salt.ext.six to 2014.7 for module backwards compat from develop
 
 76db5fd Merge pull request `#18798`_ from s0undt3ch/2014.7
+
 
 - **PR** `#18798`_: (*s0undt3ch*) Make coverage reports optional
 
@@ -1696,8 +1931,10 @@ e14d524 Merge pull request `#18792`_ from terminalmage/issue17963
 521cb2f Merge pull request `#18804`_ from garethgreenaway/12178_debian_briding
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#12178`_: (*wyattanderson*) Network interface bridging is a mess on Debian/Ubuntu
-  | refs: `#18804`_
+    | refs: `#18804`_
+
 - **PR** `#18804`_: (*garethgreenaway*) fixes to debian_ip.py
 
   * d102218 Cleaning up the documentation to make it clear that for setting up a network bridge on a Debian or Ubuntu system that the ports argument, specifying what interfaces are part of the bridge, is required.
@@ -1705,8 +1942,10 @@ e14d524 Merge pull request `#18792`_ from terminalmage/issue17963
 0c66555 Merge pull request `#18782`_ from rallytime/master_tops_rendering
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18723`_: (*steverweber*) doc topics/master_tops can use some cleanup.
-  | refs: `#18782`_
+    | refs: `#18782`_
+
 - **PR** `#18782`_: (*rallytime*) Fix markup so master_tops document will render correctly
 
   * 9e5350c Fix markup so master_tops document will render correctly
@@ -1714,8 +1953,10 @@ e14d524 Merge pull request `#18792`_ from terminalmage/issue17963
 989a11f Merge pull request `#18780`_ from rallytime/pymongo_note
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18756`_: (*pykler*) Docs for mongodb_user do not indicate the python-pymongo is required
-  | refs: `#18780`_
+    | refs: `#18780`_
+
 - **PR** `#18780`_: (*rallytime*) Add pymongo requirement notification to mongodb_user state
 
   * 6fa344c Add pymongo requirement notification to mongodb_user state
@@ -1723,8 +1964,10 @@ e14d524 Merge pull request `#18792`_ from terminalmage/issue17963
 d0b3b05 Merge pull request `#18771`_ from rallytime/list_not_tuple
 
 - Referenced pull requests and issues
+
   - **PR** `#18450`_: (*jfindlay*) quote input in aptpkg mod
-  | refs: `#18771`_
+    | refs: `#18771`_
+
 - **PR** `#18771`_: (*rallytime*) Use a list instead of a tuple when running dpkg-query command
 
   * 5636af6 Use a list instead of a tuple when running dpkg-query command
@@ -1732,8 +1975,10 @@ d0b3b05 Merge pull request `#18771`_ from rallytime/list_not_tuple
 589ce8f Merge pull request `#18767`_ from garethgreenaway/18474_2014_7_not_updating_fstab
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18474`_: (*babilen*) mount.mounted does not update fstab if only mount options have changed
-  | refs: `#18767`_
+    | refs: `#18767`_
+
 - **PR** `#18767`_: (*garethgreenaway*) Fixes to mount state.
 
   * fd35eaf Fixing an bug that was introduced related to adding new mount options which caused fstab to not be written out.
@@ -1741,13 +1986,16 @@ d0b3b05 Merge pull request `#18771`_ from rallytime/list_not_tuple
 314a4b0 Merge pull request `#18739`_ from cachedout/clean_pub_auth
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18736`_: (*cachedout*) publish_auth filling up
-  | refs: `#18739`_
+    | refs: `#18739`_
+
 - **PR** `#18739`_: (*cachedout*) Job to clean pub auth
 
   * 20c39ff Job to clean pub auth
 
 605b5b6 Merge pull request `#18773`_ from basepi/publish.full_data-wait
+
 
 - **PR** `#18773`_: (*basepi*) [2014.7] Make publish.full_data wait for returns as well
 
@@ -1755,22 +2003,26 @@ d0b3b05 Merge pull request `#18771`_ from rallytime/list_not_tuple
 
 7097cfd Merge pull request `#18770`_ from basepi/publish-prevent-fulldata
 
+
 - **PR** `#18770`_: (*basepi*) [2014.7] Prevent all `publish.` calls from publish calls
 
   * 0074842 Prevent all `publish.` calls from publish calls
 
 00bf5da Add bugfix for `#17963`_ to 2014.7.1 releae notes
 
+
 - **ISSUE** `#17963`_: (*alexeits*) Loading of Jinja macros from GitFS shouldn't fail with TemplateNotFound in masterless configuration
-  | refs: `#18792`_ `#18860`_
+    | refs: `#18792`_ `#18860`_
 
 2244ec3 Merge pull request `#18779`_ from sjansen/patch-2
+
 
 - **PR** `#18779`_: (*sjansen*) Restore salt-cloud ssh_gateway support
 
   * 29b0825 Restore salt-cloud ssh_gateway support
 
 346dd0b Merge pull request `#18777`_ from UtahDave/2014.7local
+
 
 - **PR** `#18777`_: (*UtahDave*) 2014.7local
 
@@ -1780,6 +2032,7 @@ d0b3b05 Merge pull request `#18771`_ from rallytime/list_not_tuple
 
 52db8f7 Merge pull request `#18754`_ from terminalmage/issue18710
 
+
 - **PR** `#18754`_: (*terminalmage*) Fix lint error, uncomment log message
 
   * 27c39d4 Re-enable log message
@@ -1788,17 +2041,20 @@ d0b3b05 Merge pull request `#18771`_ from rallytime/list_not_tuple
 
 2415142 Merge pull request `#18753`_ from basepi/state-output-salt-call
 
+
 - **PR** `#18753`_: (*basepi*) [2014.7] Move state_output CLI option to Output mixin
 
   * 430463d Move state_output CLI option to Output mixin
 
 6874f73 Merge pull request `#18747`_ from basepi/saltssh-state-cleanupfix
 
+
 - **PR** `#18747`_: (*basepi*) [2014.7] Normalize cleanup and return routines for state wrappers in salt-ssh
 
   * 01473ea Normalize cleanup and return routines for state wrappers in salt-ssh
 
 6409927 Merge pull request `#18691`_ from rallytime/grains_selinux_change
+
 
 - **PR** `#18691`_: (*rallytime*) Change cmd.run to cmd.retcode for selinuxenabled check
 
@@ -1810,8 +2066,9 @@ d0b3b05 Merge pull request `#18771`_ from rallytime/list_not_tuple
 
 00ed074 Merge pull request `#18741`_ from terminalmage/revert-pr18264
 
+
 - **PR** `#18741`_: (*terminalmage*) Revert `#18254`_
-  | refs: `#18762`_
+    | refs: `#18762`_
 
   * 8c7d66d Revert "Historically the recator has just called the "async" method of the runner and wheel clients, but this actually creates daemonized processes. In addition to creating a new daemonized process each event, the number of process it creates is unbounded, meaning that the reactor can easily use all available PIDs on a fairly busy master. In addition, there is no bound on the CPU that these are allowed to use (since they can create ALL the pids). This changes the reactor to create a threadpool for executing its master-side clients (runner/wheel). This threadpool has a configurable number of workers (max parallelism) and hwm (max queue size before dropping events)."
 
@@ -1823,6 +2080,7 @@ d0b3b05 Merge pull request `#18771`_ from rallytime/list_not_tuple
 
 6bf6ea0 Merge pull request `#18733`_ from cachedout/fix_iam_for_requests
 
+
 - **PR** `#18733`_: (*cachedout*) Account for variability in requests module in IAM
 
   * 31b9ec3 Account for variability in requests module
@@ -1830,8 +2088,10 @@ d0b3b05 Merge pull request `#18771`_ from rallytime/list_not_tuple
 d3f82b2 Merge pull request `#18728`_ from rallytime/remove_space
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18707`_: (*dvogt*) Typo in utils/event.py for salt.utils.process. ThreadPool (2014.7 and develop)
-  | refs: `#18728`_
+    | refs: `#18728`_
+
 - **PR** `#18728`_: (*rallytime*) Remove space between salt.utils.process. and ThreadPool
 
   * 5d2bea1 Don't comment out second line!
@@ -1840,11 +2100,13 @@ d3f82b2 Merge pull request `#18728`_ from rallytime/remove_space
 
 bf9e72f Merge pull request `#18679`_ from SmithSamuelM/2014.7_murat2
 
+
 - **PR** `#18679`_: (*SmithSamuelM*) Fix ValueError message in RAET Transport
 
   * f469de2 Fix ValueError message in RAET Transport Revert uncomment  retry transmit
 
 8a7134e Merge pull request `#18672`_ from whiteinge/mod_aggregate-state-level
+
 
 - **PR** `#18672`_: (*whiteinge*) Add docs for mod_aggregate state-level keywords
 
@@ -1855,13 +2117,16 @@ bf9e72f Merge pull request `#18679`_ from SmithSamuelM/2014.7_murat2
 64bab7c Merge pull request `#18666`_ from garethgreenaway/18550_2014_7_swap_device_symlink
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18550`_: (*somenick*) mount.swap state doesn't work with /dev symlinks
-  | refs: `#18666`_
+    | refs: `#18666`_
+
 - **PR** `#18666`_: (*garethgreenaway*) Fixed to mount state related to enabling swap
 
   * 59e0ad7 Fixing a bug if a swap device is specified as one of the special symlinks, eg. the links under /dev/disk/by-uuid
 
 f17b456 Merge pull request `#18663`_ from terminalmage/buildpackage-jenkins-adjustment
+
 
 - **PR** `#18663`_: (*terminalmage*) Always run download_packages() after executing buildpackage SLS
 
@@ -1870,8 +2135,10 @@ f17b456 Merge pull request `#18663`_ from terminalmage/buildpackage-jenkins-adju
 85c6395 Merge pull request `#18660`_ from garethgreenaway/18613_2014_7_mount_via_uuid
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18613`_: (*kormoc*) UUID mounts do not detect device from uuid correctly
-  | refs: `#18660`_
+    | refs: `#18660`_
+
 - **PR** `#18660`_: (*garethgreenaway*) Fixes to mount state.
 
   * ea3bc1c Fixing a bug when mounting using the UUID but the device is mounted using the actual device.  Results in an attempt to umount and remount.
@@ -1879,7 +2146,9 @@ f17b456 Merge pull request `#18663`_ from terminalmage/buildpackage-jenkins-adju
 09e9148 Merge pull request `#18657`_ from wuxxin/2014.7
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18632`_: (*wuxxin*) state rbenv.installed still fails if user= is set (branch 2014.7)
+
 - **PR** `#18657`_: (*wuxxin*) 2014.7: fix for `#18632`_
 
   * 164bea7 Merge branch '2014.7' of https://github.com/saltstack/salt into 2014.7
@@ -1891,8 +2160,10 @@ f17b456 Merge pull request `#18663`_ from terminalmage/buildpackage-jenkins-adju
 b798f33 Merge pull request `#18655`_ from eliasp/2014.7-modules.locale-gentoo_fixes
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18612`_: (*eliasp*) 'file.replace' with 'append_if_not_found=True' grows file infinitely
-  | refs: `#18615`_ `#18655`_ `#19047`_
+    | refs: `#18615`_ `#18655`_ `#19047`_
+
 - **PR** `#18655`_: (*eliasp*) 2014.7 modules.locale gentoo fixes
 
   * ea65712 Improve locale._normalize_locale() by dropping the charmap.
@@ -1902,8 +2173,10 @@ b798f33 Merge pull request `#18655`_ from eliasp/2014.7-modules.locale-gentoo_fi
 23259e5 Merge pull request `#18654`_ from thatch45/func_fail
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18512`_: (*amendlik*) salt.function returns success when the function is unavailable
-  | refs: `#18654`_
+    | refs: `#18654`_
+
 - **PR** `#18654`_: (*thatch45*) Add retcode and success to function not found
 
   * b156cdd Add retcode and success to function not found
@@ -1911,8 +2184,10 @@ b798f33 Merge pull request `#18655`_ from eliasp/2014.7-modules.locale-gentoo_fi
 0bed869 Merge pull request `#18644`_ from rallytime/boto_asg_fix
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18566`_: (*vladislav-jomedia*) /modules/boto_asg.py missing if
-  | refs: `#18644`_
+    | refs: `#18644`_
+
 - **PR** `#18644`_: (*rallytime*) If the asg does not exist in the region provided, don't return True.
 
   * c64a542 Also add some logic and debug logs to launch_configuration_exists
@@ -1922,13 +2197,16 @@ b798f33 Merge pull request `#18655`_ from eliasp/2014.7-modules.locale-gentoo_fi
 68a8909 Merge pull request `#18682`_ from eliasp/2014.7-modules.file.replace-issue-18680
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18680`_: (*eliasp*) 'file.replace' wipes file content
-  | refs: `#18682`_
+    | refs: `#18682`_
+
 - **PR** `#18682`_: (*eliasp*) Don't empty the file when it is supposed to be only read.
 
   * 8736399 Don't empty the file when it is supposed to be only read.
 
 c17335b Merge pull request `#18634`_ from jacksontj/2014.7
+
 
 - **PR** `#18634`_: (*jacksontj*) Add JID to scheduled jobs names as well
 
@@ -1936,11 +2214,13 @@ c17335b Merge pull request `#18634`_ from jacksontj/2014.7
 
 ec5d380 Merge pull request `#18629`_ from terminalmage/issue18571
 
+
 - **PR** `#18629`_: (*terminalmage*) Remove quotes from s3fs ETag entries
 
   * daf7f94 Remove quotes from s3fs ETag entries
 
 cee5d5b Merge pull request `#18601`_ from krak3n/2014.7
+
 
 - **PR** `#18601`_: (*krak3n*) Docker pulled - compare against images correctly
 
@@ -1949,8 +2229,10 @@ cee5d5b Merge pull request `#18601`_ from krak3n/2014.7
 b1b7700 Merge pull request `#18592`_ from nazgul5/utils.network
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18591`_: (*nazgul5*) salt-minion 2014.7.0 fails to start on Solaris system with tunnel interface
-  | refs: `#18592`_
+    | refs: `#18592`_
+
 - **PR** `#18592`_: (*nazgul5*) salt.utils.network._interfaces_ifconfig: SunOS fix
 
   * 8f9af68 Lint fixes: unused import, tabs
@@ -1958,6 +2240,7 @@ b1b7700 Merge pull request `#18592`_ from nazgul5/utils.network
   * 8ff9e7f salt.utils.network._interfaces_ifconfig: SunOS fix
 
 60b9d47 Merge pull request `#18638`_ from s0undt3ch/2014.7
+
 
 - **PR** `#18638`_: (*s0undt3ch*) Some 2014.7 test fixes
 
@@ -1974,13 +2257,16 @@ b1b7700 Merge pull request `#18592`_ from nazgul5/utils.network
 712a9f4 Merge pull request `#18651`_ from basepi/issue-16413
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#16413`_: (*kt97679*)  salt-ssh and pillars 
-  | refs: `#18651`_
+    | refs: `#18651`_
+
 - **PR** `#18651`_: (*basepi*) Add fix from `#16413`_
 
   * 5846524 Add fix from `#16413`_
 
 19022ff Merge pull request `#18620`_ from cro/pg_jid_doc8
+
 
 - **PR** `#18620`_: (*cro*) jids can't be ints anymore, because we can now set jid names.
 
@@ -1989,13 +2275,16 @@ b1b7700 Merge pull request `#18592`_ from nazgul5/utils.network
 dbcc98e Merge pull request `#18610`_ from rallytime/update_zmq4_docs
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18476`_: (*Auha*) Upgrading salt on my master caused dependency issues
-  | refs: `#18610`_
+    | refs: `#18610`_
+
 - **PR** `#18610`_: (*rallytime*) Make ZMQ 4 installation docs for ubuntu more clear
 
   * 9fe67a3 Make ZMQ 4 installation docs for ubuntu more clear
 
 04fe938 Merge pull request `#18585`_ from rallytime/cmd_unittests
+
 
 - **PR** `#18585`_: (*rallytime*) Added some more cmdmod unittests
 
@@ -2010,35 +2299,43 @@ dbcc98e Merge pull request `#18610`_ from rallytime/update_zmq4_docs
 8773dd3 Merge pull request `#18608`_ from jfindlay/user_typos
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18590`_: (*wangyang616*) user set maxdays failed
-  | refs: `#18608`_
+    | refs: `#18608`_
+
 - **PR** `#18608`_: (*jfindlay*) fix typos in states.user.present `#18590`_
 
   * 4f8f957 fix typos in states.user.present `#18590`_
 
 8315335 Remove PyLint disable rule in 2014.7
 
+
 - **ISSUE** #: (**) 
 
 2396568 Remove unused import
+
 
 - **ISSUE** #: (**) 
 
 74110d8 Don't assume the `PATH` env var is set
 
+
 - **ISSUE** #: (**) 
 
 6530a79 Disable the false import error
 
+
 - **ISSUE** #: (**) 
 
 3ea390f Merge pull request `#18617`_ from rallytime/disable_max_files_test
+
 
 - **PR** `#18617`_: (*rallytime*) Skip test_max_open_files test until we can find the real problem
 
   * 3760915 Skip test_max_open_files test until we can find the real problem
 
 a5a92db Merge pull request `#18618`_ from juiceinc/2014.7
+
 
 - **PR** `#18618`_: (*timoguin*) Fixed allocate_new_eip typo in AWS cloud docs
 
@@ -2047,8 +2344,10 @@ a5a92db Merge pull request `#18618`_ from juiceinc/2014.7
 bf29504 Merge pull request `#18577`_ from garethgreenaway/18534_2014_7_schedule_cpu_spike
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18534`_: (*bigg01*) minion schedule highstate makes infinity loop 100% cpu allt the time
-  | refs: `#18577`_
+    | refs: `#18577`_
+
 - **PR** `#18577`_: (*garethgreenaway*) Fixes to scheduler in 2014.7
 
   * f5de037 Fixing a bug in the scheduler that caused a runaway job and CPU spikes when using the 'when' paramter.  Also some cleanup of redundant calls to time.time and the comparison used to see when a job should run.
@@ -2056,13 +2355,16 @@ bf29504 Merge pull request `#18577`_ from garethgreenaway/18534_2014_7_schedule_
 804fbf9 Merge pull request `#18568`_ from terminalmage/issue18468
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18468`_: (*syndicut*) hold: True from salt.states.pkg doesn't work with yum when specifying versions for multiple packages
-  | refs: `#18568`_
+    | refs: `#18568`_
+
 - **PR** `#18568`_: (*terminalmage*) Fix yum pkg holding when doing version pinning with "pkgs" arg
 
   * 55dac6f Fix yum pkg holding when doing version pinning with "pkgs" arg
 
 e9733ec Merge pull request `#18557`_ from eliasp/2014.7-pillar.pillar_ldap-no-results-logging
+
 
 - **PR** `#18557`_: (*eliasp*) Move the log message in case no results were returned into the right block
 
@@ -2070,11 +2372,13 @@ e9733ec Merge pull request `#18557`_ from eliasp/2014.7-pillar.pillar_ldap-no-re
 
 e7f3be3 Merge pull request `#18556`_ from eliasp/2014.7-pillar.pillar_ldap-anonymous_bind
 
+
 - **PR** `#18556`_: (*eliasp*) Prevent 'DSID-0C0906E8' error when binding to ActiveDirectory.
 
   * 68de0b3 Prevent 'DSID-0C0906E8' error when binding to ActiveDirectory.
 
 e2a0c0c Merge pull request `#18543`_ from whiteinge/raet-compat-event-listen
+
 
 - **PR** `#18543`_: (*whiteinge*) Switch to RAET-compatible event listener
 
@@ -2083,8 +2387,10 @@ e2a0c0c Merge pull request `#18543`_ from whiteinge/raet-compat-event-listen
 2976932 Merge pull request `#18526`_ from techhipster/saltmod-cmd-all-output
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18511`_: (*amendlik*) salt.function fails when the result is a dictionary
-  | refs: `#18526`_
+    | refs: `#18526`_
+
 - **PR** `#18526`_: (*amendlik*) Saltmod cmd all output
 
   * 295db0c Properly output the results of salt.function states
@@ -2093,11 +2399,13 @@ e2a0c0c Merge pull request `#18543`_ from whiteinge/raet-compat-event-listen
 
 36a4bf2 Merge pull request `#18498`_ from jfindlay/quote_virtualenv
 
+
 - **PR** `#18498`_: (*jfindlay*) quote strs in virtualenv mod
 
   * a3c02e1 quote strs in virtualenv mod
 
 641c119 Merge pull request `#18586`_ from s0undt3ch/2014.7
+
 
 - **PR** `#18586`_: (*s0undt3ch*) 2014.7 Lint disable rules
 
@@ -2119,11 +2427,13 @@ e2a0c0c Merge pull request `#18543`_ from whiteinge/raet-compat-event-listen
 
 1e989d0 Merge pull request `#18524`_ from garethgreenaway/missing_scheduler_cron_docs
 
+
 - **PR** `#18524`_: (*garethgreenaway*) scheduler docs
 
   * a0b0603 Adding missing docs for using cron like format for scheduler
 
 9798f89 Merge pull request `#18575`_ from eliasp/2014.7_doc_aggregate_typo
+
 
 - **PR** `#18575`_: (*eliasp*) Fix typo (agregate → aggregate).
 
@@ -2131,17 +2441,21 @@ e2a0c0c Merge pull request `#18543`_ from whiteinge/raet-compat-event-listen
 
 b11542d Update 2014.7.1 release notes
 
+
 - **ISSUE** #: (**) 
 
 cc4afe8 Merge pull request `#18528`_ from s0undt3ch/hotfix/transifex-updates
 
 - Referenced pull requests and issues
+
   - **PR** `#213`_: (*whiteinge*) Move modules/states/renderers/returners docs to autosummary
+
 - **PR** `#18528`_: (*s0undt3ch*) Update 'doc/.tx/config' - Build `#213`_
 
   * f5794f8 Update 'doc/.tx/config' - Build `#213`_
 
 968ec62 Merge pull request `#18525`_ from s0undt3ch/2014.7
+
 
 - **PR** `#18525`_: (*s0undt3ch*) Switch `open()` for `salt.utils.fopen()`
 
@@ -2273,17 +2587,20 @@ cc4afe8 Merge pull request `#18528`_ from s0undt3ch/hotfix/transifex-updates
 
 bb53bc3 Merge pull request `#18532`_ from cro/nssm32bit_20147
 
+
 - **PR** `#18532`_: (*cro*) Upgrade nssm but switch back to 32 bit
 
   * f41cc45 Switch nssm back to 32-bit
 
 c085a23 Merge pull request `#18539`_ from wt/fix_s3fs_2014.7_exception
 
+
 - **PR** `#18539`_: (*wt*) Handle errors while unpickling.
 
   * 18a5851 Handle errors while unpickling.
 
 1c76db6 Merge pull request `#18499`_ from whiteinge/runner-sync-eventlisten
+
 
 - **PR** `#18499`_: (*whiteinge*) Start listening for events when RunnerClient is instantiated
 
@@ -2292,13 +2609,16 @@ c085a23 Merge pull request `#18539`_ from wt/fix_s3fs_2014.7_exception
 5c08ba4 Merge pull request `#18494`_ from rallytime/cleanup_doc_build
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18471`_: (*nmadhok*) make html on docs complains about no module named eventloop in zmq
-  | refs: `#18494`_
+    | refs: `#18494`_
+
 - **PR** `#18494`_: (*rallytime*) Clean up doc build so it doesn't stacktrace
 
   * 73f3c00 Clean up doc build so it doesn't stacktrace
 
 876b8ca Merge pull request `#18491`_ from jfindlay/quote_genesis
+
 
 - **PR** `#18491`_: (*jfindlay*) quote strs in genesis mod
 
@@ -2306,11 +2626,13 @@ c085a23 Merge pull request `#18539`_ from wt/fix_s3fs_2014.7_exception
 
 965a68d Merge pull request `#18489`_ from rallytime/cleanup_tornado_tests
 
+
 - **PR** `#18489`_: (*rallytime*) Skip tornado tests if we can't import ZMQIOLoop
 
   * eeab98c Skip tornado tests if we can't import ZMQIOLoop
 
 2e44c6b Merge pull request `#18486`_ from jfindlay/quote_parted
+
 
 - **PR** `#18486`_: (*jfindlay*) validate block devices in parted mod
 
@@ -2319,19 +2641,23 @@ c085a23 Merge pull request `#18539`_ from wt/fix_s3fs_2014.7_exception
 592a65c Merge pull request `#18485`_ from cachedout/mysql_no_log
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18453`_: (*hal58th*) State mysql_user shows cleartext password in highstate log at INFO level.
-  | refs: `#18485`_
+    | refs: `#18485`_
+
 - **PR** `#18485`_: (*cachedout*) Do not log
 
   * a3ef002 Do not log
 
 d0b17de Merge pull request `#18484`_ from garethgreenaway/scheduler_fixes
 
+
 - **PR** `#18484`_: (*garethgreenaway*) Fixes to scheduler in 2014.7
 
   * ed0211b Adding some fixes to the schedule when splay is specified but the seconds option is not.  Also allowing splay start and end flags to be equal to lock down splay to a specific number of seconds.
 
 45cf5b9 Merge pull request `#18473`_ from fastmarkets/2014.7
+
 
 - **PR** `#18473`_: (*johnccfm*) Fix bug `#18129`_ in win_service.status.
 
@@ -2340,17 +2666,20 @@ d0b17de Merge pull request `#18484`_ from garethgreenaway/scheduler_fixes
 ccaaa9f Merge pull request `#18467`_ from rallytime/remove_encoding_arg
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18458`_: (*cvrebert*) output.nested.NestDisplay.ustring ignores encoding argument
-  | refs: `#18467`_
+    | refs: `#18467`_
   - **ISSUE** `#18053`_: (*myg0v*) 'utf8' codec can't decode byte 0x81 in position 29: invalid start byte after upgrade to 2014.1.13 or 2014.7.0
-  | refs: `#18374`_
+    | refs: `#18374`_
   - **PR** `#18374`_: (*thatch45*) Add new sdecode to nested outputter
-  | refs: `#18467`_
+    | refs: `#18467`_
+
 - **PR** `#18467`_: (*rallytime*) Remove encoding kwarg from ustring
 
   * b943a3e Remove encoding kwarg from ustring
 
 93ddc68 Merge pull request `#18454`_ from rallytime/cmd_unittests
+
 
 - **PR** `#18454`_: (*rallytime*) Started some unit tests for the cmdmod.py module
 
@@ -2360,16 +2689,19 @@ ccaaa9f Merge pull request `#18467`_ from rallytime/remove_encoding_arg
 
 31d8043 Merge pull request `#18450`_ from jfindlay/quote_apt
 
+
 - **PR** `#18450`_: (*jfindlay*) quote input in aptpkg mod
-  | refs: `#18771`_
+    | refs: `#18771`_
 
   * 68fa2ab quote input in aptpkg mod
 
 10964ed Merge pull request `#18449`_ from cachedout/require_name_in_file_state
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18432`_: (*Mrten*) empty names:  entry weird error
-  | refs: `#18449`_
+    | refs: `#18449`_
+
 - **PR** `#18449`_: (*cachedout*) Friendly message if name arg is none/false
 
   * 51b866f Friendly message if name arg is none/false
@@ -2377,19 +2709,23 @@ ccaaa9f Merge pull request `#18467`_ from rallytime/remove_encoding_arg
 9e6572f Merge pull request `#18452`_ from cachedout/issue_18380
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18380`_: (*cvrebert*) states.zcbuildout.installed() ignores loglevel argument
-  | refs: `#18452`_
+    | refs: `#18452`_
+
 - **PR** `#18452`_: (*cachedout*) Pass loglevel in zcbuildout
 
   * d339832 Pass loglevel in zcbuildout
 
 456c4d6 Merge pull request `#18446`_ from basepi/filemanagecontentsstring
 
+
 - **PR** `#18446`_: (*basepi*) Force contents to a string in file.managed
 
   * 2402d10 Force contents to a string in file.managed
 
 9bfc40c Merge pull request `#18442`_ from jfindlay/quote_rbenv
+
 
 - **PR** `#18442`_: (*jfindlay*) quote input in rbenv mod
 
@@ -2399,6 +2735,7 @@ ccaaa9f Merge pull request `#18467`_ from rallytime/remove_encoding_arg
 
 4d12e8f Merge pull request `#18464`_ from rallytime/pylinting
 
+
 - **PR** `#18464`_: (*rallytime*) Fix OrderedDict import in runners/lxc.py
 
   * 0909269 Fix OrderedDict import in runners/lxc.py
@@ -2406,8 +2743,10 @@ ccaaa9f Merge pull request `#18467`_ from rallytime/remove_encoding_arg
 817a0a4 Merge pull request `#18439`_ from rallytime/jenkins_argparse
 
 - Referenced pull requests and issues
+
   - **PR** `#18393`_: (*s0undt3ch*) Use requests instead of github package. Also output the PR incoming branch
-  | refs: `#18439`_
+    | refs: `#18439`_
+
 - **PR** `#18439`_: (*rallytime*) Jenkins argparse
 
   * 022d2db Remove unused import
@@ -2419,8 +2758,10 @@ ccaaa9f Merge pull request `#18467`_ from rallytime/remove_encoding_arg
 0bea194 Merge pull request `#18443`_ from basepi/issue-12483-docs
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#12483`_: (*driskell*) Top SLS compilation does not behave the same as Docs describe
-  | refs: `#18443`_
+    | refs: `#18443`_
+
 - **PR** `#18443`_: (*basepi*) Add warning to docs about topfile compilation
 
   * 4222356 Add warning to docs about topfile compilation
@@ -2428,12 +2769,15 @@ ccaaa9f Merge pull request `#18467`_ from rallytime/remove_encoding_arg
 0f6e314 Merge pull request `#18438`_ from thatch45/odict_clense
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18428`_: (*arthurlogilab*) lxc.OrderedDict appears in documentation of lxc runner
+
 - **PR** `#18438`_: (*thatch45*) Fix `#18428`_
 
   * 4fc90e8 Fix `#18428`_
 
 4e2ec16 Merge pull request `#18435`_ from terminalmage/release_notes
+
 
 - **PR** `#18435`_: (*terminalmage*) Add 2014.7.0 release to release notes toctree
 
@@ -2445,6 +2789,7 @@ ccaaa9f Merge pull request `#18467`_ from rallytime/remove_encoding_arg
 
 e5cbf57 Merge pull request `#18434`_ from APSL/apslmaster
 
+
 - **PR** `#18434`_: (*eduherraiz*) Solve problem with special mercurial repos in pip module
 
   * 9f85e68 Merge remote-tracking branch 'upstream/2014.7' into apslmaster
@@ -2453,11 +2798,13 @@ e5cbf57 Merge pull request `#18434`_ from APSL/apslmaster
 
 6e5fd0a Merge pull request `#18411`_ from Unity-Technologies/osx-fix-macports
 
+
 - **PR** `#18411`_: (*opdude*) Fixed installation of packages via macports on OS X
 
   * b75e059 Fixed installation of packages via macports on OS X
 
 84511d7 Merge pull request `#18408`_ from Unity-Technologies/osx-fix-ip6-localhost
+
 
 - **PR** `#18408`_: (*opdude*) Filter out IPv6 localhost on OS X
 
@@ -2466,8 +2813,10 @@ e5cbf57 Merge pull request `#18434`_ from APSL/apslmaster
 ed6bc7b Merge pull request `#18382`_ from thatch45/12255
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#12255`_: (*eliasp*) 'system.set_computer_desc' fails with non-ASCII chars
-  | refs: `#18382`_
+    | refs: `#18382`_
+
 - **PR** `#18382`_: (*thatch45*) Add verification of unicode data in windows data sets
 
   * 89f9bca Add verification of unicode data in windows data sets
@@ -2475,8 +2824,10 @@ ed6bc7b Merge pull request `#18382`_ from thatch45/12255
 a813f3b Merge pull request `#18379`_ from thatch45/15690
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#15690`_: (*rominf*) salt-call and salt treat unicode differently
-  | refs: `#18379`_
+    | refs: `#18379`_
+
 - **PR** `#18379`_: (*thatch45*) Fixes `#15690`_
 
   * 7d20891 try with string cast
@@ -2485,13 +2836,16 @@ a813f3b Merge pull request `#18379`_ from thatch45/15690
 
 6e0f4da Fix syntax errors
 
+
 - **ISSUE** #: (**) 
 
 360949c Merge pull request `#18392`_ from thatch45/listen_fix
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18360`_: (*anonymouzz*) 'listen' variable in template context overweite 'listen' trigger
-  | refs: `#18392`_
+    | refs: `#18392`_
+
 - **PR** `#18392`_: (*thatch45*) Check for listen data struct validity
 
   * 00b2848 Add data structure check to listen flag
@@ -2499,13 +2853,16 @@ a813f3b Merge pull request `#18379`_ from thatch45/15690
 240c8f2 Merge pull request `#18389`_ from rallytime/fix_unused_arg
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18387`_: (*cvrebert*) ignored query_type args in cloud module
-  | refs: `#18389`_
+    | refs: `#18389`_
+
 - **PR** `#18389`_: (*rallytime*) Fix unused args in modules/cloud.py
 
   * dd47871 Fix unused args in modules/cloud.py
 
 60a1483 Merge pull request `#18377`_ from thatch45/usr_fix
+
 
 - **PR** `#18377`_: (*thatch45*) Use the sdecode routine
 
@@ -2516,16 +2873,19 @@ a813f3b Merge pull request `#18379`_ from thatch45/15690
 9a38c51 Merge pull request `#18385`_ from rallytime/cloud_events_doc
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#16755`_: (*SVQTQ*) salt-cloud doesn't work with reactors
-  | refs: `#18385`_
+    | refs: `#18385`_
+
 - **PR** `#18385`_: (*rallytime*) Add information about salt-cloud events to master events doc
 
   * 91538d7 Add information about salt-cloud events to master events doc
 
 49e3878 Merge pull request `#18393`_ from s0undt3ch/2014.7
 
+
 - **PR** `#18393`_: (*s0undt3ch*) Use requests instead of github package. Also output the PR incoming branch
-  | refs: `#18439`_
+    | refs: `#18439`_
 
   * 74e23b9 And also the base branch of the incoming PR's branch
 
@@ -2534,10 +2894,12 @@ a813f3b Merge pull request `#18379`_ from thatch45/15690
 864ad4b Merge pull request `#18378`_ from rallytime/`bp-18079`_
 
 - Referenced pull requests and issues
+
   - **PR** `#18105`_: (*thatch45*) Merge `#18079`_
-  | refs: `#18378`_
+    | refs: `#18378`_
   - **PR** `#18079`_: (*oldmantaiter*) Fix for cross-platform sysctl with test and custom config location when using systemd >= 207
-  | refs: `#18105`_
+    | refs: `#18105`_
+
 - **PR** `#18378`_: (*rallytime*) Backport `#18105`_ to 2014.7
 
   * ec94a46 more lint
@@ -2547,8 +2909,10 @@ a813f3b Merge pull request `#18379`_ from thatch45/15690
 681fe94 Merge pull request `#18375`_ from rallytime/remove_unused_arg
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18371`_: (*cvrebert*) modules.dockerio._parse_image_multilogs_string: Unused arg 'repo'
-  | refs: `#18375`_
+    | refs: `#18375`_
+
 - **PR** `#18375`_: (*rallytime*) Remove 'repo' argument as it isn't used by function
 
   * 0d2e6a0 Remove 'repo' argument as it isn't used by function
@@ -2556,7 +2920,9 @@ a813f3b Merge pull request `#18379`_ from thatch45/15690
 0b4c8b9 Merge pull request `#18363`_ from jacksontj/2014.7
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#8670`_: (*wari*) Events API should provide a proper wait when given a tag filter argument.
+
 - **PR** `#18363`_: (*jacksontj*) Fix for `#8670`_
 
   * 44f91a1 Add regression test for `#8670`_
@@ -2566,8 +2932,10 @@ a813f3b Merge pull request `#18379`_ from thatch45/15690
 644f69e Merge pull request `#18343`_ from thatch45/requests_crazy
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18131`_: (*nvx*) fileclient.py#get_url ignores HTTP Auth (2014.1 -> 2014.7 regression)
-  | refs: `#18343`_
+    | refs: `#18343`_
+
 - **PR** `#18343`_: (*thatch45*) Fix `#18131`_
 
   * 4fc0ea9 Fix `#18131`_
@@ -2575,8 +2943,10 @@ a813f3b Merge pull request `#18379`_ from thatch45/15690
 1b68371 Merge pull request `#18376`_ from thatch45/18361
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18361`_: (*gpkvt*) German umlauts in files managed by file.managed breaks salt
-  | refs: `#18376`_
+    | refs: `#18376`_
+
 - **PR** `#18376`_: (*thatch45*) Add sdecode for highstate
 
   * 69e2a2d remove unused imports
@@ -2586,8 +2956,10 @@ a813f3b Merge pull request `#18379`_ from thatch45/15690
 c858e43 Merge pull request `#18365`_ from jacksontj/2014.7-config
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#15663`_: (*basepi*) Add failed test=True output to prereq failure
-  | refs: `#18365`_
+    | refs: `#18365`_
+
 - **PR** `#18365`_: (*jacksontj*) Better output on requisite failure
 
   * 347d68a More comments, and a more specific key for the comment_dict (so you can know which SLS it was)
@@ -2597,14 +2969,17 @@ c858e43 Merge pull request `#18365`_ from jacksontj/2014.7-config
 be494c9 Merge pull request `#18374`_ from thatch45/18053
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18053`_: (*myg0v*) 'utf8' codec can't decode byte 0x81 in position 29: invalid start byte after upgrade to 2014.1.13 or 2014.7.0
-  | refs: `#18374`_
+    | refs: `#18374`_
+
 - **PR** `#18374`_: (*thatch45*) Add new sdecode to nested outputter
-  | refs: `#18467`_
+    | refs: `#18467`_
 
   * 789ad7b Add new sdecode to nested outputter
 
 e3716ab Merge pull request `#18383`_ from thatch45/stray_print
+
 
 - **PR** `#18383`_: (*thatch45*) remove stray print
 
@@ -2613,7 +2988,9 @@ e3716ab Merge pull request `#18383`_ from thatch45/stray_print
 b1e2d28 Merge pull request `#18366`_ from thatch45/saltfile_parser
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18353`_: (*davidjb*) Extrafile_refs are ignored when specified in a Saltfile
+
 - **PR** `#18366`_: (*thatch45*) Get non standard saltfile opts into opts
 
   * 1bfc9c6 Add extra_filerefs to salt-ssh options
@@ -2623,6 +3000,7 @@ b1e2d28 Merge pull request `#18366`_ from thatch45/saltfile_parser
   * 481a52c Fix part 1 of `#18353`_
 
 be35e1c Merge pull request `#18367`_ from thatch45/sdecode
+
 
 - **PR** `#18367`_: (*thatch45*) initial sdicode function
 
@@ -2638,6 +3016,7 @@ be35e1c Merge pull request `#18367`_ from thatch45/sdecode
 
 c02e2e9 Merge pull request `#18281`_ from cro/mdadm_update
 
+
 - **PR** `#18281`_: (*cro*) Properly quote parameters to mdadm
 
   * ae2b506 Properly quote some parameters to mdadm
@@ -2648,6 +3027,7 @@ c02e2e9 Merge pull request `#18281`_ from cro/mdadm_update
 
 3b91d96 Merge pull request `#18364`_ from thatch45/nacl_check
 
+
 - **PR** `#18364`_: (*thatch45*) check for the OSError that libnacl might throw if libsodium is no here
 
   * 59feb4d check for the OSError that libnacl might throw if libsodium is no here
@@ -2655,8 +3035,10 @@ c02e2e9 Merge pull request `#18281`_ from cro/mdadm_update
 1af1492 Merge pull request `#18350`_ from thatch45/key_race
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#17289`_: (*hal58th*) Minion and salt commands generating two minion keys under race conditions
-  | refs: `#18350`_
+    | refs: `#18350`_
+
 - **PR** `#18350`_: (*thatch45*) Fix key gen race condition, fix `#17289`_
 
   * beb85d3 Fix key gen race condition, fix `#17289`_
@@ -2664,8 +3046,10 @@ c02e2e9 Merge pull request `#18281`_ from cro/mdadm_update
 5e41adf Merge pull request `#18349`_ from rallytime/`bp-18049`_
 
 - Referenced pull requests and issues
+
   - **PR** `#18049`_: (*ze42*) bugfixes: netbsd_sysctl
-  | refs: `#18349`_
+    | refs: `#18349`_
+
 - **PR** `#18349`_: (*rallytime*) Backport `#18049`_ to 2014.7
 
   * 8e3e2d0 fix: (netbsd)sysctl.persist (state was broken)
@@ -2675,8 +3059,10 @@ c02e2e9 Merge pull request `#18281`_ from cro/mdadm_update
 dc672d9 Merge pull request `#18348`_ from thatch45/unpriv_jid
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#17958`_: (*Supermathie*) unpriv salt.client.LocalClient.get_cache_returns spins forever
-  | refs: `#18348`_
+    | refs: `#18348`_
+
 - **PR** `#18348`_: (*thatch45*) Fix error with perm denial on unpriv job lookups
 
   * c5d3d42 don't need the pass
@@ -2686,13 +3072,16 @@ dc672d9 Merge pull request `#18348`_ from thatch45/unpriv_jid
 b235088 Merge pull request `#18347`_ from rallytime/`bp-17706`_
 
 - Referenced pull requests and issues
+
   - **PR** `#17706`_: (*aletourneau*) Fixed namespace issue in cloud/clouds/cloudstack.py which was breaking i...
-  | refs: `#18347`_
+    | refs: `#18347`_
+
 - **PR** `#18347`_: (*rallytime*) Backport `#17706`_ to 2014.7
 
   * 7e5da8e Fixed namespace issue in cloud/clouds/cloudstack.py which was breaking its destroy method
 
 c7b9af2 Merge pull request `#18346`_ from jfindlay/quote_rvm
+
 
 - **PR** `#18346`_: (*jfindlay*) quote shell strs in rvm mod
 
@@ -2700,11 +3089,13 @@ c7b9af2 Merge pull request `#18346`_ from jfindlay/quote_rvm
 
 b55fe1b Merge pull request `#18344`_ from cachedout/pyenv_quote
 
+
 - **PR** `#18344`_: (*cachedout*) quote pyenv
 
   * 956c509 quote pyenv
 
 ed3851c Merge pull request `#18340`_ from cachedout/pecl_quote
+
 
 - **PR** `#18340`_: (*cachedout*) quote pecl
 
@@ -2715,18 +3106,22 @@ ed3851c Merge pull request `#18340`_ from cachedout/pecl_quote
 fafe2f4 Merge pull request `#18336`_ from wuxxin/2014.7
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18331`_: (*wuxxin*) debian/ubuntu: salt 2014.7.0 modules/debian_ip.py has wrong parameter name "pointtopoint" instead of "pointopoint"
+
 - **PR** `#18336`_: (*wuxxin*) fixes `#18331`_
 
   * 016056c fixes `#18331`_
 
 8b2787b Merge pull request `#18332`_ from cachedout/vmadm_quote
 
+
 - **PR** `#18332`_: (*cachedout*) fix args
 
   * 63289ea fix args
 
 bc5f4c3 Merge pull request `#18328`_ from jacksontj/2014.7
+
 
 - **PR** `#18328`_: (*jacksontj*) Change all saltnado asserts to unittest asserts.
 
@@ -2737,13 +3132,16 @@ bc5f4c3 Merge pull request `#18328`_ from jacksontj/2014.7
 6a530e7 Merge pull request `#18345`_ from thatch45/tar_fix
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18052`_: (*deuscapturus*) 2014.7 archive.extracted now requires x in tar_options for tar files
-  | refs: `#18345`_
+    | refs: `#18345`_
+
 - **PR** `#18345`_: (*thatch45*) Always extract when extracting
 
   * 8a674cf Always extract when extracting
 
 180abab Merge pull request `#18339`_ from rallytime/moar_pylint
+
 
 - **PR** `#18339`_: (*rallytime*) Fix pylint issue in mac_user.py
 
@@ -2752,8 +3150,10 @@ bc5f4c3 Merge pull request `#18328`_ from jacksontj/2014.7
 49fd6d8 Merge pull request `#18338`_ from thatch45/net_fix
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18168`_: (*aleksmm*) states/network.py managed() - no way to manage IP aliases in 2014.7
-  | refs: `#18338`_
+    | refs: `#18338`_
+
 - **PR** `#18338`_: (*thatch45*) Fix `#18168`_
 
   * 34be401 Fix `#18168`_
@@ -2761,8 +3161,10 @@ bc5f4c3 Merge pull request `#18328`_ from jacksontj/2014.7
 c7cdc40 Merge pull request `#18333`_ from whiteinge/doc-arch-rst-fix
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18134`_: (*tjyang*) Documentation error: WARNING: unusable reference target found: TCP:4506
-  | refs: `#18333`_
+    | refs: `#18333`_
+
 - **PR** `#18333`_: (*whiteinge*) Fix missing space after colon in architecture doc
 
   * 898f1a7 Fix missing space after colon in architecture doc
@@ -2770,13 +3172,16 @@ c7cdc40 Merge pull request `#18333`_ from whiteinge/doc-arch-rst-fix
 8b5b5af Merge pull request `#18334`_ from thatch45/uni_usr
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18203`_: (*rschaeuble*) state.user fails on non-ascii characters
-  | refs: `#18334`_
+    | refs: `#18334`_
+
 - **PR** `#18334`_: (*thatch45*) fall back to utf-8 if we get a unicode error
 
   * 7133c89 fall back to utf-8 if we get a unicode error
 
 005faed Merge pull request `#18301`_ from jacksontj/2014.7-config
+
 
 - **PR** `#18301`_: (*jacksontj*) Pass timeout for pub() down to channel
 
@@ -2786,11 +3191,13 @@ c7cdc40 Merge pull request `#18333`_ from whiteinge/doc-arch-rst-fix
 
 5342072 Merge pull request `#18324`_ from llamallama/2014.7
 
+
 - **PR** `#18324`_: (*llamallama*) Bug fix. _grant_to_tokens not constructing full table name.
 
   * ebe8338 Bug fix. _grant_to_tokens not constructing full table name.
 
 b91d51c Merge pull request `#18300`_ from cro/status_module_update
+
 
 - **PR** `#18300`_: (*cro*) Change status.pid to use Python regular expressions
 
@@ -2799,19 +3206,23 @@ b91d51c Merge pull request `#18300`_ from cro/status_module_update
 217cd9f Merge pull request `#18277`_ from thatch45/ssh_recurse_fix
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#17266`_: (*pille*) file.recurse over salt-ssh strips first letter of filename
-  | refs: `#18277`_
+    | refs: `#18277`_
+
 - **PR** `#18277`_: (*thatch45*) fix error where file.recurse would mess up names on salt-ssh
 
   * 44981be fix error where file.recurse would mess up names on salt-ssh
 
 2593c96 Merge pull request `#18275`_ from cachedout/iptables_native
 
+
 - **PR** `#18275`_: (*cachedout*) Use native file.write
 
   * c36674c Use native file.write
 
 4a748b6 Merge pull request `#18272`_ from cachedout/freebsdkmod_native
+
 
 - **PR** `#18272`_: (*cachedout*) Switch to native file.find
 
@@ -2820,10 +3231,12 @@ b91d51c Merge pull request `#18300`_ from cro/status_module_update
 82ac851 Merge pull request `#18254`_ from jacksontj/2014.7
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#16564`_: (*jacksontj*) Reactor is VERY PID hungry
-  | refs: `#18254`_
+    | refs: `#18254`_
+
 - **PR** `#18254`_: (*jacksontj*) Move reactor master-clients to threads
-  | refs: `#18762`_ `#18762`_
+    | refs: `#18762`_ `#18762`_
 
   * c93ca9a Pylint cleanup for threadpool
 
@@ -2835,6 +3248,7 @@ b91d51c Merge pull request `#18300`_ from cro/status_module_update
 
 b96dcdf Merge pull request `#18243`_ from cro/macports_update
 
+
 - **PR** `#18243`_: (*cro*) Update macports package manager to behave a little better.
 
   * 37378b5 Fix pylint
@@ -2845,11 +3259,13 @@ b96dcdf Merge pull request `#18243`_ from cro/macports_update
 
 c78948a Merge pull request `#18313`_ from ronnix/patch-2
 
+
 - **PR** `#18313`_: (*ronnix*) Fix typo in 2014.7.0 release notes
 
   * 3d2b44a Fix typo in 2014.7.0 release notes
 
 96bf364 Merge pull request `#18296`_ from cachedout/saltify_poudriere
+
 
 - **PR** `#18296`_: (*cachedout*) Switch to salt calls
 
@@ -2859,11 +3275,13 @@ c78948a Merge pull request `#18313`_ from ronnix/patch-2
 
 f421d1f Merge pull request `#18297`_ from cachedout/rh_ip_salty
 
+
 - **PR** `#18297`_: (*cachedout*) Use file.append
 
   * 74e2ac3 Use file.append
 
 fe79ca9 Merge pull request `#18298`_ from cachedout/serverdensity_curl
+
 
 - **PR** `#18298`_: (*cachedout*) Just have curl do the writing
 
@@ -2871,11 +3289,13 @@ fe79ca9 Merge pull request `#18298`_ from cachedout/serverdensity_curl
 
 45fc00d Merge pull request `#18266`_ from whiteinge/zypper-invalid-syntax
 
+
 - **PR** `#18266`_: (*whiteinge*) Fixed invalid syntax in zypper module
 
   * e5b5284 Fixed invalid syntax in zypper module
 
 f2f2939 Merge pull request `#18274`_ from cachedout/freebsdpkg_environ
+
 
 - **PR** `#18274`_: (*cachedout*) Use environ.get
 
@@ -2884,8 +3304,10 @@ f2f2939 Merge pull request `#18274`_ from cachedout/freebsdpkg_environ
 8dcd60f Merge pull request `#18282`_ from thatch45/race_thin
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18248`_: (*bernieke*) salt-ssh sometimes throws a traceback and then hangs
-  | refs: `#18282`_
+    | refs: `#18282`_
+
 - **PR** `#18282`_: (*thatch45*) Only gen the thin tarball on the top of the salt-ssh call
 
   * 76b8a41 doh! Need the thin var, no can haz self.thin yet!
@@ -2893,6 +3315,7 @@ f2f2939 Merge pull request `#18274`_ from cachedout/freebsdpkg_environ
   * d63aaf4 Fix for `#18248`_
 
 90a339b Merge pull request `#18288`_ from cro/mdadm_update3
+
 
 - **PR** `#18288`_: (*cro*) Beware device references without shell escaping
 
@@ -2903,13 +3326,16 @@ f2f2939 Merge pull request `#18274`_ from cachedout/freebsdpkg_environ
 b6c88a1 Merge pull request `#18291`_ from thatch45/certifi
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#16773`_: (*davidjb*) Salt-driven HTTPS requests fail with SSLError x509 certificate errors
-  | refs: `#18291`_
+    | refs: `#18291`_
+
 - **PR** `#18291`_: (*thatch45*) Add certifi to the deps in thin tarball
 
   * 4321220 Add certifi to the deps in thin tarball
 
 f5102a3 Merge pull request `#18294`_ from s0undt3ch/2014.7
+
 
 - **PR** `#18294`_: (*s0undt3ch*) Add missing comma
 
@@ -2917,11 +3343,13 @@ f5102a3 Merge pull request `#18294`_ from s0undt3ch/2014.7
 
 5149dd7 Merge pull request `#18278`_ from eliasp/2014.7-release-typo
 
+
 - **PR** `#18278`_: (*eliasp*) Typo in 2014.7.0 release notes (documentaiton → documentation).
 
   * b0ead3f Typo in 2014.7.0 release notes (documentaiton â documentation).
 
 b25a798 Merge pull request `#18276`_ from cachedout/nbopen_2014_7
+
 
 - **PR** `#18276`_: (*cachedout*) Provide nbopen poller default and increase interval in jenkins
 
@@ -2929,11 +3357,13 @@ b25a798 Merge pull request `#18276`_ from cachedout/nbopen_2014_7
 
 5700f7d Merge pull request `#18269`_ from cachedout/zypper_typo
 
+
 - **PR** `#18269`_: (*cachedout*) Fix typo
 
   * 9123448 Fix typo
 
 6b6d970 Merge pull request `#18255`_ from rallytime/more_pylint
+
 
 - **PR** `#18255`_: (*rallytime*) Fix pylint on 2014.7 branch
 
@@ -2941,11 +3371,13 @@ b25a798 Merge pull request `#18276`_ from cachedout/nbopen_2014_7
 
 c72c6ea Merge pull request `#18225`_ from jfindlay/zypper_shellisms
 
+
 - **PR** `#18225`_: (*jfindlay*) revised (better) fix of sh stuff in zypper mod
 
   * 2b49890 revised (better) fix of sh stuff in zypper mod
 
 b505c4b Merge pull request `#18239`_ from cachedout/seed_fix
+
 
 - **PR** `#18239`_: (*cachedout*) Quote args in seed
 
@@ -2953,17 +3385,20 @@ b505c4b Merge pull request `#18239`_ from cachedout/seed_fix
 
 e7823ce Merge pull request `#18237`_ from cachedout/pkgutil_stderr
 
+
 - **PR** `#18237`_: (*cachedout*) No need to handle stderr/stdout when cmdmod will do it for you
 
   * 6923415 No need to handle stderr/stdout when cmdmod will do it for you
 
 6a645e8 Merge pull request `#18234`_ from cachedout/pkgin_fix
 
+
 - **PR** `#18234`_: (*cachedout*) Use salty way to get environ
 
   * 5f2d6bb Use salty way to get environ
 
 388ecbd Merge pull request `#18241`_ from basepi/deprecate_overstate
+
 
 - **PR** `#18241`_: (*basepi*) Reorganize orchestration docs for state.over deprecation
 
@@ -2977,17 +3412,20 @@ e7823ce Merge pull request `#18237`_ from cachedout/pkgutil_stderr
 
 3858b3d Merge pull request `#18232`_ from cachedout/pacman_fix
 
+
 - **PR** `#18232`_: (*cachedout*) Call shell with pacman
 
   * 8a2e95e Call shell with pacman
 
 027a6bd Merge pull request `#18231`_ from cachedout/openbsd_fixing
 
+
 - **PR** `#18231`_: (*cachedout*) fix openbsdservice
 
   * f59da23 fix openbsdservice
 
 fdf3ef2 Merge pull request `#18228`_ from jfindlay/quote_yum
+
 
 - **PR** `#18228`_: (*jfindlay*) more better sh handling in yumpkg mod
 
@@ -2996,12 +3434,15 @@ fdf3ef2 Merge pull request `#18228`_ from jfindlay/quote_yum
 bb972c7 Merge pull request `#18224`_ from cvedel/issue-18136
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18136`_: (*cvedel*) salt-ssh implementation of grains.filter_by does not work when nothing is matched
+
 - **PR** `#18224`_: (*cvedel*) Fix for `#18136`_
 
   * efa994e Fix for `#18136`_
 
 378a939 Merge pull request `#18220`_ from cachedout/network_cleanup
+
 
 - **PR** `#18220`_: (*cachedout*) Network cleanup
 
@@ -3011,17 +3452,20 @@ bb972c7 Merge pull request `#18224`_ from cvedel/issue-18136
 
 2622d95 Merge pull request `#18236`_ from basepi/publishcommentfix
 
+
 - **PR** `#18236`_: (*basepi*) Fix comment location
 
   * 499a87e Fix comment location
 
 eea2ded Merge pull request `#18218`_ from cachedout/makeconf_python_grep
 
+
 - **PR** `#18218`_: (*cachedout*) Native python searching instead of grep
 
   * 89734a5 Native python searching instead of grep
 
 28f46d1 Merge pull request `#18215`_ from cachedout/gluster_quote_7
+
 
 - **PR** `#18215`_: (*cachedout*) Gluster quote
 
@@ -3031,11 +3475,13 @@ eea2ded Merge pull request `#18218`_ from cachedout/makeconf_python_grep
 
 4e6f7d6 Merge pull request `#18217`_ from jfindlay/normalize_systemd
 
+
 - **PR** `#18217`_: (*jfindlay*) normalize systemd commands in systemd execution module
 
   * e6bc8a9 normalize systemd module commands
 
 1547427 Merge pull request `#18222`_ from cachedout/netbsdservice_salty
+
 
 - **PR** `#18222`_: (*cachedout*) Replace a pint of sed with a pinch of salt
 
@@ -3043,11 +3489,13 @@ eea2ded Merge pull request `#18218`_ from cachedout/makeconf_python_grep
 
 d680388 Merge pull request `#18227`_ from jfindlay/quote_zfs
 
+
 - **PR** `#18227`_: (*jfindlay*) don't hack to ignore retcode
 
   * 90c81ec don't hack to ignore retcode
 
 345120d Merge pull request `#18226`_ from ianare/fix_keyboard_module_centos7
+
 
 - **PR** `#18226`_: (*ianare*) set the keyboard using systemd when available (fixes bug in CentOS7)
 
@@ -3055,11 +3503,13 @@ d680388 Merge pull request `#18227`_ from jfindlay/quote_zfs
 
 09d4581 Merge pull request `#18216`_ from rallytime/fix_pylint
 
+
 - **PR** `#18216`_: (*rallytime*) Disable pylint errors for shlex quote import
 
   * 9b15489 Disable pylint errors for shlex quote import
 
 17e6bfef Merge pull request `#18210`_ from jacksontj/2014.7
+
 
 - **PR** `#18210`_: (*jacksontj*) 2014.7
 
@@ -3072,10 +3522,12 @@ d680388 Merge pull request `#18227`_ from jfindlay/quote_zfs
 38bd744 Merge pull request `#18207`_ from thatch45/kostko-pyobjects-salt-call
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18088`_: (*kostko*) pyobjects renderer fails with salt-ssh
-  | refs: `#18196`_
+    | refs: `#18196`_
   - **PR** `#18196`_: (*kostko*) Fix for pyobjects __salt__ wrapper (SaltObject)
-  | refs: `#18207`_
+    | refs: `#18207`_
+
 - **PR** `#18207`_: (*thatch45*) Merge `#18196`_ with fixes
 
   * 6a987f2 lint fixes
@@ -3086,11 +3538,13 @@ d680388 Merge pull request `#18227`_ from jfindlay/quote_zfs
 
 2ca4c9f Merge pull request `#18204`_ from whiteinge/doc-state.event-sh-ex
 
+
 - **PR** `#18204`_: (*whiteinge*) Add a few improvements and fixes to the state.event shell script example
 
   * 69448ef Add a few improvements and fixes to the state.event shell script example
 
 5993011 Merge pull request `#18205`_ from eliasp/2014.7-.gitignore-add-lib64
+
 
 - **PR** `#18205`_: (*eliasp*) Add 'lib64' to .gitignore which might be created by 'virtualenv'.
 
@@ -3098,11 +3552,13 @@ d680388 Merge pull request `#18227`_ from jfindlay/quote_zfs
 
 89f8490 Merge pull request `#18188`_ from whiteinge/doc-orchesrtate-crossref
 
+
 - **PR** `#18188`_: (*whiteinge*) Added several Orchestrate cross-references and details
 
   * 2364ba2 Added several Orchestrate cross-references and details
 
 10d1d49 Merge pull request `#18187`_ from whiteinge/doc-key-events
+
 
 - **PR** `#18187`_: (*whiteinge*) Added documentation for key events
 
@@ -3111,19 +3567,23 @@ d680388 Merge pull request `#18227`_ from jfindlay/quote_zfs
 6d87d65 Merge pull request `#18186`_ from whiteinge/faq-nohup-restart
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#7997`_: (*shantanub*) Proper way to upgrade salt-minions / salt-master packages without losing minion connectivity
-  | refs: `#18186`_
+    | refs: `#18186`_
+
 - **PR** `#18186`_: (*whiteinge*) Added nohup example to the FAQ about restarting Salt with Salt
 
   * daf0fe9 Added nohup example to the FAQ about restarting Salt with Salt
 
 d890f87 Merge pull request `#18169`_ from jfindlay/recmd_timezone
 
+
 - **PR** `#18169`_: (*jfindlay*) update timezone.py shell cmds
 
   * e16da09 update timezone.py shell cmds
 
 c12a900 Merge pull request `#18191`_ from thatch45/jfindlay-quote_yum
+
 
 - **PR** `#18191`_: (*thatch45*) Jfindlay quote yum
 
@@ -3139,17 +3599,20 @@ c12a900 Merge pull request `#18191`_ from thatch45/jfindlay-quote_yum
 
 9e3bd9e Merge pull request `#18164`_ from cachedout/mac_group_quote
 
+
 - **PR** `#18164`_: (*cachedout*) pass shell arg
 
   * 264b977 pass shell arg
 
 7c18669 Merge pull request `#18163`_ from cachedout/keyboard_quote
 
+
 - **PR** `#18163`_: (*cachedout*) Set shell on keyboard module calls
 
   * cfce29a Set shell on keyboard module calls
 
 acf2728 Merge pull request `#18190`_ from thatch45/cachedout-debian_ip_quote
+
 
 - **PR** `#18190`_: (*thatch45*) Cachedout debian ip quote
 
@@ -3161,17 +3624,20 @@ acf2728 Merge pull request `#18190`_ from thatch45/cachedout-debian_ip_quote
 
 fa43db5 Merge pull request `#18161`_ from cachedout/freebsdjail_quote
 
+
 - **PR** `#18161`_: (*cachedout*) Use re to search for jails/services
 
   * f49e205 Use re to search for jails/services
 
 ad0a597 Merge pull request `#18158`_ from jfindlay/quote_zfs
 
+
 - **PR** `#18158`_: (*jfindlay*) quotify zfs
 
   * 3acd6f7 quotify zfs
 
 79ae0b3 Merge pull request `#18178`_ from thatch45/jfindlay-zypper_shellisms
+
 
 - **PR** `#18178`_: (*thatch45*) Jfindlay zypper shellisms
 
@@ -3183,17 +3649,20 @@ ad0a597 Merge pull request `#18158`_ from jfindlay/quote_zfs
 
 c98aa15 Merge pull request `#18151`_ from wt/fix_s3fs_2014.7
 
+
 - **PR** `#18151`_: (*wt*) Fix an exception in s3fs.
 
   * dde993e Fix an exception in s3fs.
 
 81b818e Merge pull request `#18150`_ from cachedout/debian_append
 
+
 - **PR** `#18150`_: (*cachedout*) Use file.append to write
 
   * 246434e Use file.append to write
 
 6d4a2ef Merge pull request `#18177`_ from thatch45/cachedout-bsd_shadow_quote
+
 
 - **PR** `#18177`_: (*thatch45*) Cachedout bsd shadow quote
 
@@ -3205,6 +3674,7 @@ c98aa15 Merge pull request `#18151`_ from wt/fix_s3fs_2014.7
 
 bac6992 Merge pull request `#18175`_ from thatch45/cachedout-bluez_quote
 
+
 - **PR** `#18175`_: (*thatch45*) Cachedout bluez quote
 
   * 212d592 don't load stdlib
@@ -3214,6 +3684,7 @@ bac6992 Merge pull request `#18175`_ from thatch45/cachedout-bluez_quote
   * 9671430 Quote for bluez
 
 97607d2 Merge pull request `#18174`_ from thatch45/cachedout-at_quote2
+
 
 - **PR** `#18174`_: (*thatch45*) Cachedout at quote2
 
@@ -3225,6 +3696,7 @@ bac6992 Merge pull request `#18175`_ from thatch45/cachedout-bluez_quote
 
 5ea754a Merge pull request `#18144`_ from ekristen/fix_docker_absent
 
+
 - **PR** `#18144`_: (*ekristen*) Fixing docker.absent to match its documentation
 
   * 261ab7f fixing docker.absent, docs says it will stop and destroy, when in fact it only stops
@@ -3232,19 +3704,23 @@ bac6992 Merge pull request `#18175`_ from thatch45/cachedout-bluez_quote
 22335c2 Merge pull request `#18119`_ from kshenk1/cloud_wait_for_volume
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#18118`_: (*kshenk1*) salt-cloud: ec2: (since 2014.7) unable to create & attach volumes to instance
-  | refs: `#18119`_
+    | refs: `#18119`_
+
 - **PR** `#18119`_: (*kshenk1*) Adds param to def create_attach_volume (wait_to_finish), default to true...
 
   * bf43f26 Adds param to def create_attach_volume (wait_to_finish), default to true, as you can't attach a newly created volume unless it's available
 
 0104abc Merge pull request `#18159`_ from jacksontj/2014.7
 
+
 - **PR** `#18159`_: (*jacksontj*) Change log line to trace
 
   * f8c9508 Change log line to trace
 
 f3fdb17 Merge pull request `#18141`_ from jacksontj/saltnado
+
 
 - **PR** `#18141`_: (*jacksontj*) Move EventListener over to ZMQStreams
 
@@ -3253,6 +3729,7 @@ f3fdb17 Merge pull request `#18141`_ from jacksontj/saltnado
   * 837a8ed Move EventListener over to ZMQStreams
 
 ab6c8c4 Merge pull request `#18056`_ from jacksontj/saltnado
+
 
 - **PR** `#18056`_: (*jacksontj*) Saltnado
 
@@ -3334,11 +3811,13 @@ ab6c8c4 Merge pull request `#18056`_ from jacksontj/saltnado
 
 2ed4417 Merge pull request `#18096`_ from gtmanfred/2014.7
 
+
 - **PR** `#18096`_: (*gtmanfred*) add ability to configure config_drive
 
   * 65a23c8 add ability to configure config_drive
 
 792358c Merge pull request `#18101`_ from eliasp/2014.7-doc.topics.mine-mine_functions_example
+
 
 - **PR** `#18101`_: (*eliasp*) Fix YAML syntax in mine_functions example.
 
@@ -3346,11 +3825,13 @@ ab6c8c4 Merge pull request `#18056`_ from jacksontj/saltnado
 
 408df5a Merge pull request `#18092`_ from CashStar/2014.7
 
+
 - **PR** `#18092`_: (*nevins-b*) fixing insert statement
 
   * 9cf30df fixing insert statement
 
 8ba7f49 Merge pull request `#18075`_ from whiteinge/doc-file.replace-escaping
+
 
 - **PR** `#18075`_: (*whiteinge*) Added note to file.replace about avoiding quoting and escaping in YAML
 
@@ -3359,12 +3840,15 @@ ab6c8c4 Merge pull request `#18056`_ from jacksontj/saltnado
 a9cfb31 Merge pull request `#18062`_ from jacksontj/2014.7
 
 - Referenced pull requests and issues
+
   - **PR** `#17080`_: (*jacksontj*) 2014.7: misc dict usage cleanup
+
 - **PR** `#18062`_: (*jacksontj*) An additional fix for `#17080`_
 
   * 1454e8a An additional fix for `#17080`_
 
 4e850f9 Merge pull request `#18043`_ from jfindlay/update_unit_test_docs
+
 
 - **PR** `#18043`_: (*jfindlay*) Update unit test docs
 
@@ -3375,13 +3859,16 @@ a9cfb31 Merge pull request `#18062`_ from jacksontj/2014.7
 616d7d0 Merge pull request `#17952`_ from Unity-Technologies/osx-fix-run-as-user
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#16839`_: (*opdude*) Passing -user: to any state causes a python traceback on OS X
-  | refs: `#17952`_
+    | refs: `#17952`_
+
 - **PR** `#17952`_: (*opdude*) Cherry picked: Fix salt.utils.chugid group_list filtering on OS X
 
   * e3d9ce4 Fix salt.utils.chugid group_list filtering on OS X
 
 3286bc0 Merge pull request `#17941`_ from whiteinge/salt-file.managed-changes
+
 
 - **PR** `#17941`_: (*whiteinge*) Return a changes dictionary for file.managed in test=true mode
 
@@ -3392,13 +3879,16 @@ a9cfb31 Merge pull request `#18062`_ from jacksontj/2014.7
 447d696 Merge pull request `#17712`_ from juiceinc/bugfix/adding-ppas
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#17709`_: (*timoguin*) aptpkg.mod_repo() not properly determining if a PPA is installed
-  | refs: `#17712`_
+    | refs: `#17712`_
+
 - **PR** `#17712`_: (*timoguin*) Updated aptpkg.mod_repo() module to properly add new PPAs
 
   * 88a015b Updated aptpkg.mod_repo() module to properly add new PPAs. To determine if the PPA needs to be added, parse the return of get_repo() rather than trying to catch its exceptions.
 
 21bf2ef Merge pull request `#18061`_ from terminalmage/sync_all-docstring
+
 
 - **PR** `#18061`_: (*terminalmage*) Add explanation of "refresh" arg to saltutil.sync_all
 
@@ -3407,8 +3897,10 @@ a9cfb31 Merge pull request `#18062`_ from jacksontj/2014.7
 600c4d5 Merge pull request `#17968`_ from basepi/issue_17687
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#17687`_: (*tjyang*) No syntax checking of id in /etc/salt/minion_id 
-  | refs: `#17968`_
+    | refs: `#17968`_
+
 - **PR** `#17968`_: (*basepi*) Only read first line of minion_id
 
   * c2237d1 Only read first line of minion_id, Fixes `#17687`_
@@ -3416,13 +3908,16 @@ a9cfb31 Merge pull request `#18062`_ from jacksontj/2014.7
 da893d2 Merge pull request `#17953`_ from rallytime/spelling_fix
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#17950`_: (*tjyang*) typo correction: proff->proof
-  | refs: `#17953`_
+    | refs: `#17953`_
+
 - **PR** `#17953`_: (*rallytime*) Fix spelling in raet doc
 
   * 07e8c39 Fix spelling in raet doc
 
 c31bcb3 Merge pull request `#17682`_ from fessoga5/2014.7
+
 
 - **PR** `#17682`_: (*fessoga5*) Fix error in lvcreate (pv=None)
 
@@ -3431,9 +3926,11 @@ c31bcb3 Merge pull request `#17682`_ from fessoga5/2014.7
 88b4e94 Merge pull request `#17305`_ from jacksontj/2014.7
 
 - Referenced pull requests and issues
+
   - **PR** `#17299`_: (*terminalmage*) Revert "Remove redundant keys() since dict is an iterator of keys"
-  | refs: `#17305`_
+    | refs: `#17305`_
   - **PR** `#17080`_: (*jacksontj*) 2014.7: misc dict usage cleanup
+
 - **PR** `#17305`_: (*jacksontj*) 2014.7
 
   * f24c94d Pylint fixes
@@ -3448,15 +3945,18 @@ c31bcb3 Merge pull request `#17682`_ from fessoga5/2014.7
 
 26d6bd8 Merge pull request `#17691`_ from makinacorpus/7
 
+
 - **PR** `#17691`_: (*kiorky*) factorize call
 
   * dafb765 factorize call
 
 f1d2fd8 Re-enable setuptools `console_scripts`
 
+
 - **ISSUE** #: (**) 
 
 41f8539 Merge pull request `#17379`_ from cro/breaking_change4
+
 
 - **PR** `#17379`_: (*cro*) Add breaking change notice for module.run in 2014.1.0
 
@@ -3464,17 +3964,20 @@ f1d2fd8 Re-enable setuptools `console_scripts`
 
 3185387 Merge pull request `#17311`_ from terminalmage/warn_until
 
+
 - **PR** `#17311`_: (*terminalmage*) Restore old warnings.formatwarning after workaround
 
   * ee306e1 Restore old warnings.formatwarning after workaround
 
 1fd9983 Merge pull request `#17310`_ from rallytime/update_windows_pkg_doc
 
+
 - **PR** `#17310`_: (*rallytime*) Add 2014.7.0 release to windows installation doc
 
   * 4cbeebd Add 2014.7.0 release to windows installation doc
 
 57ddc2d Merge pull request `#17243`_ from basepi/minepublishpillar17194
+
 
 - **PR** `#17243`_: (*basepi*) Enable pillar/compound matching in mine/publish, with no pillar globbing support
 
@@ -3503,8 +4006,10 @@ f1d2fd8 Re-enable setuptools `console_scripts`
 6143cf3 Merge pull request `#17304`_ from thatch45/hvnsweeting-fix-rabbitmq-user-state
 
 - Referenced pull requests and issues
+
   - **PR** `#17225`_: (*hvnsweeting*) Fix rabbitmq user state
-  | refs: `#17304`_
+    | refs: `#17304`_
+
 - **PR** `#17304`_: (*thatch45*) Merge `#17225`_
 
   * 5b8ea79 fix lint
@@ -3525,11 +4030,13 @@ f1d2fd8 Re-enable setuptools `console_scripts`
 
 23f7310 Merge pull request `#17306`_ from basepi/releasenotesoops
 
+
 - **PR** `#17306`_: (*basepi*) Fix the release notes note
 
   * 69fa6b2 Fix the release notes note
 
 755400e Merge pull request `#17279`_ from skweezbox/chef
+
 
 - **PR** `#17279`_: (*amendlik*) Updates to chef execution module and new chef state module
 
@@ -3540,6 +4047,7 @@ f1d2fd8 Re-enable setuptools `console_scripts`
   * d346b27 Rewrite Chef execution module
 
 6d16071 Merge pull request `#17271`_ from hvnsweeting/hvn/remove-runas-rabbitmq
+
 
 - **PR** `#17271`_: (*hvnsweeting*) remove runas in rabbitmq
 
@@ -3553,17 +4061,20 @@ f1d2fd8 Re-enable setuptools `console_scripts`
 
 edd95d6 Merge pull request `#17298`_ from terminalmage/warn_until
 
+
 - **PR** `#17298`_: (*terminalmage*) Suppress echoing of line in deprecation warnings
 
   * d509ac1 Suppress echoing of line in deprecation warnings
 
 fffc90c Merge pull request `#17295`_ from s0undt3ch/hotfix/dont-reset-template-registry
 
+
 - **PR** `#17295`_: (*s0undt3ch*) Don't reset the template registry
 
   * ed321a4 Don't reset the template registry
 
 0401ebf Merge pull request `#17287`_ from jfindlay/jmoney/cp_test
+
 
 - **PR** `#17287`_: (*jfindlay*) unit tests for the cp execution module
 
@@ -3576,15 +4087,18 @@ fffc90c Merge pull request `#17295`_ from s0undt3ch/hotfix/dont-reset-template-r
 5911b3b Merge pull request `#17277`_ from s0undt3ch/hotfix/pass-the-right-env-to-vt
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#17262`_: (*kiorky*) VT is badly damaged since a while
-  | refs: `#17277`_ `#17263`_
+    | refs: `#17277`_ `#17263`_
   - **PR** `#17263`_: (*kiorky*) Fix VT execution environment
-  | refs: `#17277`_
+    | refs: `#17277`_
+
 - **PR** `#17277`_: (*s0undt3ch*) Pass the right environ to VT's env.
 
   * 366a3c7 Pass the right environ to VT's env.
 
 cc92d63 Merge pull request `#17276`_ from s0undt3ch/2014.7
+
 
 - **PR** `#17276`_: (*s0undt3ch*) Revert "Freeze the testing runtime configs at a latter stage"
 
@@ -3592,11 +4106,13 @@ cc92d63 Merge pull request `#17276`_ from s0undt3ch/2014.7
 
 d75472b Merge pull request `#17268`_ from rallytime/remove_rc_version
 
+
 - **PR** `#17268`_: (*rallytime*) Remove release candidate message from docs sidebar
 
   * 2396392 Remove release candidate message from docs sidebar
 
 597a5c0 Merge pull request `#16664`_ from cachedout/issue_16651
+
 
 - **PR** `#16664`_: (*cachedout*) Unicode fixes in file.append and highstate outputter
 
@@ -3608,6 +4124,7 @@ d75472b Merge pull request `#17268`_ from rallytime/remove_rc_version
 
 9408504 Merge pull request `#17253`_ from s0undt3ch/2014.7
 
+
 - **PR** `#17253`_: (*s0undt3ch*) 2 of 500000
 
   * ea89edf Switch `run_ssh` with `run_function`
@@ -3616,6 +4133,7 @@ d75472b Merge pull request `#17268`_ from rallytime/remove_rc_version
 
 995b266 Merge pull request `#17257`_ from garethgreenaway/iptables_fixing_iptables_save
 
+
 - **PR** `#17257`_: (*garethgreenaway*) Fixes to iptables state
 
   * 6b707d3 Fixing a bug that was introduced while fixing another bug related to saving the current iptables when a rule was being managed but already existed.  This fixed caused the iptables.save to run *all* the time, regardless of the state of rules had changed.  This fix ensures that the save only happens when the saved rules differs from those that are in memory, and only if the save option is included.
@@ -3623,8 +4141,10 @@ d75472b Merge pull request `#17268`_ from rallytime/remove_rc_version
 1845145 Merge pull request `#17247`_ from rallytime/`bp-17188`_
 
 - Referenced pull requests and issues
+
   - **PR** `#17188`_: (*piquadrat*) fixed fileclient.Client.get_url with older requests versions
-  | refs: `#17247`_
+    | refs: `#17247`_
+
 - **PR** `#17247`_: (*rallytime*) Backport `#17188`_ to 2014.7
 
   * 1f9a44d fixed fileclient.Client.get_url with older requests versions
@@ -3632,9 +4152,11 @@ d75472b Merge pull request `#17268`_ from rallytime/remove_rc_version
 a01b799 Merge pull request `#17254`_ from thatch45/rallytime-`bp-17231`_
 
 - Referenced pull requests and issues
+
   - **PR** `#17231`_: (*thatch45*) Merge `#17169`_
   - **PR** `#17169`_: (*brunson*) Implement the missing utils.find exec function
-  | refs: `#17231`_
+    | refs: `#17231`_
+
 - **PR** `#17254`_: (*thatch45*) Lint fix for bp
 
   * 33bcfc8 add missing shutil import
@@ -3652,8 +4174,10 @@ a01b799 Merge pull request `#17254`_ from thatch45/rallytime-`bp-17231`_
 1a67397 Merge pull request `#17246`_ from rallytime/`bp-17172`_
 
 - Referenced pull requests and issues
+
   - **PR** `#17172`_: (*isbm*) Bugfix: crash on highstate population when empty path is passed
-  | refs: `#17246`_
+    | refs: `#17246`_
+
 - **PR** `#17246`_: (*rallytime*) Backport `#17172`_ to 2014.7
 
   * 4f508eb Bugfix: crash on highstate population when empty path is passed
@@ -3661,15 +4185,18 @@ a01b799 Merge pull request `#17254`_ from thatch45/rallytime-`bp-17231`_
 0821409 Merge pull request `#17242`_ from rallytime/ppa_shortcut
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#17105`_: (*pkruithof*) pkgrepo is broken on Ubuntu 14.10
-  | refs: `#17156`_ `#17242`_
+    | refs: `#17156`_ `#17242`_
   - **PR** `#17156`_: (*cachedout*) Update to new softwareproperties.ppa upstream changes
-  | refs: `#17242`_
+    | refs: `#17242`_
+
 - **PR** `#17242`_: (*rallytime*) PPAShortcutHandler only applies to Ubuntu 14
 
   * ef4cc0c Fix stacktrace: PPAShortcutHandler only applies to Ubuntu 14
 
 4e9adeb Merge pull request `#17226`_ from hvnsweeting/bugfix-rabbitmq-runas
+
 
 - **PR** `#17226`_: (*hvnsweeting*) default run as root user because ``erlexec`` need HOME env to be set
 
@@ -3677,11 +4204,13 @@ a01b799 Merge pull request `#17254`_ from thatch45/rallytime-`bp-17231`_
 
 f8e0da9 Merge pull request `#17221`_ from jacksontj/2014.7
 
+
 - **PR** `#17221`_: (*jacksontj*) Fix to allow for module.run to fail state execution
 
   * c76ab76 Fix to allow for module.run to fail state execution
 
 124fbba Merge pull request `#17216`_ from rallytime/update_windows_links
+
 
 - **PR** `#17216`_: (*rallytime*) Update windows installer links to include 2014.1.13 pkgs
 
@@ -3690,13 +4219,16 @@ f8e0da9 Merge pull request `#17221`_ from jacksontj/2014.7
 aab13de Merge pull request `#17212`_ from rallytime/`bp-17183`_
 
 - Referenced pull requests and issues
+
   - **PR** `#17183`_: (*sparsick*) fix syntax error in writing grains code snippet
-  | refs: `#17212`_
+    | refs: `#17212`_
+
 - **PR** `#17212`_: (*rallytime*) Backport `#17183`_ to 2014.7
 
   * 2096f2c fix syntax error in writing grains code snippet
 
 c710427 Merge pull request `#17207`_ from s0undt3ch/hotfix/custom-modules-shaddowing
+
 
 - **PR** `#17207`_: (*s0undt3ch*) Reduce loader load iterations and log shadowed modules
 
@@ -3706,17 +4238,20 @@ c710427 Merge pull request `#17207`_ from s0undt3ch/hotfix/custom-modules-shaddo
 
 f26fa79 Merge pull request `#17213`_ from s0undt3ch/hotfix/freeze-configs-delayed
 
+
 - **PR** `#17213`_: (*s0undt3ch*) Freeze the testing runtime configs at a latter stage
 
   * 5da3ad3 Freeze the testing runtime configs at a latter stage
 
 a4736d5 Merge pull request `#17195`_ from basepi/2014.7releasenotes
 
+
 - **PR** `#17195`_: (*basepi*) Add note to release notes about pillar/compound matching in mine/publish
 
   * 4149716 Add note to release notes about pillar/compound matching in mine/publish
 
 af09c42 Merge pull request `#17174`_ from cro/zypp_doc
+
 
 - **PR** `#17174`_: (*cro*) Document that pkg.* on openSUSE needs python-zypp
 
@@ -3725,12 +4260,15 @@ af09c42 Merge pull request `#17174`_ from cro/zypp_doc
 1bcaa1f Merge pull request `#17167`_ from s0undt3ch/hotfix/transifex-updates
 
 - Referenced pull requests and issues
+
   - **PR** `#196`_: (*markusgattol*) parenthesis are more pythonic
+
 - **PR** `#17167`_: (*s0undt3ch*) Update 'doc/.tx/config' - Build `#196`_
 
   * a114dab Update 'doc/.tx/config' - Build `#196`_
 
 fd683a5 Merge pull request `#17170`_ from cro/zypp_doc
+
 
 - **PR** `#17170`_: (*cro*) Document that pkg.* on openSUSE needs python-zypp
 
@@ -3739,14 +4277,17 @@ fd683a5 Merge pull request `#17170`_ from cro/zypp_doc
 6e49163 Merge pull request `#17156`_ from cachedout/issue_17105
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#17105`_: (*pkruithof*) pkgrepo is broken on Ubuntu 14.10
-  | refs: `#17156`_ `#17242`_
+    | refs: `#17156`_ `#17242`_
+
 - **PR** `#17156`_: (*cachedout*) Update to new softwareproperties.ppa upstream changes
-  | refs: `#17242`_
+    | refs: `#17242`_
 
   * ded8a02 Update to new softwareproperties.ppa changes
 
 b2b1740 Merge pull request `#17154`_ from cachedout/overstate_dep
+
 
 - **PR** `#17154`_: (*cachedout*) Add deprecation warning to state.over
 
@@ -3755,13 +4296,16 @@ b2b1740 Merge pull request `#17154`_ from cachedout/overstate_dep
 5c93de6 Merge pull request `#17157`_ from basepi/prereqdocs17086
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#17086`_: (*crocket*) The description for "prereq" needs more clarification.
-  | refs: `#17157`_
+    | refs: `#17157`_
+
 - **PR** `#17157`_: (*basepi*) We evaluate a prereq, we don't call it. Fixes `#17086`_
 
   * df05479 We evaluate a prereq, we don't call it. Fixes `#17086`_
 
 4d36227 Merge pull request `#17119`_ from rallytime/fix_ec2_cloud_test
+
 
 - **PR** `#17119`_: (*rallytime*) Fix ec2 cloud test
 
@@ -3770,6 +4314,7 @@ b2b1740 Merge pull request `#17154`_ from cachedout/overstate_dep
   * e272c41 Use Ubuntu 14 image for ec2 cloud tests instead of RHEL 6
 
 e713723 Merge pull request `#17118`_ from jacksontj/2014.7-config
+
 
 - **PR** `#17118`_: (*jacksontj*) Fix for an issue where re-started sub-processes would inherit
 
@@ -3780,13 +4325,16 @@ e713723 Merge pull request `#17118`_ from jacksontj/2014.7-config
 715c434 Merge pull request `#17104`_ from avdhoot/fix_`#16085`_
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#16085`_: (*avdhoot*) memoey leak or else?
-  | refs: `#17104`_
+    | refs: `#17104`_
+
 - **PR** `#17104`_: (*avdhoot*) Fix `#16085`_ pam auth module was not closeing PamHandle hence there was memory leak.
 
   * 265e5c5 Fix `#16085`_ pam auth module was not closeing PamHandle. moreinfo: http://pubs.opengroup.org/onlinepubs/8329799/pam_end.htm
 
 01c1d73 Merge pull request `#17080`_ from jacksontj/2014.7
+
 
 - **PR** `#17080`_: (*jacksontj*) 2014.7: misc dict usage cleanup
 
@@ -3842,6 +4390,7 @@ e713723 Merge pull request `#17118`_ from jacksontj/2014.7-config
 
 d0dbb7c Merge pull request `#16996`_ from AccelerationNet/win-service-stop-reliably
 
+
 - **PR** `#16996`_: (*ryepup*) Win service stop reliably
 
   * 480ee85 only sleep after `sc` reports we're still waiting
@@ -3859,8 +4408,10 @@ d0dbb7c Merge pull request `#16996`_ from AccelerationNet/win-service-stop-relia
 0bbe01b Merge pull request `#16937`_ from terminalmage/issue16285
 
 - Referenced pull requests and issues
+
   - **ISSUE** `#16285`_: (*Vye*) Nested gitfs_* options are not always strings
-  | refs: `#16937`_
+    | refs: `#16937`_
+
 - **PR** `#16937`_: (*terminalmage*) Force VCS fileserver backend config values to be loaded as strings
 
   * 94c9340 Don't try to use text_type to force saltenv to be unicode
@@ -3875,15 +4426,18 @@ d0dbb7c Merge pull request `#16996`_ from AccelerationNet/win-service-stop-relia
 
 072ec79 Merge pull request `#16393`_ from s0undt3ch/features/ssh-packaging
 
+
 - **PR** `#16393`_: (*s0undt3ch*) READ BEFORE MERGE
 
   * 096347e Greatly simplify Salt's setup.py script logic
 
 58f3575 Merge pull request `#17084`_ from terminalmage/docs
 
+
 - **PR** `#17084`_: (*terminalmage*) Update RC version in docs sidebar
 
 dfc10ef Update RC version in docs sidebar
+
 
 - **ISSUE** #: (**) 
 
