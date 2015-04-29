@@ -1,4 +1,4 @@
-There are 937 cached issues
+There are 933 cached issues
 pulling 105 issues:
 ,,,,,,,,,,,,,+,,,,,,,,+,,,,,,,,,+,,,,+,,,+,,,,,,,,,+,,,+,,,,,,,,,+,,,,,+,,+,+,+,,,,,,+,,,,,,,,,,,,+,,,,,,+,+,+,+,,+,,,,+,,++,+,,
 pulling 23 issues:
@@ -9,9 +9,8 @@ pulling 3 issues:
 Changes for v2014.7.4..v2014.7.5
 --------------------------------
 
-Total Issues: *43*
-
-Total Pull Requests: *96*
+- Total Issues: *43*
+- Total Pull Requests: *96*
 
 
 1fb606e Merge pull request `#22754`_ from twangboy/fix_bat_again
