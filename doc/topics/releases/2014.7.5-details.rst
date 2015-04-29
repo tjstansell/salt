@@ -1,6 +1,6 @@
 .. code-block:: bash
 
-    There are 916 cached issues
+    There are 935 cached issues
     pulling 105 issues:
     ,,,,,,,,,,,,,+,,,,,,,,+,,,,,,,,,+,,,,+,,,+,,,,,,,,,+,,,+,,,,,,,,,+,,,,,+,,+,+,+,,,,,,+,,,,,,,,,,,,+,,,,,,+,+,+,+,,+,,,,+,,++,+,,
     pulling 23 issues:
@@ -11,9 +11,9 @@
 Changes for v2014.7.4..v2014.7.5
 --------------------------------
 
-- Total Merges: *75*
-- Total Issue references: *43*
-- Total PR references: *96*
+- Total Merges: **75**
+- Total Issue references: **43**
+- Total PR references: **96**
 
 
 1fb606e Merge pull request `#22754`_ from twangboy/fix_bat_again

@@ -1,6 +1,6 @@
 .. code-block:: bash
 
-    There are 955 cached issues
+    There are 941 cached issues
     pulling 239 issues:
     ,+,,,,+,+,,+,+,,,,+,,,,,,,,,,,,,+,,+,,,,,,+,,,,,+,+,,,+,+,,,,,,,,,,,,+++++,+,+,,+,,,,+,,,,,,,,,+,,,,,,,,,,+,,,,+,,,,,,,,,,,,+,,,,,,+,,,,,,,,,+,,,,,,,,+,+,+,,,+,,+,,,+,,,+,,+,,,+,,,,,,,,,,,+,+,+,,,,,+,,+,,,+,,,,,,+,+,,,,,++,,+,+,+,,,+,,,+,+,,+,+,+,,,,,+,,,,,,,,+,,,,+,+,,,+,,,,,,,,,,,,,,,,,+,,+,,+,,,,,+,,
     pulling 65 issues:
@@ -11,9 +11,9 @@
 Changes for v2014.7.2..v2014.7.3
 --------------------------------
 
-- Total Merges: *169*
-- Total Issue references: *93*
-- Total PR references: *228*
+- Total Merges: **169**
+- Total Issue references: **93**
+- Total PR references: **228**
 
 
 5fd1705 Merge pull request `#22002`_ from basepi/`bp-21703`_
