@@ -1,8 +1,10 @@
-There are 946 cached issues
-pulling 18 issues:
-,,,,+,,,+,+,,,,,+,,,,,
-pulling 4 issues:
-,,,,
+.. code-block:: bash
+
+    There are 947 cached issues
+    pulling 18 issues:
+    ,,,,+,,,+,+,,,,,+,,,,,
+    pulling 4 issues:
+    ,,,,
 
 Changes for v2014.7.3..v2014.7.4
 --------------------------------
