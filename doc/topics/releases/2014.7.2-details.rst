@@ -1,6 +1,6 @@
 .. code-block:: bash
 
-    There are 970 cached issues
+    There are 926 cached issues
     pulling 157 issues:
     ,,,+,+,+,,,,,,,,+,,,,,,,,+,+,,,,,,,+,+,+,,,,,+,,,,+,,,+,+,,,,,,,,,,+,,,++,,+,+,+,,+,,,+,,,,,,,,,,,++,,,,,,+,,,,,,,,+,,,++,,,,,,+,,,,,+,,,+,,,,,++,+,,,,,+,+,,,,,,,,,,,,+,,,,+,,+,++,,,,,,+,+,,,,,,+,,+,,,
     pulling 44 issues:
@@ -14,7 +14,7 @@ Changes for v2014.7.1..v2014.7.2
 Statistics:
 
 - Total Merges: **126**
-- Total Issue references: **57**
+- Total Issue references: **58**
 - Total PR references: **164**
 
 Changes:
@@ -25,11 +25,12 @@ Changes:
   * 9246f64 Merge pull request `#20523`_ from terminalmage/fix-kwarg-parsing
   * ebf9a9b Fix regression in arg parsing
 
-- 3e321fd Add file-locking bugfix to 2014.7.2 release notes
+* 3e321fd Add file-locking bugfix to 2014.7.2 release notes
 
 
-- e97d463 Merge branch 'crasu-2014.7' into 2014.7
+* e97d463 Merge branch 'crasu-2014.7' into 2014.7
 
+  - **ISSUE** `#18839`_: (*martinhoefling*) Copying files from gitfs in file.recurse state fails / is slow
 
   * 56653cb Added closing of filehandle and removal of gitfs update.lk
 
@@ -548,7 +549,7 @@ Changes:
 
   * 6669e25 dulwich.__version__ returns a tuple of ints instead of a string
 
-- 074c408 Add __instance_id__ to pylint checks as this has been added to
+* 074c408 Add __instance_id__ to pylint checks as this has been added to
 
 
 - **PR** `#20046`_: (*hvnsweeting*) bugfix: persist accumulator data after reload_modules, fix `#8881`_

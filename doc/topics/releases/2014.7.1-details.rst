@@ -1,6 +1,6 @@
 .. code-block:: bash
 
-    There are 939 cached issues
+    There are 920 cached issues
     pulling 457 issues:
     ,,,,,,,+,,,,,,,,,+,,,,,,,,,,,,,,,+,,,,,,,,,,,++,,,,,,+,+,,,,,,,,,+,,+,+,,,,,,,,,,,,,+,,,,,,,,,,,,,,,,,,+,,,,,,,+,,+,,,,,,,,,,,,,,,,,,,,,+,,,,,,,,+,,,,,+,,,,,,,,,+,,,,,+,+,,,,,,,+,,,+,,,,,,,,,+,+,+,,+,,+,,+,+,+,,,,,,,,,,+,,+,,+,,,+,,,+,,,,+,,,,,+,,,,,,,+,,+,,,,+,,,+,+,,,,,,,,+,,+,,,+,,+,,,+,,,,+,,+,,,,,,+,,,,,,,,+,+,,,+,,+,+,,,,,,,,,+,,,+,,+,,,+,,+,,+,,+,,,,,,+,,+,,+,,,,+,,,,,,,+,,,,,,,,+,+,+,,,,,,,,+,,,,+,,,,,,,,,,,,+,,+,,,,,,,,,+,,,,,+,+,++,+,,,,,+,,++,,,+,,,,,,,,,,+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+,,,,,,,,+,+,,,+,,,,,+,,,,,,,,,
     pulling 90 issues:
@@ -1099,7 +1099,7 @@ Changes:
   * 6933728 Merge pull request `#19000`_ from jfindlay/split_state
   * 4c47b13 split win commands in state
 
-- a6b5011 Typo
+* a6b5011 Typo
 
 
 - **PR** `#18978`_: (*garethgreenaway*) fixes to mount for nfs share
@@ -1729,16 +1729,16 @@ Changes:
   * 8773dd3 Merge pull request `#18608`_ from jfindlay/user_typos
   * 4f8f957 fix typos in states.user.present `#18590`_
 
-- 8315335 Remove PyLint disable rule in 2014.7
+* 8315335 Remove PyLint disable rule in 2014.7
 
 
-- 2396568 Remove unused import
+* 2396568 Remove unused import
 
 
-- 74110d8 Don't assume the `PATH` env var is set
+* 74110d8 Don't assume the `PATH` env var is set
 
 
-- 6530a79 Disable the false import error
+* 6530a79 Disable the false import error
 
 
 - **PR** `#18617`_: (*rallytime*) Skip test_max_open_files test until we can find the real problem
@@ -1823,7 +1823,7 @@ Changes:
   * 9798f89 Merge pull request `#18575`_ from eliasp/2014.7_doc_aggregate_typo
   * 6a7662c Fix typo (agregate â aggregate).
 
-- b11542d Update 2014.7.1 release notes
+* b11542d Update 2014.7.1 release notes
 
 
 - **PR** `#18528`_: (*s0undt3ch*) Update 'doc/.tx/config' - Build `#213`_
@@ -2136,7 +2136,7 @@ Changes:
 
   * a1f060c Fixes `#15690`_
 
-- 6e0f4da Fix syntax errors
+* 6e0f4da Fix syntax errors
 
 
 - **PR** `#18392`_: (*thatch45*) Check for listen data struct validity
@@ -2958,7 +2958,7 @@ Changes:
   * 26d6bd8 Merge pull request `#17691`_ from makinacorpus/7
   * dafb765 factorize call
 
-- f1d2fd8 Re-enable setuptools `console_scripts`
+* f1d2fd8 Re-enable setuptools `console_scripts`
 
 
 - **PR** `#17379`_: (*cro*) Add breaking change notice for module.run in 2014.1.0
