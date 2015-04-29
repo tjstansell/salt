@@ -1,4 +1,4 @@
-There are 939 cached issues
+There are 917 cached issues
 pulling 239 issues:
 ,+,,,,+,+,,+,+,,,,+,,,,,,,,,,,,,+,,+,,,,,,+,,,,,+,+,,,+,+,,,,,,,,,,,,+++++,+,+,,+,,,,+,,,,,,,,,+,,,,,,,,,,+,,,,+,,,,,,,,,,,,+,,,,,,+,,,,,,,,,+,,,,,,,,+,+,+,,,+,,+,,,+,,,+,,+,,,+,,,,,,,,,,,+,+,+,,,,,+,,+,,,+,,,,,,+,+,,,,,++,,+,+,+,,,+,,,+,+,,+,+,+,,,,,+,,,,,,,,+,,,,+,+,,,+,,,,,,,,,,,,,,,,,+,,+,,+,,,,,+,,
 pulling 65 issues:
@@ -10,14 +10,14 @@ pulling 2 issues:
 
 - **ISSUE** `#21657`_: (*rallytime*) salt-ssh cmd.run msgpack critical error
 - **PR** `#22002`_: (*basepi*) [2014.7] Backport `#21703`_
-- **PR** `#21703`_: (*basepi*) [2015.2] Catch TypeErrors from cmd.run jid_file functionality in salt-ssh
+- **PR** `#21703`_: (*basepi*) [2015.2] Catch TypeErrors from cmd.run jid_file functionality in salt-ssh *( references: `#21657`_ )*
 
   * 1470382 Catch TypeErrors from cmd.run jid_file functionality in salt-ssh
 
 c76ea26 Merge pull request `#21994`_ from twangboy/os_ver_15051
 
 - **ISSUE** `#15051`_: (*lorengordon*) On Windows 8.1 the grain 'osversion' is not detected correctly
-- **PR** `#21994`_: (*twangboy*) Used WMI to detect real osversion in Windows
+- **PR** `#21994`_: (*twangboy*) Used WMI to detect real osversion in Windows *( references: `#15051`_ )*
 
   * 2665ad4 Used WMI to detect real osversion in Windows
 
@@ -43,7 +43,7 @@ b409209 Merge pull request `#21968`_ from ryanwohara/2014.7
 
 dd37f43 Merge pull request `#21962`_ from rallytime/apply_nested_outputter_fix_to_2014.7
 
-- **PR** `#21962`_: (*rallytime*) Apply nested outputter optimization fix to 2014.7
+- **PR** `#21962`_: (*rallytime*) Apply nested outputter optimization fix to 2014.7 *( references: `#21920`_ )*
 - **PR** `#21920`_: (*fellyns*) refactor nested outputter for much better performance
 
   * 72f1fff Remove unused import
@@ -53,7 +53,7 @@ dd37f43 Merge pull request `#21962`_ from rallytime/apply_nested_outputter_fix_t
 d768fe8 Merge pull request `#21965`_ from basepi/salt-ssh.file.recurse.21922
 
 - **ISSUE** `#21922`_: (*arr2036*) salt-ssh NameError: global name 'msgpack' is not defined (salt-ssh 2014.7.2 (Helium))
-- **PR** `#21965`_: (*basepi*) [2014.7] Catch msgpack error in file.recurse in salt-ssh
+- **PR** `#21965`_: (*basepi*) [2014.7] Catch msgpack error in file.recurse in salt-ssh *( references: `#21922`_ )*
 
   * 3d8b31f Catch msgpack error in file.recurse
 
@@ -80,7 +80,7 @@ cda629d Merge pull request `#21963`_ from cachedout/2014_7_3_changes
 afcf1d7 Merge pull request `#21955`_ from rallytime/update_master_conf_doc
 
 - **ISSUE** `#21511`_: (*whiteinge*) Add default for pillar_source_merging_strategy in conf/master file
-- **PR** `#21955`_: (*rallytime*) Add default for pillar_source_merging_strategy in conf/master file
+- **PR** `#21955`_: (*rallytime*) Add default for pillar_source_merging_strategy in conf/master file *( references: `#21511`_ )*
 
   * 73a0df1 There are 4 values, not 3.
 
@@ -124,7 +124,7 @@ fadf44c Merge pull request `#21811`_ from jacksontj/2014.7
 
 - **ISSUE** `#21707`_: (*baweaver*) [saltnado rest] local requests hang indefinitely on glob / grain queries
 - **PR** `#21811`_: (*jacksontj*) Re-work timeouts in saltnado
-- **PR** `#21755`_: (*jacksontj*) Add timeout to saltnado's event listener
+- **PR** `#21755`_: (*jacksontj*) Add timeout to saltnado's event listener *( references: `#21707`_ )*
 
   * fbaf02c Have per-job minions_remaining
 
@@ -175,7 +175,7 @@ af01dc7 Merge pull request `#21861`_ from twangboy/build
 
 - **ISSUE** `#19953`_: (*johanek*) lsb_distrib grains on CentOS/RHEL
 - **PR** `#21857`_: (*jfindlay*) backport `#21844`_ to 2014.7
-- **PR** `#21844`_: (*johanek*) Always check other OS release files if lsb_distrib_id grain not populated from /etc/lsb-release
+- **PR** `#21844`_: (*johanek*) Always check other OS release files if lsb_distrib_id grain not populated from /etc/lsb-release *( references: `#19953`_ )*
 
   * 4fe795f Always check other OS release files if lsb_distrib_id grain not populated from /etc/lsb-release
 
@@ -195,7 +195,7 @@ c3c108d Merge pull request `#21851`_ from rallytime/`bp-20781`_
 
 - **ISSUE** `#20735`_: (*Whissi*) All salt-minions died with an unhandled exceptions while salt-master was unavailable due to maintenance
 - **PR** `#21851`_: (*rallytime*) Backport the fix in `#20781`_ manually to the 2014.7 branch
-- **PR** `#20781`_: (*cachedout*) Don't float exceptions on auth errors in mine
+- **PR** `#20781`_: (*cachedout*) Don't float exceptions on auth errors in mine *( references: `#20735`_ )*
 
   * 0fb810a Don't forget to import SaltClientError
 
@@ -212,14 +212,14 @@ c27692c Merge pull request `#21848`_ from rallytime/`bp-21635`_
 
 - **ISSUE** `#21603`_: (*ipmb*) ssh_auth.present fails on key without comment
 - **PR** `#21848`_: (*rallytime*) Backport `#21635`_ to 2014.7
-- **PR** `#21635`_: (*jfindlay*) check for ssh key comment
+- **PR** `#21635`_: (*jfindlay*) check for ssh key comment *( references: `#21603`_ )*
 
   * c0f0414 check for ssh key comment
 
 8262d85 Merge pull request `#21849`_ from basepi/saltutil.runner.21650
 
 - **ISSUE** `#21650`_: (*jfindlay*) saltutil.runner jobs.list_jobs is broken
-- **PR** `#21849`_: (*basepi*) [2014.7] saltutil.runner fixes
+- **PR** `#21849`_: (*basepi*) [2014.7] saltutil.runner fixes *( references: `#21650`_ )*
 
   * 3f0b003 Generate master config if it's not present
 
@@ -229,8 +229,8 @@ c27692c Merge pull request `#21848`_ from rallytime/`bp-21635`_
 
 - **ISSUE** `#20197`_: (*jhenry82*) Issue with multi-master and local job cache: An inconsistency occurred
 - **ISSUE** `#19932`_: (*smitt04*) Calling salt '*' state.highstate on multi master, minions stop responding
-- **PR** `#21846`_: (*rallytime*) Backport `#21795`_ to 2014.7
-- **PR** `#21795`_: (*cachedout*) Avoid dueling opts with fileclients in highstate
+- **PR** `#21846`_: (*rallytime*) Backport `#21795`_ to 2014.7 *( references: `#20197`_ )*
+- **PR** `#21795`_: (*cachedout*) Avoid dueling opts with fileclients in highstate *( references: `#19932`_ )*
 
   * 56142ad Avoid dueling opts with fileclients in highstate
 
@@ -241,14 +241,14 @@ c1ef044 Merge pull request `#21847`_ from rallytime/`bp-21832`_
 - **ISSUE** `#13944`_: (*basepi*) Multi-master minion not failing over properly for state runs
 - **PR** `#21847`_: (*rallytime*) Backport `#21832`_ to 2014.7
 - **PR** `#21832`_: (*cachedout*) Revert regression caused by `#15848`_
-- **PR** `#15848`_: (*cachedout*) Re-inject opts into modules under multi-master mode.
+- **PR** `#15848`_: (*cachedout*) Re-inject opts into modules under multi-master mode. *( references: `#13944`_ )*
 
   * 3782251 Revert regression caused by `#15848`_
 
 fd3623d Merge pull request `#21826`_ from jfindlay/file_error
 
 - **ISSUE** `#21774`_: (*Xiol*) "Failed to commit change, permission error" when using file.managed with check_cmd 
-- **PR** `#21826`_: (*jfindlay*) propagate original IOError message through file.manage_file
+- **PR** `#21826`_: (*jfindlay*) propagate original IOError message through file.manage_file *( references: `#21774`_ )*
 
   * ddbe16e propagate original IOError message through file.manage_file
 
@@ -257,7 +257,7 @@ fd3623d Merge pull request `#21826`_ from jfindlay/file_error
 - **ISSUE** `#21495`_: (*UtahDave*) Syndic not passing up lower level jobs to the higher master's job cache
 - **PR** `#21828`_: (*basepi*) [2014.7] Append `#21818`_
 - **PR** `#21818`_: (*basepi*) [2014.7] Backport `#21781`_ to 2014.7
-- **PR** `#21781`_: (*basepi*) [2015.2] Fix syndic pushing load to master of masters
+- **PR** `#21781`_: (*basepi*) [2015.2] Fix syndic pushing load to master of masters *( references: `#21495`_ )*
 
   * 417e2ab Stupid backport didn't get this
 
@@ -291,7 +291,7 @@ f92fd17 Merge pull request `#21822`_ from basepi/`bp-21820`_
 
 - **ISSUE** `#21495`_: (*UtahDave*) Syndic not passing up lower level jobs to the higher master's job cache
 - **PR** `#21818`_: (*basepi*) [2014.7] Backport `#21781`_ to 2014.7
-- **PR** `#21781`_: (*basepi*) [2015.2] Fix syndic pushing load to master of masters
+- **PR** `#21781`_: (*basepi*) [2015.2] Fix syndic pushing load to master of masters *( references: `#21495`_ )*
 
   * e386db2 Update syndic_config test for new cachedir
 
@@ -316,7 +316,7 @@ e7222c0 Merge pull request `#21785`_ from rallytime/`bp-21738`_
 efe7d09 Merge pull request `#21780`_ from cachedout/syndic_client_2014_7
 
 - **ISSUE** `#19864`_: (*claudiupopescu*) Salt syndic architecture is slow
-- **PR** `#21780`_: (*cachedout*) Backport `#21775`_ to 2014.7
+- **PR** `#21780`_: (*cachedout*) Backport `#21775`_ to 2014.7 *( references: `#21775`_ )*
 - **PR** `#21775`_: (*cachedout*) Syndic client
 - **PR** `#21175`_: (*UtahDave*) Cherry pick twilio beacon from develop to 2015.2
 
@@ -325,14 +325,14 @@ efe7d09 Merge pull request `#21780`_ from cachedout/syndic_client_2014_7
 0c6b3e5 Merge pull request `#21782`_ from rallytime/syndic_doc_fix
 
 - **ISSUE** `#19864`_: (*claudiupopescu*) Salt syndic architecture is slow
-- **PR** `#21782`_: (*rallytime*) Update syndic documentation
+- **PR** `#21782`_: (*rallytime*) Update syndic documentation *( references: `#19864`_ )*
 
   * f56cdd5 Update syndic documentation
 
 55a35c8 Merge pull request `#21755`_ from jacksontj/2014.7
 
 - **ISSUE** `#21707`_: (*baweaver*) [saltnado rest] local requests hang indefinitely on glob / grain queries
-- **PR** `#21755`_: (*jacksontj*) Add timeout to saltnado's event listener
+- **PR** `#21755`_: (*jacksontj*) Add timeout to saltnado's event listener *( references: `#21707`_ )*
 
   * a95f812 Cleanup merge
 
@@ -353,14 +353,14 @@ efe7d09 Merge pull request `#21780`_ from cachedout/syndic_client_2014_7
 49d972d Merge pull request `#21743`_ from jfindlay/eauth_group_test
 
 - **ISSUE** `#17380`_: (*UtahDave*) external auth group support not working with pam
-- **PR** `#21743`_: (*jfindlay*) add eauth pam group tests
+- **PR** `#21743`_: (*jfindlay*) add eauth pam group tests *( references: `#17380`_ )*
 
   * f735f0b add eauth pam group tests
 
 4406974 Merge pull request `#21734`_ from MrMarvin/fix/issue_19405_debian_ip_interfaces_parsing
 
 - **ISSUE** `#19405`_: (*numkem*) Network bridging under ubuntu fails with KeyError
-- **PR** `#21734`_: (*MrMarvin*) "fixes" bug when parsing interfaces
+- **PR** `#21734`_: (*MrMarvin*) "fixes" bug when parsing interfaces *( references: `#19405`_ )*
 
   * d8892fd fixes PEP8 W601  and E713- thanks linting test
 
@@ -369,7 +369,7 @@ efe7d09 Merge pull request `#21780`_ from cachedout/syndic_client_2014_7
 493a97c Merge pull request `#21701`_ from rvstaveren/fix_ldap_group_handling_2014_7
 
 - **ISSUE** `#21661`_: (*rvstaveren*) membership logic in salt/auth/ldap.py bug
-- **PR** `#21701`_: (*rvstaveren*) Fix ldap group handling for 2014.7
+- **PR** `#21701`_: (*rvstaveren*) Fix ldap group handling for 2014.7 *( references: `#21661`_ )*
 
   * 6e51093 username doesn't necessarily need to be in slot 0
 
@@ -385,7 +385,7 @@ efe7d09 Merge pull request `#21780`_ from cachedout/syndic_client_2014_7
 - **ISSUE** `#20317`_: (*joshdover*) RVM is not a function for gem state
 - **ISSUE** `#6815`_: (*davepeck*) salt.modules.gem.install ignores ruby parameter if rvm is installed locally and runas is provided
 - **PR** `#21708`_: (*rallytime*) Backport `#21666`_ to 2014.7
-- **PR** `#21666`_: (*ahus1*) RVM doesn't install as non-root, gems don't install for RVM
+- **PR** `#21666`_: (*ahus1*) RVM doesn't install as non-root, gems don't install for RVM *( references: `#6815`_ `#20317`_ )*
 
   * 5f11f7b added tests to ensure commands are created accordingly (without additional single quotes)
 
@@ -402,7 +402,7 @@ efe7d09 Merge pull request `#21780`_ from cachedout/syndic_client_2014_7
 0fc61de Merge pull request `#21677`_ from aneeshusa/check-http-response-status-2014.7
 
 - **ISSUE** `#21625`_: (*SaltwaterC*) file.managed for HTTP source doesn't use the HTTP status code
-- **PR** `#21677`_: (*aneeshusa*) Check response status when using fileclient.get_url.
+- **PR** `#21677`_: (*aneeshusa*) Check response status when using fileclient.get_url. *( references: `#21625`_ )*
 
   * 58a1afc Check response status when using fileclient.get_url.
 
@@ -426,7 +426,7 @@ dd130a7 Merge pull request `#21648`_ from tjstansell/fix-rh_ip-stp
 a8e8cb9 Merge pull request `#21636`_ from basepi/salt-ssh.msgpack.gate.21226
 
 - **ISSUE** `#21226`_: (*jcftang*) salt-ssh:  Unable to import msgpack or msgpack_pure python modules
-- **PR** `#21636`_: (*basepi*) Gate salt.utils.cloud (imports msgpack) in config.py for salt-ssh
+- **PR** `#21636`_: (*basepi*) Gate salt.utils.cloud (imports msgpack) in config.py for salt-ssh *( references: `#21226`_ )*
 
   * 3ef09d3 Gate salt.utils.cloud (imports msgpack) in config.py for salt-ssh
 
@@ -434,7 +434,7 @@ a8e8cb9 Merge pull request `#21636`_ from basepi/salt-ssh.msgpack.gate.21226
 
 - **ISSUE** `#21423`_: (*roflmao*) Function file.managed is run everytime on user = number
 - **PR** `#21626`_: (*rallytime*) Backport `#21622`_ to 2014.7
-- **PR** `#21622`_: (*aneeshusa*) Teach file.check_perms to handle uids and gids.
+- **PR** `#21622`_: (*aneeshusa*) Teach file.check_perms to handle uids and gids. *( references: `#21423`_ )*
 
   * b28dba2 Teach file.check_perms to handle uids and gids.
 
@@ -472,13 +472,13 @@ cfd8173 Merge pull request `#21631`_ from cro/remove_linodepy
 eb12f11 Merge pull request `#21605`_ from highlyunavailable/tar_args
 
 - **ISSUE** `#20795`_: (*Bilge*) archive.extracted tar_options does not support long options or non-option parameters
-- **PR** `#21605`_: (*highlyunavailable*) Fix tar state options
+- **PR** `#21605`_: (*highlyunavailable*) Fix tar state options *( references: `#20795`_ )*
 
   * 133318f Fix tar state options
 
 dc4e90f Merge pull request `#21593`_ from jfindlay/deb_ip_mode
 
-- **PR** `#21593`_: (*jfindlay*) add 802.3ad to debian_ip tunnel modes
+- **PR** `#21593`_: (*jfindlay*) add 802.3ad to debian_ip tunnel modes *( references: `#21239`_ )*
 - **PR** `#21239`_: (*mnguyen1289*) IPV4 mode should accept all modes
 
   * 01d6056 add 802.3ad to debian_ip tunnel modes
@@ -518,7 +518,7 @@ d4f419a Merge pull request `#21587`_ from RobertFach/`fix-21546`_-blockdev-tune-
 
 - **ISSUE** `#21522`_: (*Diaoul*) python setup.py -V crashes
 - **PR** `#21568`_: (*jfindlay*) Don't obfuscate internal distutils attributes
-- **PR** `#21559`_: (*s0undt3ch*) Don't obfuscate the internal version attribute
+- **PR** `#21559`_: (*s0undt3ch*) Don't obfuscate the internal version attribute *( references: `#21522`_ )*
 
   * e6f8ea3 Don't obfuscate internal distutils attributes
 
@@ -526,7 +526,7 @@ f3ec86f Merge pull request `#21514`_ from rallytime/manually_backport_21489
 
 - **ISSUE** `#20787`_: (*pruiz*) pillar_source_merging_strategy: smart not working when using more than one renderer at shebang line
 - **PR** `#21514`_: (*rallytime*) Apply fix from `#21489`_ to the 2014.7 branch
-- **PR** `#21489`_: (*pruiz*) Fix `#20787`_: YamlEx pillar merging fails when using gpg (even if pillar_source_merging_strategy is set to aggregate)
+- **PR** `#21489`_: (*pruiz*) Fix `#20787`_: YamlEx pillar merging fails when using gpg (even if pillar_source_merging_strategy is set to aggregate) *( references: `#20787`_ )*
 
   * ee159ff Apply fix from `#21489`_ to the 2014.7 branch
 
@@ -534,7 +534,7 @@ f3ec86f Merge pull request `#21514`_ from rallytime/manually_backport_21489
 
 - **ISSUE** `#20932`_: (*dtoubelis*) Exception when calling create method on openstack cloud provider from reactor sls
 - **PR** `#21562`_: (*cro*) Backport 21283 from develop.
-- **PR** `#21283`_: (*gtmanfred*) Fix openstack cloud driver to work with only bootstrapping
+- **PR** `#21283`_: (*gtmanfred*) Fix openstack cloud driver to work with only bootstrapping *( references: `#20932`_ )*
 
   * 470bc06 remove extra log.debug
 
@@ -565,14 +565,14 @@ f3ec86f Merge pull request `#21514`_ from rallytime/manually_backport_21489
 979ed66 Merge pull request `#21559`_ from s0undt3ch/hotfix/issues-21522
 
 - **ISSUE** `#21522`_: (*Diaoul*) python setup.py -V crashes
-- **PR** `#21559`_: (*s0undt3ch*) Don't obfuscate the internal version attribute
+- **PR** `#21559`_: (*s0undt3ch*) Don't obfuscate the internal version attribute *( references: `#21522`_ )*
 
   * e5a7158 Don't obfuscate the internal version attribute
 
 70608d8 Merge pull request `#21557`_ from s0undt3ch/2014.7
 
 - **ISSUE** `#555`_: (*syphernl*) Allow states to be called via wildcard
-- **PR** `#21557`_: (*s0undt3ch*) [2014.7] Update the bootstrap script to latest stable, v2015.03.15
+- **PR** `#21557`_: (*s0undt3ch*) [2014.7] Update the bootstrap script to latest stable, v2015.03.15 *( references: `#555`_ )*
 
   * 397f45e Update the bootstrap script to latest stable, v2015.03.15
 
@@ -580,15 +580,15 @@ f3ec86f Merge pull request `#21514`_ from rallytime/manually_backport_21489
 
 - **ISSUE** `#21057`_: (*freimer*) Windows saltutil.kill_job
 - **PR** `#21523`_: (*jfindlay*) backport `#21481`_ to 2014.7
-- **PR** `#21481`_: (*opdude*) Fixed an error with SIGKILL on windows
-- **PR** `#21244`_: (*freimer*) Fix for Python without a signal.SIGKILL (Win32)
+- **PR** `#21481`_: (*opdude*) Fixed an error with SIGKILL on windows *( references: `#21244`_ )*
+- **PR** `#21244`_: (*freimer*) Fix for Python without a signal.SIGKILL (Win32) *( references: `#21057`_ )*
 
   * 08bd476 Fixed an error with SIGKILL on windows
 
 2fa4189 Merge pull request `#21555`_ from xclusv/2014.7-`fix-21491`_
 
 - **ISSUE** `#21491`_: (*martin-helmich*) composer.installed should not always "return True" when composer.lock is present
-- **PR** `#21555`_: (*ross-p*) Fix for issue `#21491`_
+- **PR** `#21555`_: (*ross-p*) Fix for issue `#21491`_ *( references: `#21553`_ )*
 - **PR** `#21553`_: (*ross-p*) Fix for issue `#21491`_ (composer install should always run)
 
   * d473408 composer.install module does not support always_check, only the state does.  Removing the test on the module.
@@ -641,7 +641,7 @@ d8f4160 Merge pull request `#21510`_ from twangboy/win_service
 
 - **ISSUE** `#21349`_: (*ross-p*) Salt composer state now broken due to apparent change in PHP Composer's output
 - **PR** `#21497`_: (*ross-p*) Backport of PR `#21358`_ to 2014.7
-- **PR** `#21358`_: (*ross-p*) Fix composer, issue `#21349`_
+- **PR** `#21358`_: (*ross-p*) Fix composer, issue `#21349`_ *( references: `#21349`_ )*
 
   * 8083cf5 Backport of PR `#21358`_ to 2014.7
 
@@ -661,7 +661,7 @@ f6f6afe Merge pull request `#21488`_ from jacobhammons/2014.7
 4fb4178 Merge pull request `#21439`_ from jfindlay/no_master
 
 - **ISSUE** `#21301`_: (*syphernl*) Optimize error about sls missing on master if running masterless
-- **PR** `#21439`_: (*jfindlay*) remove 'master' reference in error message
+- **PR** `#21439`_: (*jfindlay*) remove 'master' reference in error message *( references: `#21301`_ )*
 
   * 3456ef6 remove 'master' reference in error message
 
@@ -683,7 +683,7 @@ f6f6afe Merge pull request `#21488`_ from jacobhammons/2014.7
 c5db184 Merge pull request `#21411`_ from terminalmage/issue20812
 
 - **ISSUE** `#20812`_: (*jasonrm*) Recurse failed with gitfs per-remote mountpoint and file.recurse
-- **PR** `#21411`_: (*terminalmage*) Fix file.recurse on root of gitfs/hgfs/svnfs repo
+- **PR** `#21411`_: (*terminalmage*) Fix file.recurse on root of gitfs/hgfs/svnfs repo *( references: `#20812`_ )*
 
   * cf05fd6 Fix file.recurse on root of svnfs repo
 
@@ -694,7 +694,7 @@ c5db184 Merge pull request `#21411`_ from terminalmage/issue20812
 cd5463d Merge pull request `#21380`_ from lorengordon/service-running-logic-conflict
 
 - **ISSUE** `#20915`_: (*lorengordon*) Logic conflict with `changes` in service.running and service.dead?
-- **PR** `#21380`_: (*lorengordon*) Fix logic conflict with `enabled` between service.running and service.dead
+- **PR** `#21380`_: (*lorengordon*) Fix logic conflict with `enabled` between service.running and service.dead *( references: `#20915`_ )*
 
   * 6e4e9d5 Streamline logic, cleanup dead code
 
@@ -705,7 +705,7 @@ cd5463d Merge pull request `#21380`_ from lorengordon/service-running-logic-conf
 e2f135a Merge pull request `#21395`_ from jacksontj/2014.7
 
 - **ISSUE** `#20494`_: (*lorengordon*) Traceback in output with `--log-level debug` on Windows
-- **PR** `#21395`_: (*jacksontj*) Backport fix for `#20494`_
+- **PR** `#21395`_: (*jacksontj*) Backport fix for `#20494`_ *( references: `#20494`_ )*
 
   * ff8b47c Catch case where 'return' not in opts, or other ways to get an empty returner (as it will just fail anyways)
 
@@ -758,14 +758,14 @@ be4405f Merge pull request `#21346`_ from sinnerschrader/fix/2014_7_fix_ubuntu_n
 1c23c1f Merge pull request `#21360`_ from terminalmage/issue21300
 
 - **ISSUE** `#21300`_: (*ferricoxide*) sysctl.present dumps a traceback if driver disabled
-- **PR** `#21360`_: (*terminalmage*) Fix traceback in sysctl.present state output
+- **PR** `#21360`_: (*terminalmage*) Fix traceback in sysctl.present state output *( references: `#21300`_ )*
 
   * 1322181 Fix traceback in sysctl.present state output
 
 00323f0 Merge pull request `#21366`_ from d--j/fix-debian-ip-dns-nameservers
 
 - **ISSUE** `#18318`_: (*arthurlogilab*) network.managed removes comments and some options in /etc/network/interfaces
-- **PR** `#21366`_: (*d--j*) Make debian_ip.get_interface not remove dns-nameservers
+- **PR** `#21366`_: (*d--j*) Make debian_ip.get_interface not remove dns-nameservers *( references: `#18318`_ )*
 
   * 32c7547 Make debian_ip not remove dns-nameservers
 
@@ -805,7 +805,7 @@ da6eb8b Merge pull request `#21275`_ from terminalmage/fix-invalid-kwargs
 - **ISSUE** `#20970`_: (*lorengordon*) file.replace doesn't replace `pattern` when `repl` exists
 - **ISSUE** `#20603`_: (*lorengordon*) file.search always returns True?
 - **ISSUE** `#18612`_: (*eliasp*) 'file.replace' with 'append_if_not_found=True' grows file infinitely
-- **PR** `#21050`_: (*lorengordon*) Fix file.replace regressions, fixes saltstack`#20970`_ and saltstack`#20603`_
+- **PR** `#21050`_: (*lorengordon*) Fix file.replace regressions, fixes saltstack`#20970`_ and saltstack`#20603`_ *( references: `#18612`_ )*
 
   * 5bcf157 Check file before making changes, create backup only if necessary
 
@@ -838,7 +838,7 @@ aa03bac Merge pull request `#21253`_ from freimer/issue_21057_2014.7
 0eaaf87 Merge pull request `#21179`_ from whiteinge/doc-presence-cross-ref-localhost-prob
 
 - **ISSUE** `#18436`_: (*pass-by-value*) Presence event returns with an empty list
-- **PR** `#21179`_: (*whiteinge*) Improved presence docs; added cross-references and localhost caveat
+- **PR** `#21179`_: (*whiteinge*) Improved presence docs; added cross-references and localhost caveat *( references: `#18436`_ )*
 
   * 4d974d9 Improved presence docs; added cross-references and localhost caveat
 
@@ -865,8 +865,8 @@ aa03bac Merge pull request `#21253`_ from freimer/issue_21057_2014.7
 a3bd5f6 Merge pull request `#21103`_ from s0undt3ch/2014.7
 
 - **ISSUE** `#496`_: (*syphernl*) apache.version shows 'apache2ctl' if Apache is missing
-- **PR** `#21103`_: (*s0undt3ch*) [2014.7] Update the bootstrap script to latest stable v2015.02.27
-- **PR** `#533`_: (*syphernl*) Only load nginx on machines that have nginx installed
+- **PR** `#21103`_: (*s0undt3ch*) [2014.7] Update the bootstrap script to latest stable v2015.02.27 *( references: `#533`_ )*
+- **PR** `#533`_: (*syphernl*) Only load nginx on machines that have nginx installed *( references: `#496`_ )*
 
   * 6248c6e Update the bootstrap script to latest stable v2015.02.27
 
@@ -940,8 +940,8 @@ c302796 Merge pull request `#21063`_ from jond64/`bp-16306`_
 - **ISSUE** `#20785`_: (*eliasp*) branches/environments from via GitFS are only added/deleted on salt-master restart
 - **ISSUE** `#18839`_: (*martinhoefling*) Copying files from gitfs in file.recurse state fails / is slow
 - **ISSUE** `#17945`_: (*mclarkson*) 2014.7.0 fileserver.update returns error
-- **PR** `#20854`_: (*terminalmage*) VCS fileserver backend fixes/optimizations
-- **PR** `#20141`_: (*crasu*) Fix file locking for gitfs see `#18839`_
+- **PR** `#20854`_: (*terminalmage*) VCS fileserver backend fixes/optimizations *( references: `#20785`_ `#17945`_ `#20896`_ `#20993`_ `#21021`_ )*
+- **PR** `#20141`_: (*crasu*) Fix file locking for gitfs see `#18839`_ *( references: `#18839`_ )*
 
   * d54a04d Catch FileserverConfigError exceptions on master startup
 
@@ -1053,7 +1053,7 @@ c302796 Merge pull request `#21063`_ from jond64/`bp-16306`_
 
 - **ISSUE** `#18358`_: (*msciciel*) Problem with batch execution
 - **PR** `#21023`_: (*rallytime*) Backport `#19303`_ to 2014.7
-- **PR** `#19303`_: (*cachedout*) Batch ckminions
+- **PR** `#19303`_: (*cachedout*) Batch ckminions *( references: `#18358`_ )*
 
   * 565f109 Add transport key to mocked opts to fix batch unit tests
 
@@ -1072,7 +1072,7 @@ c302796 Merge pull request `#21063`_ from jond64/`bp-16306`_
 c6ddfa2 Merge pull request `#21034`_ from basepi/salt-ssh-salt-api-20418
 
 - **ISSUE** `#20418`_: (*Xiol*) Permission denied error on salt-ssh deploy dir
-- **PR** `#21034`_: (*basepi*) [2014.7] Fix for salt-ssh without command line parsers
+- **PR** `#21034`_: (*basepi*) [2014.7] Fix for salt-ssh without command line parsers *( references: `#20418`_ )*
 
   * 1700d0c Fix for salt-ssh without command line parsers
 
@@ -1132,7 +1132,7 @@ d5a98f3 Merge pull request `#21032`_ from rallytime/`bp-21024`_
 
 8a03484 Merge pull request `#20990`_ from joehoyle/fix-typo-s3fs-backport
 
-- **PR** `#20990`_: (*joehoyle*) Backport fix `#20987`_
+- **PR** `#20990`_: (*joehoyle*) Backport fix `#20987`_ *( references: `#20987`_ )*
 - **PR** `#20987`_: (*joehoyle*) Fix typo in s3fs fix
 
   * f0ba7ee Fixed typo, doh!
@@ -1141,7 +1141,7 @@ d5a98f3 Merge pull request `#21032`_ from rallytime/`bp-21024`_
 
 - **ISSUE** `#20276`_: (*mventimi*) salt-ssh operations fail with "'msgpack' not defined" error
 - **PR** `#20983`_: (*basepi*) [2014.7] Backport `#20304`_ to catch msgpack errors in cmd.run
-- **PR** `#20304`_: (*basepi*) [2015.2] Catch msgpack errors from cmd.run for salt-ssh
+- **PR** `#20304`_: (*basepi*) [2015.2] Catch msgpack errors from cmd.run for salt-ssh *( references: `#20276`_ )*
 
   * d289084 Backport `#20304`_ to catch msgpack errors in cmd.run in 2014.7
 
@@ -1185,7 +1185,7 @@ dfef980 Merge pull request `#20951`_ from rallytime/`bp-20837`_
 55e7927 Merge pull request `#20922`_ from bbinet/2014.7_fix20921
 
 - **ISSUE** `#20921`_: (*bbinet*) 2014.7 regression: InvalidRepository: Invalid repository name (debian:wheezy)
-- **PR** `#20922`_: (*bbinet*) 2014.7: fix issue 20921
+- **PR** `#20922`_: (*bbinet*) 2014.7: fix issue 20921 *( references: `#20921`_ )*
 
   * c0f9b9d Fixed problem with tags occuring twice with docker.pulled
 
@@ -1206,21 +1206,21 @@ dfef980 Merge pull request `#20951`_ from rallytime/`bp-20837`_
 9401b24 Merge pull request `#20881`_ from thatch45/listen_req
 
 - **ISSUE** `#20863`_: (*clinta*) listen and require conflict
-- **PR** `#20881`_: (*thatch45*) Remove requisites from listen post calls
+- **PR** `#20881`_: (*thatch45*) Remove requisites from listen post calls *( references: `#20863`_ )*
 
   * 44cda29 Remove requisites from listen post calls
 
 e6f1eb0 Merge pull request `#20856`_ from jrgp/2014.7
 
 - **ISSUE** `#20855`_: (*jrgp*) Loopback filesystems always remount (option=loop) regardless of zero changes (2014.7)
-- **PR** `#20856`_: (*jrgp*) Don't remount loop back filesystems upon every state run
+- **PR** `#20856`_: (*jrgp*) Don't remount loop back filesystems upon every state run *( references: `#20855`_ )*
 
   * 8dbfed6 Don't remount loop back filesystems upon every state run
 
 abda600 Merge pull request `#20866`_ from terminalmage/issue20742
 
 - **ISSUE** `#20742`_: (*transmutated*) Broken Dependencies for new salt installation on Redhat/CentOS 5.X using epel5 repo
-- **PR** `#20866`_: (*terminalmage*) Update the RHEL installation guide
+- **PR** `#20866`_: (*terminalmage*) Update the RHEL installation guide *( references: `#20742`_ )*
 
   * 396e234 Update the RHEL installation guide
 
@@ -1271,7 +1271,7 @@ e488572 Merge pull request `#20834`_ from peresadam/fix_format_call_2014.7
 7d44aaa Merge pull request `#20613`_ from jfindlay/fix_output
 
 - **ISSUE** `#20612`_: (*jfindlay*) always change 'text' outputter to 'txt'
-- **PR** `#20613`_: (*jfindlay*) change incorrect 'text' outputter to 'txt'
+- **PR** `#20613`_: (*jfindlay*) change incorrect 'text' outputter to 'txt' *( references: `#20612`_ )*
 
   * 0d6663b conform shell integration tests to txt runner
 
@@ -1301,14 +1301,14 @@ f669b25 Merge pull request `#20810`_ from rallytime/windows_install_docs_update
 90ef4d7 Merge pull request `#20778`_ from terminalmage/issue18943
 
 - **ISSUE** `#18943`_: (*Diaoul*) Synology support
-- **PR** `#20778`_: (*terminalmage*) Add Synology OS detection
+- **PR** `#20778`_: (*terminalmage*) Add Synology OS detection *( references: `#18943`_ )*
 
   * bd65632 Add Synology OS detection
 
 5ad79ae Merge pull request `#20762`_ from jfindlay/fix_nftables
 
 - **ISSUE** `#20747`_: (*jayeshka*) The function "get_rule_handle" in nftables module throw "Referenced before assignment" error.
-- **PR** `#20762`_: (*jfindlay*) fix nftables.get_rule_handle return error
+- **PR** `#20762`_: (*jfindlay*) fix nftables.get_rule_handle return error *( references: `#20747`_ )*
 
   * 6708cf1 fix nftables.get_rule_handle return error
 
@@ -1324,7 +1324,7 @@ f669b25 Merge pull request `#20810`_ from rallytime/windows_install_docs_update
 237f804 Merge pull request `#20739`_ from mikn/publish_return_fixes
 
 - **ISSUE** `#16510`_: (*UtahDave*) publish.publish completely unreliable in 2014.7 branch
-- **PR** `#20739`_: (*mikn*) Giving publish.publish more robust return handling
+- **PR** `#20739`_: (*mikn*) Giving publish.publish more robust return handling *( references: `#16510`_ )*
 
   * 5fab631 Removing some redundant code. This was moved to be above the loop exit
 
@@ -1350,7 +1350,7 @@ bdbb23d Merge pull request `#20697`_ from whiteinge/doc-rest_cherrypy-install-us
 6c2ac49 Merge pull request `#20684`_ from rallytime/`bp-20232`_
 
 - **PR** `#20684`_: (*rallytime*) Backport `#20232`_ to 2014.7
-- **PR** `#20232`_: (*jacksontj*) Remove unecessary finish() calls
+- **PR** `#20232`_: (*jacksontj*) Remove unecessary finish() calls *( references: `#20221`_ )*
 - **PR** `#20221`_: (*cachedout*) Remove finish [DO NOT MERGE]
 
   * 8d63ac4 Remove unecessary finish() calls
@@ -1358,7 +1358,7 @@ bdbb23d Merge pull request `#20697`_ from whiteinge/doc-rest_cherrypy-install-us
 f00a85a Merge pull request `#20682`_ from rallytime/proxmox_docs
 
 - **ISSUE** `#14799`_: (*lparmentier-quatral*) Salt Cloud 2014.7 Provider issue
-- **PR** `#20682`_: (*rallytime*) Add dependency notice to proxmox.rst
+- **PR** `#20682`_: (*rallytime*) Add dependency notice to proxmox.rst *( references: `#14799`_ )*
 
   * 4805677 Add dependency notice to proxmox.rst
 
@@ -1404,7 +1404,7 @@ f79108b Merge pull request `#20633`_ from sbrandtb/fix_locale_speechmarks
 2ec7191 Merge pull request `#20604`_ from basepi/kali_linux_20552
 
 - **ISSUE** `#20552`_: (*resolan*) Kali systems integration for pkg states
-- **PR** `#20604`_: (*basepi*) [2014.7] Accept kali linux for aptpkg.py
+- **PR** `#20604`_: (*basepi*) [2014.7] Accept kali linux for aptpkg.py *( references: `#20552`_ )*
 
   * 0d1c0ab Accept kali linux for aptpkg.py
 
@@ -1447,7 +1447,7 @@ a4572f3 Merge pull request `#20578`_ from rallytime/`bp-20561`_
 ad370bc Merge pull request `#20500`_ from eliasp/2014.7-issue-20499-fileserver-encoding
 
 - **ISSUE** `#20499`_: (*eliasp*) "UnicodeDecodeError" in 'fileserver.file_list()'
-- **PR** `#20500`_: (*eliasp*) Use same string encoding for results from all fileserver backends.
+- **PR** `#20500`_: (*eliasp*) Use same string encoding for results from all fileserver backends. *( references: `#20499`_ )*
 
   * 4951b78 Use same string encoding for results from all fileserver backends.
 

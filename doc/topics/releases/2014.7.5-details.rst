@@ -1,4 +1,4 @@
-There are 941 cached issues
+There are 937 cached issues
 pulling 105 issues:
 ,,,,,,,,,,,,,+,,,,,,,,+,,,,,,,,,+,,,,+,,,+,,,,,,,,,+,,,+,,,,,,,,,+,,,,,+,,+,+,+,,,,,,+,,,,,,,,,,,,+,,,,,,+,+,+,+,,+,,,,+,,++,+,,
 pulling 23 issues:
@@ -15,7 +15,7 @@ pulling 3 issues:
 75348e5 Merge pull request `#22748`_ from twangboy/fix_bat
 
 - **ISSUE** `#22740`_: (*lorengordon*) New Windows installer assumes salt is installed to the current directory
-- **PR** `#22748`_: (*twangboy*) Changed %cd% to %~dp0
+- **PR** `#22748`_: (*twangboy*) Changed %cd% to %~dp0 *( references: `#22740`_ )*
 
   * 2d3d0b1 Changed %cd% to %~dp0
 
@@ -23,7 +23,7 @@ pulling 3 issues:
 
 - **ISSUE** `#17948`_: (*eoyslebo*) salt-call --local  pkg.list_pkgs does not list all installed programs on Windows
 - **ISSUE** `#11341`_: (*gtmacdonald*) Windows pkg.list_pkgs not working
-- **PR** `#22716`_: (*twangboy*) Removed list_pkgs caching
+- **PR** `#22716`_: (*twangboy*) Removed list_pkgs caching *( references: `#17948`_ `#11341`_ )*
 
   * e1ee7db Update win_pkg.py
 
@@ -32,7 +32,7 @@ pulling 3 issues:
 3a5a60b Merge pull request `#22688`_ from msteed/issue-22676
 
 - **ISSUE** `#22676`_: (*msteed*) Options from cli help missing from manpages
-- **PR** `#22688`_: (*msteed*) Add missing command line options to man pages
+- **PR** `#22688`_: (*msteed*) Add missing command line options to man pages *( references: `#22676`_ )*
 
   * 70f1ca9 Add missing command line options to man pages
 
@@ -59,15 +59,15 @@ c0d1bdd Merge pull request `#22666`_ from msteed/issue_22239
 edeec67 Merge pull request `#22623`_ from thatch45/merge_22115
 
 - **ISSUE** `#21910`_: (*justyns*) Salt-master too whitespace-sensitive when dealing with minion pub keys
-- **PR** `#22623`_: (*thatch45*) merge 22115 in correct branch
-- **PR** `#22115`_: (*douglas-vaz*) Strip whitespace characters using strip() for pub key check
+- **PR** `#22623`_: (*thatch45*) merge 22115 in correct branch *( references: `#22115`_ )*
+- **PR** `#22115`_: (*douglas-vaz*) Strip whitespace characters using strip() for pub key check *( references: `#21910`_ )*
 
   * 05a9f47 merge 22115 in correct branch
 
 795c01d Merge pull request `#22656`_ from jfindlay/`bp-22624`_
 
 - **PR** `#22656`_: (*jfindlay*) backport `#22624`_ to 2014.7
-- **PR** `#22624`_: (*rallytime*) Backport `#22563`_ to 2015.2
+- **PR** `#22624`_: (*rallytime*) Backport `#22563`_ to 2015.2 *( references: `#22563`_ )*
 - **PR** `#22563`_: (*kaszuba*) Fix for high cpu usage by salt-ssh
 
   * e4d8478 Remove blank line
@@ -77,7 +77,7 @@ edeec67 Merge pull request `#22623`_ from thatch45/merge_22115
 9a2aca4 Merge pull request `#22643`_ from TimJones/fix-pkgrepo-ppa-missing-add-apt-repository
 
 - **ISSUE** `#22638`_: (*TimJones*) pkgrepo.managed with ppa returns OK even though it fails
-- **PR** `#22643`_: (*TimJones*) Fix aptpkg.mod_repo returning OK even if apt-add-repository fails.
+- **PR** `#22643`_: (*TimJones*) Fix aptpkg.mod_repo returning OK even if apt-add-repository fails. *( references: `#22638`_ )*
 
   * 5099621 Fix aptpkg.mod_repo returning OK even if apt-add-repository fails.
 
@@ -93,16 +93,16 @@ a219be7 Merge pull request `#22625`_ from rallytime/`bp-22565`_
 - **ISSUE** `#22359`_: (*kiorky*) unless is not recognized as a state internal keyword
 - **ISSUE** `#21133`_: (*steverweber*) iptables issue.
 - **ISSUE** `#21120`_: (*kiorky*) highstate changes spurious warnings
-- **PR** `#22621`_: (*rallytime*) Add note about missing state internal keyword arguments to release notes
-- **PR** `#22365`_: (*s0undt3ch*) Include `unless` in the state internal keywords.
-- **PR** `#21164`_: (*s0undt3ch*) Add `fun` and `state` to the runtime internal keywords listing
+- **PR** `#22621`_: (*rallytime*) Add note about missing state internal keyword arguments to release notes *( references: `#21164`_ )*
+- **PR** `#22365`_: (*s0undt3ch*) Include `unless` in the state internal keywords. *( references: `#22359`_ )*
+- **PR** `#21164`_: (*s0undt3ch*) Add `fun` and `state` to the runtime internal keywords listing *( references: `#21120`_ `#21133`_ )*
 
   * fb03af3 Add note about missing state internal keyword arguments to release notes
 
 e24ffa0 Merge pull request `#22610`_ from rallytime/batch-bug_note
 
 - **ISSUE** `#18358`_: (*msciciel*) Problem with batch execution
-- **PR** `#22610`_: (*rallytime*) Add batch matching bug note to known issues in 2014.7.4 release notes
+- **PR** `#22610`_: (*rallytime*) Add batch matching bug note to known issues in 2014.7.4 release notes *( references: `#18358`_ )*
 
   * 9eb273f Add batch matching bug note to known issues in 2014.7.4 release notes
 
@@ -131,7 +131,7 @@ fe7ad0e Merge pull request `#22476`_ from tjstansell/`fix-21998`_
 bd83b6c Merge pull request `#22553`_ from alprs/fix-git_latest_empty
 
 - **ISSUE** `#15833`_: (*tomasfejfar*) git.latest does not check for HEAD existence
-- **PR** `#22553`_: (*anlutro*) Make git.latest work with empty source repositories
+- **PR** `#22553`_: (*anlutro*) Make git.latest work with empty source repositories *( references: `#15833`_ )*
 
   * 4f77f8a Make git.latest work with empty repositories
 
@@ -213,7 +213,7 @@ d80f258 Merge pull request `#22526`_ from dhs-rec/2014.7
 2481e6c Merge pull request `#22464`_ from jacksontj/2014.7
 
 - **ISSUE** `#18358`_: (*msciciel*) Problem with batch execution
-- **PR** `#22464`_: (*jacksontj*) 2014.7: Fix Batching
+- **PR** `#22464`_: (*jacksontj*) 2014.7: Fix Batching *( references: `#22350`_ )*
 - **PR** `#22350`_: (*jacksontj*) 2015.2: Fix batching
 
   * 77395d7 Change to sets, we don't gaurantee minion ordering in returns
@@ -264,7 +264,7 @@ c755463 Merge pull request `#22517`_ from s0undt3ch/2014.7
 6662853 Merge pull request `#22492`_ from davidjb/2014.7
 
 - **ISSUE** `#16508`_: (*o1e9*) wrong disk.usage reported for very big RAID disk
-- **PR** `#22492`_: (*davidjb*) Correctly report disk usage on Windows. Fix `#16508`_
+- **PR** `#22492`_: (*davidjb*) Correctly report disk usage on Windows. Fix `#16508`_ *( references: `#22485`_ )*
 - **PR** `#22485`_: (*davidjb*) Correctly report disk usage on Windows
 
   * 5d831ed Correctly report disk usage on Windows. Fix `#16508`_
@@ -281,7 +281,7 @@ bf1957a Merge pull request `#22446`_ from br0ch0n/2014.7
 c83e2d7 Merge pull request `#22466`_ from whiteinge/doc-nested-dicts
 
 - **ISSUE** `#22463`_: (*SaltwaterC*) Unable to use the "name" variable into the defaults of a file template
-- **PR** `#22466`_: (*whiteinge*) Updated wording about nested dictionaries in states.file.managed docs
+- **PR** `#22466`_: (*whiteinge*) Updated wording about nested dictionaries in states.file.managed docs *( references: `#22463`_ )*
 
   * 9a3a747 Updated wording about nested dictionaries in states.file.managed docs
 
@@ -307,7 +307,7 @@ c9394fd Merge pull request `#22477`_ from twangboy/fix_win_installer
 aa23eb0 Merge pull request `#22448`_ from rallytime/migrate_old_cloud_config_docs
 
 - **ISSUE** `#19450`_: (*gladiatr72*) documentation: topics/cloud/config
-- **PR** `#22448`_: (*rallytime*) Migrate old cloud config documentation to own page
+- **PR** `#22448`_: (*rallytime*) Migrate old cloud config documentation to own page *( references: `#19450`_ )*
 
   * cecca10 Kill legacy cloud configuration syntax docs per techhat
 
@@ -318,7 +318,7 @@ aa23eb0 Merge pull request `#22448`_ from rallytime/migrate_old_cloud_config_doc
 d7b1f14 Merge pull request `#22445`_ from rallytime/`fix-19044`_
 
 - **ISSUE** `#19044`_: (*whiteinge*) Document the file_map addition to salt-cloud
-- **PR** `#22445`_: (*rallytime*) Add docs explaing file_map upload functionality
+- **PR** `#22445`_: (*rallytime*) Add docs explaing file_map upload functionality *( references: `#16886`_ )*
 - **PR** `#16886`_: (*techhat*) Add file_map to salt.utils.cloud.bootstrap-enabled providers
 
   * 7a9ce92 Add docs explaing file_map upload functionality
@@ -347,7 +347,7 @@ f76c5b4 Merge pull request `#22433`_ from rallytime/`fix-22218`_
 
 - **ISSUE** `#22382`_: (*ghost*) The 'proxmox' cloud provider alias, for the 'proxmox' driver, does not define the function 'disk'". 
 - **PR** `#22434`_: (*rallytime*) Backport `#22414`_ to 2014.7
-- **PR** `#22414`_: (*syphernl*) Cloud: Do not look for disk underneath config in Proxmox driver
+- **PR** `#22414`_: (*syphernl*) Cloud: Do not look for disk underneath config in Proxmox driver *( references: `#22382`_ )*
 
   * 4a141c0 Lint
 
@@ -382,7 +382,7 @@ f76c5b4 Merge pull request `#22433`_ from rallytime/`fix-22218`_
 2ac741b Merge pull request `#22365`_ from s0undt3ch/2014.7
 
 - **ISSUE** `#22359`_: (*kiorky*) unless is not recognized as a state internal keyword
-- **PR** `#22365`_: (*s0undt3ch*) Include `unless` in the state internal keywords.
+- **PR** `#22365`_: (*s0undt3ch*) Include `unless` in the state internal keywords. *( references: `#22359`_ )*
 
   * ff4aa5b Include `unless` in the state internal keywords.
 
@@ -424,7 +424,7 @@ a60579b Merge pull request `#22349`_ from cro/`bp-22005`_
 72f708a Merge pull request `#22345`_ from rallytime/document_list_nodes
 
 - **ISSUE** `#22328`_: (*rallytime*) Document list_nodes functions in salt-cloud feature matrix
-- **PR** `#22345`_: (*rallytime*) Document list_node* functions for salt cloud
+- **PR** `#22345`_: (*rallytime*) Document list_node* functions for salt cloud *( references: `#22328`_ )*
 
   * eac4c63 Add list_node docs to Cloud Function page
 
@@ -446,7 +446,7 @@ f892335 Merge pull request `#22337`_ from rallytime/`bp-22245`_
 
 - **ISSUE** `#14888`_: (*djs52*) grains.get_or_set_hash  broken for multiple entries under the same key
 - **PR** `#22337`_: (*rallytime*) Backport `#22245`_ to 2014.7
-- **PR** `#22245`_: (*achernev*) Fix grains.get_or_set_hash to work with multiple entries under same key
+- **PR** `#22245`_: (*achernev*) Fix grains.get_or_set_hash to work with multiple entries under same key *( references: `#14888`_ )*
 
   * f560056 Fix grains.get_or_set_hash to work with multiple entries under same key
 
@@ -488,7 +488,7 @@ f892335 Merge pull request `#22337`_ from rallytime/`bp-22245`_
 f474860 Merge pull request `#22280`_ from s0undt3ch/issues/19923-rackspace-config-drive
 
 - **ISSUE** `#19923`_: (*diegows*) config_drive should not be a required option
-- **PR** `#22280`_: (*s0undt3ch*) Don't pass `ex_config_drive` to libcloud unless it's explicitly enabled
+- **PR** `#22280`_: (*s0undt3ch*) Don't pass `ex_config_drive` to libcloud unless it's explicitly enabled *( references: `#19923`_ )*
 
   * 65e5bac Pass it to libcloud if the user has set it in the configuration, True, or False.
 
@@ -544,7 +544,7 @@ c8378ff Merge pull request `#22228`_ from garethgreenaway/20107_2014_7_scheduler
 
 - **ISSUE** `#20107`_: (*belvedere-trading*) minion scheduling via pillar does not get applied some times
 - **PR** `#22228`_: (*garethgreenaway*) backporting `#22226`_ to 2014.7
-- **PR** `#22226`_: (*garethgreenaway*) Fixes to scheduler
+- **PR** `#22226`_: (*garethgreenaway*) Fixes to scheduler *( references: `#20107`_ )*
 
   * 2019935 backporting `#22226`_ to 2014.7
 
@@ -572,7 +572,7 @@ d941579 Merge pull request `#22161`_ from rallytime/`bp-21959`_
 
 - **ISSUE** `#21956`_: (*giannello*) Reactor rendering error
 - **PR** `#22161`_: (*rallytime*) Backport `#21959`_ to 2014.7
-- **PR** `#21959`_: (*giannello*) Changed argument name
+- **PR** `#21959`_: (*giannello*) Changed argument name *( references: `#21956`_ )*
 
   * b9d55bc Changed argument name
 
@@ -587,7 +587,7 @@ d941579 Merge pull request `#22161`_ from rallytime/`bp-21959`_
 f44b1d0 Merge pull request `#22156`_ from amendlik/chef-solo-fix
 
 - **ISSUE** `#21997`_: (*scaissie*) chef.solo IndexError: list index out of range
-- **PR** `#22156`_: (*amendlik*) Fix arguments passed to chef-solo command
+- **PR** `#22156`_: (*amendlik*) Fix arguments passed to chef-solo command *( references: `#21997`_ )*
 
   * 11536f6 Fix arguments passed to chef-solo command
 
