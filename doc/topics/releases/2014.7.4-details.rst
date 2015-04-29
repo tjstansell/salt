@@ -1,4 +1,4 @@
-There are 935 cached issues
+There are 932 cached issues
 pulling 18 issues:
 ,,,,+,,,+,+,,,,,+,,,,,
 pulling 4 issues:
@@ -7,8 +7,9 @@ pulling 4 issues:
 Changes for v2014.7.3..v2014.7.4
 --------------------------------
 
-|Total Issues:        | *4* |
-|Total Pull Requests: | *18* |
+Total Issues: *4*
+
+Total Pull Requests: *18*
 
 
 1440ffa Merge pull request `#22145`_ from twangboy/winbuild
