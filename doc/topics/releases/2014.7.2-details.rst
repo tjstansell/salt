@@ -1,6 +1,6 @@
 .. code-block:: bash
 
-    There are 966 cached issues
+    There are 961 cached issues
     pulling 157 issues:
     ,,,+,+,+,,,,,,,,+,,,,,,,,+,+,,,,,,,+,+,+,,,,,+,,,,+,,,+,+,,,,,,,,,,+,,,++,,+,+,+,,+,,,+,,,,,,,,,,,++,,,,,,+,,,,,,,,+,,,++,,,,,,+,,,,,+,,,+,,,,,++,+,,,,,+,+,,,,,,,,,,,,+,,,,+,,+,++,,,,,,+,+,,,,,,+,,+,,,
     pulling 44 issues:
@@ -11,7 +11,9 @@
 Changes for v2014.7.1..v2014.7.2
 --------------------------------
 
-- Total Merges: **0**
+Statistics:
+
+- Total Merges: **126**
 - Total Issue references: **61**
 - Total PR references: **164**
 
