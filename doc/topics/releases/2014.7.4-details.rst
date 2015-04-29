@@ -1,4 +1,3 @@
-=====================
 Changes for 2014.7.4:
 =====================
 
@@ -9,164 +8,65 @@ Changes for 2014.7.4:
   pulling 4 issues:
   ....
 
-Changes related to merged PR `#22145`_:
 
-- **PR** `#22145`_ *CLOSED*: (twangboy) Remove .chm files from windows build 
+**PR** `#22145`_ : (twangboy) Remove .chm files from windows build 
 
-  * 1440ffa Merge pull request `#22145`_ from twangboy/winbuild
 
-    * 110b0ef Remove .chm files from windows build
 
-Changes related to merged PR `#22130`_:
+**PR** `#22130`_ : (terminalmage) Fix typo in docker.get_container_root 
 
-- **PR** `#22130`_ *CLOSED*: (terminalmage) Fix typo in docker.get_container_root 
 
-  * f2ecac1 Merge pull request `#22130`_ from terminalmage/fix-dockerio-typo
 
-    * 0dd8d04 Fix typo in docker.get_container_root
+**PR** `#22113`_ : (borgstrom) Fix a bug with the implicit list handling in pyobjects requisites 
 
-Changes related to merged PR `#22113`_:
 
-- **PR** `#22113`_ *CLOSED*: (borgstrom) Fix a bug with the implicit list handling in pyobjects requisites ``[Medium Change]``, ``[Tests Passed]``
+**PR** `#22109`_ : (twangboy) Pull minion config settings from minion conf 
 
-  * 2a7404b Merge pull request `#22113`_ from borgstrom/pyobjects-req-issue-2014.7
 
-    * 181df2e Fix a bug with the implicit list handling in pyobjects requisites
+**PR** `#22074`_ : (borgstrom) Fix requisites missing from pyobjects that were introduced in 2014.7 
 
-Changes related to merged PR `#22109`_:
+- **ISSUE** `#20652`_ : (tomashavlas) pyobjects renderer doesn't support onchanges/onfail requisites 
 
-- **PR** `#22109`_ *CLOSED*: (twangboy) Pull minion config settings from minion conf ``[Medium Change]``, ``[Tests Passed]``
+**PR** `#22077`_ : (ticosax) states.docker: fix docstring 
 
-  * f0b78e2 Merge pull request `#22109`_ from twangboy/win_install_ini
 
-    * de85a03 Pull minion config settings from minion conf
+**PR** `#22053`_ : (basepi) [2014.7] Don't use function call for default argument in chef.py 
 
-Changes related to merged PR `#22074`_:
 
-- **ISSUE** `#20652`_ *OPEN*: (tomashavlas) pyobjects renderer doesn't support onchanges/onfail requisites ``[Bug]``, ``[Medium Severity]``
+**PR** `#22051`_ : (twangboy) Fixed wmi issue 
 
-- **PR** `#22074`_ *CLOSED*: (borgstrom) Fix requisites missing from pyobjects that were introduced in 2014.7 ``[Minor Change]``
 
-  * 6e5d0b4 Merge pull request `#22074`_ from borgstrom/pyobjects-reqs-2014.7
+**PR** `#22042`_ : (basepi) [2014.7] Add 2014.7.4 release notes 
 
-    * 761eb5f Fix missing requisites that were introduced in 2014.7
 
-Changes related to merged PR `#22077`_:
 
-- **PR** `#22077`_ *CLOSED*: (ticosax) states.docker: fix docstring ``[Minor Change]``, ``[Tests Passed]``
+**PR** `#22035`_ : (0xf10e) Icehouse Keystone may raise AuthorizationFailure instead of Unauthorized 
 
-  * 5a0f056 Merge pull request `#22077`_ from ticosax/fix-doc-string
 
-    * 6b96491 fix docstring
+**PR** `#22020`_ : (UtahDave) fix bug where can't restart salt-minion 
 
-Changes related to merged PR `#22053`_:
+- **ISSUE** `#21961`_ : (polliard) SaltStack win_service.py:restart(name) kills the salt-minion on windows 
 
-- **PR** `#22053`_ *CLOSED*: (basepi) ``[2014.7]`` Don't use function call for default argument in chef.py ``[Minor Change]``
+**PR** `#22007`_ : (twangboy) Checks for existing installation and prompts to remove 
 
-  * 3423ec4 Merge pull request `#22053`_ from basepi/fixchef
 
-    * 63648b4 Fix the lint
+**PR** `#22012`_ : (basepi) [2014.7] Create randomized logfile name in windows for chef.py 
 
-    * 89b9cc6 Don't use function call for default argument
 
-Changes related to merged PR `#22051`_:
+**PR** `#22022`_ : (garethgreenaway) more fixes to mount.py state module 
 
-- **PR** `#22051`_ *CLOSED*: (twangboy) Fixed wmi issue ``[Minor Change]``, ``[Tests Passed]``
+- **ISSUE** `#21992`_ : (tlemarchand) mount.mounted of tmpfs bind error 
 
-  * b636dbb Merge pull request `#22051`_ from twangboy/2014.7
+**PR** `#22016`_ : (basepi) [2014.7] Move install.sh to cachedir for serverdensity_device 
 
-    * c46fced Fixed wmi issue
 
-Changes related to merged PR `#22042`_:
+**PR** `#22015`_ : (rallytime) Backport `#21947`_ to 2014.7 
 
-- **PR** `#22042`_ *CLOSED*: (basepi) ``[2014.7]`` Add 2014.7.4 release notes 
+- **PR** `#21947`_ : (dmyerscough) Ensure nginx config check passes by checking the exit status 
 
-  * ddc7ceb Merge pull request `#22042`_ from basepi/2014.7.4releasenotes
+**PR** `#22014`_ : (garethgreenaway) Fixes to mount.py state module 
 
-    * 74dcd7d Add 2014.7.4 release notes
-
-Changes related to merged PR `#22035`_:
-
-- **PR** `#22035`_ *CLOSED*: (0xf10e) Icehouse Keystone may raise AuthorizationFailure instead of Unauthorized ``[Minor Change]``, ``[Tests Passed]``
-
-  * ba0044d Merge pull request `#22035`_ from 0xf10e/patch-1
-
-    * 4d7fc7b Icehouse Keystone may raise AuthorizationFailure instead of Unauthorized
-
-Changes related to merged PR `#22020`_:
-
-- **ISSUE** `#21961`_ *CLOSED*: (polliard) SaltStack win_service.py:restart(name) kills the salt-minion on windows ``[Info Needed]``, ``[Windows]``, *ZD*
-
-- **PR** `#22020`_ *CLOSED*: (UtahDave) fix bug where can't restart salt-minion ``[Minor Change]``, ``[Tests Passed]``
-
-  * b3b6f94 Merge pull request `#22020`_ from UtahDave/2014.7local
-
-    * 49188a0 fix bug where can't restart salt-minion
-
-Changes related to merged PR `#22007`_:
-
-- **PR** `#22007`_ *CLOSED*: (twangboy) Checks for existing installation and prompts to remove ``[Minor Change]``, ``[Tests Passed]``
-
-  * 516e10f Merge pull request `#22007`_ from twangboy/win_installer
-
-    * 2605223 Update Salt-Minion-Setup.nsi
-
-    * 9579bb2 Update Salt-Minion-Setup.nsi
-
-    * d3cb6dd Accounted for silent install
-
-    * 6bfe6fd Checks for existing installation and prompts to remove
-
-Changes related to merged PR `#22012`_:
-
-- **PR** `#22012`_ *CLOSED*: (basepi) ``[2014.7]`` Create randomized logfile name in windows for chef.py ``[Medium Change]``
-
-  * f8e130f Merge pull request `#22012`_ from basepi/tmpfile-chef
-
-    * 22d2f7a Use cachedir
-
-    * b49d0d4 Create randomized logfile name in windows for chef.py
-
-Changes related to merged PR `#22022`_:
-
-- **ISSUE** `#21992`_ *CLOSED*: (tlemarchand) mount.mounted of tmpfs bind error ``[Bug]``, ``[Fixed Pending Verification]``, ``[Medium Severity]``
-
-- **PR** `#22022`_ *CLOSED*: (garethgreenaway) more fixes to mount.py state module ``[Minor Change]``, ``[Tests Passed]``
-
-  * decd53b Merge pull request `#22022`_ from garethgreenaway/21992_2014_7_tmpfs_bind_mount
-
-    * 0060764 Fixing issues when using tmpfs and bind mounts.
-
-Changes related to merged PR `#22016`_:
-
-- **PR** `#22016`_ *CLOSED*: (basepi) ``[2014.7]`` Move install.sh to cachedir for serverdensity_device ``[Medium Change]``
-
-  * 51c662b Merge pull request `#22016`_ from basepi/tmpfile-serverdensity_device
-
-    * e11298d Move install.sh to cachedir for serverdensity_device
-
-Changes related to merged PR `#22015`_:
-
-- **PR** `#22015`_ *CLOSED*: (rallytime) Backport `#21947`_ to 2014.7 ``[Minor Change]``
-
-- **PR** `#21947`_ *CLOSED*: (dmyerscough) Ensure nginx config check passes by checking the exit status ``[Bugfix - Done back-ported]``, ``[Minor Change]``
-
-  * e9c9f9d Merge pull request `#22015`_ from rallytime/`bp-21947`_
-
-    * ccf457c Ensure nginx config check passes by checking the exit status.... Nginx writes messages to stderr even when there are no errors
-
-Changes related to merged PR `#22014`_:
-
-- **ISSUE** `#21888`_ *CLOSED*: (eliasp) `salt.states.mount` - using LABEL=foo as 'device' leads to constant remounts ``[Bug]``, ``[Medium Severity]``
-
-- **PR** `#22014`_ *CLOSED*: (garethgreenaway) Fixes to mount.py state module ``[Minor Change]``, ``[Tests Passed]``
-
-  * f689782 Merge pull request `#22014`_ from garethgreenaway/21888_2014_7_mount_label_remount_madness
-
-    * 93f0c20 We do not have to lower() the label.
-
-    * 98aaf35 Adding some code to be able to properly handle the situation when disk labels are being used for the device.
-
+- **ISSUE** `#21888`_ : (eliasp) `salt.states.mount` - using LABEL=foo as 'device' leads to constant remounts 
 
 
 .. _`#20652`: https://github.com/saltstack/salt/issues/20652
