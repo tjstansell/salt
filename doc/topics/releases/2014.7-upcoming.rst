@@ -2,8 +2,7 @@
 Changes for v2014.7.5..upstream/2014.7
 --------------------------------------
 
-*Generated at: Tue May  5 14:00:43 PDT 2015*
-
+*Generated at `date`*
 Statistics:
 
 - Total Merges: **76**

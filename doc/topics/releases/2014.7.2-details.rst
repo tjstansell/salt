@@ -2,6 +2,7 @@
 Changes for v2014.7.1..v2014.7.2
 --------------------------------
 
+*Generated at `date`*
 Statistics:
 
 - Total Merges: **126**
