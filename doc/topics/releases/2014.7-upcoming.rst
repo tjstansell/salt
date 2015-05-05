@@ -1,15 +1,211 @@
 
-Changes for v2014.7.5..2014.7
------------------------------
+Changes for v2014.7.5..upstream/2014.7
+--------------------------------------
 
 Statistics:
 
-- Total Merges: **55**
-- Total Issue references: **25**
-- Total PR references: **68**
+- Total Merges: **76**
+- Total Issue references: **40**
+- Total PR references: **100**
 
 Changes:
 
+
+- **PR** `#23347`_: (*basepi*) [2014.7] Salt-SSH Backport FunctionWrapper.__contains__
+  @ *2015-05-05T14:13:21Z*
+
+  - **ISSUE** `#19114`_: (*pykler*) salt-ssh and gpg pillar renderer
+    | refs: `#23188`_ `#23347`_ `#23272`_
+  - **PR** `#23272`_: (*basepi*) [2014.7] Allow salt-ssh minion config overrides via master config and roster
+    | refs: `#23347`_
+  - **PR** `#23188`_: (*basepi*) [2014.7] Work around bug in salt-ssh in config.get for gpg renderer
+    | refs: `#23272`_
+  * 4f760dd Merge pull request `#23347`_ from basepi/salt-ssh.functionwrapper.contains.19114
+  * 30595e3 Backport FunctionWrapper.__contains__
+
+- **PR** `#23344`_: (*cachedout*) Explicitely set file_client on master
+  @ *2015-05-04T23:21:48Z*
+
+  - **ISSUE** `#22742`_: (*hvnsweeting*) salt-master says: "This master address: 'salt' was previously resolvable but now fails to resolve!"
+    | refs: `#23344`_
+  * 02658b1 Merge pull request `#23344`_ from cachedout/issue_22742
+  * 5adc96c Explicitely set file_client on master
+
+- **PR** `#23318`_: (*cellscape*) Honor seed argument in LXC container initializaton
+  @ *2015-05-04T20:58:12Z*
+
+  - **PR** `#23311`_: (*cellscape*) Fix new container initialization in LXC runner
+    | refs: `#23318`_
+  * ba7605d Merge pull request `#23318`_ from cellscape/honor-seed-argument
+  * 228b1be Honor seed argument in LXC container initializaton
+
+- **PR** `#23307`_: (*jfindlay*) check for /etc/locale.gen
+  @ *2015-05-04T20:56:32Z*
+
+  - **ISSUE** `#17245`_: (*tomashavlas*) localemod does not generate locale for Arch
+    | refs: `#23307`_
+  * 4ac4509 Merge pull request `#23307`_ from jfindlay/fix_locale_gen
+  * 101199a check for /etc/locale.gen
+
+- **PR** `#23324`_: (*s0undt3ch*) [2014.7] Update to the latest stable release of the bootstrap script v2015.05.04
+  @ *2015-05-04T16:28:30Z*
+
+  - **ISSUE** `#580`_: (*thatch45*) recursive watch not being caught
+    | refs: `#23324`_
+  - **ISSUE** `#552`_: (*jhutchins*) Support require and watch under the same state dec
+    | refs: `#23324`_
+  - **PR** `#589`_: (*epoelke*) add --quiet and --outfile options to saltkey
+    | refs: `#23324`_
+  - **PR** `#567`_: (*bastichelaar*) Added upstart module
+    | refs: `#23324`_
+  - **PR** `#560`_: (*UtahDave*) The runas feature that was added in 93423aa2e5e4b7de6452090b0039560d2b13...
+    | refs: `#23324`_
+  - **PR** `#504`_: (*SEJeff*) File state goodies
+    | refs: `#23324`_
+  * f790f42 Merge pull request `#23324`_ from s0undt3ch/hotfix/bootstrap-script-2014.7
+  * 6643e47 Update to the latest stable release of the bootstrap script v2015.05.04
+
+- **PR** `#23329`_: (*cro*) Require requests to verify cert when talking to aliyun and proxmox cloud providers
+  @ *2015-05-04T16:18:17Z*
+
+  * 5487367 Merge pull request `#23329`_ from cro/cloud_verify_cert
+  * 860d4b7 Turn on ssl verify for requests.
+
+- **PR** `#23311`_: (*cellscape*) Fix new container initialization in LXC runner
+  | refs: `#23318`_
+  @ *2015-05-04T09:55:29Z*
+
+  * ea20176 Merge pull request `#23311`_ from cellscape/fix-salt-cloud-lxc-init
+  * 76fbb34 Fix new container initialization in LXC runner
+
+- **PR** `#23298`_: (*chris-prince*) Fixed issue `#18880`_ in 2014.7 branch
+  @ *2015-05-03T15:49:41Z*
+
+  - **ISSUE** `#18880`_: (*johtso*) npm installed breaks when a module is missing
+  * c399b8f Merge pull request `#23298`_ from chris-prince/2014.7
+  * 0fa25db Fixed issue `#18880`_ in 2014.7 branch
+
+- **PR** `#23292`_: (*rallytime*) Merge `#23151`_ with pylint fixes
+  @ *2015-05-02T03:54:12Z*
+
+  - **ISSUE** `#23148`_: (*cr1st1p*) virt - error handling bogus if machine image location is wrong
+  - **PR** `#23151`_: (*cr1st1p*) Fixes `#23148`_
+    | refs: `#23292`_
+  * 16ecefd Merge pull request `#23292`_ from rallytime/merge-23151
+  * 8ff852a Merge `#23151`_ with pylint fixes
+
+  * 8ffa12e Fixes `#23148`_
+
+- **PR** `#23274`_: (*basepi*) [2014.7] Reduce salt-ssh debug log verbosity
+  @ *2015-05-01T20:19:23Z*
+
+  * ce24315 Merge pull request `#23274`_ from basepi/salt-ssh.debug.verbosity
+  * ecee6c6 Log stdout and stderr to trace
+
+  * 08f54d7 Log stdout and stderr to trace as well
+
+  * 9b9c30f Reduce salt-ssh debug log verbosity
+
+- **PR** `#23261`_: (*rallytime*) Fix tornado websocket event handler registration
+  @ *2015-05-01T18:20:31Z*
+
+  - **ISSUE** `#22605`_: (*mavenAtHouzz*) Tornado websockets event Handlers registration are incorrect
+    | refs: `#23261`_
+  * 7b55e43 Merge pull request `#23261`_ from rallytime/`fix-22605`_
+  * 4950fbf Fix tornado websocket event handler registration
+
+- **PR** `#23258`_: (*teizz*) TCP keepalives on the ret side, Revisited.
+  @ *2015-05-01T16:13:49Z*
+
+  * 83ef7cb Merge pull request `#23258`_ from teizz/ï»¿ret_keepalive_2014_7_5
+  * 0b9fb6f The fixes by ï»¿cachedout which were backported into 2015_2 were missing a single parameter thus not setting up the TCP keepalive for the ZeroMQ Channel by default.
+
+- **PR** `#23241`_: (*techhat*) Move iptables log options after the jump
+  @ *2015-05-01T01:31:59Z*
+
+  - **ISSUE** `#23224`_: (*twellspring*) iptables.append --log parameters must be after --jump LOG
+    | refs: `#23241`_
+  * 8de3c83 Merge pull request `#23241`_ from techhat/issue23224
+  * 87f7948 Move iptables log options after the jump
+
+- **PR** `#23228`_: (*rallytime*) Backport `#23171`_ to 2014.7
+  @ *2015-04-30T21:09:45Z*
+
+  - **PR** `#23171`_: (*skizunov*) Bugfix: 'clean_proc_dir' is broken
+    | refs: `#23228`_
+  * f20210e Merge pull request `#23228`_ from rallytime/`bp-23171`_
+  * e670e99 Bugfix: 'clean_proc_dir' is broken
+
+- **PR** `#23227`_: (*rallytime*) Backport `#22808`_ to 2014.7
+  @ *2015-04-30T21:09:14Z*
+
+  - **ISSUE** `#22703`_: (*Xiol*) salt-ssh does not work with list matcher
+    | refs: `#22808`_
+  - **PR** `#22808`_: (*basepi*) [2015.2] Add list targeting to salt-ssh flat roster
+    | refs: `#23227`_
+  * 721cc28 Merge pull request `#23227`_ from rallytime/`bp-22808`_
+  * d208a00 Dict, not list
+
+  * a3f529e It's already been converted to a list
+
+  * dd57f2d Add list targeting to salt-ssh flat roster
+
+- **PR** `#22823`_: (*hvnsweeting*) 22822 file directory clean
+  @ *2015-04-30T15:25:51Z*
+
+  * 82c22af Merge pull request `#22823`_ from hvnsweeting/22822-file-directory-clean
+  * c749c27 fix lint - remove unnecessary parenthesis
+
+  * cb3dfee refactor
+
+  * 8924b5a refactor: use relpath instead of do it manually
+
+  * d3060a5 refactor
+
+  * 5759a0e bugfix: fix file.directory clean=True when it require parent dir
+
+- **PR** `#22977`_: (*bersace*) Fix fileserver backends __opts__ overwritten by _pillar
+  @ *2015-04-30T15:24:56Z*
+
+  - **ISSUE** `#22941`_: (*bersace*) `_pillar` func breaks fileserver globals
+    | refs: `#22977`_ `#22942`_
+  - **PR** `#22942`_: (*bersace*) Fix fileserver backends global overwritten by _pillar
+    | refs: `#22977`_
+  * f6c0728 Merge pull request `#22977`_ from bersace/fix-fileserver-backends-pillar-side-effect
+  * 5f451f6 Fix fileserver backends __opts__ overwritten by _pillar
+
+- **PR** `#23180`_: (*jfindlay*) fix typos from 36841bdd in masterapi.py
+  @ *2015-04-30T15:22:41Z*
+
+  - **ISSUE** `#23166`_: (*claudiupopescu*) "Error in function _minion_event" resulting in modules not loaded
+    | refs: `#23180`_
+  * 34206f7 Merge pull request `#23180`_ from jfindlay/remote_event
+  * 72066e1 fix typos from 36841bdd in masterapi.py
+
+- **PR** `#23176`_: (*jfindlay*) copy standard cmd.run* kwargs into cmd.run_chroot
+  @ *2015-04-30T15:22:12Z*
+
+  - **ISSUE** `#23153`_: (*cr1st1p*) cmdmod : run_chroot - broken in 2014.7.5 - missing kwargs
+    | refs: `#23176`_
+  * b6b8216 Merge pull request `#23176`_ from jfindlay/run_chroot
+  * 7dc3417 copy standard cmd.run* kwargs into cmd.run_chroot
+
+- **PR** `#23193`_: (*joejulian*) supervisord.mod_watch should accept sfun
+  @ *2015-04-30T04:34:21Z*
+
+  - **ISSUE** `#23192`_: (*joejulian*) supervisord mod_watch does not accept sfun
+    | refs: `#23193`_
+  * effacbe Merge pull request `#23193`_ from joejulian/2014.7_supervisord_accept_sfun
+  * efb59f9 supervisord.mod_watch should accept sfun
+
+- **PR** `#23188`_: (*basepi*) [2014.7] Work around bug in salt-ssh in config.get for gpg renderer
+  | refs: `#23272`_
+  @ *2015-04-30T04:34:10Z*
+
+  - **ISSUE** `#19114`_: (*pykler*) salt-ssh and gpg pillar renderer
+    | refs: `#23188`_ `#23347`_ `#23272`_
+  * 72fe88e Merge pull request `#23188`_ from basepi/salt-ssh.function.wrapper.gpg.19114
+  * d73979e Work around bug in salt-ssh in config.get for gpg renderer
 
 - **PR** `#23154`_: (*cachedout*) Re-establish channel on interruption in fileclient
   @ *2015-04-29T16:18:59Z*
@@ -468,11 +664,14 @@ Changes:
 .. _`#12003`: https://github.com/saltstack/salt/issues/12003
 .. _`#16188`: https://github.com/saltstack/salt/issues/16188
 .. _`#17144`: https://github.com/saltstack/salt/issues/17144
+.. _`#17245`: https://github.com/saltstack/salt/issues/17245
 .. _`#18476`: https://github.com/saltstack/salt/issues/18476
 .. _`#18504`: https://github.com/saltstack/salt/issues/18504
 .. _`#18610`: https://github.com/saltstack/salt/pull/18610
 .. _`#18720`: https://github.com/saltstack/salt/issues/18720
 .. _`#18843`: https://github.com/saltstack/salt/issues/18843
+.. _`#18880`: https://github.com/saltstack/salt/issues/18880
+.. _`#19114`: https://github.com/saltstack/salt/issues/19114
 .. _`#20647`: https://github.com/saltstack/salt/issues/20647
 .. _`#20779`: https://github.com/saltstack/salt/pull/20779
 .. _`#20974`: https://github.com/saltstack/salt/pull/20974
@@ -483,9 +682,12 @@ Changes:
 .. _`#22199`: https://github.com/saltstack/salt/pull/22199
 .. _`#22571`: https://github.com/saltstack/salt/issues/22571
 .. _`#22578`: https://github.com/saltstack/salt/pull/22578
+.. _`#22605`: https://github.com/saltstack/salt/issues/22605
+.. _`#22703`: https://github.com/saltstack/salt/issues/22703
 .. _`#22707`: https://github.com/saltstack/salt/issues/22707
 .. _`#22708`: https://github.com/saltstack/salt/issues/22708
 .. _`#22740`: https://github.com/saltstack/salt/issues/22740
+.. _`#22742`: https://github.com/saltstack/salt/issues/22742
 .. _`#22754`: https://github.com/saltstack/salt/pull/22754
 .. _`#22759`: https://github.com/saltstack/salt/pull/22759
 .. _`#22760`: https://github.com/saltstack/salt/pull/22760
@@ -496,9 +698,11 @@ Changes:
 .. _`#22800`: https://github.com/saltstack/salt/pull/22800
 .. _`#22803`: https://github.com/saltstack/salt/pull/22803
 .. _`#22807`: https://github.com/saltstack/salt/pull/22807
+.. _`#22808`: https://github.com/saltstack/salt/pull/22808
 .. _`#22810`: https://github.com/saltstack/salt/pull/22810
 .. _`#22813`: https://github.com/saltstack/salt/pull/22813
 .. _`#22818`: https://github.com/saltstack/salt/pull/22818
+.. _`#22823`: https://github.com/saltstack/salt/pull/22823
 .. _`#22825`: https://github.com/saltstack/salt/issues/22825
 .. _`#22829`: https://github.com/saltstack/salt/pull/22829
 .. _`#22844`: https://github.com/saltstack/salt/issues/22844
@@ -524,11 +728,14 @@ Changes:
 .. _`#22930`: https://github.com/saltstack/salt/pull/22930
 .. _`#22932`: https://github.com/saltstack/salt/pull/22932
 .. _`#22933`: https://github.com/saltstack/salt/pull/22933
+.. _`#22941`: https://github.com/saltstack/salt/issues/22941
+.. _`#22942`: https://github.com/saltstack/salt/pull/22942
 .. _`#22945`: https://github.com/saltstack/salt/pull/22945
 .. _`#22946`: https://github.com/saltstack/salt/pull/22946
 .. _`#22954`: https://github.com/saltstack/salt/pull/22954
 .. _`#22955`: https://github.com/saltstack/salt/pull/22955
 .. _`#22976`: https://github.com/saltstack/salt/pull/22976
+.. _`#22977`: https://github.com/saltstack/salt/pull/22977
 .. _`#22981`: https://github.com/saltstack/salt/issues/22981
 .. _`#22990`: https://github.com/saltstack/salt/pull/22990
 .. _`#22993`: https://github.com/saltstack/salt/issues/22993
@@ -555,14 +762,50 @@ Changes:
 .. _`#23144`: https://github.com/saltstack/salt/pull/23144
 .. _`#23145`: https://github.com/saltstack/salt/pull/23145
 .. _`#23146`: https://github.com/saltstack/salt/pull/23146
+.. _`#23148`: https://github.com/saltstack/salt/issues/23148
+.. _`#23151`: https://github.com/saltstack/salt/pull/23151
+.. _`#23153`: https://github.com/saltstack/salt/issues/23153
 .. _`#23154`: https://github.com/saltstack/salt/pull/23154
+.. _`#23166`: https://github.com/saltstack/salt/issues/23166
+.. _`#23171`: https://github.com/saltstack/salt/pull/23171
+.. _`#23176`: https://github.com/saltstack/salt/pull/23176
+.. _`#23180`: https://github.com/saltstack/salt/pull/23180
+.. _`#23188`: https://github.com/saltstack/salt/pull/23188
+.. _`#23192`: https://github.com/saltstack/salt/issues/23192
+.. _`#23193`: https://github.com/saltstack/salt/pull/23193
+.. _`#23224`: https://github.com/saltstack/salt/issues/23224
+.. _`#23227`: https://github.com/saltstack/salt/pull/23227
+.. _`#23228`: https://github.com/saltstack/salt/pull/23228
+.. _`#23241`: https://github.com/saltstack/salt/pull/23241
+.. _`#23258`: https://github.com/saltstack/salt/pull/23258
+.. _`#23261`: https://github.com/saltstack/salt/pull/23261
+.. _`#23272`: https://github.com/saltstack/salt/pull/23272
+.. _`#23274`: https://github.com/saltstack/salt/pull/23274
+.. _`#23292`: https://github.com/saltstack/salt/pull/23292
+.. _`#23298`: https://github.com/saltstack/salt/pull/23298
+.. _`#23307`: https://github.com/saltstack/salt/pull/23307
+.. _`#23311`: https://github.com/saltstack/salt/pull/23311
+.. _`#23318`: https://github.com/saltstack/salt/pull/23318
+.. _`#23324`: https://github.com/saltstack/salt/pull/23324
+.. _`#23329`: https://github.com/saltstack/salt/pull/23329
+.. _`#23344`: https://github.com/saltstack/salt/pull/23344
+.. _`#23347`: https://github.com/saltstack/salt/pull/23347
 .. _`#2417`: https://github.com/saltstack/salt/issues/2417
+.. _`#504`: https://github.com/saltstack/salt/pull/504
+.. _`#552`: https://github.com/saltstack/salt/issues/552
+.. _`#560`: https://github.com/saltstack/salt/pull/560
+.. _`#567`: https://github.com/saltstack/salt/pull/567
+.. _`#580`: https://github.com/saltstack/salt/issues/580
+.. _`#589`: https://github.com/saltstack/salt/pull/589
 .. _`bp-20779`: https://github.com/saltstack/salt/pull/20779
 .. _`bp-20974`: https://github.com/saltstack/salt/pull/20974
+.. _`bp-22808`: https://github.com/saltstack/salt/pull/22808
 .. _`bp-22895`: https://github.com/saltstack/salt/pull/22895
 .. _`bp-22909`: https://github.com/saltstack/salt/pull/22909
 .. _`bp-23089`: https://github.com/saltstack/salt/pull/23089
 .. _`bp-23097`: https://github.com/saltstack/salt/pull/23097
 .. _`bp-23124`: https://github.com/saltstack/salt/pull/23124
+.. _`bp-23171`: https://github.com/saltstack/salt/pull/23171
 .. _`fix-17144`: https://github.com/saltstack/salt/issues/17144
+.. _`fix-22605`: https://github.com/saltstack/salt/issues/22605
 .. _`fix-22825`: https://github.com/saltstack/salt/issues/22825
