@@ -2,7 +2,8 @@
 Changes for v2014.7.3..v2014.7.4
 --------------------------------
 
-*Generated at `date`*
+*Generated at: Tue May  5 21:13:32 2015*
+
 Statistics:
 
 - Total Merges: **17**
